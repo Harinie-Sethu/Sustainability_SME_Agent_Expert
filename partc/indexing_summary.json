@@ -1,0 +1,472 @@
+{
+  "indexing_summary": {
+    "total_files": 45,
+    "successful_indexing": 45,
+    "failed_indexing": 0,
+    "total_chunks_indexed": 6896,
+    "database_type": "Milvus",
+    "database_path": "/media/data/codes/reshma/lma_maj_pro/partc/milvus_lite.db",
+    "parent_collection": "environment_documents",
+    "chunk_collections": [
+      "baseline",
+      "scientific"
+    ],
+    "embedding_models": [
+      "baseline",
+      "scientific"
+    ],
+    "indexing_timestamp": "2025-11-19T15:12:06.414665"
+  },
+  "file_results": [
+    {
+      "file": "ENVIRONMENTAL EDUCATION_medium_content_aware_embeddings.json",
+      "success": true,
+      "parent_document_id": "ENVIRONMENTAL EDUCATION",
+      "chunks_indexed_per_model": {
+        "baseline": 205,
+        "scientific": 205
+      },
+      "total_chunks": 205
+    },
+    {
+      "file": "shsconf_brd2023_01009_medium_content_aware_embeddings.json",
+      "success": true,
+      "parent_document_id": "shsconf_brd2023_01009",
+      "chunks_indexed_per_model": {
+        "baseline": 20,
+        "scientific": 20
+      },
+      "total_chunks": 20
+    },
+    {
+      "file": "1_Dr.+Denis+Vaz_medium_content_aware_embeddings.json",
+      "success": true,
+      "parent_document_id": "1_Dr.+Denis+Vaz",
+      "chunks_indexed_per_model": {
+        "baseline": 23,
+        "scientific": 23
+      },
+      "total_chunks": 23
+    },
+    {
+      "file": "sus_medium_content_aware_embeddings.json",
+      "success": true,
+      "parent_document_id": "sus",
+      "chunks_indexed_per_model": {
+        "baseline": 2,
+        "scientific": 2
+      },
+      "total_chunks": 2
+    },
+    {
+      "file": "unicef31_medium_content_aware_embeddings.json",
+      "success": true,
+      "parent_document_id": "unicef31",
+      "chunks_indexed_per_model": {
+        "baseline": 57,
+        "scientific": 57
+      },
+      "total_chunks": 57
+    },
+    {
+      "file": "Environmental Awareness in Ancient India-185_medium_content_aware_embeddings.json",
+      "success": true,
+      "parent_document_id": "Environmental Awareness in Ancient India-185",
+      "chunks_indexed_per_model": {
+        "baseline": 15,
+        "scientific": 15
+      },
+      "total_chunks": 15
+    },
+    {
+      "file": "1097a78c-en_medium_content_aware_embeddings.json",
+      "success": true,
+      "parent_document_id": "1097a78c-en",
+      "chunks_indexed_per_model": {
+        "baseline": 144,
+        "scientific": 144
+      },
+      "total_chunks": 144
+    },
+    {
+      "file": "environmental_medium_content_aware_embeddings.json",
+      "success": true,
+      "parent_document_id": "environmental",
+      "chunks_indexed_per_model": {
+        "baseline": 104,
+        "scientific": 104
+      },
+      "total_chunks": 104
+    },
+    {
+      "file": "1375_handbook_ environmental_ education_medium_content_aware_embeddings.json",
+      "success": true,
+      "parent_document_id": "1375_handbook_ environmental_ education",
+      "chunks_indexed_per_model": {
+        "baseline": 309,
+        "scientific": 309
+      },
+      "total_chunks": 309
+    },
+    {
+      "file": "EJ540073_medium_content_aware_embeddings.json",
+      "success": true,
+      "parent_document_id": "EJ540073",
+      "chunks_indexed_per_model": {
+        "baseline": 38,
+        "scientific": 38
+      },
+      "total_chunks": 38
+    },
+    {
+      "file": "test_environmental_doc_medium_content_aware_embeddings.json",
+      "success": true,
+      "parent_document_id": "test_environmental_doc",
+      "chunks_indexed_per_model": {
+        "baseline": 1,
+        "scientific": 1
+      },
+      "total_chunks": 1
+    },
+    {
+      "file": "test2_medium_content_aware_embeddings.json",
+      "success": true,
+      "parent_document_id": "test2",
+      "chunks_indexed_per_model": {
+        "baseline": 8,
+        "scientific": 8
+      },
+      "total_chunks": 8
+    },
+    {
+      "file": "hlth-022_medium_content_aware_embeddings.json",
+      "success": true,
+      "parent_document_id": "hlth-022",
+      "chunks_indexed_per_model": {
+        "baseline": 49,
+        "scientific": 49
+      },
+      "total_chunks": 49
+    },
+    {
+      "file": "marine_medium_content_aware_embeddings.json",
+      "success": true,
+      "parent_document_id": "marine",
+      "chunks_indexed_per_model": {
+        "baseline": 7,
+        "scientific": 7
+      },
+      "total_chunks": 7
+    },
+    {
+      "file": "Environmental-Education-Communication-for-a-sustainable-world_medium_content_aware_embeddings.json",
+      "success": true,
+      "parent_document_id": "Environmental-Education-Communication-for-a-sustainable-world",
+      "chunks_indexed_per_model": {
+        "baseline": 252,
+        "scientific": 252
+      },
+      "total_chunks": 252
+    },
+    {
+      "file": "green-development-environment-and-sustainability-in-developing-world_medium_content_aware_embeddings.json",
+      "success": true,
+      "parent_document_id": "green-development-environment-and-sustainability-in-developing-world",
+      "chunks_indexed_per_model": {
+        "baseline": 816,
+        "scientific": 816
+      },
+      "total_chunks": 816
+    },
+    {
+      "file": "GE3451-LN_medium_content_aware_embeddings.json",
+      "success": true,
+      "parent_document_id": "GE3451-LN",
+      "chunks_indexed_per_model": {
+        "baseline": 141,
+        "scientific": 141
+      },
+      "total_chunks": 141
+    },
+    {
+      "file": "librarians-going-green_medium_content_aware_embeddings.json",
+      "success": true,
+      "parent_document_id": "librarians-going-green",
+      "chunks_indexed_per_model": {
+        "baseline": 59,
+        "scientific": 59
+      },
+      "total_chunks": 59
+    },
+    {
+      "file": "complete-guidebook_textbooks-for-sustainable-development_2_medium_content_aware_embeddings.json",
+      "success": true,
+      "parent_document_id": "complete-guidebook_textbooks-for-sustainable-development_2",
+      "chunks_indexed_per_model": {
+        "baseline": 403,
+        "scientific": 403
+      },
+      "total_chunks": 403
+    },
+    {
+      "file": "sample-chapter_medium_content_aware_embeddings.json",
+      "success": true,
+      "parent_document_id": "sample-chapter",
+      "chunks_indexed_per_model": {
+        "baseline": 133,
+        "scientific": 133
+      },
+      "total_chunks": 133
+    },
+    {
+      "file": "Environmental-Issues_medium_content_aware_embeddings.json",
+      "success": true,
+      "parent_document_id": "Environmental-Issues",
+      "chunks_indexed_per_model": {
+        "baseline": 162,
+        "scientific": 162
+      },
+      "total_chunks": 162
+    },
+    {
+      "file": "Council_Env_2019FF_medium_content_aware_embeddings.json",
+      "success": true,
+      "parent_document_id": "Council_Env_2019FF",
+      "chunks_indexed_per_model": {
+        "baseline": 89,
+        "scientific": 89
+      },
+      "total_chunks": 89
+    },
+    {
+      "file": "Environment-and-Sustainability-Volume-IV_medium_content_aware_embeddings.json",
+      "success": true,
+      "parent_document_id": "Environment-and-Sustainability-Volume-IV",
+      "chunks_indexed_per_model": {
+        "baseline": 273,
+        "scientific": 273
+      },
+      "total_chunks": 273
+    },
+    {
+      "file": "EVS-501_medium_content_aware_embeddings.json",
+      "success": true,
+      "parent_document_id": "EVS-501",
+      "chunks_indexed_per_model": {
+        "baseline": 391,
+        "scientific": 391
+      },
+      "total_chunks": 391
+    },
+    {
+      "file": "317EL23_medium_content_aware_embeddings.json",
+      "success": true,
+      "parent_document_id": "317EL23",
+      "chunks_indexed_per_model": {
+        "baseline": 12,
+        "scientific": 12
+      },
+      "total_chunks": 12
+    },
+    {
+      "file": "maldybaeva2022_medium_content_aware_embeddings.json",
+      "success": true,
+      "parent_document_id": "maldybaeva2022",
+      "chunks_indexed_per_model": {
+        "baseline": 52,
+        "scientific": 52
+      },
+      "total_chunks": 52
+    },
+    {
+      "file": "sourcebook_on_sd_medium_content_aware_embeddings.json",
+      "success": true,
+      "parent_document_id": "sourcebook_on_sd",
+      "chunks_indexed_per_model": {
+        "baseline": 243,
+        "scientific": 243
+      },
+      "total_chunks": 243
+    },
+    {
+      "file": "test_medium_content_aware_embeddings.json",
+      "success": true,
+      "parent_document_id": "test",
+      "chunks_indexed_per_model": {
+        "baseline": 2,
+        "scientific": 2
+      },
+      "total_chunks": 2
+    },
+    {
+      "file": "Paper_6_Banti_Dutta_medium_content_aware_embeddings.json",
+      "success": true,
+      "parent_document_id": "Paper_6_Banti_Dutta",
+      "chunks_indexed_per_model": {
+        "baseline": 10,
+        "scientific": 10
+      },
+      "total_chunks": 10
+    },
+    {
+      "file": "RAlexandar_medium_content_aware_embeddings.json",
+      "success": true,
+      "parent_document_id": "RAlexandar",
+      "chunks_indexed_per_model": {
+        "baseline": 177,
+        "scientific": 177
+      },
+      "total_chunks": 177
+    },
+    {
+      "file": "17140328931_medium_content_aware_embeddings.json",
+      "success": true,
+      "parent_document_id": "17140328931",
+      "chunks_indexed_per_model": {
+        "baseline": 14,
+        "scientific": 14
+      },
+      "total_chunks": 14
+    },
+    {
+      "file": "new1_medium_content_aware_embeddings.json",
+      "success": true,
+      "parent_document_id": "new1",
+      "chunks_indexed_per_model": {
+        "baseline": 12,
+        "scientific": 12
+      },
+      "total_chunks": 12
+    },
+    {
+      "file": "978-83-7986-488-1_medium_content_aware_embeddings.json",
+      "success": true,
+      "parent_document_id": "978-83-7986-488-1",
+      "chunks_indexed_per_model": {
+        "baseline": 604,
+        "scientific": 604
+      },
+      "total_chunks": 604
+    },
+    {
+      "file": "ENVIRONMENTAL-SCIENCE-1_medium_content_aware_embeddings.json",
+      "success": true,
+      "parent_document_id": "ENVIRONMENTAL-SCIENCE-1",
+      "chunks_indexed_per_model": {
+        "baseline": 218,
+        "scientific": 218
+      },
+      "total_chunks": 218
+    },
+    {
+      "file": "Environment & Ecology (Quick Book) -For web_medium_content_aware_embeddings.json",
+      "success": true,
+      "parent_document_id": "Environment & Ecology (Quick Book) -For web",
+      "chunks_indexed_per_model": {
+        "baseline": 18,
+        "scientific": 18
+      },
+      "total_chunks": 18
+    },
+    {
+      "file": "environmental-sustainability-practices-a-systematic-literature-review-14604_medium_content_aware_embeddings.json",
+      "success": true,
+      "parent_document_id": "environmental-sustainability-practices-a-systematic-literature-review-14604",
+      "chunks_indexed_per_model": {
+        "baseline": 66,
+        "scientific": 66
+      },
+      "total_chunks": 66
+    },
+    {
+      "file": "60e84f78c293e43c0915a6b8bfdb6d7a_medium_content_aware_embeddings.json",
+      "success": true,
+      "parent_document_id": "60e84f78c293e43c0915a6b8bfdb6d7a",
+      "chunks_indexed_per_model": {
+        "baseline": 9,
+        "scientific": 9
+      },
+      "total_chunks": 9
+    },
+    {
+      "file": "Devine_Appleton_Environmental_Education_in_Public_Libraries_Final_medium_content_aware_embeddings.json",
+      "success": true,
+      "parent_document_id": "Devine_Appleton_Environmental_Education_in_Public_Libraries_Final",
+      "chunks_indexed_per_model": {
+        "baseline": 30,
+        "scientific": 30
+      },
+      "total_chunks": 30
+    },
+    {
+      "file": "18-034_39d7d71d-9e84-4e8b-97c0-0e626f75293c_medium_content_aware_embeddings.json",
+      "success": true,
+      "parent_document_id": "18-034_39d7d71d-9e84-4e8b-97c0-0e626f75293c",
+      "chunks_indexed_per_model": {
+        "baseline": 45,
+        "scientific": 45
+      },
+      "total_chunks": 45
+    },
+    {
+      "file": "green-book_medium_content_aware_embeddings.json",
+      "success": true,
+      "parent_document_id": "green-book",
+      "chunks_indexed_per_model": {
+        "baseline": 258,
+        "scientific": 258
+      },
+      "total_chunks": 258
+    },
+    {
+      "file": "17131780141_medium_content_aware_embeddings.json",
+      "success": true,
+      "parent_document_id": "17131780141",
+      "chunks_indexed_per_model": {
+        "baseline": 12,
+        "scientific": 12
+      },
+      "total_chunks": 12
+    },
+    {
+      "file": "lowresenvironmental-awareness-for-sustainable-development-a-resource-book-for-namibia_medium_content_aware_embeddings.json",
+      "success": true,
+      "parent_document_id": "lowresenvironmental-awareness-for-sustainable-development-a-resource-book-for-namibia",
+      "chunks_indexed_per_model": {
+        "baseline": 322,
+        "scientific": 322
+      },
+      "total_chunks": 322
+    },
+    {
+      "file": "Environmental_Studies_medium_content_aware_embeddings.json",
+      "success": true,
+      "parent_document_id": "Environmental_Studies",
+      "chunks_indexed_per_model": {
+        "baseline": 149,
+        "scientific": 149
+      },
+      "total_chunks": 149
+    },
+    {
+      "file": "ENV 2_medium_content_aware_embeddings.json",
+      "success": true,
+      "parent_document_id": "ENV 2",
+      "chunks_indexed_per_model": {
+        "baseline": 16,
+        "scientific": 16
+      },
+      "total_chunks": 16
+    },
+    {
+      "file": "11_medium_content_aware_embeddings.json",
+      "success": true,
+      "parent_document_id": "11",
+      "chunks_indexed_per_model": {
+        "baseline": 926,
+        "scientific": 926
+      },
+      "total_chunks": 926
+    }
+  ]
+}

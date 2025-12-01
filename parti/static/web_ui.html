@@ -1,0 +1,1593 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Environmental Sustainability SME</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #2c5f2d 0%, #1e4620 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            opacity: 0.9;
+            font-size: 1.1rem;
+        }
+
+        .tabs {
+            display: flex;
+            background: #f5f5f5;
+            border-bottom: 2px solid #ddd;
+        }
+
+        .tab {
+            flex: 1;
+            padding: 15px 20px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-weight: 600;
+            color: #666;
+        }
+
+        .tab:hover {
+            background: #e8e8e8;
+        }
+
+        .tab.active {
+            background: white;
+            color: #2c5f2d;
+            border-bottom: 3px solid #2c5f2d;
+        }
+
+        .content {
+            padding: 30px;
+        }
+
+        .tab-content {
+            display: none;
+        }
+
+        .tab-content.active {
+            display: block;
+            animation: fadeIn 0.3s;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .chat-container {
+            display: flex;
+            flex-direction: column;
+            height: 600px;
+        }
+
+        .chat-messages {
+            flex: 1;
+            overflow-y: auto;
+            padding: 20px;
+            background: #f9f9f9;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        .message {
+            margin-bottom: 15px;
+            padding: 12px 18px;
+            border-radius: 12px;
+            max-width: 80%;
+            animation: slideIn 0.3s;
+        }
+
+        @keyframes slideIn {
+            from { opacity: 0; transform: translateX(-20px); }
+            to { opacity: 1; transform: translateX(0); }
+        }
+
+        .message.user {
+            background: #2c5f2d;
+            color: white;
+            margin-left: auto;
+            text-align: right;
+        }
+
+        .message.agent {
+            background: white;
+            border: 1px solid #e0e0e0;
+        }
+
+        .input-group {
+            display: flex;
+            gap: 10px;
+        }
+
+        input, textarea, select {
+            flex: 1;
+            padding: 12px 15px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            font-size: 1rem;
+            transition: border-color 0.3s;
+        }
+
+        input:focus, textarea:focus, select:focus {
+            outline: none;
+            border-color: #2c5f2d;
+        }
+
+        button {
+            padding: 12px 30px;
+            background: #2c5f2d;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 1rem;
+            font-weight: 600;
+            transition: all 0.3s;
+        }
+
+        button:hover {
+            background: #1e4620;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(44, 95, 45, 0.3);
+        }
+
+        button:active {
+            transform: translateY(0);
+        }
+
+        button:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: #333;
+        }
+
+        .result-box {
+            background: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            margin-top: 20px;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 20px;
+            color: #666;
+        }
+
+        .spinner {
+            border: 3px solid #f3f3f3;
+            border-top: 3px solid #2c5f2d;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .status {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 10px;
+            background: #e8f5e9;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .status.error {
+            background: #ffebee;
+        }
+
+        .status-dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: #4caf50;
+        }
+
+        .status.error .status-dot {
+            background: #f44336;
+        }
+
+        .quick-actions {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        .quick-action {
+            padding: 15px;
+            background: #f5f5f5;
+            border-radius: 8px;
+            cursor: pointer;
+            text-align: center;
+            transition: all 0.3s;
+        }
+
+        .quick-action:hover {
+            background: #2c5f2d;
+            color: white;
+            transform: scale(1.05);
+        }
+
+        pre {
+            background: #f5f5f5;
+            padding: 15px;
+            border-radius: 8px;
+            overflow-x: auto;
+            white-space: pre-wrap;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🌱 Environmental Sustainability SME</h1>
+            <p>AI-Powered Environmental Education & Awareness System</p>
+        </div>
+
+        <div class="tabs">
+            <div class="tab active" onclick="switchTab(event, 'chat')">💬 Chat</div>
+            <div class="tab" onclick="switchTab(event, 'query')">🔍 Query</div>
+            <div class="tab" onclick="switchTab(event, 'generate')">✏️ Generate</div>
+            <div class="tab" onclick="switchTab(event, 'library')">📚 Library</div>
+            <div class="tab" onclick="switchTab(event, 'awareness')">📧 Awareness</div>
+        </div>
+
+        <div class="content">
+            <!-- Chat Tab -->
+            <div id="chat-tab" class="tab-content active">
+                <div class="status" id="chat-status">
+                    <div class="status-dot"></div>
+                    <span>Agent ready</span>
+                </div>
+
+                <div class="quick-actions">
+                    <div class="quick-action" onclick="sendQuickMessage('What is renewable energy?')">
+                        Renewable Energy
+                    </div>
+                    <div class="quick-action" onclick="sendQuickMessage('Create a quiz on climate change')">
+                        Generate Quiz
+                    </div>
+                    <div class="quick-action" onclick="sendQuickMessage('Generate a study guide on marine life sustainability')">
+                        Study Guide
+                    </div>
+                    <div class="quick-action" onclick="sendQuickMessage('How does composting work?')">
+                        About Composting
+                    </div>
+                    <div class="quick-action" onclick="sendQuickMessage('Compare solar and wind energy')">
+                        Compare Energy
+                    </div>
+                </div>
+
+                <div class="chat-container">
+                    <div class="chat-messages" id="chat-messages">
+                        <div class="message agent">
+                            Hello! I'm your Environmental Sustainability assistant. I can help you with questions, generate educational content, and more. What would you like to explore today?
+                        </div>
+                    </div>
+
+                    <div class="input-group">
+                        <input type="text" id="chat-input" placeholder="Ask me anything about environmental sustainability..." 
+                               onkeypress="if(event.key==='Enter') sendMessage()">
+                        <button onclick="sendMessage()">Send</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Query Tab -->
+            <div id="query-tab" class="tab-content">
+                <h2>Knowledge Retrieval</h2>
+                
+                <div class="form-group">
+                    <label>Query:</label>
+                    <input type="text" id="query-input" placeholder="Enter your query...">
+                </div>
+
+                <div class="form-group">
+                    <label>Retrieval Method:</label>
+                    <select id="query-method">
+                        <option value="hybrid">Hybrid (Dense + Sparse)</option>
+                        <option value="rag">RAG Only</option>
+                        <option value="multi_query">Multi-Query</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>Top K Results:</label>
+                    <input type="number" id="query-top-k" value="5" min="1" max="20">
+                </div>
+
+                <div class="form-group">
+                    <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 8px;">
+                        <input type="checkbox" id="query-cutoff-enabled" onchange="toggleCutoffInput()" 
+                               style="cursor: pointer;">
+                        <label for="query-cutoff-enabled" style="font-weight: 500; cursor: pointer; margin: 0;">
+                            Enable Similarity Score Cutoff
+                        </label>
+                    </div>
+                    <input type="number" id="query-cutoff" value="0.4" min="0" max="1" step="0.1" 
+                           style="width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 4px; font-size: 14px;" 
+                           disabled placeholder="0.0 - 1.0">
+                    <small style="color: #666; display: block; margin-top: 6px; font-size: 0.9em; line-height: 1.4;">
+                        Only library results above this score will be shown. Remaining slots will be filled with web results.
+                    </small>
+                </div>
+
+                <button onclick="executeQuery()">Search</button>
+
+                <div class="result-box" id="query-results"></div>
+            </div>
+
+            <!-- Generate Tab -->
+            <div id="generate-tab" class="tab-content">
+                <h2>Content Generation</h2>
+
+                <div class="form-group">
+                    <label>Content Type:</label>
+                    <select id="gen-type" onchange="updateGenerateForm()">
+                        <option value="quiz">Quiz</option>
+                        <option value="study-guide">Study Guide</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>Topic:</label>
+                    <input type="text" id="gen-topic" placeholder="Enter topic...">
+                </div>
+
+                <div class="form-group" id="quiz-options">
+                    <label>Number of Questions:</label>
+                    <input type="number" id="gen-num-questions" value="5" min="1" max="20">
+                    
+                    <label style="margin-top: 15px;">Difficulty:</label>
+                    <select id="gen-difficulty">
+                        <option value="easy">Easy</option>
+                        <option value="medium">Medium</option>
+                        <option value="hard">Hard</option>
+                    </select>
+                </div>
+
+                <button onclick="generateContent()">Generate</button>
+
+                <div class="result-box" id="gen-results"></div>
+
+                <!-- Email sending section (shown after generation) -->
+                <div id="email-section" style="display: none; margin-top: 20px; padding: 20px; background: #f9f9f9; border-radius: 8px;">
+                    <h3>📧 Send via Email</h3>
+                    <div class="form-group">
+                        <label>Recipient Email:</label>
+                        <input type="email" id="email-recipient" placeholder="recipient@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label>Document Format:</label>
+                        <select id="email-format">
+                            <option value="pdf">PDF</option>
+                            <option value="docx">DOCX</option>
+                            <option value="ppt">PPT</option>
+                        </select>
+                    </div>
+                    <button onclick="sendGeneratedContent()" style="background: #2c5f2d;">Send Email</button>
+                    <div id="email-status" style="margin-top: 10px;"></div>
+                </div>
+            </div>
+
+            <!-- Library Tab -->
+            <div id="library-tab" class="tab-content">
+                <h2>📚 Knowledge Library Management</h2>
+                <p style="color: #666; margin-bottom: 25px;">
+                    Add documents to the RAG knowledge library. Documents are processed, indexed, and made available for retrieval.
+                </p>
+
+                <!-- Upload Section -->
+                <div style="margin-bottom: 30px; padding: 25px; background: linear-gradient(135deg, #f0f8f0 0%, #e8f5e9 100%); border-radius: 12px; border: 2px solid #2c5f2d; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+                    <h3 style="color: #2c5f2d; margin-top: 0; margin-bottom: 15px; font-size: 1.5em;">
+                        📄 Upload Document to Library
+                    </h3>
+                    
+                    <div style="background: white; padding: 20px; border-radius: 8px; margin-bottom: 20px;">
+                        <h4 style="color: #2c5f2d; margin-top: 0; margin-bottom: 15px;">Processing Steps:</h4>
+                        <ol style="line-height: 2; color: #555; padding-left: 20px;">
+                            <li><strong>Upload:</strong> File is saved to <code>data_for_finetuning/</code></li>
+                            <li><strong>Extract:</strong> Text is extracted from PDF/DOCX/TXT</li>
+                            <li><strong>Clean:</strong> Text is cleaned and filtered for relevance</li>
+                            <li><strong>Chunk:</strong> Text is split into manageable chunks</li>
+                            <li><strong>Convert:</strong> Processed data is saved as JSON to <code>data_json/</code></li>
+                            <li><strong>Index:</strong> Document is embedded and indexed into Milvus (if auto-index enabled)</li>
+                        </ol>
+                    </div>
+
+                    <div class="form-group">
+                        <label style="font-weight: bold; color: #2c5f2d; margin-bottom: 8px; display: block;">Select Document:</label>
+                        <input type="file" id="document-upload" accept=".pdf,.txt,.docx,.doc" 
+                               style="padding: 12px; width: 100%; border: 2px dashed #2c5f2d; border-radius: 8px; background: white; cursor: pointer;">
+                        <small style="color: #666; display: block; margin-top: 5px;">
+                            Supported formats: PDF, TXT, DOCX, DOC
+                        </small>
+                    </div>
+
+                    <div class="form-group" style="margin-top: 20px;">
+                        <label style="display: flex; align-items: center; cursor: pointer;">
+                            <input type="checkbox" id="auto-index" checked 
+                                   style="width: 20px; height: 20px; margin-right: 10px; cursor: pointer;">
+                            <span style="font-weight: 500; color: #2c5f2d;">
+                                Automatically rebuild index after upload
+                            </span>
+                        </label>
+                        <small style="color: #666; display: block; margin-top: 5px; margin-left: 30px;">
+                            When enabled, the document will be embedded and indexed immediately for RAG retrieval
+                        </small>
+                    </div>
+
+                    <button onclick="uploadDocument()" 
+                            style="background: linear-gradient(135deg, #2c5f2d 0%, #1e4620 100%); 
+                                   color: white; padding: 15px 30px; border: none; border-radius: 8px; 
+                                   cursor: pointer; font-size: 1.1em; font-weight: bold; 
+                                   box-shadow: 0 4px 6px rgba(0,0,0,0.2); transition: transform 0.2s;"
+                            onmouseover="this.style.transform='scale(1.05)'"
+                            onmouseout="this.style.transform='scale(1)'">
+                        📤 Upload & Process Document
+                    </button>
+
+                    <div id="upload-status" style="margin-top: 20px;"></div>
+                </div>
+
+                <!-- Library Status Section -->
+                <div style="padding: 20px; background: #f9f9f9; border-radius: 8px; border: 1px solid #ddd;">
+                    <h3 style="color: #2c5f2d; margin-top: 0;">📊 Library Status</h3>
+                    <button onclick="loadLibraryStatus()" 
+                            style="background: #2c5f2d; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; margin-bottom: 15px;">
+                        Refresh Status
+                    </button>
+                    <div id="library-status" style="min-height: 100px;">
+                        <p style="color: #666;">Click "Refresh Status" to see library statistics</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Awareness Email Tab -->
+            <div id="awareness-tab" class="tab-content">
+                <h2>📧 Awareness Email Campaign</h2>
+                <p style="color: #666; margin-bottom: 25px;">
+                    Generate and send awareness emails to multiple recipients. Emails are tailored to your topic and audience type.
+                </p>
+
+                <div style="background: linear-gradient(135deg, #f0f8f0 0%, #e8f5e9 100%); padding: 25px; border-radius: 12px; border: 2px solid #2c5f2d; margin-bottom: 25px;">
+                    <h3 style="color: #2c5f2d; margin-top: 0; margin-bottom: 20px;">Email Configuration</h3>
+                    
+                    <div class="form-group">
+                        <label style="font-weight: bold; color: #2c5f2d; margin-bottom: 8px; display: block;">Topic:</label>
+                        <input type="text" id="awareness-topic" placeholder="e.g., Climate Change, Renewable Energy, Waste Reduction..." 
+                               style="padding: 12px; width: 100%; border: 2px solid #2c5f2d; border-radius: 8px; font-size: 1em;">
+                        <small style="color: #666; display: block; margin-top: 5px;">
+                            What environmental topic should the email focus on?
+                        </small>
+            </div>
+
+                    <div class="form-group" style="margin-top: 20px;">
+                        <label style="font-weight: bold; color: #2c5f2d; margin-bottom: 8px; display: block;">Audience Type:</label>
+                        <select id="awareness-audience" 
+                                style="padding: 12px; width: 100%; border: 2px solid #2c5f2d; border-radius: 8px; font-size: 1em; background: white;">
+                            <option value="general public">General Public</option>
+                            <option value="professionals">Professionals</option>
+                            <option value="college campus students">College Campus Students</option>
+                            <option value="high school students">High School Students</option>
+                            <option value="community leaders">Community Leaders</option>
+                            <option value="business executives">Business Executives</option>
+                            <option value="policy makers">Policy Makers</option>
+                            <option value="environmental activists">Environmental Activists</option>
+                        </select>
+                        <small style="color: #666; display: block; margin-top: 5px;">
+                            Select the target audience for personalized content
+                        </small>
+                    </div>
+
+                    <div class="form-group" style="margin-top: 20px;">
+                        <label style="font-weight: bold; color: #2c5f2d; margin-bottom: 8px; display: block;">Recipient Email Addresses:</label>
+                        <textarea id="awareness-emails" rows="6" 
+                                  placeholder="Enter email addresses (one per line or comma-separated):&#10;example1@email.com&#10;example2@email.com&#10;example3@email.com"
+                                  style="padding: 12px; width: 100%; border: 2px solid #2c5f2d; border-radius: 8px; font-size: 1em; font-family: monospace;"></textarea>
+                        <small style="color: #666; display: block; margin-top: 5px;">
+                            Enter email addresses separated by commas or new lines
+                        </small>
+                    </div>
+
+                    <button onclick="sendAwarenessEmails()" 
+                            style="background: linear-gradient(135deg, #2c5f2d 0%, #1e4620 100%); 
+                                   color: white; padding: 15px 30px; border: none; border-radius: 8px; 
+                                   cursor: pointer; font-size: 1.1em; font-weight: bold; 
+                                   box-shadow: 0 4px 6px rgba(0,0,0,0.2); margin-top: 20px; width: 100%;"
+                            onmouseover="this.style.transform='scale(1.02)'"
+                            onmouseout="this.style.transform='scale(1)'">
+                        📧 Generate & Send Awareness Emails
+                    </button>
+
+                    <div id="awareness-status" style="margin-top: 20px;"></div>
+                </div>
+
+                <!-- Email Preview Section -->
+                <div id="awareness-preview" style="display: none; margin-top: 25px; padding: 20px; background: #f9f9f9; border-radius: 8px; border: 1px solid #ddd;">
+                    <h3 style="color: #2c5f2d; margin-top: 0;">📝 Email Preview</h3>
+                    <div id="awareness-preview-content" style="background: white; padding: 15px; border-radius: 5px; margin-top: 10px;"></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script>
+        const API_BASE = window.location.origin;
+
+        function switchTab(evt, tabName) {
+            document.querySelectorAll('.tab').forEach(tab => tab.classList.remove('active'));
+            evt.target.classList.add('active');
+
+            // Update tab content
+            document.querySelectorAll('.tab-content').forEach(content => content.classList.remove('active'));
+            document.getElementById(`${tabName}-tab`).classList.add('active');
+            
+            // Auto-load library status when Library tab is opened
+            if (tabName === 'library') {
+                loadLibraryStatus();
+            }
+        }
+
+        async function sendMessage() {
+            console.log('sendMessage called');
+            const input = document.getElementById('chat-input');
+            if (!input) {
+                console.error('Chat input not found');
+                return;
+            }
+            const message = input.value.trim();
+            
+            if (!message) {
+                console.log('Empty message, returning');
+                return;
+            }
+
+            console.log('Sending message:', message);
+            // Add user message
+            addMessage(message, 'user');
+            input.value = '';
+
+            // Show loading
+            const loadingId = addMessage('Thinking...', 'agent');
+
+            try {
+                const response = await fetch(`${API_BASE}/api/chat`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ message })
+                });
+
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+
+                const data = await response.json();
+                console.log('Received response:', data);
+                console.log('Sources data:', data.sources);
+                
+                // Remove loading message (safely)
+                const loadingElement = document.getElementById(loadingId);
+                if (loadingElement) {
+                    loadingElement.remove();
+                }
+
+                // Handle different response types
+                if (data.quiz) {
+                    // Display quiz with formatting (regardless of type, if quiz data exists)
+                    displayQuiz(data.quiz, data.topic || data.quiz.topic || 'quiz');
+                } else if (data.study_guide) {
+                    // Display study guide with formatting
+                    displayStudyGuide(data.study_guide, data.topic || data.study_guide.topic || 'study guide');
+                } else if (data.awareness_content) {
+                    // Display awareness content
+                    addMessage(`<div style="padding: 15px; background: #e8f5e9; border-radius: 8px; margin: 10px 0;">
+                        <h3 style="margin-top: 0; color: #2c5f2d;">📢 ${data.awareness_content.format || 'Awareness Content'}: ${data.awareness_content.topic || 'Topic'}</h3>
+                        <div style="white-space: pre-wrap;">${data.awareness_content.content || ''}</div>
+                    </div>`, 'agent');
+                } else if (data.type === 'awareness_email' || data.email_metadata) {
+                    // Display awareness email status
+                    const metadata = data.email_metadata || data.metadata || {};
+                    const successful = metadata.successful || 0;
+                    const failed = metadata.failed || 0;
+                    const total = metadata.total_recipients || 0;
+                    const topic = metadata.topic || 'topic';
+                    const audience = metadata.audience || 'general public';
+                    
+                    let statusHtml = `<div style="padding: 15px; background: ${successful > 0 ? '#e8f5e9' : '#ffebee'}; border-radius: 8px; margin: 10px 0; border: 2px solid ${successful > 0 ? '#2c5f2d' : '#c62828'};">
+                        <h3 style="margin-top: 0; color: ${successful > 0 ? '#2c5f2d' : '#c62828'};">
+                            ${successful > 0 ? '✓' : '✗'} Awareness Email Status
+                        </h3>
+                        <p><strong>Topic:</strong> ${topic}</p>
+                        <p><strong>Audience:</strong> ${audience}</p>
+                        <p><strong>Recipients:</strong> ${total}</p>
+                        <p><strong>Successful:</strong> ${successful}</p>
+                        ${failed > 0 ? `<p><strong>Failed:</strong> ${failed}</p>` : ''}
+                    </div>`;
+                    addMessage(statusHtml, 'agent');
+                } else if ((data.type === 'library_upload' || data.show_upload_ui === true) && data.type !== 'answer') {
+                    // Only show upload UI if explicitly requested AND not a Q&A answer
+                    // First show the instructions
+                    if (data.response || data.message) {
+                        addMessage(data.response || data.message, 'agent');
+                    }
+                    
+                    // Then display file upload interface
+                    const uploadId = 'upload-' + Date.now() + '-' + Math.random().toString(36).substr(2, 9);
+                    const uploadHtml = `<div style="padding: 20px; background: #f0f8f0; border-radius: 8px; margin: 10px 0; border: 2px solid #2c5f2d;">
+                        <h3 style="margin-top: 0; color: #2c5f2d;">📚 Upload Document to Library</h3>
+                        <p style="color: #555; margin-bottom: 15px;">Select a document (PDF, DOCX, or TXT) to add to the knowledge library:</p>
+                        <div style="margin-bottom: 15px;">
+                            <input type="file" id="${uploadId}-file" accept=".pdf,.txt,.docx,.doc" 
+                                   style="width: 100%; padding: 10px; border: 2px dashed #2c5f2d; border-radius: 5px; background: white; cursor: pointer;"
+                                   onchange="document.getElementById('${uploadId}-filename').textContent = this.files[0] ? this.files[0].name : 'No file selected'">
+                            <p id="${uploadId}-filename" style="margin-top: 8px; color: #666; font-size: 0.9em;">No file selected</p>
+                        </div>
+                        <div style="margin-bottom: 15px;">
+                            <label style="display: flex; align-items: center; cursor: pointer;">
+                                <input type="checkbox" id="${uploadId}-autoindex" checked 
+                                       style="margin-right: 8px; cursor: pointer;">
+                                <span style="color: #555;">Auto-index to Milvus (recommended)</span>
+                            </label>
+                        </div>
+                        <button onclick="uploadDocumentFromChat('${uploadId}')" 
+                                style="background: linear-gradient(135deg, #2c5f2d 0%, #1e4620 100%); 
+                                       color: white; padding: 12px 24px; border: none; border-radius: 6px; 
+                                       cursor: pointer; font-size: 1em; font-weight: bold; width: 100%;
+                                       box-shadow: 0 2px 4px rgba(0,0,0,0.2);"
+                                onmouseover="this.style.transform='scale(1.02)'"
+                                onmouseout="this.style.transform='scale(1)'">
+                            📤 Upload & Process Document
+                        </button>
+                        <div style="margin-top: 15px; padding-top: 15px; border-top: 1px solid #2c5f2d;">
+                            <p style="color: #666; font-size: 0.9em; margin: 0;">
+                                💡 <strong>Tip:</strong> You can also use the <a href="#" onclick="document.querySelectorAll('.tab').forEach(t => t.classList.remove('active')); document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active')); document.querySelector('.tab:nth-child(4)').classList.add('active'); document.getElementById('library-tab').classList.add('active'); loadLibraryStatus(); return false;" style="color: #2c5f2d; text-decoration: underline;">📚 Library tab</a> at the top of the page for more options.
+                            </p>
+                        </div>
+                        <div id="${uploadId}-status" style="margin-top: 15px;"></div>
+                    </div>`;
+                    addMessage(uploadHtml, 'agent');
+                } else {
+                    // Regular text response (Q&A answers)
+                    const responseText = data.response || data.message || 'No response';
+                    
+                    // Build answer display with sources if available
+                    let answerHtml = '';
+                    
+                    // Main answer (generated using retrieved chunks)
+                    answerHtml += `<div style="padding: 15px; background: #e8f5e9; border-radius: 8px; margin: 10px 0; border-left: 4px solid #2c5f2d;">`;
+                    answerHtml += `<div style="color: #333; line-height: 1.8; white-space: pre-wrap; word-wrap: break-word;">${responseText}</div>`;
+                    
+                    // Always show sources button if sources exist (even if empty arrays)
+                    if (data.sources) {
+                        const sourcesId = 'sources-' + Date.now() + '-' + Math.random().toString(36).substr(2, 9);
+                        const localSources = Array.isArray(data.sources.local) ? data.sources.local : [];
+                        const webSources = Array.isArray(data.sources.web) ? data.sources.web : [];
+                        const totalSources = localSources.length + webSources.length;
+                        
+                        // Always show button if sources object exists, even if empty
+                        answerHtml += `<div style="margin-top: 15px; padding-top: 15px; border-top: 1px solid #c8e6c9;">`;
+                        answerHtml += `<button id="${sourcesId}-btn" onclick="toggleSources('${sourcesId}')" style="background: #2c5f2d; color: white; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer; font-size: 0.9em; font-weight: bold;">
+                            ${totalSources > 0 ? `View Retrieved Sources (${totalSources})` : 'View Sources'}
+                        </button>`;
+                        answerHtml += `<div id="${sourcesId}-full" style="display: none; margin-top: 15px;">`;
+                        
+                        if (localSources.length > 0) {
+                            answerHtml += `<p style="font-weight: bold; color: #2c5f2d; margin-top: 10px; margin-bottom: 8px;">📚 Library Sources (${localSources.length}):</p>`;
+                            localSources.forEach((source, i) => {
+                                const sourceFile = source.source_file || source.get && source.get('source_file') || source.filename || 'Unknown';
+                                const sourceText = source.text || source.get && source.get('text') || source.content || source.snippet || '';
+                                const sourceScore = source.score || source.rerank_score || '';
+                                answerHtml += `<div style="padding: 10px; margin: 8px 0; background: #f5f5f5; border-radius: 4px; border-left: 3px solid #2c5f2d; font-size: 0.9em;">`;
+                                answerHtml += `<strong>Library Source ${i + 1}:</strong> ${sourceFile}`;
+                                if (sourceScore) {
+                                    answerHtml += ` <span style="color: #666; font-size: 0.85em;">(Score: ${sourceScore.toFixed(3)})</span>`;
+                                }
+                                answerHtml += `<br>`;
+                                answerHtml += `<span style="color: #666; line-height: 1.5;">${sourceText.substring(0, 300)}${sourceText.length > 300 ? '...' : ''}</span>`;
+                                answerHtml += `</div>`;
+                            });
+                        } else {
+                            answerHtml += `<p style="color: #999; font-style: italic; margin-top: 10px;">No library sources available.</p>`;
+                        }
+                        
+                        if (webSources.length > 0) {
+                            answerHtml += `<p style="font-weight: bold; color: #ff9800; margin-top: 15px; margin-bottom: 8px;">🌐 Web Sources (${webSources.length}):</p>`;
+                            webSources.forEach((source, i) => {
+                                const sourceTitle = source.title || source.get && source.get('title') || 'Unknown';
+                                const sourceSnippet = source.snippet || source.get && source.get('snippet') || source.content || '';
+                                const sourceUrl = source.url || source.get && source.get('url') || source.link || '';
+                                answerHtml += `<div style="padding: 10px; margin: 8px 0; background: #fff3e0; border-radius: 4px; border-left: 3px solid #ff9800; font-size: 0.9em;">`;
+                                answerHtml += `<strong>Web Source ${i + 1}:</strong> ${sourceTitle}`;
+                                if (sourceUrl) {
+                                    answerHtml += ` <a href="${sourceUrl}" target="_blank" rel="noopener noreferrer" style="color: #2c5f2d; text-decoration: underline; font-size: 0.85em; margin-left: 5px;">(View Source ↗)</a>`;
+                                }
+                                answerHtml += `<br>`;
+                                answerHtml += `<span style="color: #666; line-height: 1.5;">${sourceSnippet.substring(0, 300)}${sourceSnippet.length > 300 ? '...' : ''}</span>`;
+                                answerHtml += `</div>`;
+                            });
+                        } else {
+                            answerHtml += `<p style="color: #999; font-style: italic; margin-top: 10px;">No web sources available.</p>`;
+                        }
+                        
+                        answerHtml += `</div>`;
+                        answerHtml += `</div>`;
+                    }
+                    
+                    answerHtml += `</div>`;
+                    
+                    // Show answer with sources (upload UI is only shown when data.type === 'library_upload' or data.show_upload_ui is true, handled above)
+                    addMessage(answerHtml, 'agent');
+                }
+            } catch (error) {
+                console.error('Chat error:', error);
+                const loadingElement = document.getElementById(loadingId);
+                if (loadingElement) {
+                    loadingElement.remove();
+                }
+                addMessage('Error: ' + error.message, 'agent');
+            }
+        }
+
+        function sendQuickMessage(message) {
+            document.getElementById('chat-input').value = message;
+            sendMessage();
+        }
+
+        function addMessage(text, sender) {
+            const messagesDiv = document.getElementById('chat-messages');
+            const messageDiv = document.createElement('div');
+            const id = 'msg-' + Date.now() + '-' + Math.random().toString(36).substr(2, 9);
+            messageDiv.id = id;
+            messageDiv.className = `message ${sender}`;
+            
+            // Check if text contains HTML tags - if so, render as HTML, otherwise escape and convert newlines
+            if (text.includes('<') && (text.includes('</') || text.includes('/>') || text.includes('<div') || text.includes('<input') || text.includes('<button'))) {
+                // Contains HTML - render directly
+                messageDiv.innerHTML = text;
+            } else {
+                // Plain text - escape HTML and convert newlines
+                const escaped = text.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+                messageDiv.innerHTML = escaped.replace(/\n/g, '<br>');
+            }
+            
+            messagesDiv.appendChild(messageDiv);
+            messagesDiv.scrollTop = messagesDiv.scrollHeight;
+            return id;
+        }
+
+        function displayQuiz(quiz, topic) {
+            const messagesDiv = document.getElementById('chat-messages');
+            const messageDiv = document.createElement('div');
+            messageDiv.className = 'message agent';
+            
+            let html = `<div style="padding: 15px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                <h3 style="margin-top: 0; color: #2c5f2d; border-bottom: 2px solid #2c5f2d; padding-bottom: 10px;">
+                    📝 Quiz: ${quiz.topic || topic}
+                </h3>
+                <p style="color: #666; margin-bottom: 20px;">
+                    <strong>Difficulty:</strong> ${quiz.difficulty || 'medium'} | 
+                    <strong>Questions:</strong> ${quiz.questions?.length || 0}
+                </p>`;
+            
+            quiz.questions?.forEach((q, i) => {
+                html += `<div style="margin-bottom: 25px; padding: 15px; background: #f9f9f9; border-radius: 8px; border-left: 4px solid #2c5f2d;">
+                    <p style="font-size: 1.1em; font-weight: bold; margin-bottom: 12px; color: #333;">
+                        ${i + 1}. ${q.question}
+                    </p>
+                    <div style="margin: 10px 0; padding-left: 20px;">`;
+                ['A', 'B', 'C', 'D'].forEach(key => {
+                    if (q.options && q.options[key]) {
+                        html += `<p style="margin: 5px 0; color: #555;">${key}) ${q.options[key]}</p>`;
+                    }
+                });
+                html += `</div>
+                    <div style="margin-top: 15px; padding-top: 10px; border-top: 1px solid #ddd;">
+                        <p style="color: #2c5f2d; font-weight: bold; margin: 5px 0;">
+                            Answer: ${q.correct_answer}
+                        </p>
+                        <p style="color: #666; font-size: 0.95em; margin-top: 8px; font-style: italic;">
+                            Explanation: ${q.explanation || ''}
+                        </p>
+                    </div>
+                </div>`;
+            });
+            
+            html += `</div>`;
+            messageDiv.innerHTML = html;
+            messagesDiv.appendChild(messageDiv);
+            messagesDiv.scrollTop = messagesDiv.scrollHeight;
+        }
+
+        function displayStudyGuide(studyGuide, topic) {
+            const messagesDiv = document.getElementById('chat-messages');
+            const messageDiv = document.createElement('div');
+            messageDiv.className = 'message agent';
+            
+            let html = `<div style="padding: 15px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                <h3 style="margin-top: 0; color: #2c5f2d; border-bottom: 2px solid #2c5f2d; padding-bottom: 10px;">
+                    📚 Study Guide: ${studyGuide.topic || topic}
+                </h3>
+                <div style="max-height: 500px; overflow-y: auto; margin: 15px 0; padding: 15px; background: #f9f9f9; border-radius: 8px; line-height: 1.8;">`;
+            
+            // Format the study guide content (it's markdown-like text)
+            let content = studyGuide.content || '';
+            // Escape HTML first
+            content = content.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+            // Convert markdown-style headers to HTML (process line by line)
+            let lines = content.split('\n');
+            let formattedLines = [];
+            let inList = false;
+            
+            for (let i = 0; i < lines.length; i++) {
+                let line = lines[i];
+                // Headers
+                if (line.match(/^## /)) {
+                    formattedLines.push(`<h2 style="color: #2c5f2d; margin-top: 20px; margin-bottom: 10px; font-size: 1.3em;">${line.replace(/^## /, '')}</h2>`);
+                } else if (line.match(/^### /)) {
+                    formattedLines.push(`<h3 style="color: #2c5f2d; margin-top: 15px; margin-bottom: 8px; font-size: 1.1em;">${line.replace(/^### /, '')}</h3>`);
+                } else if (line.match(/^\*   /)) {
+                    if (!inList) {
+                        formattedLines.push('<ul style="margin: 10px 0; padding-left: 25px;">');
+                        inList = true;
+                    }
+                    formattedLines.push(`<li style="margin: 5px 0; line-height: 1.6;">${line.replace(/^\*   /, '')}</li>`);
+                } else if (line.trim() === '' && inList) {
+                    formattedLines.push('</ul>');
+                    inList = false;
+                    formattedLines.push('<br>');
+                } else if (line.trim() !== '') {
+                    if (inList) {
+                        formattedLines.push('</ul>');
+                        inList = false;
+                    }
+                    formattedLines.push(`<p style="margin: 10px 0; line-height: 1.6;">${line}</p>`);
+                } else {
+                    formattedLines.push('<br>');
+                }
+            }
+            if (inList) formattedLines.push('</ul>');
+            
+            html += `<div style="line-height: 1.8; color: #333;">
+                ${formattedLines.join('')}
+            </div>`;
+            html += `</div></div>`;
+            messageDiv.innerHTML = html;
+            messagesDiv.appendChild(messageDiv);
+            messagesDiv.scrollTop = messagesDiv.scrollHeight;
+        }
+
+        function toggleCutoffInput() {
+            const checkbox = document.getElementById('query-cutoff-enabled');
+            const input = document.getElementById('query-cutoff');
+            input.disabled = !checkbox.checked;
+        }
+
+        async function executeQuery() {
+            const query = document.getElementById('query-input').value;
+            const method = document.getElementById('query-method').value;
+            const topK = document.getElementById('query-top-k').value;
+            const cutoffEnabled = document.getElementById('query-cutoff-enabled').checked;
+            const cutoff = cutoffEnabled ? parseFloat(document.getElementById('query-cutoff').value) : null;
+            const resultsDiv = document.getElementById('query-results');
+
+            resultsDiv.innerHTML = '<div class="loading"><div class="spinner"></div><p>Searching...</p></div>';
+
+            try {
+                const requestBody = { query, method, top_k: parseInt(topK) };
+                if (cutoff !== null) {
+                    requestBody.similarity_cutoff = cutoff;
+                }
+                
+                const response = await fetch(`${API_BASE}/api/query`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(requestBody)
+                });
+
+                const data = await response.json();
+                
+                if (data.success) {
+                    let html = '';
+                    
+                    // MAIN RESPONSE: Show LLM-generated answer FIRST (if available)
+                    // This is the primary response generated using retrieved chunks
+                    if (data.answer) {
+                        const answerId = 'generated-answer';
+                        const answerText = data.answer;
+                        const answerPreviewLength = 400;
+                        const showAnswerPreview = answerText.length > answerPreviewLength;
+                        const answerPreview = showAnswerPreview ? answerText.substring(0, answerPreviewLength) + '...' : answerText;
+                        
+                        html += `<div style="background: #e8f5e9; padding: 20px; border-radius: 8px; margin-bottom: 25px; border: 2px solid #2c5f2d; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">`;
+                        html += `<h3 style="margin-top: 0; color: #2c5f2d; font-size: 1.3em;">Answer</h3>`;
+                        html += `<p style="color: #666; font-size: 0.9em; margin-bottom: 15px;">Generated using retrieved information from the knowledge library</p>`;
+                        
+                        // Preview
+                        html += `<div id="${answerId}-preview" style="color: #333; line-height: 1.8; font-size: 1.05em;">`;
+                        html += `<p style="white-space: pre-wrap; word-wrap: break-word;">${answerPreview}</p>`;
+                        if (showAnswerPreview) {
+                            html += `<button onclick="toggleResultText('${answerId}')" style="background: #2c5f2d; color: white; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer; font-size: 0.95em; margin-top: 12px;">Read Full Answer</button>`;
+                        }
+                        html += `</div>`;
+                        
+                        // Full answer (hidden by default)
+                        html += `<div id="${answerId}-full" style="display: none; color: #333; line-height: 1.8; font-size: 1.05em;">`;
+                        html += `<p style="white-space: pre-wrap; word-wrap: break-word;">${answerText}</p>`;
+                        html += `<button onclick="toggleResultText('${answerId}')" style="background: #2c5f2d; color: white; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer; font-size: 0.95em; margin-top: 12px;">Show Less</button>`;
+                        html += `</div>`;
+                        
+                        html += `</div>`;
+                    } else if (data.results && data.results.length > 0) {
+                        // If no answer generated but we have results, show a message
+                        html += `<div style="background: #fff3cd; padding: 15px; border-radius: 8px; margin-bottom: 20px; border-left: 4px solid #ff9800;">`;
+                        html += `<p style="color: #856404; margin: 0;">Note: Retrieved ${data.num_results || 0} results, but answer generation is in progress or unavailable.</p>`;
+                        html += `</div>`;
+                    }
+                    
+                    // SECONDARY: Show metadata and retrieved chunks AFTER the answer
+                    html += `<div style="background: #f5f5f5; padding: 15px; border-radius: 8px; margin-bottom: 20px;">`;
+                    html += `<h4 style="margin-top: 0; color: #555; font-size: 1.1em;">Retrieval Details</h4>`;
+                    html += `<p><strong>Method:</strong> ${data.method || 'unknown'}</p>`;
+                    html += `<p><strong>Retrieved Chunks:</strong> ${data.num_results || 0}</p>`;
+                    
+                    // Show metadata
+                    if (data.metadata) {
+                        if (data.metadata.similarity_cutoff_applied !== undefined) {
+                            html += `<p><strong>Similarity Cutoff:</strong> ${data.metadata.similarity_cutoff_applied.toFixed(2)}</p>`;
+                            html += `<p><strong>Library Results (above cutoff):</strong> ${data.metadata.library_results_above_cutoff || 0} | <strong>Web Results Added:</strong> ${data.metadata.web_results_added || 0}</p>`;
+                        }
+                        if (data.metadata.used_web_search !== undefined) {
+                            html += `<p><strong>Source:</strong> ${data.metadata.used_web_search ? 'Web search fallback' : 'Local library'}</p>`;
+                        }
+                        if (data.metadata.num_dense !== undefined) {
+                            html += `<p><strong>Dense Results:</strong> ${data.metadata.num_dense} | <strong>Sparse Results:</strong> ${data.metadata.num_sparse}</p>`;
+                        }
+                    }
+                    html += `</div>`;
+                    
+                    // Show retrieved chunks (supporting information)
+                    if (data.results && data.results.length > 0) {
+                        html += `<div style="margin-top: 20px;">`;
+                        html += `<h4 style="color: #555; margin-bottom: 15px; font-size: 1.1em;">Retrieved Information Chunks (Used to Generate Answer Above)</h4>`;
+                        
+                        data.results.forEach((result, i) => {
+                            const sourceType = result.source_type || 'unknown';
+                            const sourceColor = sourceType === 'library' ? '#2c5f2d' : '#ff9800';
+                            const sourceIcon = sourceType === 'library' ? '📚' : '🌐';
+                            const resultId = `result-${i}`;
+                            const fullText = result.text || 'No text available';
+                            const previewLength = 300;
+                            const showPreview = fullText.length > previewLength;
+                            const previewText = showPreview ? fullText.substring(0, previewLength) + '...' : fullText;
+                            
+                            html += `
+                                <div style="margin: 15px 0; padding: 15px; background: white; border-radius: 8px; border-left: 4px solid ${sourceColor}; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+                                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+                                        <strong style="color: ${sourceColor}; font-size: 1em;">${sourceIcon} Chunk ${i + 1} (${sourceType})</strong>
+                                        <span style="background: #f5f5f5; padding: 4px 8px; border-radius: 4px; font-size: 0.9em;">
+                                            Score: ${(result.hybrid_score || result.score || 0).toFixed(3)}
+                                        </span>
+                                    </div>
+                                    ${result.title ? `<p style="font-weight: bold; color: #666; margin-bottom: 8px;">${result.title}</p>` : ''}
+                                    
+                                    <!-- Preview Text -->
+                                    <div id="${resultId}-preview" style="color: #555; line-height: 1.6;">
+                                        <p>${previewText}</p>
+                                        ${showPreview ? `<button onclick="toggleResultText('${resultId}')" style="background: ${sourceColor}; color: white; border: none; padding: 6px 12px; border-radius: 4px; cursor: pointer; font-size: 0.9em; margin-top: 8px;">Read Full Text</button>` : ''}
+                                    </div>
+                                    
+                                    <!-- Full Text (hidden by default) -->
+                                    <div id="${resultId}-full" style="display: none; color: #555; line-height: 1.6;">
+                                        <p style="white-space: pre-wrap; word-wrap: break-word;">${fullText}</p>
+                                        <button onclick="toggleResultText('${resultId}')" style="background: ${sourceColor}; color: white; border: none; padding: 6px 12px; border-radius: 4px; cursor: pointer; font-size: 0.9em; margin-top: 8px;">Show Less</button>
+                                    </div>
+                                    
+                                    <div style="margin-top: 15px; padding-top: 10px; border-top: 1px solid #eee; font-size: 0.85em; color: #888;">
+                                        <strong>Source:</strong> ${result.source_file || 'Unknown'}
+                                        ${result.url ? ` | <a href="${result.url}" target="_blank" style="color: ${sourceColor};">View Source ↗</a>` : ''}
+                                    </div>
+                                </div>
+                            `;
+                        });
+                        html += `</div>`;
+                    } else {
+                        html += `<p style="color: #666; padding: 20px; text-align: center;">No retrieved chunks available</p>`;
+                    }
+                    
+                    resultsDiv.innerHTML = html;
+                } else {
+                    resultsDiv.innerHTML = `<div style="padding: 15px; background: #ffebee; border: 1px solid #f5c6cb; border-radius: 5px; color: #721c24;">
+                        <strong>Error:</strong> ${data.error || 'Unknown error'}
+                    </div>`;
+                }
+            } catch (error) {
+                resultsDiv.innerHTML = `<p>Error: ${error.message}</p>`;
+            }
+        }
+
+        async function generateContent() {
+            const type = document.getElementById('gen-type').value;
+            const topic = document.getElementById('gen-topic').value;
+            const resultsDiv = document.getElementById('gen-results');
+
+            if (!topic) {
+                alert('Please enter a topic');
+                return;
+            }
+
+            resultsDiv.innerHTML = '<div class="loading"><div class="spinner"></div><p>Generating...</p></div>';
+
+            try {
+                let endpoint, body;
+                
+                if (type === 'quiz') {
+                    endpoint = '/api/generate/quiz';
+                    body = {
+                        topic,
+                        num_questions: parseInt(document.getElementById('gen-num-questions').value),
+                        difficulty: document.getElementById('gen-difficulty').value
+                    };
+                } else {
+                    endpoint = '/api/generate/study-guide';
+                    body = { topic };
+                }
+
+                const response = await fetch(`${API_BASE}${endpoint}`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(body)
+                });
+
+                const data = await response.json();
+                
+                if (data.success) {
+                    // Store generated content for email sending
+                    window.lastGeneratedContent = data;
+                    window.lastGeneratedType = type;
+                    window.lastGeneratedTopic = topic;
+                    
+                    // Display content nicely
+                    if (type === 'quiz' && data.quiz) {
+                        let html = `<div style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                            <h3 style="color: #2c5f2d; border-bottom: 2px solid #2c5f2d; padding-bottom: 10px; margin-bottom: 15px;">
+                                📝 Quiz Generated: ${data.quiz.topic || topic}
+                            </h3>
+                            <p style="color: #666; margin-bottom: 20px;">
+                                <strong>Difficulty:</strong> ${data.quiz.difficulty || 'medium'} | 
+                                <strong>Questions:</strong> ${data.quiz.questions?.length || 0}
+                            </p>
+                            <div style="max-height: 500px; overflow-y: auto; margin: 15px 0;">`;
+                        
+                        data.quiz.questions?.forEach((q, i) => {
+                            html += `<div style="margin-bottom: 20px; padding: 15px; background: white; border-radius: 8px; border-left: 4px solid #2c5f2d; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+                                <p style="font-size: 1.1em; font-weight: bold; margin-bottom: 12px; color: #333;">
+                                    ${i + 1}. ${q.question}
+                                </p>
+                                <div style="margin: 10px 0; padding-left: 20px;">`;
+                            ['A', 'B', 'C', 'D'].forEach(key => {
+                                if (q.options && q.options[key]) {
+                                    html += `<p style="margin: 5px 0; color: #555;">${key}) ${q.options[key]}</p>`;
+                                }
+                            });
+                            html += `</div>
+                                <div style="margin-top: 15px; padding-top: 10px; border-top: 1px solid #ddd;">
+                                    <p style="color: #2c5f2d; font-weight: bold; margin: 5px 0;">
+                                        Answer: ${q.correct_answer}
+                                    </p>
+                                    <p style="color: #666; font-size: 0.95em; margin-top: 8px; font-style: italic;">
+                                        Explanation: ${q.explanation || ''}
+                                    </p>
+                                </div>
+                            </div>`;
+                        });
+                        html += `</div></div>`;
+                        resultsDiv.innerHTML = html;
+                    } else if (type === 'study-guide' && data.study_guide) {
+                        let html = `<div style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                            <h3 style="color: #2c5f2d; border-bottom: 2px solid #2c5f2d; padding-bottom: 10px; margin-bottom: 15px;">
+                                📚 Study Guide: ${data.study_guide.topic || topic}
+                            </h3>
+                            <div style="max-height: 500px; overflow-y: auto; margin: 15px 0; padding: 20px; background: white; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">`;
+                        
+                        // Format the study guide content (it's markdown-like text)
+                        let content = data.study_guide.content || '';
+                        // Escape HTML first
+                        content = content.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+                        // Convert markdown-style headers to HTML (process line by line)
+                        let lines = content.split('\n');
+                        let formattedLines = [];
+                        let inList = false;
+                        
+                        for (let i = 0; i < lines.length; i++) {
+                            let line = lines[i];
+                            // Headers
+                            if (line.match(/^## /)) {
+                                formattedLines.push(`<h2 style="color: #2c5f2d; margin-top: 20px; margin-bottom: 10px; font-size: 1.3em;">${line.replace(/^## /, '')}</h2>`);
+                            } else if (line.match(/^### /)) {
+                                formattedLines.push(`<h3 style="color: #2c5f2d; margin-top: 15px; margin-bottom: 8px; font-size: 1.1em;">${line.replace(/^### /, '')}</h3>`);
+                            } else if (line.match(/^\*   /)) {
+                                if (!inList) {
+                                    formattedLines.push('<ul style="margin: 10px 0; padding-left: 25px;">');
+                                    inList = true;
+                                }
+                                formattedLines.push(`<li style="margin: 5px 0; line-height: 1.6;">${line.replace(/^\*   /, '')}</li>`);
+                            } else if (line.trim() === '' && inList) {
+                                formattedLines.push('</ul>');
+                                inList = false;
+                                formattedLines.push('<br>');
+                            } else if (line.trim() !== '') {
+                                if (inList) {
+                                    formattedLines.push('</ul>');
+                                    inList = false;
+                                }
+                                formattedLines.push(`<p style="margin: 10px 0; line-height: 1.6;">${line}</p>`);
+                            } else {
+                                formattedLines.push('<br>');
+                            }
+                        }
+                        if (inList) formattedLines.push('</ul>');
+                        
+                        html += `<div style="line-height: 1.8; color: #333;">
+                            ${formattedLines.join('')}
+                        </div>`;
+                        html += `</div></div>`;
+                        resultsDiv.innerHTML = html;
+                    } else {
+                        resultsDiv.innerHTML = `<pre style="background: #f5f5f5; padding: 15px; border-radius: 5px;">${JSON.stringify(data, null, 2)}</pre>`;
+                    }
+                    
+                    // Show email section
+                    const emailSection = document.getElementById('email-section');
+                    if (emailSection) {
+                        emailSection.style.display = 'block';
+                        // Clear previous email input
+                        document.getElementById('email-recipient').value = '';
+                        document.getElementById('email-status').innerHTML = '';
+                    }
+                } else {
+                    resultsDiv.innerHTML = `<p>Error: ${data.error || 'Unknown error'}</p>`;
+                    document.getElementById('email-section').style.display = 'none';
+                }
+            } catch (error) {
+                resultsDiv.innerHTML = `<p>Error: ${error.message}</p>`;
+            }
+        }
+
+        function updateGenerateForm() {
+            const type = document.getElementById('gen-type').value;
+            const quizOptions = document.getElementById('quiz-options');
+            quizOptions.style.display = type === 'quiz' ? 'block' : 'none';
+        }
+
+        async function sendGeneratedContent() {
+            const recipient = document.getElementById('email-recipient').value;
+            const format = document.getElementById('email-format').value;
+            const statusDiv = document.getElementById('email-status');
+
+            if (!recipient) {
+                statusDiv.innerHTML = '<p style="color: red;">Please enter recipient email</p>';
+                return;
+            }
+
+            if (!window.lastGeneratedContent) {
+                statusDiv.innerHTML = '<p style="color: red;">No content to send. Please generate content first.</p>';
+                return;
+            }
+
+            statusDiv.innerHTML = '<p>Sending email...</p>';
+
+            try {
+                const response = await fetch(`${API_BASE}/api/send-email`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        recipient: recipient,
+                        content: window.lastGeneratedContent,
+                        content_type: window.lastGeneratedType,
+                        topic: window.lastGeneratedTopic,
+                        format: format
+                    })
+                });
+
+                const data = await response.json();
+
+                if (data.success) {
+                    statusDiv.innerHTML = `<p style="color: green;">✓ Email sent successfully to ${recipient}!</p>`;
+                } else {
+                    statusDiv.innerHTML = `<p style="color: red;">Error: ${data.error || 'Failed to send email'}</p>`;
+                }
+            } catch (error) {
+                statusDiv.innerHTML = `<p style="color: red;">Error: ${error.message}</p>`;
+            }
+        }
+
+        async function sendAwarenessEmails() {
+            const topic = document.getElementById('awareness-topic').value.trim();
+            const audience = document.getElementById('awareness-audience').value;
+            const emailsText = document.getElementById('awareness-emails').value.trim();
+            const statusDiv = document.getElementById('awareness-status');
+            const previewDiv = document.getElementById('awareness-preview');
+            const previewContent = document.getElementById('awareness-preview-content');
+
+            // Validation
+            if (!topic) {
+                statusDiv.innerHTML = '<div style="padding: 15px; background: #ffebee; border: 1px solid #f5c6cb; border-radius: 5px; color: #721c24;"><strong>Error:</strong> Please enter a topic</div>';
+                return;
+            }
+
+            if (!emailsText) {
+                statusDiv.innerHTML = '<div style="padding: 15px; background: #ffebee; border: 1px solid #f5c6cb; border-radius: 5px; color: #721c24;"><strong>Error:</strong> Please enter at least one email address</div>';
+                return;
+            }
+
+            // Parse email addresses (support both comma-separated and newline-separated)
+            const emailList = emailsText
+                .split(/[,\n]/)
+                .map(email => email.trim())
+                .filter(email => email.length > 0 && email.includes('@'));
+
+            if (emailList.length === 0) {
+                statusDiv.innerHTML = '<div style="padding: 15px; background: #ffebee; border: 1px solid #f5c6cb; border-radius: 5px; color: #721c24;"><strong>Error:</strong> No valid email addresses found</div>';
+                return;
+            }
+
+            statusDiv.innerHTML = `<div style="padding: 15px; background: #fff3e0; border: 1px solid #ffcc80; border-radius: 5px;">
+                <p><strong>Generating email content...</strong></p>
+                <p>Topic: ${topic}</p>
+                <p>Audience: ${audience}</p>
+                <p>Recipients: ${emailList.length} email(s)</p>
+            </div>`;
+
+            try {
+                const response = await fetch(`${API_BASE}/api/awareness-email/batch`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        topic: topic,
+                        audience: audience,
+                        recipients: emailList
+                    })
+                });
+
+                const data = await response.json();
+
+                if (data.success) {
+                    // Show preview
+                    previewDiv.style.display = 'block';
+                    previewContent.innerHTML = `
+                        <div style="border: 1px solid #ddd; padding: 20px; border-radius: 5px;">
+                            <p><strong>Subject:</strong> ${data.subject || 'Awareness Email'}</p>
+                            <hr style="margin: 15px 0;">
+                            <div style="white-space: pre-wrap; line-height: 1.6;">${data.email_body || ''}</div>
+                        </div>
+                    `;
+
+                    // Show results
+                    let html = `<div style="padding: 15px; background: #e8f5e9; border: 1px solid #4caf50; border-radius: 5px; color: #2e7d32;">`;
+                    html += `<h4 style="margin-top: 0; color: #2e7d32;">✓ Email Campaign Results</h4>`;
+                    html += `<p><strong>Total Recipients:</strong> ${data.total_recipients || emailList.length}</p>`;
+                    html += `<p><strong>Successfully Sent:</strong> ${data.successful || 0}</p>`;
+                    html += `<p><strong>Failed:</strong> ${data.failed || 0}</p>`;
+                    
+                    if (data.results && data.results.length > 0) {
+                        html += `<details style="margin-top: 15px;">`;
+                        html += `<summary style="cursor: pointer; font-weight: bold;">View Detailed Results</summary>`;
+                        html += `<div style="margin-top: 10px; max-height: 300px; overflow-y: auto;">`;
+                        data.results.forEach((result, i) => {
+                            const color = result.success ? '#4caf50' : '#f44336';
+                            const icon = result.success ? '✓' : '✗';
+                            html += `<div style="padding: 8px; margin: 5px 0; background: ${result.success ? '#e8f5e9' : '#ffebee'}; border-left: 3px solid ${color}; border-radius: 3px;">`;
+                            html += `<strong>${icon} ${result.recipient}</strong>`;
+                            if (!result.success && result.error) {
+                                html += `<br><small style="color: #666;">Error: ${result.error}</small>`;
+                            }
+                            html += `</div>`;
+                        });
+                        html += `</div>`;
+                        html += `</details>`;
+                    }
+                    
+                    html += `</div>`;
+                    statusDiv.innerHTML = html;
+                } else {
+                    statusDiv.innerHTML = `<div style="padding: 15px; background: #ffebee; border: 1px solid #f5c6cb; border-radius: 5px; color: #721c24;">
+                        <strong>Error:</strong> ${data.error || 'Failed to send emails'}
+                    </div>`;
+                }
+            } catch (error) {
+                statusDiv.innerHTML = `<div style="padding: 15px; background: #ffebee; border: 1px solid #f5c6cb; border-radius: 5px; color: #721c24;">
+                    <strong>Error:</strong> ${error.message}
+                </div>`;
+            }
+        }
+
+        async function loadLibraryStatus() {
+            const statusDiv = document.getElementById('library-status');
+            statusDiv.innerHTML = '<div class="loading"><div class="spinner"></div><p>Loading library status...</p></div>';
+
+            try {
+                const response = await fetch(`${API_BASE}/api/library-status`);
+                const data = await response.json();
+                
+                let html = `<div style="background: white; padding: 20px; border-radius: 8px;">`;
+                html += `<h4 style="color: #2c5f2d; margin-top: 0; margin-bottom: 20px;">📚 Knowledge Library Status</h4>`;
+                
+                if (data.library) {
+                    html += `<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin-bottom: 20px;">`;
+                    html += `<div style="padding: 15px; background: #e8f5e9; border-radius: 8px; border-left: 4px solid #2c5f2d;">
+                        <div style="font-size: 2em; font-weight: bold; color: #2c5f2d;">${data.library.total_documents}</div>
+                        <div style="color: #666; font-size: 0.9em;">Total Documents</div>
+                    </div>`;
+                    html += `<div style="padding: 15px; background: #fff3e0; border-radius: 8px; border-left: 4px solid #ff9800;">
+                        <div style="font-size: 2em; font-weight: bold; color: #ff9800;">${data.library.pending_processing}</div>
+                        <div style="color: #666; font-size: 0.9em;">Pending Processing</div>
+                    </div>`;
+                    if (data.indexing && data.indexing.total_chunks_indexed) {
+                        html += `<div style="padding: 15px; background: #e3f2fd; border-radius: 8px; border-left: 4px solid #2196f3;">
+                            <div style="font-size: 2em; font-weight: bold; color: #2196f3;">${data.indexing.total_chunks_indexed}</div>
+                            <div style="color: #666; font-size: 0.9em;">Indexed Chunks</div>
+                        </div>`;
+                    }
+                    html += `</div>`;
+                    
+                    if (data.library.recent_documents && data.library.recent_documents.length > 0) {
+                        html += `<div style="margin-top: 20px;">`;
+                        html += `<h5 style="color: #2c5f2d; margin-bottom: 10px;">Recent Documents:</h5>`;
+                        html += `<ul style="list-style: none; padding: 0;">`;
+                        data.library.recent_documents.slice(0, 5).forEach(doc => {
+                            html += `<li style="padding: 8px; margin: 5px 0; background: #f5f5f5; border-radius: 5px;">📄 ${doc}</li>`;
+                        });
+                        html += `</ul>`;
+                        html += `</div>`;
+                    }
+                }
+                
+                if (data.indexing) {
+                    html += `<div style="margin-top: 20px; padding-top: 20px; border-top: 1px solid #ddd;">`;
+                    html += `<h5 style="color: #2c5f2d; margin-bottom: 10px;">Indexing Status:</h5>`;
+                    html += `<p><strong>Indexed Documents:</strong> ${data.indexing.successful_indexing || 0}</p>`;
+                    html += `<p><strong>Database:</strong> ${data.indexing.database_type || 'N/A'}</p>`;
+                    html += `</div>`;
+                }
+                
+                html += `</div>`;
+                statusDiv.innerHTML = html;
+            } catch (error) {
+                statusDiv.innerHTML = `<div style="padding: 15px; background: #ffebee; border: 1px solid #f5c6cb; border-radius: 5px; color: #721c24;">
+                    <strong>Error:</strong> ${error.message}
+                </div>`;
+            }
+        }
+
+
+        async function uploadDocumentFromChat(uploadId) {
+            const fileInput = document.getElementById(uploadId + '-file');
+            const autoIndex = document.getElementById(uploadId + '-autoindex').checked;
+            const statusDiv = document.getElementById(uploadId + '-status');
+
+            if (!fileInput.files || fileInput.files.length === 0) {
+                statusDiv.innerHTML = '<p style="color: red; padding: 10px; background: #ffebee; border-radius: 5px;">⚠️ Please select a file to upload</p>';
+                return;
+            }
+
+            const file = fileInput.files[0];
+            statusDiv.innerHTML = '<p style="padding: 10px; background: #e3f2fd; border-radius: 5px; color: #1976d2;">⏳ Uploading and processing document... This may take a moment.</p>';
+
+            try {
+                const formData = new FormData();
+                formData.append('file', file);
+                formData.append('auto_index', autoIndex);
+
+                const response = await fetch(`${API_BASE}/api/upload-document`, {
+                    method: 'POST',
+                    body: formData
+                });
+
+                const data = await response.json();
+                
+                if (data.success) {
+                    let html = `<div style="padding: 15px; background: #d4edda; border: 1px solid #c3e6cb; border-radius: 5px; color: #155724;">
+                        <h4 style="margin-top: 0; color: #155724;">✓ Upload Successful!</h4>
+                        <p><strong>File:</strong> ${file.name}</p>`;
+                    
+                    if (data.stages) {
+                        html += `<p><strong>Processing Stages:</strong></p><ul style="margin: 10px 0; padding-left: 20px;">`;
+                        for (const [stage, status] of Object.entries(data.stages)) {
+                            html += `<li>${stage}: ${status ? '✓' : '✗'}</li>`;
+                        }
+                        html += `</ul>`;
+                    }
+                    
+                    if (data.index_result && data.index_result.success) {
+                        html += `<p style="margin-top: 10px; padding-top: 10px; border-top: 1px solid #c3e6cb;"><strong>✓ Document indexed to Milvus successfully!</strong></p>`;
+                    }
+                    
+                    html += `<p style="margin-top: 10px; font-size: 0.9em; color: #666;">The document is now available in the knowledge library and can be retrieved by the RAG system.</p>`;
+                    html += `</div>`;
+                    statusDiv.innerHTML = html;
+                } else {
+                    statusDiv.innerHTML = `<div style="padding: 15px; background: #f8d7da; border: 1px solid #f5c6cb; border-radius: 5px; color: #721c24;">
+                        <strong>✗ Upload Failed:</strong> ${data.error || 'Unknown error'}
+                    </div>`;
+                }
+            } catch (error) {
+                statusDiv.innerHTML = `<div style="padding: 15px; background: #f8d7da; border: 1px solid #f5c6cb; border-radius: 5px; color: #721c24;">
+                    <strong>✗ Error:</strong> ${error.message}
+                </div>`;
+            }
+        }
+
+        async function uploadDocument() {
+            const fileInput = document.getElementById('document-upload');
+            const autoIndex = document.getElementById('auto-index').checked;
+            const statusDiv = document.getElementById('upload-status');
+
+            if (!fileInput.files || fileInput.files.length === 0) {
+                statusDiv.innerHTML = '<p style="color: red;">Please select a file to upload</p>';
+                return;
+            }
+
+            const file = fileInput.files[0];
+            statusDiv.innerHTML = '<p>Uploading and processing document...</p>';
+
+            try {
+                const formData = new FormData();
+                formData.append('file', file);
+                formData.append('auto_index', autoIndex);
+
+                const response = await fetch(`${API_BASE}/api/upload-document`, {
+                    method: 'POST',
+                    body: formData
+                });
+
+                const data = await response.json();
+
+                if (data.success) {
+                    let html = `<div style="padding: 15px; background: #d4edda; border: 1px solid #c3e6cb; border-radius: 5px; color: #155724;">
+                        <h4 style="margin-top: 0; color: #155724;">✓ Document Processed Successfully!</h4>
+                        <p><strong>File:</strong> ${data.file}</p>
+                        <p><strong>JSON File:</strong> ${data.json_file}</p>`;
+                    
+                    if (data.stages) {
+                        html += `<p><strong>Processing Stages:</strong></p><ul>`;
+                        for (const [stage, info] of Object.entries(data.stages)) {
+                            if (info.success) {
+                                html += `<li>${stage}: ✓ Success`;
+                                if (info.pages) html += ` (${info.pages} pages)`;
+                                if (info.text_length) html += ` (${info.text_length} chars)`;
+                                html += `</li>`;
+                            }
+                        }
+                        html += `</ul>`;
+                    }
+                    
+                    if (data.index_rebuilt) {
+                        html += `<p><strong>Index:</strong> ${data.index_result ? '✓ Rebuilt' : '⚠ Rebuild attempted'}</p>`;
+                    }
+                    
+                    html += `</div>`;
+                    statusDiv.innerHTML = html;
+                    
+                    // Clear file input
+                    fileInput.value = '';
+                    
+                    // Refresh library status
+                    setTimeout(() => {
+                        loadLibraryStatus();
+                    }, 1000);
+                } else {
+                    statusDiv.innerHTML = `<div style="padding: 15px; background: #f8d7da; border: 1px solid #f5c6cb; border-radius: 5px; color: #721c24;">
+                        <h4 style="margin-top: 0; color: #721c24;">✗ Processing Failed</h4>
+                        <p><strong>Error:</strong> ${data.error || 'Unknown error'}</p>
+                    </div>`;
+                }
+            } catch (error) {
+                statusDiv.innerHTML = `<div style="padding: 15px; background: #f8d7da; border: 1px solid #f5c6cb; border-radius: 5px; color: #721c24;">
+                    <h4 style="margin-top: 0; color: #721c24;">✗ Upload Failed</h4>
+                    <p><strong>Error:</strong> ${error.message}</p>
+                </div>`;
+            }
+        }
+
+
+        function toggleResultText(resultId) {
+            const previewDiv = document.getElementById(`${resultId}-preview`);
+            const fullDiv = document.getElementById(`${resultId}-full`);
+            
+            if (previewDiv && fullDiv) {
+                if (previewDiv.style.display === 'none') {
+                    // Show preview, hide full
+                    previewDiv.style.display = 'block';
+                    fullDiv.style.display = 'none';
+                } else {
+                    // Show full, hide preview
+                    previewDiv.style.display = 'none';
+                    fullDiv.style.display = 'block';
+                }
+            }
+        }
+        
+        function toggleSources(sourcesId) {
+            const fullDiv = document.getElementById(`${sourcesId}-full`);
+            const btn = document.getElementById(`${sourcesId}-btn`);
+            
+            if (fullDiv && btn) {
+                if (fullDiv.style.display === 'none' || fullDiv.style.display === '') {
+                    // Show sources
+                    fullDiv.style.display = 'block';
+                    btn.textContent = btn.textContent.replace('View', 'Hide');
+                } else {
+                    // Hide sources
+                    fullDiv.style.display = 'none';
+                    btn.textContent = btn.textContent.replace('Hide', 'View');
+                }
+            }
+        }
+
+        window.onload = function() {
+            // Initialize on page load if needed
+        };
+    </script>
+</body>
+</html>

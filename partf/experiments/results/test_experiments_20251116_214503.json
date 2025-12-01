@@ -1,0 +1,350 @@
+{
+  "metadata": {
+    "started": "2025-11-16T21:45:01.667946",
+    "llm_model": "gemini-2.0-flash"
+  },
+  "experiments": {
+    "prompt_variants_qa": {
+      "task": "qa",
+      "variants": [
+        "basic",
+        "contextual",
+        "chain_of_thought",
+        "structured",
+        "with_confidence"
+      ],
+      "test_cases": [
+        {
+          "input": {
+            "question": "What is renewable energy?"
+          },
+          "prompt": "Question: What is renewable energy?\n\nAnswer:",
+          "expected_output": "renewable energy is energy from sources that replenish naturally"
+        },
+        {
+          "input": {
+            "question": "How does composting help the environment?"
+          },
+          "prompt": "Question: How does composting help the environment?\n\nAnswer:",
+          "expected_output": "composting reduces waste reduces methane soil enrichment"
+        }
+      ],
+      "variant_results": {
+        "basic": [
+          {
+            "success": false,
+            "error": "Prompt generation failed: Missing parameter 'topic' for prompt qa/basic"
+          },
+          {
+            "success": false,
+            "error": "Prompt generation failed: Missing parameter 'topic' for prompt qa/basic"
+          }
+        ],
+        "contextual": [
+          {
+            "success": false,
+            "error": "Prompt generation failed: Missing parameter 'context' for prompt qa/contextual"
+          },
+          {
+            "success": false,
+            "error": "Prompt generation failed: Missing parameter 'context' for prompt qa/contextual"
+          }
+        ],
+        "chain_of_thought": [
+          {
+            "success": true,
+            "task": "qa",
+            "variant": "chain_of_thought",
+            "prompt": "You are an expert in Environmental Sustainability.\n\nQuestion: What is renewable energy?\n\nLet's think step by step:\n1. First, understand what is being asked\n2. Identify the key concepts involved\n3. Connect relevant information\n4. Provide a comprehensive answer\n\nAnswer:",
+            "output": "Error generating response: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 15, model: gemini-2.0-flash\nPlease retry in 58.080291532s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.0-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 15\n}\n, retry_delay {\n  seconds: 58\n}\n]",
+            "execution_time": 0.33335185050964355,
+            "temperature": 0.7,
+            "max_tokens": 1000,
+            "timestamp": "2025-11-16T21:45:02.001436",
+            "match_score": 0.0
+          },
+          {
+            "success": true,
+            "task": "qa",
+            "variant": "chain_of_thought",
+            "prompt": "You are an expert in Environmental Sustainability.\n\nQuestion: How does composting help the environment?\n\nLet's think step by step:\n1. First, understand what is being asked\n2. Identify the key concepts involved\n3. Connect relevant information\n4. Provide a comprehensive answer\n\nAnswer:",
+            "output": "Error generating response: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 15, model: gemini-2.0-flash\nPlease retry in 57.998185418s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.0-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 15\n}\n, retry_delay {\n  seconds: 57\n}\n]",
+            "execution_time": 0.08089160919189453,
+            "temperature": 0.7,
+            "max_tokens": 1000,
+            "timestamp": "2025-11-16T21:45:02.082430",
+            "match_score": 0.0
+          }
+        ],
+        "structured": [
+          {
+            "success": true,
+            "task": "qa",
+            "variant": "structured",
+            "prompt": "Question: What is renewable energy?\n\nProvide a structured answer in the following format:\n\n**Overview**: Brief 1-2 sentence overview\n\n**Key Points**:\n- Point 1\n- Point 2\n- Point 3\n\n**Explanation**: Detailed explanation\n\n**Actionable Insights**: What can be done about this\n\nAnswer:",
+            "output": "Error generating response: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 15, model: gemini-2.0-flash\nPlease retry in 57.805848983s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.0-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 15\n}\n, retry_delay {\n  seconds: 57\n}\n]",
+            "execution_time": 0.19475293159484863,
+            "temperature": 0.7,
+            "max_tokens": 1000,
+            "timestamp": "2025-11-16T21:45:02.277306",
+            "match_score": 0.0
+          },
+          {
+            "success": true,
+            "task": "qa",
+            "variant": "structured",
+            "prompt": "Question: How does composting help the environment?\n\nProvide a structured answer in the following format:\n\n**Overview**: Brief 1-2 sentence overview\n\n**Key Points**:\n- Point 1\n- Point 2\n- Point 3\n\n**Explanation**: Detailed explanation\n\n**Actionable Insights**: What can be done about this\n\nAnswer:",
+            "output": "Error generating response: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 15, model: gemini-2.0-flash\nPlease retry in 57.72886704s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.0-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 15\n}\n, retry_delay {\n  seconds: 57\n}\n]",
+            "execution_time": 0.07298827171325684,
+            "temperature": 0.7,
+            "max_tokens": 1000,
+            "timestamp": "2025-11-16T21:45:02.350348",
+            "match_score": 0.0
+          }
+        ],
+        "with_confidence": [
+          {
+            "success": true,
+            "task": "qa",
+            "variant": "with_confidence",
+            "prompt": "Question: What is renewable energy?\n\nAnswer this question and indicate your confidence level (High/Medium/Low).\n\nFormat:\nAnswer: [your answer]\nConfidence: [High/Medium/Low]\nReasoning: [why this confidence level]\n\nResponse:",
+            "output": "Error generating response: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 15, model: gemini-2.0-flash\nPlease retry in 57.550187984s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.0-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 15\n}\n, retry_delay {\n  seconds: 57\n}\n]",
+            "execution_time": 0.18290066719055176,
+            "temperature": 0.7,
+            "max_tokens": 1000,
+            "timestamp": "2025-11-16T21:45:02.533316",
+            "match_score": 0.0
+          },
+          {
+            "success": true,
+            "task": "qa",
+            "variant": "with_confidence",
+            "prompt": "Question: How does composting help the environment?\n\nAnswer this question and indicate your confidence level (High/Medium/Low).\n\nFormat:\nAnswer: [your answer]\nConfidence: [High/Medium/Low]\nReasoning: [why this confidence level]\n\nResponse:",
+            "output": "Error generating response: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 15, model: gemini-2.0-flash\nPlease retry in 57.471832332s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.0-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 15\n}\n, retry_delay {\n  seconds: 57\n}\n]",
+            "execution_time": 0.07577776908874512,
+            "temperature": 0.7,
+            "max_tokens": 1000,
+            "timestamp": "2025-11-16T21:45:02.609150",
+            "match_score": 0.0
+          }
+        ]
+      },
+      "summary": {
+        "basic": {
+          "success_rate": 0.0,
+          "avg_execution_time": 0,
+          "avg_match_score": 0
+        },
+        "contextual": {
+          "success_rate": 0.0,
+          "avg_execution_time": 0,
+          "avg_match_score": 0
+        },
+        "chain_of_thought": {
+          "success_rate": 1.0,
+          "avg_execution_time": 0.20712172985076904,
+          "avg_match_score": 0.0
+        },
+        "structured": {
+          "success_rate": 1.0,
+          "avg_execution_time": 0.13387060165405273,
+          "avg_match_score": 0.0
+        },
+        "with_confidence": {
+          "success_rate": 1.0,
+          "avg_execution_time": 0.12933921813964844,
+          "avg_match_score": 0.0
+        }
+      },
+      "best_variant": {
+        "name": "chain_of_thought",
+        "metrics": {
+          "success_rate": 1.0,
+          "avg_execution_time": 0.20712172985076904,
+          "avg_match_score": 0.0
+        }
+      }
+    },
+    "few_shot_qa": {
+      "task": "qa",
+      "shot_counts": [
+        0,
+        1,
+        3
+      ],
+      "results": {
+        "0": {
+          "success_rate": 1.0,
+          "avg_time": 0.1368318796157837,
+          "results": [
+            {
+              "success": true,
+              "task": "qa",
+              "num_shots": 0,
+              "prompt": "Here are some examples:\n\n\nNow process this input:\nInput: {'question': 'What is renewable energy?'}\nOutput:",
+              "output": "Error generating response: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 15, model: gemini-2.0-flash\nPlease retry in 57.286395911s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.0-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 15\n}\n, retry_delay {\n  seconds: 57\n}\n]",
+              "execution_time": 0.18749523162841797,
+              "timestamp": "2025-11-16T21:45:02.796958",
+              "match_score": 0.0
+            },
+            {
+              "success": true,
+              "task": "qa",
+              "num_shots": 0,
+              "prompt": "Here are some examples:\n\n\nNow process this input:\nInput: {'question': 'How does composting help the environment?'}\nOutput:",
+              "output": "Error generating response: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 15, model: gemini-2.0-flash\nPlease retry in 57.200299886s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.0-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 15\n}\n, retry_delay {\n  seconds: 57\n}\n]",
+              "execution_time": 0.08616852760314941,
+              "timestamp": "2025-11-16T21:45:02.883167",
+              "match_score": 0.0
+            }
+          ]
+        },
+        "1": {
+          "success_rate": 1.0,
+          "avg_time": 0.12665033340454102,
+          "results": [
+            {
+              "success": true,
+              "task": "qa",
+              "num_shots": 1,
+              "prompt": "Here are some examples:\n\n\nExample 1:\nInput: What is renewable energy?\nOutput: Renewable energy is energy derived from natural sources that replenish themselves over short periods of time, such as solar radiation, wind, rain, tides, and geothermal heat. Unlike fossil fuels, which take millions of years to form, renewable energy sources are naturally and continuously renewed. The key advantage is that they produce little to no greenhouse gas emissions, making them crucial for combating climate change. Common types include solar power (from sunlight), wind power (from air movement), hydroelectric power (from flowing water), geothermal energy (from Earth's heat), and biomass energy (from organic materials).\n\n\nNow process this input:\nInput: {'question': 'What is renewable energy?'}\nOutput:",
+              "output": "Error generating response: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 15, model: gemini-2.0-flash\nPlease retry in 57.041320766s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.0-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 15\n}\n, retry_delay {\n  seconds: 57\n}\n]",
+              "execution_time": 0.15884804725646973,
+              "timestamp": "2025-11-16T21:45:03.042140",
+              "match_score": 0.0
+            },
+            {
+              "success": true,
+              "task": "qa",
+              "num_shots": 1,
+              "prompt": "Here are some examples:\n\n\nExample 1:\nInput: What is renewable energy?\nOutput: Renewable energy is energy derived from natural sources that replenish themselves over short periods of time, such as solar radiation, wind, rain, tides, and geothermal heat. Unlike fossil fuels, which take millions of years to form, renewable energy sources are naturally and continuously renewed. The key advantage is that they produce little to no greenhouse gas emissions, making them crucial for combating climate change. Common types include solar power (from sunlight), wind power (from air movement), hydroelectric power (from flowing water), geothermal energy (from Earth's heat), and biomass energy (from organic materials).\n\n\nNow process this input:\nInput: {'question': 'How does composting help the environment?'}\nOutput:",
+              "output": "Error generating response: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 15, model: gemini-2.0-flash\nPlease retry in 56.946583617s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.0-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 15\n}\n, retry_delay {\n  seconds: 56\n}\n]",
+              "execution_time": 0.0944526195526123,
+              "timestamp": "2025-11-16T21:45:03.136658",
+              "match_score": 0.0
+            }
+          ]
+        },
+        "3": {
+          "success_rate": 1.0,
+          "avg_time": 0.13754940032958984,
+          "results": [
+            {
+              "success": true,
+              "task": "qa",
+              "num_shots": 3,
+              "prompt": "Here are some examples:\n\n\nExample 1:\nInput: What is renewable energy?\nOutput: Renewable energy is energy derived from natural sources that replenish themselves over short periods of time, such as solar radiation, wind, rain, tides, and geothermal heat. Unlike fossil fuels, which take millions of years to form, renewable energy sources are naturally and continuously renewed. The key advantage is that they produce little to no greenhouse gas emissions, making them crucial for combating climate change. Common types include solar power (from sunlight), wind power (from air movement), hydroelectric power (from flowing water), geothermal energy (from Earth's heat), and biomass energy (from organic materials).\n\n\nExample 2:\nInput: How does composting help the environment?\nOutput: Composting benefits the environment in several ways: (1) It reduces landfill waste by diverting organic materials that would otherwise decompose anaerobically and produce methane, a potent greenhouse gas. (2) It creates nutrient-rich soil amendment that reduces the need for chemical fertilizers, which require significant energy to produce and can pollute waterways. (3) Compost-enriched soil retains more water, reducing irrigation needs. (4) It supports soil biodiversity by providing habitat for beneficial microorganisms. (5) By completing the natural nutrient cycle, composting reduces our carbon footprint and supports sustainable agriculture.\n\n\nExample 3:\nInput: What causes ocean acidification?\nOutput: Ocean acidification is primarily caused by the ocean's absorption of excess carbon dioxide (CO2) from the atmosphere. When CO2 dissolves in seawater, it forms carbonic acid, which lowers the ocean's pH level, making it more acidic. Since the Industrial Revolution, the ocean has absorbed about 30% of human-produced CO2 emissions. This process reduces the availability of carbonate ions, which marine organisms like corals, mollusks, and some plankton need to build their calcium carbonate shells and skeletons. The current rate of acidification is approximately 10 times faster than any period in the last 55 million years, posing severe threats to marine ecosystems and the food chains that depend on them.\n\n\nNow process this input:\nInput: {'question': 'What is renewable energy?'}\nOutput:",
+              "output": "Error generating response: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 15, model: gemini-2.0-flash\nPlease retry in 56.785667559s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.0-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 15\n}\n, retry_delay {\n  seconds: 56\n}\n]",
+              "execution_time": 0.15897583961486816,
+              "timestamp": "2025-11-16T21:45:03.295769",
+              "match_score": 0.0
+            },
+            {
+              "success": true,
+              "task": "qa",
+              "num_shots": 3,
+              "prompt": "Here are some examples:\n\n\nExample 1:\nInput: What is renewable energy?\nOutput: Renewable energy is energy derived from natural sources that replenish themselves over short periods of time, such as solar radiation, wind, rain, tides, and geothermal heat. Unlike fossil fuels, which take millions of years to form, renewable energy sources are naturally and continuously renewed. The key advantage is that they produce little to no greenhouse gas emissions, making them crucial for combating climate change. Common types include solar power (from sunlight), wind power (from air movement), hydroelectric power (from flowing water), geothermal energy (from Earth's heat), and biomass energy (from organic materials).\n\n\nExample 2:\nInput: How does composting help the environment?\nOutput: Composting benefits the environment in several ways: (1) It reduces landfill waste by diverting organic materials that would otherwise decompose anaerobically and produce methane, a potent greenhouse gas. (2) It creates nutrient-rich soil amendment that reduces the need for chemical fertilizers, which require significant energy to produce and can pollute waterways. (3) Compost-enriched soil retains more water, reducing irrigation needs. (4) It supports soil biodiversity by providing habitat for beneficial microorganisms. (5) By completing the natural nutrient cycle, composting reduces our carbon footprint and supports sustainable agriculture.\n\n\nExample 3:\nInput: What causes ocean acidification?\nOutput: Ocean acidification is primarily caused by the ocean's absorption of excess carbon dioxide (CO2) from the atmosphere. When CO2 dissolves in seawater, it forms carbonic acid, which lowers the ocean's pH level, making it more acidic. Since the Industrial Revolution, the ocean has absorbed about 30% of human-produced CO2 emissions. This process reduces the availability of carbonate ions, which marine organisms like corals, mollusks, and some plankton need to build their calcium carbonate shells and skeletons. The current rate of acidification is approximately 10 times faster than any period in the last 55 million years, posing severe threats to marine ecosystems and the food chains that depend on them.\n\n\nNow process this input:\nInput: {'question': 'How does composting help the environment?'}\nOutput:",
+              "output": "Error generating response: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 15, model: gemini-2.0-flash\nPlease retry in 56.669782521s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.0-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 15\n}\n, retry_delay {\n  seconds: 56\n}\n]",
+              "execution_time": 0.11612296104431152,
+              "timestamp": "2025-11-16T21:45:03.411968",
+              "match_score": 0.0
+            }
+          ]
+        }
+      },
+      "optimal_shot_count": {
+        "count": 0,
+        "success_rate": 1.0
+      }
+    },
+    "temperature_qa": {
+      "task": "qa",
+      "temperatures": [
+        0.3,
+        0.7
+      ],
+      "evaluations": {
+        "0.3": {
+          "task": "qa",
+          "config": {
+            "temperature": 0.3,
+            "max_tokens": 1000
+          },
+          "timestamp": "2025-11-16T21:45:03.673098",
+          "num_test_cases": 2,
+          "num_successful": 2,
+          "success_rate": 1.0,
+          "total_time": 0.26100659370422363,
+          "avg_execution_time": 0.13045823574066162,
+          "avg_output_length": 930.0,
+          "results": [
+            {
+              "test_case_id": 0,
+              "success": true,
+              "output": "Error generating response: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 15, model: gemini-2.0-flash\nPlease retry in 56.538983249s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.0-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 15\n}\n, retry_delay {\n  seconds: 56\n}\n]",
+              "execution_time": 0.12833309173583984,
+              "output_length": 930,
+              "token_count": 90,
+              "accuracy_score": 0.0,
+              "relevance_score": 0.0
+            },
+            {
+              "test_case_id": 1,
+              "success": true,
+              "output": "Error generating response: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 15, model: gemini-2.0-flash\nPlease retry in 56.408887322s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.0-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 15\n}\n, retry_delay {\n  seconds: 56\n}\n]",
+              "execution_time": 0.1325833797454834,
+              "output_length": 930,
+              "token_count": 90,
+              "accuracy_score": 0.0,
+              "relevance_score": 0.0
+            }
+          ],
+          "avg_accuracy": 0.0,
+          "avg_relevance": 0.0
+        },
+        "0.7": {
+          "task": "qa",
+          "config": {
+            "temperature": 0.7,
+            "max_tokens": 1000
+          },
+          "timestamp": "2025-11-16T21:45:03.918045",
+          "num_test_cases": 2,
+          "num_successful": 2,
+          "success_rate": 1.0,
+          "total_time": 0.24490976333618164,
+          "avg_execution_time": 0.12239706516265869,
+          "avg_output_length": 930.0,
+          "results": [
+            {
+              "test_case_id": 0,
+              "success": true,
+              "output": "Error generating response: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 15, model: gemini-2.0-flash\nPlease retry in 56.283186617s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.0-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 15\n}\n, retry_delay {\n  seconds: 56\n}\n]",
+              "execution_time": 0.12624049186706543,
+              "output_length": 930,
+              "token_count": 90,
+              "accuracy_score": 0.0,
+              "relevance_score": 0.0
+            },
+            {
+              "test_case_id": 1,
+              "success": true,
+              "output": "Error generating response: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 15, model: gemini-2.0-flash\nPlease retry in 56.161796948s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.0-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 15\n}\n, retry_delay {\n  seconds: 56\n}\n]",
+              "execution_time": 0.11855363845825195,
+              "output_length": 930,
+              "token_count": 90,
+              "accuracy_score": 0.0,
+              "relevance_score": 0.0
+            }
+          ],
+          "avg_accuracy": 0.0,
+          "avg_relevance": 0.0
+        }
+      },
+      "best_temperature": {
+        "value": 0.3,
+        "success_rate": 1.0
+      }
+    }
+  }
+}

@@ -1,0 +1,872 @@
+{
+  "metadata": {
+    "started": "2025-11-16T21:45:03.919121",
+    "llm_model": "gemini-2.0-flash",
+    "completed": "2025-11-16T21:45:37.853009"
+  },
+  "experiments": {
+    "prompt_variants_qa": {
+      "task": "qa",
+      "variants": [
+        "basic",
+        "contextual",
+        "chain_of_thought",
+        "structured",
+        "with_confidence"
+      ],
+      "test_cases": [
+        {
+          "input": {
+            "question": "What is renewable energy?"
+          },
+          "prompt": "Question: What is renewable energy?\n\nAnswer:",
+          "expected_output": "renewable energy is energy from sources that replenish naturally"
+        },
+        {
+          "input": {
+            "question": "How does composting help the environment?"
+          },
+          "prompt": "Question: How does composting help the environment?\n\nAnswer:",
+          "expected_output": "composting reduces waste reduces methane soil enrichment"
+        },
+        {
+          "input": {
+            "question": "What causes deforestation?"
+          },
+          "prompt": "Question: What causes deforestation?\n\nAnswer:",
+          "expected_output": "agriculture logging development cattle ranching"
+        }
+      ],
+      "variant_results": {
+        "basic": [
+          {
+            "success": false,
+            "error": "Prompt generation failed: Missing parameter 'topic' for prompt qa/basic"
+          },
+          {
+            "success": false,
+            "error": "Prompt generation failed: Missing parameter 'topic' for prompt qa/basic"
+          },
+          {
+            "success": false,
+            "error": "Prompt generation failed: Missing parameter 'topic' for prompt qa/basic"
+          }
+        ],
+        "contextual": [
+          {
+            "success": false,
+            "error": "Prompt generation failed: Missing parameter 'context' for prompt qa/contextual"
+          },
+          {
+            "success": false,
+            "error": "Prompt generation failed: Missing parameter 'context' for prompt qa/contextual"
+          },
+          {
+            "success": false,
+            "error": "Prompt generation failed: Missing parameter 'context' for prompt qa/contextual"
+          }
+        ],
+        "chain_of_thought": [
+          {
+            "success": true,
+            "task": "qa",
+            "variant": "chain_of_thought",
+            "prompt": "You are an expert in Environmental Sustainability.\n\nQuestion: What is renewable energy?\n\nLet's think step by step:\n1. First, understand what is being asked\n2. Identify the key concepts involved\n3. Connect relevant information\n4. Provide a comprehensive answer\n\nAnswer:",
+            "output": "Error generating response: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 15, model: gemini-2.0-flash\nPlease retry in 55.845435322s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.0-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 15\n}\n, retry_delay {\n  seconds: 55\n}\n]",
+            "execution_time": 0.31780529022216797,
+            "temperature": 0.7,
+            "max_tokens": 1000,
+            "timestamp": "2025-11-16T21:45:04.237145",
+            "match_score": 0.0
+          },
+          {
+            "success": true,
+            "task": "qa",
+            "variant": "chain_of_thought",
+            "prompt": "You are an expert in Environmental Sustainability.\n\nQuestion: How does composting help the environment?\n\nLet's think step by step:\n1. First, understand what is being asked\n2. Identify the key concepts involved\n3. Connect relevant information\n4. Provide a comprehensive answer\n\nAnswer:",
+            "output": "Error generating response: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 15, model: gemini-2.0-flash\nPlease retry in 55.767443883s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.0-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 15\n}\n, retry_delay {\n  seconds: 55\n}\n]",
+            "execution_time": 0.07453370094299316,
+            "temperature": 0.7,
+            "max_tokens": 1000,
+            "timestamp": "2025-11-16T21:45:04.311784",
+            "match_score": 0.0
+          },
+          {
+            "success": true,
+            "task": "qa",
+            "variant": "chain_of_thought",
+            "prompt": "You are an expert in Environmental Sustainability.\n\nQuestion: What causes deforestation?\n\nLet's think step by step:\n1. First, understand what is being asked\n2. Identify the key concepts involved\n3. Connect relevant information\n4. Provide a comprehensive answer\n\nAnswer:",
+            "output": "Error generating response: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 15, model: gemini-2.0-flash\nPlease retry in 55.593519673s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.0-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 15\n}\n, retry_delay {\n  seconds: 55\n}\n]",
+            "execution_time": 0.17532873153686523,
+            "temperature": 0.7,
+            "max_tokens": 1000,
+            "timestamp": "2025-11-16T21:45:04.487196",
+            "match_score": 0.0
+          }
+        ],
+        "structured": [
+          {
+            "success": true,
+            "task": "qa",
+            "variant": "structured",
+            "prompt": "Question: What is renewable energy?\n\nProvide a structured answer in the following format:\n\n**Overview**: Brief 1-2 sentence overview\n\n**Key Points**:\n- Point 1\n- Point 2\n- Point 3\n\n**Explanation**: Detailed explanation\n\n**Actionable Insights**: What can be done about this\n\nAnswer:",
+            "output": "Error generating response: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 15, model: gemini-2.0-flash\nPlease retry in 55.519778752s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.0-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 15\n}\n, retry_delay {\n  seconds: 55\n}\n]",
+            "execution_time": 0.07697391510009766,
+            "temperature": 0.7,
+            "max_tokens": 1000,
+            "timestamp": "2025-11-16T21:45:04.564274",
+            "match_score": 0.0
+          },
+          {
+            "success": true,
+            "task": "qa",
+            "variant": "structured",
+            "prompt": "Question: How does composting help the environment?\n\nProvide a structured answer in the following format:\n\n**Overview**: Brief 1-2 sentence overview\n\n**Key Points**:\n- Point 1\n- Point 2\n- Point 3\n\n**Explanation**: Detailed explanation\n\n**Actionable Insights**: What can be done about this\n\nAnswer:",
+            "output": "Error generating response: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 15, model: gemini-2.0-flash\nPlease retry in 55.260291962s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.0-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 15\n}\n, retry_delay {\n  seconds: 55\n}\n]",
+            "execution_time": 0.2558426856994629,
+            "temperature": 0.7,
+            "max_tokens": 1000,
+            "timestamp": "2025-11-16T21:45:04.820184",
+            "match_score": 0.0
+          },
+          {
+            "success": true,
+            "task": "qa",
+            "variant": "structured",
+            "prompt": "Question: What causes deforestation?\n\nProvide a structured answer in the following format:\n\n**Overview**: Brief 1-2 sentence overview\n\n**Key Points**:\n- Point 1\n- Point 2\n- Point 3\n\n**Explanation**: Detailed explanation\n\n**Actionable Insights**: What can be done about this\n\nAnswer:",
+            "output": "Error generating response: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 15, model: gemini-2.0-flash\nPlease retry in 55.166598014s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.0-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 15\n}\n, retry_delay {\n  seconds: 55\n}\n]",
+            "execution_time": 0.09252524375915527,
+            "temperature": 0.7,
+            "max_tokens": 1000,
+            "timestamp": "2025-11-16T21:45:04.912756",
+            "match_score": 0.0
+          }
+        ],
+        "with_confidence": [
+          {
+            "success": true,
+            "task": "qa",
+            "variant": "with_confidence",
+            "prompt": "Question: What is renewable energy?\n\nAnswer this question and indicate your confidence level (High/Medium/Low).\n\nFormat:\nAnswer: [your answer]\nConfidence: [High/Medium/Low]\nReasoning: [why this confidence level]\n\nResponse:",
+            "output": "Error generating response: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 15, model: gemini-2.0-flash\nPlease retry in 55.005735076s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.0-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 15\n}\n, retry_delay {\n  seconds: 55\n}\n]",
+            "execution_time": 0.16416287422180176,
+            "temperature": 0.7,
+            "max_tokens": 1000,
+            "timestamp": "2025-11-16T21:45:05.076968",
+            "match_score": 0.0
+          },
+          {
+            "success": true,
+            "task": "qa",
+            "variant": "with_confidence",
+            "prompt": "Question: How does composting help the environment?\n\nAnswer this question and indicate your confidence level (High/Medium/Low).\n\nFormat:\nAnswer: [your answer]\nConfidence: [High/Medium/Low]\nReasoning: [why this confidence level]\n\nResponse:",
+            "output": "Error generating response: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 15, model: gemini-2.0-flash\nPlease retry in 54.909309989s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.0-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 15\n}\n, retry_delay {\n  seconds: 54\n}\n]",
+            "execution_time": 0.09601759910583496,
+            "temperature": 0.7,
+            "max_tokens": 1000,
+            "timestamp": "2025-11-16T21:45:05.173055",
+            "match_score": 0.0
+          },
+          {
+            "success": true,
+            "task": "qa",
+            "variant": "with_confidence",
+            "prompt": "Question: What causes deforestation?\n\nAnswer this question and indicate your confidence level (High/Medium/Low).\n\nFormat:\nAnswer: [your answer]\nConfidence: [High/Medium/Low]\nReasoning: [why this confidence level]\n\nResponse:",
+            "output": "Error generating response: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 15, model: gemini-2.0-flash\nPlease retry in 54.734678019s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.0-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 15\n}\n, retry_delay {\n  seconds: 54\n}\n]",
+            "execution_time": 0.1750812530517578,
+            "temperature": 0.7,
+            "max_tokens": 1000,
+            "timestamp": "2025-11-16T21:45:05.348206",
+            "match_score": 0.0
+          }
+        ]
+      },
+      "summary": {
+        "basic": {
+          "success_rate": 0.0,
+          "avg_execution_time": 0,
+          "avg_match_score": 0
+        },
+        "contextual": {
+          "success_rate": 0.0,
+          "avg_execution_time": 0,
+          "avg_match_score": 0
+        },
+        "chain_of_thought": {
+          "success_rate": 1.0,
+          "avg_execution_time": 0.1892225742340088,
+          "avg_match_score": 0.0
+        },
+        "structured": {
+          "success_rate": 1.0,
+          "avg_execution_time": 0.14178061485290527,
+          "avg_match_score": 0.0
+        },
+        "with_confidence": {
+          "success_rate": 1.0,
+          "avg_execution_time": 0.14508724212646484,
+          "avg_match_score": 0.0
+        }
+      },
+      "best_variant": {
+        "name": "chain_of_thought",
+        "metrics": {
+          "success_rate": 1.0,
+          "avg_execution_time": 0.1892225742340088,
+          "avg_match_score": 0.0
+        }
+      }
+    },
+    "few_shot_qa": {
+      "task": "qa",
+      "shot_counts": [
+        0,
+        1,
+        3,
+        5
+      ],
+      "results": {
+        "0": {
+          "success_rate": 1.0,
+          "avg_time": 0.12177268664042155,
+          "results": [
+            {
+              "success": true,
+              "task": "qa",
+              "num_shots": 0,
+              "prompt": "Here are some examples:\n\n\nNow process this input:\nInput: {'question': 'What is renewable energy?'}\nOutput:",
+              "output": "Error generating response: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 15, model: gemini-2.0-flash\nPlease retry in 54.637131228s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.0-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 15\n}\n, retry_delay {\n  seconds: 54\n}\n]",
+              "execution_time": 0.09577202796936035,
+              "timestamp": "2025-11-16T21:45:05.444153",
+              "match_score": 0.0
+            },
+            {
+              "success": true,
+              "task": "qa",
+              "num_shots": 0,
+              "prompt": "Here are some examples:\n\n\nNow process this input:\nInput: {'question': 'How does composting help the environment?'}\nOutput:",
+              "output": "Error generating response: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 15, model: gemini-2.0-flash\nPlease retry in 54.471824799s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.0-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 15\n}\n, retry_delay {\n  seconds: 54\n}\n]",
+              "execution_time": 0.16682004928588867,
+              "timestamp": "2025-11-16T21:45:05.611041",
+              "match_score": 0.0
+            },
+            {
+              "success": true,
+              "task": "qa",
+              "num_shots": 0,
+              "prompt": "Here are some examples:\n\n\nNow process this input:\nInput: {'question': 'What causes deforestation?'}\nOutput:",
+              "output": "Error generating response: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 15, model: gemini-2.0-flash\nPlease retry in 54.368240647s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.0-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 15\n}\n, retry_delay {\n  seconds: 54\n}\n]",
+              "execution_time": 0.10272598266601562,
+              "timestamp": "2025-11-16T21:45:05.713801",
+              "match_score": 0.0
+            }
+          ]
+        },
+        "1": {
+          "success_rate": 1.0,
+          "avg_time": 0.14370226860046387,
+          "results": [
+            {
+              "success": true,
+              "task": "qa",
+              "num_shots": 1,
+              "prompt": "Here are some examples:\n\n\nExample 1:\nInput: What is renewable energy?\nOutput: Renewable energy is energy derived from natural sources that replenish themselves over short periods of time, such as solar radiation, wind, rain, tides, and geothermal heat. Unlike fossil fuels, which take millions of years to form, renewable energy sources are naturally and continuously renewed. The key advantage is that they produce little to no greenhouse gas emissions, making them crucial for combating climate change. Common types include solar power (from sunlight), wind power (from air movement), hydroelectric power (from flowing water), geothermal energy (from Earth's heat), and biomass energy (from organic materials).\n\n\nNow process this input:\nInput: {'question': 'What is renewable energy?'}\nOutput:",
+              "output": "Error generating response: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 15, model: gemini-2.0-flash\nPlease retry in 54.213640687s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.0-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 15\n}\n, retry_delay {\n  seconds: 54\n}\n]",
+              "execution_time": 0.15220355987548828,
+              "timestamp": "2025-11-16T21:45:05.866077",
+              "match_score": 0.0
+            },
+            {
+              "success": true,
+              "task": "qa",
+              "num_shots": 1,
+              "prompt": "Here are some examples:\n\n\nExample 1:\nInput: What is renewable energy?\nOutput: Renewable energy is energy derived from natural sources that replenish themselves over short periods of time, such as solar radiation, wind, rain, tides, and geothermal heat. Unlike fossil fuels, which take millions of years to form, renewable energy sources are naturally and continuously renewed. The key advantage is that they produce little to no greenhouse gas emissions, making them crucial for combating climate change. Common types include solar power (from sunlight), wind power (from air movement), hydroelectric power (from flowing water), geothermal energy (from Earth's heat), and biomass energy (from organic materials).\n\n\nNow process this input:\nInput: {'question': 'How does composting help the environment?'}\nOutput:",
+              "output": "Error generating response: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 15, model: gemini-2.0-flash\nPlease retry in 54.129103793s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.0-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 15\n}\n, retry_delay {\n  seconds: 54\n}\n]",
+              "execution_time": 0.08505034446716309,
+              "timestamp": "2025-11-16T21:45:05.951170",
+              "match_score": 0.0
+            },
+            {
+              "success": true,
+              "task": "qa",
+              "num_shots": 1,
+              "prompt": "Here are some examples:\n\n\nExample 1:\nInput: What is renewable energy?\nOutput: Renewable energy is energy derived from natural sources that replenish themselves over short periods of time, such as solar radiation, wind, rain, tides, and geothermal heat. Unlike fossil fuels, which take millions of years to form, renewable energy sources are naturally and continuously renewed. The key advantage is that they produce little to no greenhouse gas emissions, making them crucial for combating climate change. Common types include solar power (from sunlight), wind power (from air movement), hydroelectric power (from flowing water), geothermal energy (from Earth's heat), and biomass energy (from organic materials).\n\n\nNow process this input:\nInput: {'question': 'What causes deforestation?'}\nOutput:",
+              "output": "Error generating response: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 15, model: gemini-2.0-flash\nPlease retry in 53.938683874s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.0-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 15\n}\n, retry_delay {\n  seconds: 53\n}\n]",
+              "execution_time": 0.19385290145874023,
+              "timestamp": "2025-11-16T21:45:06.145076",
+              "match_score": 0.0
+            }
+          ]
+        },
+        "3": {
+          "success_rate": 1.0,
+          "avg_time": 0.11675723393758138,
+          "results": [
+            {
+              "success": true,
+              "task": "qa",
+              "num_shots": 3,
+              "prompt": "Here are some examples:\n\n\nExample 1:\nInput: What is renewable energy?\nOutput: Renewable energy is energy derived from natural sources that replenish themselves over short periods of time, such as solar radiation, wind, rain, tides, and geothermal heat. Unlike fossil fuels, which take millions of years to form, renewable energy sources are naturally and continuously renewed. The key advantage is that they produce little to no greenhouse gas emissions, making them crucial for combating climate change. Common types include solar power (from sunlight), wind power (from air movement), hydroelectric power (from flowing water), geothermal energy (from Earth's heat), and biomass energy (from organic materials).\n\n\nExample 2:\nInput: How does composting help the environment?\nOutput: Composting benefits the environment in several ways: (1) It reduces landfill waste by diverting organic materials that would otherwise decompose anaerobically and produce methane, a potent greenhouse gas. (2) It creates nutrient-rich soil amendment that reduces the need for chemical fertilizers, which require significant energy to produce and can pollute waterways. (3) Compost-enriched soil retains more water, reducing irrigation needs. (4) It supports soil biodiversity by providing habitat for beneficial microorganisms. (5) By completing the natural nutrient cycle, composting reduces our carbon footprint and supports sustainable agriculture.\n\n\nExample 3:\nInput: What causes ocean acidification?\nOutput: Ocean acidification is primarily caused by the ocean's absorption of excess carbon dioxide (CO2) from the atmosphere. When CO2 dissolves in seawater, it forms carbonic acid, which lowers the ocean's pH level, making it more acidic. Since the Industrial Revolution, the ocean has absorbed about 30% of human-produced CO2 emissions. This process reduces the availability of carbonate ions, which marine organisms like corals, mollusks, and some plankton need to build their calcium carbonate shells and skeletons. The current rate of acidification is approximately 10 times faster than any period in the last 55 million years, posing severe threats to marine ecosystems and the food chains that depend on them.\n\n\nNow process this input:\nInput: {'question': 'What is renewable energy?'}\nOutput:",
+              "output": "Error generating response: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 15, model: gemini-2.0-flash\nPlease retry in 53.851357973s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.0-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 15\n}\n, retry_delay {\n  seconds: 53\n}\n]",
+              "execution_time": 0.08646678924560547,
+              "timestamp": "2025-11-16T21:45:06.231603",
+              "match_score": 0.0
+            },
+            {
+              "success": true,
+              "task": "qa",
+              "num_shots": 3,
+              "prompt": "Here are some examples:\n\n\nExample 1:\nInput: What is renewable energy?\nOutput: Renewable energy is energy derived from natural sources that replenish themselves over short periods of time, such as solar radiation, wind, rain, tides, and geothermal heat. Unlike fossil fuels, which take millions of years to form, renewable energy sources are naturally and continuously renewed. The key advantage is that they produce little to no greenhouse gas emissions, making them crucial for combating climate change. Common types include solar power (from sunlight), wind power (from air movement), hydroelectric power (from flowing water), geothermal energy (from Earth's heat), and biomass energy (from organic materials).\n\n\nExample 2:\nInput: How does composting help the environment?\nOutput: Composting benefits the environment in several ways: (1) It reduces landfill waste by diverting organic materials that would otherwise decompose anaerobically and produce methane, a potent greenhouse gas. (2) It creates nutrient-rich soil amendment that reduces the need for chemical fertilizers, which require significant energy to produce and can pollute waterways. (3) Compost-enriched soil retains more water, reducing irrigation needs. (4) It supports soil biodiversity by providing habitat for beneficial microorganisms. (5) By completing the natural nutrient cycle, composting reduces our carbon footprint and supports sustainable agriculture.\n\n\nExample 3:\nInput: What causes ocean acidification?\nOutput: Ocean acidification is primarily caused by the ocean's absorption of excess carbon dioxide (CO2) from the atmosphere. When CO2 dissolves in seawater, it forms carbonic acid, which lowers the ocean's pH level, making it more acidic. Since the Industrial Revolution, the ocean has absorbed about 30% of human-produced CO2 emissions. This process reduces the availability of carbonate ions, which marine organisms like corals, mollusks, and some plankton need to build their calcium carbonate shells and skeletons. The current rate of acidification is approximately 10 times faster than any period in the last 55 million years, posing severe threats to marine ecosystems and the food chains that depend on them.\n\n\nNow process this input:\nInput: {'question': 'How does composting help the environment?'}\nOutput:",
+              "output": "Error generating response: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 15, model: gemini-2.0-flash\nPlease retry in 53.679306593s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.0-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 15\n}\n, retry_delay {\n  seconds: 53\n}\n]",
+              "execution_time": 0.17025113105773926,
+              "timestamp": "2025-11-16T21:45:06.401933",
+              "match_score": 0.0
+            },
+            {
+              "success": true,
+              "task": "qa",
+              "num_shots": 3,
+              "prompt": "Here are some examples:\n\n\nExample 1:\nInput: What is renewable energy?\nOutput: Renewable energy is energy derived from natural sources that replenish themselves over short periods of time, such as solar radiation, wind, rain, tides, and geothermal heat. Unlike fossil fuels, which take millions of years to form, renewable energy sources are naturally and continuously renewed. The key advantage is that they produce little to no greenhouse gas emissions, making them crucial for combating climate change. Common types include solar power (from sunlight), wind power (from air movement), hydroelectric power (from flowing water), geothermal energy (from Earth's heat), and biomass energy (from organic materials).\n\n\nExample 2:\nInput: How does composting help the environment?\nOutput: Composting benefits the environment in several ways: (1) It reduces landfill waste by diverting organic materials that would otherwise decompose anaerobically and produce methane, a potent greenhouse gas. (2) It creates nutrient-rich soil amendment that reduces the need for chemical fertilizers, which require significant energy to produce and can pollute waterways. (3) Compost-enriched soil retains more water, reducing irrigation needs. (4) It supports soil biodiversity by providing habitat for beneficial microorganisms. (5) By completing the natural nutrient cycle, composting reduces our carbon footprint and supports sustainable agriculture.\n\n\nExample 3:\nInput: What causes ocean acidification?\nOutput: Ocean acidification is primarily caused by the ocean's absorption of excess carbon dioxide (CO2) from the atmosphere. When CO2 dissolves in seawater, it forms carbonic acid, which lowers the ocean's pH level, making it more acidic. Since the Industrial Revolution, the ocean has absorbed about 30% of human-produced CO2 emissions. This process reduces the availability of carbonate ions, which marine organisms like corals, mollusks, and some plankton need to build their calcium carbonate shells and skeletons. The current rate of acidification is approximately 10 times faster than any period in the last 55 million years, posing severe threats to marine ecosystems and the food chains that depend on them.\n\n\nNow process this input:\nInput: {'question': 'What causes deforestation?'}\nOutput:",
+              "output": "Error generating response: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 15, model: gemini-2.0-flash\nPlease retry in 53.588019425s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.0-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 15\n}\n, retry_delay {\n  seconds: 53\n}\n]",
+              "execution_time": 0.09355378150939941,
+              "timestamp": "2025-11-16T21:45:06.495541",
+              "match_score": 0.0
+            }
+          ]
+        },
+        "5": {
+          "success_rate": 1.0,
+          "avg_time": 0.14230108261108398,
+          "results": [
+            {
+              "success": true,
+              "task": "qa",
+              "num_shots": 5,
+              "prompt": "Here are some examples:\n\n\nExample 1:\nInput: What is renewable energy?\nOutput: Renewable energy is energy derived from natural sources that replenish themselves over short periods of time, such as solar radiation, wind, rain, tides, and geothermal heat. Unlike fossil fuels, which take millions of years to form, renewable energy sources are naturally and continuously renewed. The key advantage is that they produce little to no greenhouse gas emissions, making them crucial for combating climate change. Common types include solar power (from sunlight), wind power (from air movement), hydroelectric power (from flowing water), geothermal energy (from Earth's heat), and biomass energy (from organic materials).\n\n\nExample 2:\nInput: How does composting help the environment?\nOutput: Composting benefits the environment in several ways: (1) It reduces landfill waste by diverting organic materials that would otherwise decompose anaerobically and produce methane, a potent greenhouse gas. (2) It creates nutrient-rich soil amendment that reduces the need for chemical fertilizers, which require significant energy to produce and can pollute waterways. (3) Compost-enriched soil retains more water, reducing irrigation needs. (4) It supports soil biodiversity by providing habitat for beneficial microorganisms. (5) By completing the natural nutrient cycle, composting reduces our carbon footprint and supports sustainable agriculture.\n\n\nExample 3:\nInput: What causes ocean acidification?\nOutput: Ocean acidification is primarily caused by the ocean's absorption of excess carbon dioxide (CO2) from the atmosphere. When CO2 dissolves in seawater, it forms carbonic acid, which lowers the ocean's pH level, making it more acidic. Since the Industrial Revolution, the ocean has absorbed about 30% of human-produced CO2 emissions. This process reduces the availability of carbonate ions, which marine organisms like corals, mollusks, and some plankton need to build their calcium carbonate shells and skeletons. The current rate of acidification is approximately 10 times faster than any period in the last 55 million years, posing severe threats to marine ecosystems and the food chains that depend on them.\n\n\nNow process this input:\nInput: {'question': 'What is renewable energy?'}\nOutput:",
+              "output": "Error generating response: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 15, model: gemini-2.0-flash\nPlease retry in 53.415649363s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.0-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 15\n}\n, retry_delay {\n  seconds: 53\n}\n]",
+              "execution_time": 0.17117953300476074,
+              "timestamp": "2025-11-16T21:45:06.666802",
+              "match_score": 0.0
+            },
+            {
+              "success": true,
+              "task": "qa",
+              "num_shots": 5,
+              "prompt": "Here are some examples:\n\n\nExample 1:\nInput: What is renewable energy?\nOutput: Renewable energy is energy derived from natural sources that replenish themselves over short periods of time, such as solar radiation, wind, rain, tides, and geothermal heat. Unlike fossil fuels, which take millions of years to form, renewable energy sources are naturally and continuously renewed. The key advantage is that they produce little to no greenhouse gas emissions, making them crucial for combating climate change. Common types include solar power (from sunlight), wind power (from air movement), hydroelectric power (from flowing water), geothermal energy (from Earth's heat), and biomass energy (from organic materials).\n\n\nExample 2:\nInput: How does composting help the environment?\nOutput: Composting benefits the environment in several ways: (1) It reduces landfill waste by diverting organic materials that would otherwise decompose anaerobically and produce methane, a potent greenhouse gas. (2) It creates nutrient-rich soil amendment that reduces the need for chemical fertilizers, which require significant energy to produce and can pollute waterways. (3) Compost-enriched soil retains more water, reducing irrigation needs. (4) It supports soil biodiversity by providing habitat for beneficial microorganisms. (5) By completing the natural nutrient cycle, composting reduces our carbon footprint and supports sustainable agriculture.\n\n\nExample 3:\nInput: What causes ocean acidification?\nOutput: Ocean acidification is primarily caused by the ocean's absorption of excess carbon dioxide (CO2) from the atmosphere. When CO2 dissolves in seawater, it forms carbonic acid, which lowers the ocean's pH level, making it more acidic. Since the Industrial Revolution, the ocean has absorbed about 30% of human-produced CO2 emissions. This process reduces the availability of carbonate ions, which marine organisms like corals, mollusks, and some plankton need to build their calcium carbonate shells and skeletons. The current rate of acidification is approximately 10 times faster than any period in the last 55 million years, posing severe threats to marine ecosystems and the food chains that depend on them.\n\n\nNow process this input:\nInput: {'question': 'How does composting help the environment?'}\nOutput:",
+              "output": "Error generating response: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 15, model: gemini-2.0-flash\nPlease retry in 53.328899909s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.0-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 15\n}\n, retry_delay {\n  seconds: 53\n}\n]",
+              "execution_time": 0.08387207984924316,
+              "timestamp": "2025-11-16T21:45:06.750742",
+              "match_score": 0.0
+            },
+            {
+              "success": true,
+              "task": "qa",
+              "num_shots": 5,
+              "prompt": "Here are some examples:\n\n\nExample 1:\nInput: What is renewable energy?\nOutput: Renewable energy is energy derived from natural sources that replenish themselves over short periods of time, such as solar radiation, wind, rain, tides, and geothermal heat. Unlike fossil fuels, which take millions of years to form, renewable energy sources are naturally and continuously renewed. The key advantage is that they produce little to no greenhouse gas emissions, making them crucial for combating climate change. Common types include solar power (from sunlight), wind power (from air movement), hydroelectric power (from flowing water), geothermal energy (from Earth's heat), and biomass energy (from organic materials).\n\n\nExample 2:\nInput: How does composting help the environment?\nOutput: Composting benefits the environment in several ways: (1) It reduces landfill waste by diverting organic materials that would otherwise decompose anaerobically and produce methane, a potent greenhouse gas. (2) It creates nutrient-rich soil amendment that reduces the need for chemical fertilizers, which require significant energy to produce and can pollute waterways. (3) Compost-enriched soil retains more water, reducing irrigation needs. (4) It supports soil biodiversity by providing habitat for beneficial microorganisms. (5) By completing the natural nutrient cycle, composting reduces our carbon footprint and supports sustainable agriculture.\n\n\nExample 3:\nInput: What causes ocean acidification?\nOutput: Ocean acidification is primarily caused by the ocean's absorption of excess carbon dioxide (CO2) from the atmosphere. When CO2 dissolves in seawater, it forms carbonic acid, which lowers the ocean's pH level, making it more acidic. Since the Industrial Revolution, the ocean has absorbed about 30% of human-produced CO2 emissions. This process reduces the availability of carbonate ions, which marine organisms like corals, mollusks, and some plankton need to build their calcium carbonate shells and skeletons. The current rate of acidification is approximately 10 times faster than any period in the last 55 million years, posing severe threats to marine ecosystems and the food chains that depend on them.\n\n\nNow process this input:\nInput: {'question': 'What causes deforestation?'}\nOutput:",
+              "output": "Error generating response: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 15, model: gemini-2.0-flash\nPlease retry in 53.159046469s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.0-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 15\n}\n, retry_delay {\n  seconds: 53\n}\n]",
+              "execution_time": 0.17185163497924805,
+              "timestamp": "2025-11-16T21:45:06.922628",
+              "match_score": 0.0
+            }
+          ]
+        }
+      },
+      "optimal_shot_count": {
+        "count": 0,
+        "success_rate": 1.0
+      }
+    },
+    "temperature_qa": {
+      "task": "qa",
+      "temperatures": [
+        0.3,
+        0.5,
+        0.7,
+        0.9
+      ],
+      "evaluations": {
+        "0.3": {
+          "task": "qa",
+          "config": {
+            "temperature": 0.3,
+            "max_tokens": 1000
+          },
+          "timestamp": "2025-11-16T21:45:10.349680",
+          "num_test_cases": 3,
+          "num_successful": 3,
+          "success_rate": 1.0,
+          "total_time": 3.4269614219665527,
+          "avg_execution_time": 1.1422584851582844,
+          "avg_output_length": 1178.6666666666667,
+          "results": [
+            {
+              "test_case_id": 0,
+              "success": true,
+              "output": "Error generating response: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 15, model: gemini-2.0-flash\nPlease retry in 53.070030734s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.0-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 15\n}\n, retry_delay {\n  seconds: 53\n}\n]",
+              "execution_time": 0.09007096290588379,
+              "output_length": 930,
+              "token_count": 90,
+              "accuracy_score": 0.0,
+              "relevance_score": 0.0
+            },
+            {
+              "test_case_id": 1,
+              "success": true,
+              "output": "Error generating response: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 15, model: gemini-2.0-flash\nPlease retry in 52.914382933s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.0-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 15\n}\n, retry_delay {\n  seconds: 52\n}\n]",
+              "execution_time": 0.15467548370361328,
+              "output_length": 930,
+              "token_count": 90,
+              "accuracy_score": 0.0,
+              "relevance_score": 0.0
+            },
+            {
+              "test_case_id": 2,
+              "success": true,
+              "output": "Deforestation is caused by a complex interplay of factors, but here are some of the most significant:\n\n*   **Agriculture:** This is often the biggest driver. Clearing land for cattle ranching, growing crops (like soy, palm oil, and coffee), and subsistence farming all contribute to deforestation.\n\n*   **Logging:** Harvesting timber for construction, furniture, paper, and fuel is a major cause. Both legal and illegal logging operations contribute.\n\n*   **Mining:** Extracting minerals and resources often requires clearing large areas of forest.\n\n*   **Infrastructure Development:** Building roads, dams, and other infrastructure projects often involves clearing forests.\n\n*   **Urban Expansion:** As cities grow, they encroach on forested areas.\n\n*   **Wildfires:** While natural wildfires play a role in forest ecosystems, human-caused wildfires, often related to land clearing for agriculture, can be particularly destructive.\n\n*   **Climate Change:** Climate change can exacerbate deforestation by increasing the frequency and intensity of droughts, wildfires, and pest outbreaks, which can weaken or kill trees.\n\n*   **Poverty and Land Tenure Issues:** In some regions, poverty and lack of secure land rights can drive deforestation as people clear forests for survival or short-term economic gain.\n\n*   **Government Policies and Corruption:** Weak environmental regulations, corruption, and lack of enforcement can contribute to unsustainable logging and land clearing practices.\n\nIt's important to note that these factors are often interconnected. For example, demand for agricultural products in developed countries can drive deforestation in developing countries.\n",
+              "execution_time": 3.1820290088653564,
+              "output_length": 1676,
+              "token_count": 230,
+              "accuracy_score": 0.012422360248447204,
+              "relevance_score": 1.0
+            }
+          ],
+          "avg_accuracy": 0.004140786749482401,
+          "avg_relevance": 0.3333333333333333
+        },
+        "0.5": {
+          "task": "qa",
+          "config": {
+            "temperature": 0.5,
+            "max_tokens": 1000
+          },
+          "timestamp": "2025-11-16T21:45:16.944579",
+          "num_test_cases": 3,
+          "num_successful": 3,
+          "success_rate": 1.0,
+          "total_time": 6.594792604446411,
+          "avg_execution_time": 2.1981186866760254,
+          "avg_output_length": 1209.0,
+          "results": [
+            {
+              "test_case_id": 0,
+              "success": true,
+              "output": "Renewable energy is energy that comes from sources that are naturally replenished, such as sunlight, wind, rain, tides, and geothermal heat. These sources are essentially inexhaustible, unlike fossil fuels, which are finite resources.\n",
+              "execution_time": 0.9185068607330322,
+              "output_length": 235,
+              "token_count": 33,
+              "accuracy_score": 0.2413793103448276,
+              "relevance_score": 1.0
+            },
+            {
+              "test_case_id": 1,
+              "success": true,
+              "output": "Composting helps the environment in several significant ways:\n\n*   **Reduces Landfill Waste:** A large portion of household waste is organic material that can be composted. By diverting this material from landfills, we reduce the amount of space required for landfills and prolong their lifespan.\n\n*   **Lowers Greenhouse Gas Emissions:** When organic waste decomposes in landfills, it does so anaerobically (without oxygen), producing methane, a potent greenhouse gas. Composting, on the other hand, is an aerobic process that produces significantly less methane.\n\n*   **Enriches Soil:** Compost is a valuable soil amendment. It improves soil structure, aeration, and water retention. This helps plants grow healthier and reduces the need for chemical fertilizers.\n\n*   **Reduces the Need for Chemical Fertilizers:** Chemical fertilizers can pollute waterways and harm beneficial soil organisms. Compost provides a natural, slow-release source of nutrients for plants, reducing the reliance on synthetic fertilizers.\n\n*   **Conserves Water:** Compost helps soil retain moisture, reducing the need for frequent watering.\n\n*   **Supports Biodiversity:** Healthy soil, enriched with compost, supports a diverse range of beneficial soil organisms, which are essential for a healthy ecosystem.\n\n*   **Reduces the Need for Pesticides:** Healthy plants grown in compost-amended soil are more resistant to pests and diseases, reducing the need for pesticides.\n\nIn short, composting is a sustainable practice that reduces waste, lowers greenhouse gas emissions, improves soil health, and promotes a healthier environment overall.\n",
+              "execution_time": 2.4110867977142334,
+              "output_length": 1622,
+              "token_count": 227,
+              "accuracy_score": 0.027972027972027972,
+              "relevance_score": 0.8333333333333334
+            },
+            {
+              "test_case_id": 2,
+              "success": true,
+              "output": "Deforestation is caused by a complex interplay of factors, but here are some of the most significant:\n\n*   **Agriculture:** This is often the biggest driver. Land is cleared for cattle ranching, growing crops (like soybeans, palm oil, and corn), and subsistence farming.\n\n*   **Logging:** Trees are cut down for timber, paper production, and fuel (firewood and charcoal). While some logging is done sustainably, unsustainable practices contribute significantly to deforestation.\n\n*   **Mining:** Mining operations require clearing large areas of forest for access to minerals and resources. The construction of roads and infrastructure associated with mining also leads to deforestation.\n\n*   **Infrastructure Development:** The construction of roads, dams, and other infrastructure projects often involves clearing forests.\n\n*   **Urban Expansion:** As cities grow, forests are cleared to make way for housing, commercial buildings, and other urban developments.\n\n*   **Wildfires:** While natural wildfires play a role in forest ecosystems, human-caused wildfires, often linked to land clearing practices, can destroy vast areas of forest.\n\n*   **Climate Change:** Climate change can exacerbate deforestation. Droughts, increased temperatures, and changes in precipitation patterns can weaken forests, making them more susceptible to wildfires and pests.\n\n*   **Government Policies and Economics:** Government policies (or lack thereof) regarding land use, forestry, and environmental protection can influence deforestation rates. Economic factors, such as poverty and the demand for land and resources, also play a role.\n\nIt's important to note that these factors are often interconnected and can vary in importance depending on the region and specific circumstances.\n",
+              "execution_time": 3.2647624015808105,
+              "output_length": 1770,
+              "token_count": 245,
+              "accuracy_score": 0.012048192771084338,
+              "relevance_score": 1.0
+            }
+          ],
+          "avg_accuracy": 0.09379984369597998,
+          "avg_relevance": 0.9444444444444445
+        },
+        "0.7": {
+          "task": "qa",
+          "config": {
+            "temperature": 0.7,
+            "max_tokens": 1000
+          },
+          "timestamp": "2025-11-16T21:45:23.632900",
+          "num_test_cases": 3,
+          "num_successful": 3,
+          "success_rate": 1.0,
+          "total_time": 6.688188791275024,
+          "avg_execution_time": 2.229295492172241,
+          "avg_output_length": 1237.6666666666667,
+          "results": [
+            {
+              "test_case_id": 0,
+              "success": true,
+              "output": "Renewable energy is energy that comes from sources that are naturally replenished, such as sunlight, wind, rain, tides, and geothermal heat. Unlike fossil fuels, which are finite resources, renewable energy sources are essentially inexhaustible and can be used repeatedly without depleting them.\n",
+              "execution_time": 1.0888636112213135,
+              "output_length": 296,
+              "token_count": 42,
+              "accuracy_score": 0.2,
+              "relevance_score": 1.0
+            },
+            {
+              "test_case_id": 1,
+              "success": true,
+              "output": "Composting helps the environment in several significant ways:\n\n*   **Reduces landfill waste:** Composting diverts organic materials (food scraps, yard waste) from landfills. Landfills are often overflowing and contribute to soil and water contamination. Reducing the amount of waste going to landfills extends their lifespan and minimizes these environmental impacts.\n\n*   **Lowers greenhouse gas emissions:** When organic waste decomposes in landfills (without oxygen), it produces methane, a potent greenhouse gas that contributes to climate change. Composting, in the presence of oxygen, produces significantly less methane.\n\n*   **Enriches soil:** Compost acts as a natural fertilizer, improving soil structure, water retention, and nutrient content. This reduces the need for synthetic fertilizers, which can pollute waterways and require significant energy to produce.\n\n*   **Reduces the need for chemical fertilizers and pesticides:** Healthy, compost-amended soil supports plant growth naturally, reducing the reliance on synthetic fertilizers and pesticides, which can harm ecosystems and human health.\n\n*   **Conserves water:** Compost helps soil retain moisture, reducing the need for irrigation and conserving water resources.\n\n*   **Promotes biodiversity:** Healthy soil supports a diverse range of beneficial organisms, contributing to a thriving ecosystem.\n\nIn short, composting is a sustainable way to manage organic waste, improve soil health, reduce greenhouse gas emissions, and conserve natural resources.\n",
+              "execution_time": 2.206193447113037,
+              "output_length": 1526,
+              "token_count": 205,
+              "accuracy_score": 0.029197080291970802,
+              "relevance_score": 0.8333333333333334
+            },
+            {
+              "test_case_id": 2,
+              "success": true,
+              "output": "Deforestation is caused by a complex interplay of factors. Here are some of the main drivers:\n\n*   **Agriculture:** Clearing land for farming, including both large-scale commercial agriculture (like cattle ranching and palm oil plantations) and small-scale subsistence farming, is a major cause.\n\n*   **Logging:** Harvesting timber for construction, furniture, paper production, and other uses can lead to deforestation, especially when unsustainable logging practices are employed.\n\n*   **Mining:** Extracting minerals and fossil fuels often requires clearing forests for access roads, mines, and processing facilities.\n\n*   **Infrastructure Development:** Building roads, dams, and other infrastructure projects can involve clearing large areas of forest.\n\n*   **Urban Expansion:** As cities grow, forests are often cleared to make way for housing, commercial buildings, and transportation networks.\n\n*   **Wildfires:** While natural wildfires can play a role in forest ecosystems, human-caused fires (often started intentionally for land clearing or accidentally) can lead to widespread deforestation, especially when forests are already weakened by other factors.\n\n*   **Paper Production:** The demand for paper products contributes to deforestation as trees are harvested to produce pulp.\n\n*   **Climate Change:** Climate change can exacerbate deforestation by increasing the frequency and intensity of droughts, wildfires, and pest outbreaks, which can weaken or kill trees.\n\n*   **Government Policies and Economics:** In some cases, government policies or economic incentives can encourage deforestation, such as subsidies for agriculture or logging. Poverty and lack of alternative livelihoods can also drive people to clear forests for survival.\n\n*   **Population Growth:** A growing population increases the demand for food, land, and resources, which can put pressure on forests.\n",
+              "execution_time": 3.392829418182373,
+              "output_length": 1891,
+              "token_count": 258,
+              "accuracy_score": 0.023809523809523808,
+              "relevance_score": 1.0
+            }
+          ],
+          "avg_accuracy": 0.0843355347004982,
+          "avg_relevance": 0.9444444444444445
+        },
+        "0.9": {
+          "task": "qa",
+          "config": {
+            "temperature": 0.9,
+            "max_tokens": 1000
+          },
+          "timestamp": "2025-11-16T21:45:31.353819",
+          "num_test_cases": 3,
+          "num_successful": 3,
+          "success_rate": 1.0,
+          "total_time": 7.720824718475342,
+          "avg_execution_time": 2.573511838912964,
+          "avg_output_length": 1256.0,
+          "results": [
+            {
+              "test_case_id": 0,
+              "success": true,
+              "output": "Renewable energy is energy that is collected from renewable resources, which are naturally replenished on a human timescale, such as sunlight, wind, rain, tides, waves, and geothermal heat. In simpler terms, it's energy that comes from sources that don't run out or can be replenished quickly.\n",
+              "execution_time": 1.207026481628418,
+              "output_length": 294,
+              "token_count": 46,
+              "accuracy_score": 0.1794871794871795,
+              "relevance_score": 1.0
+            },
+            {
+              "test_case_id": 1,
+              "success": true,
+              "output": "Composting helps the environment in several ways:\n\n*   **Reduces Landfill Waste:** A significant portion of household waste is organic matter like food scraps and yard waste. Composting diverts this material from landfills, extending the lifespan of these facilities and reducing the need for new ones.\n\n*   **Decreases Methane Emissions:** When organic waste decomposes in landfills (anaerobic environment), it produces methane, a potent greenhouse gas that contributes to climate change. Composting (aerobic environment) produces significantly less methane.\n\n*   **Improves Soil Health:** Compost is a nutrient-rich soil amendment. Adding compost to soil improves its structure, water retention, and aeration. This leads to healthier plants and reduced need for synthetic fertilizers.\n\n*   **Reduces the Need for Chemical Fertilizers:** Chemical fertilizers can pollute waterways and damage soil ecosystems. Compost provides a natural alternative, reducing reliance on these harmful chemicals.\n\n*   **Conserves Water:** Compost helps soil retain moisture, reducing the need for frequent watering, especially in gardens and landscaping.\n\n*   **Sequester Carbon:** Compost helps trap carbon in the soil, effectively removing it from the atmosphere.\n\n*   **Supports Biodiversity:** Healthy soil, enriched by compost, supports a greater diversity of beneficial organisms, from earthworms to microbes, creating a more resilient ecosystem.\n",
+              "execution_time": 2.2865231037139893,
+              "output_length": 1436,
+              "token_count": 194,
+              "accuracy_score": 0.029850746268656716,
+              "relevance_score": 0.8333333333333334
+            },
+            {
+              "test_case_id": 2,
+              "success": true,
+              "output": "Deforestation is caused by a complex interplay of factors, but here are some of the most significant contributors:\n\n*   **Agriculture:** This is a major driver of deforestation globally. Clearing forests to create land for crops (like soy, palm oil, and beef production) and livestock grazing is a primary cause.\n\n*   **Logging:** Harvesting trees for timber, paper, and other wood products contributes significantly to deforestation. Both legal and illegal logging operations can be responsible.\n\n*   **Mining:** Mining activities often require clearing large areas of forest to access mineral deposits. Additionally, the construction of roads and infrastructure to support mining operations leads to further deforestation.\n\n*   **Infrastructure Development:** The construction of roads, dams, pipelines, and other infrastructure projects often requires clearing large areas of forest.\n\n*   **Urban Expansion:** As cities and towns grow, they require more land, leading to the clearing of forests for housing, commercial development, and infrastructure.\n\n*   **Wildfires:** While some wildfires are natural, many are started by humans, either accidentally or intentionally (often for land clearing purposes). Climate change is also increasing the frequency and intensity of wildfires, exacerbating deforestation.\n\n*   **Fuelwood and Charcoal Production:** In many parts of the world, particularly in developing countries, forests are cleared for fuelwood and charcoal production, which are used for cooking and heating.\n\n*   **Government Policies and Economic Factors:** Government subsidies, tax incentives, and weak enforcement of environmental regulations can incentivize deforestation. Economic factors like poverty and land tenure insecurity can also contribute to unsustainable forest management practices.\n\nIt's important to note that these factors often interact and reinforce each other. For example, agricultural expansion may be driven by government policies that favor large-scale farming over sustainable forestry practices.",
+              "execution_time": 4.226985931396484,
+              "output_length": 2038,
+              "token_count": 277,
+              "accuracy_score": 0.00546448087431694,
+              "relevance_score": 0.6
+            }
+          ],
+          "avg_accuracy": 0.07160080221005105,
+          "avg_relevance": 0.8111111111111112
+        }
+      },
+      "best_temperature": {
+        "value": 0.3,
+        "success_rate": 1.0
+      }
+    },
+    "prompt_variants_summarization": {
+      "task": "summarization",
+      "variants": [
+        "extractive",
+        "abstractive",
+        "bullet_points"
+      ],
+      "test_cases": [
+        {
+          "input": {
+            "text": "Climate change is one of the most pressing challenges of our time. It is caused by greenhouse gas emissions from human activities. The effects include rising temperatures, melting ice caps, and extreme weather events.",
+            "num_sentences": 2
+          },
+          "prompt": "Summarize in 2 sentences: Climate change is one of the most pressing challenges of our time...",
+          "expected_output": "climate change greenhouse gas emissions effects"
+        }
+      ],
+      "variant_results": {
+        "extractive": [
+          {
+            "success": true,
+            "task": "summarization",
+            "variant": "extractive",
+            "prompt": "Summarize the following text in 2 sentences:\n\nText: Climate change is one of the most pressing challenges of our time. It is caused by greenhouse gas emissions from human activities. The effects include rising temperatures, melting ice caps, and extreme weather events.\n\nSummary:",
+            "output": "Climate change, driven by human-caused greenhouse gas emissions, is a major global challenge. Its effects include rising temperatures, melting ice, and increased extreme weather events.\n",
+            "execution_time": 0.9858989715576172,
+            "temperature": 0.7,
+            "max_tokens": 1000,
+            "timestamp": "2025-11-16T21:45:32.339919",
+            "match_score": 0.6666666666666666
+          }
+        ],
+        "abstractive": [
+          {
+            "success": false,
+            "error": "Prompt generation failed: Missing parameter 'length' for prompt summarization/abstractive"
+          }
+        ],
+        "bullet_points": [
+          {
+            "success": true,
+            "task": "summarization",
+            "variant": "bullet_points",
+            "prompt": "Summarize this text as bullet points:\n\nText: Climate change is one of the most pressing challenges of our time. It is caused by greenhouse gas emissions from human activities. The effects include rising temperatures, melting ice caps, and extreme weather events.\n\nKey Points (5-7 bullets):\n-",
+            "output": "Here's a summary of the text in bullet points:\n\n*   Climate change is a major contemporary challenge.\n*   It's primarily driven by human-caused greenhouse gas emissions.\n*   Rising temperatures are a significant effect.\n*   Melting ice caps contribute to rising sea levels.\n*   Extreme weather events are becoming more frequent and intense.\n",
+            "execution_time": 1.1119959354400635,
+            "temperature": 0.7,
+            "max_tokens": 1000,
+            "timestamp": "2025-11-16T21:45:33.452135",
+            "match_score": 0.6666666666666666
+          }
+        ]
+      },
+      "summary": {
+        "extractive": {
+          "success_rate": 1.0,
+          "avg_execution_time": 0.9858989715576172,
+          "avg_match_score": 0.6666666666666666
+        },
+        "abstractive": {
+          "success_rate": 0.0,
+          "avg_execution_time": 0,
+          "avg_match_score": 0
+        },
+        "bullet_points": {
+          "success_rate": 1.0,
+          "avg_execution_time": 1.1119959354400635,
+          "avg_match_score": 0.6666666666666666
+        }
+      },
+      "best_variant": {
+        "name": "extractive",
+        "metrics": {
+          "success_rate": 1.0,
+          "avg_execution_time": 0.9858989715576172,
+          "avg_match_score": 0.6666666666666666
+        }
+      }
+    },
+    "few_shot_summarization": {
+      "task": "summarization",
+      "shot_counts": [
+        0,
+        1,
+        3,
+        5
+      ],
+      "results": {
+        "0": {
+          "success_rate": 1.0,
+          "avg_time": 0.9800753593444824,
+          "results": [
+            {
+              "success": true,
+              "task": "summarization",
+              "num_shots": 0,
+              "prompt": "Here are some examples:\n\n\nNow process this input:\nInput: {'text': 'Climate change is one of the most pressing challenges of our time. It is caused by greenhouse gas emissions from human activities. The effects include rising temperatures, melting ice caps, and extreme weather events.', 'num_sentences': 2}\nOutput:",
+              "output": "{'sentences': ['Climate change is one of the most pressing challenges of our time.', 'It is caused by greenhouse gas emissions from human activities.']}\n",
+              "execution_time": 0.9800753593444824,
+              "timestamp": "2025-11-16T21:45:34.432501",
+              "match_score": 0.6666666666666666
+            }
+          ]
+        },
+        "1": {
+          "success_rate": 1.0,
+          "avg_time": 0.9687373638153076,
+          "results": [
+            {
+              "success": true,
+              "task": "summarization",
+              "num_shots": 1,
+              "prompt": "Here are some examples:\n\n\nExample 1:\nInput: Deforestation is the permanent removal of trees to make room for something besides forest. This can include clearing the land for agriculture or grazing, or using the timber for fuel, construction or manufacturing. Forests cover about 30% of the planet, but deforestation is clearing these essential habitats on a massive scale. The biggest driver of deforestation is agriculture. Farmers cut forests to provide more room for planting crops or grazing livestock. Often small farmers will clear a few acres by cutting down trees and burning them in a process known as slash and burn agriculture. Logging operations provide the world's wood and paper products. While some companies practice sustainable forestry, others are less scrupulous. Clear-cutting is when large areas are cut down all at once.\nOutput: Deforestation, the permanent removal of forests, is driven primarily by agriculture, with farmers clearing land for crops and livestock. Logging for wood and paper products is another major cause. While forests cover 30% of Earth, these essential habitats are being cleared at a massive scale through practices like slash-and-burn agriculture and clear-cutting.\n\n\nNow process this input:\nInput: {'text': 'Climate change is one of the most pressing challenges of our time. It is caused by greenhouse gas emissions from human activities. The effects include rising temperatures, melting ice caps, and extreme weather events.', 'num_sentences': 2}\nOutput:",
+              "output": "Climate change, a pressing challenge, is caused by greenhouse gas emissions from human activities. This results in rising temperatures, melting ice caps, and extreme weather events.\n",
+              "execution_time": 0.9687373638153076,
+              "timestamp": "2025-11-16T21:45:35.401364",
+              "match_score": 0.6666666666666666
+            }
+          ]
+        },
+        "3": {
+          "success_rate": 1.0,
+          "avg_time": 0.9442160129547119,
+          "results": [
+            {
+              "success": true,
+              "task": "summarization",
+              "num_shots": 3,
+              "prompt": "Here are some examples:\n\n\nExample 1:\nInput: Deforestation is the permanent removal of trees to make room for something besides forest. This can include clearing the land for agriculture or grazing, or using the timber for fuel, construction or manufacturing. Forests cover about 30% of the planet, but deforestation is clearing these essential habitats on a massive scale. The biggest driver of deforestation is agriculture. Farmers cut forests to provide more room for planting crops or grazing livestock. Often small farmers will clear a few acres by cutting down trees and burning them in a process known as slash and burn agriculture. Logging operations provide the world's wood and paper products. While some companies practice sustainable forestry, others are less scrupulous. Clear-cutting is when large areas are cut down all at once.\nOutput: Deforestation, the permanent removal of forests, is driven primarily by agriculture, with farmers clearing land for crops and livestock. Logging for wood and paper products is another major cause. While forests cover 30% of Earth, these essential habitats are being cleared at a massive scale through practices like slash-and-burn agriculture and clear-cutting.\n\n\nExample 2:\nInput: The greenhouse effect is a natural process that warms the Earth's surface. When the Sun's energy reaches the Earth's atmosphere, some of it is reflected back to space and the rest is absorbed and re-radiated by greenhouse gases. The absorbed energy warms the atmosphere and the surface of the Earth. This process maintains the Earth's temperature at around 33 degrees Celsius warmer than it would otherwise be, allowing life on Earth to exist. However, human activities have increased the concentration of greenhouse gases, enhancing the greenhouse effect and causing global warming.\nOutput: The greenhouse effect is a natural process where greenhouse gases trap heat in Earth's atmosphere, maintaining temperatures suitable for life - about 33\u00b0C warmer than without this effect. However, human activities have increased greenhouse gas concentrations, intensifying this effect and causing global warming.\n\n\nNow process this input:\nInput: {'text': 'Climate change is one of the most pressing challenges of our time. It is caused by greenhouse gas emissions from human activities. The effects include rising temperatures, melting ice caps, and extreme weather events.', 'num_sentences': 2}\nOutput:",
+              "output": "Climate change, driven by human-caused greenhouse gas emissions, is a major challenge. Its effects include rising temperatures, melting ice, and extreme weather.\n",
+              "execution_time": 0.9442160129547119,
+              "timestamp": "2025-11-16T21:45:36.345688",
+              "match_score": 0.6666666666666666
+            }
+          ]
+        },
+        "5": {
+          "success_rate": 1.0,
+          "avg_time": 0.9917197227478027,
+          "results": [
+            {
+              "success": true,
+              "task": "summarization",
+              "num_shots": 5,
+              "prompt": "Here are some examples:\n\n\nExample 1:\nInput: Deforestation is the permanent removal of trees to make room for something besides forest. This can include clearing the land for agriculture or grazing, or using the timber for fuel, construction or manufacturing. Forests cover about 30% of the planet, but deforestation is clearing these essential habitats on a massive scale. The biggest driver of deforestation is agriculture. Farmers cut forests to provide more room for planting crops or grazing livestock. Often small farmers will clear a few acres by cutting down trees and burning them in a process known as slash and burn agriculture. Logging operations provide the world's wood and paper products. While some companies practice sustainable forestry, others are less scrupulous. Clear-cutting is when large areas are cut down all at once.\nOutput: Deforestation, the permanent removal of forests, is driven primarily by agriculture, with farmers clearing land for crops and livestock. Logging for wood and paper products is another major cause. While forests cover 30% of Earth, these essential habitats are being cleared at a massive scale through practices like slash-and-burn agriculture and clear-cutting.\n\n\nExample 2:\nInput: The greenhouse effect is a natural process that warms the Earth's surface. When the Sun's energy reaches the Earth's atmosphere, some of it is reflected back to space and the rest is absorbed and re-radiated by greenhouse gases. The absorbed energy warms the atmosphere and the surface of the Earth. This process maintains the Earth's temperature at around 33 degrees Celsius warmer than it would otherwise be, allowing life on Earth to exist. However, human activities have increased the concentration of greenhouse gases, enhancing the greenhouse effect and causing global warming.\nOutput: The greenhouse effect is a natural process where greenhouse gases trap heat in Earth's atmosphere, maintaining temperatures suitable for life - about 33\u00b0C warmer than without this effect. However, human activities have increased greenhouse gas concentrations, intensifying this effect and causing global warming.\n\n\nNow process this input:\nInput: {'text': 'Climate change is one of the most pressing challenges of our time. It is caused by greenhouse gas emissions from human activities. The effects include rising temperatures, melting ice caps, and extreme weather events.', 'num_sentences': 2}\nOutput:",
+              "output": "Climate change, driven by human-caused greenhouse gas emissions, is a major global challenge. Its effects include rising temperatures, melting ice caps, and extreme weather events.\n",
+              "execution_time": 0.9917197227478027,
+              "timestamp": "2025-11-16T21:45:37.337619",
+              "match_score": 0.6666666666666666
+            }
+          ]
+        }
+      },
+      "optimal_shot_count": {
+        "count": 0,
+        "success_rate": 1.0
+      }
+    },
+    "temperature_summarization": {
+      "task": "summarization",
+      "temperatures": [
+        0.3,
+        0.5,
+        0.7,
+        0.9
+      ],
+      "evaluations": {
+        "0.3": {
+          "task": "summarization",
+          "config": {
+            "temperature": 0.3,
+            "max_tokens": 1000
+          },
+          "timestamp": "2025-11-16T21:45:37.412409",
+          "num_test_cases": 1,
+          "num_successful": 1,
+          "success_rate": 1.0,
+          "total_time": 0.07463765144348145,
+          "avg_execution_time": 0.07460403442382812,
+          "avg_output_length": 930.0,
+          "results": [
+            {
+              "test_case_id": 0,
+              "success": true,
+              "output": "Error generating response: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 15, model: gemini-2.0-flash\nPlease retry in 22.669975165s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.0-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 15\n}\n, retry_delay {\n  seconds: 22\n}\n]",
+              "execution_time": 0.07460403442382812,
+              "output_length": 930,
+              "token_count": 90,
+              "accuracy_score": 0.0,
+              "relevance_score": 0.0
+            }
+          ],
+          "avg_accuracy": 0.0,
+          "avg_relevance": 0.0
+        },
+        "0.5": {
+          "task": "summarization",
+          "config": {
+            "temperature": 0.5,
+            "max_tokens": 1000
+          },
+          "timestamp": "2025-11-16T21:45:37.584814",
+          "num_test_cases": 1,
+          "num_successful": 1,
+          "success_rate": 1.0,
+          "total_time": 0.17236590385437012,
+          "avg_execution_time": 0.1723179817199707,
+          "avg_output_length": 930.0,
+          "results": [
+            {
+              "test_case_id": 0,
+              "success": true,
+              "output": "Error generating response: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 15, model: gemini-2.0-flash\nPlease retry in 22.495444165s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.0-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 15\n}\n, retry_delay {\n  seconds: 22\n}\n]",
+              "execution_time": 0.1723179817199707,
+              "output_length": 930,
+              "token_count": 90,
+              "accuracy_score": 0.0,
+              "relevance_score": 0.0
+            }
+          ],
+          "avg_accuracy": 0.0,
+          "avg_relevance": 0.0
+        },
+        "0.7": {
+          "task": "summarization",
+          "config": {
+            "temperature": 0.7,
+            "max_tokens": 1000
+          },
+          "timestamp": "2025-11-16T21:45:37.675887",
+          "num_test_cases": 1,
+          "num_successful": 1,
+          "success_rate": 1.0,
+          "total_time": 0.09103083610534668,
+          "avg_execution_time": 0.0909738540649414,
+          "avg_output_length": 930.0,
+          "results": [
+            {
+              "test_case_id": 0,
+              "success": true,
+              "output": "Error generating response: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 15, model: gemini-2.0-flash\nPlease retry in 22.406626957s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.0-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 15\n}\n, retry_delay {\n  seconds: 22\n}\n]",
+              "execution_time": 0.0909738540649414,
+              "output_length": 930,
+              "token_count": 90,
+              "accuracy_score": 0.0,
+              "relevance_score": 0.0
+            }
+          ],
+          "avg_accuracy": 0.0,
+          "avg_relevance": 0.0
+        },
+        "0.9": {
+          "task": "summarization",
+          "config": {
+            "temperature": 0.9,
+            "max_tokens": 1000
+          },
+          "timestamp": "2025-11-16T21:45:37.852947",
+          "num_test_cases": 1,
+          "num_successful": 1,
+          "success_rate": 1.0,
+          "total_time": 0.17699456214904785,
+          "avg_execution_time": 0.17693853378295898,
+          "avg_output_length": 930.0,
+          "results": [
+            {
+              "test_case_id": 0,
+              "success": true,
+              "output": "Error generating response: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 15, model: gemini-2.0-flash\nPlease retry in 22.229716538s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.0-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 15\n}\n, retry_delay {\n  seconds: 22\n}\n]",
+              "execution_time": 0.17693853378295898,
+              "output_length": 930,
+              "token_count": 90,
+              "accuracy_score": 0.0,
+              "relevance_score": 0.0
+            }
+          ],
+          "avg_accuracy": 0.0,
+          "avg_relevance": 0.0
+        }
+      },
+      "best_temperature": {
+        "value": 0.3,
+        "success_rate": 1.0
+      }
+    }
+  }
+}

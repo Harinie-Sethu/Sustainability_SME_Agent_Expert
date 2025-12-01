@@ -1,0 +1,382 @@
+{
+  "extraction_summary": {
+    "total_files": 41,
+    "successful_extractions": 41,
+    "failed_extractions": 0,
+    "total_pages": 4901,
+    "total_characters": 11678117,
+    "extraction_timestamp": "2025-10-24T16:54:58.393966",
+    "output_directory": "/media/data/codes/reshma/lma_maj_pro/partb"
+  },
+  "file_results": [
+    {
+      "pdf_file": "RAlexandar.pdf",
+      "output_file": "RAlexandar.json",
+      "success": true,
+      "pages_extracted": 160,
+      "text_length": 303327,
+      "extraction_method": "pypdf2",
+      "file_size_bytes": 3269422
+    },
+    {
+      "pdf_file": "EVS-501.pdf",
+      "output_file": "EVS-501.json",
+      "success": true,
+      "pages_extracted": 325,
+      "text_length": 666573,
+      "extraction_method": "pypdf2",
+      "file_size_bytes": 23383090
+    },
+    {
+      "pdf_file": "11.pdf",
+      "output_file": "11.json",
+      "success": true,
+      "pages_extracted": 465,
+      "text_length": 1548957,
+      "extraction_method": "pypdf2",
+      "file_size_bytes": 2906047
+    },
+    {
+      "pdf_file": "environmental.pdf",
+      "output_file": "environmental.json",
+      "success": true,
+      "pages_extracted": 88,
+      "text_length": 177483,
+      "extraction_method": "pypdf2",
+      "file_size_bytes": 545127
+    },
+    {
+      "pdf_file": "317EL23.pdf",
+      "output_file": "317EL23.json",
+      "success": true,
+      "pages_extracted": 8,
+      "text_length": 20532,
+      "extraction_method": "pypdf2",
+      "file_size_bytes": 208609
+    },
+    {
+      "pdf_file": "Environmental_Studies.pdf",
+      "output_file": "Environmental_Studies.json",
+      "success": true,
+      "pages_extracted": 153,
+      "text_length": 261354,
+      "extraction_method": "pypdf2",
+      "file_size_bytes": 1819542
+    },
+    {
+      "pdf_file": "18-034_39d7d71d-9e84-4e8b-97c0-0e626f75293c.pdf",
+      "output_file": "18-034_39d7d71d-9e84-4e8b-97c0-0e626f75293c.json",
+      "success": true,
+      "pages_extracted": 39,
+      "text_length": 75159,
+      "extraction_method": "pypdf2",
+      "file_size_bytes": 280872
+    },
+    {
+      "pdf_file": "17131780141.pdf",
+      "output_file": "17131780141.json",
+      "success": true,
+      "pages_extracted": 10,
+      "text_length": 20277,
+      "extraction_method": "pypdf2",
+      "file_size_bytes": 327360
+    },
+    {
+      "pdf_file": "Council_Env_2019FF.pdf",
+      "output_file": "Council_Env_2019FF.json",
+      "success": true,
+      "pages_extracted": 104,
+      "text_length": 148654,
+      "extraction_method": "pypdf2",
+      "file_size_bytes": 4192236
+    },
+    {
+      "pdf_file": "unicef31.pdf",
+      "output_file": "unicef31.json",
+      "success": true,
+      "pages_extracted": 39,
+      "text_length": 93071,
+      "extraction_method": "pypdf2",
+      "file_size_bytes": 1116956
+    },
+    {
+      "pdf_file": "60e84f78c293e43c0915a6b8bfdb6d7a.pdf",
+      "output_file": "60e84f78c293e43c0915a6b8bfdb6d7a.json",
+      "success": true,
+      "pages_extracted": 4,
+      "text_length": 14474,
+      "extraction_method": "pypdf2",
+      "file_size_bytes": 671840
+    },
+    {
+      "pdf_file": "Environment-and-Sustainability-Volume-IV.pdf",
+      "output_file": "Environment-and-Sustainability-Volume-IV.json",
+      "success": true,
+      "pages_extracted": 191,
+      "text_length": 475725,
+      "extraction_method": "pypdf2",
+      "file_size_bytes": 4355845
+    },
+    {
+      "pdf_file": "green-development-environment-and-sustainability-in-developing-world.pdf",
+      "output_file": "green-development-environment-and-sustainability-in-developing-world.json",
+      "success": true,
+      "pages_extracted": 478,
+      "text_length": 1383153,
+      "extraction_method": "pypdf2",
+      "file_size_bytes": 16525153
+    },
+    {
+      "pdf_file": "1097a78c-en.pdf",
+      "output_file": "1097a78c-en.json",
+      "success": true,
+      "pages_extracted": 92,
+      "text_length": 242772,
+      "extraction_method": "pypdf2",
+      "file_size_bytes": 3185443
+    },
+    {
+      "pdf_file": "EJ540073.pdf",
+      "output_file": "EJ540073.json",
+      "success": true,
+      "pages_extracted": 28,
+      "text_length": 63521,
+      "extraction_method": "pypdf2",
+      "file_size_bytes": 254206
+    },
+    {
+      "pdf_file": "maldybaeva2022.pdf",
+      "output_file": "maldybaeva2022.json",
+      "success": true,
+      "pages_extracted": 43,
+      "text_length": 90306,
+      "extraction_method": "pypdf2",
+      "file_size_bytes": 902342
+    },
+    {
+      "pdf_file": "Environmental-Education-Communication-for-a-sustainable-world.pdf",
+      "output_file": "Environmental-Education-Communication-for-a-sustainable-world.json",
+      "success": true,
+      "pages_extracted": 142,
+      "text_length": 404346,
+      "extraction_method": "pypdf2",
+      "file_size_bytes": 2931912
+    },
+    {
+      "pdf_file": "EDU_403.pdf",
+      "output_file": "EDU_403.json",
+      "success": true,
+      "pages_extracted": 153,
+      "text_length": 0,
+      "extraction_method": "pypdf2",
+      "file_size_bytes": 34021242
+    },
+    {
+      "pdf_file": "complete-guidebook_textbooks-for-sustainable-development_2.pdf",
+      "output_file": "complete-guidebook_textbooks-for-sustainable-development_2.json",
+      "success": true,
+      "pages_extracted": 188,
+      "text_length": 678792,
+      "extraction_method": "pypdf2",
+      "file_size_bytes": 6416820
+    },
+    {
+      "pdf_file": "ENVIRONMENTAL EDUCATION.pdf",
+      "output_file": "ENVIRONMENTAL EDUCATION.json",
+      "success": true,
+      "pages_extracted": 197,
+      "text_length": 360508,
+      "extraction_method": "pypdf2",
+      "file_size_bytes": 1565029
+    },
+    {
+      "pdf_file": "green-book.pdf",
+      "output_file": "green-book.json",
+      "success": true,
+      "pages_extracted": 164,
+      "text_length": 438242,
+      "extraction_method": "pypdf2",
+      "file_size_bytes": 1393239
+    },
+    {
+      "pdf_file": "1_Dr.+Denis+Vaz.pdf",
+      "output_file": "1_Dr.+Denis+Vaz.json",
+      "success": true,
+      "pages_extracted": 17,
+      "text_length": 38802,
+      "extraction_method": "pypdf2",
+      "file_size_bytes": 178061
+    },
+    {
+      "pdf_file": "shsconf_brd2023_01009.pdf",
+      "output_file": "shsconf_brd2023_01009.json",
+      "success": true,
+      "pages_extracted": 7,
+      "text_length": 32681,
+      "extraction_method": "pypdf2",
+      "file_size_bytes": 421287
+    },
+    {
+      "pdf_file": "GE3451-LN.pdf",
+      "output_file": "GE3451-LN.json",
+      "success": true,
+      "pages_extracted": 131,
+      "text_length": 244012,
+      "extraction_method": "pypdf2",
+      "file_size_bytes": 12072118
+    },
+    {
+      "pdf_file": "environmental-sustainability-practices-a-systematic-literature-review-14604.pdf",
+      "output_file": "environmental-sustainability-practices-a-systematic-literature-review-14604.json",
+      "success": true,
+      "pages_extracted": 18,
+      "text_length": 121599,
+      "extraction_method": "pypdf2",
+      "file_size_bytes": 902514
+    },
+    {
+      "pdf_file": "lowresenvironmental-awareness-for-sustainable-development-a-resource-book-for-namibia.pdf",
+      "output_file": "lowresenvironmental-awareness-for-sustainable-development-a-resource-book-for-namibia.json",
+      "success": true,
+      "pages_extracted": 212,
+      "text_length": 545957,
+      "extraction_method": "pypdf2",
+      "file_size_bytes": 12827632
+    },
+    {
+      "pdf_file": "Paper_6_Banti_Dutta.pdf",
+      "output_file": "Paper_6_Banti_Dutta.json",
+      "success": true,
+      "pages_extracted": 9,
+      "text_length": 18505,
+      "extraction_method": "pypdf2",
+      "file_size_bytes": 581761
+    },
+    {
+      "pdf_file": "Environment & Ecology (Quick Book) -For web.pdf",
+      "output_file": "Environment & Ecology (Quick Book) -For web.json",
+      "success": true,
+      "pages_extracted": 25,
+      "text_length": 29536,
+      "extraction_method": "pypdf2",
+      "file_size_bytes": 9165369
+    },
+    {
+      "pdf_file": "hlth-022.pdf",
+      "output_file": "hlth-022.json",
+      "success": true,
+      "pages_extracted": 52,
+      "text_length": 80484,
+      "extraction_method": "pypdf2",
+      "file_size_bytes": 5368749
+    },
+    {
+      "pdf_file": "librarians-going-green.pdf",
+      "output_file": "librarians-going-green.json",
+      "success": true,
+      "pages_extracted": 55,
+      "text_length": 102785,
+      "extraction_method": "pypdf2",
+      "file_size_bytes": 4188515
+    },
+    {
+      "pdf_file": "17140328931.pdf",
+      "output_file": "17140328931.json",
+      "success": true,
+      "pages_extracted": 12,
+      "text_length": 23009,
+      "extraction_method": "pypdf2",
+      "file_size_bytes": 269597
+    },
+    {
+      "pdf_file": "Devine_Appleton_Environmental_Education_in_Public_Libraries_Final.pdf",
+      "output_file": "Devine_Appleton_Environmental_Education_in_Public_Libraries_Final.json",
+      "success": true,
+      "pages_extracted": 26,
+      "text_length": 53364,
+      "extraction_method": "pypdf2",
+      "file_size_bytes": 482942
+    },
+    {
+      "pdf_file": "Environmental-Issues.pdf",
+      "output_file": "Environmental-Issues.json",
+      "success": true,
+      "pages_extracted": 105,
+      "text_length": 302521,
+      "extraction_method": "pypdf2",
+      "file_size_bytes": 5502162
+    },
+    {
+      "pdf_file": "Environmental Awareness in Ancient India-185.pdf",
+      "output_file": "Environmental Awareness in Ancient India-185.json",
+      "success": true,
+      "pages_extracted": 7,
+      "text_length": 26030,
+      "extraction_method": "pypdf2",
+      "file_size_bytes": 428090
+    },
+    {
+      "pdf_file": "ENVIRONMENTAL-SCIENCE-1.pdf",
+      "output_file": "ENVIRONMENTAL-SCIENCE-1.json",
+      "success": true,
+      "pages_extracted": 142,
+      "text_length": 376342,
+      "extraction_method": "pypdf2",
+      "file_size_bytes": 2110290
+    },
+    {
+      "pdf_file": "JULY 23 12.pdf",
+      "output_file": "JULY 23 12.json",
+      "success": true,
+      "pages_extracted": 8,
+      "text_length": 0,
+      "extraction_method": "pypdf2",
+      "file_size_bytes": 3735997
+    },
+    {
+      "pdf_file": "1375_handbook_ environmental_ education.pdf",
+      "output_file": "1375_handbook_ environmental_ education.json",
+      "success": true,
+      "pages_extracted": 278,
+      "text_length": 513416,
+      "extraction_method": "pypdf2",
+      "file_size_bytes": 1239561
+    },
+    {
+      "pdf_file": "sourcebook_on_sd.pdf",
+      "output_file": "sourcebook_on_sd.json",
+      "success": true,
+      "pages_extracted": 146,
+      "text_length": 419704,
+      "extraction_method": "pypdf2",
+      "file_size_bytes": 9942322
+    },
+    {
+      "pdf_file": "ENV 2.pdf",
+      "output_file": "ENV 2.json",
+      "success": true,
+      "pages_extracted": 13,
+      "text_length": 25120,
+      "extraction_method": "pypdf2",
+      "file_size_bytes": 887539
+    },
+    {
+      "pdf_file": "sample-chapter.pdf",
+      "output_file": "sample-chapter.json",
+      "success": true,
+      "pages_extracted": 75,
+      "text_length": 245056,
+      "extraction_method": "pypdf2",
+      "file_size_bytes": 61203053
+    },
+    {
+      "pdf_file": "978-83-7986-488-1.pdf",
+      "output_file": "978-83-7986-488-1.json",
+      "success": true,
+      "pages_extracted": 492,
+      "text_length": 1011968,
+      "extraction_method": "pypdf2",
+      "file_size_bytes": 17968753
+    }
+  ]
+}

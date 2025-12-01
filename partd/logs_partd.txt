@@ -1,0 +1,605 @@
+======================================================================
+PART D: CORE SME CAPABILITIES - COMPLETE TEST SUITE
+======================================================================
+
+Features:
+  ✓ Task 1: Expert Q&A with RAG + Web Search
+  ✓ Task 2: Educational Content Generation
+    - Quiz with multi-step reasoning
+    - Study Guides
+    - Awareness Materials
+  ✓ Document Export (PDF/DOCX)
+  ✓ BONUS: Self-Learning from Feedback
+======================================================================
+
+======================================================================
+TEST 1: LLM Client with Chain Generation
+======================================================================
+/media/data/codes/reshma/envs/qwen3_pretrain/lib/python3.10/site-packages/google/api_core/_python_version_support.py:266: FutureWarning: You are using a Python version (3.10.18) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+INFO:partd.llm_client:✓ Gemini LLM client initialized: gemini-2.0-flash
+INFO:partd.llm_client:  Daily quota limit: 200 requests
+✓ Simple generation works: Sustainability is a broad concept, but at its core, it refers to **meeting the needs of the present ...
+INFO:partd.llm_client:Executing chain step: step1
+INFO:partd.llm_client:Executing chain step: step2
+✓ Chain generation works:
+  Step 1 output: ```json
+{
+  "topics": [
+    "Climate Change and its Impacts",
+    "Deforestation and Biodiversity Lo...
+  Step 2 output: While all are critical, Climate Change and its Impacts is arguably the most important because it act...
+
+======================================================================
+TEST 2: Enhanced RAG with Web Search
+======================================================================
+INFO:partd.llm_client:✓ Gemini LLM client initialized: gemini-2.0-flash
+INFO:partd.llm_client:  Daily quota limit: 200 requests
+WARNING:partc.milvus_retrieval_pipeline:Could not connect to Milvus server on localhost:19530: <MilvusException: (code=2, message=Fail connecting to server on localhost:19530, illegal connection params or server unavailable)>
+INFO:partc.milvus_retrieval_pipeline:Attempting URI-based connection (pymilvus 2.6+)...
+/media/data/codes/reshma/envs/qwen3_pretrain/lib/python3.10/site-packages/milvus_lite/__init__.py:15: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import DistributionNotFound, get_distribution
+INFO:partc.milvus_retrieval_pipeline:Connected to Milvus Lite via URI: /media/data/codes/reshma/lma_maj_pro/partc/milvus_data.db
+INFO:partc.milvus_retrieval_pipeline:Using scientific embeddings (scibert) for environment domain
+INFO:partc.milvus_retrieval_pipeline:Loading embedding model: allenai/scibert_scivocab_uncased on cuda
+INFO:partc.milvus_retrieval_pipeline:Using model key: scientific for environment/sustainability domain
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: allenai/scibert_scivocab_uncased
+WARNING:sentence_transformers.SentenceTransformer:No sentence-transformers model found with name allenai/scibert_scivocab_uncased. Creating a new one with MEAN pooling.
+/media/data/codes/reshma/envs/qwen3_pretrain/lib/python3.10/site-packages/torch/cuda/__init__.py:827: UserWarning: Can't initialize NVML
+  warnings.warn("Can't initialize NVML")
+/media/data/codes/reshma/envs/qwen3_pretrain/lib/python3.10/site-packages/torch/cuda/__init__.py:827: UserWarning: Can't initialize NVML
+  warnings.warn("Can't initialize NVML")
+INFO:partc.reranker:Initializing BGE Reranker on cuda
+INFO:partc.reranker:Successfully loaded BGE Reranker: BAAI/bge-reranker-base
+INFO:partc.milvus_retrieval_pipeline:Available collections: ['environment_chunks_baseline', 'environment_chunks_scientific', 'environment_documents']
+INFO:partc.milvus_retrieval_pipeline:✓ Loaded collection: environment_chunks_scientific
+INFO:partc.milvus_retrieval_pipeline:Collection has 6865 chunks indexed
+INFO:partc.milvus_retrieval_pipeline:✓ Loaded parent collection: environment_documents
+INFO:partd.enhanced_rag:✓ Web search enabled
+INFO:partd.enhanced_rag:Processing question: What causes deforestation?
+INFO:partc.milvus_retrieval_pipeline:Hierarchical retrieval for query: 'What causes deforestation?'
+Batches: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  1.86it/s]
+INFO:partc.milvus_retrieval_pipeline:Vector search returned 10 results
+INFO:partc.milvus_retrieval_pipeline:Applying reranking...
+Batches: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  3.53it/s]
+INFO:partc.reranker:Reranked 10 candidates using BGE Reranker
+INFO:partc.milvus_retrieval_pipeline:Reranking metrics: {'total_results': 5, 'avg_rerank_score': 0.20962225496768952, 'avg_original_score': 0.6732662320137024, 'score_improvement': -68.86487915178505}
+INFO:partc.milvus_retrieval_pipeline:Expanding with contextual chunks...
+INFO:partc.milvus_retrieval_pipeline:Retrieved 5 results from 3 documents
+INFO:partd.enhanced_rag:Top result score from library: 0.468 (threshold: 0.3)
+INFO:partd.enhanced_rag:Source: green-development-environment-and-sustainability-in-developing-world.pdf
+INFO:partd.enhanced_rag:Text preview: economic structures and decisions by actors at  range of levels.
+
+environmental myths or narratives ...
+INFO:partd.enhanced_rag:✓ Using library documents (good confidence)
+✓ RAG works
+  Answer: Deforestation is driven by a complex interplay of factors that vary from region to region. According to Library Source 3, despite international concer...
+  Used web search: False
+  Confidence: 0.468
+
+======================================================================
+TEST 3: TASK 1 - Expert Q&A
+======================================================================
+INFO:partd.llm_client:✓ Gemini LLM client initialized: gemini-2.0-flash
+INFO:partd.llm_client:  Daily quota limit: 200 requests
+WARNING:partc.milvus_retrieval_pipeline:Could not connect to Milvus server on localhost:19530: <ConnectionConfigException: (code=1, message=Alias of 'default' already creating connections, but the configure is not the same as passed in.)>
+INFO:partc.milvus_retrieval_pipeline:Attempting URI-based connection (pymilvus 2.6+)...
+INFO:partc.milvus_retrieval_pipeline:Connected to Milvus Lite via URI: /media/data/codes/reshma/lma_maj_pro/partc/milvus_data.db
+INFO:partc.milvus_retrieval_pipeline:Using scientific embeddings (scibert) for environment domain
+INFO:partc.milvus_retrieval_pipeline:Loading embedding model: allenai/scibert_scivocab_uncased on cuda
+INFO:partc.milvus_retrieval_pipeline:Using model key: scientific for environment/sustainability domain
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: allenai/scibert_scivocab_uncased
+WARNING:sentence_transformers.SentenceTransformer:No sentence-transformers model found with name allenai/scibert_scivocab_uncased. Creating a new one with MEAN pooling.
+INFO:partc.reranker:Initializing BGE Reranker on cuda
+INFO:partc.reranker:Successfully loaded BGE Reranker: BAAI/bge-reranker-base
+INFO:partc.milvus_retrieval_pipeline:Available collections: ['environment_chunks_baseline', 'environment_chunks_scientific', 'environment_documents']
+INFO:partc.milvus_retrieval_pipeline:✓ Loaded collection: environment_chunks_scientific
+INFO:partc.milvus_retrieval_pipeline:Collection has 6865 chunks indexed
+INFO:partc.milvus_retrieval_pipeline:✓ Loaded parent collection: environment_documents
+INFO:partd.enhanced_rag:✓ Web search enabled
+INFO:partd.task_handlers:✓ Content generator initialized
+
+  Q: What is ocean acidification?
+INFO:partd.enhanced_rag:Processing question: What is ocean acidification?
+INFO:partc.milvus_retrieval_pipeline:Hierarchical retrieval for query: 'What is ocean acidification?'
+Batches: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 309.86it/s]
+INFO:partc.milvus_retrieval_pipeline:Vector search returned 10 results
+INFO:partc.milvus_retrieval_pipeline:Applying reranking...
+Batches: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  9.38it/s]
+INFO:partc.reranker:Reranked 10 candidates using BGE Reranker
+INFO:partc.milvus_retrieval_pipeline:Reranking metrics: {'total_results': 5, 'avg_rerank_score': 0.02365391255589202, 'avg_original_score': 0.6465702414512634, 'score_improvement': -96.34163296739432}
+INFO:partc.milvus_retrieval_pipeline:Expanding with contextual chunks...
+INFO:partc.milvus_retrieval_pipeline:Retrieved 5 results from 3 documents
+INFO:partd.enhanced_rag:Top result score from library: 0.116 (threshold: 0.3)
+INFO:partd.enhanced_rag:Source: 11.pdf
+INFO:partd.enhanced_rag:Text preview: erves more attention; the focus tends to be on threat recognition.
+
+improved exchange of researchinf...
+INFO:partd.enhanced_rag:⚠ Library results below threshold - will supplement with web search
+INFO:partd.enhanced_rag:⚠ Using web search fallback
+/media/data/codes/reshma/lma_maj_pro/partd/enhanced_rag.py:172: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  ddgs = DDGS()
+INFO:primp:response: https://www.bing.com/search?q=What+is+ocean+acidification%3F 200
+INFO:partd.enhanced_rag:✓ Web search: 3 results
+  A: Ocean acidification is a significant environmental threat that can damage plankton productivity, according to Library Source 1. This source identifies ocean acidification as one of the less well-perce...
+  Sources: 5 local
+
+  Q: How does plastic pollution affect marine life?
+INFO:partd.enhanced_rag:Processing question: How does plastic pollution affect marine life?
+INFO:partc.milvus_retrieval_pipeline:Hierarchical retrieval for query: 'How does plastic pollution affect marine life?'
+Batches: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 183.17it/s]
+INFO:partc.milvus_retrieval_pipeline:Vector search returned 10 results
+INFO:partc.milvus_retrieval_pipeline:Applying reranking...
+Batches: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 134.37it/s]
+INFO:partc.reranker:Reranked 10 candidates using BGE Reranker
+INFO:partc.milvus_retrieval_pipeline:Reranking metrics: {'total_results': 5, 'avg_rerank_score': 0.026882734475657345, 'avg_original_score': 0.6794037461280823, 'score_improvement': -96.04318718746225}
+INFO:partc.milvus_retrieval_pipeline:Expanding with contextual chunks...
+INFO:partc.milvus_retrieval_pipeline:Retrieved 5 results from 1 documents
+INFO:partd.enhanced_rag:Top result score from library: 0.123 (threshold: 0.3)
+INFO:partd.enhanced_rag:Source: 11.pdf
+INFO:partd.enhanced_rag:Text preview: sealants usedon them.
+
+methane, heat from spontaneous combustion, toxic compounds and subsidence lim...
+INFO:partd.enhanced_rag:⚠ Library results below threshold - will supplement with web search
+INFO:partd.enhanced_rag:⚠ Using web search fallback
+/media/data/codes/reshma/lma_maj_pro/partd/enhanced_rag.py:172: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  ddgs = DDGS()
+INFO:primp:response: https://www.bing.com/search?q=How+does+plastic+pollution+affect+marine+life%3F 200
+INFO:partd.enhanced_rag:✓ Web search: 3 results
+  A: Plastic pollution has a detrimental impact on marine life. Library Source 1 highlights that plastic waste is a significant problem, particularly as litter in the oceans. Marine turtles, for example, a...
+  Sources: 5 local
+
+✓ Task 1 (Expert Q&A) working
+
+======================================================================
+TEST 4: TASK 2 - Quiz Generation (Multi-Step)
+======================================================================
+INFO:partd.llm_client:✓ Gemini LLM client initialized: gemini-2.0-flash
+INFO:partd.llm_client:  Daily quota limit: 200 requests
+WARNING:partc.milvus_retrieval_pipeline:Could not connect to Milvus server on localhost:19530: <ConnectionConfigException: (code=1, message=Alias of 'default' already creating connections, but the configure is not the same as passed in.)>
+INFO:partc.milvus_retrieval_pipeline:Attempting URI-based connection (pymilvus 2.6+)...
+INFO:partc.milvus_retrieval_pipeline:Connected to Milvus Lite via URI: /media/data/codes/reshma/lma_maj_pro/partc/milvus_data.db
+INFO:partc.milvus_retrieval_pipeline:Using scientific embeddings (scibert) for environment domain
+INFO:partc.milvus_retrieval_pipeline:Loading embedding model: allenai/scibert_scivocab_uncased on cuda
+INFO:partc.milvus_retrieval_pipeline:Using model key: scientific for environment/sustainability domain
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: allenai/scibert_scivocab_uncased
+WARNING:sentence_transformers.SentenceTransformer:No sentence-transformers model found with name allenai/scibert_scivocab_uncased. Creating a new one with MEAN pooling.
+INFO:partc.reranker:Initializing BGE Reranker on cuda
+INFO:partc.reranker:Successfully loaded BGE Reranker: BAAI/bge-reranker-base
+INFO:partc.milvus_retrieval_pipeline:Available collections: ['environment_chunks_baseline', 'environment_chunks_scientific', 'environment_documents']
+INFO:partc.milvus_retrieval_pipeline:✓ Loaded collection: environment_chunks_scientific
+INFO:partc.milvus_retrieval_pipeline:Collection has 6865 chunks indexed
+INFO:partc.milvus_retrieval_pipeline:✓ Loaded parent collection: environment_documents
+INFO:partd.enhanced_rag:✓ Web search enabled
+INFO:partd.task_handlers:✓ Content generator initialized
+
+  Generating quiz with multi-step reasoning...
+INFO:partd.task_handlers:Generating quiz: recycling (3 questions, easy)
+INFO:partd.enhanced_rag:Processing question: Provide comprehensive educational information about recycling for creating a quiz
+INFO:partc.milvus_retrieval_pipeline:Hierarchical retrieval for query: 'Provide comprehensive educational information about recycling for creating a quiz'
+Batches: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 300.69it/s]
+INFO:partc.milvus_retrieval_pipeline:Vector search returned 10 results
+INFO:partc.milvus_retrieval_pipeline:Applying reranking...
+Batches: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  9.07it/s]
+INFO:partc.reranker:Reranked 10 candidates using BGE Reranker
+INFO:partc.milvus_retrieval_pipeline:Reranking metrics: {'total_results': 5, 'avg_rerank_score': 0.01459718100959435, 'avg_original_score': 0.7239698529243469, 'score_improvement': -97.9837308210236}
+INFO:partc.milvus_retrieval_pipeline:Expanding with contextual chunks...
+INFO:partc.milvus_retrieval_pipeline:Retrieved 5 results from 3 documents
+INFO:partd.enhanced_rag:Top result score from library: 0.027 (threshold: 0.3)
+INFO:partd.enhanced_rag:Source: RAlexandar.pdf
+INFO:partd.enhanced_rag:Text preview: ust be  part of environmental literacy in school education.
+
+improving the educational outlook for e...
+INFO:partd.enhanced_rag:⚠ Library results below threshold - will supplement with web search
+INFO:partd.enhanced_rag:⚠ Using web search fallback
+/media/data/codes/reshma/lma_maj_pro/partd/enhanced_rag.py:172: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  ddgs = DDGS()
+INFO:primp:response: https://www.bing.com/search?q=Provide+comprehensive+educational+information+about+recycling+for+creating+a+quiz 200
+INFO:partd.enhanced_rag:✓ Web search: 0 results
+INFO:partd.llm_client:Executing chain step: analyze_topic
+INFO:partd.llm_client:Executing chain step: generate_questions
+INFO:partd.llm_client:Executing chain step: enhance_explanations
+✓ Quiz generated
+  Topic: recycling
+  Questions: 3
+  Used chain reasoning: True
+
+  Sample question: What is the main purpose of recycling?
+  Answer: A
+
+======================================================================
+TEST 5: TASK 2 - Study Guide Generation
+======================================================================
+INFO:partd.llm_client:✓ Gemini LLM client initialized: gemini-2.0-flash
+INFO:partd.llm_client:  Daily quota limit: 200 requests
+WARNING:partc.milvus_retrieval_pipeline:Could not connect to Milvus server on localhost:19530: <ConnectionConfigException: (code=1, message=Alias of 'default' already creating connections, but the configure is not the same as passed in.)>
+INFO:partc.milvus_retrieval_pipeline:Attempting URI-based connection (pymilvus 2.6+)...
+INFO:partc.milvus_retrieval_pipeline:Connected to Milvus Lite via URI: /media/data/codes/reshma/lma_maj_pro/partc/milvus_data.db
+INFO:partc.milvus_retrieval_pipeline:Using scientific embeddings (scibert) for environment domain
+INFO:partc.milvus_retrieval_pipeline:Loading embedding model: allenai/scibert_scivocab_uncased on cuda
+INFO:partc.milvus_retrieval_pipeline:Using model key: scientific for environment/sustainability domain
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: allenai/scibert_scivocab_uncased
+WARNING:sentence_transformers.SentenceTransformer:No sentence-transformers model found with name allenai/scibert_scivocab_uncased. Creating a new one with MEAN pooling.
+INFO:partc.reranker:Initializing BGE Reranker on cuda
+INFO:partc.reranker:Successfully loaded BGE Reranker: BAAI/bge-reranker-base
+INFO:partc.milvus_retrieval_pipeline:Available collections: ['environment_chunks_baseline', 'environment_chunks_scientific', 'environment_documents']
+INFO:partc.milvus_retrieval_pipeline:✓ Loaded collection: environment_chunks_scientific
+INFO:partc.milvus_retrieval_pipeline:Collection has 6865 chunks indexed
+INFO:partc.milvus_retrieval_pipeline:✓ Loaded parent collection: environment_documents
+INFO:partd.enhanced_rag:✓ Web search enabled
+INFO:partd.task_handlers:✓ Content generator initialized
+
+  Generating study guide...
+INFO:partd.task_handlers:Generating study guide: renewable energy
+INFO:partd.enhanced_rag:Processing question: Provide comprehensive educational content about renewable energy
+INFO:partc.milvus_retrieval_pipeline:Hierarchical retrieval for query: 'Provide comprehensive educational content about renewable energy'
+Batches: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 304.73it/s]
+INFO:partc.milvus_retrieval_pipeline:Vector search returned 10 results
+INFO:partc.milvus_retrieval_pipeline:Applying reranking...
+Batches: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  9.48it/s]
+INFO:partc.reranker:Reranked 10 candidates using BGE Reranker
+INFO:partc.milvus_retrieval_pipeline:Reranking metrics: {'total_results': 5, 'avg_rerank_score': 0.028396401088684797, 'avg_original_score': 0.7036769151687622, 'score_improvement': -95.9645683300731}
+INFO:partc.milvus_retrieval_pipeline:Expanding with contextual chunks...
+INFO:partc.milvus_retrieval_pipeline:Retrieved 5 results from 4 documents
+INFO:partd.enhanced_rag:Top result score from library: 0.061 (threshold: 0.3)
+INFO:partd.enhanced_rag:Source: librarians-going-green.pdf
+INFO:partd.enhanced_rag:Text preview: ethically sourced products.
+
+implement green purchasing policies to guide procurement decisions.
+
+ch...
+INFO:partd.enhanced_rag:⚠ Library results below threshold - will supplement with web search
+INFO:partd.enhanced_rag:⚠ Using web search fallback
+/media/data/codes/reshma/lma_maj_pro/partd/enhanced_rag.py:172: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  ddgs = DDGS()
+INFO:primp:response: https://www.bing.com/search?q=Provide+comprehensive+educational+content+about+renewable+energy 200
+INFO:partd.enhanced_rag:✓ Web search: 3 results
+✓ Study guide generated
+  Topic: renewable energy
+  Content length: 7374 characters
+  Preview: ## Renewable Energy: A Study Guide for Environmental Sustainability
+
+**Overview**
+
+Renewable energy sources are the cornerstone of a sustainable futur...
+
+======================================================================
+TEST 6: TASK 2 - Awareness Materials
+======================================================================
+INFO:partd.llm_client:✓ Gemini LLM client initialized: gemini-2.0-flash
+INFO:partd.llm_client:  Daily quota limit: 200 requests
+WARNING:partc.milvus_retrieval_pipeline:Could not connect to Milvus server on localhost:19530: <ConnectionConfigException: (code=1, message=Alias of 'default' already creating connections, but the configure is not the same as passed in.)>
+INFO:partc.milvus_retrieval_pipeline:Attempting URI-based connection (pymilvus 2.6+)...
+INFO:partc.milvus_retrieval_pipeline:Connected to Milvus Lite via URI: /media/data/codes/reshma/lma_maj_pro/partc/milvus_data.db
+INFO:partc.milvus_retrieval_pipeline:Using scientific embeddings (scibert) for environment domain
+INFO:partc.milvus_retrieval_pipeline:Loading embedding model: allenai/scibert_scivocab_uncased on cuda
+INFO:partc.milvus_retrieval_pipeline:Using model key: scientific for environment/sustainability domain
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: allenai/scibert_scivocab_uncased
+WARNING:sentence_transformers.SentenceTransformer:No sentence-transformers model found with name allenai/scibert_scivocab_uncased. Creating a new one with MEAN pooling.
+INFO:partc.reranker:Initializing BGE Reranker on cuda
+INFO:partc.reranker:Successfully loaded BGE Reranker: BAAI/bge-reranker-base
+INFO:partc.milvus_retrieval_pipeline:Available collections: ['environment_chunks_baseline', 'environment_chunks_scientific', 'environment_documents']
+INFO:partc.milvus_retrieval_pipeline:✓ Loaded collection: environment_chunks_scientific
+INFO:partc.milvus_retrieval_pipeline:Collection has 6865 chunks indexed
+INFO:partc.milvus_retrieval_pipeline:✓ Loaded parent collection: environment_documents
+INFO:partd.enhanced_rag:✓ Web search enabled
+INFO:partd.task_handlers:✓ Content generator initialized
+
+  Generating article...
+INFO:partd.task_handlers:Generating article for students: plastic pollution
+INFO:partd.enhanced_rag:Processing question: Provide engaging information about plastic pollution for students awareness
+INFO:partc.milvus_retrieval_pipeline:Hierarchical retrieval for query: 'Provide engaging information about plastic pollution for students awareness'
+Batches: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 304.44it/s]
+INFO:partc.milvus_retrieval_pipeline:Vector search returned 10 results
+INFO:partc.milvus_retrieval_pipeline:Applying reranking...
+Batches: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  9.43it/s]
+INFO:partc.reranker:Reranked 10 candidates using BGE Reranker
+INFO:partc.milvus_retrieval_pipeline:Reranking metrics: {'total_results': 5, 'avg_rerank_score': 0.023969462513923644, 'avg_original_score': 0.7477818489074707, 'score_improvement': -96.79459155782617}
+INFO:partc.milvus_retrieval_pipeline:Expanding with contextual chunks...
+INFO:partc.milvus_retrieval_pipeline:Retrieved 5 results from 3 documents
+INFO:partd.enhanced_rag:Top result score from library: 0.040 (threshold: 0.3)
+INFO:partd.enhanced_rag:Source: environmental.pdf
+INFO:partd.enhanced_rag:Text preview: ent.
+
+arranging for video-clips video-clip over environmental related factors like waterfalls, mount...
+INFO:partd.enhanced_rag:⚠ Library results below threshold - will supplement with web search
+INFO:partd.enhanced_rag:⚠ Using web search fallback
+/media/data/codes/reshma/lma_maj_pro/partd/enhanced_rag.py:172: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  ddgs = DDGS()
+INFO:primp:response: https://www.bing.com/search?q=Provide+engaging+information+about+plastic+pollution+for+students+awareness 200
+INFO:partd.enhanced_rag:✓ Web search: 3 results
+INFO:partd.llm_client:Executing chain step: analyze_audience
+INFO:partd.llm_client:Executing chain step: identify_key_messages
+INFO:partd.llm_client:Executing chain step: write_article
+  ✓ article generated: 3593 characters
+
+  Generating social_media...
+INFO:partd.task_handlers:Generating social_media for students: plastic pollution
+INFO:partd.enhanced_rag:Processing question: Provide engaging information about plastic pollution for students awareness
+INFO:partc.milvus_retrieval_pipeline:Hierarchical retrieval for query: 'Provide engaging information about plastic pollution for students awareness'
+Batches: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 112.30it/s]
+INFO:partc.milvus_retrieval_pipeline:Vector search returned 10 results
+INFO:partc.milvus_retrieval_pipeline:Applying reranking...
+Batches: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 138.56it/s]
+INFO:partc.reranker:Reranked 10 candidates using BGE Reranker
+INFO:partc.milvus_retrieval_pipeline:Reranking metrics: {'total_results': 5, 'avg_rerank_score': 0.023969462513923644, 'avg_original_score': 0.7477818489074707, 'score_improvement': -96.79459155782617}
+INFO:partc.milvus_retrieval_pipeline:Expanding with contextual chunks...
+INFO:partc.milvus_retrieval_pipeline:Retrieved 5 results from 3 documents
+INFO:partd.enhanced_rag:Top result score from library: 0.040 (threshold: 0.3)
+INFO:partd.enhanced_rag:Source: environmental.pdf
+INFO:partd.enhanced_rag:Text preview: ent.
+
+arranging for video-clips video-clip over environmental related factors like waterfalls, mount...
+INFO:partd.enhanced_rag:⚠ Library results below threshold - will supplement with web search
+INFO:partd.enhanced_rag:⚠ Using web search fallback
+/media/data/codes/reshma/lma_maj_pro/partd/enhanced_rag.py:172: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  ddgs = DDGS()
+INFO:primp:response: https://www.bing.com/search?q=Provide+engaging+information+about+plastic+pollution+for+students+awareness 200
+INFO:partd.enhanced_rag:✓ Web search: 3 results
+  ✓ social_media generated: 916 characters
+
+  Generating poster_text...
+INFO:partd.task_handlers:Generating poster_text for students: plastic pollution
+INFO:partd.enhanced_rag:Processing question: Provide engaging information about plastic pollution for students awareness
+INFO:partc.milvus_retrieval_pipeline:Hierarchical retrieval for query: 'Provide engaging information about plastic pollution for students awareness'
+Batches: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 324.29it/s]
+INFO:partc.milvus_retrieval_pipeline:Vector search returned 10 results
+INFO:partc.milvus_retrieval_pipeline:Applying reranking...
+Batches: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 155.31it/s]
+INFO:partc.reranker:Reranked 10 candidates using BGE Reranker
+INFO:partc.milvus_retrieval_pipeline:Reranking metrics: {'total_results': 5, 'avg_rerank_score': 0.023969462513923644, 'avg_original_score': 0.7477818489074707, 'score_improvement': -96.79459155782617}
+INFO:partc.milvus_retrieval_pipeline:Expanding with contextual chunks...
+INFO:partc.milvus_retrieval_pipeline:Retrieved 5 results from 3 documents
+INFO:partd.enhanced_rag:Top result score from library: 0.040 (threshold: 0.3)
+INFO:partd.enhanced_rag:Source: environmental.pdf
+INFO:partd.enhanced_rag:Text preview: ent.
+
+arranging for video-clips video-clip over environmental related factors like waterfalls, mount...
+INFO:partd.enhanced_rag:⚠ Library results below threshold - will supplement with web search
+INFO:partd.enhanced_rag:⚠ Using web search fallback
+/media/data/codes/reshma/lma_maj_pro/partd/enhanced_rag.py:172: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  ddgs = DDGS()
+INFO:primp:response: https://www.bing.com/search?q=Provide+engaging+information+about+plastic+pollution+for+students+awareness 200
+INFO:partd.enhanced_rag:✓ Web search: 0 results
+  ✓ poster_text generated: 397 characters
+
+✓ Awareness materials working
+
+======================================================================
+TEST 7: Document Export (PDF/DOCX)
+======================================================================
+INFO:partd.llm_client:✓ Gemini LLM client initialized: gemini-2.0-flash
+INFO:partd.llm_client:  Daily quota limit: 200 requests
+WARNING:partc.milvus_retrieval_pipeline:Could not connect to Milvus server on localhost:19530: <ConnectionConfigException: (code=1, message=Alias of 'default' already creating connections, but the configure is not the same as passed in.)>
+INFO:partc.milvus_retrieval_pipeline:Attempting URI-based connection (pymilvus 2.6+)...
+INFO:partc.milvus_retrieval_pipeline:Connected to Milvus Lite via URI: /media/data/codes/reshma/lma_maj_pro/partc/milvus_data.db
+INFO:partc.milvus_retrieval_pipeline:Using scientific embeddings (scibert) for environment domain
+INFO:partc.milvus_retrieval_pipeline:Loading embedding model: allenai/scibert_scivocab_uncased on cuda
+INFO:partc.milvus_retrieval_pipeline:Using model key: scientific for environment/sustainability domain
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: allenai/scibert_scivocab_uncased
+WARNING:sentence_transformers.SentenceTransformer:No sentence-transformers model found with name allenai/scibert_scivocab_uncased. Creating a new one with MEAN pooling.
+INFO:partc.reranker:Initializing BGE Reranker on cuda
+INFO:partc.reranker:Successfully loaded BGE Reranker: BAAI/bge-reranker-base
+INFO:partc.milvus_retrieval_pipeline:Available collections: ['environment_chunks_baseline', 'environment_chunks_scientific', 'environment_documents']
+INFO:partc.milvus_retrieval_pipeline:✓ Loaded collection: environment_chunks_scientific
+INFO:partc.milvus_retrieval_pipeline:Collection has 6865 chunks indexed
+INFO:partc.milvus_retrieval_pipeline:✓ Loaded parent collection: environment_documents
+INFO:partd.enhanced_rag:✓ Web search enabled
+INFO:partd.task_handlers:✓ Content generator initialized
+INFO:partd.export_tools:✓ Document exporter initialized: generated_documents
+INFO:partd.task_handlers:Generating quiz: water conservation (2 questions, medium)
+INFO:partd.enhanced_rag:Processing question: Provide comprehensive educational information about water conservation for creating a quiz
+INFO:partc.milvus_retrieval_pipeline:Hierarchical retrieval for query: 'Provide comprehensive educational information about water conservation for creating a quiz'
+Batches: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 301.79it/s]
+INFO:partc.milvus_retrieval_pipeline:Vector search returned 10 results
+INFO:partc.milvus_retrieval_pipeline:Applying reranking...
+Batches: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  9.49it/s]
+INFO:partc.reranker:Reranked 10 candidates using BGE Reranker
+INFO:partc.milvus_retrieval_pipeline:Reranking metrics: {'total_results': 5, 'avg_rerank_score': 0.02903025634586811, 'avg_original_score': 0.7368858695030213, 'score_improvement': -96.06041348500183}
+INFO:partc.milvus_retrieval_pipeline:Expanding with contextual chunks...
+INFO:partc.milvus_retrieval_pipeline:Retrieved 5 results from 3 documents
+INFO:partd.enhanced_rag:Top result score from library: 0.119 (threshold: 0.3)
+INFO:partd.enhanced_rag:Source: RAlexandar.pdf
+INFO:partd.enhanced_rag:Text preview: ust be  part of environmental literacy in school education.
+
+improving the educational outlook for e...
+INFO:partd.enhanced_rag:⚠ Library results below threshold - will supplement with web search
+INFO:partd.enhanced_rag:⚠ Using web search fallback
+/media/data/codes/reshma/lma_maj_pro/partd/enhanced_rag.py:172: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  ddgs = DDGS()
+INFO:primp:response: https://www.bing.com/search?q=Provide+comprehensive+educational+information+about+water+conservation+for+creating+a+quiz 200
+INFO:partd.enhanced_rag:✓ Web search: 3 results
+INFO:partd.llm_client:Executing chain step: analyze_topic
+INFO:partd.llm_client:Executing chain step: generate_questions
+INFO:partd.llm_client:Executing chain step: enhance_explanations
+INFO:partd.export_tools:Exporting quiz to DOCX: water conservation
+INFO:partd.export_tools:✓ Quiz saved: generated_documents/quiz_water_conservation_20251118_221617.docx
+✓ DOCX export: generated_documents/quiz_water_conservation_20251118_221617.docx
+INFO:partd.export_tools:Exporting quiz to PDF: water conservation
+INFO:partd.export_tools:✓ Quiz PDF saved: generated_documents/quiz_water_conservation_20251118_221617.pdf
+✓ PDF export: generated_documents/quiz_water_conservation_20251118_221617.pdf
+
+======================================================================
+TEST 8: BONUS - Self-Learning from Feedback
+======================================================================
+INFO:partd.llm_client:✓ Gemini LLM client initialized: gemini-2.0-flash
+INFO:partd.llm_client:  Daily quota limit: 200 requests
+WARNING:partc.milvus_retrieval_pipeline:Could not connect to Milvus server on localhost:19530: <ConnectionConfigException: (code=1, message=Alias of 'default' already creating connections, but the configure is not the same as passed in.)>
+INFO:partc.milvus_retrieval_pipeline:Attempting URI-based connection (pymilvus 2.6+)...
+INFO:partc.milvus_retrieval_pipeline:Connected to Milvus Lite via URI: /media/data/codes/reshma/lma_maj_pro/partc/milvus_data.db
+INFO:partc.milvus_retrieval_pipeline:Using scientific embeddings (scibert) for environment domain
+INFO:partc.milvus_retrieval_pipeline:Loading embedding model: allenai/scibert_scivocab_uncased on cuda
+INFO:partc.milvus_retrieval_pipeline:Using model key: scientific for environment/sustainability domain
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: allenai/scibert_scivocab_uncased
+WARNING:sentence_transformers.SentenceTransformer:No sentence-transformers model found with name allenai/scibert_scivocab_uncased. Creating a new one with MEAN pooling.
+INFO:partc.reranker:Initializing BGE Reranker on cuda
+INFO:partc.reranker:Successfully loaded BGE Reranker: BAAI/bge-reranker-base
+INFO:partc.milvus_retrieval_pipeline:Available collections: ['environment_chunks_baseline', 'environment_chunks_scientific', 'environment_documents']
+INFO:partc.milvus_retrieval_pipeline:✓ Loaded collection: environment_chunks_scientific
+INFO:partc.milvus_retrieval_pipeline:Collection has 6865 chunks indexed
+INFO:partc.milvus_retrieval_pipeline:✓ Loaded parent collection: environment_documents
+INFO:partd.enhanced_rag:✓ Web search enabled
+INFO:partd.task_handlers:✓ Content generator initialized
+INFO:partd.enhanced_rag:Processing question: What is composting?
+INFO:partc.milvus_retrieval_pipeline:Hierarchical retrieval for query: 'What is composting?'
+Batches: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 327.40it/s]
+INFO:partc.milvus_retrieval_pipeline:Vector search returned 10 results
+INFO:partc.milvus_retrieval_pipeline:Applying reranking...
+Batches: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  9.38it/s]
+INFO:partc.reranker:Reranked 10 candidates using BGE Reranker
+INFO:partc.milvus_retrieval_pipeline:Reranking metrics: {'total_results': 5, 'avg_rerank_score': 0.003643491382536013, 'avg_original_score': 0.6761222720146179, 'score_improvement': -99.4611194552607}
+INFO:partc.milvus_retrieval_pipeline:Expanding with contextual chunks...
+INFO:partc.milvus_retrieval_pipeline:Retrieved 5 results from 4 documents
+INFO:partd.enhanced_rag:Top result score from library: 0.013 (threshold: 0.3)
+INFO:partd.enhanced_rag:Source: 11.pdf
+INFO:partd.enhanced_rag:Text preview: to wildlife in various marine and freshwateraquatic environments.
+
+integrated pest management (ipm) ...
+INFO:partd.enhanced_rag:⚠ Library results below threshold - will supplement with web search
+INFO:partd.enhanced_rag:⚠ Using web search fallback
+/media/data/codes/reshma/lma_maj_pro/partd/enhanced_rag.py:172: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  ddgs = DDGS()
+INFO:primp:response: https://www.bing.com/search?q=What+is+composting%3F 200
+INFO:partd.enhanced_rag:✓ Web search: 3 results
+
+  Recording feedback...
+INFO:partd.enhanced_rag:✓ Feedback recorded: positive
+INFO:partd.task_handlers:✓ Feedback recorded for self-learning
+INFO:partd.enhanced_rag:✓ Feedback recorded: suggestion
+INFO:partd.task_handlers:✓ Feedback recorded for self-learning
+✓ Self-learning working
+  Total feedback: 20
+  Positive: 10
+  Average rating: 4.50
+INFO:partd.enhanced_rag:Processing question: Explain composting in detail
+INFO:partc.milvus_retrieval_pipeline:Hierarchical retrieval for query: 'Explain composting in detail'
+Batches: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 330.08it/s]
+INFO:partc.milvus_retrieval_pipeline:Vector search returned 10 results
+INFO:partc.milvus_retrieval_pipeline:Applying reranking...
+Batches: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 141.12it/s]
+INFO:partc.reranker:Reranked 10 candidates using BGE Reranker
+INFO:partc.milvus_retrieval_pipeline:Reranking metrics: {'total_results': 5, 'avg_rerank_score': 0.0006866224051918834, 'avg_original_score': 0.6535654187202453, 'score_improvement': -99.89494205392072}
+INFO:partc.milvus_retrieval_pipeline:Expanding with contextual chunks...
+INFO:partc.milvus_retrieval_pipeline:Retrieved 5 results from 3 documents
+INFO:partd.enhanced_rag:Top result score from library: 0.002 (threshold: 0.3)
+INFO:partd.enhanced_rag:Source: 1375_handbook_ environmental_ education.pdf
+INFO:partd.enhanced_rag:Text preview: ne both at ground level and in upper air science posters promotions for parents evenings and open da...
+INFO:partd.enhanced_rag:⚠ Library results below threshold - will supplement with web search
+INFO:partd.enhanced_rag:⚠ Using web search fallback
+/media/data/codes/reshma/lma_maj_pro/partd/enhanced_rag.py:172: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  ddgs = DDGS()
+INFO:primp:response: https://www.bing.com/search?q=Explain+composting+in+detail 200
+INFO:partd.enhanced_rag:✓ Web search: 0 results
+  Applied feedback: False
+
+======================================================================
+TEST 9: Email Document Delivery (LangChain Multi-Step)
+======================================================================
+INFO:partd.llm_client:✓ Gemini LLM client initialized: gemini-2.0-flash
+INFO:partd.llm_client:  Daily quota limit: 200 requests
+WARNING:partc.milvus_retrieval_pipeline:Could not connect to Milvus server on localhost:19530: <ConnectionConfigException: (code=1, message=Alias of 'default' already creating connections, but the configure is not the same as passed in.)>
+INFO:partc.milvus_retrieval_pipeline:Attempting URI-based connection (pymilvus 2.6+)...
+INFO:partc.milvus_retrieval_pipeline:Connected to Milvus Lite via URI: /media/data/codes/reshma/lma_maj_pro/partc/milvus_data.db
+INFO:partc.milvus_retrieval_pipeline:Using scientific embeddings (scibert) for environment domain
+INFO:partc.milvus_retrieval_pipeline:Loading embedding model: allenai/scibert_scivocab_uncased on cuda
+INFO:partc.milvus_retrieval_pipeline:Using model key: scientific for environment/sustainability domain
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: allenai/scibert_scivocab_uncased
+WARNING:sentence_transformers.SentenceTransformer:No sentence-transformers model found with name allenai/scibert_scivocab_uncased. Creating a new one with MEAN pooling.
+INFO:partc.reranker:Initializing BGE Reranker on cuda
+INFO:partc.reranker:Successfully loaded BGE Reranker: BAAI/bge-reranker-base
+INFO:partc.milvus_retrieval_pipeline:Available collections: ['environment_chunks_baseline', 'environment_chunks_scientific', 'environment_documents']
+INFO:partc.milvus_retrieval_pipeline:✓ Loaded collection: environment_chunks_scientific
+INFO:partc.milvus_retrieval_pipeline:Collection has 6865 chunks indexed
+INFO:partc.milvus_retrieval_pipeline:✓ Loaded parent collection: environment_documents
+INFO:partd.enhanced_rag:✓ Web search enabled
+INFO:partd.task_handlers:✓ Content generator initialized
+INFO:partd.export_tools:✓ Document exporter initialized: generated_documents
+
+  Generating quiz document...
+INFO:partd.task_handlers:Generating quiz: climate change (2 questions, medium)
+INFO:partd.enhanced_rag:Processing question: Provide comprehensive educational information about climate change for creating a quiz
+INFO:partc.milvus_retrieval_pipeline:Hierarchical retrieval for query: 'Provide comprehensive educational information about climate change for creating a quiz'
+Batches: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 318.86it/s]
+INFO:partc.milvus_retrieval_pipeline:Vector search returned 10 results
+INFO:partc.milvus_retrieval_pipeline:Applying reranking...
+Batches: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  9.82it/s]
+INFO:partc.reranker:Reranked 10 candidates using BGE Reranker
+INFO:partc.milvus_retrieval_pipeline:Reranking metrics: {'total_results': 5, 'avg_rerank_score': 0.008753092167899013, 'avg_original_score': 0.7373561263084412, 'score_improvement': -98.81290846368617}
+INFO:partc.milvus_retrieval_pipeline:Expanding with contextual chunks...
+INFO:partc.milvus_retrieval_pipeline:Retrieved 5 results from 3 documents
+INFO:partd.enhanced_rag:Top result score from library: 0.024 (threshold: 0.3)
+INFO:partd.enhanced_rag:Source: environmental.pdf
+INFO:partd.enhanced_rag:Text preview: f the transmitter.
+
+other methods.
+
+stimulation and games stimulation and games can be used to acqui...
+INFO:partd.enhanced_rag:⚠ Library results below threshold - will supplement with web search
+INFO:partd.enhanced_rag:⚠ Using web search fallback
+/media/data/codes/reshma/lma_maj_pro/partd/enhanced_rag.py:172: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  ddgs = DDGS()
+INFO:primp:response: https://www.bing.com/search?q=Provide+comprehensive+educational+information+about+climate+change+for+creating+a+quiz 200
+INFO:partd.enhanced_rag:✓ Web search: 3 results
+INFO:partd.llm_client:Executing chain step: analyze_topic
+INFO:partd.llm_client:Executing chain step: generate_questions
+INFO:partd.llm_client:Executing chain step: enhance_explanations
+INFO:partd.export_tools:Exporting quiz to DOCX: climate change
+INFO:partd.export_tools:✓ Quiz saved: generated_documents/quiz_climate_change_20251118_221703.docx
+  ✓ Generated: generated_documents/quiz_climate_change_20251118_221703.docx
+
+  Testing email generation with LangChain multi-step reasoning...
+WARNING:partd.email_tool:⚠ Email credentials not provided. Email functionality disabled.
+WARNING:partd.email_tool:Set SENDER_EMAIL and SENDER_PASSWORD environment variables to enable.
+  ✓ Generated email body (826 chars)
+  Preview: Hey there, future climate champions!
+
+Ready to put your climate change knowledge to the test in a fun and engaging way? We've created a super cool qui...
+
+  Testing outreach email generation...
+WARNING:partd.email_tool:⚠ Email credentials not provided. Email functionality disabled.
+WARNING:partd.email_tool:Set SENDER_EMAIL and SENDER_PASSWORD environment variables to enable.
+ERROR:partd.email_tool:✗ Email tool not enabled. Set credentials first.
+INFO:partd.email_tool:💡 Tip: Set SENDER_EMAIL and SENDER_PASSWORD environment variables
+INFO:partd.email_tool:Would have sent to: reshmakreveendran629@gmail.com
+INFO:partd.email_tool:Subject: Sustainability Matters: Renewable Energy
+INFO:partd.email_tool:Attachments: []
+ERROR:partd.email_tool:✗ Email tool not enabled. Set credentials first.
+INFO:partd.email_tool:💡 Tip: Set SENDER_EMAIL and SENDER_PASSWORD environment variables
+INFO:partd.email_tool:Would have sent to: hariniesethu@gmail.com
+INFO:partd.email_tool:Subject: Sustainability Matters: Renewable Energy
+INFO:partd.email_tool:Attachments: []
+  ✓ Outreach email generated
+  Subject: Sustainability Matters: Renewable Energy
+  Body preview: Hey there, future world-changers!
+
+Are you passionate about a healthy planet and building a brighter future? Then renewable energy is something you need to know about! It’s not just about saving the e...
+
+  💡 To actually send emails, set environment variables:
+     export SENDER_EMAIL='your_email@gmail.com'
+     export SENDER_PASSWORD='your_app_password'
+
+======================================================================
+TEST SUMMARY
+======================================================================
+LLM Client + Chain: ✓ PASSED
+RAG + Web Search: ✓ PASSED
+Task 1: Q&A: ✓ PASSED
+Task 2: Quiz: ✓ PASSED
+Task 2: Study Guide: ✓ PASSED
+Task 2: Awareness: ✓ PASSED
+Document Export: ✓ PASSED
+BONUS: Self-Learning: ✓ PASSED
+Email Delivery (LangChain): ✓ PASSED
+======================================================================
+✓ ALL PART D TESTS PASSED
+
+Implemented Features:
+  ✓ Task 1: Expert Q&A (RAG-based)
+  ✓ Task 2: Content Generation (Quiz, Study Guide, Awareness)
+  ✓ Multi-Step Reasoning (Chain generation)
+  ✓ Adaptive Explanations (Context-aware)
+  ✓ Document Export (PDF/DOCX)
+  ✓ Email Delivery (LangChain multi-step reasoning)
+  ✓ BONUS: Self-Learning from Feedback
+======================================================================
+sys:1: DeprecationWarning: builtin type swigvarlink has no __module__ attribute

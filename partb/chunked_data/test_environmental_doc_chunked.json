@@ -1,0 +1,220 @@
+{
+  "source_file": "test_environmental_doc.txt",
+  "chunking_timestamp": "2025-10-24T17:52:56.717975",
+  "original_metadata": {
+    "total_pages": 1,
+    "original_text_length": 158,
+    "extraction_method": "text_file"
+  },
+  "filtering_stats": {
+    "original_length": 158,
+    "sections_removed": 0,
+    "paragraphs_removed": 0,
+    "sentences_removed": 0,
+    "cleaned_length": 156,
+    "retention_rate": 98.73417721518987
+  },
+  "chunking_config": {
+    "chunk_sizes": {
+      "large": 2048,
+      "medium": 512,
+      "small": 128
+    },
+    "overlap_percentages": {
+      "large": 0.1,
+      "medium": 0.15,
+      "small": 0.2
+    }
+  },
+  "chunk_stats": {
+    "large_fixed_size": {
+      "chunk_count": 1,
+      "avg_tokens": 39.0,
+      "min_tokens": 39,
+      "max_tokens": 39,
+      "total_tokens": 39
+    },
+    "large_content_aware": {
+      "chunk_count": 1,
+      "avg_tokens": 39.0,
+      "min_tokens": 39,
+      "max_tokens": 39,
+      "total_tokens": 39
+    },
+    "large_recursive_character": {
+      "chunk_count": 1,
+      "avg_tokens": 39.0,
+      "min_tokens": 39,
+      "max_tokens": 39,
+      "total_tokens": 39
+    },
+    "medium_fixed_size": {
+      "chunk_count": 1,
+      "avg_tokens": 39.0,
+      "min_tokens": 39,
+      "max_tokens": 39,
+      "total_tokens": 39
+    },
+    "medium_content_aware": {
+      "chunk_count": 1,
+      "avg_tokens": 39.0,
+      "min_tokens": 39,
+      "max_tokens": 39,
+      "total_tokens": 39
+    },
+    "medium_recursive_character": {
+      "chunk_count": 1,
+      "avg_tokens": 39.0,
+      "min_tokens": 39,
+      "max_tokens": 39,
+      "total_tokens": 39
+    },
+    "small_fixed_size": {
+      "chunk_count": 1,
+      "avg_tokens": 39.0,
+      "min_tokens": 39,
+      "max_tokens": 39,
+      "total_tokens": 39
+    },
+    "small_content_aware": {
+      "chunk_count": 1,
+      "avg_tokens": 39.0,
+      "min_tokens": 39,
+      "max_tokens": 39,
+      "total_tokens": 39
+    },
+    "small_recursive_character": {
+      "chunk_count": 1,
+      "avg_tokens": 39.0,
+      "min_tokens": 39,
+      "max_tokens": 39,
+      "total_tokens": 39
+    }
+  },
+  "chunks": {
+    "large": {
+      "fixed_size": [
+        {
+          "chunk_id": 0,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 2048,
+          "overlap_percentage": 0.1,
+          "start_char": 0,
+          "end_char": 156,
+          "text_length": 156,
+          "estimated_tokens": 39,
+          "text": "this is  test environmental document about sustainability and climate change. it discusses renewable energy sources and environmental protection strategies."
+        }
+      ],
+      "content_aware": [
+        {
+          "chunk_id": 0,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 2048,
+          "overlap_percentage": 0.1,
+          "start_char": 0,
+          "end_char": 156,
+          "text_length": 156,
+          "estimated_tokens": 39,
+          "text": "this is  test environmental document about sustainability and climate change. it discusses renewable energy sources and environmental protection strategies."
+        }
+      ],
+      "recursive_character": [
+        {
+          "chunk_id": 0,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 2048,
+          "overlap_percentage": 0.1,
+          "start_char": 0,
+          "end_char": 156,
+          "text_length": 156,
+          "estimated_tokens": 39,
+          "text": "this is  test environmental document about sustainability and climate change. it discusses renewable energy sources and environmental protection strategies."
+        }
+      ]
+    },
+    "medium": {
+      "fixed_size": [
+        {
+          "chunk_id": 0,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 0,
+          "end_char": 156,
+          "text_length": 156,
+          "estimated_tokens": 39,
+          "text": "this is  test environmental document about sustainability and climate change. it discusses renewable energy sources and environmental protection strategies."
+        }
+      ],
+      "content_aware": [
+        {
+          "chunk_id": 0,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 0,
+          "end_char": 156,
+          "text_length": 156,
+          "estimated_tokens": 39,
+          "text": "this is  test environmental document about sustainability and climate change. it discusses renewable energy sources and environmental protection strategies."
+        }
+      ],
+      "recursive_character": [
+        {
+          "chunk_id": 0,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 0,
+          "end_char": 156,
+          "text_length": 156,
+          "estimated_tokens": 39,
+          "text": "this is  test environmental document about sustainability and climate change. it discusses renewable energy sources and environmental protection strategies."
+        }
+      ]
+    },
+    "small": {
+      "fixed_size": [
+        {
+          "chunk_id": 0,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 0,
+          "end_char": 156,
+          "text_length": 156,
+          "estimated_tokens": 39,
+          "text": "this is  test environmental document about sustainability and climate change. it discusses renewable energy sources and environmental protection strategies."
+        }
+      ],
+      "content_aware": [
+        {
+          "chunk_id": 0,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 0,
+          "end_char": 156,
+          "text_length": 156,
+          "estimated_tokens": 39,
+          "text": "this is  test environmental document about sustainability and climate change. it discusses renewable energy sources and environmental protection strategies."
+        }
+      ],
+      "recursive_character": [
+        {
+          "chunk_id": 0,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 0,
+          "end_char": 156,
+          "text_length": 156,
+          "estimated_tokens": 39,
+          "text": "this is  test environmental document about sustainability and climate change. it discusses renewable energy sources and environmental protection strategies."
+        }
+      ]
+    }
+  },
+  "chunking_success": true
+}

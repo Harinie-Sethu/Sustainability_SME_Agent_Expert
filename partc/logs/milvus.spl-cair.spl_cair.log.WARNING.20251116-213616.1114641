@@ -1,0 +1,6 @@
+Log file created at: 2025/11/16 21:36:16
+Running on machine: spl-cair
+Running duration (h:mm:ss): 0:00:00
+Log line format: [IWEF]yyyymmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W20251116 21:36:16.393579 1114657 thread_pool.h:117] [KNOWHERE][InitGlobalBuildThreadPool][milvus] Global Build ThreadPool has already been initialized with threads num: 24
+W20251116 21:36:16.393589 1114716 thread_pool.h:129] [KNOWHERE][InitGlobalSearchThreadPool][milvus] Global Search ThreadPool has already been initialized with threads num: 24

@@ -1,0 +1,1397 @@
+{
+  "source_file": "marine.txt",
+  "chunking_timestamp": "2025-11-19T09:46:58.180015",
+  "original_metadata": {
+    "total_pages": 1,
+    "original_text_length": 11529,
+    "extraction_method": "text_file"
+  },
+  "filtering_stats": {
+    "original_length": 11529,
+    "sections_removed": 0,
+    "paragraphs_removed": 0,
+    "sentences_removed": 0,
+    "cleaned_length": 11411,
+    "retention_rate": 98.97649405846127
+  },
+  "chunking_config": {
+    "chunk_sizes": {
+      "large": 2048,
+      "medium": 512,
+      "small": 128
+    },
+    "overlap_percentages": {
+      "large": 0.1,
+      "medium": 0.15,
+      "small": 0.2
+    }
+  },
+  "chunk_stats": {
+    "large_fixed_size": {
+      "chunk_count": 2,
+      "avg_tokens": 1528.5,
+      "min_tokens": 1009,
+      "max_tokens": 2048,
+      "total_tokens": 3057
+    },
+    "large_content_aware": {
+      "chunk_count": 2,
+      "avg_tokens": 1540.0,
+      "min_tokens": 1037,
+      "max_tokens": 2043,
+      "total_tokens": 3080
+    },
+    "large_recursive_character": {
+      "chunk_count": 2,
+      "avg_tokens": 1528.0,
+      "min_tokens": 1003,
+      "max_tokens": 2053,
+      "total_tokens": 3056
+    },
+    "medium_fixed_size": {
+      "chunk_count": 7,
+      "avg_tokens": 473.0,
+      "min_tokens": 241,
+      "max_tokens": 512,
+      "total_tokens": 3311
+    },
+    "medium_content_aware": {
+      "chunk_count": 7,
+      "avg_tokens": 474.2857142857143,
+      "min_tokens": 340,
+      "max_tokens": 510,
+      "total_tokens": 3320
+    },
+    "medium_recursive_character": {
+      "chunk_count": 7,
+      "avg_tokens": 472.57142857142856,
+      "min_tokens": 208,
+      "max_tokens": 525,
+      "total_tokens": 3308
+    },
+    "small_fixed_size": {
+      "chunk_count": 28,
+      "avg_tokens": 126.14285714285714,
+      "min_tokens": 85,
+      "max_tokens": 128,
+      "total_tokens": 3532
+    },
+    "small_content_aware": {
+      "chunk_count": 32,
+      "avg_tokens": 109.875,
+      "min_tokens": 86,
+      "max_tokens": 128,
+      "total_tokens": 3516
+    },
+    "small_recursive_character": {
+      "chunk_count": 29,
+      "avg_tokens": 122.27586206896552,
+      "min_tokens": 97,
+      "max_tokens": 151,
+      "total_tokens": 3546
+    }
+  },
+  "chunks": {
+    "large": {
+      "fixed_size": [
+        {
+          "chunk_id": 0,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 2048,
+          "overlap_percentage": 0.1,
+          "start_char": 0,
+          "end_char": 8192,
+          "text_length": 8192,
+          "estimated_tokens": 2048,
+          "text": "marine life sustainability requires  multi-faceted approach including international agreements like the bbnj treaty, creating more marine protected areas, and combating overfishing through better management and diversification of fisheries. individuals can contribute by reducing their plastic use and carbon footprint, making sustainable seafood choices, and avoiding damage to marine habitats. global and governmental actions international cooperation: advocate for and implement international agreements, such as the biodiversity beyond national jurisdiction (bbnj) agreement, to create  legal framework for conservation in international waters. marine protected areas (mpas): expand and manage mpas to provide safe zones for marine species and conserve biodiversity. sustainable fisheries management: implement stronger regulations and enforcement to combat overfishing and illegal fishing. diversifying fisheries through responsible aquaculture is also  way to build resilience. mitigate climate change: reduce carbon emissions to slow ocean warming and acidification, which negatively impacts coral reefs and other marine life. individual actions reduce pollution: minimize plastic use, as millions of tons enter the ocean each year, harming marine animals and ecosystems. clean up local beaches and support initiatives like the international coastal cleanup day. make sustainable choices: shop for and consume seafood that is sustainably harvested. reduce your carbon footprint by conserving energy and using public transportation when possible. protect marine habitats: when boating, be careful not to damage coral reefs or seagrass beds with anchors. avoid touching coral reefs when diving or snorkeling. use reef-safe sunscreens. conserve water: use less water to reduce the amount of runoff and wastewater that flows into the ocean. the ocean is intrinsic to our life on earth. covering three-quarters of the earths surface, contain 97 percent of the earths water, and represent 99 percent of the living space on the planet by volume. it provides key natural resources including food, medicines, biofuels and other products; help with the breakdown and removal of waste and pollution; and their coastal ecosystems act as buffers to reduce damage from storms. it also acts as the planets greatest carbon sink. worryingly, marine pollution is reaching extreme levels, with over 17 million metric tons clogging the ocean in 2021,  figure set to double or triple by 2040. plastic is the most harmful type of ocean pollution. despite increased conservation efforts, only. of the ocean is currently designated as marine protected areaswell below the 30 target set for 2030. just 46 of marine key biodiversity areas are under formal protection. meanwhile, ocean warming, acidification, overfishing, and illegal practices continue to threaten marine ecosystems, and support for small-scale fisheries remains inadequate. currently, the oceans average ph is. which is about 30 per cent more acidic than in pre- industrial times. ocean acidification threatens the survival of marine life, disrupts the food web, and undermines vital services provided by the ocean and our own food security. careful management of this essential global resource is  key feature of  sustainable future. this includes increasing funding for ocean science, intensifying conservation efforts, and urgently turning the tide on climate change to safeguard the planets largest ecosystem. current efforts to protect are not yet meeting the urgent need to safeguard this vast, yet fragile, resource. why? the ocean is our planets life support and regulate the global climate system. it is the worlds largest ecosystem, home to nearly  million known species and containing vast untapped potential for scientific discovery. oceans and fisheries continue to support the global populations economic, social and environmental needs. despite the critical importance of conserving oceans, decades of irresponsible exploitation have led to an alarming level of degradation. so whats the problem? the ocean absorbs around 23 per cent of annual co2 emissions generated by human activity and helps mitigate the impacts of climate change. the ocean has also absorbed more than 90 of the excess heat in the climate system. ocean heat is at record levels, causing widespread marine heatwaves, threatening its rich eco-systems and killing coral reefs around the world. the world is now in the midst of  fourth global coral bleaching event, which is considered the most widespread and intense on record. between january 2023 and may 2025, bleaching-level heat stress affected 84 per cent of reefs globally, across 83 countries and territories. the bleaching event is so severe that coral mortality alert levels have been expanded beyond their original scale. increasing levels of debris in the worlds oceans are also having  major environmental and economic impact. every year, an estimated  to 12 million metric tonnes of plastic enters the ocean, costing roughly 13 billion per year including clean-up costs and financial losses in fisheries and other industries. about 89 of plastic litter found on the ocean floor are single-use items like plastic bags. about 80 of all tourism takes place in coastal areas. the ocean-related tourism industry grows an estimated us 134 billion per year and in some countries, the industry already supports over  third of the labour force. unless carefully managed, tourism can pose  major threat to the natural resources on which it depends, and to local culture and industry. how is the ocean connected to our health? the health of the ocean is intimately tied to our health. the diversity of species found in the ocean offers great promise for pharmaceuticals. furthermore, marine fisheries provide 57 million jobs globally and provide the primary source of protein to over 50 of the population in least developed countries. so, what can we do? the third united nations ocean conference, held in nice in june 2025, offered renewed momentum as countries adopted  bold political declaration and made over 800 voluntary commitments focused on marine protection, pollution control, high-seas governance and support for vulnerable nations.  key milestone was progress towards the agreement on marine biological diversity of areas beyond national jurisdiction (the bbnj agreement); that provides  legal framework for all activities in the ocean and seas; with 19 new ratifications bringing the total to 50 states just 10 states short of the 60 needed for the agreement to enter into force. for open ocean and deep sea areas, sustainability can be achieved only through increased international cooperation to protect vulnerable habitats. establishing complete, effective and equitably managed systems of government-protected areas should be pursued to conserve bio-diversity and ensure  sustainable future for the fishing industry. one example is the biodiversity beyond national jurisdiction agreement in 2023 that provides  legal framework for all activities in the ocean and seas. on  local level, we should make ocean- friendly choices when buying products or eating food derived from oceans and consume only what we need. reducing our plastic use is critical. goal 14 is about conserving and sustainably using the oceans, seas and marine resources. healthy oceans and seas are essential to human existence and life on earth. the ocean is intrinsic to our life on earth. covering three-quarters of the earths surface, contain 97 percent of the earths water, and represent 99 percent of the living space on the planet by volume. they provide key natural resources including food, medicines, biofuels and other products; help with the breakdown and removal of waste and pollution; and their coastal ecosystems act as buffers to reduce damage from storms. they also act as the planets greatest carbon sink. worryingly, marine pollution is reaching extreme levels, with over 17 million metric tons clogging the ocean in 2021,  figure set to double or triple by 2040. plastic is the most harmful type of ocean pollution. currently, the oceans average ph is. which is about 30 per cent more acidic than in"
+        },
+        {
+          "chunk_id": 1,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 2048,
+          "overlap_percentage": 0.1,
+          "start_char": 7373,
+          "end_char": 11411,
+          "text_length": 4038,
+          "estimated_tokens": 1009,
+          "text": "sential to human existence and life on earth. the ocean is intrinsic to our life on earth. covering three-quarters of the earths surface, contain 97 percent of the earths water, and represent 99 percent of the living space on the planet by volume. they provide key natural resources including food, medicines, biofuels and other products; help with the breakdown and removal of waste and pollution; and their coastal ecosystems act as buffers to reduce damage from storms. they also act as the planets greatest carbon sink. worryingly, marine pollution is reaching extreme levels, with over 17 million metric tons clogging the ocean in 2021,  figure set to double or triple by 2040. plastic is the most harmful type of ocean pollution. currently, the oceans average ph is. which is about 30 per cent more acidic than in pre- industrial times. ocean acidification threatens the survival of marine life, disrupts the food web, and undermines vital services provided by the ocean and our own food security. careful management of this essential global resource is  key feature of  sustainable future. this includes increasing funding for ocean science, intensifying conservation efforts, and urgently turning the tide on climate change to safeguard the planets largest ecosystem. current efforts to protect are not yet meeting the urgent need to safeguard this vast, yet fragile, resource. why? the ocean is our planets life support and regulate the global climate system. it is the worlds largest ecosystem, home to nearly  million known species and containing vast untapped potential for scientific discovery. oceans and fisheries continue to support the global populations economic, social and environmental needs. despite the critical importance of conserving oceans, decades of irresponsible exploitation have led to an alarming level of degradation. so whats the problem? the ocean absorbs around 23 per cent of annual co2 emissions generated by human activity and helps mitigate the impacts of climate change. the ocean has also absorbed more than 90 of the excess heat in the climate system. ocean heat is at record levels, causing widespread marine heatwaves, threatening its rich eco-systems and killing coral reefs around the world. increasing levels of debris in the worlds oceans are also having  major environmental and economic impact. every year, an estimated  to 12 million metric tonnes of plastic enters the ocean, costing roughly 13 billion per year including clean-up costs and financial losses in fisheries and other industries. about 89 of plastic litter found on the ocean floor are single-use items like plastic bags. about 80 of all tourism takes place in coastal areas. the ocean-related tourism industry grows an estimated us 134 billion per year and in some countries, the industry already supports over  third of the labour force. unless carefully managed, tourism can pose  major threat to the natural resources on which it depends, and to local culture and industry. how is the ocean connected to our health? the health of the ocean is intimately tied to our health. the diversity of species found in the ocean offers great promise for pharmaceuticals. furthermore, marine fisheries provide 57 million jobs globally and provide the primary source of protein to over 50 of the population in least developed countries. so, what can we do? for open ocean and deep sea areas, sustainability can be achieved only through increased international cooperation to protect vulnerable habitats. establishing complete, effective and equitably managed systems of government-protected areas should be pursued to conserve bio-diversity and ensure  sustainable future for the fishing industry. one example is the biodiversity beyond national jurisdiction agreement in 2023 that provides  legal framework for all activities in the ocean and seas. on  local level, we should make ocean- friendly choices when buying products or eating food derived from oceans and consume only what we need. reducing our plastic use is critical."
+        }
+      ],
+      "content_aware": [
+        {
+          "chunk_id": 0,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 2048,
+          "overlap_percentage": 0.1,
+          "start_char": 241,
+          "end_char": 8416,
+          "text_length": 8175,
+          "estimated_tokens": 2043,
+          "text": "marine life sustainability requires  multi-faceted approach including international agreements like the bbnj treaty, creating more marine protected areas, and combating overfishing through better management and diversification of fisheries.\n\nindividuals can contribute by reducing their plastic use and carbon footprint, making sustainable seafood choices, and avoiding damage to marine habitats.\n\nglobal and governmental actions international cooperation: advocate for and implement international agreements, such as the biodiversity beyond national jurisdiction (bbnj) agreement, to create  legal framework for conservation in international waters.\n\nmarine protected areas (mpas): expand and manage mpas to provide safe zones for marine species and conserve biodiversity.\n\nsustainable fisheries management: implement stronger regulations and enforcement to combat overfishing and illegal fishing.\n\ndiversifying fisheries through responsible aquaculture is also  way to build resilience.\n\nmitigate climate change: reduce carbon emissions to slow ocean warming and acidification, which negatively impacts coral reefs and other marine life.\n\nindividual actions reduce pollution: minimize plastic use, as millions of tons enter the ocean each year, harming marine animals and ecosystems.\n\nclean up local beaches and support initiatives like the international coastal cleanup day.\n\nmake sustainable choices: shop for and consume seafood that is sustainably harvested.\n\nreduce your carbon footprint by conserving energy and using public transportation when possible.\n\nprotect marine habitats: when boating, be careful not to damage coral reefs or seagrass beds with anchors.\n\navoid touching coral reefs when diving or snorkeling.\n\nuse reef-safe sunscreens.\n\nconserve water: use less water to reduce the amount of runoff and wastewater that flows into the ocean.\n\nthe ocean is intrinsic to our life on earth.\n\ncovering three-quarters of the earths surface, contain 97 percent of the earths water, and represent 99 percent of the living space on the planet by volume.\n\nit provides key natural resources including food, medicines, biofuels and other products; help with the breakdown and removal of waste and pollution; and their coastal ecosystems act as buffers to reduce damage from storms.\n\nit also acts as the planets greatest carbon sink.\n\nworryingly, marine pollution is reaching extreme levels, with over 17 million metric tons clogging the ocean in 2021,  figure set to double or triple by 2040.\n\nplastic is the most harmful type of ocean pollution.\n\ndespite increased conservation efforts, only.\n\nof the ocean is currently designated as marine protected areaswell below the 30 target set for 2030.\n\njust 46 of marine key biodiversity areas are under formal protection.\n\nmeanwhile, ocean warming, acidification, overfishing, and illegal practices continue to threaten marine ecosystems, and support for small-scale fisheries remains inadequate.\n\ncurrently, the oceans average ph is.\n\nwhich is about 30 per cent more acidic than in pre- industrial times.\n\nocean acidification threatens the survival of marine life, disrupts the food web, and undermines vital services provided by the ocean and our own food security.\n\ncareful management of this essential global resource is  key feature of  sustainable future.\n\nthis includes increasing funding for ocean science, intensifying conservation efforts, and urgently turning the tide on climate change to safeguard the planets largest ecosystem.\n\ncurrent efforts to protect are not yet meeting the urgent need to safeguard this vast, yet fragile, resource.\n\nwhy?\n\nthe ocean is our planets life support and regulate the global climate system.\n\nit is the worlds largest ecosystem, home to nearly  million known species and containing vast untapped potential for scientific discovery.\n\noceans and fisheries continue to support the global populations economic, social and environmental needs.\n\ndespite the critical importance of conserving oceans, decades of irresponsible exploitation have led to an alarming level of degradation.\n\nso whats the problem?\n\nthe ocean absorbs around 23 per cent of annual co2 emissions generated by human activity and helps mitigate the impacts of climate change.\n\nthe ocean has also absorbed more than 90 of the excess heat in the climate system.\n\nocean heat is at record levels, causing widespread marine heatwaves, threatening its rich eco-systems and killing coral reefs around the world.\n\nthe world is now in the midst of  fourth global coral bleaching event, which is considered the most widespread and intense on record.\n\nbetween january 2023 and may 2025, bleaching-level heat stress affected 84 per cent of reefs globally, across 83 countries and territories.\n\nthe bleaching event is so severe that coral mortality alert levels have been expanded beyond their original scale.\n\nincreasing levels of debris in the worlds oceans are also having  major environmental and economic impact.\n\nevery year, an estimated  to 12 million metric tonnes of plastic enters the ocean, costing roughly 13 billion per year including clean-up costs and financial losses in fisheries and other industries.\n\nabout 89 of plastic litter found on the ocean floor are single-use items like plastic bags.\n\nabout 80 of all tourism takes place in coastal areas.\n\nthe ocean-related tourism industry grows an estimated us 134 billion per year and in some countries, the industry already supports over  third of the labour force.\n\nunless carefully managed, tourism can pose  major threat to the natural resources on which it depends, and to local culture and industry.\n\nhow is the ocean connected to our health?\n\nthe health of the ocean is intimately tied to our health.\n\nthe diversity of species found in the ocean offers great promise for pharmaceuticals.\n\nfurthermore, marine fisheries provide 57 million jobs globally and provide the primary source of protein to over 50 of the population in least developed countries.\n\nso, what can we do?\n\nthe third united nations ocean conference, held in nice in june 2025, offered renewed momentum as countries adopted  bold political declaration and made over 800 voluntary commitments focused on marine protection, pollution control, high-seas governance and support for vulnerable nations.\n\nkey milestone was progress towards the agreement on marine biological diversity of areas beyond national jurisdiction (the bbnj agreement); that provides  legal framework for all activities in the ocean and seas; with 19 new ratifications bringing the total to 50 states just 10 states short of the 60 needed for the agreement to enter into force.\n\nfor open ocean and deep sea areas, sustainability can be achieved only through increased international cooperation to protect vulnerable habitats.\n\nestablishing complete, effective and equitably managed systems of government-protected areas should be pursued to conserve bio-diversity and ensure  sustainable future for the fishing industry.\n\none example is the biodiversity beyond national jurisdiction agreement in 2023 that provides  legal framework for all activities in the ocean and seas.\n\non  local level, we should make ocean- friendly choices when buying products or eating food derived from oceans and consume only what we need.\n\nreducing our plastic use is critical.\n\ngoal 14 is about conserving and sustainably using the oceans, seas and marine resources.\n\nhealthy oceans and seas are essential to human existence and life on earth.\n\nthe ocean is intrinsic to our life on earth.\n\ncovering three-quarters of the earths surface, contain 97 percent of the earths water, and represent 99 percent of the living space on the planet by volume.\n\nthey provide key natural resources including food, medicines, biofuels and other products; help with the breakdown and removal of waste and pollution; and their coastal ecosystems act as buffers to reduce damage from storms.\n\nthey also act as the planets greatest carbon sink.\n\nworryingly, marine pollution is reaching extreme levels, with over 17 million metric tons clogging the ocean in 2021,  figure set to double or triple by 2040.\n\nplastic is the most harmful type of ocean pollution."
+        },
+        {
+          "chunk_id": 1,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 2048,
+          "overlap_percentage": 0.1,
+          "start_char": 241,
+          "end_char": 4392,
+          "text_length": 4151,
+          "estimated_tokens": 1037,
+          "text": "using the oceans, seas and marine resources.\n\nhealthy oceans and seas are essential to human existence and life on earth.\n\nthe ocean is intrinsic to our life on earth.\n\ncovering three-quarters of the earths surface, contain 97 percent of the earths water, and represent 99 percent of the living space on the planet by volume.\n\nthey provide key natural resources including food, medicines, biofuels and other products; help with the breakdown and removal of waste and pollution; and their coastal ecosystems act as buffers to reduce damage from storms.\n\nthey also act as the planets greatest carbon sink.\n\nworryingly, marine pollution is reaching extreme levels, with over 17 million metric tons clogging the ocean in 2021,  figure set to double or triple by 2040.\n\nplastic is the most harmful type of ocean pollution.\n\ncurrently, the oceans average ph is.\n\nwhich is about 30 per cent more acidic than in pre- industrial times.\n\nocean acidification threatens the survival of marine life, disrupts the food web, and undermines vital services provided by the ocean and our own food security.\n\ncareful management of this essential global resource is  key feature of  sustainable future.\n\nthis includes increasing funding for ocean science, intensifying conservation efforts, and urgently turning the tide on climate change to safeguard the planets largest ecosystem.\n\ncurrent efforts to protect are not yet meeting the urgent need to safeguard this vast, yet fragile, resource.\n\nwhy?\n\nthe ocean is our planets life support and regulate the global climate system.\n\nit is the worlds largest ecosystem, home to nearly  million known species and containing vast untapped potential for scientific discovery.\n\noceans and fisheries continue to support the global populations economic, social and environmental needs.\n\ndespite the critical importance of conserving oceans, decades of irresponsible exploitation have led to an alarming level of degradation.\n\nso whats the problem?\n\nthe ocean absorbs around 23 per cent of annual co2 emissions generated by human activity and helps mitigate the impacts of climate change.\n\nthe ocean has also absorbed more than 90 of the excess heat in the climate system.\n\nocean heat is at record levels, causing widespread marine heatwaves, threatening its rich eco-systems and killing coral reefs around the world.\n\nincreasing levels of debris in the worlds oceans are also having  major environmental and economic impact.\n\nevery year, an estimated  to 12 million metric tonnes of plastic enters the ocean, costing roughly 13 billion per year including clean-up costs and financial losses in fisheries and other industries.\n\nabout 89 of plastic litter found on the ocean floor are single-use items like plastic bags.\n\nabout 80 of all tourism takes place in coastal areas.\n\nthe ocean-related tourism industry grows an estimated us 134 billion per year and in some countries, the industry already supports over  third of the labour force.\n\nunless carefully managed, tourism can pose  major threat to the natural resources on which it depends, and to local culture and industry.\n\nhow is the ocean connected to our health?\n\nthe health of the ocean is intimately tied to our health.\n\nthe diversity of species found in the ocean offers great promise for pharmaceuticals.\n\nfurthermore, marine fisheries provide 57 million jobs globally and provide the primary source of protein to over 50 of the population in least developed countries.\n\nso, what can we do?\n\nfor open ocean and deep sea areas, sustainability can be achieved only through increased international cooperation to protect vulnerable habitats.\n\nestablishing complete, effective and equitably managed systems of government-protected areas should be pursued to conserve bio-diversity and ensure  sustainable future for the fishing industry.\n\none example is the biodiversity beyond national jurisdiction agreement in 2023 that provides  legal framework for all activities in the ocean and seas.\n\non  local level, we should make ocean- friendly choices when buying products or eating food derived from oceans and consume only what we need.\n\nreducing our plastic use is critical."
+        }
+      ],
+      "recursive_character": [
+        {
+          "chunk_id": 0,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 2048,
+          "overlap_percentage": 0.1,
+          "start_char": 0,
+          "end_char": 8215,
+          "text_length": 8215,
+          "estimated_tokens": 2053,
+          "text": "marine life sustainability requires  multi-faceted approach including international agreements like the bbnj treaty, creating more marine protected areas, and combating overfishing through better management and diversification of fisheries. individuals can contribute by reducing their plastic use and carbon footprint, making sustainable seafood choices, and avoiding damage to marine habitats. global and governmental actions international cooperation: advocate for and implement international agreements, such as the biodiversity beyond national jurisdiction (bbnj) agreement, to create  legal framework for conservation in international waters. marine protected areas (mpas): expand and manage mpas to provide safe zones for marine species and conserve biodiversity. sustainable fisheries management: implement stronger regulations and enforcement to combat overfishing and illegal fishing. diversifying fisheries through responsible aquaculture is also  way to build resilience. mitigate climate change: reduce carbon emissions to slow ocean warming and acidification, which negatively impacts coral reefs and other marine life. individual actions reduce pollution: minimize plastic use, as millions of tons enter the ocean each year, harming marine animals and ecosystems. clean up local beaches and support initiatives like the international coastal cleanup day. make sustainable choices: shop for and consume seafood that is sustainably harvested. reduce your carbon footprint by conserving energy and using public transportation when possible. protect marine habitats: when boating, be careful not to damage coral reefs or seagrass beds with anchors. avoid touching coral reefs when diving or snorkeling. use reef-safe sunscreens. conserve water: use less water to reduce the amount of runoff and wastewater that flows into the ocean. the ocean is intrinsic to our life on earth. covering three-quarters of the earths surface, contain 97 percent of the earths water, and represent 99 percent of the living space on the planet by volume. it provides key natural resources including food, medicines, biofuels and other products; help with the breakdown and removal of waste and pollution; and their coastal ecosystems act as buffers to reduce damage from storms. it also acts as the planets greatest carbon sink. worryingly, marine pollution is reaching extreme levels, with over 17 million metric tons clogging the ocean in 2021,  figure set to double or triple by 2040. plastic is the most harmful type of ocean pollution. despite increased conservation efforts, only. of the ocean is currently designated as marine protected areaswell below the 30 target set for 2030. just 46 of marine key biodiversity areas are under formal protection. meanwhile, ocean warming, acidification, overfishing, and illegal practices continue to threaten marine ecosystems, and support for small-scale fisheries remains inadequate. currently, the oceans average ph is. which is about 30 per cent more acidic than in pre- industrial times. ocean acidification threatens the survival of marine life, disrupts the food web, and undermines vital services provided by the ocean and our own food security. careful management of this essential global resource is  key feature of  sustainable future. this includes increasing funding for ocean science, intensifying conservation efforts, and urgently turning the tide on climate change to safeguard the planets largest ecosystem. current efforts to protect are not yet meeting the urgent need to safeguard this vast, yet fragile, resource. why? the ocean is our planets life support and regulate the global climate system. it is the worlds largest ecosystem, home to nearly  million known species and containing vast untapped potential for scientific discovery. oceans and fisheries continue to support the global populations economic, social and environmental needs. despite the critical importance of conserving oceans, decades of irresponsible exploitation have led to an alarming level of degradation. so whats the problem? the ocean absorbs around 23 per cent of annual co2 emissions generated by human activity and helps mitigate the impacts of climate change. the ocean has also absorbed more than 90 of the excess heat in the climate system. ocean heat is at record levels, causing widespread marine heatwaves, threatening its rich eco-systems and killing coral reefs around the world. the world is now in the midst of  fourth global coral bleaching event, which is considered the most widespread and intense on record. between january 2023 and may 2025, bleaching-level heat stress affected 84 per cent of reefs globally, across 83 countries and territories. the bleaching event is so severe that coral mortality alert levels have been expanded beyond their original scale. increasing levels of debris in the worlds oceans are also having  major environmental and economic impact. every year, an estimated  to 12 million metric tonnes of plastic enters the ocean, costing roughly 13 billion per year including clean-up costs and financial losses in fisheries and other industries. about 89 of plastic litter found on the ocean floor are single-use items like plastic bags. about 80 of all tourism takes place in coastal areas. the ocean-related tourism industry grows an estimated us 134 billion per year and in some countries, the industry already supports over  third of the labour force. unless carefully managed, tourism can pose  major threat to the natural resources on which it depends, and to local culture and industry. how is the ocean connected to our health? the health of the ocean is intimately tied to our health. the diversity of species found in the ocean offers great promise for pharmaceuticals. furthermore, marine fisheries provide 57 million jobs globally and provide the primary source of protein to over 50 of the population in least developed countries. so, what can we do? the third united nations ocean conference, held in nice in june 2025, offered renewed momentum as countries adopted  bold political declaration and made over 800 voluntary commitments focused on marine protection, pollution control, high-seas governance and support for vulnerable nations.  key milestone was progress towards the agreement on marine biological diversity of areas beyond national jurisdiction (the bbnj agreement); that provides  legal framework for all activities in the ocean and seas; with 19 new ratifications bringing the total to 50 states just 10 states short of the 60 needed for the agreement to enter into force. for open ocean and deep sea areas, sustainability can be achieved only through increased international cooperation to protect vulnerable habitats. establishing complete, effective and equitably managed systems of government-protected areas should be pursued to conserve bio-diversity and ensure  sustainable future for the fishing industry. one example is the biodiversity beyond national jurisdiction agreement in 2023 that provides  legal framework for all activities in the ocean and seas. on  local level, we should make ocean- friendly choices when buying products or eating food derived from oceans and consume only what we need. reducing our plastic use is critical. goal 14 is about conserving and sustainably using the oceans, seas and marine resources. healthy oceans and seas are essential to human existence and life on earth. the ocean is intrinsic to our life on earth. covering three-quarters of the earths surface, contain 97 percent of the earths water, and represent 99 percent of the living space on the planet by volume. they provide key natural resources including food, medicines, biofuels and other products; help with the breakdown and removal of waste and pollution; and their coastal ecosystems act as buffers to reduce damage from storms. they also act as the planets greatest carbon sink. worryingly, marine pollution is reaching extreme levels, with over 17 million metric tons clogging the ocean in 2021,  figure set to double or triple by 2040. plastic is the most harmful type of ocean pollution. currently, the oceans average ph is. which is about 30 per cent more acidic than in pre- industrial times."
+        },
+        {
+          "chunk_id": 1,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 2048,
+          "overlap_percentage": 0.1,
+          "start_char": 7397,
+          "end_char": 11411,
+          "text_length": 4014,
+          "estimated_tokens": 1003,
+          "text": "ce and life on earth. the ocean is intrinsic to our life on earth. covering three-quarters of the earths surface, contain 97 percent of the earths water, and represent 99 percent of the living space on the planet by volume. they provide key natural resources including food, medicines, biofuels and other products; help with the breakdown and removal of waste and pollution; and their coastal ecosystems act as buffers to reduce damage from storms. they also act as the planets greatest carbon sink. worryingly, marine pollution is reaching extreme levels, with over 17 million metric tons clogging the ocean in 2021,  figure set to double or triple by 2040. plastic is the most harmful type of ocean pollution. currently, the oceans average ph is. which is about 30 per cent more acidic than in pre- industrial times. ocean acidification threatens the survival of marine life, disrupts the food web, and undermines vital services provided by the ocean and our own food security. careful management of this essential global resource is  key feature of  sustainable future. this includes increasing funding for ocean science, intensifying conservation efforts, and urgently turning the tide on climate change to safeguard the planets largest ecosystem. current efforts to protect are not yet meeting the urgent need to safeguard this vast, yet fragile, resource. why? the ocean is our planets life support and regulate the global climate system. it is the worlds largest ecosystem, home to nearly  million known species and containing vast untapped potential for scientific discovery. oceans and fisheries continue to support the global populations economic, social and environmental needs. despite the critical importance of conserving oceans, decades of irresponsible exploitation have led to an alarming level of degradation. so whats the problem? the ocean absorbs around 23 per cent of annual co2 emissions generated by human activity and helps mitigate the impacts of climate change. the ocean has also absorbed more than 90 of the excess heat in the climate system. ocean heat is at record levels, causing widespread marine heatwaves, threatening its rich eco-systems and killing coral reefs around the world. increasing levels of debris in the worlds oceans are also having  major environmental and economic impact. every year, an estimated  to 12 million metric tonnes of plastic enters the ocean, costing roughly 13 billion per year including clean-up costs and financial losses in fisheries and other industries. about 89 of plastic litter found on the ocean floor are single-use items like plastic bags. about 80 of all tourism takes place in coastal areas. the ocean-related tourism industry grows an estimated us 134 billion per year and in some countries, the industry already supports over  third of the labour force. unless carefully managed, tourism can pose  major threat to the natural resources on which it depends, and to local culture and industry. how is the ocean connected to our health? the health of the ocean is intimately tied to our health. the diversity of species found in the ocean offers great promise for pharmaceuticals. furthermore, marine fisheries provide 57 million jobs globally and provide the primary source of protein to over 50 of the population in least developed countries. so, what can we do? for open ocean and deep sea areas, sustainability can be achieved only through increased international cooperation to protect vulnerable habitats. establishing complete, effective and equitably managed systems of government-protected areas should be pursued to conserve bio-diversity and ensure  sustainable future for the fishing industry. one example is the biodiversity beyond national jurisdiction agreement in 2023 that provides  legal framework for all activities in the ocean and seas. on  local level, we should make ocean- friendly choices when buying products or eating food derived from oceans and consume only what we need. reducing our plastic use is critical."
+        }
+      ]
+    },
+    "medium": {
+      "fixed_size": [
+        {
+          "chunk_id": 0,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 0,
+          "end_char": 2048,
+          "text_length": 2048,
+          "estimated_tokens": 512,
+          "text": "marine life sustainability requires  multi-faceted approach including international agreements like the bbnj treaty, creating more marine protected areas, and combating overfishing through better management and diversification of fisheries. individuals can contribute by reducing their plastic use and carbon footprint, making sustainable seafood choices, and avoiding damage to marine habitats. global and governmental actions international cooperation: advocate for and implement international agreements, such as the biodiversity beyond national jurisdiction (bbnj) agreement, to create  legal framework for conservation in international waters. marine protected areas (mpas): expand and manage mpas to provide safe zones for marine species and conserve biodiversity. sustainable fisheries management: implement stronger regulations and enforcement to combat overfishing and illegal fishing. diversifying fisheries through responsible aquaculture is also  way to build resilience. mitigate climate change: reduce carbon emissions to slow ocean warming and acidification, which negatively impacts coral reefs and other marine life. individual actions reduce pollution: minimize plastic use, as millions of tons enter the ocean each year, harming marine animals and ecosystems. clean up local beaches and support initiatives like the international coastal cleanup day. make sustainable choices: shop for and consume seafood that is sustainably harvested. reduce your carbon footprint by conserving energy and using public transportation when possible. protect marine habitats: when boating, be careful not to damage coral reefs or seagrass beds with anchors. avoid touching coral reefs when diving or snorkeling. use reef-safe sunscreens. conserve water: use less water to reduce the amount of runoff and wastewater that flows into the ocean. the ocean is intrinsic to our life on earth. covering three-quarters of the earths surface, contain 97 percent of the earths water, and represent 99 percent of the living space on the planet by volume. it"
+        },
+        {
+          "chunk_id": 1,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 1741,
+          "end_char": 3789,
+          "text_length": 2048,
+          "estimated_tokens": 512,
+          "text": "onserve water: use less water to reduce the amount of runoff and wastewater that flows into the ocean. the ocean is intrinsic to our life on earth. covering three-quarters of the earths surface, contain 97 percent of the earths water, and represent 99 percent of the living space on the planet by volume. it provides key natural resources including food, medicines, biofuels and other products; help with the breakdown and removal of waste and pollution; and their coastal ecosystems act as buffers to reduce damage from storms. it also acts as the planets greatest carbon sink. worryingly, marine pollution is reaching extreme levels, with over 17 million metric tons clogging the ocean in 2021,  figure set to double or triple by 2040. plastic is the most harmful type of ocean pollution. despite increased conservation efforts, only. of the ocean is currently designated as marine protected areaswell below the 30 target set for 2030. just 46 of marine key biodiversity areas are under formal protection. meanwhile, ocean warming, acidification, overfishing, and illegal practices continue to threaten marine ecosystems, and support for small-scale fisheries remains inadequate. currently, the oceans average ph is. which is about 30 per cent more acidic than in pre- industrial times. ocean acidification threatens the survival of marine life, disrupts the food web, and undermines vital services provided by the ocean and our own food security. careful management of this essential global resource is  key feature of  sustainable future. this includes increasing funding for ocean science, intensifying conservation efforts, and urgently turning the tide on climate change to safeguard the planets largest ecosystem. current efforts to protect are not yet meeting the urgent need to safeguard this vast, yet fragile, resource. why? the ocean is our planets life support and regulate the global climate system. it is the worlds largest ecosystem, home to nearly  million known species and containing vast untapped potential for scientific disco"
+        },
+        {
+          "chunk_id": 2,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 3482,
+          "end_char": 5530,
+          "text_length": 2048,
+          "estimated_tokens": 512,
+          "text": "protect are not yet meeting the urgent need to safeguard this vast, yet fragile, resource. why? the ocean is our planets life support and regulate the global climate system. it is the worlds largest ecosystem, home to nearly  million known species and containing vast untapped potential for scientific discovery. oceans and fisheries continue to support the global populations economic, social and environmental needs. despite the critical importance of conserving oceans, decades of irresponsible exploitation have led to an alarming level of degradation. so whats the problem? the ocean absorbs around 23 per cent of annual co2 emissions generated by human activity and helps mitigate the impacts of climate change. the ocean has also absorbed more than 90 of the excess heat in the climate system. ocean heat is at record levels, causing widespread marine heatwaves, threatening its rich eco-systems and killing coral reefs around the world. the world is now in the midst of  fourth global coral bleaching event, which is considered the most widespread and intense on record. between january 2023 and may 2025, bleaching-level heat stress affected 84 per cent of reefs globally, across 83 countries and territories. the bleaching event is so severe that coral mortality alert levels have been expanded beyond their original scale. increasing levels of debris in the worlds oceans are also having  major environmental and economic impact. every year, an estimated  to 12 million metric tonnes of plastic enters the ocean, costing roughly 13 billion per year including clean-up costs and financial losses in fisheries and other industries. about 89 of plastic litter found on the ocean floor are single-use items like plastic bags. about 80 of all tourism takes place in coastal areas. the ocean-related tourism industry grows an estimated us 134 billion per year and in some countries, the industry already supports over  third of the labour force. unless carefully managed, tourism can pose  major threat to the natural resources on which it dep"
+        },
+        {
+          "chunk_id": 3,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 5223,
+          "end_char": 7271,
+          "text_length": 2046,
+          "estimated_tokens": 511,
+          "text": "of all tourism takes place in coastal areas. the ocean-related tourism industry grows an estimated us 134 billion per year and in some countries, the industry already supports over  third of the labour force. unless carefully managed, tourism can pose  major threat to the natural resources on which it depends, and to local culture and industry. how is the ocean connected to our health? the health of the ocean is intimately tied to our health. the diversity of species found in the ocean offers great promise for pharmaceuticals. furthermore, marine fisheries provide 57 million jobs globally and provide the primary source of protein to over 50 of the population in least developed countries. so, what can we do? the third united nations ocean conference, held in nice in june 2025, offered renewed momentum as countries adopted  bold political declaration and made over 800 voluntary commitments focused on marine protection, pollution control, high-seas governance and support for vulnerable nations.  key milestone was progress towards the agreement on marine biological diversity of areas beyond national jurisdiction (the bbnj agreement); that provides  legal framework for all activities in the ocean and seas; with 19 new ratifications bringing the total to 50 states just 10 states short of the 60 needed for the agreement to enter into force. for open ocean and deep sea areas, sustainability can be achieved only through increased international cooperation to protect vulnerable habitats. establishing complete, effective and equitably managed systems of government-protected areas should be pursued to conserve bio-diversity and ensure  sustainable future for the fishing industry. one example is the biodiversity beyond national jurisdiction agreement in 2023 that provides  legal framework for all activities in the ocean and seas. on  local level, we should make ocean- friendly choices when buying products or eating food derived from oceans and consume only what we need. reducing our plastic use is critical. goal 14 is about"
+        },
+        {
+          "chunk_id": 4,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 6964,
+          "end_char": 9012,
+          "text_length": 2048,
+          "estimated_tokens": 512,
+          "text": "onal jurisdiction agreement in 2023 that provides  legal framework for all activities in the ocean and seas. on  local level, we should make ocean- friendly choices when buying products or eating food derived from oceans and consume only what we need. reducing our plastic use is critical. goal 14 is about conserving and sustainably using the oceans, seas and marine resources. healthy oceans and seas are essential to human existence and life on earth. the ocean is intrinsic to our life on earth. covering three-quarters of the earths surface, contain 97 percent of the earths water, and represent 99 percent of the living space on the planet by volume. they provide key natural resources including food, medicines, biofuels and other products; help with the breakdown and removal of waste and pollution; and their coastal ecosystems act as buffers to reduce damage from storms. they also act as the planets greatest carbon sink. worryingly, marine pollution is reaching extreme levels, with over 17 million metric tons clogging the ocean in 2021,  figure set to double or triple by 2040. plastic is the most harmful type of ocean pollution. currently, the oceans average ph is. which is about 30 per cent more acidic than in pre- industrial times. ocean acidification threatens the survival of marine life, disrupts the food web, and undermines vital services provided by the ocean and our own food security. careful management of this essential global resource is  key feature of  sustainable future. this includes increasing funding for ocean science, intensifying conservation efforts, and urgently turning the tide on climate change to safeguard the planets largest ecosystem. current efforts to protect are not yet meeting the urgent need to safeguard this vast, yet fragile, resource. why? the ocean is our planets life support and regulate the global climate system. it is the worlds largest ecosystem, home to nearly  million known species and containing vast untapped potential for scientific discovery. oceans and fisheries continue t"
+        },
+        {
+          "chunk_id": 5,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 8705,
+          "end_char": 10753,
+          "text_length": 2047,
+          "estimated_tokens": 511,
+          "text": "t need to safeguard this vast, yet fragile, resource. why? the ocean is our planets life support and regulate the global climate system. it is the worlds largest ecosystem, home to nearly  million known species and containing vast untapped potential for scientific discovery. oceans and fisheries continue to support the global populations economic, social and environmental needs. despite the critical importance of conserving oceans, decades of irresponsible exploitation have led to an alarming level of degradation. so whats the problem? the ocean absorbs around 23 per cent of annual co2 emissions generated by human activity and helps mitigate the impacts of climate change. the ocean has also absorbed more than 90 of the excess heat in the climate system. ocean heat is at record levels, causing widespread marine heatwaves, threatening its rich eco-systems and killing coral reefs around the world. increasing levels of debris in the worlds oceans are also having  major environmental and economic impact. every year, an estimated  to 12 million metric tonnes of plastic enters the ocean, costing roughly 13 billion per year including clean-up costs and financial losses in fisheries and other industries. about 89 of plastic litter found on the ocean floor are single-use items like plastic bags. about 80 of all tourism takes place in coastal areas. the ocean-related tourism industry grows an estimated us 134 billion per year and in some countries, the industry already supports over  third of the labour force. unless carefully managed, tourism can pose  major threat to the natural resources on which it depends, and to local culture and industry. how is the ocean connected to our health? the health of the ocean is intimately tied to our health. the diversity of species found in the ocean offers great promise for pharmaceuticals. furthermore, marine fisheries provide 57 million jobs globally and provide the primary source of protein to over 50 of the population in least developed countries. so, what can we do? for open ocean"
+        },
+        {
+          "chunk_id": 6,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 10446,
+          "end_char": 11411,
+          "text_length": 965,
+          "estimated_tokens": 241,
+          "text": "y tied to our health. the diversity of species found in the ocean offers great promise for pharmaceuticals. furthermore, marine fisheries provide 57 million jobs globally and provide the primary source of protein to over 50 of the population in least developed countries. so, what can we do? for open ocean and deep sea areas, sustainability can be achieved only through increased international cooperation to protect vulnerable habitats. establishing complete, effective and equitably managed systems of government-protected areas should be pursued to conserve bio-diversity and ensure  sustainable future for the fishing industry. one example is the biodiversity beyond national jurisdiction agreement in 2023 that provides  legal framework for all activities in the ocean and seas. on  local level, we should make ocean- friendly choices when buying products or eating food derived from oceans and consume only what we need. reducing our plastic use is critical."
+        }
+      ],
+      "content_aware": [
+        {
+          "chunk_id": 0,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 241,
+          "end_char": 2144,
+          "text_length": 1903,
+          "estimated_tokens": 475,
+          "text": "marine life sustainability requires  multi-faceted approach including international agreements like the bbnj treaty, creating more marine protected areas, and combating overfishing through better management and diversification of fisheries.\n\nindividuals can contribute by reducing their plastic use and carbon footprint, making sustainable seafood choices, and avoiding damage to marine habitats.\n\nglobal and governmental actions international cooperation: advocate for and implement international agreements, such as the biodiversity beyond national jurisdiction (bbnj) agreement, to create  legal framework for conservation in international waters.\n\nmarine protected areas (mpas): expand and manage mpas to provide safe zones for marine species and conserve biodiversity.\n\nsustainable fisheries management: implement stronger regulations and enforcement to combat overfishing and illegal fishing.\n\ndiversifying fisheries through responsible aquaculture is also  way to build resilience.\n\nmitigate climate change: reduce carbon emissions to slow ocean warming and acidification, which negatively impacts coral reefs and other marine life.\n\nindividual actions reduce pollution: minimize plastic use, as millions of tons enter the ocean each year, harming marine animals and ecosystems.\n\nclean up local beaches and support initiatives like the international coastal cleanup day.\n\nmake sustainable choices: shop for and consume seafood that is sustainably harvested.\n\nreduce your carbon footprint by conserving energy and using public transportation when possible.\n\nprotect marine habitats: when boating, be careful not to damage coral reefs or seagrass beds with anchors.\n\navoid touching coral reefs when diving or snorkeling.\n\nuse reef-safe sunscreens.\n\nconserve water: use less water to reduce the amount of runoff and wastewater that flows into the ocean.\n\nthe ocean is intrinsic to our life on earth."
+        },
+        {
+          "chunk_id": 1,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 241,
+          "end_char": 2231,
+          "text_length": 1990,
+          "estimated_tokens": 497,
+          "text": "to damage coral reefs or seagrass beds with anchors.\n\navoid touching coral reefs when diving or snorkeling.\n\nuse reef-safe sunscreens.\n\nconserve water: use less water to reduce the amount of runoff and wastewater that flows into the ocean.\n\nthe ocean is intrinsic to our life on earth.\n\ncovering three-quarters of the earths surface, contain 97 percent of the earths water, and represent 99 percent of the living space on the planet by volume.\n\nit provides key natural resources including food, medicines, biofuels and other products; help with the breakdown and removal of waste and pollution; and their coastal ecosystems act as buffers to reduce damage from storms.\n\nit also acts as the planets greatest carbon sink.\n\nworryingly, marine pollution is reaching extreme levels, with over 17 million metric tons clogging the ocean in 2021,  figure set to double or triple by 2040.\n\nplastic is the most harmful type of ocean pollution.\n\ndespite increased conservation efforts, only.\n\nof the ocean is currently designated as marine protected areaswell below the 30 target set for 2030.\n\njust 46 of marine key biodiversity areas are under formal protection.\n\nmeanwhile, ocean warming, acidification, overfishing, and illegal practices continue to threaten marine ecosystems, and support for small-scale fisheries remains inadequate.\n\ncurrently, the oceans average ph is.\n\nwhich is about 30 per cent more acidic than in pre- industrial times.\n\nocean acidification threatens the survival of marine life, disrupts the food web, and undermines vital services provided by the ocean and our own food security.\n\ncareful management of this essential global resource is  key feature of  sustainable future.\n\nthis includes increasing funding for ocean science, intensifying conservation efforts, and urgently turning the tide on climate change to safeguard the planets largest ecosystem.\n\ncurrent efforts to protect are not yet meeting the urgent need to safeguard this vast, yet fragile, resource.\n\nwhy?"
+        },
+        {
+          "chunk_id": 2,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 241,
+          "end_char": 2239,
+          "text_length": 1998,
+          "estimated_tokens": 499,
+          "text": ".\n\nthis includes increasing funding for ocean science, intensifying conservation efforts, and urgently turning the tide on climate change to safeguard the planets largest ecosystem.\n\ncurrent efforts to protect are not yet meeting the urgent need to safeguard this vast, yet fragile, resource.\n\nthe ocean is our planets life support and regulate the global climate system.\n\nit is the worlds largest ecosystem, home to nearly  million known species and containing vast untapped potential for scientific discovery.\n\noceans and fisheries continue to support the global populations economic, social and environmental needs.\n\ndespite the critical importance of conserving oceans, decades of irresponsible exploitation have led to an alarming level of degradation.\n\nso whats the problem?\n\nthe ocean absorbs around 23 per cent of annual co2 emissions generated by human activity and helps mitigate the impacts of climate change.\n\nthe ocean has also absorbed more than 90 of the excess heat in the climate system.\n\nocean heat is at record levels, causing widespread marine heatwaves, threatening its rich eco-systems and killing coral reefs around the world.\n\nthe world is now in the midst of  fourth global coral bleaching event, which is considered the most widespread and intense on record.\n\nbetween january 2023 and may 2025, bleaching-level heat stress affected 84 per cent of reefs globally, across 83 countries and territories.\n\nthe bleaching event is so severe that coral mortality alert levels have been expanded beyond their original scale.\n\nincreasing levels of debris in the worlds oceans are also having  major environmental and economic impact.\n\nevery year, an estimated  to 12 million metric tonnes of plastic enters the ocean, costing roughly 13 billion per year including clean-up costs and financial losses in fisheries and other industries.\n\nabout 89 of plastic litter found on the ocean floor are single-use items like plastic bags.\n\nabout 80 of all tourism takes place in coastal areas."
+        },
+        {
+          "chunk_id": 3,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 241,
+          "end_char": 2202,
+          "text_length": 1961,
+          "estimated_tokens": 490,
+          "text": "onnes of plastic enters the ocean, costing roughly 13 billion per year including clean-up costs and financial losses in fisheries and other industries.\n\nabout 89 of plastic litter found on the ocean floor are single-use items like plastic bags.\n\nabout 80 of all tourism takes place in coastal areas.\n\nthe ocean-related tourism industry grows an estimated us 134 billion per year and in some countries, the industry already supports over  third of the labour force.\n\nunless carefully managed, tourism can pose  major threat to the natural resources on which it depends, and to local culture and industry.\n\nhow is the ocean connected to our health?\n\nthe health of the ocean is intimately tied to our health.\n\nthe diversity of species found in the ocean offers great promise for pharmaceuticals.\n\nfurthermore, marine fisheries provide 57 million jobs globally and provide the primary source of protein to over 50 of the population in least developed countries.\n\nso, what can we do?\n\nthe third united nations ocean conference, held in nice in june 2025, offered renewed momentum as countries adopted  bold political declaration and made over 800 voluntary commitments focused on marine protection, pollution control, high-seas governance and support for vulnerable nations.\n\nkey milestone was progress towards the agreement on marine biological diversity of areas beyond national jurisdiction (the bbnj agreement); that provides  legal framework for all activities in the ocean and seas; with 19 new ratifications bringing the total to 50 states just 10 states short of the 60 needed for the agreement to enter into force.\n\nfor open ocean and deep sea areas, sustainability can be achieved only through increased international cooperation to protect vulnerable habitats.\n\nestablishing complete, effective and equitably managed systems of government-protected areas should be pursued to conserve bio-diversity and ensure  sustainable future for the fishing industry."
+        },
+        {
+          "chunk_id": 4,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 241,
+          "end_char": 2279,
+          "text_length": 2038,
+          "estimated_tokens": 509,
+          "text": "ty can be achieved only through increased international cooperation to protect vulnerable habitats.\n\nestablishing complete, effective and equitably managed systems of government-protected areas should be pursued to conserve bio-diversity and ensure  sustainable future for the fishing industry.\n\none example is the biodiversity beyond national jurisdiction agreement in 2023 that provides  legal framework for all activities in the ocean and seas.\n\non  local level, we should make ocean- friendly choices when buying products or eating food derived from oceans and consume only what we need.\n\nreducing our plastic use is critical.\n\ngoal 14 is about conserving and sustainably using the oceans, seas and marine resources.\n\nhealthy oceans and seas are essential to human existence and life on earth.\n\nthe ocean is intrinsic to our life on earth.\n\ncovering three-quarters of the earths surface, contain 97 percent of the earths water, and represent 99 percent of the living space on the planet by volume.\n\nthey provide key natural resources including food, medicines, biofuels and other products; help with the breakdown and removal of waste and pollution; and their coastal ecosystems act as buffers to reduce damage from storms.\n\nthey also act as the planets greatest carbon sink.\n\nworryingly, marine pollution is reaching extreme levels, with over 17 million metric tons clogging the ocean in 2021,  figure set to double or triple by 2040.\n\nplastic is the most harmful type of ocean pollution.\n\ncurrently, the oceans average ph is.\n\nwhich is about 30 per cent more acidic than in pre- industrial times.\n\nocean acidification threatens the survival of marine life, disrupts the food web, and undermines vital services provided by the ocean and our own food security.\n\ncareful management of this essential global resource is  key feature of  sustainable future.\n\nthis includes increasing funding for ocean science, intensifying conservation efforts, and urgently turning the tide on climate change to safeguard the planets largest ecosystem."
+        },
+        {
+          "chunk_id": 5,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 241,
+          "end_char": 2281,
+          "text_length": 2040,
+          "estimated_tokens": 510,
+          "text": "cean and our own food security.\n\ncareful management of this essential global resource is  key feature of  sustainable future.\n\nthis includes increasing funding for ocean science, intensifying conservation efforts, and urgently turning the tide on climate change to safeguard the planets largest ecosystem.\n\ncurrent efforts to protect are not yet meeting the urgent need to safeguard this vast, yet fragile, resource.\n\nwhy?\n\nthe ocean is our planets life support and regulate the global climate system.\n\nit is the worlds largest ecosystem, home to nearly  million known species and containing vast untapped potential for scientific discovery.\n\noceans and fisheries continue to support the global populations economic, social and environmental needs.\n\ndespite the critical importance of conserving oceans, decades of irresponsible exploitation have led to an alarming level of degradation.\n\nso whats the problem?\n\nthe ocean absorbs around 23 per cent of annual co2 emissions generated by human activity and helps mitigate the impacts of climate change.\n\nthe ocean has also absorbed more than 90 of the excess heat in the climate system.\n\nocean heat is at record levels, causing widespread marine heatwaves, threatening its rich eco-systems and killing coral reefs around the world.\n\nincreasing levels of debris in the worlds oceans are also having  major environmental and economic impact.\n\nevery year, an estimated  to 12 million metric tonnes of plastic enters the ocean, costing roughly 13 billion per year including clean-up costs and financial losses in fisheries and other industries.\n\nabout 89 of plastic litter found on the ocean floor are single-use items like plastic bags.\n\nabout 80 of all tourism takes place in coastal areas.\n\nthe ocean-related tourism industry grows an estimated us 134 billion per year and in some countries, the industry already supports over  third of the labour force.\n\nunless carefully managed, tourism can pose  major threat to the natural resources on which it depends, and to local culture and industry."
+        },
+        {
+          "chunk_id": 6,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 241,
+          "end_char": 1601,
+          "text_length": 1360,
+          "estimated_tokens": 340,
+          "text": "s.\n\nthe ocean-related tourism industry grows an estimated us 134 billion per year and in some countries, the industry already supports over  third of the labour force.\n\nunless carefully managed, tourism can pose  major threat to the natural resources on which it depends, and to local culture and industry.\n\nhow is the ocean connected to our health?\n\nthe health of the ocean is intimately tied to our health.\n\nthe diversity of species found in the ocean offers great promise for pharmaceuticals.\n\nfurthermore, marine fisheries provide 57 million jobs globally and provide the primary source of protein to over 50 of the population in least developed countries.\n\nso, what can we do?\n\nfor open ocean and deep sea areas, sustainability can be achieved only through increased international cooperation to protect vulnerable habitats.\n\nestablishing complete, effective and equitably managed systems of government-protected areas should be pursued to conserve bio-diversity and ensure  sustainable future for the fishing industry.\n\none example is the biodiversity beyond national jurisdiction agreement in 2023 that provides  legal framework for all activities in the ocean and seas.\n\non  local level, we should make ocean- friendly choices when buying products or eating food derived from oceans and consume only what we need.\n\nreducing our plastic use is critical."
+        }
+      ],
+      "recursive_character": [
+        {
+          "chunk_id": 0,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 0,
+          "end_char": 2045,
+          "text_length": 2045,
+          "estimated_tokens": 511,
+          "text": "marine life sustainability requires  multi-faceted approach including international agreements like the bbnj treaty, creating more marine protected areas, and combating overfishing through better management and diversification of fisheries. individuals can contribute by reducing their plastic use and carbon footprint, making sustainable seafood choices, and avoiding damage to marine habitats. global and governmental actions international cooperation: advocate for and implement international agreements, such as the biodiversity beyond national jurisdiction (bbnj) agreement, to create  legal framework for conservation in international waters. marine protected areas (mpas): expand and manage mpas to provide safe zones for marine species and conserve biodiversity. sustainable fisheries management: implement stronger regulations and enforcement to combat overfishing and illegal fishing. diversifying fisheries through responsible aquaculture is also  way to build resilience. mitigate climate change: reduce carbon emissions to slow ocean warming and acidification, which negatively impacts coral reefs and other marine life. individual actions reduce pollution: minimize plastic use, as millions of tons enter the ocean each year, harming marine animals and ecosystems. clean up local beaches and support initiatives like the international coastal cleanup day. make sustainable choices: shop for and consume seafood that is sustainably harvested. reduce your carbon footprint by conserving energy and using public transportation when possible. protect marine habitats: when boating, be careful not to damage coral reefs or seagrass beds with anchors. avoid touching coral reefs when diving or snorkeling. use reef-safe sunscreens. conserve water: use less water to reduce the amount of runoff and wastewater that flows into the ocean. the ocean is intrinsic to our life on earth. covering three-quarters of the earths surface, contain 97 percent of the earths water, and represent 99 percent of the living space on the planet by volume."
+        },
+        {
+          "chunk_id": 1,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 1739,
+          "end_char": 3793,
+          "text_length": 2054,
+          "estimated_tokens": 513,
+          "text": "conserve water: use less water to reduce the amount of runoff and wastewater that flows into the ocean. the ocean is intrinsic to our life on earth. covering three-quarters of the earths surface, contain 97 percent of the earths water, and represent 99 percent of the living space on the planet by volume. it provides key natural resources including food, medicines, biofuels and other products; help with the breakdown and removal of waste and pollution; and their coastal ecosystems act as buffers to reduce damage from storms. it also acts as the planets greatest carbon sink. worryingly, marine pollution is reaching extreme levels, with over 17 million metric tons clogging the ocean in 2021,  figure set to double or triple by 2040. plastic is the most harmful type of ocean pollution. despite increased conservation efforts, only. of the ocean is currently designated as marine protected areaswell below the 30 target set for 2030. just 46 of marine key biodiversity areas are under formal protection. meanwhile, ocean warming, acidification, overfishing, and illegal practices continue to threaten marine ecosystems, and support for small-scale fisheries remains inadequate. currently, the oceans average ph is. which is about 30 per cent more acidic than in pre- industrial times. ocean acidification threatens the survival of marine life, disrupts the food web, and undermines vital services provided by the ocean and our own food security. careful management of this essential global resource is  key feature of  sustainable future. this includes increasing funding for ocean science, intensifying conservation efforts, and urgently turning the tide on climate change to safeguard the planets largest ecosystem. current efforts to protect are not yet meeting the urgent need to safeguard this vast, yet fragile, resource. why? the ocean is our planets life support and regulate the global climate system. it is the worlds largest ecosystem, home to nearly  million known species and containing vast untapped potential for scientific discovery."
+        },
+        {
+          "chunk_id": 2,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 3488,
+          "end_char": 5570,
+          "text_length": 2082,
+          "estimated_tokens": 520,
+          "text": "t are not yet meeting the urgent need to safeguard this vast, yet fragile, resource. why? the ocean is our planets life support and regulate the global climate system. it is the worlds largest ecosystem, home to nearly  million known species and containing vast untapped potential for scientific discovery. oceans and fisheries continue to support the global populations economic, social and environmental needs. despite the critical importance of conserving oceans, decades of irresponsible exploitation have led to an alarming level of degradation. so whats the problem? the ocean absorbs around 23 per cent of annual co2 emissions generated by human activity and helps mitigate the impacts of climate change. the ocean has also absorbed more than 90 of the excess heat in the climate system. ocean heat is at record levels, causing widespread marine heatwaves, threatening its rich eco-systems and killing coral reefs around the world. the world is now in the midst of  fourth global coral bleaching event, which is considered the most widespread and intense on record. between january 2023 and may 2025, bleaching-level heat stress affected 84 per cent of reefs globally, across 83 countries and territories. the bleaching event is so severe that coral mortality alert levels have been expanded beyond their original scale. increasing levels of debris in the worlds oceans are also having  major environmental and economic impact. every year, an estimated  to 12 million metric tonnes of plastic enters the ocean, costing roughly 13 billion per year including clean-up costs and financial losses in fisheries and other industries. about 89 of plastic litter found on the ocean floor are single-use items like plastic bags. about 80 of all tourism takes place in coastal areas. the ocean-related tourism industry grows an estimated us 134 billion per year and in some countries, the industry already supports over  third of the labour force. unless carefully managed, tourism can pose  major threat to the natural resources on which it depends, and to local culture and industry."
+        },
+        {
+          "chunk_id": 3,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 5264,
+          "end_char": 7342,
+          "text_length": 2078,
+          "estimated_tokens": 519,
+          "text": "eas. the ocean-related tourism industry grows an estimated us 134 billion per year and in some countries, the industry already supports over  third of the labour force. unless carefully managed, tourism can pose  major threat to the natural resources on which it depends, and to local culture and industry. how is the ocean connected to our health? the health of the ocean is intimately tied to our health. the diversity of species found in the ocean offers great promise for pharmaceuticals. furthermore, marine fisheries provide 57 million jobs globally and provide the primary source of protein to over 50 of the population in least developed countries. so, what can we do? the third united nations ocean conference, held in nice in june 2025, offered renewed momentum as countries adopted  bold political declaration and made over 800 voluntary commitments focused on marine protection, pollution control, high-seas governance and support for vulnerable nations.  key milestone was progress towards the agreement on marine biological diversity of areas beyond national jurisdiction (the bbnj agreement); that provides  legal framework for all activities in the ocean and seas; with 19 new ratifications bringing the total to 50 states just 10 states short of the 60 needed for the agreement to enter into force. for open ocean and deep sea areas, sustainability can be achieved only through increased international cooperation to protect vulnerable habitats. establishing complete, effective and equitably managed systems of government-protected areas should be pursued to conserve bio-diversity and ensure  sustainable future for the fishing industry. one example is the biodiversity beyond national jurisdiction agreement in 2023 that provides  legal framework for all activities in the ocean and seas. on  local level, we should make ocean- friendly choices when buying products or eating food derived from oceans and consume only what we need. reducing our plastic use is critical. goal 14 is about conserving and sustainably using the oceans, seas and marine resources."
+        },
+        {
+          "chunk_id": 4,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 7036,
+          "end_char": 9086,
+          "text_length": 2050,
+          "estimated_tokens": 512,
+          "text": "ll activities in the ocean and seas. on  local level, we should make ocean- friendly choices when buying products or eating food derived from oceans and consume only what we need. reducing our plastic use is critical. goal 14 is about conserving and sustainably using the oceans, seas and marine resources. healthy oceans and seas are essential to human existence and life on earth. the ocean is intrinsic to our life on earth. covering three-quarters of the earths surface, contain 97 percent of the earths water, and represent 99 percent of the living space on the planet by volume. they provide key natural resources including food, medicines, biofuels and other products; help with the breakdown and removal of waste and pollution; and their coastal ecosystems act as buffers to reduce damage from storms. they also act as the planets greatest carbon sink. worryingly, marine pollution is reaching extreme levels, with over 17 million metric tons clogging the ocean in 2021,  figure set to double or triple by 2040. plastic is the most harmful type of ocean pollution. currently, the oceans average ph is. which is about 30 per cent more acidic than in pre- industrial times. ocean acidification threatens the survival of marine life, disrupts the food web, and undermines vital services provided by the ocean and our own food security. careful management of this essential global resource is  key feature of  sustainable future. this includes increasing funding for ocean science, intensifying conservation efforts, and urgently turning the tide on climate change to safeguard the planets largest ecosystem. current efforts to protect are not yet meeting the urgent need to safeguard this vast, yet fragile, resource. why? the ocean is our planets life support and regulate the global climate system. it is the worlds largest ecosystem, home to nearly  million known species and containing vast untapped potential for scientific discovery. oceans and fisheries continue to support the global populations economic, social and environmental needs."
+        },
+        {
+          "chunk_id": 5,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 8780,
+          "end_char": 10883,
+          "text_length": 2103,
+          "estimated_tokens": 525,
+          "text": "planets life support and regulate the global climate system. it is the worlds largest ecosystem, home to nearly  million known species and containing vast untapped potential for scientific discovery. oceans and fisheries continue to support the global populations economic, social and environmental needs. despite the critical importance of conserving oceans, decades of irresponsible exploitation have led to an alarming level of degradation. so whats the problem? the ocean absorbs around 23 per cent of annual co2 emissions generated by human activity and helps mitigate the impacts of climate change. the ocean has also absorbed more than 90 of the excess heat in the climate system. ocean heat is at record levels, causing widespread marine heatwaves, threatening its rich eco-systems and killing coral reefs around the world. increasing levels of debris in the worlds oceans are also having  major environmental and economic impact. every year, an estimated  to 12 million metric tonnes of plastic enters the ocean, costing roughly 13 billion per year including clean-up costs and financial losses in fisheries and other industries. about 89 of plastic litter found on the ocean floor are single-use items like plastic bags. about 80 of all tourism takes place in coastal areas. the ocean-related tourism industry grows an estimated us 134 billion per year and in some countries, the industry already supports over  third of the labour force. unless carefully managed, tourism can pose  major threat to the natural resources on which it depends, and to local culture and industry. how is the ocean connected to our health? the health of the ocean is intimately tied to our health. the diversity of species found in the ocean offers great promise for pharmaceuticals. furthermore, marine fisheries provide 57 million jobs globally and provide the primary source of protein to over 50 of the population in least developed countries. so, what can we do? for open ocean and deep sea areas, sustainability can be achieved only through increased international cooperation to protect vulnerable habitats."
+        },
+        {
+          "chunk_id": 6,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 10578,
+          "end_char": 11411,
+          "text_length": 833,
+          "estimated_tokens": 208,
+          "text": "eries provide 57 million jobs globally and provide the primary source of protein to over 50 of the population in least developed countries. so, what can we do? for open ocean and deep sea areas, sustainability can be achieved only through increased international cooperation to protect vulnerable habitats. establishing complete, effective and equitably managed systems of government-protected areas should be pursued to conserve bio-diversity and ensure  sustainable future for the fishing industry. one example is the biodiversity beyond national jurisdiction agreement in 2023 that provides  legal framework for all activities in the ocean and seas. on  local level, we should make ocean- friendly choices when buying products or eating food derived from oceans and consume only what we need. reducing our plastic use is critical."
+        }
+      ]
+    },
+    "small": {
+      "fixed_size": [
+        {
+          "chunk_id": 0,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 0,
+          "end_char": 512,
+          "text_length": 512,
+          "estimated_tokens": 128,
+          "text": "marine life sustainability requires  multi-faceted approach including international agreements like the bbnj treaty, creating more marine protected areas, and combating overfishing through better management and diversification of fisheries. individuals can contribute by reducing their plastic use and carbon footprint, making sustainable seafood choices, and avoiding damage to marine habitats. global and governmental actions international cooperation: advocate for and implement international agreements, such"
+        },
+        {
+          "chunk_id": 1,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 410,
+          "end_char": 922,
+          "text_length": 512,
+          "estimated_tokens": 128,
+          "text": "ernmental actions international cooperation: advocate for and implement international agreements, such as the biodiversity beyond national jurisdiction (bbnj) agreement, to create  legal framework for conservation in international waters. marine protected areas (mpas): expand and manage mpas to provide safe zones for marine species and conserve biodiversity. sustainable fisheries management: implement stronger regulations and enforcement to combat overfishing and illegal fishing. diversifying fisheries thro"
+        },
+        {
+          "chunk_id": 2,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 820,
+          "end_char": 1332,
+          "text_length": 512,
+          "estimated_tokens": 128,
+          "text": "ger regulations and enforcement to combat overfishing and illegal fishing. diversifying fisheries through responsible aquaculture is also  way to build resilience. mitigate climate change: reduce carbon emissions to slow ocean warming and acidification, which negatively impacts coral reefs and other marine life. individual actions reduce pollution: minimize plastic use, as millions of tons enter the ocean each year, harming marine animals and ecosystems. clean up local beaches and support initiatives like t"
+        },
+        {
+          "chunk_id": 3,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 1230,
+          "end_char": 1742,
+          "text_length": 512,
+          "estimated_tokens": 128,
+          "text": "ach year, harming marine animals and ecosystems. clean up local beaches and support initiatives like the international coastal cleanup day. make sustainable choices: shop for and consume seafood that is sustainably harvested. reduce your carbon footprint by conserving energy and using public transportation when possible. protect marine habitats: when boating, be careful not to damage coral reefs or seagrass beds with anchors. avoid touching coral reefs when diving or snorkeling. use reef-safe sunscreens. co"
+        },
+        {
+          "chunk_id": 4,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 1640,
+          "end_char": 2152,
+          "text_length": 511,
+          "estimated_tokens": 127,
+          "text": "beds with anchors. avoid touching coral reefs when diving or snorkeling. use reef-safe sunscreens. conserve water: use less water to reduce the amount of runoff and wastewater that flows into the ocean. the ocean is intrinsic to our life on earth. covering three-quarters of the earths surface, contain 97 percent of the earths water, and represent 99 percent of the living space on the planet by volume. it provides key natural resources including food, medicines, biofuels and other products; help with the br"
+        },
+        {
+          "chunk_id": 5,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 2050,
+          "end_char": 2562,
+          "text_length": 512,
+          "estimated_tokens": 128,
+          "text": "rovides key natural resources including food, medicines, biofuels and other products; help with the breakdown and removal of waste and pollution; and their coastal ecosystems act as buffers to reduce damage from storms. it also acts as the planets greatest carbon sink. worryingly, marine pollution is reaching extreme levels, with over 17 million metric tons clogging the ocean in 2021,  figure set to double or triple by 2040. plastic is the most harmful type of ocean pollution. despite increased conservation"
+        },
+        {
+          "chunk_id": 6,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 2460,
+          "end_char": 2972,
+          "text_length": 512,
+          "estimated_tokens": 128,
+          "text": "or triple by 2040. plastic is the most harmful type of ocean pollution. despite increased conservation efforts, only. of the ocean is currently designated as marine protected areaswell below the 30 target set for 2030. just 46 of marine key biodiversity areas are under formal protection. meanwhile, ocean warming, acidification, overfishing, and illegal practices continue to threaten marine ecosystems, and support for small-scale fisheries remains inadequate. currently, the oceans average ph is. which is abo"
+        },
+        {
+          "chunk_id": 7,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 2870,
+          "end_char": 3382,
+          "text_length": 512,
+          "estimated_tokens": 128,
+          "text": "upport for small-scale fisheries remains inadequate. currently, the oceans average ph is. which is about 30 per cent more acidic than in pre- industrial times. ocean acidification threatens the survival of marine life, disrupts the food web, and undermines vital services provided by the ocean and our own food security. careful management of this essential global resource is  key feature of  sustainable future. this includes increasing funding for ocean science, intensifying conservation efforts, and urgentl"
+        },
+        {
+          "chunk_id": 8,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 3280,
+          "end_char": 3792,
+          "text_length": 512,
+          "estimated_tokens": 128,
+          "text": "re. this includes increasing funding for ocean science, intensifying conservation efforts, and urgently turning the tide on climate change to safeguard the planets largest ecosystem. current efforts to protect are not yet meeting the urgent need to safeguard this vast, yet fragile, resource. why? the ocean is our planets life support and regulate the global climate system. it is the worlds largest ecosystem, home to nearly  million known species and containing vast untapped potential for scientific discover"
+        },
+        {
+          "chunk_id": 9,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 3690,
+          "end_char": 4202,
+          "text_length": 512,
+          "estimated_tokens": 128,
+          "text": ", home to nearly  million known species and containing vast untapped potential for scientific discovery. oceans and fisheries continue to support the global populations economic, social and environmental needs. despite the critical importance of conserving oceans, decades of irresponsible exploitation have led to an alarming level of degradation. so whats the problem? the ocean absorbs around 23 per cent of annual co2 emissions generated by human activity and helps mitigate the impacts of climate change. th"
+        },
+        {
+          "chunk_id": 10,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 4100,
+          "end_char": 4612,
+          "text_length": 510,
+          "estimated_tokens": 127,
+          "text": "annual co2 emissions generated by human activity and helps mitigate the impacts of climate change. the ocean has also absorbed more than 90 of the excess heat in the climate system. ocean heat is at record levels, causing widespread marine heatwaves, threatening its rich eco-systems and killing coral reefs around the world. the world is now in the midst of  fourth global coral bleaching event, which is considered the most widespread and intense on record. between january 2023 and may 2025, bleaching-level"
+        },
+        {
+          "chunk_id": 11,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 4510,
+          "end_char": 5022,
+          "text_length": 511,
+          "estimated_tokens": 127,
+          "text": "sidered the most widespread and intense on record. between january 2023 and may 2025, bleaching-level heat stress affected 84 per cent of reefs globally, across 83 countries and territories. the bleaching event is so severe that coral mortality alert levels have been expanded beyond their original scale. increasing levels of debris in the worlds oceans are also having  major environmental and economic impact. every year, an estimated  to 12 million metric tonnes of plastic enters the ocean, costing roughly"
+        },
+        {
+          "chunk_id": 12,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 4920,
+          "end_char": 5432,
+          "text_length": 512,
+          "estimated_tokens": 128,
+          "text": "t. every year, an estimated  to 12 million metric tonnes of plastic enters the ocean, costing roughly 13 billion per year including clean-up costs and financial losses in fisheries and other industries. about 89 of plastic litter found on the ocean floor are single-use items like plastic bags. about 80 of all tourism takes place in coastal areas. the ocean-related tourism industry grows an estimated us 134 billion per year and in some countries, the industry already supports over  third of the labour force."
+        },
+        {
+          "chunk_id": 13,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 5330,
+          "end_char": 5842,
+          "text_length": 512,
+          "estimated_tokens": 128,
+          "text": "billion per year and in some countries, the industry already supports over  third of the labour force. unless carefully managed, tourism can pose  major threat to the natural resources on which it depends, and to local culture and industry. how is the ocean connected to our health? the health of the ocean is intimately tied to our health. the diversity of species found in the ocean offers great promise for pharmaceuticals. furthermore, marine fisheries provide 57 million jobs globally and provide the primar"
+        },
+        {
+          "chunk_id": 14,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 5740,
+          "end_char": 6252,
+          "text_length": 512,
+          "estimated_tokens": 128,
+          "text": "pharmaceuticals. furthermore, marine fisheries provide 57 million jobs globally and provide the primary source of protein to over 50 of the population in least developed countries. so, what can we do? the third united nations ocean conference, held in nice in june 2025, offered renewed momentum as countries adopted  bold political declaration and made over 800 voluntary commitments focused on marine protection, pollution control, high-seas governance and support for vulnerable nations.  key milestone was pr"
+        },
+        {
+          "chunk_id": 15,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 6150,
+          "end_char": 6662,
+          "text_length": 512,
+          "estimated_tokens": 128,
+          "text": "ion, pollution control, high-seas governance and support for vulnerable nations.  key milestone was progress towards the agreement on marine biological diversity of areas beyond national jurisdiction (the bbnj agreement); that provides  legal framework for all activities in the ocean and seas; with 19 new ratifications bringing the total to 50 states just 10 states short of the 60 needed for the agreement to enter into force. for open ocean and deep sea areas, sustainability can be achieved only through inc"
+        },
+        {
+          "chunk_id": 16,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 6560,
+          "end_char": 7072,
+          "text_length": 512,
+          "estimated_tokens": 128,
+          "text": "o enter into force. for open ocean and deep sea areas, sustainability can be achieved only through increased international cooperation to protect vulnerable habitats. establishing complete, effective and equitably managed systems of government-protected areas should be pursued to conserve bio-diversity and ensure  sustainable future for the fishing industry. one example is the biodiversity beyond national jurisdiction agreement in 2023 that provides  legal framework for all activities in the ocean and seas."
+        },
+        {
+          "chunk_id": 17,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 6970,
+          "end_char": 7482,
+          "text_length": 512,
+          "estimated_tokens": 128,
+          "text": "urisdiction agreement in 2023 that provides  legal framework for all activities in the ocean and seas. on  local level, we should make ocean- friendly choices when buying products or eating food derived from oceans and consume only what we need. reducing our plastic use is critical. goal 14 is about conserving and sustainably using the oceans, seas and marine resources. healthy oceans and seas are essential to human existence and life on earth. the ocean is intrinsic to our life on earth. covering three-qua"
+        },
+        {
+          "chunk_id": 18,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 7380,
+          "end_char": 7892,
+          "text_length": 511,
+          "estimated_tokens": 127,
+          "text": "to human existence and life on earth. the ocean is intrinsic to our life on earth. covering three-quarters of the earths surface, contain 97 percent of the earths water, and represent 99 percent of the living space on the planet by volume. they provide key natural resources including food, medicines, biofuels and other products; help with the breakdown and removal of waste and pollution; and their coastal ecosystems act as buffers to reduce damage from storms. they also act as the planets greatest carbon s"
+        },
+        {
+          "chunk_id": 19,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 7790,
+          "end_char": 8302,
+          "text_length": 511,
+          "estimated_tokens": 127,
+          "text": "ecosystems act as buffers to reduce damage from storms. they also act as the planets greatest carbon sink. worryingly, marine pollution is reaching extreme levels, with over 17 million metric tons clogging the ocean in 2021,  figure set to double or triple by 2040. plastic is the most harmful type of ocean pollution. currently, the oceans average ph is. which is about 30 per cent more acidic than in pre- industrial times. ocean acidification threatens the survival of marine life, disrupts the food web, and"
+        },
+        {
+          "chunk_id": 20,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 8200,
+          "end_char": 8712,
+          "text_length": 511,
+          "estimated_tokens": 127,
+          "text": "dustrial times. ocean acidification threatens the survival of marine life, disrupts the food web, and undermines vital services provided by the ocean and our own food security. careful management of this essential global resource is  key feature of  sustainable future. this includes increasing funding for ocean science, intensifying conservation efforts, and urgently turning the tide on climate change to safeguard the planets largest ecosystem. current efforts to protect are not yet meeting the urgent need"
+        },
+        {
+          "chunk_id": 21,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 8610,
+          "end_char": 9122,
+          "text_length": 511,
+          "estimated_tokens": 127,
+          "text": "feguard the planets largest ecosystem. current efforts to protect are not yet meeting the urgent need to safeguard this vast, yet fragile, resource. why? the ocean is our planets life support and regulate the global climate system. it is the worlds largest ecosystem, home to nearly  million known species and containing vast untapped potential for scientific discovery. oceans and fisheries continue to support the global populations economic, social and environmental needs. despite the critical importance of"
+        },
+        {
+          "chunk_id": 22,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 9020,
+          "end_char": 9532,
+          "text_length": 512,
+          "estimated_tokens": 128,
+          "text": "t the global populations economic, social and environmental needs. despite the critical importance of conserving oceans, decades of irresponsible exploitation have led to an alarming level of degradation. so whats the problem? the ocean absorbs around 23 per cent of annual co2 emissions generated by human activity and helps mitigate the impacts of climate change. the ocean has also absorbed more than 90 of the excess heat in the climate system. ocean heat is at record levels, causing widespread marine heatw"
+        },
+        {
+          "chunk_id": 23,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 9430,
+          "end_char": 9942,
+          "text_length": 512,
+          "estimated_tokens": 128,
+          "text": "the excess heat in the climate system. ocean heat is at record levels, causing widespread marine heatwaves, threatening its rich eco-systems and killing coral reefs around the world. increasing levels of debris in the worlds oceans are also having  major environmental and economic impact. every year, an estimated  to 12 million metric tonnes of plastic enters the ocean, costing roughly 13 billion per year including clean-up costs and financial losses in fisheries and other industries. about 89 of plastic li"
+        },
+        {
+          "chunk_id": 24,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 9840,
+          "end_char": 10352,
+          "text_length": 512,
+          "estimated_tokens": 128,
+          "text": "ncluding clean-up costs and financial losses in fisheries and other industries. about 89 of plastic litter found on the ocean floor are single-use items like plastic bags. about 80 of all tourism takes place in coastal areas. the ocean-related tourism industry grows an estimated us 134 billion per year and in some countries, the industry already supports over  third of the labour force. unless carefully managed, tourism can pose  major threat to the natural resources on which it depends, and to local cultur"
+        },
+        {
+          "chunk_id": 25,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 10250,
+          "end_char": 10762,
+          "text_length": 511,
+          "estimated_tokens": 127,
+          "text": "aged, tourism can pose  major threat to the natural resources on which it depends, and to local culture and industry. how is the ocean connected to our health? the health of the ocean is intimately tied to our health. the diversity of species found in the ocean offers great promise for pharmaceuticals. furthermore, marine fisheries provide 57 million jobs globally and provide the primary source of protein to over 50 of the population in least developed countries. so, what can we do? for open ocean and deep"
+        },
+        {
+          "chunk_id": 26,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 10660,
+          "end_char": 11172,
+          "text_length": 511,
+          "estimated_tokens": 127,
+          "text": "o over 50 of the population in least developed countries. so, what can we do? for open ocean and deep sea areas, sustainability can be achieved only through increased international cooperation to protect vulnerable habitats. establishing complete, effective and equitably managed systems of government-protected areas should be pursued to conserve bio-diversity and ensure  sustainable future for the fishing industry. one example is the biodiversity beyond national jurisdiction agreement in 2023 that provides"
+        },
+        {
+          "chunk_id": 27,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 11070,
+          "end_char": 11411,
+          "text_length": 341,
+          "estimated_tokens": 85,
+          "text": "ndustry. one example is the biodiversity beyond national jurisdiction agreement in 2023 that provides  legal framework for all activities in the ocean and seas. on  local level, we should make ocean- friendly choices when buying products or eating food derived from oceans and consume only what we need. reducing our plastic use is critical."
+        }
+      ],
+      "content_aware": [
+        {
+          "chunk_id": 0,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 241,
+          "end_char": 637,
+          "text_length": 396,
+          "estimated_tokens": 99,
+          "text": "marine life sustainability requires  multi-faceted approach including international agreements like the bbnj treaty, creating more marine protected areas, and combating overfishing through better management and diversification of fisheries.\n\nindividuals can contribute by reducing their plastic use and carbon footprint, making sustainable seafood choices, and avoiding damage to marine habitats."
+        },
+        {
+          "chunk_id": 1,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 241,
+          "end_char": 697,
+          "text_length": 456,
+          "estimated_tokens": 114,
+          "text": "nt, making sustainable seafood choices, and avoiding damage to marine habitats.\n\nglobal and governmental actions international cooperation: advocate for and implement international agreements, such as the biodiversity beyond national jurisdiction (bbnj) agreement, to create  legal framework for conservation in international waters.\n\nmarine protected areas (mpas): expand and manage mpas to provide safe zones for marine species and conserve biodiversity."
+        },
+        {
+          "chunk_id": 2,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 241,
+          "end_char": 697,
+          "text_length": 456,
+          "estimated_tokens": 114,
+          "text": "expand and manage mpas to provide safe zones for marine species and conserve biodiversity.\n\nsustainable fisheries management: implement stronger regulations and enforcement to combat overfishing and illegal fishing.\n\ndiversifying fisheries through responsible aquaculture is also  way to build resilience.\n\nmitigate climate change: reduce carbon emissions to slow ocean warming and acidification, which negatively impacts coral reefs and other marine life."
+        },
+        {
+          "chunk_id": 3,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 241,
+          "end_char": 755,
+          "text_length": 514,
+          "estimated_tokens": 128,
+          "text": "cean warming and acidification, which negatively impacts coral reefs and other marine life.\n\nindividual actions reduce pollution: minimize plastic use, as millions of tons enter the ocean each year, harming marine animals and ecosystems.\n\nclean up local beaches and support initiatives like the international coastal cleanup day.\n\nmake sustainable choices: shop for and consume seafood that is sustainably harvested.\n\nreduce your carbon footprint by conserving energy and using public transportation when possible."
+        },
+        {
+          "chunk_id": 4,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 241,
+          "end_char": 684,
+          "text_length": 443,
+          "estimated_tokens": 110,
+          "text": "ted.\n\nreduce your carbon footprint by conserving energy and using public transportation when possible.\n\nprotect marine habitats: when boating, be careful not to damage coral reefs or seagrass beds with anchors.\n\navoid touching coral reefs when diving or snorkeling.\n\nuse reef-safe sunscreens.\n\nconserve water: use less water to reduce the amount of runoff and wastewater that flows into the ocean.\n\nthe ocean is intrinsic to our life on earth."
+        },
+        {
+          "chunk_id": 5,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 241,
+          "end_char": 711,
+          "text_length": 470,
+          "estimated_tokens": 117,
+          "text": "and wastewater that flows into the ocean.\n\nthe ocean is intrinsic to our life on earth.\n\ncovering three-quarters of the earths surface, contain 97 percent of the earths water, and represent 99 percent of the living space on the planet by volume.\n\nit provides key natural resources including food, medicines, biofuels and other products; help with the breakdown and removal of waste and pollution; and their coastal ecosystems act as buffers to reduce damage from storms."
+        },
+        {
+          "chunk_id": 6,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 241,
+          "end_char": 749,
+          "text_length": 508,
+          "estimated_tokens": 127,
+          "text": "waste and pollution; and their coastal ecosystems act as buffers to reduce damage from storms.\n\nit also acts as the planets greatest carbon sink.\n\nworryingly, marine pollution is reaching extreme levels, with over 17 million metric tons clogging the ocean in 2021,  figure set to double or triple by 2040.\n\nplastic is the most harmful type of ocean pollution.\n\ndespite increased conservation efforts, only.\n\nof the ocean is currently designated as marine protected areaswell below the 30 target set for 2030."
+        },
+        {
+          "chunk_id": 7,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 241,
+          "end_char": 696,
+          "text_length": 455,
+          "estimated_tokens": 113,
+          "text": "of the ocean is currently designated as marine protected areaswell below the 30 target set for 2030.\n\njust 46 of marine key biodiversity areas are under formal protection.\n\nmeanwhile, ocean warming, acidification, overfishing, and illegal practices continue to threaten marine ecosystems, and support for small-scale fisheries remains inadequate.\n\ncurrently, the oceans average ph is.\n\nwhich is about 30 per cent more acidic than in pre- industrial times."
+        },
+        {
+          "chunk_id": 8,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 241,
+          "end_char": 588,
+          "text_length": 347,
+          "estimated_tokens": 86,
+          "text": "ceans average ph is.\n\nwhich is about 30 per cent more acidic than in pre- industrial times.\n\nocean acidification threatens the survival of marine life, disrupts the food web, and undermines vital services provided by the ocean and our own food security.\n\ncareful management of this essential global resource is  key feature of  sustainable future."
+        },
+        {
+          "chunk_id": 9,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 241,
+          "end_char": 686,
+          "text_length": 445,
+          "estimated_tokens": 111,
+          "text": "his essential global resource is  key feature of  sustainable future.\n\nthis includes increasing funding for ocean science, intensifying conservation efforts, and urgently turning the tide on climate change to safeguard the planets largest ecosystem.\n\ncurrent efforts to protect are not yet meeting the urgent need to safeguard this vast, yet fragile, resource.\n\nwhy?\n\nthe ocean is our planets life support and regulate the global climate system."
+        },
+        {
+          "chunk_id": 10,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 241,
+          "end_char": 739,
+          "text_length": 498,
+          "estimated_tokens": 124,
+          "text": "rce.\n\nwhy?\n\nthe ocean is our planets life support and regulate the global climate system.\n\nit is the worlds largest ecosystem, home to nearly  million known species and containing vast untapped potential for scientific discovery.\n\noceans and fisheries continue to support the global populations economic, social and environmental needs.\n\ndespite the critical importance of conserving oceans, decades of irresponsible exploitation have led to an alarming level of degradation.\n\nso whats the problem?"
+        },
+        {
+          "chunk_id": 11,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 241,
+          "end_char": 685,
+          "text_length": 444,
+          "estimated_tokens": 111,
+          "text": "of irresponsible exploitation have led to an alarming level of degradation.\n\nthe ocean absorbs around 23 per cent of annual co2 emissions generated by human activity and helps mitigate the impacts of climate change.\n\nthe ocean has also absorbed more than 90 of the excess heat in the climate system.\n\nocean heat is at record levels, causing widespread marine heatwaves, threatening its rich eco-systems and killing coral reefs around the world."
+        },
+        {
+          "chunk_id": 12,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 241,
+          "end_char": 721,
+          "text_length": 480,
+          "estimated_tokens": 120,
+          "text": "ne heatwaves, threatening its rich eco-systems and killing coral reefs around the world.\n\nthe world is now in the midst of  fourth global coral bleaching event, which is considered the most widespread and intense on record.\n\nbetween january 2023 and may 2025, bleaching-level heat stress affected 84 per cent of reefs globally, across 83 countries and territories.\n\nthe bleaching event is so severe that coral mortality alert levels have been expanded beyond their original scale."
+        },
+        {
+          "chunk_id": 13,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 241,
+          "end_char": 739,
+          "text_length": 498,
+          "estimated_tokens": 124,
+          "text": "t is so severe that coral mortality alert levels have been expanded beyond their original scale.\n\nincreasing levels of debris in the worlds oceans are also having  major environmental and economic impact.\n\nevery year, an estimated  to 12 million metric tonnes of plastic enters the ocean, costing roughly 13 billion per year including clean-up costs and financial losses in fisheries and other industries.\n\nabout 89 of plastic litter found on the ocean floor are single-use items like plastic bags."
+        },
+        {
+          "chunk_id": 14,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 241,
+          "end_char": 742,
+          "text_length": 501,
+          "estimated_tokens": 125,
+          "text": "tries.\n\nabout 89 of plastic litter found on the ocean floor are single-use items like plastic bags.\n\nabout 80 of all tourism takes place in coastal areas.\n\nthe ocean-related tourism industry grows an estimated us 134 billion per year and in some countries, the industry already supports over  third of the labour force.\n\nunless carefully managed, tourism can pose  major threat to the natural resources on which it depends, and to local culture and industry.\n\nhow is the ocean connected to our health?"
+        },
+        {
+          "chunk_id": 15,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 241,
+          "end_char": 630,
+          "text_length": 389,
+          "estimated_tokens": 97,
+          "text": "s on which it depends, and to local culture and industry.\n\nthe health of the ocean is intimately tied to our health.\n\nthe diversity of species found in the ocean offers great promise for pharmaceuticals.\n\nfurthermore, marine fisheries provide 57 million jobs globally and provide the primary source of protein to over 50 of the population in least developed countries.\n\nso, what can we do?"
+        },
+        {
+          "chunk_id": 16,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 241,
+          "end_char": 587,
+          "text_length": 346,
+          "estimated_tokens": 86,
+          "text": "over 50 of the population in least developed countries.\n\nthe third united nations ocean conference, held in nice in june 2025, offered renewed momentum as countries adopted  bold political declaration and made over 800 voluntary commitments focused on marine protection, pollution control, high-seas governance and support for vulnerable nations."
+        },
+        {
+          "chunk_id": 17,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 241,
+          "end_char": 659,
+          "text_length": 418,
+          "estimated_tokens": 104,
+          "text": "ion control, high-seas governance and support for vulnerable nations.\n\nkey milestone was progress towards the agreement on marine biological diversity of areas beyond national jurisdiction (the bbnj agreement); that provides  legal framework for all activities in the ocean and seas; with 19 new ratifications bringing the total to 50 states just 10 states short of the 60 needed for the agreement to enter into force."
+        },
+        {
+          "chunk_id": 18,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 241,
+          "end_char": 667,
+          "text_length": 426,
+          "estimated_tokens": 106,
+          "text": "states just 10 states short of the 60 needed for the agreement to enter into force.\n\nfor open ocean and deep sea areas, sustainability can be achieved only through increased international cooperation to protect vulnerable habitats.\n\nestablishing complete, effective and equitably managed systems of government-protected areas should be pursued to conserve bio-diversity and ensure  sustainable future for the fishing industry."
+        },
+        {
+          "chunk_id": 19,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 241,
+          "end_char": 752,
+          "text_length": 511,
+          "estimated_tokens": 127,
+          "text": "ed to conserve bio-diversity and ensure  sustainable future for the fishing industry.\n\none example is the biodiversity beyond national jurisdiction agreement in 2023 that provides  legal framework for all activities in the ocean and seas.\n\non  local level, we should make ocean- friendly choices when buying products or eating food derived from oceans and consume only what we need.\n\nreducing our plastic use is critical.\n\ngoal 14 is about conserving and sustainably using the oceans, seas and marine resources."
+        },
+        {
+          "chunk_id": 20,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 241,
+          "end_char": 624,
+          "text_length": 383,
+          "estimated_tokens": 95,
+          "text": "is critical.\n\ngoal 14 is about conserving and sustainably using the oceans, seas and marine resources.\n\nhealthy oceans and seas are essential to human existence and life on earth.\n\nthe ocean is intrinsic to our life on earth.\n\ncovering three-quarters of the earths surface, contain 97 percent of the earths water, and represent 99 percent of the living space on the planet by volume."
+        },
+        {
+          "chunk_id": 21,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 241,
+          "end_char": 755,
+          "text_length": 514,
+          "estimated_tokens": 128,
+          "text": "water, and represent 99 percent of the living space on the planet by volume.\n\nthey provide key natural resources including food, medicines, biofuels and other products; help with the breakdown and removal of waste and pollution; and their coastal ecosystems act as buffers to reduce damage from storms.\n\nthey also act as the planets greatest carbon sink.\n\nworryingly, marine pollution is reaching extreme levels, with over 17 million metric tons clogging the ocean in 2021,  figure set to double or triple by 2040."
+        },
+        {
+          "chunk_id": 22,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 241,
+          "end_char": 667,
+          "text_length": 426,
+          "estimated_tokens": 106,
+          "text": "with over 17 million metric tons clogging the ocean in 2021,  figure set to double or triple by 2040.\n\nplastic is the most harmful type of ocean pollution.\n\ncurrently, the oceans average ph is.\n\nwhich is about 30 per cent more acidic than in pre- industrial times.\n\nocean acidification threatens the survival of marine life, disrupts the food web, and undermines vital services provided by the ocean and our own food security."
+        },
+        {
+          "chunk_id": 23,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 241,
+          "end_char": 717,
+          "text_length": 476,
+          "estimated_tokens": 119,
+          "text": "d web, and undermines vital services provided by the ocean and our own food security.\n\ncareful management of this essential global resource is  key feature of  sustainable future.\n\nthis includes increasing funding for ocean science, intensifying conservation efforts, and urgently turning the tide on climate change to safeguard the planets largest ecosystem.\n\ncurrent efforts to protect are not yet meeting the urgent need to safeguard this vast, yet fragile, resource.\n\nwhy?"
+        },
+        {
+          "chunk_id": 24,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 241,
+          "end_char": 656,
+          "text_length": 415,
+          "estimated_tokens": 103,
+          "text": "rotect are not yet meeting the urgent need to safeguard this vast, yet fragile, resource.\n\nthe ocean is our planets life support and regulate the global climate system.\n\nit is the worlds largest ecosystem, home to nearly  million known species and containing vast untapped potential for scientific discovery.\n\noceans and fisheries continue to support the global populations economic, social and environmental needs."
+        },
+        {
+          "chunk_id": 25,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 241,
+          "end_char": 710,
+          "text_length": 469,
+          "estimated_tokens": 117,
+          "text": "ontinue to support the global populations economic, social and environmental needs.\n\ndespite the critical importance of conserving oceans, decades of irresponsible exploitation have led to an alarming level of degradation.\n\nso whats the problem?\n\nthe ocean absorbs around 23 per cent of annual co2 emissions generated by human activity and helps mitigate the impacts of climate change.\n\nthe ocean has also absorbed more than 90 of the excess heat in the climate system."
+        },
+        {
+          "chunk_id": 26,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 241,
+          "end_char": 587,
+          "text_length": 346,
+          "estimated_tokens": 86,
+          "text": "e change.\n\nthe ocean has also absorbed more than 90 of the excess heat in the climate system.\n\nocean heat is at record levels, causing widespread marine heatwaves, threatening its rich eco-systems and killing coral reefs around the world.\n\nincreasing levels of debris in the worlds oceans are also having  major environmental and economic impact."
+        },
+        {
+          "chunk_id": 27,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 241,
+          "end_char": 659,
+          "text_length": 418,
+          "estimated_tokens": 104,
+          "text": "rlds oceans are also having  major environmental and economic impact.\n\nevery year, an estimated  to 12 million metric tonnes of plastic enters the ocean, costing roughly 13 billion per year including clean-up costs and financial losses in fisheries and other industries.\n\nabout 89 of plastic litter found on the ocean floor are single-use items like plastic bags.\n\nabout 80 of all tourism takes place in coastal areas."
+        },
+        {
+          "chunk_id": 28,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 241,
+          "end_char": 730,
+          "text_length": 489,
+          "estimated_tokens": 122,
+          "text": "use items like plastic bags.\n\nabout 80 of all tourism takes place in coastal areas.\n\nthe ocean-related tourism industry grows an estimated us 134 billion per year and in some countries, the industry already supports over  third of the labour force.\n\nunless carefully managed, tourism can pose  major threat to the natural resources on which it depends, and to local culture and industry.\n\nhow is the ocean connected to our health?\n\nthe health of the ocean is intimately tied to our health."
+        },
+        {
+          "chunk_id": 29,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 241,
+          "end_char": 610,
+          "text_length": 369,
+          "estimated_tokens": 92,
+          "text": "is the ocean connected to our health?\n\nthe health of the ocean is intimately tied to our health.\n\nthe diversity of species found in the ocean offers great promise for pharmaceuticals.\n\nfurthermore, marine fisheries provide 57 million jobs globally and provide the primary source of protein to over 50 of the population in least developed countries.\n\nso, what can we do?"
+        },
+        {
+          "chunk_id": 30,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 241,
+          "end_char": 636,
+          "text_length": 395,
+          "estimated_tokens": 98,
+          "text": "r 50 of the population in least developed countries.\n\nfor open ocean and deep sea areas, sustainability can be achieved only through increased international cooperation to protect vulnerable habitats.\n\nestablishing complete, effective and equitably managed systems of government-protected areas should be pursued to conserve bio-diversity and ensure  sustainable future for the fishing industry."
+        },
+        {
+          "chunk_id": 31,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 241,
+          "end_char": 656,
+          "text_length": 415,
+          "estimated_tokens": 103,
+          "text": "conserve bio-diversity and ensure  sustainable future for the fishing industry.\n\none example is the biodiversity beyond national jurisdiction agreement in 2023 that provides  legal framework for all activities in the ocean and seas.\n\non  local level, we should make ocean- friendly choices when buying products or eating food derived from oceans and consume only what we need.\n\nreducing our plastic use is critical."
+        }
+      ],
+      "recursive_character": [
+        {
+          "chunk_id": 0,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 0,
+          "end_char": 395,
+          "text_length": 395,
+          "estimated_tokens": 98,
+          "text": "marine life sustainability requires  multi-faceted approach including international agreements like the bbnj treaty, creating more marine protected areas, and combating overfishing through better management and diversification of fisheries. individuals can contribute by reducing their plastic use and carbon footprint, making sustainable seafood choices, and avoiding damage to marine habitats."
+        },
+        {
+          "chunk_id": 1,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 294,
+          "end_char": 770,
+          "text_length": 476,
+          "estimated_tokens": 119,
+          "text": "use and carbon footprint, making sustainable seafood choices, and avoiding damage to marine habitats. global and governmental actions international cooperation: advocate for and implement international agreements, such as the biodiversity beyond national jurisdiction (bbnj) agreement, to create  legal framework for conservation in international waters. marine protected areas (mpas): expand and manage mpas to provide safe zones for marine species and conserve biodiversity."
+        },
+        {
+          "chunk_id": 2,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 669,
+          "end_char": 1133,
+          "text_length": 464,
+          "estimated_tokens": 116,
+          "text": "as (mpas): expand and manage mpas to provide safe zones for marine species and conserve biodiversity. sustainable fisheries management: implement stronger regulations and enforcement to combat overfishing and illegal fishing. diversifying fisheries through responsible aquaculture is also  way to build resilience. mitigate climate change: reduce carbon emissions to slow ocean warming and acidification, which negatively impacts coral reefs and other marine life."
+        },
+        {
+          "chunk_id": 3,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 1032,
+          "end_char": 1551,
+          "text_length": 519,
+          "estimated_tokens": 129,
+          "text": "to slow ocean warming and acidification, which negatively impacts coral reefs and other marine life. individual actions reduce pollution: minimize plastic use, as millions of tons enter the ocean each year, harming marine animals and ecosystems. clean up local beaches and support initiatives like the international coastal cleanup day. make sustainable choices: shop for and consume seafood that is sustainably harvested. reduce your carbon footprint by conserving energy and using public transportation when possible."
+        },
+        {
+          "chunk_id": 4,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 1451,
+          "end_char": 1888,
+          "text_length": 437,
+          "estimated_tokens": 109,
+          "text": "ted. reduce your carbon footprint by conserving energy and using public transportation when possible. protect marine habitats: when boating, be careful not to damage coral reefs or seagrass beds with anchors. avoid touching coral reefs when diving or snorkeling. use reef-safe sunscreens. conserve water: use less water to reduce the amount of runoff and wastewater that flows into the ocean. the ocean is intrinsic to our life on earth."
+        },
+        {
+          "chunk_id": 5,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 1787,
+          "end_char": 2319,
+          "text_length": 532,
+          "estimated_tokens": 133,
+          "text": "ount of runoff and wastewater that flows into the ocean. the ocean is intrinsic to our life on earth. covering three-quarters of the earths surface, contain 97 percent of the earths water, and represent 99 percent of the living space on the planet by volume. it provides key natural resources including food, medicines, biofuels and other products; help with the breakdown and removal of waste and pollution; and their coastal ecosystems act as buffers to reduce damage from storms. it also acts as the planets greatest carbon sink."
+        },
+        {
+          "chunk_id": 6,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 2218,
+          "end_char": 2748,
+          "text_length": 530,
+          "estimated_tokens": 132,
+          "text": "ystems act as buffers to reduce damage from storms. it also acts as the planets greatest carbon sink. worryingly, marine pollution is reaching extreme levels, with over 17 million metric tons clogging the ocean in 2021,  figure set to double or triple by 2040. plastic is the most harmful type of ocean pollution. despite increased conservation efforts, only. of the ocean is currently designated as marine protected areaswell below the 30 target set for 2030. just 46 of marine key biodiversity areas are under formal protection."
+        },
+        {
+          "chunk_id": 7,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 2647,
+          "end_char": 3190,
+          "text_length": 543,
+          "estimated_tokens": 135,
+          "text": "low the 30 target set for 2030. just 46 of marine key biodiversity areas are under formal protection. meanwhile, ocean warming, acidification, overfishing, and illegal practices continue to threaten marine ecosystems, and support for small-scale fisheries remains inadequate. currently, the oceans average ph is. which is about 30 per cent more acidic than in pre- industrial times. ocean acidification threatens the survival of marine life, disrupts the food web, and undermines vital services provided by the ocean and our own food security."
+        },
+        {
+          "chunk_id": 8,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 3089,
+          "end_char": 3577,
+          "text_length": 488,
+          "estimated_tokens": 122,
+          "text": "disrupts the food web, and undermines vital services provided by the ocean and our own food security. careful management of this essential global resource is  key feature of  sustainable future. this includes increasing funding for ocean science, intensifying conservation efforts, and urgently turning the tide on climate change to safeguard the planets largest ecosystem. current efforts to protect are not yet meeting the urgent need to safeguard this vast, yet fragile, resource. why?"
+        },
+        {
+          "chunk_id": 9,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 3476,
+          "end_char": 4038,
+          "text_length": 562,
+          "estimated_tokens": 140,
+          "text": "ts to protect are not yet meeting the urgent need to safeguard this vast, yet fragile, resource. why? the ocean is our planets life support and regulate the global climate system. it is the worlds largest ecosystem, home to nearly  million known species and containing vast untapped potential for scientific discovery. oceans and fisheries continue to support the global populations economic, social and environmental needs. despite the critical importance of conserving oceans, decades of irresponsible exploitation have led to an alarming level of degradation."
+        },
+        {
+          "chunk_id": 10,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 3937,
+          "end_char": 4426,
+          "text_length": 489,
+          "estimated_tokens": 122,
+          "text": "onserving oceans, decades of irresponsible exploitation have led to an alarming level of degradation. so whats the problem? the ocean absorbs around 23 per cent of annual co2 emissions generated by human activity and helps mitigate the impacts of climate change. the ocean has also absorbed more than 90 of the excess heat in the climate system. ocean heat is at record levels, causing widespread marine heatwaves, threatening its rich eco-systems and killing coral reefs around the world."
+        },
+        {
+          "chunk_id": 11,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 4325,
+          "end_char": 4815,
+          "text_length": 490,
+          "estimated_tokens": 122,
+          "text": "despread marine heatwaves, threatening its rich eco-systems and killing coral reefs around the world. the world is now in the midst of  fourth global coral bleaching event, which is considered the most widespread and intense on record. between january 2023 and may 2025, bleaching-level heat stress affected 84 per cent of reefs globally, across 83 countries and territories. the bleaching event is so severe that coral mortality alert levels have been expanded beyond their original scale."
+        },
+        {
+          "chunk_id": 12,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 4714,
+          "end_char": 5213,
+          "text_length": 499,
+          "estimated_tokens": 124,
+          "text": "event is so severe that coral mortality alert levels have been expanded beyond their original scale. increasing levels of debris in the worlds oceans are also having  major environmental and economic impact. every year, an estimated  to 12 million metric tonnes of plastic enters the ocean, costing roughly 13 billion per year including clean-up costs and financial losses in fisheries and other industries. about 89 of plastic litter found on the ocean floor are single-use items like plastic bags."
+        },
+        {
+          "chunk_id": 13,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 5113,
+          "end_char": 5612,
+          "text_length": 499,
+          "estimated_tokens": 124,
+          "text": "dustries. about 89 of plastic litter found on the ocean floor are single-use items like plastic bags. about 80 of all tourism takes place in coastal areas. the ocean-related tourism industry grows an estimated us 134 billion per year and in some countries, the industry already supports over  third of the labour force. unless carefully managed, tourism can pose  major threat to the natural resources on which it depends, and to local culture and industry. how is the ocean connected to our health?"
+        },
+        {
+          "chunk_id": 14,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 5511,
+          "end_char": 5940,
+          "text_length": 429,
+          "estimated_tokens": 107,
+          "text": "ces on which it depends, and to local culture and industry. how is the ocean connected to our health? the health of the ocean is intimately tied to our health. the diversity of species found in the ocean offers great promise for pharmaceuticals. furthermore, marine fisheries provide 57 million jobs globally and provide the primary source of protein to over 50 of the population in least developed countries. so, what can we do?"
+        },
+        {
+          "chunk_id": 15,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 5839,
+          "end_char": 6230,
+          "text_length": 391,
+          "estimated_tokens": 97,
+          "text": "mary source of protein to over 50 of the population in least developed countries. so, what can we do? the third united nations ocean conference, held in nice in june 2025, offered renewed momentum as countries adopted  bold political declaration and made over 800 voluntary commitments focused on marine protection, pollution control, high-seas governance and support for vulnerable nations."
+        },
+        {
+          "chunk_id": 16,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 6130,
+          "end_char": 6579,
+          "text_length": 449,
+          "estimated_tokens": 112,
+          "text": "ed on marine protection, pollution control, high-seas governance and support for vulnerable nations.  key milestone was progress towards the agreement on marine biological diversity of areas beyond national jurisdiction (the bbnj agreement); that provides  legal framework for all activities in the ocean and seas; with 19 new ratifications bringing the total to 50 states just 10 states short of the 60 needed for the agreement to enter into force."
+        },
+        {
+          "chunk_id": 17,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 6478,
+          "end_char": 6920,
+          "text_length": 442,
+          "estimated_tokens": 110,
+          "text": "g the total to 50 states just 10 states short of the 60 needed for the agreement to enter into force. for open ocean and deep sea areas, sustainability can be achieved only through increased international cooperation to protect vulnerable habitats. establishing complete, effective and equitably managed systems of government-protected areas should be pursued to conserve bio-diversity and ensure  sustainable future for the fishing industry."
+        },
+        {
+          "chunk_id": 18,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 6819,
+          "end_char": 7341,
+          "text_length": 522,
+          "estimated_tokens": 130,
+          "text": "should be pursued to conserve bio-diversity and ensure  sustainable future for the fishing industry. one example is the biodiversity beyond national jurisdiction agreement in 2023 that provides  legal framework for all activities in the ocean and seas. on  local level, we should make ocean- friendly choices when buying products or eating food derived from oceans and consume only what we need. reducing our plastic use is critical. goal 14 is about conserving and sustainably using the oceans, seas and marine resources."
+        },
+        {
+          "chunk_id": 19,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 7241,
+          "end_char": 7845,
+          "text_length": 604,
+          "estimated_tokens": 151,
+          "text": "is critical. goal 14 is about conserving and sustainably using the oceans, seas and marine resources. healthy oceans and seas are essential to human existence and life on earth. the ocean is intrinsic to our life on earth. covering three-quarters of the earths surface, contain 97 percent of the earths water, and represent 99 percent of the living space on the planet by volume. they provide key natural resources including food, medicines, biofuels and other products; help with the breakdown and removal of waste and pollution; and their coastal ecosystems act as buffers to reduce damage from storms."
+        },
+        {
+          "chunk_id": 20,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 7744,
+          "end_char": 8215,
+          "text_length": 471,
+          "estimated_tokens": 117,
+          "text": "val of waste and pollution; and their coastal ecosystems act as buffers to reduce damage from storms. they also act as the planets greatest carbon sink. worryingly, marine pollution is reaching extreme levels, with over 17 million metric tons clogging the ocean in 2021,  figure set to double or triple by 2040. plastic is the most harmful type of ocean pollution. currently, the oceans average ph is. which is about 30 per cent more acidic than in pre- industrial times."
+        },
+        {
+          "chunk_id": 21,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 8114,
+          "end_char": 8648,
+          "text_length": 534,
+          "estimated_tokens": 133,
+          "text": "ntly, the oceans average ph is. which is about 30 per cent more acidic than in pre- industrial times. ocean acidification threatens the survival of marine life, disrupts the food web, and undermines vital services provided by the ocean and our own food security. careful management of this essential global resource is  key feature of  sustainable future. this includes increasing funding for ocean science, intensifying conservation efforts, and urgently turning the tide on climate change to safeguard the planets largest ecosystem."
+        },
+        {
+          "chunk_id": 22,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 8547,
+          "end_char": 9085,
+          "text_length": 538,
+          "estimated_tokens": 134,
+          "text": "efforts, and urgently turning the tide on climate change to safeguard the planets largest ecosystem. current efforts to protect are not yet meeting the urgent need to safeguard this vast, yet fragile, resource. why? the ocean is our planets life support and regulate the global climate system. it is the worlds largest ecosystem, home to nearly  million known species and containing vast untapped potential for scientific discovery. oceans and fisheries continue to support the global populations economic, social and environmental needs."
+        },
+        {
+          "chunk_id": 23,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 8985,
+          "end_char": 9468,
+          "text_length": 483,
+          "estimated_tokens": 120,
+          "text": "ns and fisheries continue to support the global populations economic, social and environmental needs. despite the critical importance of conserving oceans, decades of irresponsible exploitation have led to an alarming level of degradation. so whats the problem? the ocean absorbs around 23 per cent of annual co2 emissions generated by human activity and helps mitigate the impacts of climate change. the ocean has also absorbed more than 90 of the excess heat in the climate system."
+        },
+        {
+          "chunk_id": 24,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 9367,
+          "end_char": 9919,
+          "text_length": 552,
+          "estimated_tokens": 138,
+          "text": "of climate change. the ocean has also absorbed more than 90 of the excess heat in the climate system. ocean heat is at record levels, causing widespread marine heatwaves, threatening its rich eco-systems and killing coral reefs around the world. increasing levels of debris in the worlds oceans are also having  major environmental and economic impact. every year, an estimated  to 12 million metric tonnes of plastic enters the ocean, costing roughly 13 billion per year including clean-up costs and financial losses in fisheries and other industries."
+        },
+        {
+          "chunk_id": 25,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 9818,
+          "end_char": 10366,
+          "text_length": 548,
+          "estimated_tokens": 137,
+          "text": "13 billion per year including clean-up costs and financial losses in fisheries and other industries. about 89 of plastic litter found on the ocean floor are single-use items like plastic bags. about 80 of all tourism takes place in coastal areas. the ocean-related tourism industry grows an estimated us 134 billion per year and in some countries, the industry already supports over  third of the labour force. unless carefully managed, tourism can pose  major threat to the natural resources on which it depends, and to local culture and industry."
+        },
+        {
+          "chunk_id": 26,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 10266,
+          "end_char": 10737,
+          "text_length": 471,
+          "estimated_tokens": 117,
+          "text": "n pose  major threat to the natural resources on which it depends, and to local culture and industry. how is the ocean connected to our health? the health of the ocean is intimately tied to our health. the diversity of species found in the ocean offers great promise for pharmaceuticals. furthermore, marine fisheries provide 57 million jobs globally and provide the primary source of protein to over 50 of the population in least developed countries. so, what can we do?"
+        },
+        {
+          "chunk_id": 27,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 10636,
+          "end_char": 11078,
+          "text_length": 442,
+          "estimated_tokens": 110,
+          "text": "mary source of protein to over 50 of the population in least developed countries. so, what can we do? for open ocean and deep sea areas, sustainability can be achieved only through increased international cooperation to protect vulnerable habitats. establishing complete, effective and equitably managed systems of government-protected areas should be pursued to conserve bio-diversity and ensure  sustainable future for the fishing industry."
+        },
+        {
+          "chunk_id": 28,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 10977,
+          "end_char": 11410,
+          "text_length": 433,
+          "estimated_tokens": 108,
+          "text": "should be pursued to conserve bio-diversity and ensure  sustainable future for the fishing industry. one example is the biodiversity beyond national jurisdiction agreement in 2023 that provides  legal framework for all activities in the ocean and seas. on  local level, we should make ocean- friendly choices when buying products or eating food derived from oceans and consume only what we need. reducing our plastic use is critical."
+        }
+      ]
+    }
+  },
+  "chunking_success": true
+}

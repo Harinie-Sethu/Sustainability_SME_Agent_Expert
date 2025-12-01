@@ -1,0 +1,777 @@
+{
+  "method": "pypdf2",
+  "success": true,
+  "total_pages": 153,
+  "pages": [
+    {
+      "page_number": 1,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 2,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 3,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 4,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 5,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 6,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 7,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 8,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 9,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 10,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 11,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 12,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 13,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 14,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 15,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 16,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 17,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 18,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 19,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 20,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 21,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 22,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 23,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 24,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 25,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 26,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 27,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 28,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 29,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 30,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 31,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 32,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 33,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 34,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 35,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 36,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 37,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 38,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 39,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 40,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 41,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 42,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 43,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 44,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 45,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 46,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 47,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 48,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 49,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 50,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 51,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 52,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 53,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 54,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 55,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 56,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 57,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 58,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 59,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 60,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 61,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 62,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 63,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 64,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 65,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 66,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 67,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 68,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 69,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 70,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 71,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 72,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 73,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 74,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 75,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 76,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 77,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 78,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 79,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 80,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 81,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 82,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 83,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 84,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 85,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 86,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 87,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 88,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 89,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 90,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 91,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 92,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 93,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 94,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 95,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 96,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 97,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 98,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 99,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 100,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 101,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 102,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 103,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 104,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 105,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 106,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 107,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 108,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 109,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 110,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 111,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 112,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 113,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 114,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 115,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 116,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 117,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 118,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 119,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 120,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 121,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 122,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 123,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 124,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 125,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 126,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 127,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 128,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 129,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 130,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 131,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 132,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 133,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 134,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 135,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 136,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 137,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 138,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 139,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 140,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 141,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 142,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 143,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 144,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 145,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 146,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 147,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 148,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 149,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 150,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 151,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 152,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 153,
+      "text_length": 0,
+      "has_text": false
+    }
+  ],
+  "full_text": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+  "total_text_length": 0,
+  "source_file": "EDU_403.pdf",
+  "extraction_timestamp": "2025-10-24T16:53:40.053019",
+  "file_size_bytes": 34021242
+}

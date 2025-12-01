@@ -1,0 +1,52 @@
+{
+  "method": "pypdf2",
+  "success": true,
+  "total_pages": 8,
+  "pages": [
+    {
+      "page_number": 1,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 2,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 3,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 4,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 5,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 6,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 7,
+      "text_length": 0,
+      "has_text": false
+    },
+    {
+      "page_number": 8,
+      "text_length": 0,
+      "has_text": false
+    }
+  ],
+  "full_text": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+  "total_text_length": 0,
+  "source_file": "JULY 23 12.pdf",
+  "extraction_timestamp": "2025-10-24T16:53:53.936281",
+  "file_size_bytes": 3735997
+}

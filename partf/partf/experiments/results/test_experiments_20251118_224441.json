@@ -1,0 +1,248 @@
+{
+  "metadata": {
+    "started": "2025-11-18T22:43:20.854952",
+    "llm_model": "gemini-2.0-flash"
+  },
+  "experiments": {
+    "prompt_variants_qa": {
+      "task": "qa",
+      "variants": [
+        "basic",
+        "contextual",
+        "chain_of_thought",
+        "structured",
+        "with_confidence"
+      ],
+      "test_cases": [
+        {
+          "input": {
+            "question": "What is renewable energy?"
+          },
+          "prompt": "Question: What is renewable energy?\n\nAnswer:",
+          "expected_output": "renewable energy is energy from sources that replenish naturally"
+        }
+      ],
+      "variant_results": {
+        "basic": [
+          {
+            "success": true,
+            "task": "qa",
+            "variant": "basic",
+            "prompt": "Answer the following question about sustainability and environment:\n\nQuestion: What is renewable energy?\n\nAnswer:",
+            "output": "Renewable energy is energy that comes from sources that are naturally replenished on a human timescale, such as sunlight, wind, rain, tides, and geothermal heat. This means that these sources are not depleted when used and are essentially inexhaustible.\n",
+            "execution_time": 1.6475417613983154,
+            "temperature": 0.7,
+            "max_tokens": 1000,
+            "timestamp": "2025-11-18T22:43:25.506121",
+            "match_score": 0.875
+          }
+        ],
+        "contextual": [
+          {
+            "success": true,
+            "task": "qa",
+            "variant": "contextual",
+            "prompt": "You are an expert in Environmental Sustainability.\n\nContext: Environmental sustainability and climate change\n\nQuestion: What is renewable energy?\n\nProvide a clear, accurate answer based on the context above:",
+            "output": "Renewable energy is energy that comes from sources that are naturally replenished on a human timescale, such as sunlight, wind, rain, tides, and geothermal heat. Unlike fossil fuels, which are finite resources, renewable energy sources are virtually inexhaustible and can be used again and again. Shifting towards renewable energy sources is a crucial strategy in mitigating climate change by reducing greenhouse gas emissions associated with traditional energy production.\n",
+            "execution_time": 5.194937229156494,
+            "temperature": 0.7,
+            "max_tokens": 1000,
+            "timestamp": "2025-11-18T22:43:30.701221",
+            "match_score": 0.875
+          }
+        ],
+        "chain_of_thought": [
+          {
+            "success": true,
+            "task": "qa",
+            "variant": "chain_of_thought",
+            "prompt": "You are an expert in Environmental Sustainability.\n\nQuestion: What is renewable energy?\n\nLet's think step by step:\n1. First, understand what is being asked\n2. Identify the key concepts involved\n3. Connect relevant information\n4. Provide a comprehensive answer\n\nAnswer:",
+            "output": "Okay, let's break down the question \"What is renewable energy?\" step-by-step to arrive at a comprehensive answer.\n\n**1. Understand what is being asked:**\n\nThe question seeks a definition of \"renewable energy.\" This definition should cover the fundamental characteristics that make energy sources fall under the \"renewable\" category. It should also imply how renewable energy differs from non-renewable energy.\n\n**2. Identify the key concepts involved:**\n\n*   **Energy:** The capacity to do work. This is the fundamental concept.\n*   **Renewable:**  The core adjective.  Key synonyms/concepts linked to \"renewable\" in this context are:\n    *   Naturally replenished\n    *   Sustainable\n    *   Regenerative\n    *   Continuously available (within a human timescale)\n*   **Non-renewable:** The opposite of renewable. Key concepts linked to this are:\n    *   Finite\n    *   Depleted\n    *   Unsustainable\n\n**3. Connect relevant information:**\n\nRenewable energy sources are those that are replenished by natural processes at a rate comparable to or faster than their rate of consumption. This contrasts with non-renewable energy sources, which exist in finite quantities and are depleted by use.  The \"natural processes\" that replenish renewable energy are often driven by the sun, wind, rain, tides, and geothermal heat.  Because renewable energy relies on naturally replenishing sources, it is generally considered a more sustainable and environmentally friendly option than non-renewable energy.\n\n**4. Provide a comprehensive answer:**\n\nRenewable energy is energy derived from natural processes that are replenished at a rate equal to or faster than the rate at which they are consumed. This means that, unlike non-renewable energy sources like fossil fuels (coal, oil, and natural gas) and nuclear fuels, renewable sources are essentially inexhaustible on a human timescale. Common examples of renewable energy include solar, wind, hydro (water), geothermal, and biomass energy.  The sustainable nature of renewable energy makes it a crucial component of efforts to mitigate climate change and create a more environmentally responsible energy future.\n",
+            "execution_time": 7.424702405929565,
+            "temperature": 0.7,
+            "max_tokens": 1000,
+            "timestamp": "2025-11-18T22:43:38.126032",
+            "match_score": 1.0
+          }
+        ],
+        "structured": [
+          {
+            "success": true,
+            "task": "qa",
+            "variant": "structured",
+            "prompt": "Question: What is renewable energy?\n\nProvide a structured answer in the following format:\n\n**Overview**: Brief 1-2 sentence overview\n\n**Key Points**:\n- Point 1\n- Point 2\n- Point 3\n\n**Explanation**: Detailed explanation\n\n**Actionable Insights**: What can be done about this\n\nAnswer:",
+            "output": "**Overview**: Renewable energy is energy derived from natural processes that are replenished at a higher rate than they are consumed, ensuring a sustainable energy source. It contrasts with fossil fuels, which are finite resources.\n\n**Key Points**:\n- Sources are naturally replenished.\n- Lower environmental impact compared to fossil fuels.\n- Variety of forms, including solar, wind, hydro, geothermal, and biomass.\n\n**Explanation**: Renewable energy sources harness naturally occurring and continuously replenished resources. Unlike fossil fuels, which take millions of years to form and are finite, renewable sources are virtually inexhaustible on a human timescale.  Solar energy captures sunlight, wind energy uses the power of the wind, hydropower harnesses the energy of moving water, geothermal energy taps into the Earth's internal heat, and biomass energy uses organic matter. These sources typically have a significantly lower environmental impact than burning fossil fuels, reducing greenhouse gas emissions, air pollution, and water contamination. The variability of some renewable sources, like solar and wind, requires energy storage solutions and grid modernization to ensure a reliable energy supply. Different regions have different renewable energy potential, making a diverse mix of sources important for a resilient and sustainable energy system.\n\n**Actionable Insights**:\n* **Support policies that promote renewable energy development**: Advocate for government incentives, regulations, and investments that encourage the growth of renewable energy industries.\n* **Invest in renewable energy technologies**:  Individuals and businesses can install solar panels, use wind turbines, or purchase electricity from renewable energy providers.\n* **Reduce energy consumption**: Implement energy-efficient practices in homes and businesses to lower the overall demand for energy, making it easier to transition to renewable sources.\n* **Educate others**:  Raise awareness about the benefits of renewable energy and encourage others to adopt sustainable practices.\n",
+            "execution_time": 4.190670490264893,
+            "temperature": 0.7,
+            "max_tokens": 1000,
+            "timestamp": "2025-11-18T22:43:42.316853",
+            "match_score": 0.875
+          }
+        ],
+        "with_confidence": [
+          {
+            "success": true,
+            "task": "qa",
+            "variant": "with_confidence",
+            "prompt": "Question: What is renewable energy?\n\nAnswer this question and indicate your confidence level (High/Medium/Low).\n\nFormat:\nAnswer: [your answer]\nConfidence: [High/Medium/Low]\nReasoning: [why this confidence level]\n\nResponse:",
+            "output": "Answer: Renewable energy is energy that comes from sources that are naturally replenished, such as sunlight, wind, rain, tides, and geothermal heat. These sources are sustainable and don't deplete over time, unlike fossil fuels.\n\nConfidence: High\nReasoning: This is a standard definition of renewable energy, widely accepted and taught. I've encountered this definition numerous times in educational and professional contexts.\n",
+            "execution_time": 2.831277370452881,
+            "temperature": 0.7,
+            "max_tokens": 1000,
+            "timestamp": "2025-11-18T22:43:45.148323",
+            "match_score": 0.875
+          }
+        ]
+      },
+      "summary": {
+        "basic": {
+          "success_rate": 1.0,
+          "avg_execution_time": 1.6475417613983154,
+          "avg_match_score": 0.875
+        },
+        "contextual": {
+          "success_rate": 1.0,
+          "avg_execution_time": 5.194937229156494,
+          "avg_match_score": 0.875
+        },
+        "chain_of_thought": {
+          "success_rate": 1.0,
+          "avg_execution_time": 7.424702405929565,
+          "avg_match_score": 1.0
+        },
+        "structured": {
+          "success_rate": 1.0,
+          "avg_execution_time": 4.190670490264893,
+          "avg_match_score": 0.875
+        },
+        "with_confidence": {
+          "success_rate": 1.0,
+          "avg_execution_time": 2.831277370452881,
+          "avg_match_score": 0.875
+        }
+      },
+      "best_variant": {
+        "name": "chain_of_thought",
+        "metrics": {
+          "success_rate": 1.0,
+          "avg_execution_time": 7.424702405929565,
+          "avg_match_score": 1.0
+        }
+      }
+    },
+    "few_shot_qa": {
+      "task": "qa",
+      "shot_counts": [
+        0,
+        1
+      ],
+      "results": {
+        "0": {
+          "success_rate": 1.0,
+          "avg_time": 0.9564111232757568,
+          "results": [
+            {
+              "success": true,
+              "task": "qa",
+              "num_shots": 0,
+              "prompt": "Here are some examples:\n\n\nNow process this input:\nInput: {'question': 'What is renewable energy?'}\nOutput:",
+              "output": "Renewable energy is energy that comes from sources that are naturally replenished, such as sunlight, wind, rain, tides, and geothermal heat.\n",
+              "execution_time": 0.9564111232757568,
+              "timestamp": "2025-11-18T22:43:57.116976",
+              "match_score": 0.875
+            }
+          ]
+        },
+        "1": {
+          "success_rate": 1.0,
+          "avg_time": 1.3162686824798584,
+          "results": [
+            {
+              "success": true,
+              "task": "qa",
+              "num_shots": 1,
+              "prompt": "Here are some examples:\n\n\nExample 1:\nInput: What is renewable energy?\nOutput: Renewable energy is energy derived from natural sources that replenish themselves over short periods of time, such as solar radiation, wind, rain, tides, and geothermal heat. Unlike fossil fuels, which take millions of years to form, renewable energy sources are naturally and continuously renewed. The key advantage is that they produce little to no greenhouse gas emissions, making them crucial for combating climate change. Common types include solar power (from sunlight), wind power (from air movement), hydroelectric power (from flowing water), geothermal energy (from Earth's heat), and biomass energy (from organic materials).\n\n\nNow process this input:\nInput: {'question': 'What is renewable energy?'}\nOutput:",
+              "output": "```json\n{\n  \"answer\": \"Renewable energy is energy derived from natural sources that replenish themselves over short periods, such as solar radiation, wind, rain, tides, and geothermal heat.  These sources are naturally and continuously renewed, unlike fossil fuels. A key advantage is their low or zero greenhouse gas emissions, making them vital for combating climate change.  Common types include solar power, wind power, hydroelectric power, geothermal energy, and biomass energy.\"\n}\n```\n",
+              "execution_time": 1.3162686824798584,
+              "timestamp": "2025-11-18T22:44:03.438782",
+              "match_score": 0.875
+            }
+          ]
+        }
+      },
+      "optimal_shot_count": {
+        "count": 0,
+        "success_rate": 1.0
+      }
+    },
+    "temperature_qa": {
+      "task": "qa",
+      "temperatures": [
+        0.3,
+        0.7
+      ],
+      "evaluations": {
+        "0.3": {
+          "task": "qa",
+          "config": {
+            "temperature": 0.3,
+            "max_tokens": 1000
+          },
+          "timestamp": "2025-11-18T22:44:13.530849",
+          "num_test_cases": 1,
+          "num_successful": 1,
+          "success_rate": 1.0,
+          "total_time": 1.0820176601409912,
+          "avg_execution_time": 1.0819447040557861,
+          "avg_output_length": 297.0,
+          "results": [
+            {
+              "test_case_id": 0,
+              "success": true,
+              "output": "Renewable energy is energy that comes from sources that are naturally replenished on a human timescale, such as sunlight, wind, rain, tides, and geothermal heat. Unlike fossil fuels, which are finite resources, renewable energy sources are constantly renewed and therefore considered sustainable.\n",
+              "execution_time": 1.0819447040557861,
+              "output_length": 297,
+              "token_count": 42,
+              "accuracy_score": 0.2,
+              "relevance_score": 1.0
+            }
+          ],
+          "avg_accuracy": 0.2,
+          "avg_relevance": 1.0
+        },
+        "0.7": {
+          "task": "qa",
+          "config": {
+            "temperature": 0.7,
+            "max_tokens": 1000
+          },
+          "timestamp": "2025-11-18T22:44:20.651734",
+          "num_test_cases": 1,
+          "num_successful": 1,
+          "success_rate": 1.0,
+          "total_time": 1.1141242980957031,
+          "avg_execution_time": 1.114065408706665,
+          "avg_output_length": 233.0,
+          "results": [
+            {
+              "test_case_id": 0,
+              "success": true,
+              "output": "Renewable energy is energy that comes from sources that are naturally replenished, such as sunlight, wind, rain, tides, and geothermal heat. These sources are virtually inexhaustible, unlike fossil fuels, which are finite resources.\n",
+              "execution_time": 1.114065408706665,
+              "output_length": 233,
+              "token_count": 33,
+              "accuracy_score": 0.2413793103448276,
+              "relevance_score": 1.0
+            }
+          ],
+          "avg_accuracy": 0.2413793103448276,
+          "avg_relevance": 1.0
+        }
+      },
+      "best_temperature": {
+        "value": 0.3,
+        "success_rate": 1.0
+      }
+    }
+  }
+}

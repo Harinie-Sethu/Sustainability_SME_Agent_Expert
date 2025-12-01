@@ -1,0 +1,1661 @@
+{
+  "source_file": "60e84f78c293e43c0915a6b8bfdb6d7a.pdf",
+  "chunking_timestamp": "2025-10-24T17:20:28.664014",
+  "original_metadata": {
+    "total_pages": 4,
+    "original_text_length": 14474,
+    "extraction_method": "pypdf2"
+  },
+  "filtering_stats": {
+    "original_length": 14480,
+    "sections_removed": 0,
+    "paragraphs_removed": 0,
+    "sentences_removed": 0,
+    "cleaned_length": 13964,
+    "retention_rate": 96.43646408839778
+  },
+  "chunking_config": {
+    "chunk_sizes": {
+      "large": 2048,
+      "medium": 512,
+      "small": 128
+    },
+    "overlap_percentages": {
+      "large": 0.1,
+      "medium": 0.15,
+      "small": 0.2
+    }
+  },
+  "chunk_stats": {
+    "large_fixed_size": {
+      "chunk_count": 2,
+      "avg_tokens": 1847.5,
+      "min_tokens": 1647,
+      "max_tokens": 2048,
+      "total_tokens": 3695
+    },
+    "large_content_aware": {
+      "chunk_count": 2,
+      "avg_tokens": 1870.0,
+      "min_tokens": 1702,
+      "max_tokens": 2038,
+      "total_tokens": 3740
+    },
+    "large_recursive_character": {
+      "chunk_count": 2,
+      "avg_tokens": 1847.0,
+      "min_tokens": 1642,
+      "max_tokens": 2052,
+      "total_tokens": 3694
+    },
+    "medium_fixed_size": {
+      "chunk_count": 9,
+      "avg_tokens": 448.1111111111111,
+      "min_tokens": 9,
+      "max_tokens": 512,
+      "total_tokens": 4033
+    },
+    "medium_content_aware": {
+      "chunk_count": 9,
+      "avg_tokens": 458.3333333333333,
+      "min_tokens": 183,
+      "max_tokens": 512,
+      "total_tokens": 4125
+    },
+    "medium_recursive_character": {
+      "chunk_count": 8,
+      "avg_tokens": 503.0,
+      "min_tokens": 477,
+      "max_tokens": 519,
+      "total_tokens": 4024
+    },
+    "small_fixed_size": {
+      "chunk_count": 35,
+      "avg_tokens": 123.65714285714286,
+      "min_tokens": 6,
+      "max_tokens": 128,
+      "total_tokens": 4328
+    },
+    "small_content_aware": {
+      "chunk_count": 39,
+      "avg_tokens": 112.17948717948718,
+      "min_tokens": 89,
+      "max_tokens": 128,
+      "total_tokens": 4375
+    },
+    "small_recursive_character": {
+      "chunk_count": 34,
+      "avg_tokens": 126.76470588235294,
+      "min_tokens": 82,
+      "max_tokens": 143,
+      "total_tokens": 4310
+    }
+  },
+  "chunks": {
+    "large": {
+      "fixed_size": [
+        {
+          "chunk_id": 0,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 2048,
+          "overlap_percentage": 0.1,
+          "start_char": 0,
+          "end_char": 8192,
+          "text_length": 8192,
+          "estimated_tokens": 2048,
+          "text": "ijfans international journal of food and nutritional sciences issn print 2319 1775 online 2320 7876 research paper 2012 ijfans. all rights reserved, ugc care listed ( group -) journal volume 11, iss 11, dec 2022 19256 contribution of literature in sustainable development dr. uttam ramchandra patil professor head, department of english, rajarshi shahu arts commerce college, rukadi, tal. hatkanangale, dist. kolhapur (ms) india email: uttamnayanagmail.com abstract this paper is an attempt to explore the contribution of literature in promoting sustainable development. various literary works are critically analysed to examine how literature can raise awareness about environmental issues, promote social justice, gender equity and inspire individual and collective action towards sustainability. literature can be considered as the mother of all knowledge. it is made of the life experiences. it has the power to shape our perceptions, values, and behaviors. the united nati ons have framed 17 sustainable development goals (sdgs). literature can play  crucial role in attaining these goals as literature is closely related to culture. and both literature and culture are connected to sustainability. by investigating the connecti ons between literature, culture, and sustainability, this paper exhibits the potential of literature to contribute to  more equitable and environmentally conscious world. keywords: literature, sustainable development goals, environment, social justice, ge nder equity. introduction literature is  purely human phenomenon. it is  means by which human beings present their experiences, thoughts, ideas, emotions and feelings. literature is about life and the people in relation to the social, cultural, economic, political, environmental, and all the other aspects of life. it is about interpersonal as well as intrapersonal relations. it aims to entertain and educate the readers. literature educates people by making them aware about various glocal issues. the modern world has emerged with  uge rapid materialistic development which has been drastically affecting the environment al, social and economic human balance. to attain development the natural resources are being exploited to an extreme level that may damage the harmony of over -all life on the globe. that is why the uno have been putting efforts to make development sustainable. literature is the mirror of life. it presents the pressing issues of the society and tries to provide solutions to them. no doubt, literature is fictitious but it is very useful for enlightenment and awakening of people. there are plenty of literary works across all the genres that highlight the sustainable development goals and make readers aware of the serious problems which have incurred due to materialistic deve lopment. some literary works discuss the influence of development on environmental, social and economic aspects of life. sustainable development is  pressing global issue, requiring immediate attention and action. the united nations sdgs highlight the need for  holistic approach to sustainability, encompassing environmental, social, and economic dimensions. literature, as  powerful tool for shaping cultural narratives and influencing individual and collective behaviors, has  significant role to play in promoting sustainable development. sustainable development is  method to satisfy needs of the people today without depriving future generations of their needs. it is an approach that balances diverse requirements against the consciousness of the enviro nmental, economic and social limitations that  society has. according to our common future which is also known as brundtland report, sustainable development is development that meets the needs of the present without compromising the ability of future generations to meet their own needs. todays world has grave environmental challenges like climate change, freshwater exhaustion, deforestation, air and water pollution, and hunger. natural resources are either running out or are being polluted due to th  rapid and huge development. there is  need to utilize the earths resources sensibly and ijfans international journal of food and nutritional sciences issn print 2319 1775 online 2320 7876 research paper 2012 ijfans. all rights reserved, ugc care listed ( group -) journal volume 11, iss 11, dec 2022 19257 preserve and conserve them for the future generations. sustainable development emphasizes the improvement of human -environment interaction through prioritization of the management and protection of the natural resources for coming generations. through the conservation and enhancement of our natural resources all the nations can satisfy the basic needs of employment, food, water, energy and sanitation. the natural resources can be conserved and enhanced by promoting stable economic growth, conservation of natural resources, environmental protection, social progress and equality. further, sustainable development is an attitude to development. it considers various necessities against an awareness of the environmental, social and economic limitations  society faces. it propagates the social responsibility to use the natural resources wisely and sensibly so that the balance of the nature is not disturbed. to attain this, in september, 2015 the countries under the uno adopted 17 sustainable development goals. these goals are. no poverty,. zero hunger,. good health and  ell-being,. quality education,. gender equality,. clean water and sanitation,. affordable and clean energy,. decent work and economic growth,. industry innovation and infrastruc ture, 10. reduced inequalities, 11. sustainable cities and communities, 12. responsible consumption and production, 13. climate action, 14. life below water, 15. life on land, 16. peace, justice and strong institutions, and 17. partnerships for the goals. the sustainability has the three pillars, namely, environmental sustainability, social sustainabilit, and economic sustainability which cover all the goals of sustainable development. they are interconnected. literature has proved to be an effective means of promotion of matters in the society. it has been used to promote all the above mentioned sustainable development goals. out of the seventeen sustainable development goals literature primarily promotes the sdgs like no poverty, zero hunger, quality ed ucation, gender equality, reduced inequalities, sustainable cities and communities, peace and justice by pointing out their actual state as prevailed in the society. the present paper is  humble attempt to consider the contribution of literature in attain ing sustainable development. contribution of literature in creating environmental awareness: literature is  powerful means of creating environmental awareness. it has long been used to raise awareness about environment. literary works like rachel carson  silent spring (1962), margaret atwoods the year of the flood (2009), prabhakar pendarkars rarang dhang ( 1981 ) and dilip chitres felling of the banyan tree ( 1980 ) have highlighted the devastating impacts of human activities on the natural worl. even the contemporary english novels like vander meers annihilation (2014) and claire vaye watkins gold fame citrus (2015) continue to explore and alarm the consequences of environmental degradation. let us see some details about felling of the banyan tree  famous poem by dilip chitre who was  respected and versatile indian artist. he was  popular poet. he wrote in both english and marathi. felling of the banyan tree was first published in chitres collection of poems entitled, traveling    cage in 1980. it is  free verse poem consisting of three stanzas, wi th in all twenty five lines. it  central theme is uprootedness of modern human beings. the secondary theme of the poem is the destruction of ecosystems for monetary gain in the name   progress and its impact on environment and human life. the persona tells that his father asked all the tenants to vacate their houses so that the houses could be demolished. then all the houses except one in which the personas family lived were destroyed. the personas father ord ered to fe"
+        },
+        {
+          "chunk_id": 1,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 2048,
+          "overlap_percentage": 0.1,
+          "start_char": 7373,
+          "end_char": 13964,
+          "text_length": 6591,
+          "estimated_tokens": 1647,
+          "text": "ails about felling of the banyan tree  famous poem by dilip chitre who was  respected and versatile indian artist. he was  popular poet. he wrote in both english and marathi. felling of the banyan tree was first published in chitres collection of poems entitled, traveling    cage in 1980. it is  free verse poem consisting of three stanzas, wi th in all twenty five lines. it  central theme is uprootedness of modern human beings. the secondary theme of the poem is the destruction of ecosystems for monetary gain in the name   progress and its impact on environment and human life. the persona tells that his father asked all the tenants to vacate their houses so that the houses could be demolished. then all the houses except one in which the personas family lived were destroyed. the personas father ord ered to fell the trees there. then all the tre es like neem, sheoga, audumbar, and others were cut down. the personas grandmother suggested not to fell the trees as they are sacred and felling them is  crime but the father did not listen to her and all the trees were massacred. the word, massacre shows the beingness of trees. but felling the enormous banyan tree was  big problem as it was thrice the size of the personas house. the circumference of its trunk was about fi fty feet. its aerial roots were thirty feet long and they touched the ground. it was the house for multitude of insects and birds. but the father ordered to cut the banyan tree down. ijfans international journal of food and nutritional sciences issn print 2319 1775 online 2320 7876 research paper 2012 ijfans. all rights reserved, ugc care listed ( group -) journal volume 11, iss 11, dec 2022 19258 the insects and birds were disturbed. in  way the ecosystem was disturbe. it took fifty men to fell the banyan tree whose slaughter was fearsome and fascinating. soon after that the personas family moved to bombay where there were not many trees. and the persona could see the tree in dreams only. the poem creates environmen tal awareness. it shows the difference between the serene and satisfactory greenery of trees and the jungle of cement concrete buildings. and it points out that if the trees are cut down in this way the future generations will have to see the trees only in dreams. the poem promotes the sustainable development from the environmental dimension. contribution of literature in promoting social justice: literature has two goals: to entertain and to educate. in some cases literature has been the cause of social revolutions  rupted to attain social justice which is  key dimension of sustainable development. literary works such as neale hurstons their eyes were watching god (1937) and chinua achebes things fall apart (1958) have focused the life of marginali zed communities. similarly, works of mulk raj anand promote social justice for the downtrodden people and communities in the indian society. his novel untouchable (1981) presents the miserable life of the untouchable and provides the possible solutions   the problem of untouchability. the argument for eradicating the caste system is at the centre of the novel. it presents  day in the life of  young sweeper boy, bakha whose work is to clean latrines. the same is promoted by omprakash valmiki in his poem, what would you do? (2008). similarly, the recent novel, foreign (2013) by sonara jha is the projection of the plight of farmers in vidarbha, india. the novel discusses the haplessness of the farmers, their desperation and depression, the indiffe rence of government, selfishness of moneylenders, corrupt government officers, and the farmers protest. the novel successfully publicizes the agonies and plight of hapless farmers in india. jha makes indian farmers suicides  global concern. contributio  of literature in promoting gender equity: in the male -dominated society, woman is always victim ized. she is brought up in such  way that she accepts that she is born to suffer and serve the man. literature has been exploring the life of women and their miseri es to the world and promoting gender equity so as to give justice to women. for instance, arun kolatkars portrayal of woman in his poem woman (2004) is as per the existing reality in the society. selflessness is cultivated in the woman to serve th  selfishness in the man. this radical poem protests against the injustice, oppression, and exploitation done to the woman in the cruel and crafty male -dominated culture. similarly, kishor kale in his autobiography, against all odds (2000) presents the st ories of kolhati women and shows that their life is tied with ghungroos of the rich lusty men who want just to use them and throw them away like  cheap object. the book brought  kind of reformation in the kolhati women and many of them started taking edu cation and change their hellish life. conclusion: to conclude, literature has  vital role to play in promoting sustainable development. it can raise awareness about en vironmental issues. it is an effective tool to promote social justice and gender equity. it can contribute to  more equitable and environmentally conscious world. as the world contends with the challenges of sustainability, literature can serve as  power ful tool for shaping cultural narratives and influencing individual and collective behaviours. references:. http:www.un -documents.netour -common -future.pdf. anand, mulk raj. (1981). untouch able. new delhi: arnold publishers.. atwood,. (2009). the year of the flood. toronto: mcclelland and stewart.. carson,. (1962). silent spring. boston: houghton miffin. ijfans international journal of food and nutritional sciences issn print 2319 1775 online 2320 7876 research paper 2012 ijfans. all rights reserved, ugc care listed ( group -) journal volume 11, iss 11, dec 2022 19259. kale, kishor. (2000). against all odds. trans. by sandhya pandey from marathi autobiography (kolhatyache por). new delhi: penguin. print.. kolatkar, arun. (2004). woman. twelve modern indian poets, ed... mehrotra, new delhi: oxford university press.. jha, sonora.(2013). foeign. noida: random house publishers india pvt.. pendhakar,. (1981). rarang dhang. mumbai: mouj prakashan gruh.. vander meer,. (2014). annihilation. new york: farrar, straus and giroux. 10. watkins,.. (2015). gold fame citrus. new york: riverhead books. 11. walmiki, omprakash. (2008). sadiaonka santap. new delhi: goutam book centre. 12. (translated by pratik kanjilal in english) 13. sathe, annabhau. (2022). fakira. pune: suresh book agency. 14. sathe, annabhau. (2022). waranecha wagh. pune: suresh book agency."
+        }
+      ],
+      "content_aware": [
+        {
+          "chunk_id": 0,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 2048,
+          "overlap_percentage": 0.1,
+          "start_char": 128,
+          "end_char": 8283,
+          "text_length": 8155,
+          "estimated_tokens": 2038,
+          "text": "ijfans international journal of food and nutritional sciences issn print 2319 1775 online 2320 7876 research paper 2012 ijfans.\n\nall rights reserved, ugc care listed ( group -) journal volume 11, iss 11, dec 2022 19256 contribution of literature in sustainable development dr.\n\nuttam ramchandra patil professor head, department of english, rajarshi shahu arts commerce college, rukadi, tal.\n\nhatkanangale, dist.\n\nkolhapur (ms) india email: uttamnayanagmail.com abstract this paper is an attempt to explore the contribution of literature in promoting sustainable development.\n\nvarious literary works are critically analysed to examine how literature can raise awareness about environmental issues, promote social justice, gender equity and inspire individual and collective action towards sustainability.\n\nliterature can be considered as the mother of all knowledge.\n\nit is made of the life experiences.\n\nit has the power to shape our perceptions, values, and behaviors.\n\nthe united nati ons have framed 17 sustainable development goals (sdgs).\n\nliterature can play  crucial role in attaining these goals as literature is closely related to culture.\n\nand both literature and culture are connected to sustainability.\n\nby investigating the connecti ons between literature, culture, and sustainability, this paper exhibits the potential of literature to contribute to  more equitable and environmentally conscious world.\n\nkeywords: literature, sustainable development goals, environment, social justice, ge nder equity.\n\nintroduction literature is  purely human phenomenon.\n\nit is  means by which human beings present their experiences, thoughts, ideas, emotions and feelings.\n\nliterature is about life and the people in relation to the social, cultural, economic, political, environmental, and all the other aspects of life.\n\nit is about interpersonal as well as intrapersonal relations.\n\nit aims to entertain and educate the readers.\n\nliterature educates people by making them aware about various glocal issues.\n\nthe modern world has emerged with  uge rapid materialistic development which has been drastically affecting the environment al, social and economic human balance.\n\nto attain development the natural resources are being exploited to an extreme level that may damage the harmony of over -all life on the globe.\n\nthat is why the uno have been putting efforts to make development sustainable.\n\nliterature is the mirror of life.\n\nit presents the pressing issues of the society and tries to provide solutions to them.\n\nno doubt, literature is fictitious but it is very useful for enlightenment and awakening of people.\n\nthere are plenty of literary works across all the genres that highlight the sustainable development goals and make readers aware of the serious problems which have incurred due to materialistic deve lopment.\n\nsome literary works discuss the influence of development on environmental, social and economic aspects of life.\n\nsustainable development is  pressing global issue, requiring immediate attention and action.\n\nthe united nations sdgs highlight the need for  holistic approach to sustainability, encompassing environmental, social, and economic dimensions.\n\nliterature, as  powerful tool for shaping cultural narratives and influencing individual and collective behaviors, has  significant role to play in promoting sustainable development.\n\nsustainable development is  method to satisfy needs of the people today without depriving future generations of their needs.\n\nit is an approach that balances diverse requirements against the consciousness of the enviro nmental, economic and social limitations that  society has.\n\naccording to our common future which is also known as brundtland report, sustainable development is development that meets the needs of the present without compromising the ability of future generations to meet their own needs.\n\ntodays world has grave environmental challenges like climate change, freshwater exhaustion, deforestation, air and water pollution, and hunger.\n\nnatural resources are either running out or are being polluted due to th  rapid and huge development.\n\nthere is  need to utilize the earths resources sensibly and ijfans international journal of food and nutritional sciences issn print 2319 1775 online 2320 7876 research paper 2012 ijfans.\n\nall rights reserved, ugc care listed ( group -) journal volume 11, iss 11, dec 2022 19257 preserve and conserve them for the future generations.\n\nsustainable development emphasizes the improvement of human -environment interaction through prioritization of the management and protection of the natural resources for coming generations.\n\nthrough the conservation and enhancement of our natural resources all the nations can satisfy the basic needs of employment, food, water, energy and sanitation.\n\nthe natural resources can be conserved and enhanced by promoting stable economic growth, conservation of natural resources, environmental protection, social progress and equality.\n\nfurther, sustainable development is an attitude to development.\n\nit considers various necessities against an awareness of the environmental, social and economic limitations  society faces.\n\nit propagates the social responsibility to use the natural resources wisely and sensibly so that the balance of the nature is not disturbed.\n\nto attain this, in september, 2015 the countries under the uno adopted 17 sustainable development goals.\n\nthese goals are.\n\nno poverty,.\n\nzero hunger,.\n\ngood health and  ell-being,.\n\nquality education,.\n\ngender equality,.\n\nclean water and sanitation,.\n\naffordable and clean energy,.\n\ndecent work and economic growth,.\n\nindustry innovation and infrastruc ture, 10.\n\nreduced inequalities, 11.\n\nsustainable cities and communities, 12.\n\nresponsible consumption and production, 13.\n\nclimate action, 14.\n\nlife below water, 15.\n\nlife on land, 16.\n\npeace, justice and strong institutions, and 17.\n\npartnerships for the goals.\n\nthe sustainability has the three pillars, namely, environmental sustainability, social sustainabilit, and economic sustainability which cover all the goals of sustainable development.\n\nthey are interconnected.\n\nliterature has proved to be an effective means of promotion of matters in the society.\n\nit has been used to promote all the above mentioned sustainable development goals.\n\nout of the seventeen sustainable development goals literature primarily promotes the sdgs like no poverty, zero hunger, quality ed ucation, gender equality, reduced inequalities, sustainable cities and communities, peace and justice by pointing out their actual state as prevailed in the society.\n\nthe present paper is  humble attempt to consider the contribution of literature in attain ing sustainable development.\n\ncontribution of literature in creating environmental awareness: literature is  powerful means of creating environmental awareness.\n\nit has long been used to raise awareness about environment.\n\nliterary works like rachel carson  silent spring (1962), margaret atwoods the year of the flood (2009), prabhakar pendarkars rarang dhang ( 1981 ) and dilip chitres felling of the banyan tree ( 1980 ) have highlighted the devastating impacts of human activities on the natural worl.\n\neven the contemporary english novels like vander meers annihilation (2014) and claire vaye watkins gold fame citrus (2015) continue to explore and alarm the consequences of environmental degradation.\n\nlet us see some details about felling of the banyan tree  famous poem by dilip chitre who was  respected and versatile indian artist.\n\nhe was  popular poet.\n\nhe wrote in both english and marathi.\n\nfelling of the banyan tree was first published in chitres collection of poems entitled, traveling    cage in 1980.\n\nit is  free verse poem consisting of three stanzas, wi th in all twenty five lines.\n\nit  central theme is uprootedness of modern human beings.\n\nthe secondary theme of the poem is the destruction of ecosystems for monetary gain in the name   progress and its impact on environment and human life.\n\nthe persona tells that his father asked all the tenants to vacate their houses so that the houses could be demolished."
+        },
+        {
+          "chunk_id": 1,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 2048,
+          "overlap_percentage": 0.1,
+          "start_char": 128,
+          "end_char": 6938,
+          "text_length": 6810,
+          "estimated_tokens": 1702,
+          "text": "s (2015) continue to explore and alarm the consequences of environmental degradation.\n\nlet us see some details about felling of the banyan tree  famous poem by dilip chitre who was  respected and versatile indian artist.\n\nhe was  popular poet.\n\nhe wrote in both english and marathi.\n\nfelling of the banyan tree was first published in chitres collection of poems entitled, traveling    cage in 1980.\n\nit is  free verse poem consisting of three stanzas, wi th in all twenty five lines.\n\nit  central theme is uprootedness of modern human beings.\n\nthe secondary theme of the poem is the destruction of ecosystems for monetary gain in the name   progress and its impact on environment and human life.\n\nthe persona tells that his father asked all the tenants to vacate their houses so that the houses could be demolished.\n\nthen all the houses except one in which the personas family lived were destroyed.\n\nthe personas father ord ered to fell the trees there.\n\nthen all the tre es like neem, sheoga, audumbar, and others were cut down.\n\nthe personas grandmother suggested not to fell the trees as they are sacred and felling them is  crime but the father did not listen to her and all the trees were massacred.\n\nthe word, massacre shows the beingness of trees.\n\nbut felling the enormous banyan tree was  big problem as it was thrice the size of the personas house.\n\nthe circumference of its trunk was about fi fty feet.\n\nits aerial roots were thirty feet long and they touched the ground.\n\nit was the house for multitude of insects and birds.\n\nbut the father ordered to cut the banyan tree down.\n\nijfans international journal of food and nutritional sciences issn print 2319 1775 online 2320 7876 research paper 2012 ijfans.\n\nall rights reserved, ugc care listed ( group -) journal volume 11, iss 11, dec 2022 19258 the insects and birds were disturbed.\n\nin  way the ecosystem was disturbe.\n\nit took fifty men to fell the banyan tree whose slaughter was fearsome and fascinating.\n\nsoon after that the personas family moved to bombay where there were not many trees.\n\nand the persona could see the tree in dreams only.\n\nthe poem creates environmen tal awareness.\n\nit shows the difference between the serene and satisfactory greenery of trees and the jungle of cement concrete buildings.\n\nand it points out that if the trees are cut down in this way the future generations will have to see the trees only in dreams.\n\nthe poem promotes the sustainable development from the environmental dimension.\n\ncontribution of literature in promoting social justice: literature has two goals: to entertain and to educate.\n\nin some cases literature has been the cause of social revolutions  rupted to attain social justice which is  key dimension of sustainable development.\n\nliterary works such as neale hurstons their eyes were watching god (1937) and chinua achebes things fall apart (1958) have focused the life of marginali zed communities.\n\nsimilarly, works of mulk raj anand promote social justice for the downtrodden people and communities in the indian society.\n\nhis novel untouchable (1981) presents the miserable life of the untouchable and provides the possible solutions   the problem of untouchability.\n\nthe argument for eradicating the caste system is at the centre of the novel.\n\nit presents  day in the life of  young sweeper boy, bakha whose work is to clean latrines.\n\nthe same is promoted by omprakash valmiki in his poem, what would you do?\n\n(2008).\n\nsimilarly, the recent novel, foreign (2013) by sonara jha is the projection of the plight of farmers in vidarbha, india.\n\nthe novel discusses the haplessness of the farmers, their desperation and depression, the indiffe rence of government, selfishness of moneylenders, corrupt government officers, and the farmers protest.\n\nthe novel successfully publicizes the agonies and plight of hapless farmers in india.\n\njha makes indian farmers suicides  global concern.\n\ncontributio  of literature in promoting gender equity: in the male -dominated society, woman is always victim ized.\n\nshe is brought up in such  way that she accepts that she is born to suffer and serve the man.\n\nliterature has been exploring the life of women and their miseri es to the world and promoting gender equity so as to give justice to women.\n\nfor instance, arun kolatkars portrayal of woman in his poem woman (2004) is as per the existing reality in the society.\n\nselflessness is cultivated in the woman to serve th  selfishness in the man.\n\nthis radical poem protests against the injustice, oppression, and exploitation done to the woman in the cruel and crafty male -dominated culture.\n\nsimilarly, kishor kale in his autobiography, against all odds (2000) presents the st ories of kolhati women and shows that their life is tied with ghungroos of the rich lusty men who want just to use them and throw them away like  cheap object.\n\nthe book brought  kind of reformation in the kolhati women and many of them started taking edu cation and change their hellish life.\n\nconclusion: to conclude, literature has  vital role to play in promoting sustainable development.\n\nit can raise awareness about en vironmental issues.\n\nit is an effective tool to promote social justice and gender equity.\n\nit can contribute to  more equitable and environmentally conscious world.\n\nas the world contends with the challenges of sustainability, literature can serve as  power ful tool for shaping cultural narratives and influencing individual and collective behaviours.\n\nreferences:.\n\nhttp:www.un -documents.netour -common -future.pdf.\n\nanand, mulk raj.\n\n(1981).\n\nuntouch able.\n\nnew delhi: arnold publishers..\n\natwood,.\n\n(2009).\n\nthe year of the flood.\n\ntoronto: mcclelland and stewart..\n\ncarson,.\n\n(1962).\n\nsilent spring.\n\nboston: houghton miffin.\n\nijfans international journal of food and nutritional sciences issn print 2319 1775 online 2320 7876 research paper 2012 ijfans.\n\nall rights reserved, ugc care listed ( group -) journal volume 11, iss 11, dec 2022 19259.\n\nkale, kishor.\n\n(2000).\n\nagainst all odds.\n\ntrans.\n\nby sandhya pandey from marathi autobiography (kolhatyache por).\n\nnew delhi: penguin.\n\nprint..\n\nkolatkar, arun.\n\n(2004).\n\nwoman.\n\ntwelve modern indian poets, ed...\n\nmehrotra, new delhi: oxford university press..\n\njha, sonora.(2013).\n\nfoeign.\n\nnoida: random house publishers india pvt..\n\npendhakar,.\n\n(1981).\n\nrarang dhang.\n\nmumbai: mouj prakashan gruh..\n\nvander meer,.\n\n(2014).\n\nannihilation.\n\nnew york: farrar, straus and giroux.\n\n10.\n\nwatkins,..\n\n(2015).\n\ngold fame citrus.\n\nnew york: riverhead books.\n\n11.\n\nwalmiki, omprakash.\n\n(2008).\n\nsadiaonka santap.\n\nnew delhi: goutam book centre.\n\n12.\n\n(translated by pratik kanjilal in english) 13.\n\nsathe, annabhau.\n\n(2022).\n\nfakira.\n\npune: suresh book agency.\n\n14.\n\nsathe, annabhau.\n\n(2022).\n\nwaranecha wagh.\n\npune: suresh book agency."
+        }
+      ],
+      "recursive_character": [
+        {
+          "chunk_id": 0,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 2048,
+          "overlap_percentage": 0.1,
+          "start_char": 0,
+          "end_char": 8211,
+          "text_length": 8211,
+          "estimated_tokens": 2052,
+          "text": "ijfans international journal of food and nutritional sciences issn print 2319 1775 online 2320 7876 research paper 2012 ijfans. all rights reserved, ugc care listed ( group -) journal volume 11, iss 11, dec 2022 19256 contribution of literature in sustainable development dr. uttam ramchandra patil professor head, department of english, rajarshi shahu arts commerce college, rukadi, tal. hatkanangale, dist. kolhapur (ms) india email: uttamnayanagmail.com abstract this paper is an attempt to explore the contribution of literature in promoting sustainable development. various literary works are critically analysed to examine how literature can raise awareness about environmental issues, promote social justice, gender equity and inspire individual and collective action towards sustainability. literature can be considered as the mother of all knowledge. it is made of the life experiences. it has the power to shape our perceptions, values, and behaviors. the united nati ons have framed 17 sustainable development goals (sdgs). literature can play  crucial role in attaining these goals as literature is closely related to culture. and both literature and culture are connected to sustainability. by investigating the connecti ons between literature, culture, and sustainability, this paper exhibits the potential of literature to contribute to  more equitable and environmentally conscious world. keywords: literature, sustainable development goals, environment, social justice, ge nder equity. introduction literature is  purely human phenomenon. it is  means by which human beings present their experiences, thoughts, ideas, emotions and feelings. literature is about life and the people in relation to the social, cultural, economic, political, environmental, and all the other aspects of life. it is about interpersonal as well as intrapersonal relations. it aims to entertain and educate the readers. literature educates people by making them aware about various glocal issues. the modern world has emerged with  uge rapid materialistic development which has been drastically affecting the environment al, social and economic human balance. to attain development the natural resources are being exploited to an extreme level that may damage the harmony of over -all life on the globe. that is why the uno have been putting efforts to make development sustainable. literature is the mirror of life. it presents the pressing issues of the society and tries to provide solutions to them. no doubt, literature is fictitious but it is very useful for enlightenment and awakening of people. there are plenty of literary works across all the genres that highlight the sustainable development goals and make readers aware of the serious problems which have incurred due to materialistic deve lopment. some literary works discuss the influence of development on environmental, social and economic aspects of life. sustainable development is  pressing global issue, requiring immediate attention and action. the united nations sdgs highlight the need for  holistic approach to sustainability, encompassing environmental, social, and economic dimensions. literature, as  powerful tool for shaping cultural narratives and influencing individual and collective behaviors, has  significant role to play in promoting sustainable development. sustainable development is  method to satisfy needs of the people today without depriving future generations of their needs. it is an approach that balances diverse requirements against the consciousness of the enviro nmental, economic and social limitations that  society has. according to our common future which is also known as brundtland report, sustainable development is development that meets the needs of the present without compromising the ability of future generations to meet their own needs. todays world has grave environmental challenges like climate change, freshwater exhaustion, deforestation, air and water pollution, and hunger. natural resources are either running out or are being polluted due to th  rapid and huge development. there is  need to utilize the earths resources sensibly and ijfans international journal of food and nutritional sciences issn print 2319 1775 online 2320 7876 research paper 2012 ijfans. all rights reserved, ugc care listed ( group -) journal volume 11, iss 11, dec 2022 19257 preserve and conserve them for the future generations. sustainable development emphasizes the improvement of human -environment interaction through prioritization of the management and protection of the natural resources for coming generations. through the conservation and enhancement of our natural resources all the nations can satisfy the basic needs of employment, food, water, energy and sanitation. the natural resources can be conserved and enhanced by promoting stable economic growth, conservation of natural resources, environmental protection, social progress and equality. further, sustainable development is an attitude to development. it considers various necessities against an awareness of the environmental, social and economic limitations  society faces. it propagates the social responsibility to use the natural resources wisely and sensibly so that the balance of the nature is not disturbed. to attain this, in september, 2015 the countries under the uno adopted 17 sustainable development goals. these goals are. no poverty,. zero hunger,. good health and  ell-being,. quality education,. gender equality,. clean water and sanitation,. affordable and clean energy,. decent work and economic growth,. industry innovation and infrastruc ture, 10. reduced inequalities, 11. sustainable cities and communities, 12. responsible consumption and production, 13. climate action, 14. life below water, 15. life on land, 16. peace, justice and strong institutions, and 17. partnerships for the goals. the sustainability has the three pillars, namely, environmental sustainability, social sustainabilit, and economic sustainability which cover all the goals of sustainable development. they are interconnected. literature has proved to be an effective means of promotion of matters in the society. it has been used to promote all the above mentioned sustainable development goals. out of the seventeen sustainable development goals literature primarily promotes the sdgs like no poverty, zero hunger, quality ed ucation, gender equality, reduced inequalities, sustainable cities and communities, peace and justice by pointing out their actual state as prevailed in the society. the present paper is  humble attempt to consider the contribution of literature in attain ing sustainable development. contribution of literature in creating environmental awareness: literature is  powerful means of creating environmental awareness. it has long been used to raise awareness about environment. literary works like rachel carson  silent spring (1962), margaret atwoods the year of the flood (2009), prabhakar pendarkars rarang dhang ( 1981 ) and dilip chitres felling of the banyan tree ( 1980 ) have highlighted the devastating impacts of human activities on the natural worl. even the contemporary english novels like vander meers annihilation (2014) and claire vaye watkins gold fame citrus (2015) continue to explore and alarm the consequences of environmental degradation. let us see some details about felling of the banyan tree  famous poem by dilip chitre who was  respected and versatile indian artist. he was  popular poet. he wrote in both english and marathi. felling of the banyan tree was first published in chitres collection of poems entitled, traveling    cage in 1980. it is  free verse poem consisting of three stanzas, wi th in all twenty five lines. it  central theme is uprootedness of modern human beings. the secondary theme of the poem is the destruction of ecosystems for monetary gain in the name   progress and its impact on environment and human life. the persona tells that his father asked all the tenants to vacate their houses so that the houses could be demolished. then all the houses except one in which the personas family lived were destroyed. the personas father ord ered to fell the trees there."
+        },
+        {
+          "chunk_id": 1,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 2048,
+          "overlap_percentage": 0.1,
+          "start_char": 7393,
+          "end_char": 13964,
+          "text_length": 6571,
+          "estimated_tokens": 1642,
+          "text": "f the banyan tree  famous poem by dilip chitre who was  respected and versatile indian artist. he was  popular poet. he wrote in both english and marathi. felling of the banyan tree was first published in chitres collection of poems entitled, traveling    cage in 1980. it is  free verse poem consisting of three stanzas, wi th in all twenty five lines. it  central theme is uprootedness of modern human beings. the secondary theme of the poem is the destruction of ecosystems for monetary gain in the name   progress and its impact on environment and human life. the persona tells that his father asked all the tenants to vacate their houses so that the houses could be demolished. then all the houses except one in which the personas family lived were destroyed. the personas father ord ered to fell the trees there. then all the tre es like neem, sheoga, audumbar, and others were cut down. the personas grandmother suggested not to fell the trees as they are sacred and felling them is  crime but the father did not listen to her and all the trees were massacred. the word, massacre shows the beingness of trees. but felling the enormous banyan tree was  big problem as it was thrice the size of the personas house. the circumference of its trunk was about fi fty feet. its aerial roots were thirty feet long and they touched the ground. it was the house for multitude of insects and birds. but the father ordered to cut the banyan tree down. ijfans international journal of food and nutritional sciences issn print 2319 1775 online 2320 7876 research paper 2012 ijfans. all rights reserved, ugc care listed ( group -) journal volume 11, iss 11, dec 2022 19258 the insects and birds were disturbed. in  way the ecosystem was disturbe. it took fifty men to fell the banyan tree whose slaughter was fearsome and fascinating. soon after that the personas family moved to bombay where there were not many trees. and the persona could see the tree in dreams only. the poem creates environmen tal awareness. it shows the difference between the serene and satisfactory greenery of trees and the jungle of cement concrete buildings. and it points out that if the trees are cut down in this way the future generations will have to see the trees only in dreams. the poem promotes the sustainable development from the environmental dimension. contribution of literature in promoting social justice: literature has two goals: to entertain and to educate. in some cases literature has been the cause of social revolutions  rupted to attain social justice which is  key dimension of sustainable development. literary works such as neale hurstons their eyes were watching god (1937) and chinua achebes things fall apart (1958) have focused the life of marginali zed communities. similarly, works of mulk raj anand promote social justice for the downtrodden people and communities in the indian society. his novel untouchable (1981) presents the miserable life of the untouchable and provides the possible solutions   the problem of untouchability. the argument for eradicating the caste system is at the centre of the novel. it presents  day in the life of  young sweeper boy, bakha whose work is to clean latrines. the same is promoted by omprakash valmiki in his poem, what would you do? (2008). similarly, the recent novel, foreign (2013) by sonara jha is the projection of the plight of farmers in vidarbha, india. the novel discusses the haplessness of the farmers, their desperation and depression, the indiffe rence of government, selfishness of moneylenders, corrupt government officers, and the farmers protest. the novel successfully publicizes the agonies and plight of hapless farmers in india. jha makes indian farmers suicides  global concern. contributio  of literature in promoting gender equity: in the male -dominated society, woman is always victim ized. she is brought up in such  way that she accepts that she is born to suffer and serve the man. literature has been exploring the life of women and their miseri es to the world and promoting gender equity so as to give justice to women. for instance, arun kolatkars portrayal of woman in his poem woman (2004) is as per the existing reality in the society. selflessness is cultivated in the woman to serve th  selfishness in the man. this radical poem protests against the injustice, oppression, and exploitation done to the woman in the cruel and crafty male -dominated culture. similarly, kishor kale in his autobiography, against all odds (2000) presents the st ories of kolhati women and shows that their life is tied with ghungroos of the rich lusty men who want just to use them and throw them away like  cheap object. the book brought  kind of reformation in the kolhati women and many of them started taking edu cation and change their hellish life. conclusion: to conclude, literature has  vital role to play in promoting sustainable development. it can raise awareness about en vironmental issues. it is an effective tool to promote social justice and gender equity. it can contribute to  more equitable and environmentally conscious world. as the world contends with the challenges of sustainability, literature can serve as  power ful tool for shaping cultural narratives and influencing individual and collective behaviours. references:. http:www.un -documents.netour -common -future.pdf. anand, mulk raj. (1981). untouch able. new delhi: arnold publishers.. atwood,. (2009). the year of the flood. toronto: mcclelland and stewart.. carson,. (1962). silent spring. boston: houghton miffin. ijfans international journal of food and nutritional sciences issn print 2319 1775 online 2320 7876 research paper 2012 ijfans. all rights reserved, ugc care listed ( group -) journal volume 11, iss 11, dec 2022 19259. kale, kishor. (2000). against all odds. trans. by sandhya pandey from marathi autobiography (kolhatyache por). new delhi: penguin. print.. kolatkar, arun. (2004). woman. twelve modern indian poets, ed... mehrotra, new delhi: oxford university press.. jha, sonora.(2013). foeign. noida: random house publishers india pvt.. pendhakar,. (1981). rarang dhang. mumbai: mouj prakashan gruh.. vander meer,. (2014). annihilation. new york: farrar, straus and giroux. 10. watkins,.. (2015). gold fame citrus. new york: riverhead books. 11. walmiki, omprakash. (2008). sadiaonka santap. new delhi: goutam book centre. 12. (translated by pratik kanjilal in english) 13. sathe, annabhau. (2022). fakira. pune: suresh book agency. 14. sathe, annabhau. (2022). waranecha wagh. pune: suresh book agency."
+        }
+      ]
+    },
+    "medium": {
+      "fixed_size": [
+        {
+          "chunk_id": 0,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 0,
+          "end_char": 2048,
+          "text_length": 2048,
+          "estimated_tokens": 512,
+          "text": "ijfans international journal of food and nutritional sciences issn print 2319 1775 online 2320 7876 research paper 2012 ijfans. all rights reserved, ugc care listed ( group -) journal volume 11, iss 11, dec 2022 19256 contribution of literature in sustainable development dr. uttam ramchandra patil professor head, department of english, rajarshi shahu arts commerce college, rukadi, tal. hatkanangale, dist. kolhapur (ms) india email: uttamnayanagmail.com abstract this paper is an attempt to explore the contribution of literature in promoting sustainable development. various literary works are critically analysed to examine how literature can raise awareness about environmental issues, promote social justice, gender equity and inspire individual and collective action towards sustainability. literature can be considered as the mother of all knowledge. it is made of the life experiences. it has the power to shape our perceptions, values, and behaviors. the united nati ons have framed 17 sustainable development goals (sdgs). literature can play  crucial role in attaining these goals as literature is closely related to culture. and both literature and culture are connected to sustainability. by investigating the connecti ons between literature, culture, and sustainability, this paper exhibits the potential of literature to contribute to  more equitable and environmentally conscious world. keywords: literature, sustainable development goals, environment, social justice, ge nder equity. introduction literature is  purely human phenomenon. it is  means by which human beings present their experiences, thoughts, ideas, emotions and feelings. literature is about life and the people in relation to the social, cultural, economic, political, environmental, and all the other aspects of life. it is about interpersonal as well as intrapersonal relations. it aims to entertain and educate the readers. literature educates people by making them aware about various glocal issues. the modern world has emerged with  uge rapid materialisti"
+        },
+        {
+          "chunk_id": 1,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 1741,
+          "end_char": 3789,
+          "text_length": 2048,
+          "estimated_tokens": 512,
+          "text": "ic, political, environmental, and all the other aspects of life. it is about interpersonal as well as intrapersonal relations. it aims to entertain and educate the readers. literature educates people by making them aware about various glocal issues. the modern world has emerged with  uge rapid materialistic development which has been drastically affecting the environment al, social and economic human balance. to attain development the natural resources are being exploited to an extreme level that may damage the harmony of over -all life on the globe. that is why the uno have been putting efforts to make development sustainable. literature is the mirror of life. it presents the pressing issues of the society and tries to provide solutions to them. no doubt, literature is fictitious but it is very useful for enlightenment and awakening of people. there are plenty of literary works across all the genres that highlight the sustainable development goals and make readers aware of the serious problems which have incurred due to materialistic deve lopment. some literary works discuss the influence of development on environmental, social and economic aspects of life. sustainable development is  pressing global issue, requiring immediate attention and action. the united nations sdgs highlight the need for  holistic approach to sustainability, encompassing environmental, social, and economic dimensions. literature, as  powerful tool for shaping cultural narratives and influencing individual and collective behaviors, has  significant role to play in promoting sustainable development. sustainable development is  method to satisfy needs of the people today without depriving future generations of their needs. it is an approach that balances diverse requirements against the consciousness of the enviro nmental, economic and social limitations that  society has. according to our common future which is also known as brundtland report, sustainable development is development that meets the needs of the present without compromising th"
+        },
+        {
+          "chunk_id": 2,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 3482,
+          "end_char": 5530,
+          "text_length": 2046,
+          "estimated_tokens": 511,
+          "text": "that balances diverse requirements against the consciousness of the enviro nmental, economic and social limitations that  society has. according to our common future which is also known as brundtland report, sustainable development is development that meets the needs of the present without compromising the ability of future generations to meet their own needs. todays world has grave environmental challenges like climate change, freshwater exhaustion, deforestation, air and water pollution, and hunger. natural resources are either running out or are being polluted due to th  rapid and huge development. there is  need to utilize the earths resources sensibly and ijfans international journal of food and nutritional sciences issn print 2319 1775 online 2320 7876 research paper 2012 ijfans. all rights reserved, ugc care listed ( group -) journal volume 11, iss 11, dec 2022 19257 preserve and conserve them for the future generations. sustainable development emphasizes the improvement of human -environment interaction through prioritization of the management and protection of the natural resources for coming generations. through the conservation and enhancement of our natural resources all the nations can satisfy the basic needs of employment, food, water, energy and sanitation. the natural resources can be conserved and enhanced by promoting stable economic growth, conservation of natural resources, environmental protection, social progress and equality. further, sustainable development is an attitude to development. it considers various necessities against an awareness of the environmental, social and economic limitations  society faces. it propagates the social responsibility to use the natural resources wisely and sensibly so that the balance of the nature is not disturbed. to attain this, in september, 2015 the countries under the uno adopted 17 sustainable development goals. these goals are. no poverty,. zero hunger,. good health and  ell-being,. quality education,. gender equality,. clean water and sanitation,."
+        },
+        {
+          "chunk_id": 3,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 5223,
+          "end_char": 7271,
+          "text_length": 2047,
+          "estimated_tokens": 511,
+          "text": "sensibly so that the balance of the nature is not disturbed. to attain this, in september, 2015 the countries under the uno adopted 17 sustainable development goals. these goals are. no poverty,. zero hunger,. good health and  ell-being,. quality education,. gender equality,. clean water and sanitation,. affordable and clean energy,. decent work and economic growth,. industry innovation and infrastruc ture, 10. reduced inequalities, 11. sustainable cities and communities, 12. responsible consumption and production, 13. climate action, 14. life below water, 15. life on land, 16. peace, justice and strong institutions, and 17. partnerships for the goals. the sustainability has the three pillars, namely, environmental sustainability, social sustainabilit, and economic sustainability which cover all the goals of sustainable development. they are interconnected. literature has proved to be an effective means of promotion of matters in the society. it has been used to promote all the above mentioned sustainable development goals. out of the seventeen sustainable development goals literature primarily promotes the sdgs like no poverty, zero hunger, quality ed ucation, gender equality, reduced inequalities, sustainable cities and communities, peace and justice by pointing out their actual state as prevailed in the society. the present paper is  humble attempt to consider the contribution of literature in attain ing sustainable development. contribution of literature in creating environmental awareness: literature is  powerful means of creating environmental awareness. it has long been used to raise awareness about environment. literary works like rachel carson  silent spring (1962), margaret atwoods the year of the flood (2009), prabhakar pendarkars rarang dhang ( 1981 ) and dilip chitres felling of the banyan tree ( 1980 ) have highlighted the devastating impacts of human activities on the natural worl. even the contemporary english novels like vander meers annihilation (2014) and claire vaye watkins gold fame citrus ("
+        },
+        {
+          "chunk_id": 4,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 6964,
+          "end_char": 9012,
+          "text_length": 2048,
+          "estimated_tokens": 512,
+          "text": "od (2009), prabhakar pendarkars rarang dhang ( 1981 ) and dilip chitres felling of the banyan tree ( 1980 ) have highlighted the devastating impacts of human activities on the natural worl. even the contemporary english novels like vander meers annihilation (2014) and claire vaye watkins gold fame citrus (2015) continue to explore and alarm the consequences of environmental degradation. let us see some details about felling of the banyan tree  famous poem by dilip chitre who was  respected and versatile indian artist. he was  popular poet. he wrote in both english and marathi. felling of the banyan tree was first published in chitres collection of poems entitled, traveling    cage in 1980. it is  free verse poem consisting of three stanzas, wi th in all twenty five lines. it  central theme is uprootedness of modern human beings. the secondary theme of the poem is the destruction of ecosystems for monetary gain in the name   progress and its impact on environment and human life. the persona tells that his father asked all the tenants to vacate their houses so that the houses could be demolished. then all the houses except one in which the personas family lived were destroyed. the personas father ord ered to fell the trees there. then all the tre es like neem, sheoga, audumbar, and others were cut down. the personas grandmother suggested not to fell the trees as they are sacred and felling them is  crime but the father did not listen to her and all the trees were massacred. the word, massacre shows the beingness of trees. but felling the enormous banyan tree was  big problem as it was thrice the size of the personas house. the circumference of its trunk was about fi fty feet. its aerial roots were thirty feet long and they touched the ground. it was the house for multitude of insects and birds. but the father ordered to cut the banyan tree down. ijfans international journal of food and nutritional sciences issn print 2319 1775 online 2320 7876 research paper 2012 ijfans. all rights reserved, ugc care listed ( group"
+        },
+        {
+          "chunk_id": 5,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 8705,
+          "end_char": 10753,
+          "text_length": 2047,
+          "estimated_tokens": 511,
+          "text": "and they touched the ground. it was the house for multitude of insects and birds. but the father ordered to cut the banyan tree down. ijfans international journal of food and nutritional sciences issn print 2319 1775 online 2320 7876 research paper 2012 ijfans. all rights reserved, ugc care listed ( group -) journal volume 11, iss 11, dec 2022 19258 the insects and birds were disturbed. in  way the ecosystem was disturbe. it took fifty men to fell the banyan tree whose slaughter was fearsome and fascinating. soon after that the personas family moved to bombay where there were not many trees. and the persona could see the tree in dreams only. the poem creates environmen tal awareness. it shows the difference between the serene and satisfactory greenery of trees and the jungle of cement concrete buildings. and it points out that if the trees are cut down in this way the future generations will have to see the trees only in dreams. the poem promotes the sustainable development from the environmental dimension. contribution of literature in promoting social justice: literature has two goals: to entertain and to educate. in some cases literature has been the cause of social revolutions  rupted to attain social justice which is  key dimension of sustainable development. literary works such as neale hurstons their eyes were watching god (1937) and chinua achebes things fall apart (1958) have focused the life of marginali zed communities. similarly, works of mulk raj anand promote social justice for the downtrodden people and communities in the indian society. his novel untouchable (1981) presents the miserable life of the untouchable and provides the possible solutions   the problem of untouchability. the argument for eradicating the caste system is at the centre of the novel. it presents  day in the life of  young sweeper boy, bakha whose work is to clean latrines. the same is promoted by omprakash valmiki in his poem, what would you do? (2008). similarly, the recent novel, foreign (2013) by sonara jha is the projecti"
+        },
+        {
+          "chunk_id": 6,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 10446,
+          "end_char": 12494,
+          "text_length": 2047,
+          "estimated_tokens": 511,
+          "text": "eradicating the caste system is at the centre of the novel. it presents  day in the life of  young sweeper boy, bakha whose work is to clean latrines. the same is promoted by omprakash valmiki in his poem, what would you do? (2008). similarly, the recent novel, foreign (2013) by sonara jha is the projection of the plight of farmers in vidarbha, india. the novel discusses the haplessness of the farmers, their desperation and depression, the indiffe rence of government, selfishness of moneylenders, corrupt government officers, and the farmers protest. the novel successfully publicizes the agonies and plight of hapless farmers in india. jha makes indian farmers suicides  global concern. contributio  of literature in promoting gender equity: in the male -dominated society, woman is always victim ized. she is brought up in such  way that she accepts that she is born to suffer and serve the man. literature has been exploring the life of women and their miseri es to the world and promoting gender equity so as to give justice to women. for instance, arun kolatkars portrayal of woman in his poem woman (2004) is as per the existing reality in the society. selflessness is cultivated in the woman to serve th  selfishness in the man. this radical poem protests against the injustice, oppression, and exploitation done to the woman in the cruel and crafty male -dominated culture. similarly, kishor kale in his autobiography, against all odds (2000) presents the st ories of kolhati women and shows that their life is tied with ghungroos of the rich lusty men who want just to use them and throw them away like  cheap object. the book brought  kind of reformation in the kolhati women and many of them started taking edu cation and change their hellish life. conclusion: to conclude, literature has  vital role to play in promoting sustainable development. it can raise awareness about en vironmental issues. it is an effective tool to promote social justice and gender equity. it can contribute to  more equitable and environmentally consci"
+        },
+        {
+          "chunk_id": 7,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 12187,
+          "end_char": 13964,
+          "text_length": 1777,
+          "estimated_tokens": 444,
+          "text": "ange their hellish life. conclusion: to conclude, literature has  vital role to play in promoting sustainable development. it can raise awareness about en vironmental issues. it is an effective tool to promote social justice and gender equity. it can contribute to  more equitable and environmentally conscious world. as the world contends with the challenges of sustainability, literature can serve as  power ful tool for shaping cultural narratives and influencing individual and collective behaviours. references:. http:www.un -documents.netour -common -future.pdf. anand, mulk raj. (1981). untouch able. new delhi: arnold publishers.. atwood,. (2009). the year of the flood. toronto: mcclelland and stewart.. carson,. (1962). silent spring. boston: houghton miffin. ijfans international journal of food and nutritional sciences issn print 2319 1775 online 2320 7876 research paper 2012 ijfans. all rights reserved, ugc care listed ( group -) journal volume 11, iss 11, dec 2022 19259. kale, kishor. (2000). against all odds. trans. by sandhya pandey from marathi autobiography (kolhatyache por). new delhi: penguin. print.. kolatkar, arun. (2004). woman. twelve modern indian poets, ed... mehrotra, new delhi: oxford university press.. jha, sonora.(2013). foeign. noida: random house publishers india pvt.. pendhakar,. (1981). rarang dhang. mumbai: mouj prakashan gruh.. vander meer,. (2014). annihilation. new york: farrar, straus and giroux. 10. watkins,.. (2015). gold fame citrus. new york: riverhead books. 11. walmiki, omprakash. (2008). sadiaonka santap. new delhi: goutam book centre. 12. (translated by pratik kanjilal in english) 13. sathe, annabhau. (2022). fakira. pune: suresh book agency. 14. sathe, annabhau. (2022). waranecha wagh. pune: suresh book agency."
+        },
+        {
+          "chunk_id": 8,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 13928,
+          "end_char": 13964,
+          "text_length": 36,
+          "estimated_tokens": 9,
+          "text": "echa wagh. pune: suresh book agency."
+        }
+      ],
+      "content_aware": [
+        {
+          "chunk_id": 0,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 128,
+          "end_char": 2137,
+          "text_length": 2009,
+          "estimated_tokens": 502,
+          "text": "ijfans international journal of food and nutritional sciences issn print 2319 1775 online 2320 7876 research paper 2012 ijfans.\n\nall rights reserved, ugc care listed ( group -) journal volume 11, iss 11, dec 2022 19256 contribution of literature in sustainable development dr.\n\nuttam ramchandra patil professor head, department of english, rajarshi shahu arts commerce college, rukadi, tal.\n\nhatkanangale, dist.\n\nkolhapur (ms) india email: uttamnayanagmail.com abstract this paper is an attempt to explore the contribution of literature in promoting sustainable development.\n\nvarious literary works are critically analysed to examine how literature can raise awareness about environmental issues, promote social justice, gender equity and inspire individual and collective action towards sustainability.\n\nliterature can be considered as the mother of all knowledge.\n\nit is made of the life experiences.\n\nit has the power to shape our perceptions, values, and behaviors.\n\nthe united nati ons have framed 17 sustainable development goals (sdgs).\n\nliterature can play  crucial role in attaining these goals as literature is closely related to culture.\n\nand both literature and culture are connected to sustainability.\n\nby investigating the connecti ons between literature, culture, and sustainability, this paper exhibits the potential of literature to contribute to  more equitable and environmentally conscious world.\n\nkeywords: literature, sustainable development goals, environment, social justice, ge nder equity.\n\nintroduction literature is  purely human phenomenon.\n\nit is  means by which human beings present their experiences, thoughts, ideas, emotions and feelings.\n\nliterature is about life and the people in relation to the social, cultural, economic, political, environmental, and all the other aspects of life.\n\nit is about interpersonal as well as intrapersonal relations.\n\nit aims to entertain and educate the readers.\n\nliterature educates people by making them aware about various glocal issues."
+        },
+        {
+          "chunk_id": 1,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 128,
+          "end_char": 2069,
+          "text_length": 1941,
+          "estimated_tokens": 485,
+          "text": "eople in relation to the social, cultural, economic, political, environmental, and all the other aspects of life.\n\nit is about interpersonal as well as intrapersonal relations.\n\nit aims to entertain and educate the readers.\n\nliterature educates people by making them aware about various glocal issues.\n\nthe modern world has emerged with  uge rapid materialistic development which has been drastically affecting the environment al, social and economic human balance.\n\nto attain development the natural resources are being exploited to an extreme level that may damage the harmony of over -all life on the globe.\n\nthat is why the uno have been putting efforts to make development sustainable.\n\nliterature is the mirror of life.\n\nit presents the pressing issues of the society and tries to provide solutions to them.\n\nno doubt, literature is fictitious but it is very useful for enlightenment and awakening of people.\n\nthere are plenty of literary works across all the genres that highlight the sustainable development goals and make readers aware of the serious problems which have incurred due to materialistic deve lopment.\n\nsome literary works discuss the influence of development on environmental, social and economic aspects of life.\n\nsustainable development is  pressing global issue, requiring immediate attention and action.\n\nthe united nations sdgs highlight the need for  holistic approach to sustainability, encompassing environmental, social, and economic dimensions.\n\nliterature, as  powerful tool for shaping cultural narratives and influencing individual and collective behaviors, has  significant role to play in promoting sustainable development.\n\nsustainable development is  method to satisfy needs of the people today without depriving future generations of their needs.\n\nit is an approach that balances diverse requirements against the consciousness of the enviro nmental, economic and social limitations that  society has."
+        },
+        {
+          "chunk_id": 2,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 128,
+          "end_char": 2097,
+          "text_length": 1969,
+          "estimated_tokens": 492,
+          "text": "evelopment.\n\nsustainable development is  method to satisfy needs of the people today without depriving future generations of their needs.\n\nit is an approach that balances diverse requirements against the consciousness of the enviro nmental, economic and social limitations that  society has.\n\naccording to our common future which is also known as brundtland report, sustainable development is development that meets the needs of the present without compromising the ability of future generations to meet their own needs.\n\ntodays world has grave environmental challenges like climate change, freshwater exhaustion, deforestation, air and water pollution, and hunger.\n\nnatural resources are either running out or are being polluted due to th  rapid and huge development.\n\nthere is  need to utilize the earths resources sensibly and ijfans international journal of food and nutritional sciences issn print 2319 1775 online 2320 7876 research paper 2012 ijfans.\n\nall rights reserved, ugc care listed ( group -) journal volume 11, iss 11, dec 2022 19257 preserve and conserve them for the future generations.\n\nsustainable development emphasizes the improvement of human -environment interaction through prioritization of the management and protection of the natural resources for coming generations.\n\nthrough the conservation and enhancement of our natural resources all the nations can satisfy the basic needs of employment, food, water, energy and sanitation.\n\nthe natural resources can be conserved and enhanced by promoting stable economic growth, conservation of natural resources, environmental protection, social progress and equality.\n\nfurther, sustainable development is an attitude to development.\n\nit considers various necessities against an awareness of the environmental, social and economic limitations  society faces.\n\nit propagates the social responsibility to use the natural resources wisely and sensibly so that the balance of the nature is not disturbed."
+        },
+        {
+          "chunk_id": 3,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 128,
+          "end_char": 2035,
+          "text_length": 1907,
+          "estimated_tokens": 476,
+          "text": "an attitude to development.\n\nit considers various necessities against an awareness of the environmental, social and economic limitations  society faces.\n\nit propagates the social responsibility to use the natural resources wisely and sensibly so that the balance of the nature is not disturbed.\n\nto attain this, in september, 2015 the countries under the uno adopted 17 sustainable development goals.\n\nthese goals are.\n\nno poverty,.\n\nzero hunger,.\n\ngood health and  ell-being,.\n\nquality education,.\n\ngender equality,.\n\nclean water and sanitation,.\n\naffordable and clean energy,.\n\ndecent work and economic growth,.\n\nindustry innovation and infrastruc ture, 10.\n\nreduced inequalities, 11.\n\nsustainable cities and communities, 12.\n\nresponsible consumption and production, 13.\n\nclimate action, 14.\n\nlife below water, 15.\n\nlife on land, 16.\n\npeace, justice and strong institutions, and 17.\n\npartnerships for the goals.\n\nthe sustainability has the three pillars, namely, environmental sustainability, social sustainabilit, and economic sustainability which cover all the goals of sustainable development.\n\nthey are interconnected.\n\nliterature has proved to be an effective means of promotion of matters in the society.\n\nit has been used to promote all the above mentioned sustainable development goals.\n\nout of the seventeen sustainable development goals literature primarily promotes the sdgs like no poverty, zero hunger, quality ed ucation, gender equality, reduced inequalities, sustainable cities and communities, peace and justice by pointing out their actual state as prevailed in the society.\n\nthe present paper is  humble attempt to consider the contribution of literature in attain ing sustainable development.\n\ncontribution of literature in creating environmental awareness: literature is  powerful means of creating environmental awareness.\n\nit has long been used to raise awareness about environment."
+        },
+        {
+          "chunk_id": 4,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 128,
+          "end_char": 2172,
+          "text_length": 2044,
+          "estimated_tokens": 511,
+          "text": "ble attempt to consider the contribution of literature in attain ing sustainable development.\n\ncontribution of literature in creating environmental awareness: literature is  powerful means of creating environmental awareness.\n\nit has long been used to raise awareness about environment.\n\nliterary works like rachel carson  silent spring (1962), margaret atwoods the year of the flood (2009), prabhakar pendarkars rarang dhang ( 1981 ) and dilip chitres felling of the banyan tree ( 1980 ) have highlighted the devastating impacts of human activities on the natural worl.\n\neven the contemporary english novels like vander meers annihilation (2014) and claire vaye watkins gold fame citrus (2015) continue to explore and alarm the consequences of environmental degradation.\n\nlet us see some details about felling of the banyan tree  famous poem by dilip chitre who was  respected and versatile indian artist.\n\nhe was  popular poet.\n\nhe wrote in both english and marathi.\n\nfelling of the banyan tree was first published in chitres collection of poems entitled, traveling    cage in 1980.\n\nit is  free verse poem consisting of three stanzas, wi th in all twenty five lines.\n\nit  central theme is uprootedness of modern human beings.\n\nthe secondary theme of the poem is the destruction of ecosystems for monetary gain in the name   progress and its impact on environment and human life.\n\nthe persona tells that his father asked all the tenants to vacate their houses so that the houses could be demolished.\n\nthen all the houses except one in which the personas family lived were destroyed.\n\nthe personas father ord ered to fell the trees there.\n\nthen all the tre es like neem, sheoga, audumbar, and others were cut down.\n\nthe personas grandmother suggested not to fell the trees as they are sacred and felling them is  crime but the father did not listen to her and all the trees were massacred.\n\nthe word, massacre shows the beingness of trees.\n\nbut felling the enormous banyan tree was  big problem as it was thrice the size of the personas house."
+        },
+        {
+          "chunk_id": 5,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 128,
+          "end_char": 2124,
+          "text_length": 1996,
+          "estimated_tokens": 499,
+          "text": "her suggested not to fell the trees as they are sacred and felling them is  crime but the father did not listen to her and all the trees were massacred.\n\nthe word, massacre shows the beingness of trees.\n\nbut felling the enormous banyan tree was  big problem as it was thrice the size of the personas house.\n\nthe circumference of its trunk was about fi fty feet.\n\nits aerial roots were thirty feet long and they touched the ground.\n\nit was the house for multitude of insects and birds.\n\nbut the father ordered to cut the banyan tree down.\n\nijfans international journal of food and nutritional sciences issn print 2319 1775 online 2320 7876 research paper 2012 ijfans.\n\nall rights reserved, ugc care listed ( group -) journal volume 11, iss 11, dec 2022 19258 the insects and birds were disturbed.\n\nin  way the ecosystem was disturbe.\n\nit took fifty men to fell the banyan tree whose slaughter was fearsome and fascinating.\n\nsoon after that the personas family moved to bombay where there were not many trees.\n\nand the persona could see the tree in dreams only.\n\nthe poem creates environmen tal awareness.\n\nit shows the difference between the serene and satisfactory greenery of trees and the jungle of cement concrete buildings.\n\nand it points out that if the trees are cut down in this way the future generations will have to see the trees only in dreams.\n\nthe poem promotes the sustainable development from the environmental dimension.\n\ncontribution of literature in promoting social justice: literature has two goals: to entertain and to educate.\n\nin some cases literature has been the cause of social revolutions  rupted to attain social justice which is  key dimension of sustainable development.\n\nliterary works such as neale hurstons their eyes were watching god (1937) and chinua achebes things fall apart (1958) have focused the life of marginali zed communities.\n\nsimilarly, works of mulk raj anand promote social justice for the downtrodden people and communities in the indian society."
+        },
+        {
+          "chunk_id": 6,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 128,
+          "end_char": 1991,
+          "text_length": 1863,
+          "estimated_tokens": 465,
+          "text": "nt.\n\nliterary works such as neale hurstons their eyes were watching god (1937) and chinua achebes things fall apart (1958) have focused the life of marginali zed communities.\n\nsimilarly, works of mulk raj anand promote social justice for the downtrodden people and communities in the indian society.\n\nhis novel untouchable (1981) presents the miserable life of the untouchable and provides the possible solutions   the problem of untouchability.\n\nthe argument for eradicating the caste system is at the centre of the novel.\n\nit presents  day in the life of  young sweeper boy, bakha whose work is to clean latrines.\n\nthe same is promoted by omprakash valmiki in his poem, what would you do?\n\n(2008).\n\nsimilarly, the recent novel, foreign (2013) by sonara jha is the projection of the plight of farmers in vidarbha, india.\n\nthe novel discusses the haplessness of the farmers, their desperation and depression, the indiffe rence of government, selfishness of moneylenders, corrupt government officers, and the farmers protest.\n\nthe novel successfully publicizes the agonies and plight of hapless farmers in india.\n\njha makes indian farmers suicides  global concern.\n\ncontributio  of literature in promoting gender equity: in the male -dominated society, woman is always victim ized.\n\nshe is brought up in such  way that she accepts that she is born to suffer and serve the man.\n\nliterature has been exploring the life of women and their miseri es to the world and promoting gender equity so as to give justice to women.\n\nfor instance, arun kolatkars portrayal of woman in his poem woman (2004) is as per the existing reality in the society.\n\nselflessness is cultivated in the woman to serve th  selfishness in the man.\n\nthis radical poem protests against the injustice, oppression, and exploitation done to the woman in the cruel and crafty male -dominated culture."
+        },
+        {
+          "chunk_id": 7,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 128,
+          "end_char": 2176,
+          "text_length": 2048,
+          "estimated_tokens": 512,
+          "text": "(2004) is as per the existing reality in the society.\n\nselflessness is cultivated in the woman to serve th  selfishness in the man.\n\nthis radical poem protests against the injustice, oppression, and exploitation done to the woman in the cruel and crafty male -dominated culture.\n\nsimilarly, kishor kale in his autobiography, against all odds (2000) presents the st ories of kolhati women and shows that their life is tied with ghungroos of the rich lusty men who want just to use them and throw them away like  cheap object.\n\nthe book brought  kind of reformation in the kolhati women and many of them started taking edu cation and change their hellish life.\n\nconclusion: to conclude, literature has  vital role to play in promoting sustainable development.\n\nit can raise awareness about en vironmental issues.\n\nit is an effective tool to promote social justice and gender equity.\n\nit can contribute to  more equitable and environmentally conscious world.\n\nas the world contends with the challenges of sustainability, literature can serve as  power ful tool for shaping cultural narratives and influencing individual and collective behaviours.\n\nreferences:.\n\nhttp:www.un -documents.netour -common -future.pdf.\n\nanand, mulk raj.\n\n(1981).\n\nuntouch able.\n\nnew delhi: arnold publishers..\n\natwood,.\n\n(2009).\n\nthe year of the flood.\n\ntoronto: mcclelland and stewart..\n\ncarson,.\n\n(1962).\n\nsilent spring.\n\nboston: houghton miffin.\n\nijfans international journal of food and nutritional sciences issn print 2319 1775 online 2320 7876 research paper 2012 ijfans.\n\nall rights reserved, ugc care listed ( group -) journal volume 11, iss 11, dec 2022 19259.\n\nkale, kishor.\n\n(2000).\n\nagainst all odds.\n\ntrans.\n\nby sandhya pandey from marathi autobiography (kolhatyache por).\n\nnew delhi: penguin.\n\nprint..\n\nkolatkar, arun.\n\n(2004).\n\nwoman.\n\ntwelve modern indian poets, ed...\n\nmehrotra, new delhi: oxford university press..\n\njha, sonora.(2013).\n\nfoeign.\n\nnoida: random house publishers india pvt..\n\npendhakar,.\n\n(1981).\n\nrarang dhang.\n\nmumbai: mouj prakashan gruh.."
+        },
+        {
+          "chunk_id": 8,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 128,
+          "end_char": 863,
+          "text_length": 735,
+          "estimated_tokens": 183,
+          "text": "(kolhatyache por).\n\nnew delhi: penguin.\n\nprint..\n\nkolatkar, arun.\n\n(2004).\n\nwoman.\n\ntwelve modern indian poets, ed...\n\nmehrotra, new delhi: oxford university press..\n\njha, sonora.(2013).\n\nfoeign.\n\nnoida: random house publishers india pvt..\n\npendhakar,.\n\n(1981).\n\nrarang dhang.\n\nmumbai: mouj prakashan gruh..\n\nvander meer,.\n\n(2014).\n\nannihilation.\n\nnew york: farrar, straus and giroux.\n\n10.\n\nwatkins,..\n\n(2015).\n\ngold fame citrus.\n\nnew york: riverhead books.\n\n11.\n\nwalmiki, omprakash.\n\n(2008).\n\nsadiaonka santap.\n\nnew delhi: goutam book centre.\n\n12.\n\n(translated by pratik kanjilal in english) 13.\n\nsathe, annabhau.\n\n(2022).\n\nfakira.\n\npune: suresh book agency.\n\n14.\n\nsathe, annabhau.\n\n(2022).\n\nwaranecha wagh.\n\npune: suresh book agency."
+        }
+      ],
+      "recursive_character": [
+        {
+          "chunk_id": 0,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 0,
+          "end_char": 1990,
+          "text_length": 1990,
+          "estimated_tokens": 497,
+          "text": "ijfans international journal of food and nutritional sciences issn print 2319 1775 online 2320 7876 research paper 2012 ijfans. all rights reserved, ugc care listed ( group -) journal volume 11, iss 11, dec 2022 19256 contribution of literature in sustainable development dr. uttam ramchandra patil professor head, department of english, rajarshi shahu arts commerce college, rukadi, tal. hatkanangale, dist. kolhapur (ms) india email: uttamnayanagmail.com abstract this paper is an attempt to explore the contribution of literature in promoting sustainable development. various literary works are critically analysed to examine how literature can raise awareness about environmental issues, promote social justice, gender equity and inspire individual and collective action towards sustainability. literature can be considered as the mother of all knowledge. it is made of the life experiences. it has the power to shape our perceptions, values, and behaviors. the united nati ons have framed 17 sustainable development goals (sdgs). literature can play  crucial role in attaining these goals as literature is closely related to culture. and both literature and culture are connected to sustainability. by investigating the connecti ons between literature, culture, and sustainability, this paper exhibits the potential of literature to contribute to  more equitable and environmentally conscious world. keywords: literature, sustainable development goals, environment, social justice, ge nder equity. introduction literature is  purely human phenomenon. it is  means by which human beings present their experiences, thoughts, ideas, emotions and feelings. literature is about life and the people in relation to the social, cultural, economic, political, environmental, and all the other aspects of life. it is about interpersonal as well as intrapersonal relations. it aims to entertain and educate the readers. literature educates people by making them aware about various glocal issues."
+        },
+        {
+          "chunk_id": 1,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 1684,
+          "end_char": 3617,
+          "text_length": 1933,
+          "estimated_tokens": 483,
+          "text": "nd the people in relation to the social, cultural, economic, political, environmental, and all the other aspects of life. it is about interpersonal as well as intrapersonal relations. it aims to entertain and educate the readers. literature educates people by making them aware about various glocal issues. the modern world has emerged with  uge rapid materialistic development which has been drastically affecting the environment al, social and economic human balance. to attain development the natural resources are being exploited to an extreme level that may damage the harmony of over -all life on the globe. that is why the uno have been putting efforts to make development sustainable. literature is the mirror of life. it presents the pressing issues of the society and tries to provide solutions to them. no doubt, literature is fictitious but it is very useful for enlightenment and awakening of people. there are plenty of literary works across all the genres that highlight the sustainable development goals and make readers aware of the serious problems which have incurred due to materialistic deve lopment. some literary works discuss the influence of development on environmental, social and economic aspects of life. sustainable development is  pressing global issue, requiring immediate attention and action. the united nations sdgs highlight the need for  holistic approach to sustainability, encompassing environmental, social, and economic dimensions. literature, as  powerful tool for shaping cultural narratives and influencing individual and collective behaviors, has  significant role to play in promoting sustainable development. sustainable development is  method to satisfy needs of the people today without depriving future generations of their needs. it is an approach that balances diverse requirements against the consciousness of the enviro nmental, economic and social limitations that  society has."
+        },
+        {
+          "chunk_id": 2,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 3311,
+          "end_char": 5389,
+          "text_length": 2078,
+          "estimated_tokens": 519,
+          "text": "ing sustainable development. sustainable development is  method to satisfy needs of the people today without depriving future generations of their needs. it is an approach that balances diverse requirements against the consciousness of the enviro nmental, economic and social limitations that  society has. according to our common future which is also known as brundtland report, sustainable development is development that meets the needs of the present without compromising the ability of future generations to meet their own needs. todays world has grave environmental challenges like climate change, freshwater exhaustion, deforestation, air and water pollution, and hunger. natural resources are either running out or are being polluted due to th  rapid and huge development. there is  need to utilize the earths resources sensibly and ijfans international journal of food and nutritional sciences issn print 2319 1775 online 2320 7876 research paper 2012 ijfans. all rights reserved, ugc care listed ( group -) journal volume 11, iss 11, dec 2022 19257 preserve and conserve them for the future generations. sustainable development emphasizes the improvement of human -environment interaction through prioritization of the management and protection of the natural resources for coming generations. through the conservation and enhancement of our natural resources all the nations can satisfy the basic needs of employment, food, water, energy and sanitation. the natural resources can be conserved and enhanced by promoting stable economic growth, conservation of natural resources, environmental protection, social progress and equality. further, sustainable development is an attitude to development. it considers various necessities against an awareness of the environmental, social and economic limitations  society faces. it propagates the social responsibility to use the natural resources wisely and sensibly so that the balance of the nature is not disturbed. to attain this, in september, 2015 the countries under the uno adopted 17 sustainable development goals."
+        },
+        {
+          "chunk_id": 3,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 5083,
+          "end_char": 7153,
+          "text_length": 2070,
+          "estimated_tokens": 517,
+          "text": "vironmental, social and economic limitations  society faces. it propagates the social responsibility to use the natural resources wisely and sensibly so that the balance of the nature is not disturbed. to attain this, in september, 2015 the countries under the uno adopted 17 sustainable development goals. these goals are. no poverty,. zero hunger,. good health and  ell-being,. quality education,. gender equality,. clean water and sanitation,. affordable and clean energy,. decent work and economic growth,. industry innovation and infrastruc ture, 10. reduced inequalities, 11. sustainable cities and communities, 12. responsible consumption and production, 13. climate action, 14. life below water, 15. life on land, 16. peace, justice and strong institutions, and 17. partnerships for the goals. the sustainability has the three pillars, namely, environmental sustainability, social sustainabilit, and economic sustainability which cover all the goals of sustainable development. they are interconnected. literature has proved to be an effective means of promotion of matters in the society. it has been used to promote all the above mentioned sustainable development goals. out of the seventeen sustainable development goals literature primarily promotes the sdgs like no poverty, zero hunger, quality ed ucation, gender equality, reduced inequalities, sustainable cities and communities, peace and justice by pointing out their actual state as prevailed in the society. the present paper is  humble attempt to consider the contribution of literature in attain ing sustainable development. contribution of literature in creating environmental awareness: literature is  powerful means of creating environmental awareness. it has long been used to raise awareness about environment. literary works like rachel carson  silent spring (1962), margaret atwoods the year of the flood (2009), prabhakar pendarkars rarang dhang ( 1981 ) and dilip chitres felling of the banyan tree ( 1980 ) have highlighted the devastating impacts of human activities on the natural worl."
+        },
+        {
+          "chunk_id": 4,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 6847,
+          "end_char": 8839,
+          "text_length": 1992,
+          "estimated_tokens": 498,
+          "text": "ness about environment. literary works like rachel carson  silent spring (1962), margaret atwoods the year of the flood (2009), prabhakar pendarkars rarang dhang ( 1981 ) and dilip chitres felling of the banyan tree ( 1980 ) have highlighted the devastating impacts of human activities on the natural worl. even the contemporary english novels like vander meers annihilation (2014) and claire vaye watkins gold fame citrus (2015) continue to explore and alarm the consequences of environmental degradation. let us see some details about felling of the banyan tree  famous poem by dilip chitre who was  respected and versatile indian artist. he was  popular poet. he wrote in both english and marathi. felling of the banyan tree was first published in chitres collection of poems entitled, traveling    cage in 1980. it is  free verse poem consisting of three stanzas, wi th in all twenty five lines. it  central theme is uprootedness of modern human beings. the secondary theme of the poem is the destruction of ecosystems for monetary gain in the name   progress and its impact on environment and human life. the persona tells that his father asked all the tenants to vacate their houses so that the houses could be demolished. then all the houses except one in which the personas family lived were destroyed. the personas father ord ered to fell the trees there. then all the tre es like neem, sheoga, audumbar, and others were cut down. the personas grandmother suggested not to fell the trees as they are sacred and felling them is  crime but the father did not listen to her and all the trees were massacred. the word, massacre shows the beingness of trees. but felling the enormous banyan tree was  big problem as it was thrice the size of the personas house. the circumference of its trunk was about fi fty feet. its aerial roots were thirty feet long and they touched the ground. it was the house for multitude of insects and birds. but the father ordered to cut the banyan tree down."
+        },
+        {
+          "chunk_id": 5,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 8533,
+          "end_char": 10597,
+          "text_length": 2064,
+          "estimated_tokens": 516,
+          "text": "s banyan tree was  big problem as it was thrice the size of the personas house. the circumference of its trunk was about fi fty feet. its aerial roots were thirty feet long and they touched the ground. it was the house for multitude of insects and birds. but the father ordered to cut the banyan tree down. ijfans international journal of food and nutritional sciences issn print 2319 1775 online 2320 7876 research paper 2012 ijfans. all rights reserved, ugc care listed ( group -) journal volume 11, iss 11, dec 2022 19258 the insects and birds were disturbed. in  way the ecosystem was disturbe. it took fifty men to fell the banyan tree whose slaughter was fearsome and fascinating. soon after that the personas family moved to bombay where there were not many trees. and the persona could see the tree in dreams only. the poem creates environmen tal awareness. it shows the difference between the serene and satisfactory greenery of trees and the jungle of cement concrete buildings. and it points out that if the trees are cut down in this way the future generations will have to see the trees only in dreams. the poem promotes the sustainable development from the environmental dimension. contribution of literature in promoting social justice: literature has two goals: to entertain and to educate. in some cases literature has been the cause of social revolutions  rupted to attain social justice which is  key dimension of sustainable development. literary works such as neale hurstons their eyes were watching god (1937) and chinua achebes things fall apart (1958) have focused the life of marginali zed communities. similarly, works of mulk raj anand promote social justice for the downtrodden people and communities in the indian society. his novel untouchable (1981) presents the miserable life of the untouchable and provides the possible solutions   the problem of untouchability. the argument for eradicating the caste system is at the centre of the novel. it presents  day in the life of  young sweeper boy, bakha whose work is to clean latrines."
+        },
+        {
+          "chunk_id": 6,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 10291,
+          "end_char": 12361,
+          "text_length": 2070,
+          "estimated_tokens": 517,
+          "text": "vel untouchable (1981) presents the miserable life of the untouchable and provides the possible solutions   the problem of untouchability. the argument for eradicating the caste system is at the centre of the novel. it presents  day in the life of  young sweeper boy, bakha whose work is to clean latrines. the same is promoted by omprakash valmiki in his poem, what would you do? (2008). similarly, the recent novel, foreign (2013) by sonara jha is the projection of the plight of farmers in vidarbha, india. the novel discusses the haplessness of the farmers, their desperation and depression, the indiffe rence of government, selfishness of moneylenders, corrupt government officers, and the farmers protest. the novel successfully publicizes the agonies and plight of hapless farmers in india. jha makes indian farmers suicides  global concern. contributio  of literature in promoting gender equity: in the male -dominated society, woman is always victim ized. she is brought up in such  way that she accepts that she is born to suffer and serve the man. literature has been exploring the life of women and their miseri es to the world and promoting gender equity so as to give justice to women. for instance, arun kolatkars portrayal of woman in his poem woman (2004) is as per the existing reality in the society. selflessness is cultivated in the woman to serve th  selfishness in the man. this radical poem protests against the injustice, oppression, and exploitation done to the woman in the cruel and crafty male -dominated culture. similarly, kishor kale in his autobiography, against all odds (2000) presents the st ories of kolhati women and shows that their life is tied with ghungroos of the rich lusty men who want just to use them and throw them away like  cheap object. the book brought  kind of reformation in the kolhati women and many of them started taking edu cation and change their hellish life. conclusion: to conclude, literature has  vital role to play in promoting sustainable development. it can raise awareness about en vironmental issues."
+        },
+        {
+          "chunk_id": 7,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 12055,
+          "end_char": 13964,
+          "text_length": 1909,
+          "estimated_tokens": 477,
+          "text": "way like  cheap object. the book brought  kind of reformation in the kolhati women and many of them started taking edu cation and change their hellish life. conclusion: to conclude, literature has  vital role to play in promoting sustainable development. it can raise awareness about en vironmental issues. it is an effective tool to promote social justice and gender equity. it can contribute to  more equitable and environmentally conscious world. as the world contends with the challenges of sustainability, literature can serve as  power ful tool for shaping cultural narratives and influencing individual and collective behaviours. references:. http:www.un -documents.netour -common -future.pdf. anand, mulk raj. (1981). untouch able. new delhi: arnold publishers.. atwood,. (2009). the year of the flood. toronto: mcclelland and stewart.. carson,. (1962). silent spring. boston: houghton miffin. ijfans international journal of food and nutritional sciences issn print 2319 1775 online 2320 7876 research paper 2012 ijfans. all rights reserved, ugc care listed ( group -) journal volume 11, iss 11, dec 2022 19259. kale, kishor. (2000). against all odds. trans. by sandhya pandey from marathi autobiography (kolhatyache por). new delhi: penguin. print.. kolatkar, arun. (2004). woman. twelve modern indian poets, ed... mehrotra, new delhi: oxford university press.. jha, sonora.(2013). foeign. noida: random house publishers india pvt.. pendhakar,. (1981). rarang dhang. mumbai: mouj prakashan gruh.. vander meer,. (2014). annihilation. new york: farrar, straus and giroux. 10. watkins,.. (2015). gold fame citrus. new york: riverhead books. 11. walmiki, omprakash. (2008). sadiaonka santap. new delhi: goutam book centre. 12. (translated by pratik kanjilal in english) 13. sathe, annabhau. (2022). fakira. pune: suresh book agency. 14. sathe, annabhau. (2022). waranecha wagh. pune: suresh book agency."
+        }
+      ]
+    },
+    "small": {
+      "fixed_size": [
+        {
+          "chunk_id": 0,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 0,
+          "end_char": 512,
+          "text_length": 512,
+          "estimated_tokens": 128,
+          "text": "ijfans international journal of food and nutritional sciences issn print 2319 1775 online 2320 7876 research paper 2012 ijfans. all rights reserved, ugc care listed ( group -) journal volume 11, iss 11, dec 2022 19256 contribution of literature in sustainable development dr. uttam ramchandra patil professor head, department of english, rajarshi shahu arts commerce college, rukadi, tal. hatkanangale, dist. kolhapur (ms) india email: uttamnayanagmail.com abstract this paper is an attempt to explore the contri"
+        },
+        {
+          "chunk_id": 1,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 410,
+          "end_char": 922,
+          "text_length": 511,
+          "estimated_tokens": 127,
+          "text": "olhapur (ms) india email: uttamnayanagmail.com abstract this paper is an attempt to explore the contribution of literature in promoting sustainable development. various literary works are critically analysed to examine how literature can raise awareness about environmental issues, promote social justice, gender equity and inspire individual and collective action towards sustainability. literature can be considered as the mother of all knowledge. it is made of the life experiences. it has the power to shape"
+        },
+        {
+          "chunk_id": 2,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 820,
+          "end_char": 1332,
+          "text_length": 512,
+          "estimated_tokens": 128,
+          "text": "sidered as the mother of all knowledge. it is made of the life experiences. it has the power to shape our perceptions, values, and behaviors. the united nati ons have framed 17 sustainable development goals (sdgs). literature can play  crucial role in attaining these goals as literature is closely related to culture. and both literature and culture are connected to sustainability. by investigating the connecti ons between literature, culture, and sustainability, this paper exhibits the potential of literatu"
+        },
+        {
+          "chunk_id": 3,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 1230,
+          "end_char": 1742,
+          "text_length": 512,
+          "estimated_tokens": 128,
+          "text": "cti ons between literature, culture, and sustainability, this paper exhibits the potential of literature to contribute to  more equitable and environmentally conscious world. keywords: literature, sustainable development goals, environment, social justice, ge nder equity. introduction literature is  purely human phenomenon. it is  means by which human beings present their experiences, thoughts, ideas, emotions and feelings. literature is about life and the people in relation to the social, cultural, economi"
+        },
+        {
+          "chunk_id": 4,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 1640,
+          "end_char": 2152,
+          "text_length": 512,
+          "estimated_tokens": 128,
+          "text": "ons and feelings. literature is about life and the people in relation to the social, cultural, economic, political, environmental, and all the other aspects of life. it is about interpersonal as well as intrapersonal relations. it aims to entertain and educate the readers. literature educates people by making them aware about various glocal issues. the modern world has emerged with  uge rapid materialistic development which has been drastically affecting the environment al, social and economic human balance"
+        },
+        {
+          "chunk_id": 5,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 2050,
+          "end_char": 2562,
+          "text_length": 512,
+          "estimated_tokens": 128,
+          "text": "development which has been drastically affecting the environment al, social and economic human balance. to attain development the natural resources are being exploited to an extreme level that may damage the harmony of over -all life on the globe. that is why the uno have been putting efforts to make development sustainable. literature is the mirror of life. it presents the pressing issues of the society and tries to provide solutions to them. no doubt, literature is fictitious but it is very useful for enl"
+        },
+        {
+          "chunk_id": 6,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 2460,
+          "end_char": 2972,
+          "text_length": 512,
+          "estimated_tokens": 128,
+          "text": "d tries to provide solutions to them. no doubt, literature is fictitious but it is very useful for enlightenment and awakening of people. there are plenty of literary works across all the genres that highlight the sustainable development goals and make readers aware of the serious problems which have incurred due to materialistic deve lopment. some literary works discuss the influence of development on environmental, social and economic aspects of life. sustainable development is  pressing global issue, req"
+        },
+        {
+          "chunk_id": 7,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 2870,
+          "end_char": 3382,
+          "text_length": 512,
+          "estimated_tokens": 128,
+          "text": "ronmental, social and economic aspects of life. sustainable development is  pressing global issue, requiring immediate attention and action. the united nations sdgs highlight the need for  holistic approach to sustainability, encompassing environmental, social, and economic dimensions. literature, as  powerful tool for shaping cultural narratives and influencing individual and collective behaviors, has  significant role to play in promoting sustainable development. sustainable development is  method to sati"
+        },
+        {
+          "chunk_id": 8,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 3280,
+          "end_char": 3792,
+          "text_length": 512,
+          "estimated_tokens": 128,
+          "text": "nificant role to play in promoting sustainable development. sustainable development is  method to satisfy needs of the people today without depriving future generations of their needs. it is an approach that balances diverse requirements against the consciousness of the enviro nmental, economic and social limitations that  society has. according to our common future which is also known as brundtland report, sustainable development is development that meets the needs of the present without compromising the a"
+        },
+        {
+          "chunk_id": 9,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 3690,
+          "end_char": 4202,
+          "text_length": 511,
+          "estimated_tokens": 127,
+          "text": "sustainable development is development that meets the needs of the present without compromising the ability of future generations to meet their own needs. todays world has grave environmental challenges like climate change, freshwater exhaustion, deforestation, air and water pollution, and hunger. natural resources are either running out or are being polluted due to th  rapid and huge development. there is  need to utilize the earths resources sensibly and ijfans international journal of food and nutrition"
+        },
+        {
+          "chunk_id": 10,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 4100,
+          "end_char": 4612,
+          "text_length": 510,
+          "estimated_tokens": 127,
+          "text": "need to utilize the earths resources sensibly and ijfans international journal of food and nutritional sciences issn print 2319 1775 online 2320 7876 research paper 2012 ijfans. all rights reserved, ugc care listed ( group -) journal volume 11, iss 11, dec 2022 19257 preserve and conserve them for the future generations. sustainable development emphasizes the improvement of human -environment interaction through prioritization of the management and protection of the natural resources for coming generation"
+        },
+        {
+          "chunk_id": 11,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 4510,
+          "end_char": 5022,
+          "text_length": 512,
+          "estimated_tokens": 128,
+          "text": "through prioritization of the management and protection of the natural resources for coming generations. through the conservation and enhancement of our natural resources all the nations can satisfy the basic needs of employment, food, water, energy and sanitation. the natural resources can be conserved and enhanced by promoting stable economic growth, conservation of natural resources, environmental protection, social progress and equality. further, sustainable development is an attitude to development. it"
+        },
+        {
+          "chunk_id": 12,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 4920,
+          "end_char": 5432,
+          "text_length": 512,
+          "estimated_tokens": 128,
+          "text": "tion, social progress and equality. further, sustainable development is an attitude to development. it considers various necessities against an awareness of the environmental, social and economic limitations  society faces. it propagates the social responsibility to use the natural resources wisely and sensibly so that the balance of the nature is not disturbed. to attain this, in september, 2015 the countries under the uno adopted 17 sustainable development goals. these goals are. no poverty,. zero hunger,"
+        },
+        {
+          "chunk_id": 13,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 5330,
+          "end_char": 5842,
+          "text_length": 512,
+          "estimated_tokens": 128,
+          "text": "ies under the uno adopted 17 sustainable development goals. these goals are. no poverty,. zero hunger,. good health and  ell-being,. quality education,. gender equality,. clean water and sanitation,. affordable and clean energy,. decent work and economic growth,. industry innovation and infrastruc ture, 10. reduced inequalities, 11. sustainable cities and communities, 12. responsible consumption and production, 13. climate action, 14. life below water, 15. life on land, 16. peace, justice and strong institu"
+        },
+        {
+          "chunk_id": 14,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 5740,
+          "end_char": 6252,
+          "text_length": 512,
+          "estimated_tokens": 128,
+          "text": "ion, 13. climate action, 14. life below water, 15. life on land, 16. peace, justice and strong institutions, and 17. partnerships for the goals. the sustainability has the three pillars, namely, environmental sustainability, social sustainabilit, and economic sustainability which cover all the goals of sustainable development. they are interconnected. literature has proved to be an effective means of promotion of matters in the society. it has been used to promote all the above mentioned sustainable develop"
+        },
+        {
+          "chunk_id": 15,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 6150,
+          "end_char": 6662,
+          "text_length": 512,
+          "estimated_tokens": 128,
+          "text": "ion of matters in the society. it has been used to promote all the above mentioned sustainable development goals. out of the seventeen sustainable development goals literature primarily promotes the sdgs like no poverty, zero hunger, quality ed ucation, gender equality, reduced inequalities, sustainable cities and communities, peace and justice by pointing out their actual state as prevailed in the society. the present paper is  humble attempt to consider the contribution of literature in attain ing sustain"
+        },
+        {
+          "chunk_id": 16,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 6560,
+          "end_char": 7072,
+          "text_length": 510,
+          "estimated_tokens": 127,
+          "text": "the present paper is  humble attempt to consider the contribution of literature in attain ing sustainable development. contribution of literature in creating environmental awareness: literature is  powerful means of creating environmental awareness. it has long been used to raise awareness about environment. literary works like rachel carson  silent spring (1962), margaret atwoods the year of the flood (2009), prabhakar pendarkars rarang dhang ( 1981 ) and dilip chitres felling of the banyan tree ( 1980 )"
+        },
+        {
+          "chunk_id": 17,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 6970,
+          "end_char": 7482,
+          "text_length": 512,
+          "estimated_tokens": 128,
+          "text": "09), prabhakar pendarkars rarang dhang ( 1981 ) and dilip chitres felling of the banyan tree ( 1980 ) have highlighted the devastating impacts of human activities on the natural worl. even the contemporary english novels like vander meers annihilation (2014) and claire vaye watkins gold fame citrus (2015) continue to explore and alarm the consequences of environmental degradation. let us see some details about felling of the banyan tree  famous poem by dilip chitre who was  respected and versatile indian ar"
+        },
+        {
+          "chunk_id": 18,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 7380,
+          "end_char": 7892,
+          "text_length": 512,
+          "estimated_tokens": 128,
+          "text": "out felling of the banyan tree  famous poem by dilip chitre who was  respected and versatile indian artist. he was  popular poet. he wrote in both english and marathi. felling of the banyan tree was first published in chitres collection of poems entitled, traveling    cage in 1980. it is  free verse poem consisting of three stanzas, wi th in all twenty five lines. it  central theme is uprootedness of modern human beings. the secondary theme of the poem is the destruction of ecosystems for monetary gain in t"
+        },
+        {
+          "chunk_id": 19,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 7790,
+          "end_char": 8302,
+          "text_length": 511,
+          "estimated_tokens": 127,
+          "text": "human beings. the secondary theme of the poem is the destruction of ecosystems for monetary gain in the name   progress and its impact on environment and human life. the persona tells that his father asked all the tenants to vacate their houses so that the houses could be demolished. then all the houses except one in which the personas family lived were destroyed. the personas father ord ered to fell the trees there. then all the tre es like neem, sheoga, audumbar, and others were cut down. the personas gr"
+        },
+        {
+          "chunk_id": 20,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 8200,
+          "end_char": 8712,
+          "text_length": 512,
+          "estimated_tokens": 128,
+          "text": "rees there. then all the tre es like neem, sheoga, audumbar, and others were cut down. the personas grandmother suggested not to fell the trees as they are sacred and felling them is  crime but the father did not listen to her and all the trees were massacred. the word, massacre shows the beingness of trees. but felling the enormous banyan tree was  big problem as it was thrice the size of the personas house. the circumference of its trunk was about fi fty feet. its aerial roots were thirty feet long and th"
+        },
+        {
+          "chunk_id": 21,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 8610,
+          "end_char": 9122,
+          "text_length": 511,
+          "estimated_tokens": 127,
+          "text": "e. the circumference of its trunk was about fi fty feet. its aerial roots were thirty feet long and they touched the ground. it was the house for multitude of insects and birds. but the father ordered to cut the banyan tree down. ijfans international journal of food and nutritional sciences issn print 2319 1775 online 2320 7876 research paper 2012 ijfans. all rights reserved, ugc care listed ( group -) journal volume 11, iss 11, dec 2022 19258 the insects and birds were disturbed. in  way the ecosystem was"
+        },
+        {
+          "chunk_id": 22,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 9020,
+          "end_char": 9532,
+          "text_length": 512,
+          "estimated_tokens": 128,
+          "text": "nal volume 11, iss 11, dec 2022 19258 the insects and birds were disturbed. in  way the ecosystem was disturbe. it took fifty men to fell the banyan tree whose slaughter was fearsome and fascinating. soon after that the personas family moved to bombay where there were not many trees. and the persona could see the tree in dreams only. the poem creates environmen tal awareness. it shows the difference between the serene and satisfactory greenery of trees and the jungle of cement concrete buildings. and it poi"
+        },
+        {
+          "chunk_id": 23,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 9430,
+          "end_char": 9942,
+          "text_length": 511,
+          "estimated_tokens": 127,
+          "text": "the serene and satisfactory greenery of trees and the jungle of cement concrete buildings. and it points out that if the trees are cut down in this way the future generations will have to see the trees only in dreams. the poem promotes the sustainable development from the environmental dimension. contribution of literature in promoting social justice: literature has two goals: to entertain and to educate. in some cases literature has been the cause of social revolutions  rupted to attain social justice whi"
+        },
+        {
+          "chunk_id": 24,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 9840,
+          "end_char": 10352,
+          "text_length": 512,
+          "estimated_tokens": 128,
+          "text": "in some cases literature has been the cause of social revolutions  rupted to attain social justice which is  key dimension of sustainable development. literary works such as neale hurstons their eyes were watching god (1937) and chinua achebes things fall apart (1958) have focused the life of marginali zed communities. similarly, works of mulk raj anand promote social justice for the downtrodden people and communities in the indian society. his novel untouchable (1981) presents the miserable life of the unt"
+        },
+        {
+          "chunk_id": 25,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 10250,
+          "end_char": 10762,
+          "text_length": 512,
+          "estimated_tokens": 128,
+          "text": "communities in the indian society. his novel untouchable (1981) presents the miserable life of the untouchable and provides the possible solutions   the problem of untouchability. the argument for eradicating the caste system is at the centre of the novel. it presents  day in the life of  young sweeper boy, bakha whose work is to clean latrines. the same is promoted by omprakash valmiki in his poem, what would you do? (2008). similarly, the recent novel, foreign (2013) by sonara jha is the projection of the"
+        },
+        {
+          "chunk_id": 26,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 10660,
+          "end_char": 11172,
+          "text_length": 512,
+          "estimated_tokens": 128,
+          "text": "uld you do? (2008). similarly, the recent novel, foreign (2013) by sonara jha is the projection of the plight of farmers in vidarbha, india. the novel discusses the haplessness of the farmers, their desperation and depression, the indiffe rence of government, selfishness of moneylenders, corrupt government officers, and the farmers protest. the novel successfully publicizes the agonies and plight of hapless farmers in india. jha makes indian farmers suicides  global concern. contributio  of literature in pr"
+        },
+        {
+          "chunk_id": 27,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 11070,
+          "end_char": 11582,
+          "text_length": 511,
+          "estimated_tokens": 127,
+          "text": "farmers in india. jha makes indian farmers suicides  global concern. contributio  of literature in promoting gender equity: in the male -dominated society, woman is always victim ized. she is brought up in such  way that she accepts that she is born to suffer and serve the man. literature has been exploring the life of women and their miseri es to the world and promoting gender equity so as to give justice to women. for instance, arun kolatkars portrayal of woman in his poem woman (2004) is as per the exis"
+        },
+        {
+          "chunk_id": 28,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 11480,
+          "end_char": 11992,
+          "text_length": 511,
+          "estimated_tokens": 127,
+          "text": "to women. for instance, arun kolatkars portrayal of woman in his poem woman (2004) is as per the existing reality in the society. selflessness is cultivated in the woman to serve th  selfishness in the man. this radical poem protests against the injustice, oppression, and exploitation done to the woman in the cruel and crafty male -dominated culture. similarly, kishor kale in his autobiography, against all odds (2000) presents the st ories of kolhati women and shows that their life is tied with ghungroos o"
+        },
+        {
+          "chunk_id": 29,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 11890,
+          "end_char": 12402,
+          "text_length": 511,
+          "estimated_tokens": 127,
+          "text": "odds (2000) presents the st ories of kolhati women and shows that their life is tied with ghungroos of the rich lusty men who want just to use them and throw them away like  cheap object. the book brought  kind of reformation in the kolhati women and many of them started taking edu cation and change their hellish life. conclusion: to conclude, literature has  vital role to play in promoting sustainable development. it can raise awareness about en vironmental issues. it is an effective tool to promote socia"
+        },
+        {
+          "chunk_id": 30,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 12300,
+          "end_char": 12812,
+          "text_length": 512,
+          "estimated_tokens": 128,
+          "text": "elopment. it can raise awareness about en vironmental issues. it is an effective tool to promote social justice and gender equity. it can contribute to  more equitable and environmentally conscious world. as the world contends with the challenges of sustainability, literature can serve as  power ful tool for shaping cultural narratives and influencing individual and collective behaviours. references:. http:www.un -documents.netour -common -future.pdf. anand, mulk raj. (1981). untouch able. new delhi: arnold"
+        },
+        {
+          "chunk_id": 31,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 12710,
+          "end_char": 13222,
+          "text_length": 512,
+          "estimated_tokens": 128,
+          "text": "www.un -documents.netour -common -future.pdf. anand, mulk raj. (1981). untouch able. new delhi: arnold publishers.. atwood,. (2009). the year of the flood. toronto: mcclelland and stewart.. carson,. (1962). silent spring. boston: houghton miffin. ijfans international journal of food and nutritional sciences issn print 2319 1775 online 2320 7876 research paper 2012 ijfans. all rights reserved, ugc care listed ( group -) journal volume 11, iss 11, dec 2022 19259. kale, kishor. (2000). against all odds. trans."
+        },
+        {
+          "chunk_id": 32,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 13120,
+          "end_char": 13632,
+          "text_length": 512,
+          "estimated_tokens": 128,
+          "text": "d ( group -) journal volume 11, iss 11, dec 2022 19259. kale, kishor. (2000). against all odds. trans. by sandhya pandey from marathi autobiography (kolhatyache por). new delhi: penguin. print.. kolatkar, arun. (2004). woman. twelve modern indian poets, ed... mehrotra, new delhi: oxford university press.. jha, sonora.(2013). foeign. noida: random house publishers india pvt.. pendhakar,. (1981). rarang dhang. mumbai: mouj prakashan gruh.. vander meer,. (2014). annihilation. new york: farrar, straus and girou"
+        },
+        {
+          "chunk_id": 33,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 13530,
+          "end_char": 13964,
+          "text_length": 434,
+          "estimated_tokens": 108,
+          "text": ". mumbai: mouj prakashan gruh.. vander meer,. (2014). annihilation. new york: farrar, straus and giroux. 10. watkins,.. (2015). gold fame citrus. new york: riverhead books. 11. walmiki, omprakash. (2008). sadiaonka santap. new delhi: goutam book centre. 12. (translated by pratik kanjilal in english) 13. sathe, annabhau. (2022). fakira. pune: suresh book agency. 14. sathe, annabhau. (2022). waranecha wagh. pune: suresh book agency."
+        },
+        {
+          "chunk_id": 34,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 13940,
+          "end_char": 13964,
+          "text_length": 24,
+          "estimated_tokens": 6,
+          "text": "une: suresh book agency."
+        }
+      ],
+      "content_aware": [
+        {
+          "chunk_id": 0,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 128,
+          "end_char": 539,
+          "text_length": 411,
+          "estimated_tokens": 102,
+          "text": "ijfans international journal of food and nutritional sciences issn print 2319 1775 online 2320 7876 research paper 2012 ijfans.\n\nall rights reserved, ugc care listed ( group -) journal volume 11, iss 11, dec 2022 19256 contribution of literature in sustainable development dr.\n\nuttam ramchandra patil professor head, department of english, rajarshi shahu arts commerce college, rukadi, tal.\n\nhatkanangale, dist."
+        },
+        {
+          "chunk_id": 1,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 128,
+          "end_char": 602,
+          "text_length": 474,
+          "estimated_tokens": 118,
+          "text": "f english, rajarshi shahu arts commerce college, rukadi, tal.\n\nhatkanangale, dist.\n\nkolhapur (ms) india email: uttamnayanagmail.com abstract this paper is an attempt to explore the contribution of literature in promoting sustainable development.\n\nvarious literary works are critically analysed to examine how literature can raise awareness about environmental issues, promote social justice, gender equity and inspire individual and collective action towards sustainability."
+        },
+        {
+          "chunk_id": 2,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 128,
+          "end_char": 633,
+          "text_length": 505,
+          "estimated_tokens": 126,
+          "text": "al justice, gender equity and inspire individual and collective action towards sustainability.\n\nliterature can be considered as the mother of all knowledge.\n\nit is made of the life experiences.\n\nit has the power to shape our perceptions, values, and behaviors.\n\nthe united nati ons have framed 17 sustainable development goals (sdgs).\n\nliterature can play  crucial role in attaining these goals as literature is closely related to culture.\n\nand both literature and culture are connected to sustainability."
+        },
+        {
+          "chunk_id": 3,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 128,
+          "end_char": 584,
+          "text_length": 456,
+          "estimated_tokens": 114,
+          "text": "ture is closely related to culture.\n\nand both literature and culture are connected to sustainability.\n\nby investigating the connecti ons between literature, culture, and sustainability, this paper exhibits the potential of literature to contribute to  more equitable and environmentally conscious world.\n\nkeywords: literature, sustainable development goals, environment, social justice, ge nder equity.\n\nintroduction literature is  purely human phenomenon."
+        },
+        {
+          "chunk_id": 4,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 128,
+          "end_char": 581,
+          "text_length": 453,
+          "estimated_tokens": 113,
+          "text": "ment, social justice, ge nder equity.\n\nintroduction literature is  purely human phenomenon.\n\nit is  means by which human beings present their experiences, thoughts, ideas, emotions and feelings.\n\nliterature is about life and the people in relation to the social, cultural, economic, political, environmental, and all the other aspects of life.\n\nit is about interpersonal as well as intrapersonal relations.\n\nit aims to entertain and educate the readers."
+        },
+        {
+          "chunk_id": 5,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 128,
+          "end_char": 605,
+          "text_length": 477,
+          "estimated_tokens": 119,
+          "text": "ersonal as well as intrapersonal relations.\n\nit aims to entertain and educate the readers.\n\nliterature educates people by making them aware about various glocal issues.\n\nthe modern world has emerged with  uge rapid materialistic development which has been drastically affecting the environment al, social and economic human balance.\n\nto attain development the natural resources are being exploited to an extreme level that may damage the harmony of over -all life on the globe."
+        },
+        {
+          "chunk_id": 6,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 128,
+          "end_char": 527,
+          "text_length": 399,
+          "estimated_tokens": 99,
+          "text": "being exploited to an extreme level that may damage the harmony of over -all life on the globe.\n\nthat is why the uno have been putting efforts to make development sustainable.\n\nliterature is the mirror of life.\n\nit presents the pressing issues of the society and tries to provide solutions to them.\n\nno doubt, literature is fictitious but it is very useful for enlightenment and awakening of people."
+        },
+        {
+          "chunk_id": 7,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 128,
+          "end_char": 622,
+          "text_length": 494,
+          "estimated_tokens": 123,
+          "text": "is fictitious but it is very useful for enlightenment and awakening of people.\n\nthere are plenty of literary works across all the genres that highlight the sustainable development goals and make readers aware of the serious problems which have incurred due to materialistic deve lopment.\n\nsome literary works discuss the influence of development on environmental, social and economic aspects of life.\n\nsustainable development is  pressing global issue, requiring immediate attention and action."
+        },
+        {
+          "chunk_id": 8,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 128,
+          "end_char": 557,
+          "text_length": 429,
+          "estimated_tokens": 107,
+          "text": "ife.\n\nsustainable development is  pressing global issue, requiring immediate attention and action.\n\nthe united nations sdgs highlight the need for  holistic approach to sustainability, encompassing environmental, social, and economic dimensions.\n\nliterature, as  powerful tool for shaping cultural narratives and influencing individual and collective behaviors, has  significant role to play in promoting sustainable development."
+        },
+        {
+          "chunk_id": 9,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 128,
+          "end_char": 493,
+          "text_length": 365,
+          "estimated_tokens": 91,
+          "text": "ective behaviors, has  significant role to play in promoting sustainable development.\n\nsustainable development is  method to satisfy needs of the people today without depriving future generations of their needs.\n\nit is an approach that balances diverse requirements against the consciousness of the enviro nmental, economic and social limitations that  society has."
+        },
+        {
+          "chunk_id": 10,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 128,
+          "end_char": 575,
+          "text_length": 447,
+          "estimated_tokens": 111,
+          "text": "of the enviro nmental, economic and social limitations that  society has.\n\naccording to our common future which is also known as brundtland report, sustainable development is development that meets the needs of the present without compromising the ability of future generations to meet their own needs.\n\ntodays world has grave environmental challenges like climate change, freshwater exhaustion, deforestation, air and water pollution, and hunger."
+        },
+        {
+          "chunk_id": 11,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 128,
+          "end_char": 509,
+          "text_length": 381,
+          "estimated_tokens": 95,
+          "text": "limate change, freshwater exhaustion, deforestation, air and water pollution, and hunger.\n\nnatural resources are either running out or are being polluted due to th  rapid and huge development.\n\nthere is  need to utilize the earths resources sensibly and ijfans international journal of food and nutritional sciences issn print 2319 1775 online 2320 7876 research paper 2012 ijfans."
+        },
+        {
+          "chunk_id": 12,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 128,
+          "end_char": 541,
+          "text_length": 413,
+          "estimated_tokens": 103,
+          "text": "l sciences issn print 2319 1775 online 2320 7876 research paper 2012 ijfans.\n\nall rights reserved, ugc care listed ( group -) journal volume 11, iss 11, dec 2022 19257 preserve and conserve them for the future generations.\n\nsustainable development emphasizes the improvement of human -environment interaction through prioritization of the management and protection of the natural resources for coming generations."
+        },
+        {
+          "chunk_id": 13,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 128,
+          "end_char": 617,
+          "text_length": 489,
+          "estimated_tokens": 122,
+          "text": "of the management and protection of the natural resources for coming generations.\n\nthrough the conservation and enhancement of our natural resources all the nations can satisfy the basic needs of employment, food, water, energy and sanitation.\n\nthe natural resources can be conserved and enhanced by promoting stable economic growth, conservation of natural resources, environmental protection, social progress and equality.\n\nfurther, sustainable development is an attitude to development."
+        },
+        {
+          "chunk_id": 14,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 128,
+          "end_char": 630,
+          "text_length": 502,
+          "estimated_tokens": 125,
+          "text": "n, social progress and equality.\n\nfurther, sustainable development is an attitude to development.\n\nit considers various necessities against an awareness of the environmental, social and economic limitations  society faces.\n\nit propagates the social responsibility to use the natural resources wisely and sensibly so that the balance of the nature is not disturbed.\n\nto attain this, in september, 2015 the countries under the uno adopted 17 sustainable development goals.\n\nthese goals are.\n\nno poverty,."
+        },
+        {
+          "chunk_id": 15,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 128,
+          "end_char": 631,
+          "text_length": 503,
+          "estimated_tokens": 125,
+          "text": "he countries under the uno adopted 17 sustainable development goals.\n\nthese goals are.\n\nno poverty,.\n\nzero hunger,.\n\ngood health and  ell-being,.\n\nquality education,.\n\ngender equality,.\n\nclean water and sanitation,.\n\naffordable and clean energy,.\n\ndecent work and economic growth,.\n\nindustry innovation and infrastruc ture, 10.\n\nreduced inequalities, 11.\n\nsustainable cities and communities, 12.\n\nresponsible consumption and production, 13.\n\nclimate action, 14.\n\nlife below water, 15.\n\nlife on land, 16."
+        },
+        {
+          "chunk_id": 16,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 128,
+          "end_char": 605,
+          "text_length": 477,
+          "estimated_tokens": 119,
+          "text": "sible consumption and production, 13.\n\nclimate action, 14.\n\nlife below water, 15.\n\nlife on land, 16.\n\npeace, justice and strong institutions, and 17.\n\npartnerships for the goals.\n\nthe sustainability has the three pillars, namely, environmental sustainability, social sustainabilit, and economic sustainability which cover all the goals of sustainable development.\n\nthey are interconnected.\n\nliterature has proved to be an effective means of promotion of matters in the society."
+        },
+        {
+          "chunk_id": 17,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 128,
+          "end_char": 605,
+          "text_length": 477,
+          "estimated_tokens": 119,
+          "text": "nected.\n\nliterature has proved to be an effective means of promotion of matters in the society.\n\nit has been used to promote all the above mentioned sustainable development goals.\n\nout of the seventeen sustainable development goals literature primarily promotes the sdgs like no poverty, zero hunger, quality ed ucation, gender equality, reduced inequalities, sustainable cities and communities, peace and justice by pointing out their actual state as prevailed in the society."
+        },
+        {
+          "chunk_id": 18,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 128,
+          "end_char": 535,
+          "text_length": 407,
+          "estimated_tokens": 101,
+          "text": "communities, peace and justice by pointing out their actual state as prevailed in the society.\n\nthe present paper is  humble attempt to consider the contribution of literature in attain ing sustainable development.\n\ncontribution of literature in creating environmental awareness: literature is  powerful means of creating environmental awareness.\n\nit has long been used to raise awareness about environment."
+        },
+        {
+          "chunk_id": 19,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 128,
+          "end_char": 493,
+          "text_length": 365,
+          "estimated_tokens": 91,
+          "text": "ronmental awareness.\n\nit has long been used to raise awareness about environment.\n\nliterary works like rachel carson  silent spring (1962), margaret atwoods the year of the flood (2009), prabhakar pendarkars rarang dhang ( 1981 ) and dilip chitres felling of the banyan tree ( 1980 ) have highlighted the devastating impacts of human activities on the natural worl."
+        },
+        {
+          "chunk_id": 20,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 128,
+          "end_char": 599,
+          "text_length": 471,
+          "estimated_tokens": 117,
+          "text": "hlighted the devastating impacts of human activities on the natural worl.\n\neven the contemporary english novels like vander meers annihilation (2014) and claire vaye watkins gold fame citrus (2015) continue to explore and alarm the consequences of environmental degradation.\n\nlet us see some details about felling of the banyan tree  famous poem by dilip chitre who was  respected and versatile indian artist.\n\nhe was  popular poet.\n\nhe wrote in both english and marathi."
+        },
+        {
+          "chunk_id": 21,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 128,
+          "end_char": 635,
+          "text_length": 507,
+          "estimated_tokens": 126,
+          "text": "ted and versatile indian artist.\n\nhe was  popular poet.\n\nhe wrote in both english and marathi.\n\nfelling of the banyan tree was first published in chitres collection of poems entitled, traveling    cage in 1980.\n\nit is  free verse poem consisting of three stanzas, wi th in all twenty five lines.\n\nit  central theme is uprootedness of modern human beings.\n\nthe secondary theme of the poem is the destruction of ecosystems for monetary gain in the name   progress and its impact on environment and human life."
+        },
+        {
+          "chunk_id": 22,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 128,
+          "end_char": 562,
+          "text_length": 434,
+          "estimated_tokens": 108,
+          "text": "of ecosystems for monetary gain in the name   progress and its impact on environment and human life.\n\nthe persona tells that his father asked all the tenants to vacate their houses so that the houses could be demolished.\n\nthen all the houses except one in which the personas family lived were destroyed.\n\nthe personas father ord ered to fell the trees there.\n\nthen all the tre es like neem, sheoga, audumbar, and others were cut down."
+        },
+        {
+          "chunk_id": 23,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 128,
+          "end_char": 598,
+          "text_length": 470,
+          "estimated_tokens": 117,
+          "text": "ees there.\n\nthen all the tre es like neem, sheoga, audumbar, and others were cut down.\n\nthe personas grandmother suggested not to fell the trees as they are sacred and felling them is  crime but the father did not listen to her and all the trees were massacred.\n\nthe word, massacre shows the beingness of trees.\n\nbut felling the enormous banyan tree was  big problem as it was thrice the size of the personas house.\n\nthe circumference of its trunk was about fi fty feet."
+        },
+        {
+          "chunk_id": 24,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 128,
+          "end_char": 526,
+          "text_length": 398,
+          "estimated_tokens": 99,
+          "text": "thrice the size of the personas house.\n\nthe circumference of its trunk was about fi fty feet.\n\nits aerial roots were thirty feet long and they touched the ground.\n\nit was the house for multitude of insects and birds.\n\nbut the father ordered to cut the banyan tree down.\n\nijfans international journal of food and nutritional sciences issn print 2319 1775 online 2320 7876 research paper 2012 ijfans."
+        },
+        {
+          "chunk_id": 25,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 128,
+          "end_char": 600,
+          "text_length": 472,
+          "estimated_tokens": 118,
+          "text": "onal sciences issn print 2319 1775 online 2320 7876 research paper 2012 ijfans.\n\nall rights reserved, ugc care listed ( group -) journal volume 11, iss 11, dec 2022 19258 the insects and birds were disturbed.\n\nin  way the ecosystem was disturbe.\n\nit took fifty men to fell the banyan tree whose slaughter was fearsome and fascinating.\n\nsoon after that the personas family moved to bombay where there were not many trees.\n\nand the persona could see the tree in dreams only."
+        },
+        {
+          "chunk_id": 26,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 128,
+          "end_char": 599,
+          "text_length": 471,
+          "estimated_tokens": 117,
+          "text": "to bombay where there were not many trees.\n\nand the persona could see the tree in dreams only.\n\nthe poem creates environmen tal awareness.\n\nit shows the difference between the serene and satisfactory greenery of trees and the jungle of cement concrete buildings.\n\nand it points out that if the trees are cut down in this way the future generations will have to see the trees only in dreams.\n\nthe poem promotes the sustainable development from the environmental dimension."
+        },
+        {
+          "chunk_id": 27,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 128,
+          "end_char": 486,
+          "text_length": 358,
+          "estimated_tokens": 89,
+          "text": "ly in dreams.\n\nthe poem promotes the sustainable development from the environmental dimension.\n\ncontribution of literature in promoting social justice: literature has two goals: to entertain and to educate.\n\nin some cases literature has been the cause of social revolutions  rupted to attain social justice which is  key dimension of sustainable development."
+        },
+        {
+          "chunk_id": 28,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 128,
+          "end_char": 641,
+          "text_length": 513,
+          "estimated_tokens": 128,
+          "text": "tain social justice which is  key dimension of sustainable development.\n\nliterary works such as neale hurstons their eyes were watching god (1937) and chinua achebes things fall apart (1958) have focused the life of marginali zed communities.\n\nsimilarly, works of mulk raj anand promote social justice for the downtrodden people and communities in the indian society.\n\nhis novel untouchable (1981) presents the miserable life of the untouchable and provides the possible solutions   the problem of untouchability."
+        },
+        {
+          "chunk_id": 29,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 128,
+          "end_char": 606,
+          "text_length": 478,
+          "estimated_tokens": 119,
+          "text": "miserable life of the untouchable and provides the possible solutions   the problem of untouchability.\n\nthe argument for eradicating the caste system is at the centre of the novel.\n\nit presents  day in the life of  young sweeper boy, bakha whose work is to clean latrines.\n\nthe same is promoted by omprakash valmiki in his poem, what would you do?\n\n(2008).\n\nsimilarly, the recent novel, foreign (2013) by sonara jha is the projection of the plight of farmers in vidarbha, india."
+        },
+        {
+          "chunk_id": 30,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 128,
+          "end_char": 565,
+          "text_length": 437,
+          "estimated_tokens": 109,
+          "text": "el, foreign (2013) by sonara jha is the projection of the plight of farmers in vidarbha, india.\n\nthe novel discusses the haplessness of the farmers, their desperation and depression, the indiffe rence of government, selfishness of moneylenders, corrupt government officers, and the farmers protest.\n\nthe novel successfully publicizes the agonies and plight of hapless farmers in india.\n\njha makes indian farmers suicides  global concern."
+        },
+        {
+          "chunk_id": 31,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 128,
+          "end_char": 569,
+          "text_length": 441,
+          "estimated_tokens": 110,
+          "text": "plight of hapless farmers in india.\n\njha makes indian farmers suicides  global concern.\n\ncontributio  of literature in promoting gender equity: in the male -dominated society, woman is always victim ized.\n\nshe is brought up in such  way that she accepts that she is born to suffer and serve the man.\n\nliterature has been exploring the life of women and their miseri es to the world and promoting gender equity so as to give justice to women."
+        },
+        {
+          "chunk_id": 32,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 128,
+          "end_char": 562,
+          "text_length": 434,
+          "estimated_tokens": 108,
+          "text": "their miseri es to the world and promoting gender equity so as to give justice to women.\n\nfor instance, arun kolatkars portrayal of woman in his poem woman (2004) is as per the existing reality in the society.\n\nselflessness is cultivated in the woman to serve th  selfishness in the man.\n\nthis radical poem protests against the injustice, oppression, and exploitation done to the woman in the cruel and crafty male -dominated culture."
+        },
+        {
+          "chunk_id": 33,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 128,
+          "end_char": 594,
+          "text_length": 466,
+          "estimated_tokens": 116,
+          "text": "n, and exploitation done to the woman in the cruel and crafty male -dominated culture.\n\nsimilarly, kishor kale in his autobiography, against all odds (2000) presents the st ories of kolhati women and shows that their life is tied with ghungroos of the rich lusty men who want just to use them and throw them away like  cheap object.\n\nthe book brought  kind of reformation in the kolhati women and many of them started taking edu cation and change their hellish life."
+        },
+        {
+          "chunk_id": 34,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 128,
+          "end_char": 518,
+          "text_length": 390,
+          "estimated_tokens": 97,
+          "text": "n the kolhati women and many of them started taking edu cation and change their hellish life.\n\nconclusion: to conclude, literature has  vital role to play in promoting sustainable development.\n\nit can raise awareness about en vironmental issues.\n\nit is an effective tool to promote social justice and gender equity.\n\nit can contribute to  more equitable and environmentally conscious world."
+        },
+        {
+          "chunk_id": 35,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 128,
+          "end_char": 631,
+          "text_length": 503,
+          "estimated_tokens": 125,
+          "text": "ty.\n\nit can contribute to  more equitable and environmentally conscious world.\n\nas the world contends with the challenges of sustainability, literature can serve as  power ful tool for shaping cultural narratives and influencing individual and collective behaviours.\n\nreferences:.\n\nhttp:www.un -documents.netour -common -future.pdf.\n\nanand, mulk raj.\n\n(1981).\n\nuntouch able.\n\nnew delhi: arnold publishers..\n\natwood,.\n\n(2009).\n\nthe year of the flood.\n\ntoronto: mcclelland and stewart..\n\ncarson,.\n\n(1962)."
+        },
+        {
+          "chunk_id": 36,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 128,
+          "end_char": 637,
+          "text_length": 509,
+          "estimated_tokens": 127,
+          "text": "s..\n\natwood,.\n\n(2009).\n\nthe year of the flood.\n\ntoronto: mcclelland and stewart..\n\ncarson,.\n\n(1962).\n\nsilent spring.\n\nboston: houghton miffin.\n\nijfans international journal of food and nutritional sciences issn print 2319 1775 online 2320 7876 research paper 2012 ijfans.\n\nall rights reserved, ugc care listed ( group -) journal volume 11, iss 11, dec 2022 19259.\n\nkale, kishor.\n\n(2000).\n\nagainst all odds.\n\ntrans.\n\nby sandhya pandey from marathi autobiography (kolhatyache por).\n\nnew delhi: penguin.\n\nprint.."
+        },
+        {
+          "chunk_id": 37,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 128,
+          "end_char": 643,
+          "text_length": 515,
+          "estimated_tokens": 128,
+          "text": "trans.\n\nby sandhya pandey from marathi autobiography (kolhatyache por).\n\nnew delhi: penguin.\n\nprint..\n\nkolatkar, arun.\n\n(2004).\n\nwoman.\n\ntwelve modern indian poets, ed...\n\nmehrotra, new delhi: oxford university press..\n\njha, sonora.(2013).\n\nfoeign.\n\nnoida: random house publishers india pvt..\n\npendhakar,.\n\n(1981).\n\nrarang dhang.\n\nmumbai: mouj prakashan gruh..\n\nvander meer,.\n\n(2014).\n\nannihilation.\n\nnew york: farrar, straus and giroux.\n\n10.\n\nwatkins,..\n\n(2015).\n\ngold fame citrus.\n\nnew york: riverhead books.\n\n11."
+        },
+        {
+          "chunk_id": 38,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 128,
+          "end_char": 504,
+          "text_length": 376,
+          "estimated_tokens": 94,
+          "text": "arrar, straus and giroux.\n\n10.\n\nwatkins,..\n\n(2015).\n\ngold fame citrus.\n\nnew york: riverhead books.\n\n11.\n\nwalmiki, omprakash.\n\n(2008).\n\nsadiaonka santap.\n\nnew delhi: goutam book centre.\n\n12.\n\n(translated by pratik kanjilal in english) 13.\n\nsathe, annabhau.\n\n(2022).\n\nfakira.\n\npune: suresh book agency.\n\n14.\n\nsathe, annabhau.\n\n(2022).\n\nwaranecha wagh.\n\npune: suresh book agency."
+        }
+      ],
+      "recursive_character": [
+        {
+          "chunk_id": 0,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 0,
+          "end_char": 570,
+          "text_length": 570,
+          "estimated_tokens": 142,
+          "text": "ijfans international journal of food and nutritional sciences issn print 2319 1775 online 2320 7876 research paper 2012 ijfans. all rights reserved, ugc care listed ( group -) journal volume 11, iss 11, dec 2022 19256 contribution of literature in sustainable development dr. uttam ramchandra patil professor head, department of english, rajarshi shahu arts commerce college, rukadi, tal. hatkanangale, dist. kolhapur (ms) india email: uttamnayanagmail.com abstract this paper is an attempt to explore the contribution of literature in promoting sustainable development."
+        },
+        {
+          "chunk_id": 1,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 469,
+          "end_char": 961,
+          "text_length": 492,
+          "estimated_tokens": 123,
+          "text": "s paper is an attempt to explore the contribution of literature in promoting sustainable development. various literary works are critically analysed to examine how literature can raise awareness about environmental issues, promote social justice, gender equity and inspire individual and collective action towards sustainability. literature can be considered as the mother of all knowledge. it is made of the life experiences. it has the power to shape our perceptions, values, and behaviors."
+        },
+        {
+          "chunk_id": 2,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 860,
+          "end_char": 1404,
+          "text_length": 544,
+          "estimated_tokens": 136,
+          "text": "it is made of the life experiences. it has the power to shape our perceptions, values, and behaviors. the united nati ons have framed 17 sustainable development goals (sdgs). literature can play  crucial role in attaining these goals as literature is closely related to culture. and both literature and culture are connected to sustainability. by investigating the connecti ons between literature, culture, and sustainability, this paper exhibits the potential of literature to contribute to  more equitable and environmentally conscious world."
+        },
+        {
+          "chunk_id": 3,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 1303,
+          "end_char": 1805,
+          "text_length": 502,
+          "estimated_tokens": 125,
+          "text": "its the potential of literature to contribute to  more equitable and environmentally conscious world. keywords: literature, sustainable development goals, environment, social justice, ge nder equity. introduction literature is  purely human phenomenon. it is  means by which human beings present their experiences, thoughts, ideas, emotions and feelings. literature is about life and the people in relation to the social, cultural, economic, political, environmental, and all the other aspects of life."
+        },
+        {
+          "chunk_id": 4,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 1704,
+          "end_char": 2153,
+          "text_length": 449,
+          "estimated_tokens": 112,
+          "text": "ation to the social, cultural, economic, political, environmental, and all the other aspects of life. it is about interpersonal as well as intrapersonal relations. it aims to entertain and educate the readers. literature educates people by making them aware about various glocal issues. the modern world has emerged with  uge rapid materialistic development which has been drastically affecting the environment al, social and economic human balance."
+        },
+        {
+          "chunk_id": 5,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 2052,
+          "end_char": 2597,
+          "text_length": 545,
+          "estimated_tokens": 136,
+          "text": "velopment which has been drastically affecting the environment al, social and economic human balance. to attain development the natural resources are being exploited to an extreme level that may damage the harmony of over -all life on the globe. that is why the uno have been putting efforts to make development sustainable. literature is the mirror of life. it presents the pressing issues of the society and tries to provide solutions to them. no doubt, literature is fictitious but it is very useful for enlightenment and awakening of people."
+        },
+        {
+          "chunk_id": 6,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 2496,
+          "end_char": 3010,
+          "text_length": 514,
+          "estimated_tokens": 128,
+          "text": ". no doubt, literature is fictitious but it is very useful for enlightenment and awakening of people. there are plenty of literary works across all the genres that highlight the sustainable development goals and make readers aware of the serious problems which have incurred due to materialistic deve lopment. some literary works discuss the influence of development on environmental, social and economic aspects of life. sustainable development is  pressing global issue, requiring immediate attention and action."
+        },
+        {
+          "chunk_id": 7,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 2909,
+          "end_char": 3464,
+          "text_length": 555,
+          "estimated_tokens": 138,
+          "text": "of life. sustainable development is  pressing global issue, requiring immediate attention and action. the united nations sdgs highlight the need for  holistic approach to sustainability, encompassing environmental, social, and economic dimensions. literature, as  powerful tool for shaping cultural narratives and influencing individual and collective behaviors, has  significant role to play in promoting sustainable development. sustainable development is  method to satisfy needs of the people today without depriving future generations of their needs."
+        },
+        {
+          "chunk_id": 8,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 3363,
+          "end_char": 3844,
+          "text_length": 481,
+          "estimated_tokens": 120,
+          "text": "is  method to satisfy needs of the people today without depriving future generations of their needs. it is an approach that balances diverse requirements against the consciousness of the enviro nmental, economic and social limitations that  society has. according to our common future which is also known as brundtland report, sustainable development is development that meets the needs of the present without compromising the ability of future generations to meet their own needs."
+        },
+        {
+          "chunk_id": 9,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 3744,
+          "end_char": 4278,
+          "text_length": 534,
+          "estimated_tokens": 133,
+          "text": "needs of the present without compromising the ability of future generations to meet their own needs. todays world has grave environmental challenges like climate change, freshwater exhaustion, deforestation, air and water pollution, and hunger. natural resources are either running out or are being polluted due to th  rapid and huge development. there is  need to utilize the earths resources sensibly and ijfans international journal of food and nutritional sciences issn print 2319 1775 online 2320 7876 research paper 2012 ijfans."
+        },
+        {
+          "chunk_id": 10,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 4178,
+          "end_char": 4614,
+          "text_length": 436,
+          "estimated_tokens": 109,
+          "text": "al of food and nutritional sciences issn print 2319 1775 online 2320 7876 research paper 2012 ijfans. all rights reserved, ugc care listed ( group -) journal volume 11, iss 11, dec 2022 19257 preserve and conserve them for the future generations. sustainable development emphasizes the improvement of human -environment interaction through prioritization of the management and protection of the natural resources for coming generations."
+        },
+        {
+          "chunk_id": 11,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 4513,
+          "end_char": 5019,
+          "text_length": 506,
+          "estimated_tokens": 126,
+          "text": "ough prioritization of the management and protection of the natural resources for coming generations. through the conservation and enhancement of our natural resources all the nations can satisfy the basic needs of employment, food, water, energy and sanitation. the natural resources can be conserved and enhanced by promoting stable economic growth, conservation of natural resources, environmental protection, social progress and equality. further, sustainable development is an attitude to development."
+        },
+        {
+          "chunk_id": 12,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 4918,
+          "end_char": 5433,
+          "text_length": 515,
+          "estimated_tokens": 128,
+          "text": "ection, social progress and equality. further, sustainable development is an attitude to development. it considers various necessities against an awareness of the environmental, social and economic limitations  society faces. it propagates the social responsibility to use the natural resources wisely and sensibly so that the balance of the nature is not disturbed. to attain this, in september, 2015 the countries under the uno adopted 17 sustainable development goals. these goals are. no poverty,. zero hunger,."
+        },
+        {
+          "chunk_id": 13,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 5332,
+          "end_char": 5856,
+          "text_length": 524,
+          "estimated_tokens": 131,
+          "text": "s under the uno adopted 17 sustainable development goals. these goals are. no poverty,. zero hunger,. good health and  ell-being,. quality education,. gender equality,. clean water and sanitation,. affordable and clean energy,. decent work and economic growth,. industry innovation and infrastruc ture, 10. reduced inequalities, 11. sustainable cities and communities, 12. responsible consumption and production, 13. climate action, 14. life below water, 15. life on land, 16. peace, justice and strong institutions, and 17."
+        },
+        {
+          "chunk_id": 14,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 5755,
+          "end_char": 6263,
+          "text_length": 508,
+          "estimated_tokens": 127,
+          "text": "e action, 14. life below water, 15. life on land, 16. peace, justice and strong institutions, and 17. partnerships for the goals. the sustainability has the three pillars, namely, environmental sustainability, social sustainabilit, and economic sustainability which cover all the goals of sustainable development. they are interconnected. literature has proved to be an effective means of promotion of matters in the society. it has been used to promote all the above mentioned sustainable development goals."
+        },
+        {
+          "chunk_id": 15,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 6162,
+          "end_char": 6679,
+          "text_length": 517,
+          "estimated_tokens": 129,
+          "text": "rs in the society. it has been used to promote all the above mentioned sustainable development goals. out of the seventeen sustainable development goals literature primarily promotes the sdgs like no poverty, zero hunger, quality ed ucation, gender equality, reduced inequalities, sustainable cities and communities, peace and justice by pointing out their actual state as prevailed in the society. the present paper is  humble attempt to consider the contribution of literature in attain ing sustainable development."
+        },
+        {
+          "chunk_id": 16,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 6578,
+          "end_char": 7152,
+          "text_length": 574,
+          "estimated_tokens": 143,
+          "text": "is  humble attempt to consider the contribution of literature in attain ing sustainable development. contribution of literature in creating environmental awareness: literature is  powerful means of creating environmental awareness. it has long been used to raise awareness about environment. literary works like rachel carson  silent spring (1962), margaret atwoods the year of the flood (2009), prabhakar pendarkars rarang dhang ( 1981 ) and dilip chitres felling of the banyan tree ( 1980 ) have highlighted the devastating impacts of human activities on the natural worl."
+        },
+        {
+          "chunk_id": 17,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 7052,
+          "end_char": 7547,
+          "text_length": 495,
+          "estimated_tokens": 123,
+          "text": "anyan tree ( 1980 ) have highlighted the devastating impacts of human activities on the natural worl. even the contemporary english novels like vander meers annihilation (2014) and claire vaye watkins gold fame citrus (2015) continue to explore and alarm the consequences of environmental degradation. let us see some details about felling of the banyan tree  famous poem by dilip chitre who was  respected and versatile indian artist. he was  popular poet. he wrote in both english and marathi."
+        },
+        {
+          "chunk_id": 18,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 7446,
+          "end_char": 7956,
+          "text_length": 510,
+          "estimated_tokens": 127,
+          "text": "s  respected and versatile indian artist. he was  popular poet. he wrote in both english and marathi. felling of the banyan tree was first published in chitres collection of poems entitled, traveling    cage in 1980. it is  free verse poem consisting of three stanzas, wi th in all twenty five lines. it  central theme is uprootedness of modern human beings. the secondary theme of the poem is the destruction of ecosystems for monetary gain in the name   progress and its impact on environment and human life."
+        },
+        {
+          "chunk_id": 19,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 7855,
+          "end_char": 8285,
+          "text_length": 430,
+          "estimated_tokens": 107,
+          "text": "of ecosystems for monetary gain in the name   progress and its impact on environment and human life. the persona tells that his father asked all the tenants to vacate their houses so that the houses could be demolished. then all the houses except one in which the personas family lived were destroyed. the personas father ord ered to fell the trees there. then all the tre es like neem, sheoga, audumbar, and others were cut down."
+        },
+        {
+          "chunk_id": 20,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 8185,
+          "end_char": 8666,
+          "text_length": 481,
+          "estimated_tokens": 120,
+          "text": "d to fell the trees there. then all the tre es like neem, sheoga, audumbar, and others were cut down. the personas grandmother suggested not to fell the trees as they are sacred and felling them is  crime but the father did not listen to her and all the trees were massacred. the word, massacre shows the beingness of trees. but felling the enormous banyan tree was  big problem as it was thrice the size of the personas house. the circumference of its trunk was about fi fty feet."
+        },
+        {
+          "chunk_id": 21,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 8565,
+          "end_char": 9095,
+          "text_length": 530,
+          "estimated_tokens": 132,
+          "text": "s it was thrice the size of the personas house. the circumference of its trunk was about fi fty feet. its aerial roots were thirty feet long and they touched the ground. it was the house for multitude of insects and birds. but the father ordered to cut the banyan tree down. ijfans international journal of food and nutritional sciences issn print 2319 1775 online 2320 7876 research paper 2012 ijfans. all rights reserved, ugc care listed ( group -) journal volume 11, iss 11, dec 2022 19258 the insects and birds were disturbed."
+        },
+        {
+          "chunk_id": 22,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 8994,
+          "end_char": 9521,
+          "text_length": 527,
+          "estimated_tokens": 131,
+          "text": "are listed ( group -) journal volume 11, iss 11, dec 2022 19258 the insects and birds were disturbed. in  way the ecosystem was disturbe. it took fifty men to fell the banyan tree whose slaughter was fearsome and fascinating. soon after that the personas family moved to bombay where there were not many trees. and the persona could see the tree in dreams only. the poem creates environmen tal awareness. it shows the difference between the serene and satisfactory greenery of trees and the jungle of cement concrete buildings."
+        },
+        {
+          "chunk_id": 23,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 9420,
+          "end_char": 9990,
+          "text_length": 570,
+          "estimated_tokens": 142,
+          "text": "ce between the serene and satisfactory greenery of trees and the jungle of cement concrete buildings. and it points out that if the trees are cut down in this way the future generations will have to see the trees only in dreams. the poem promotes the sustainable development from the environmental dimension. contribution of literature in promoting social justice: literature has two goals: to entertain and to educate. in some cases literature has been the cause of social revolutions  rupted to attain social justice which is  key dimension of sustainable development."
+        },
+        {
+          "chunk_id": 24,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 9889,
+          "end_char": 10429,
+          "text_length": 540,
+          "estimated_tokens": 135,
+          "text": "cial revolutions  rupted to attain social justice which is  key dimension of sustainable development. literary works such as neale hurstons their eyes were watching god (1937) and chinua achebes things fall apart (1958) have focused the life of marginali zed communities. similarly, works of mulk raj anand promote social justice for the downtrodden people and communities in the indian society. his novel untouchable (1981) presents the miserable life of the untouchable and provides the possible solutions   the problem of untouchability."
+        },
+        {
+          "chunk_id": 25,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 10328,
+          "end_char": 10800,
+          "text_length": 472,
+          "estimated_tokens": 118,
+          "text": "iserable life of the untouchable and provides the possible solutions   the problem of untouchability. the argument for eradicating the caste system is at the centre of the novel. it presents  day in the life of  young sweeper boy, bakha whose work is to clean latrines. the same is promoted by omprakash valmiki in his poem, what would you do? (2008). similarly, the recent novel, foreign (2013) by sonara jha is the projection of the plight of farmers in vidarbha, india."
+        },
+        {
+          "chunk_id": 26,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 10699,
+          "end_char": 11255,
+          "text_length": 556,
+          "estimated_tokens": 139,
+          "text": "nt novel, foreign (2013) by sonara jha is the projection of the plight of farmers in vidarbha, india. the novel discusses the haplessness of the farmers, their desperation and depression, the indiffe rence of government, selfishness of moneylenders, corrupt government officers, and the farmers protest. the novel successfully publicizes the agonies and plight of hapless farmers in india. jha makes indian farmers suicides  global concern. contributio  of literature in promoting gender equity: in the male -dominated society, woman is always victim ized."
+        },
+        {
+          "chunk_id": 27,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 11154,
+          "end_char": 11687,
+          "text_length": 533,
+          "estimated_tokens": 133,
+          "text": "f literature in promoting gender equity: in the male -dominated society, woman is always victim ized. she is brought up in such  way that she accepts that she is born to suffer and serve the man. literature has been exploring the life of women and their miseri es to the world and promoting gender equity so as to give justice to women. for instance, arun kolatkars portrayal of woman in his poem woman (2004) is as per the existing reality in the society. selflessness is cultivated in the woman to serve th  selfishness in the man."
+        },
+        {
+          "chunk_id": 28,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 11586,
+          "end_char": 12077,
+          "text_length": 491,
+          "estimated_tokens": 122,
+          "text": "reality in the society. selflessness is cultivated in the woman to serve th  selfishness in the man. this radical poem protests against the injustice, oppression, and exploitation done to the woman in the cruel and crafty male -dominated culture. similarly, kishor kale in his autobiography, against all odds (2000) presents the st ories of kolhati women and shows that their life is tied with ghungroos of the rich lusty men who want just to use them and throw them away like  cheap object."
+        },
+        {
+          "chunk_id": 29,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 11977,
+          "end_char": 12504,
+          "text_length": 527,
+          "estimated_tokens": 131,
+          "text": "ith ghungroos of the rich lusty men who want just to use them and throw them away like  cheap object. the book brought  kind of reformation in the kolhati women and many of them started taking edu cation and change their hellish life. conclusion: to conclude, literature has  vital role to play in promoting sustainable development. it can raise awareness about en vironmental issues. it is an effective tool to promote social justice and gender equity. it can contribute to  more equitable and environmentally conscious world."
+        },
+        {
+          "chunk_id": 30,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 12403,
+          "end_char": 12915,
+          "text_length": 512,
+          "estimated_tokens": 128,
+          "text": "justice and gender equity. it can contribute to  more equitable and environmentally conscious world. as the world contends with the challenges of sustainability, literature can serve as  power ful tool for shaping cultural narratives and influencing individual and collective behaviours. references:. http:www.un -documents.netour -common -future.pdf. anand, mulk raj. (1981). untouch able. new delhi: arnold publishers.. atwood,. (2009). the year of the flood. toronto: mcclelland and stewart.. carson,. (1962)."
+        },
+        {
+          "chunk_id": 31,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 12815,
+          "end_char": 13330,
+          "text_length": 515,
+          "estimated_tokens": 128,
+          "text": "blishers.. atwood,. (2009). the year of the flood. toronto: mcclelland and stewart.. carson,. (1962). silent spring. boston: houghton miffin. ijfans international journal of food and nutritional sciences issn print 2319 1775 online 2320 7876 research paper 2012 ijfans. all rights reserved, ugc care listed ( group -) journal volume 11, iss 11, dec 2022 19259. kale, kishor. (2000). against all odds. trans. by sandhya pandey from marathi autobiography (kolhatyache por). new delhi: penguin. print.. kolatkar, arun."
+        },
+        {
+          "chunk_id": 32,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 13229,
+          "end_char": 13734,
+          "text_length": 505,
+          "estimated_tokens": 126,
+          "text": "dhya pandey from marathi autobiography (kolhatyache por). new delhi: penguin. print.. kolatkar, arun. (2004). woman. twelve modern indian poets, ed... mehrotra, new delhi: oxford university press.. jha, sonora.(2013). foeign. noida: random house publishers india pvt.. pendhakar,. (1981). rarang dhang. mumbai: mouj prakashan gruh.. vander meer,. (2014). annihilation. new york: farrar, straus and giroux. 10. watkins,.. (2015). gold fame citrus. new york: riverhead books. 11. walmiki, omprakash. (2008)."
+        },
+        {
+          "chunk_id": 33,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 13633,
+          "end_char": 13964,
+          "text_length": 331,
+          "estimated_tokens": 82,
+          "text": ". 10. watkins,.. (2015). gold fame citrus. new york: riverhead books. 11. walmiki, omprakash. (2008). sadiaonka santap. new delhi: goutam book centre. 12. (translated by pratik kanjilal in english) 13. sathe, annabhau. (2022). fakira. pune: suresh book agency. 14. sathe, annabhau. (2022). waranecha wagh. pune: suresh book agency."
+        }
+      ]
+    }
+  },
+  "chunking_success": true
+}

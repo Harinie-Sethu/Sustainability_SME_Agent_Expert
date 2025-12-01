@@ -1,0 +1,16 @@
+{
+  "total": 20,
+  "positive": 10,
+  "negative": 0,
+  "avg_rating": 4.5,
+  "common_improvements": [
+    [
+      "Include more examples",
+      10
+    ],
+    [
+      "Provide more detailed explanations",
+      10
+    ]
+  ]
+}

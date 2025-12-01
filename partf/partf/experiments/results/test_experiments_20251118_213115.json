@@ -1,0 +1,382 @@
+{
+  "metadata": {
+    "started": "2025-11-18T21:27:15.177998",
+    "llm_model": "gemini-2.0-flash"
+  },
+  "experiments": {
+    "prompt_variants_qa": {
+      "task": "qa",
+      "variants": [
+        "basic",
+        "contextual",
+        "chain_of_thought",
+        "structured",
+        "with_confidence"
+      ],
+      "test_cases": [
+        {
+          "input": {
+            "question": "What is renewable energy?"
+          },
+          "prompt": "Question: What is renewable energy?\n\nAnswer:",
+          "expected_output": "renewable energy is energy from sources that replenish naturally"
+        },
+        {
+          "input": {
+            "question": "How does composting help the environment?"
+          },
+          "prompt": "Question: How does composting help the environment?\n\nAnswer:",
+          "expected_output": "composting reduces waste reduces methane soil enrichment"
+        }
+      ],
+      "variant_results": {
+        "basic": [
+          {
+            "success": true,
+            "task": "qa",
+            "variant": "basic",
+            "prompt": "Answer the following question about sustainability and environment:\n\nQuestion: What is renewable energy?\n\nAnswer:",
+            "output": "Renewable energy is energy that comes from sources that are naturally replenished on a human timescale, such as sunlight, wind, rain, tides, and geothermal heat. Unlike fossil fuels, which are finite resources, renewable energy sources are essentially inexhaustible and produce little to no greenhouse gas emissions during operation.\n",
+            "execution_time": 6.456891298294067,
+            "temperature": 0.7,
+            "max_tokens": 1000,
+            "timestamp": "2025-11-18T21:27:26.639952",
+            "match_score": 0.875
+          },
+          {
+            "success": true,
+            "task": "qa",
+            "variant": "basic",
+            "prompt": "Answer the following question about sustainability and environment:\n\nQuestion: How does composting help the environment?\n\nAnswer:",
+            "output": "Composting helps the environment in several key ways:\n\n*   **Reduces Landfill Waste:** Composting diverts organic waste (food scraps, yard waste) from landfills. Landfills are filling up, and organic waste in landfills decomposes anaerobically (without oxygen), producing methane, a potent greenhouse gas.\n\n*   **Reduces Greenhouse Gas Emissions:** By diverting organic waste from landfills, composting reduces methane emissions. It also reduces the need for transporting waste to landfills, further lowering emissions from trucks.\n\n*   **Enriches Soil:** Compost is a valuable soil amendment. It improves soil structure, water retention, and aeration, making it easier for plants to grow.\n\n*   **Reduces the Need for Chemical Fertilizers:** Healthy soil enriched with compost requires less chemical fertilizer. Chemical fertilizers can pollute waterways and damage soil health.\n\n*   **Conserves Water:** Compost helps soil retain moisture, reducing the need for watering.\n\n*   **Supports Biodiversity:** Healthy soil supports a greater diversity of beneficial soil organisms, contributing to a healthier ecosystem.\n\n*   **Reduces Reliance on Incineration:** Composting provides an alternative to waste incineration, which can release harmful pollutants into the air.\n",
+            "execution_time": 7.701655149459839,
+            "temperature": 0.7,
+            "max_tokens": 1000,
+            "timestamp": "2025-11-18T21:27:39.347477",
+            "match_score": 0.8333333333333334
+          }
+        ],
+        "contextual": [
+          {
+            "success": true,
+            "task": "qa",
+            "variant": "contextual",
+            "prompt": "You are an expert in Environmental Sustainability.\n\nContext: Environmental sustainability and climate change\n\nQuestion: What is renewable energy?\n\nProvide a clear, accurate answer based on the context above:",
+            "output": "Renewable energy is energy that comes from sources that are naturally replenished on a human timescale, such as sunlight, wind, rain, tides, and geothermal heat. These sources are virtually inexhaustible, unlike fossil fuels, which are finite resources that take millions of years to form. Because renewable energy sources are constantly replenished, they offer a more sustainable alternative to traditional energy sources and play a crucial role in mitigating climate change by reducing greenhouse gas emissions. They are a key component of environmental sustainability efforts.\n",
+            "execution_time": 7.354727506637573,
+            "temperature": 0.7,
+            "max_tokens": 1000,
+            "timestamp": "2025-11-18T21:27:46.702473",
+            "match_score": 0.875
+          },
+          {
+            "success": true,
+            "task": "qa",
+            "variant": "contextual",
+            "prompt": "You are an expert in Environmental Sustainability.\n\nContext: Environmental sustainability and climate change\n\nQuestion: How does composting help the environment?\n\nProvide a clear, accurate answer based on the context above:",
+            "output": "Composting significantly benefits the environment in several key ways:\n\n*   **Reduces Landfill Waste:** Composting diverts organic waste (food scraps, yard waste) from landfills. Landfills are a major source of methane, a potent greenhouse gas contributing to climate change. By composting, we reduce the amount of waste decomposing anaerobically (without oxygen) in landfills, thus lowering methane emissions.\n\n*   **Enriches Soil:** Compost acts as a natural fertilizer and soil amendment. It improves soil structure, aeration, and water retention. This leads to healthier plant growth and reduces the need for synthetic fertilizers, which are often produced using fossil fuels and can contribute to water pollution.\n\n*   **Reduces the Need for Synthetic Fertilizers:** As mentioned above, compost provides essential nutrients to plants, reducing or eliminating the need for synthetic fertilizers. The production and transportation of synthetic fertilizers are energy-intensive and contribute to greenhouse gas emissions. Their use can also lead to nutrient runoff, polluting waterways.\n\n*   **Sequestering Carbon:** Compost can help sequester carbon in the soil. Healthy soil with high organic matter content acts as a carbon sink, removing carbon dioxide from the atmosphere and storing it long-term.\n\n*   **Reduces the Need for Pesticides:** Healthy soil, amended with compost, leads to stronger, more resilient plants that are less susceptible to pests and diseases. This reduces the need for harmful pesticides, which can negatively impact biodiversity and human health.\n\n*   **Conserves Water:** Compost-amended soil retains more water, reducing the need for irrigation. This conserves precious water resources, particularly important in drought-prone areas.\n\nIn summary, composting is a valuable practice for environmental sustainability because it reduces waste, improves soil health, reduces reliance on synthetic inputs, sequesters carbon, and conserves resources. It is a simple yet effective way for individuals and communities to contribute to a more sustainable future and mitigate the impacts of climate change.\n",
+            "execution_time": 8.619579553604126,
+            "temperature": 0.7,
+            "max_tokens": 1000,
+            "timestamp": "2025-11-18T21:28:00.323501",
+            "match_score": 0.8333333333333334
+          }
+        ],
+        "chain_of_thought": [
+          {
+            "success": true,
+            "task": "qa",
+            "variant": "chain_of_thought",
+            "prompt": "You are an expert in Environmental Sustainability.\n\nQuestion: What is renewable energy?\n\nLet's think step by step:\n1. First, understand what is being asked\n2. Identify the key concepts involved\n3. Connect relevant information\n4. Provide a comprehensive answer\n\nAnswer:",
+            "output": "Okay, let's break down the question \"What is renewable energy?\" and craft a comprehensive answer from the perspective of an environmental sustainability expert.\n\n**1. Understanding the Question:**\n\nThe question is straightforward: it seeks a definition of \"renewable energy.\" However, a good answer goes beyond a simple dictionary definition and explains *why* it's important, how it differs from other energy sources, and some common examples.\n\n**2. Key Concepts Involved:**\n\n*   **Energy:** The capacity to do work. In this context, we're talking about energy that powers our homes, businesses, transportation, and industries.\n*   **Renewable:**  The crucial concept.  It refers to something that is naturally replenished or inexhaustible on a human timescale. This is the opposite of finite or exhaustible.\n*   **Sustainability:**  A key underlying principle. Renewable energy is inherently linked to environmental sustainability because it aims to meet present energy needs without compromising the ability of future generations to meet their own.\n*   **Resources:** The natural sources from which energy is derived.\n*   **Environment:** The surroundings or conditions in which a person, animal, or plant lives or operates.\n\n**3. Connecting Relevant Information:**\n\n*   **Fossil Fuels vs. Renewables:**  It's helpful to contrast renewable energy with non-renewable energy sources, primarily fossil fuels (coal, oil, natural gas). Fossil fuels are finite resources that take millions of years to form. Burning them releases greenhouse gases, contributing to climate change.\n*   **Types of Renewable Energy:** Solar, wind, hydro, geothermal, and biomass are the primary types. Each has its own characteristics, advantages, and disadvantages.\n*   **Environmental Impact:** Renewable energy generally has a significantly lower environmental impact than fossil fuels. However, it's important to acknowledge that even renewable energy sources can have some environmental consequences (e.g., habitat disruption from wind farms or large-scale hydro).\n*   **Technological Advancements:** The field of renewable energy is constantly evolving, with new technologies and improvements in efficiency emerging regularly.\n*   **Economic Considerations:** The cost of renewable energy technologies has decreased dramatically in recent years, making them increasingly competitive with fossil fuels.\n*   **Policy and Regulation:** Government policies and regulations play a crucial role in promoting the development and deployment of renewable energy.\n\n**4. Comprehensive Answer:**\n\nRenewable energy, also known as clean energy, is energy derived from natural processes that are replenished at a rate equal to or faster than they are consumed.  This means these energy sources are essentially inexhaustible on a human timescale, unlike finite fossil fuels such as coal, oil, and natural gas. The key characteristic of renewable energy is its sustainability; it aims to meet our present energy needs without compromising the ability of future generations to meet their own.\n\nSeveral sources fall under the umbrella of renewable energy, including:\n\n*   **Solar Energy:** Harnessing the power of the sun through photovoltaic (PV) panels or concentrated solar power (CSP) systems.\n*   **Wind Energy:** Utilizing wind turbines to convert wind's kinetic energy into electricity.\n*   **Hydropower:** Generating electricity from the flow of water, typically through dams and reservoirs (large-scale hydro) or run-of-river systems (small-scale hydro).\n*   **Geothermal Energy:** Tapping into the Earth's internal heat for heating, cooling, and electricity generation.\n*   **Biomass Energy:** Burning organic matter, such as wood, crops, and waste, for heat or electricity.  It can also be converted into biofuels.\n*   **Tidal Energy:** Capturing the energy of tides to generate electricity.\n*   **Wave Energy:** Harnessing the power of ocean waves to generate electricity.\n\nThe transition to renewable energy is a critical component of a sustainable future. Compared to fossil fuels, renewable energy sources generally produce significantly lower greenhouse gas emissions and air pollutants, mitigating climate change and improving air quality. While renewable energy technologies can have some environmental impacts (e.g., land use, visual impacts), these are generally less severe than those associated with fossil fuels.\n\nFurthermore, advancements in renewable energy technologies are continuously improving their efficiency and reducing their costs. Government policies, such as tax incentives, subsidies, and renewable energy mandates, are essential for accelerating the deployment of renewable energy and creating a cleaner, more sustainable energy system.  The growth of renewable energy also fosters energy independence, creates new jobs, and stimulates economic growth. Ultimately, renewable energy is a cornerstone of a sustainable and resilient energy future.\n",
+            "execution_time": 12.09458303451538,
+            "temperature": 0.7,
+            "max_tokens": 1000,
+            "timestamp": "2025-11-18T21:28:12.418348",
+            "match_score": 0.875
+          },
+          {
+            "success": true,
+            "task": "qa",
+            "variant": "chain_of_thought",
+            "prompt": "You are an expert in Environmental Sustainability.\n\nQuestion: How does composting help the environment?\n\nLet's think step by step:\n1. First, understand what is being asked\n2. Identify the key concepts involved\n3. Connect relevant information\n4. Provide a comprehensive answer\n\nAnswer:",
+            "output": "Okay, let's break down how composting helps the environment.\n\n1. **Understanding the Question:** The question asks for a comprehensive explanation of the environmental benefits of composting. This requires identifying the various ways composting positively impacts the environment, from reducing waste to improving soil health and mitigating climate change.\n\n2. **Key Concepts Involved:**\n\n*   **Composting:** The natural biological process of decomposing organic matter (food scraps, yard waste, etc.) into a nutrient-rich soil amendment called compost.\n*   **Waste Reduction:** Diverting organic waste from landfills and incinerators.\n*   **Soil Health:** Improving soil structure, fertility, and water retention.\n*   **Greenhouse Gas Emissions:** Reducing emissions of methane (CH4) and carbon dioxide (CO2) associated with waste disposal and fertilizer production.\n*   **Nutrient Cycling:** Returning essential nutrients to the soil.\n*   **Water Conservation:** Improved soil water retention reduces the need for irrigation.\n*   **Reduced Need for Chemical Fertilizers:** Compost provides natural nutrients, reducing reliance on synthetic fertilizers.\n\n3. **Connecting Relevant Information:**\n\n*   **Landfill Diversion:** When organic waste is sent to landfills, it decomposes anaerobically (without oxygen). This process produces methane, a potent greenhouse gas significantly more impactful than carbon dioxide in the short term. Composting, being an aerobic process, significantly reduces methane production.\n*   **Soil Improvement:** Compost acts as a natural soil amendment. It improves soil structure, making it easier for plants to grow. It increases water retention, reducing the need for irrigation, and improves drainage, preventing waterlogging. It also improves aeration, allowing roots to breathe.\n*   **Nutrient Recycling:** Compost returns essential nutrients like nitrogen, phosphorus, and potassium to the soil in a slow-release form, making them available to plants. This reduces the need for synthetic fertilizers, which can have negative environmental impacts such as water pollution (eutrophication) and greenhouse gas emissions during their production.\n*   **Reduced Fertilizer Use:** The production of synthetic fertilizers is energy-intensive and contributes to greenhouse gas emissions. By using compost, we can reduce our reliance on these fertilizers, thus lowering our carbon footprint.\n*   **Carbon Sequestration:** Healthy soil acts as a carbon sink. By improving soil health through composting, we can enhance its ability to store carbon from the atmosphere, helping to mitigate climate change.\n*   **Reduced Pesticide Use:** Healthy, compost-amended soil supports stronger, healthier plants that are more resistant to pests and diseases, potentially reducing the need for pesticides.\n*   **Water Conservation:** Compost-amended soil retains more water, reducing the need for irrigation and conserving water resources.\n*   **Reduced Incineration:** Composting also reduces the need to incinerate organic waste, which can release harmful pollutants into the air.\n\n4. **Comprehensive Answer:**\n\nComposting offers a multitude of environmental benefits, making it a crucial practice for sustainability:\n\n*   **Reduces Landfill Waste and Greenhouse Gas Emissions:** By diverting organic waste from landfills, composting significantly reduces the production of methane, a potent greenhouse gas produced during anaerobic decomposition. This helps combat climate change. It also extends the lifespan of landfills.\n*   **Improves Soil Health:** Compost acts as a natural soil amendment, improving soil structure, water retention, aeration, and drainage. This leads to healthier plants, reduced erosion, and increased carbon sequestration.\n*   **Reduces the Need for Synthetic Fertilizers:** Compost provides plants with essential nutrients in a slow-release form, reducing the reliance on synthetic fertilizers. Synthetic fertilizers are energy-intensive to produce, contribute to greenhouse gas emissions, and can cause water pollution through runoff.\n*   **Conserves Water:** Compost-amended soil holds more water, reducing the need for irrigation and conserving precious water resources.\n*   **Supports Biodiversity:** Healthy soil, enriched by compost, supports a diverse range of beneficial soil organisms, contributing to a thriving ecosystem.\n*   **Reduces Pesticide Use:** Healthier plants grown in compost-amended soil are more resistant to pests and diseases, potentially reducing the need for harmful pesticides.\n*   **Reduces Air Pollution:** By reducing the need for incineration, composting helps to improve air quality.\n*   **Promotes a Circular Economy:** Composting closes the loop by turning waste into a valuable resource, promoting a more sustainable and circular economy.\n\nIn conclusion, composting is a powerful tool for promoting environmental sustainability by reducing waste, improving soil health, mitigating climate change, conserving resources, and fostering a more sustainable relationship with our planet.\n",
+            "execution_time": 12.274641036987305,
+            "temperature": 0.7,
+            "max_tokens": 1000,
+            "timestamp": "2025-11-18T21:28:29.698606",
+            "match_score": 0.8333333333333334
+          }
+        ],
+        "structured": [
+          {
+            "success": true,
+            "task": "qa",
+            "variant": "structured",
+            "prompt": "Question: What is renewable energy?\n\nProvide a structured answer in the following format:\n\n**Overview**: Brief 1-2 sentence overview\n\n**Key Points**:\n- Point 1\n- Point 2\n- Point 3\n\n**Explanation**: Detailed explanation\n\n**Actionable Insights**: What can be done about this\n\nAnswer:",
+            "output": "**Overview**: Renewable energy is energy derived from natural processes that are replenished at a higher rate than they are consumed. These sources are considered sustainable and environmentally friendly.\n\n**Key Points**:\n- Replenishable: They naturally replenish themselves over a relatively short period.\n- Sustainable: They provide a long-term energy solution with minimal environmental impact.\n- Diverse Sources: Includes various technologies harnessing different natural resources.\n\n**Explanation**: Renewable energy sources are constantly replenished by nature, unlike fossil fuels which are finite and take millions of years to form. Examples include solar energy from the sun, wind energy from the wind, hydropower from moving water, geothermal energy from the Earth's internal heat, and biomass energy from organic matter. The \"renewable\" aspect means that these resources will not run out in the foreseeable future, making them a sustainable alternative to traditional energy sources. Their minimal environmental impact stems from producing significantly less greenhouse gas emissions compared to fossil fuels, aiding in mitigating climate change. The diversity of renewable energy sources allows for localized energy production and reduces reliance on centralized power grids.\n\n**Actionable Insights**:\n- Support policies that incentivize the development and deployment of renewable energy technologies.\n- Invest in renewable energy solutions for your home or business, such as solar panels or geothermal heating.\n- Advocate for the transition to a cleaner energy future by educating others about the benefits of renewable energy.\n",
+            "execution_time": 7.98897910118103,
+            "temperature": 0.7,
+            "max_tokens": 1000,
+            "timestamp": "2025-11-18T21:28:37.687899",
+            "match_score": 1.0
+          },
+          {
+            "success": true,
+            "task": "qa",
+            "variant": "structured",
+            "prompt": "Question: How does composting help the environment?\n\nProvide a structured answer in the following format:\n\n**Overview**: Brief 1-2 sentence overview\n\n**Key Points**:\n- Point 1\n- Point 2\n- Point 3\n\n**Explanation**: Detailed explanation\n\n**Actionable Insights**: What can be done about this\n\nAnswer:",
+            "output": "**Overview**: Composting is a natural recycling process that transforms organic waste into a valuable soil amendment, providing numerous environmental benefits. It reduces landfill waste, improves soil health, and mitigates greenhouse gas emissions.\n\n**Key Points**:\n- Reduces Landfill Waste\n- Improves Soil Health\n- Mitigates Greenhouse Gas Emissions\n\n**Explanation**:\n\n*   **Reduces Landfill Waste**: A significant portion of household waste consists of organic materials like food scraps, yard waste, and paper products. When these materials end up in landfills, they take up valuable space and decompose anaerobically (without oxygen). This process produces methane, a potent greenhouse gas. Composting diverts these organic materials from landfills, extending their lifespan and reducing methane production.\n\n*   **Improves Soil Health**: Compost acts as a natural soil amendment, enriching the soil with essential nutrients and improving its structure. It increases the soil's water-holding capacity, reducing the need for irrigation. Compost also improves aeration, allowing plant roots to breathe more easily. Furthermore, it introduces beneficial microorganisms to the soil, which help to suppress plant diseases and promote healthy plant growth. By using compost, we can reduce our reliance on synthetic fertilizers, which can have negative environmental impacts.\n\n*   **Mitigates Greenhouse Gas Emissions**: Composting itself, when done properly, is an aerobic process, meaning it occurs in the presence of oxygen. Aerobic decomposition produces primarily carbon dioxide, which is a less potent greenhouse gas than methane. Furthermore, healthy soil that is amended with compost sequesters carbon from the atmosphere, effectively acting as a carbon sink. By using compost in our gardens and landscapes, we can help to mitigate climate change.\n\n**Actionable Insights**:\n\n*   **Start Composting at Home:** Implement a backyard composting system or use a vermicomposting bin (worm composting) for food scraps.\n*   **Support Municipal Composting Programs:** Advocate for and participate in local composting programs offered by your city or county.\n*   **Use Compost in Gardens and Landscapes:** Amend garden beds, lawns, and potted plants with compost to improve soil health and reduce the need for chemical fertilizers.\n*   **Educate Others:** Share the benefits of composting with friends, family, and neighbors to encourage wider adoption of this sustainable practice.\n",
+            "execution_time": 9.05397367477417,
+            "temperature": 0.7,
+            "max_tokens": 1000,
+            "timestamp": "2025-11-18T21:28:51.747486",
+            "match_score": 0.8333333333333334
+          }
+        ],
+        "with_confidence": [
+          {
+            "success": true,
+            "task": "qa",
+            "variant": "with_confidence",
+            "prompt": "Question: What is renewable energy?\n\nAnswer this question and indicate your confidence level (High/Medium/Low).\n\nFormat:\nAnswer: [your answer]\nConfidence: [High/Medium/Low]\nReasoning: [why this confidence level]\n\nResponse:",
+            "output": "Answer: Renewable energy is energy that comes from sources that are naturally replenished, such as sunlight, wind, rain, tides, and geothermal heat. These sources are considered renewable because they are not depleted by use, unlike fossil fuels.\n\nConfidence: High\nReasoning: This definition aligns with widely accepted scientific and governmental definitions of renewable energy. I have a strong understanding of the key characteristics of renewable resources.\n",
+            "execution_time": 6.2967212200164795,
+            "temperature": 0.7,
+            "max_tokens": 1000,
+            "timestamp": "2025-11-18T21:28:58.044465",
+            "match_score": 0.875
+          },
+          {
+            "success": true,
+            "task": "qa",
+            "variant": "with_confidence",
+            "prompt": "Question: How does composting help the environment?\n\nAnswer this question and indicate your confidence level (High/Medium/Low).\n\nFormat:\nAnswer: [your answer]\nConfidence: [High/Medium/Low]\nReasoning: [why this confidence level]\n\nResponse:",
+            "output": "Answer: Composting helps the environment in several ways. Firstly, it reduces the amount of waste sent to landfills, which decreases methane emissions (a potent greenhouse gas) produced during decomposition in landfills. Secondly, compost can be used as a natural fertilizer and soil amendment, enriching the soil with nutrients and reducing the need for synthetic fertilizers, which can pollute waterways and damage soil health. Finally, composting improves soil structure, increasing its ability to retain water and reducing erosion.\n\nConfidence: High\n\nReasoning: I have a strong understanding of the composting process and its environmental benefits, having learned about it through various sources including scientific articles, educational websites, and personal experience. The points I've mentioned are well-established facts about composting's impact.\n",
+            "execution_time": 6.711162328720093,
+            "temperature": 0.7,
+            "max_tokens": 1000,
+            "timestamp": "2025-11-18T21:29:09.761256",
+            "match_score": 0.8333333333333334
+          }
+        ]
+      },
+      "summary": {
+        "basic": {
+          "success_rate": 1.0,
+          "avg_execution_time": 7.079273223876953,
+          "avg_match_score": 0.8541666666666667
+        },
+        "contextual": {
+          "success_rate": 1.0,
+          "avg_execution_time": 7.98715353012085,
+          "avg_match_score": 0.8541666666666667
+        },
+        "chain_of_thought": {
+          "success_rate": 1.0,
+          "avg_execution_time": 12.184612035751343,
+          "avg_match_score": 0.8541666666666667
+        },
+        "structured": {
+          "success_rate": 1.0,
+          "avg_execution_time": 8.5214763879776,
+          "avg_match_score": 0.9166666666666667
+        },
+        "with_confidence": {
+          "success_rate": 1.0,
+          "avg_execution_time": 6.503941774368286,
+          "avg_match_score": 0.8541666666666667
+        }
+      },
+      "best_variant": {
+        "name": "structured",
+        "metrics": {
+          "success_rate": 1.0,
+          "avg_execution_time": 8.5214763879776,
+          "avg_match_score": 0.9166666666666667
+        }
+      }
+    },
+    "few_shot_qa": {
+      "task": "qa",
+      "shot_counts": [
+        0,
+        1,
+        3
+      ],
+      "results": {
+        "0": {
+          "success_rate": 1.0,
+          "avg_time": 2.35367751121521,
+          "results": [
+            {
+              "success": true,
+              "task": "qa",
+              "num_shots": 0,
+              "prompt": "Here are some examples:\n\n\nNow process this input:\nInput: {'question': 'What is renewable energy?'}\nOutput:",
+              "output": "{'answer': 'Renewable energy is energy that comes from sources that are naturally replenished, such as sunlight, wind, rain, tides, and geothermal heat.'}\n",
+              "execution_time": 2.013638734817505,
+              "timestamp": "2025-11-18T21:29:26.791179",
+              "match_score": 0.75
+            },
+            {
+              "success": true,
+              "task": "qa",
+              "num_shots": 0,
+              "prompt": "Here are some examples:\n\n\nNow process this input:\nInput: {'question': 'How does composting help the environment?'}\nOutput:",
+              "output": "Composting helps the environment by:\n\n*   **Reducing landfill waste:** Organic waste like food scraps and yard waste takes up a significant portion of landfill space. Composting diverts this waste, extending the lifespan of landfills and reducing the need for new ones.\n\n*   **Reducing greenhouse gas emissions:** When organic waste decomposes in landfills, it produces methane, a potent greenhouse gas. Composting, especially when done aerobically, significantly reduces methane production.\n\n*   **Improving soil health:** Compost acts as a natural fertilizer, enriching the soil with nutrients and improving its structure, water retention, and aeration. This reduces the need for synthetic fertilizers, which can have negative environmental impacts.\n\n*   **Reducing the need for chemical fertilizers and pesticides:** Healthy soil from compost supports stronger plant growth, making plants less susceptible to diseases and pests. This can reduce the reliance on synthetic fertilizers and pesticides.\n\n*   **Conserving water:** Compost helps soil retain water, reducing the need for irrigation.\n",
+              "execution_time": 2.693716287612915,
+              "timestamp": "2025-11-18T21:29:29.485043",
+              "match_score": 0.8333333333333334
+            }
+          ]
+        },
+        "1": {
+          "success_rate": 1.0,
+          "avg_time": 1.786590337753296,
+          "results": [
+            {
+              "success": true,
+              "task": "qa",
+              "num_shots": 1,
+              "prompt": "Here are some examples:\n\n\nExample 1:\nInput: What is renewable energy?\nOutput: Renewable energy is energy derived from natural sources that replenish themselves over short periods of time, such as solar radiation, wind, rain, tides, and geothermal heat. Unlike fossil fuels, which take millions of years to form, renewable energy sources are naturally and continuously renewed. The key advantage is that they produce little to no greenhouse gas emissions, making them crucial for combating climate change. Common types include solar power (from sunlight), wind power (from air movement), hydroelectric power (from flowing water), geothermal energy (from Earth's heat), and biomass energy (from organic materials).\n\n\nNow process this input:\nInput: {'question': 'What is renewable energy?'}\nOutput:",
+              "output": "```json\n{\n  \"answer\": \"Renewable energy is energy derived from natural sources that replenish themselves over short periods, such as solar radiation, wind, rain, tides, and geothermal heat. Unlike fossil fuels, which take millions of years to form, renewable energy sources are naturally and continuously renewed. A key advantage is their minimal to zero greenhouse gas emissions, making them crucial for combating climate change. Common types include solar power (from sunlight), wind power (from air movement), hydroelectric power (from flowing water), geothermal energy (from Earth's heat), and biomass energy (from organic materials).\"\n}\n```\n",
+              "execution_time": 1.873840570449829,
+              "timestamp": "2025-11-18T21:29:36.364510",
+              "match_score": 1.0
+            },
+            {
+              "success": true,
+              "task": "qa",
+              "num_shots": 1,
+              "prompt": "Here are some examples:\n\n\nExample 1:\nInput: What is renewable energy?\nOutput: Renewable energy is energy derived from natural sources that replenish themselves over short periods of time, such as solar radiation, wind, rain, tides, and geothermal heat. Unlike fossil fuels, which take millions of years to form, renewable energy sources are naturally and continuously renewed. The key advantage is that they produce little to no greenhouse gas emissions, making them crucial for combating climate change. Common types include solar power (from sunlight), wind power (from air movement), hydroelectric power (from flowing water), geothermal energy (from Earth's heat), and biomass energy (from organic materials).\n\n\nNow process this input:\nInput: {'question': 'How does composting help the environment?'}\nOutput:",
+              "output": "Composting helps the environment in several ways. Firstly, it diverts organic waste from landfills, reducing methane emissions, a potent greenhouse gas produced during decomposition in oxygen-deprived landfill conditions. Secondly, compost acts as a natural fertilizer, enriching soil with nutrients and reducing the need for synthetic fertilizers, which can pollute waterways and require energy-intensive production. Thirdly, compost improves soil structure, enhancing water retention and reducing soil erosion. Fourthly, it can help to sequester carbon in the soil, further mitigating climate change. In short, composting reduces waste, improves soil health, and helps mitigate climate change.\n",
+              "execution_time": 1.6993401050567627,
+              "timestamp": "2025-11-18T21:29:38.064022",
+              "match_score": 0.8333333333333334
+            }
+          ]
+        },
+        "3": {
+          "success_rate": 1.0,
+          "avg_time": 1.6177071332931519,
+          "results": [
+            {
+              "success": true,
+              "task": "qa",
+              "num_shots": 3,
+              "prompt": "Here are some examples:\n\n\nExample 1:\nInput: What is renewable energy?\nOutput: Renewable energy is energy derived from natural sources that replenish themselves over short periods of time, such as solar radiation, wind, rain, tides, and geothermal heat. Unlike fossil fuels, which take millions of years to form, renewable energy sources are naturally and continuously renewed. The key advantage is that they produce little to no greenhouse gas emissions, making them crucial for combating climate change. Common types include solar power (from sunlight), wind power (from air movement), hydroelectric power (from flowing water), geothermal energy (from Earth's heat), and biomass energy (from organic materials).\n\n\nExample 2:\nInput: How does composting help the environment?\nOutput: Composting benefits the environment in several ways: (1) It reduces landfill waste by diverting organic materials that would otherwise decompose anaerobically and produce methane, a potent greenhouse gas. (2) It creates nutrient-rich soil amendment that reduces the need for chemical fertilizers, which require significant energy to produce and can pollute waterways. (3) Compost-enriched soil retains more water, reducing irrigation needs. (4) It supports soil biodiversity by providing habitat for beneficial microorganisms. (5) By completing the natural nutrient cycle, composting reduces our carbon footprint and supports sustainable agriculture.\n\n\nExample 3:\nInput: What causes ocean acidification?\nOutput: Ocean acidification is primarily caused by the ocean's absorption of excess carbon dioxide (CO2) from the atmosphere. When CO2 dissolves in seawater, it forms carbonic acid, which lowers the ocean's pH level, making it more acidic. Since the Industrial Revolution, the ocean has absorbed about 30% of human-produced CO2 emissions. This process reduces the availability of carbonate ions, which marine organisms like corals, mollusks, and some plankton need to build their calcium carbonate shells and skeletons. The current rate of acidification is approximately 10 times faster than any period in the last 55 million years, posing severe threats to marine ecosystems and the food chains that depend on them.\n\n\nNow process this input:\nInput: {'question': 'What is renewable energy?'}\nOutput:",
+              "output": "Renewable energy is energy derived from natural processes that are replenished at a higher rate than they are consumed. Sunlight, wind, water (hydro, tides, waves), and geothermal heat are common sources. Unlike fossil fuels, which are finite and take millions of years to form, renewable energy sources are virtually inexhaustible. A major advantage is their low or zero greenhouse gas emissions during operation, making them vital for mitigating climate change. Different types include solar power (photovoltaics, solar thermal), wind power (wind turbines), hydropower (dams, run-of-river), geothermal energy (direct use, geothermal power plants), and biomass energy (biofuels, biogas, direct combustion).\n",
+              "execution_time": 1.8607919216156006,
+              "timestamp": "2025-11-18T21:29:44.930271",
+              "match_score": 0.75
+            },
+            {
+              "success": true,
+              "task": "qa",
+              "num_shots": 3,
+              "prompt": "Here are some examples:\n\n\nExample 1:\nInput: What is renewable energy?\nOutput: Renewable energy is energy derived from natural sources that replenish themselves over short periods of time, such as solar radiation, wind, rain, tides, and geothermal heat. Unlike fossil fuels, which take millions of years to form, renewable energy sources are naturally and continuously renewed. The key advantage is that they produce little to no greenhouse gas emissions, making them crucial for combating climate change. Common types include solar power (from sunlight), wind power (from air movement), hydroelectric power (from flowing water), geothermal energy (from Earth's heat), and biomass energy (from organic materials).\n\n\nExample 2:\nInput: How does composting help the environment?\nOutput: Composting benefits the environment in several ways: (1) It reduces landfill waste by diverting organic materials that would otherwise decompose anaerobically and produce methane, a potent greenhouse gas. (2) It creates nutrient-rich soil amendment that reduces the need for chemical fertilizers, which require significant energy to produce and can pollute waterways. (3) Compost-enriched soil retains more water, reducing irrigation needs. (4) It supports soil biodiversity by providing habitat for beneficial microorganisms. (5) By completing the natural nutrient cycle, composting reduces our carbon footprint and supports sustainable agriculture.\n\n\nExample 3:\nInput: What causes ocean acidification?\nOutput: Ocean acidification is primarily caused by the ocean's absorption of excess carbon dioxide (CO2) from the atmosphere. When CO2 dissolves in seawater, it forms carbonic acid, which lowers the ocean's pH level, making it more acidic. Since the Industrial Revolution, the ocean has absorbed about 30% of human-produced CO2 emissions. This process reduces the availability of carbonate ions, which marine organisms like corals, mollusks, and some plankton need to build their calcium carbonate shells and skeletons. The current rate of acidification is approximately 10 times faster than any period in the last 55 million years, posing severe threats to marine ecosystems and the food chains that depend on them.\n\n\nNow process this input:\nInput: {'question': 'How does composting help the environment?'}\nOutput:",
+              "output": "Composting benefits the environment in several ways: (1) It reduces landfill waste by diverting organic materials that would otherwise decompose anaerobically and produce methane, a potent greenhouse gas. (2) It creates nutrient-rich soil amendment that reduces the need for chemical fertilizers, which require significant energy to produce and can pollute waterways. (3) Compost-enriched soil retains more water, reducing irrigation needs. (4) It supports soil biodiversity by providing habitat for beneficial microorganisms. (5) By completing the natural nutrient cycle, composting reduces our carbon footprint and supports sustainable agriculture.\n",
+              "execution_time": 1.3746223449707031,
+              "timestamp": "2025-11-18T21:29:46.305029",
+              "match_score": 0.6666666666666666
+            }
+          ]
+        }
+      },
+      "optimal_shot_count": {
+        "count": 0,
+        "success_rate": 1.0
+      }
+    },
+    "temperature_qa": {
+      "task": "qa",
+      "temperatures": [
+        0.3,
+        0.7
+      ],
+      "evaluations": {
+        "0.3": {
+          "task": "qa",
+          "config": {
+            "temperature": 0.3,
+            "max_tokens": 1000
+          },
+          "timestamp": "2025-11-18T21:30:20.921542",
+          "num_test_cases": 2,
+          "num_successful": 2,
+          "success_rate": 1.0,
+          "total_time": 19.600117444992065,
+          "avg_execution_time": 7.297313570976257,
+          "avg_output_length": 991.5,
+          "results": [
+            {
+              "test_case_id": 0,
+              "success": true,
+              "output": "Renewable energy is energy that comes from sources that are naturally replenished on a human timescale, such as sunlight, wind, rain, tides, and geothermal heat. Unlike fossil fuels, which are finite resources, renewable energy sources are essentially inexhaustible.\n",
+              "execution_time": 6.2259533405303955,
+              "output_length": 267,
+              "token_count": 38,
+              "accuracy_score": 0.21875,
+              "relevance_score": 1.0
+            },
+            {
+              "test_case_id": 1,
+              "success": true,
+              "output": "Composting helps the environment in several significant ways:\n\n*   **Reduces Landfill Waste:** Composting diverts organic waste (food scraps, yard waste) from landfills. Landfills are filling up quickly, and organic waste in landfills decomposes anaerobically (without oxygen), producing methane, a potent greenhouse gas.\n\n*   **Reduces Greenhouse Gas Emissions:** By diverting organic waste from landfills, composting reduces methane emissions. Additionally, composting itself, when done properly, produces significantly less methane than landfill decomposition.\n\n*   **Enriches Soil:** Compost is a nutrient-rich soil amendment. Adding compost to soil improves its structure, water retention, and aeration. This leads to healthier plant growth and reduces the need for chemical fertilizers.\n\n*   **Reduces the Need for Chemical Fertilizers:** Chemical fertilizers can pollute waterways and harm soil ecosystems. Compost provides a natural and sustainable alternative, reducing reliance on these harmful chemicals.\n\n*   **Conserves Water:** Compost improves the soil's ability to retain water, reducing the need for irrigation. This is especially important in areas facing water scarcity.\n\n*   **Supports Biodiversity:** Healthy soil, enriched with compost, supports a diverse range of beneficial microorganisms and other soil organisms. This contributes to a healthier ecosystem overall.\n\n*   **Reduces the Need for Pesticides:** Healthy plants grown in compost-amended soil are more resistant to pests and diseases, reducing the need for pesticides.\n\nIn summary, composting is a sustainable practice that reduces waste, lowers greenhouse gas emissions, improves soil health, and promotes a healthier environment.\n",
+              "execution_time": 8.36867380142212,
+              "output_length": 1716,
+              "token_count": 229,
+              "accuracy_score": 0.034482758620689655,
+              "relevance_score": 0.8333333333333334
+            }
+          ],
+          "avg_accuracy": 0.12661637931034483,
+          "avg_relevance": 0.9166666666666667
+        },
+        "0.7": {
+          "task": "qa",
+          "config": {
+            "temperature": 0.7,
+            "max_tokens": 1000
+          },
+          "timestamp": "2025-11-18T21:30:50.274858",
+          "num_test_cases": 2,
+          "num_successful": 2,
+          "success_rate": 1.0,
+          "total_time": 19.342573642730713,
+          "avg_execution_time": 7.168753743171692,
+          "avg_output_length": 980.5,
+          "results": [
+            {
+              "test_case_id": 0,
+              "success": true,
+              "output": "Renewable energy is energy that is collected from renewable resources, which are naturally replenished on a human timescale, such as sunlight, wind, rain, tides, waves, and geothermal heat. Unlike fossil fuels, which are finite resources, renewable energy sources are essentially inexhaustible.\n",
+              "execution_time": 6.195466756820679,
+              "output_length": 295,
+              "token_count": 41,
+              "accuracy_score": 0.21212121212121213,
+              "relevance_score": 1.0
+            },
+            {
+              "test_case_id": 1,
+              "success": true,
+              "output": "Composting helps the environment in several significant ways:\n\n*   **Reduces Landfill Waste:** A large portion of household waste is organic matter like food scraps and yard trimmings. Composting diverts this waste from landfills, extending their lifespan and reducing the need for new ones.\n\n*   **Lowers Greenhouse Gas Emissions:** When organic waste decomposes in landfills, it does so anaerobically (without oxygen), producing methane, a potent greenhouse gas that contributes to climate change. Composting, especially when done properly with sufficient oxygen, significantly reduces methane production.\n\n*   **Enriches Soil:** Compost is a nutrient-rich soil amendment that improves soil structure, water retention, and fertility. This reduces the need for synthetic fertilizers, which can pollute waterways and require energy-intensive manufacturing processes.\n\n*   **Reduces the Need for Chemical Fertilizers and Pesticides:** Healthy soil, enriched with compost, supports stronger plant growth and natural resistance to pests and diseases. This reduces the reliance on harmful chemical fertilizers and pesticides that can damage ecosystems.\n\n*   **Conserves Water:** Compost improves soil's ability to retain water, reducing the need for irrigation, especially in gardens and agricultural settings.\n\n*   **Supports Biodiversity:** By creating healthy soil ecosystems, composting encourages the growth of beneficial soil organisms like bacteria, fungi, and earthworms, which are essential for soil health and plant growth.\n\nIn summary, composting promotes a more sustainable and environmentally friendly approach to waste management and resource utilization.\n",
+              "execution_time": 8.142040729522705,
+              "output_length": 1666,
+              "token_count": 223,
+              "accuracy_score": 0.033783783783783786,
+              "relevance_score": 0.8333333333333334
+            }
+          ],
+          "avg_accuracy": 0.12295249795249796,
+          "avg_relevance": 0.9166666666666667
+        }
+      },
+      "best_temperature": {
+        "value": 0.3,
+        "success_rate": 1.0
+      }
+    }
+  }
+}

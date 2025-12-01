@@ -1,0 +1,94 @@
+
+================================================================================
+COMPREHENSIVE EXPERIMENT REPORT
+LLM Model: gemini-2.0-flash
+Started: 2025-11-16T21:20:20.478213
+Completed: In Progress
+================================================================================
+
+Total Experiments: 3
+
+
+================================================================================
+1. PROMPT VARIANT EXPERIMENTS
+================================================================================
+
+Task: qa
+Best Variant: chain_of_thought
+  - Success Rate: 100.0%
+  - Avg Time: 5.400s
+
+All Variants Performance:
+  basic: 0.0% success
+  contextual: 0.0% success
+  chain_of_thought: 100.0% success
+  structured: 100.0% success
+  with_confidence: 100.0% success
+
+================================================================================
+2. FEW-SHOT LEARNING EXPERIMENTS
+================================================================================
+
+Task: qa
+Optimal Shot Count: 0 shots
+  - Success Rate: 100.0%
+
+Shot Count Performance:
+  0-shot: 100.0%
+  1-shot: 100.0%
+  3-shot: 100.0%
+
+================================================================================
+3. TEMPERATURE EXPERIMENTS
+================================================================================
+
+Task: qa
+Best Temperature: 0.3
+  - Success Rate: 100.0%
+
+Temperature Performance:
+  0.3: 100.0%
+  0.7: 100.0%
+
+================================================================================
+4. ABLATION STUDIES
+================================================================================
+
+================================================================================
+5. FAILURE ANALYSIS
+================================================================================
+
+======================================================================
+FAILURE ANALYSIS REPORT
+Generated: 2025-11-16 21:20:42
+======================================================================
+
+OVERVIEW:
+- Total Failures: 4
+- Failure Types: 1
+
+FAILURE DISTRIBUTION:
+  - Execution Error: 4 (100.0%)
+
+TASK-SPECIFIC FAILURES:
+  - qa: 4 failures
+
+COMMON ISSUES IDENTIFIED:
+
+PRIORITIZED RECOMMENDATIONS:
+
+  [HIGH] Execution Error
+    Frequency: 4 (100.0%)
+    Action: Add robust error handling and retry mechanisms
+
+======================================================================
+
+================================================================================
+6. IMPROVEMENT RECOMMENDATIONS
+================================================================================
+
+[HIGH] Execution Error
+  Frequency: 4 (100.0%)
+  Action: Add robust error handling and retry mechanisms
+
+================================================================================

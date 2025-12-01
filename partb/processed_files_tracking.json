@@ -1,0 +1,15 @@
+{
+  "files": {
+    "test_environmental_doc.txt": {
+      "hash": "40dfc002c77b99103197e3188900435f",
+      "processed_at": "2025-10-24T17:52:56.718154",
+      "stages_completed": [
+        "extraction",
+        "cleaning",
+        "chunking"
+      ],
+      "file_size": 158
+    }
+  },
+  "last_updated": "2025-10-24T17:52:56.718189"
+}

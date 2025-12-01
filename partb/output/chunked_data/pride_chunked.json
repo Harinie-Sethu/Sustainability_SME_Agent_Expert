@@ -1,0 +1,1012 @@
+{
+  "source_file": "pride.txt",
+  "chunking_timestamp": "2025-11-19T15:13:54.020884",
+  "original_metadata": {
+    "total_pages": 1,
+    "original_text_length": 7761,
+    "extraction_method": "text_file"
+  },
+  "filtering_stats": {
+    "original_length": 7761,
+    "sections_removed": 0,
+    "paragraphs_removed": 0,
+    "sentences_removed": 0,
+    "cleaned_length": 7637,
+    "retention_rate": 98.40226774900141
+  },
+  "chunking_config": {
+    "chunk_sizes": {
+      "large": 2048,
+      "medium": 512,
+      "small": 128
+    },
+    "overlap_percentages": {
+      "large": 0.1,
+      "medium": 0.15,
+      "small": 0.2
+    }
+  },
+  "chunk_stats": {
+    "large_fixed_size": {
+      "chunk_count": 2,
+      "avg_tokens": 987.0,
+      "min_tokens": 65,
+      "max_tokens": 1909,
+      "total_tokens": 1974
+    },
+    "large_content_aware": {
+      "chunk_count": 1,
+      "avg_tokens": 1920.0,
+      "min_tokens": 1920,
+      "max_tokens": 1920,
+      "total_tokens": 1920
+    },
+    "large_recursive_character": {
+      "chunk_count": 1,
+      "avg_tokens": 1909.0,
+      "min_tokens": 1909,
+      "max_tokens": 1909,
+      "total_tokens": 1909
+    },
+    "medium_fixed_size": {
+      "chunk_count": 5,
+      "avg_tokens": 443.0,
+      "min_tokens": 168,
+      "max_tokens": 512,
+      "total_tokens": 2215
+    },
+    "medium_content_aware": {
+      "chunk_count": 5,
+      "avg_tokens": 441.8,
+      "min_tokens": 273,
+      "max_tokens": 490,
+      "total_tokens": 2209
+    },
+    "medium_recursive_character": {
+      "chunk_count": 5,
+      "avg_tokens": 442.4,
+      "min_tokens": 193,
+      "max_tokens": 517,
+      "total_tokens": 2212
+    },
+    "small_fixed_size": {
+      "chunk_count": 19,
+      "avg_tokens": 124.36842105263158,
+      "min_tokens": 64,
+      "max_tokens": 128,
+      "total_tokens": 2363
+    },
+    "small_content_aware": {
+      "chunk_count": 24,
+      "avg_tokens": 98.83333333333333,
+      "min_tokens": 52,
+      "max_tokens": 122,
+      "total_tokens": 2372
+    },
+    "small_recursive_character": {
+      "chunk_count": 19,
+      "avg_tokens": 124.0,
+      "min_tokens": 103,
+      "max_tokens": 154,
+      "total_tokens": 2356
+    }
+  },
+  "chunks": {
+    "large": {
+      "fixed_size": [
+        {
+          "chunk_id": 0,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 2048,
+          "overlap_percentage": 0.1,
+          "start_char": 0,
+          "end_char": 7637,
+          "text_length": 7637,
+          "estimated_tokens": 1909,
+          "text": "the green program loves to celebrate love, and there is no better way to do that this month than by recognizing  few lgbtq leaders and organizations that are making  difference not just in their own communities but for our planet altogether. read below to learn more about some people and spaces that are working together to promote  better world that focuses on inclusion and equality. lgbtq leaders: screenshot 2022 05 20 104154 rachel carson author of silent spring rachel carson was an american marine biologist, writer, and conservationist who used her work to bring public awareness to environmental pollution. we all know silent spring but did you know that this book was  founding attribute to the global environmental movement? the book ultimately led to the banning of ddt and other pesticides across the united states. rachels works and accomplishments paved the way for the creation of the environmental protection agency and many other modern-day protections. screenshot 2022 05 20 104318 harvey milk san francisco board of supervisors harvey milk was an american politician and the first openly gay man to be elected to public office in california, and one of the first in the united states. his work included promoting  legal framework that supports gays, including the passage of  gay rights bill. harvey also spoke out on  local and national level about issues for the lgbtq community as well as those for racial and ethnic minorities. screenshot 2022 05 20 104842 pattie gonia environmentalist drag queen on  mission to build  more inclusive climate movement, pattie gonia is  drag queen and social media influencer working to build  better community for the queer community and mother nature. pattie gonia shares herself hiking, camping, or other outdoor activities both in and out of drag. most of her drag fashion comes from nature, as she shows the world how mother nature knows no binaries. follow pattie gonia on instagram. rikki rikki weber legal practice manager at earthjustice earthjustice is  non-profit organization that uses legal practices to fight climate change and protect both people and wildlife who are affected by it. rikki weber is  queer woman of color who has not only changed the game through this organization, but inside of it as well. she founded an lgbtq group within earthjustice to recongize fellow queer employees and other lgbtq environmentalists. lgbtq organizations: out for sustainability created by lgbtq communities and for lgbtq communities, out for sustainability is  space for climate resilience and environmental justice. their mission is to highlight connections between lgbtq communities, sustainability, and justice through sponsored service projects, summits, and events across the.. our climate voices our climate voices focuses on communities and individuals who have been impacted by the climate crisis, by using storytelling to change the dynamic of the dialogue surrounding climate change. this organization works to put the voices of the individual at the forefront of their climate mission, with  strong focus on queer voices and lgbtq activism. queer nature the environment exists for everyone, including the lgbtq community. queer nature was founded to create an educational space for the queer community to connect with nature and learn ecological awareness and outdoor self-efficacy skills that they otherwise would not have access to. their mission is to promote and expand upon the environmental education for lgbtq people through nature awareness, ancestral skills, and justice-based learnings. the venture out project the ability to have access and enjoy nature is very important, and something that is not offered to all communities. the venture out project works to offer members of the lgbtq community  chance to get outdoors and reconnect with nature however they see fit. through outdoor activities like backpacking, wilderness trips, and workshops, the venture out project strives to promote inclusion for all members of the community by starting from the ground up. the historical connection between lgbtq pride and sustainability is deeply rooted in the communitys resilience and advocacy, with environmentalism emerging as  natural extension of the fight for social justice. join us as we explore the ways in which pride and environmentalism cross over through historical and social lenses. symbolism in the rainbow flag the rainbow flag, designed by activist gilbert baker in 1978, originally included eight colours, each representing  facet of lgbtq identity. green symbolised nature, reflecting the communitys intrinsic link to the environment and  rejection of historical narratives that labeled queer identities as unnatural. this colour choice was  deliberate assertion that lgbtq people belong within the natural world, countering discrimination and affirming their place in ecological systems. historical advocacy and oppression lgbtq communities have long been at the forefront of environmental and climate justice movements. as noted by social historian nancy. unger, their experience as an oppressed minority enabled them to identify institutional injustices, including environmental destruction, and propose transformative solutions. for example: systemic discrimination against lgbtq individuals (.., lack of healthcare access, housing insecurity) heightened vulnerability to environmental harms like pollution and climate disasters. studies show higher rates of pollution-related illnesses (.., respiratory diseases) in lgbtq populations due to socioeconomic disparities. during crises like natural disasters, queer communities - particularly homeless youth (40 of whom are lgbtq in the..) and poc trans individuals face exclusion from relief efforts, placing them on the frontlines of climate change. pioneering organisations and movements the lgbtq community has mobilised through groups that explicitly tie queer liberation to environmental justice: out for sustainability (o4s): founded over  decade ago, o4s champions climate resilience through initiatives like plastic free pride, emphasising mutual aid and disaster preparedness for lgbtq communities. rainbow rebellion: an lgbtq division within extinction rebellion uk, this group organises protests (.., london street demonstrations) demanding climate justice while highlighting how marginalised groups suffer disproportionately in ecological crises. queer nature and queer eco project: these organisations reclaim outdoor spaces for marginalised communities, challenging the exclusion of lgbtq individuals from nature access and advocating for urban environmental justice. queer ecologies: redefining environmentalism queer perspectives have reshaped environmental activism by: rejecting human-nature binaries that fuel exploitation, instead promoting interconnectedness. centering urban and human-centric environmental issues, moving beyond traditional wilderness conservation to address lived realities like pollution and resource inequality. building resilient, anti-capitalist communities that prioritise collective well-being over individualism -  strategy honed through survival in hostile societies. enduring legacy and future directions the historical bond between lgbtq rights and sustainability underscores  shared vision: justice cannot be siloed. as climate change intensifies, the communitys legacy of intersectional advocacy, exemplified by the green stripes symbolism and groups like o4s, offers  blueprint for inclusive environmentalism. future efforts must amplify queer voices, particularly those of colour, to ensure climate resilience is rooted in equity."
+        },
+        {
+          "chunk_id": 1,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 2048,
+          "overlap_percentage": 0.1,
+          "start_char": 7373,
+          "end_char": 7637,
+          "text_length": 263,
+          "estimated_tokens": 65,
+          "text": "of intersectional advocacy, exemplified by the green stripes symbolism and groups like o4s, offers  blueprint for inclusive environmentalism. future efforts must amplify queer voices, particularly those of colour, to ensure climate resilience is rooted in equity."
+        }
+      ],
+      "content_aware": [
+        {
+          "chunk_id": 0,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 2048,
+          "overlap_percentage": 0.1,
+          "start_char": 242,
+          "end_char": 7924,
+          "text_length": 7682,
+          "estimated_tokens": 1920,
+          "text": "the green program loves to celebrate love, and there is no better way to do that this month than by recognizing  few lgbtq leaders and organizations that are making  difference not just in their own communities but for our planet altogether.\n\nread below to learn more about some people and spaces that are working together to promote  better world that focuses on inclusion and equality.\n\nlgbtq leaders: screenshot 2022 05 20 104154 rachel carson author of silent spring rachel carson was an american marine biologist, writer, and conservationist who used her work to bring public awareness to environmental pollution.\n\nwe all know silent spring but did you know that this book was  founding attribute to the global environmental movement?\n\nthe book ultimately led to the banning of ddt and other pesticides across the united states.\n\nrachels works and accomplishments paved the way for the creation of the environmental protection agency and many other modern-day protections.\n\nscreenshot 2022 05 20 104318 harvey milk san francisco board of supervisors harvey milk was an american politician and the first openly gay man to be elected to public office in california, and one of the first in the united states.\n\nhis work included promoting  legal framework that supports gays, including the passage of  gay rights bill.\n\nharvey also spoke out on  local and national level about issues for the lgbtq community as well as those for racial and ethnic minorities.\n\nscreenshot 2022 05 20 104842 pattie gonia environmentalist drag queen on  mission to build  more inclusive climate movement, pattie gonia is  drag queen and social media influencer working to build  better community for the queer community and mother nature.\n\npattie gonia shares herself hiking, camping, or other outdoor activities both in and out of drag.\n\nmost of her drag fashion comes from nature, as she shows the world how mother nature knows no binaries.\n\nfollow pattie gonia on instagram.\n\nrikki rikki weber legal practice manager at earthjustice earthjustice is  non-profit organization that uses legal practices to fight climate change and protect both people and wildlife who are affected by it.\n\nrikki weber is  queer woman of color who has not only changed the game through this organization, but inside of it as well.\n\nshe founded an lgbtq group within earthjustice to recongize fellow queer employees and other lgbtq environmentalists.\n\nlgbtq organizations: out for sustainability created by lgbtq communities and for lgbtq communities, out for sustainability is  space for climate resilience and environmental justice.\n\ntheir mission is to highlight connections between lgbtq communities, sustainability, and justice through sponsored service projects, summits, and events across the..\n\nour climate voices our climate voices focuses on communities and individuals who have been impacted by the climate crisis, by using storytelling to change the dynamic of the dialogue surrounding climate change.\n\nthis organization works to put the voices of the individual at the forefront of their climate mission, with  strong focus on queer voices and lgbtq activism.\n\nqueer nature the environment exists for everyone, including the lgbtq community.\n\nqueer nature was founded to create an educational space for the queer community to connect with nature and learn ecological awareness and outdoor self-efficacy skills that they otherwise would not have access to.\n\ntheir mission is to promote and expand upon the environmental education for lgbtq people through nature awareness, ancestral skills, and justice-based learnings.\n\nthe venture out project the ability to have access and enjoy nature is very important, and something that is not offered to all communities.\n\nthe venture out project works to offer members of the lgbtq community  chance to get outdoors and reconnect with nature however they see fit.\n\nthrough outdoor activities like backpacking, wilderness trips, and workshops, the venture out project strives to promote inclusion for all members of the community by starting from the ground up.\n\nthe historical connection between lgbtq pride and sustainability is deeply rooted in the communitys resilience and advocacy, with environmentalism emerging as  natural extension of the fight for social justice.\n\njoin us as we explore the ways in which pride and environmentalism cross over through historical and social lenses.\n\nsymbolism in the rainbow flag the rainbow flag, designed by activist gilbert baker in 1978, originally included eight colours, each representing  facet of lgbtq identity.\n\ngreen symbolised nature, reflecting the communitys intrinsic link to the environment and  rejection of historical narratives that labeled queer identities as unnatural.\n\nthis colour choice was  deliberate assertion that lgbtq people belong within the natural world, countering discrimination and affirming their place in ecological systems.\n\nhistorical advocacy and oppression lgbtq communities have long been at the forefront of environmental and climate justice movements.\n\nas noted by social historian nancy.\n\nunger, their experience as an oppressed minority enabled them to identify institutional injustices, including environmental destruction, and propose transformative solutions.\n\nfor example: systemic discrimination against lgbtq individuals (.., lack of healthcare access, housing insecurity) heightened vulnerability to environmental harms like pollution and climate disasters.\n\nstudies show higher rates of pollution-related illnesses (.., respiratory diseases) in lgbtq populations due to socioeconomic disparities.\n\nduring crises like natural disasters, queer communities - particularly homeless youth (40 of whom are lgbtq in the..) and poc trans individuals face exclusion from relief efforts, placing them on the frontlines of climate change.\n\npioneering organisations and movements the lgbtq community has mobilised through groups that explicitly tie queer liberation to environmental justice: out for sustainability (o4s): founded over  decade ago, o4s champions climate resilience through initiatives like plastic free pride, emphasising mutual aid and disaster preparedness for lgbtq communities.\n\nrainbow rebellion: an lgbtq division within extinction rebellion uk, this group organises protests (.., london street demonstrations) demanding climate justice while highlighting how marginalised groups suffer disproportionately in ecological crises.\n\nqueer nature and queer eco project: these organisations reclaim outdoor spaces for marginalised communities, challenging the exclusion of lgbtq individuals from nature access and advocating for urban environmental justice.\n\nqueer ecologies: redefining environmentalism queer perspectives have reshaped environmental activism by: rejecting human-nature binaries that fuel exploitation, instead promoting interconnectedness.\n\ncentering urban and human-centric environmental issues, moving beyond traditional wilderness conservation to address lived realities like pollution and resource inequality.\n\nbuilding resilient, anti-capitalist communities that prioritise collective well-being over individualism -  strategy honed through survival in hostile societies.\n\nenduring legacy and future directions the historical bond between lgbtq rights and sustainability underscores  shared vision: justice cannot be siloed.\n\nas climate change intensifies, the communitys legacy of intersectional advocacy, exemplified by the green stripes symbolism and groups like o4s, offers  blueprint for inclusive environmentalism.\n\nfuture efforts must amplify queer voices, particularly those of colour, to ensure climate resilience is rooted in equity."
+        }
+      ],
+      "recursive_character": [
+        {
+          "chunk_id": 0,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 2048,
+          "overlap_percentage": 0.1,
+          "start_char": 0,
+          "end_char": 7637,
+          "text_length": 7637,
+          "estimated_tokens": 1909,
+          "text": "the green program loves to celebrate love, and there is no better way to do that this month than by recognizing  few lgbtq leaders and organizations that are making  difference not just in their own communities but for our planet altogether. read below to learn more about some people and spaces that are working together to promote  better world that focuses on inclusion and equality. lgbtq leaders: screenshot 2022 05 20 104154 rachel carson author of silent spring rachel carson was an american marine biologist, writer, and conservationist who used her work to bring public awareness to environmental pollution. we all know silent spring but did you know that this book was  founding attribute to the global environmental movement? the book ultimately led to the banning of ddt and other pesticides across the united states. rachels works and accomplishments paved the way for the creation of the environmental protection agency and many other modern-day protections. screenshot 2022 05 20 104318 harvey milk san francisco board of supervisors harvey milk was an american politician and the first openly gay man to be elected to public office in california, and one of the first in the united states. his work included promoting  legal framework that supports gays, including the passage of  gay rights bill. harvey also spoke out on  local and national level about issues for the lgbtq community as well as those for racial and ethnic minorities. screenshot 2022 05 20 104842 pattie gonia environmentalist drag queen on  mission to build  more inclusive climate movement, pattie gonia is  drag queen and social media influencer working to build  better community for the queer community and mother nature. pattie gonia shares herself hiking, camping, or other outdoor activities both in and out of drag. most of her drag fashion comes from nature, as she shows the world how mother nature knows no binaries. follow pattie gonia on instagram. rikki rikki weber legal practice manager at earthjustice earthjustice is  non-profit organization that uses legal practices to fight climate change and protect both people and wildlife who are affected by it. rikki weber is  queer woman of color who has not only changed the game through this organization, but inside of it as well. she founded an lgbtq group within earthjustice to recongize fellow queer employees and other lgbtq environmentalists. lgbtq organizations: out for sustainability created by lgbtq communities and for lgbtq communities, out for sustainability is  space for climate resilience and environmental justice. their mission is to highlight connections between lgbtq communities, sustainability, and justice through sponsored service projects, summits, and events across the.. our climate voices our climate voices focuses on communities and individuals who have been impacted by the climate crisis, by using storytelling to change the dynamic of the dialogue surrounding climate change. this organization works to put the voices of the individual at the forefront of their climate mission, with  strong focus on queer voices and lgbtq activism. queer nature the environment exists for everyone, including the lgbtq community. queer nature was founded to create an educational space for the queer community to connect with nature and learn ecological awareness and outdoor self-efficacy skills that they otherwise would not have access to. their mission is to promote and expand upon the environmental education for lgbtq people through nature awareness, ancestral skills, and justice-based learnings. the venture out project the ability to have access and enjoy nature is very important, and something that is not offered to all communities. the venture out project works to offer members of the lgbtq community  chance to get outdoors and reconnect with nature however they see fit. through outdoor activities like backpacking, wilderness trips, and workshops, the venture out project strives to promote inclusion for all members of the community by starting from the ground up. the historical connection between lgbtq pride and sustainability is deeply rooted in the communitys resilience and advocacy, with environmentalism emerging as  natural extension of the fight for social justice. join us as we explore the ways in which pride and environmentalism cross over through historical and social lenses. symbolism in the rainbow flag the rainbow flag, designed by activist gilbert baker in 1978, originally included eight colours, each representing  facet of lgbtq identity. green symbolised nature, reflecting the communitys intrinsic link to the environment and  rejection of historical narratives that labeled queer identities as unnatural. this colour choice was  deliberate assertion that lgbtq people belong within the natural world, countering discrimination and affirming their place in ecological systems. historical advocacy and oppression lgbtq communities have long been at the forefront of environmental and climate justice movements. as noted by social historian nancy. unger, their experience as an oppressed minority enabled them to identify institutional injustices, including environmental destruction, and propose transformative solutions. for example: systemic discrimination against lgbtq individuals (.., lack of healthcare access, housing insecurity) heightened vulnerability to environmental harms like pollution and climate disasters. studies show higher rates of pollution-related illnesses (.., respiratory diseases) in lgbtq populations due to socioeconomic disparities. during crises like natural disasters, queer communities - particularly homeless youth (40 of whom are lgbtq in the..) and poc trans individuals face exclusion from relief efforts, placing them on the frontlines of climate change. pioneering organisations and movements the lgbtq community has mobilised through groups that explicitly tie queer liberation to environmental justice: out for sustainability (o4s): founded over  decade ago, o4s champions climate resilience through initiatives like plastic free pride, emphasising mutual aid and disaster preparedness for lgbtq communities. rainbow rebellion: an lgbtq division within extinction rebellion uk, this group organises protests (.., london street demonstrations) demanding climate justice while highlighting how marginalised groups suffer disproportionately in ecological crises. queer nature and queer eco project: these organisations reclaim outdoor spaces for marginalised communities, challenging the exclusion of lgbtq individuals from nature access and advocating for urban environmental justice. queer ecologies: redefining environmentalism queer perspectives have reshaped environmental activism by: rejecting human-nature binaries that fuel exploitation, instead promoting interconnectedness. centering urban and human-centric environmental issues, moving beyond traditional wilderness conservation to address lived realities like pollution and resource inequality. building resilient, anti-capitalist communities that prioritise collective well-being over individualism -  strategy honed through survival in hostile societies. enduring legacy and future directions the historical bond between lgbtq rights and sustainability underscores  shared vision: justice cannot be siloed. as climate change intensifies, the communitys legacy of intersectional advocacy, exemplified by the green stripes symbolism and groups like o4s, offers  blueprint for inclusive environmentalism. future efforts must amplify queer voices, particularly those of colour, to ensure climate resilience is rooted in equity."
+        }
+      ]
+    },
+    "medium": {
+      "fixed_size": [
+        {
+          "chunk_id": 0,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 0,
+          "end_char": 2048,
+          "text_length": 2048,
+          "estimated_tokens": 512,
+          "text": "the green program loves to celebrate love, and there is no better way to do that this month than by recognizing  few lgbtq leaders and organizations that are making  difference not just in their own communities but for our planet altogether. read below to learn more about some people and spaces that are working together to promote  better world that focuses on inclusion and equality. lgbtq leaders: screenshot 2022 05 20 104154 rachel carson author of silent spring rachel carson was an american marine biologist, writer, and conservationist who used her work to bring public awareness to environmental pollution. we all know silent spring but did you know that this book was  founding attribute to the global environmental movement? the book ultimately led to the banning of ddt and other pesticides across the united states. rachels works and accomplishments paved the way for the creation of the environmental protection agency and many other modern-day protections. screenshot 2022 05 20 104318 harvey milk san francisco board of supervisors harvey milk was an american politician and the first openly gay man to be elected to public office in california, and one of the first in the united states. his work included promoting  legal framework that supports gays, including the passage of  gay rights bill. harvey also spoke out on  local and national level about issues for the lgbtq community as well as those for racial and ethnic minorities. screenshot 2022 05 20 104842 pattie gonia environmentalist drag queen on  mission to build  more inclusive climate movement, pattie gonia is  drag queen and social media influencer working to build  better community for the queer community and mother nature. pattie gonia shares herself hiking, camping, or other outdoor activities both in and out of drag. most of her drag fashion comes from nature, as she shows the world how mother nature knows no binaries. follow pattie gonia on instagram. rikki rikki weber legal practice manager at earthjustice earthjustice is  non-profit organization th"
+        },
+        {
+          "chunk_id": 1,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 1741,
+          "end_char": 3789,
+          "text_length": 2048,
+          "estimated_tokens": 512,
+          "text": "iking, camping, or other outdoor activities both in and out of drag. most of her drag fashion comes from nature, as she shows the world how mother nature knows no binaries. follow pattie gonia on instagram. rikki rikki weber legal practice manager at earthjustice earthjustice is  non-profit organization that uses legal practices to fight climate change and protect both people and wildlife who are affected by it. rikki weber is  queer woman of color who has not only changed the game through this organization, but inside of it as well. she founded an lgbtq group within earthjustice to recongize fellow queer employees and other lgbtq environmentalists. lgbtq organizations: out for sustainability created by lgbtq communities and for lgbtq communities, out for sustainability is  space for climate resilience and environmental justice. their mission is to highlight connections between lgbtq communities, sustainability, and justice through sponsored service projects, summits, and events across the.. our climate voices our climate voices focuses on communities and individuals who have been impacted by the climate crisis, by using storytelling to change the dynamic of the dialogue surrounding climate change. this organization works to put the voices of the individual at the forefront of their climate mission, with  strong focus on queer voices and lgbtq activism. queer nature the environment exists for everyone, including the lgbtq community. queer nature was founded to create an educational space for the queer community to connect with nature and learn ecological awareness and outdoor self-efficacy skills that they otherwise would not have access to. their mission is to promote and expand upon the environmental education for lgbtq people through nature awareness, ancestral skills, and justice-based learnings. the venture out project the ability to have access and enjoy nature is very important, and something that is not offered to all communities. the venture out project works to offer members of the lgbtq community  chan"
+        },
+        {
+          "chunk_id": 2,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 3482,
+          "end_char": 5530,
+          "text_length": 2047,
+          "estimated_tokens": 511,
+          "text": "for lgbtq people through nature awareness, ancestral skills, and justice-based learnings. the venture out project the ability to have access and enjoy nature is very important, and something that is not offered to all communities. the venture out project works to offer members of the lgbtq community  chance to get outdoors and reconnect with nature however they see fit. through outdoor activities like backpacking, wilderness trips, and workshops, the venture out project strives to promote inclusion for all members of the community by starting from the ground up. the historical connection between lgbtq pride and sustainability is deeply rooted in the communitys resilience and advocacy, with environmentalism emerging as  natural extension of the fight for social justice. join us as we explore the ways in which pride and environmentalism cross over through historical and social lenses. symbolism in the rainbow flag the rainbow flag, designed by activist gilbert baker in 1978, originally included eight colours, each representing  facet of lgbtq identity. green symbolised nature, reflecting the communitys intrinsic link to the environment and  rejection of historical narratives that labeled queer identities as unnatural. this colour choice was  deliberate assertion that lgbtq people belong within the natural world, countering discrimination and affirming their place in ecological systems. historical advocacy and oppression lgbtq communities have long been at the forefront of environmental and climate justice movements. as noted by social historian nancy. unger, their experience as an oppressed minority enabled them to identify institutional injustices, including environmental destruction, and propose transformative solutions. for example: systemic discrimination against lgbtq individuals (.., lack of healthcare access, housing insecurity) heightened vulnerability to environmental harms like pollution and climate disasters. studies show higher rates of pollution-related illnesses (.., respiratory diseases) in lgbtq po"
+        },
+        {
+          "chunk_id": 3,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 5223,
+          "end_char": 7271,
+          "text_length": 2048,
+          "estimated_tokens": 512,
+          "text": "solutions. for example: systemic discrimination against lgbtq individuals (.., lack of healthcare access, housing insecurity) heightened vulnerability to environmental harms like pollution and climate disasters. studies show higher rates of pollution-related illnesses (.., respiratory diseases) in lgbtq populations due to socioeconomic disparities. during crises like natural disasters, queer communities - particularly homeless youth (40 of whom are lgbtq in the..) and poc trans individuals face exclusion from relief efforts, placing them on the frontlines of climate change. pioneering organisations and movements the lgbtq community has mobilised through groups that explicitly tie queer liberation to environmental justice: out for sustainability (o4s): founded over  decade ago, o4s champions climate resilience through initiatives like plastic free pride, emphasising mutual aid and disaster preparedness for lgbtq communities. rainbow rebellion: an lgbtq division within extinction rebellion uk, this group organises protests (.., london street demonstrations) demanding climate justice while highlighting how marginalised groups suffer disproportionately in ecological crises. queer nature and queer eco project: these organisations reclaim outdoor spaces for marginalised communities, challenging the exclusion of lgbtq individuals from nature access and advocating for urban environmental justice. queer ecologies: redefining environmentalism queer perspectives have reshaped environmental activism by: rejecting human-nature binaries that fuel exploitation, instead promoting interconnectedness. centering urban and human-centric environmental issues, moving beyond traditional wilderness conservation to address lived realities like pollution and resource inequality. building resilient, anti-capitalist communities that prioritise collective well-being over individualism -  strategy honed through survival in hostile societies. enduring legacy and future directions the historical bond between lgbtq rights and sustainability unde"
+        },
+        {
+          "chunk_id": 4,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 6964,
+          "end_char": 7637,
+          "text_length": 673,
+          "estimated_tokens": 168,
+          "text": "es like pollution and resource inequality. building resilient, anti-capitalist communities that prioritise collective well-being over individualism -  strategy honed through survival in hostile societies. enduring legacy and future directions the historical bond between lgbtq rights and sustainability underscores  shared vision: justice cannot be siloed. as climate change intensifies, the communitys legacy of intersectional advocacy, exemplified by the green stripes symbolism and groups like o4s, offers  blueprint for inclusive environmentalism. future efforts must amplify queer voices, particularly those of colour, to ensure climate resilience is rooted in equity."
+        }
+      ],
+      "content_aware": [
+        {
+          "chunk_id": 0,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 242,
+          "end_char": 2201,
+          "text_length": 1959,
+          "estimated_tokens": 489,
+          "text": "the green program loves to celebrate love, and there is no better way to do that this month than by recognizing  few lgbtq leaders and organizations that are making  difference not just in their own communities but for our planet altogether.\n\nread below to learn more about some people and spaces that are working together to promote  better world that focuses on inclusion and equality.\n\nlgbtq leaders: screenshot 2022 05 20 104154 rachel carson author of silent spring rachel carson was an american marine biologist, writer, and conservationist who used her work to bring public awareness to environmental pollution.\n\nwe all know silent spring but did you know that this book was  founding attribute to the global environmental movement?\n\nthe book ultimately led to the banning of ddt and other pesticides across the united states.\n\nrachels works and accomplishments paved the way for the creation of the environmental protection agency and many other modern-day protections.\n\nscreenshot 2022 05 20 104318 harvey milk san francisco board of supervisors harvey milk was an american politician and the first openly gay man to be elected to public office in california, and one of the first in the united states.\n\nhis work included promoting  legal framework that supports gays, including the passage of  gay rights bill.\n\nharvey also spoke out on  local and national level about issues for the lgbtq community as well as those for racial and ethnic minorities.\n\nscreenshot 2022 05 20 104842 pattie gonia environmentalist drag queen on  mission to build  more inclusive climate movement, pattie gonia is  drag queen and social media influencer working to build  better community for the queer community and mother nature.\n\npattie gonia shares herself hiking, camping, or other outdoor activities both in and out of drag.\n\nmost of her drag fashion comes from nature, as she shows the world how mother nature knows no binaries.\n\nfollow pattie gonia on instagram."
+        },
+        {
+          "chunk_id": 1,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 242,
+          "end_char": 2170,
+          "text_length": 1928,
+          "estimated_tokens": 482,
+          "text": "r community for the queer community and mother nature.\n\npattie gonia shares herself hiking, camping, or other outdoor activities both in and out of drag.\n\nmost of her drag fashion comes from nature, as she shows the world how mother nature knows no binaries.\n\nfollow pattie gonia on instagram.\n\nrikki rikki weber legal practice manager at earthjustice earthjustice is  non-profit organization that uses legal practices to fight climate change and protect both people and wildlife who are affected by it.\n\nrikki weber is  queer woman of color who has not only changed the game through this organization, but inside of it as well.\n\nshe founded an lgbtq group within earthjustice to recongize fellow queer employees and other lgbtq environmentalists.\n\nlgbtq organizations: out for sustainability created by lgbtq communities and for lgbtq communities, out for sustainability is  space for climate resilience and environmental justice.\n\ntheir mission is to highlight connections between lgbtq communities, sustainability, and justice through sponsored service projects, summits, and events across the..\n\nour climate voices our climate voices focuses on communities and individuals who have been impacted by the climate crisis, by using storytelling to change the dynamic of the dialogue surrounding climate change.\n\nthis organization works to put the voices of the individual at the forefront of their climate mission, with  strong focus on queer voices and lgbtq activism.\n\nqueer nature the environment exists for everyone, including the lgbtq community.\n\nqueer nature was founded to create an educational space for the queer community to connect with nature and learn ecological awareness and outdoor self-efficacy skills that they otherwise would not have access to.\n\ntheir mission is to promote and expand upon the environmental education for lgbtq people through nature awareness, ancestral skills, and justice-based learnings."
+        },
+        {
+          "chunk_id": 2,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 242,
+          "end_char": 2203,
+          "text_length": 1961,
+          "estimated_tokens": 490,
+          "text": "nect with nature and learn ecological awareness and outdoor self-efficacy skills that they otherwise would not have access to.\n\ntheir mission is to promote and expand upon the environmental education for lgbtq people through nature awareness, ancestral skills, and justice-based learnings.\n\nthe venture out project the ability to have access and enjoy nature is very important, and something that is not offered to all communities.\n\nthe venture out project works to offer members of the lgbtq community  chance to get outdoors and reconnect with nature however they see fit.\n\nthrough outdoor activities like backpacking, wilderness trips, and workshops, the venture out project strives to promote inclusion for all members of the community by starting from the ground up.\n\nthe historical connection between lgbtq pride and sustainability is deeply rooted in the communitys resilience and advocacy, with environmentalism emerging as  natural extension of the fight for social justice.\n\njoin us as we explore the ways in which pride and environmentalism cross over through historical and social lenses.\n\nsymbolism in the rainbow flag the rainbow flag, designed by activist gilbert baker in 1978, originally included eight colours, each representing  facet of lgbtq identity.\n\ngreen symbolised nature, reflecting the communitys intrinsic link to the environment and  rejection of historical narratives that labeled queer identities as unnatural.\n\nthis colour choice was  deliberate assertion that lgbtq people belong within the natural world, countering discrimination and affirming their place in ecological systems.\n\nhistorical advocacy and oppression lgbtq communities have long been at the forefront of environmental and climate justice movements.\n\nas noted by social historian nancy.\n\nunger, their experience as an oppressed minority enabled them to identify institutional injustices, including environmental destruction, and propose transformative solutions."
+        },
+        {
+          "chunk_id": 3,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 242,
+          "end_char": 2143,
+          "text_length": 1901,
+          "estimated_tokens": 475,
+          "text": "s have long been at the forefront of environmental and climate justice movements.\n\nas noted by social historian nancy.\n\nunger, their experience as an oppressed minority enabled them to identify institutional injustices, including environmental destruction, and propose transformative solutions.\n\nfor example: systemic discrimination against lgbtq individuals (.., lack of healthcare access, housing insecurity) heightened vulnerability to environmental harms like pollution and climate disasters.\n\nstudies show higher rates of pollution-related illnesses (.., respiratory diseases) in lgbtq populations due to socioeconomic disparities.\n\nduring crises like natural disasters, queer communities - particularly homeless youth (40 of whom are lgbtq in the..) and poc trans individuals face exclusion from relief efforts, placing them on the frontlines of climate change.\n\npioneering organisations and movements the lgbtq community has mobilised through groups that explicitly tie queer liberation to environmental justice: out for sustainability (o4s): founded over  decade ago, o4s champions climate resilience through initiatives like plastic free pride, emphasising mutual aid and disaster preparedness for lgbtq communities.\n\nrainbow rebellion: an lgbtq division within extinction rebellion uk, this group organises protests (.., london street demonstrations) demanding climate justice while highlighting how marginalised groups suffer disproportionately in ecological crises.\n\nqueer nature and queer eco project: these organisations reclaim outdoor spaces for marginalised communities, challenging the exclusion of lgbtq individuals from nature access and advocating for urban environmental justice.\n\nqueer ecologies: redefining environmentalism queer perspectives have reshaped environmental activism by: rejecting human-nature binaries that fuel exploitation, instead promoting interconnectedness."
+        },
+        {
+          "chunk_id": 4,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 242,
+          "end_char": 1335,
+          "text_length": 1093,
+          "estimated_tokens": 273,
+          "text": "lgbtq individuals from nature access and advocating for urban environmental justice.\n\nqueer ecologies: redefining environmentalism queer perspectives have reshaped environmental activism by: rejecting human-nature binaries that fuel exploitation, instead promoting interconnectedness.\n\ncentering urban and human-centric environmental issues, moving beyond traditional wilderness conservation to address lived realities like pollution and resource inequality.\n\nbuilding resilient, anti-capitalist communities that prioritise collective well-being over individualism -  strategy honed through survival in hostile societies.\n\nenduring legacy and future directions the historical bond between lgbtq rights and sustainability underscores  shared vision: justice cannot be siloed.\n\nas climate change intensifies, the communitys legacy of intersectional advocacy, exemplified by the green stripes symbolism and groups like o4s, offers  blueprint for inclusive environmentalism.\n\nfuture efforts must amplify queer voices, particularly those of colour, to ensure climate resilience is rooted in equity."
+        }
+      ],
+      "recursive_character": [
+        {
+          "chunk_id": 0,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 0,
+          "end_char": 1947,
+          "text_length": 1947,
+          "estimated_tokens": 486,
+          "text": "the green program loves to celebrate love, and there is no better way to do that this month than by recognizing  few lgbtq leaders and organizations that are making  difference not just in their own communities but for our planet altogether. read below to learn more about some people and spaces that are working together to promote  better world that focuses on inclusion and equality. lgbtq leaders: screenshot 2022 05 20 104154 rachel carson author of silent spring rachel carson was an american marine biologist, writer, and conservationist who used her work to bring public awareness to environmental pollution. we all know silent spring but did you know that this book was  founding attribute to the global environmental movement? the book ultimately led to the banning of ddt and other pesticides across the united states. rachels works and accomplishments paved the way for the creation of the environmental protection agency and many other modern-day protections. screenshot 2022 05 20 104318 harvey milk san francisco board of supervisors harvey milk was an american politician and the first openly gay man to be elected to public office in california, and one of the first in the united states. his work included promoting  legal framework that supports gays, including the passage of  gay rights bill. harvey also spoke out on  local and national level about issues for the lgbtq community as well as those for racial and ethnic minorities. screenshot 2022 05 20 104842 pattie gonia environmentalist drag queen on  mission to build  more inclusive climate movement, pattie gonia is  drag queen and social media influencer working to build  better community for the queer community and mother nature. pattie gonia shares herself hiking, camping, or other outdoor activities both in and out of drag. most of her drag fashion comes from nature, as she shows the world how mother nature knows no binaries. follow pattie gonia on instagram."
+        },
+        {
+          "chunk_id": 1,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 1641,
+          "end_char": 3712,
+          "text_length": 2071,
+          "estimated_tokens": 517,
+          "text": "to build  better community for the queer community and mother nature. pattie gonia shares herself hiking, camping, or other outdoor activities both in and out of drag. most of her drag fashion comes from nature, as she shows the world how mother nature knows no binaries. follow pattie gonia on instagram. rikki rikki weber legal practice manager at earthjustice earthjustice is  non-profit organization that uses legal practices to fight climate change and protect both people and wildlife who are affected by it. rikki weber is  queer woman of color who has not only changed the game through this organization, but inside of it as well. she founded an lgbtq group within earthjustice to recongize fellow queer employees and other lgbtq environmentalists. lgbtq organizations: out for sustainability created by lgbtq communities and for lgbtq communities, out for sustainability is  space for climate resilience and environmental justice. their mission is to highlight connections between lgbtq communities, sustainability, and justice through sponsored service projects, summits, and events across the.. our climate voices our climate voices focuses on communities and individuals who have been impacted by the climate crisis, by using storytelling to change the dynamic of the dialogue surrounding climate change. this organization works to put the voices of the individual at the forefront of their climate mission, with  strong focus on queer voices and lgbtq activism. queer nature the environment exists for everyone, including the lgbtq community. queer nature was founded to create an educational space for the queer community to connect with nature and learn ecological awareness and outdoor self-efficacy skills that they otherwise would not have access to. their mission is to promote and expand upon the environmental education for lgbtq people through nature awareness, ancestral skills, and justice-based learnings. the venture out project the ability to have access and enjoy nature is very important, and something that is not offered to all communities."
+        },
+        {
+          "chunk_id": 2,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 3407,
+          "end_char": 5434,
+          "text_length": 2027,
+          "estimated_tokens": 506,
+          "text": "to. their mission is to promote and expand upon the environmental education for lgbtq people through nature awareness, ancestral skills, and justice-based learnings. the venture out project the ability to have access and enjoy nature is very important, and something that is not offered to all communities. the venture out project works to offer members of the lgbtq community  chance to get outdoors and reconnect with nature however they see fit. through outdoor activities like backpacking, wilderness trips, and workshops, the venture out project strives to promote inclusion for all members of the community by starting from the ground up. the historical connection between lgbtq pride and sustainability is deeply rooted in the communitys resilience and advocacy, with environmentalism emerging as  natural extension of the fight for social justice. join us as we explore the ways in which pride and environmentalism cross over through historical and social lenses. symbolism in the rainbow flag the rainbow flag, designed by activist gilbert baker in 1978, originally included eight colours, each representing  facet of lgbtq identity. green symbolised nature, reflecting the communitys intrinsic link to the environment and  rejection of historical narratives that labeled queer identities as unnatural. this colour choice was  deliberate assertion that lgbtq people belong within the natural world, countering discrimination and affirming their place in ecological systems. historical advocacy and oppression lgbtq communities have long been at the forefront of environmental and climate justice movements. as noted by social historian nancy. unger, their experience as an oppressed minority enabled them to identify institutional injustices, including environmental destruction, and propose transformative solutions. for example: systemic discrimination against lgbtq individuals (.., lack of healthcare access, housing insecurity) heightened vulnerability to environmental harms like pollution and climate disasters."
+        },
+        {
+          "chunk_id": 3,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 5128,
+          "end_char": 7168,
+          "text_length": 2040,
+          "estimated_tokens": 510,
+          "text": "tify institutional injustices, including environmental destruction, and propose transformative solutions. for example: systemic discrimination against lgbtq individuals (.., lack of healthcare access, housing insecurity) heightened vulnerability to environmental harms like pollution and climate disasters. studies show higher rates of pollution-related illnesses (.., respiratory diseases) in lgbtq populations due to socioeconomic disparities. during crises like natural disasters, queer communities - particularly homeless youth (40 of whom are lgbtq in the..) and poc trans individuals face exclusion from relief efforts, placing them on the frontlines of climate change. pioneering organisations and movements the lgbtq community has mobilised through groups that explicitly tie queer liberation to environmental justice: out for sustainability (o4s): founded over  decade ago, o4s champions climate resilience through initiatives like plastic free pride, emphasising mutual aid and disaster preparedness for lgbtq communities. rainbow rebellion: an lgbtq division within extinction rebellion uk, this group organises protests (.., london street demonstrations) demanding climate justice while highlighting how marginalised groups suffer disproportionately in ecological crises. queer nature and queer eco project: these organisations reclaim outdoor spaces for marginalised communities, challenging the exclusion of lgbtq individuals from nature access and advocating for urban environmental justice. queer ecologies: redefining environmentalism queer perspectives have reshaped environmental activism by: rejecting human-nature binaries that fuel exploitation, instead promoting interconnectedness. centering urban and human-centric environmental issues, moving beyond traditional wilderness conservation to address lived realities like pollution and resource inequality. building resilient, anti-capitalist communities that prioritise collective well-being over individualism -  strategy honed through survival in hostile societies."
+        },
+        {
+          "chunk_id": 4,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 6862,
+          "end_char": 7637,
+          "text_length": 775,
+          "estimated_tokens": 193,
+          "text": "ntric environmental issues, moving beyond traditional wilderness conservation to address lived realities like pollution and resource inequality. building resilient, anti-capitalist communities that prioritise collective well-being over individualism -  strategy honed through survival in hostile societies. enduring legacy and future directions the historical bond between lgbtq rights and sustainability underscores  shared vision: justice cannot be siloed. as climate change intensifies, the communitys legacy of intersectional advocacy, exemplified by the green stripes symbolism and groups like o4s, offers  blueprint for inclusive environmentalism. future efforts must amplify queer voices, particularly those of colour, to ensure climate resilience is rooted in equity."
+        }
+      ]
+    },
+    "small": {
+      "fixed_size": [
+        {
+          "chunk_id": 0,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 0,
+          "end_char": 512,
+          "text_length": 512,
+          "estimated_tokens": 128,
+          "text": "the green program loves to celebrate love, and there is no better way to do that this month than by recognizing  few lgbtq leaders and organizations that are making  difference not just in their own communities but for our planet altogether. read below to learn more about some people and spaces that are working together to promote  better world that focuses on inclusion and equality. lgbtq leaders: screenshot 2022 05 20 104154 rachel carson author of silent spring rachel carson was an american marine biolog"
+        },
+        {
+          "chunk_id": 1,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 410,
+          "end_char": 922,
+          "text_length": 512,
+          "estimated_tokens": 128,
+          "text": "ot 2022 05 20 104154 rachel carson author of silent spring rachel carson was an american marine biologist, writer, and conservationist who used her work to bring public awareness to environmental pollution. we all know silent spring but did you know that this book was  founding attribute to the global environmental movement? the book ultimately led to the banning of ddt and other pesticides across the united states. rachels works and accomplishments paved the way for the creation of the environmental protec"
+        },
+        {
+          "chunk_id": 2,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 820,
+          "end_char": 1332,
+          "text_length": 511,
+          "estimated_tokens": 127,
+          "text": "d states. rachels works and accomplishments paved the way for the creation of the environmental protection agency and many other modern-day protections. screenshot 2022 05 20 104318 harvey milk san francisco board of supervisors harvey milk was an american politician and the first openly gay man to be elected to public office in california, and one of the first in the united states. his work included promoting  legal framework that supports gays, including the passage of  gay rights bill. harvey also spoke"
+        },
+        {
+          "chunk_id": 3,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 1230,
+          "end_char": 1742,
+          "text_length": 512,
+          "estimated_tokens": 128,
+          "text": "ing  legal framework that supports gays, including the passage of  gay rights bill. harvey also spoke out on  local and national level about issues for the lgbtq community as well as those for racial and ethnic minorities. screenshot 2022 05 20 104842 pattie gonia environmentalist drag queen on  mission to build  more inclusive climate movement, pattie gonia is  drag queen and social media influencer working to build  better community for the queer community and mother nature. pattie gonia shares herself hi"
+        },
+        {
+          "chunk_id": 4,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 1640,
+          "end_char": 2152,
+          "text_length": 512,
+          "estimated_tokens": 128,
+          "text": "g to build  better community for the queer community and mother nature. pattie gonia shares herself hiking, camping, or other outdoor activities both in and out of drag. most of her drag fashion comes from nature, as she shows the world how mother nature knows no binaries. follow pattie gonia on instagram. rikki rikki weber legal practice manager at earthjustice earthjustice is  non-profit organization that uses legal practices to fight climate change and protect both people and wildlife who are affected by"
+        },
+        {
+          "chunk_id": 5,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 2050,
+          "end_char": 2562,
+          "text_length": 511,
+          "estimated_tokens": 127,
+          "text": "uses legal practices to fight climate change and protect both people and wildlife who are affected by it. rikki weber is  queer woman of color who has not only changed the game through this organization, but inside of it as well. she founded an lgbtq group within earthjustice to recongize fellow queer employees and other lgbtq environmentalists. lgbtq organizations: out for sustainability created by lgbtq communities and for lgbtq communities, out for sustainability is  space for climate resilience and env"
+        },
+        {
+          "chunk_id": 6,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 2460,
+          "end_char": 2972,
+          "text_length": 512,
+          "estimated_tokens": 128,
+          "text": "communities and for lgbtq communities, out for sustainability is  space for climate resilience and environmental justice. their mission is to highlight connections between lgbtq communities, sustainability, and justice through sponsored service projects, summits, and events across the.. our climate voices our climate voices focuses on communities and individuals who have been impacted by the climate crisis, by using storytelling to change the dynamic of the dialogue surrounding climate change. this organiza"
+        },
+        {
+          "chunk_id": 7,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 2870,
+          "end_char": 3382,
+          "text_length": 511,
+          "estimated_tokens": 127,
+          "text": "by using storytelling to change the dynamic of the dialogue surrounding climate change. this organization works to put the voices of the individual at the forefront of their climate mission, with  strong focus on queer voices and lgbtq activism. queer nature the environment exists for everyone, including the lgbtq community. queer nature was founded to create an educational space for the queer community to connect with nature and learn ecological awareness and outdoor self-efficacy skills that they otherwi"
+        },
+        {
+          "chunk_id": 8,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 3280,
+          "end_char": 3792,
+          "text_length": 510,
+          "estimated_tokens": 127,
+          "text": "connect with nature and learn ecological awareness and outdoor self-efficacy skills that they otherwise would not have access to. their mission is to promote and expand upon the environmental education for lgbtq people through nature awareness, ancestral skills, and justice-based learnings. the venture out project the ability to have access and enjoy nature is very important, and something that is not offered to all communities. the venture out project works to offer members of the lgbtq community  chance"
+        },
+        {
+          "chunk_id": 9,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 3690,
+          "end_char": 4202,
+          "text_length": 512,
+          "estimated_tokens": 128,
+          "text": "red to all communities. the venture out project works to offer members of the lgbtq community  chance to get outdoors and reconnect with nature however they see fit. through outdoor activities like backpacking, wilderness trips, and workshops, the venture out project strives to promote inclusion for all members of the community by starting from the ground up. the historical connection between lgbtq pride and sustainability is deeply rooted in the communitys resilience and advocacy, with environmentalism eme"
+        },
+        {
+          "chunk_id": 10,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 4100,
+          "end_char": 4612,
+          "text_length": 512,
+          "estimated_tokens": 128,
+          "text": "d sustainability is deeply rooted in the communitys resilience and advocacy, with environmentalism emerging as  natural extension of the fight for social justice. join us as we explore the ways in which pride and environmentalism cross over through historical and social lenses. symbolism in the rainbow flag the rainbow flag, designed by activist gilbert baker in 1978, originally included eight colours, each representing  facet of lgbtq identity. green symbolised nature, reflecting the communitys intrinsic l"
+        },
+        {
+          "chunk_id": 11,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 4510,
+          "end_char": 5022,
+          "text_length": 511,
+          "estimated_tokens": 127,
+          "text": "representing  facet of lgbtq identity. green symbolised nature, reflecting the communitys intrinsic link to the environment and  rejection of historical narratives that labeled queer identities as unnatural. this colour choice was  deliberate assertion that lgbtq people belong within the natural world, countering discrimination and affirming their place in ecological systems. historical advocacy and oppression lgbtq communities have long been at the forefront of environmental and climate justice movements."
+        },
+        {
+          "chunk_id": 12,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 4920,
+          "end_char": 5432,
+          "text_length": 512,
+          "estimated_tokens": 128,
+          "text": "sion lgbtq communities have long been at the forefront of environmental and climate justice movements. as noted by social historian nancy. unger, their experience as an oppressed minority enabled them to identify institutional injustices, including environmental destruction, and propose transformative solutions. for example: systemic discrimination against lgbtq individuals (.., lack of healthcare access, housing insecurity) heightened vulnerability to environmental harms like pollution and climate disaster"
+        },
+        {
+          "chunk_id": 13,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 5330,
+          "end_char": 5842,
+          "text_length": 512,
+          "estimated_tokens": 128,
+          "text": "ousing insecurity) heightened vulnerability to environmental harms like pollution and climate disasters. studies show higher rates of pollution-related illnesses (.., respiratory diseases) in lgbtq populations due to socioeconomic disparities. during crises like natural disasters, queer communities - particularly homeless youth (40 of whom are lgbtq in the..) and poc trans individuals face exclusion from relief efforts, placing them on the frontlines of climate change. pioneering organisations and movements"
+        },
+        {
+          "chunk_id": 14,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 5740,
+          "end_char": 6252,
+          "text_length": 512,
+          "estimated_tokens": 128,
+          "text": "lief efforts, placing them on the frontlines of climate change. pioneering organisations and movements the lgbtq community has mobilised through groups that explicitly tie queer liberation to environmental justice: out for sustainability (o4s): founded over  decade ago, o4s champions climate resilience through initiatives like plastic free pride, emphasising mutual aid and disaster preparedness for lgbtq communities. rainbow rebellion: an lgbtq division within extinction rebellion uk, this group organises p"
+        },
+        {
+          "chunk_id": 15,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 6150,
+          "end_char": 6662,
+          "text_length": 512,
+          "estimated_tokens": 128,
+          "text": "mmunities. rainbow rebellion: an lgbtq division within extinction rebellion uk, this group organises protests (.., london street demonstrations) demanding climate justice while highlighting how marginalised groups suffer disproportionately in ecological crises. queer nature and queer eco project: these organisations reclaim outdoor spaces for marginalised communities, challenging the exclusion of lgbtq individuals from nature access and advocating for urban environmental justice. queer ecologies: redefining"
+        },
+        {
+          "chunk_id": 16,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 6560,
+          "end_char": 7072,
+          "text_length": 512,
+          "estimated_tokens": 128,
+          "text": "viduals from nature access and advocating for urban environmental justice. queer ecologies: redefining environmentalism queer perspectives have reshaped environmental activism by: rejecting human-nature binaries that fuel exploitation, instead promoting interconnectedness. centering urban and human-centric environmental issues, moving beyond traditional wilderness conservation to address lived realities like pollution and resource inequality. building resilient, anti-capitalist communities that prioritise c"
+        },
+        {
+          "chunk_id": 17,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 6970,
+          "end_char": 7482,
+          "text_length": 512,
+          "estimated_tokens": 128,
+          "text": "e pollution and resource inequality. building resilient, anti-capitalist communities that prioritise collective well-being over individualism -  strategy honed through survival in hostile societies. enduring legacy and future directions the historical bond between lgbtq rights and sustainability underscores  shared vision: justice cannot be siloed. as climate change intensifies, the communitys legacy of intersectional advocacy, exemplified by the green stripes symbolism and groups like o4s, offers  blueprin"
+        },
+        {
+          "chunk_id": 18,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 7380,
+          "end_char": 7637,
+          "text_length": 257,
+          "estimated_tokens": 64,
+          "text": "ersectional advocacy, exemplified by the green stripes symbolism and groups like o4s, offers  blueprint for inclusive environmentalism. future efforts must amplify queer voices, particularly those of colour, to ensure climate resilience is rooted in equity."
+        }
+      ],
+      "content_aware": [
+        {
+          "chunk_id": 0,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 242,
+          "end_char": 629,
+          "text_length": 387,
+          "estimated_tokens": 96,
+          "text": "the green program loves to celebrate love, and there is no better way to do that this month than by recognizing  few lgbtq leaders and organizations that are making  difference not just in their own communities but for our planet altogether.\n\nread below to learn more about some people and spaces that are working together to promote  better world that focuses on inclusion and equality."
+        },
+        {
+          "chunk_id": 1,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 242,
+          "end_char": 671,
+          "text_length": 429,
+          "estimated_tokens": 107,
+          "text": "ing together to promote  better world that focuses on inclusion and equality.\n\nlgbtq leaders: screenshot 2022 05 20 104154 rachel carson author of silent spring rachel carson was an american marine biologist, writer, and conservationist who used her work to bring public awareness to environmental pollution.\n\nwe all know silent spring but did you know that this book was  founding attribute to the global environmental movement?"
+        },
+        {
+          "chunk_id": 2,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 242,
+          "end_char": 565,
+          "text_length": 323,
+          "estimated_tokens": 80,
+          "text": "you know that this book was  founding attribute to the global environmental movement?\n\nthe book ultimately led to the banning of ddt and other pesticides across the united states.\n\nrachels works and accomplishments paved the way for the creation of the environmental protection agency and many other modern-day protections."
+        },
+        {
+          "chunk_id": 3,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 242,
+          "end_char": 649,
+          "text_length": 407,
+          "estimated_tokens": 101,
+          "text": "nmental protection agency and many other modern-day protections.\n\nscreenshot 2022 05 20 104318 harvey milk san francisco board of supervisors harvey milk was an american politician and the first openly gay man to be elected to public office in california, and one of the first in the united states.\n\nhis work included promoting  legal framework that supports gays, including the passage of  gay rights bill."
+        },
+        {
+          "chunk_id": 4,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 242,
+          "end_char": 723,
+          "text_length": 481,
+          "estimated_tokens": 120,
+          "text": "g  legal framework that supports gays, including the passage of  gay rights bill.\n\nharvey also spoke out on  local and national level about issues for the lgbtq community as well as those for racial and ethnic minorities.\n\nscreenshot 2022 05 20 104842 pattie gonia environmentalist drag queen on  mission to build  more inclusive climate movement, pattie gonia is  drag queen and social media influencer working to build  better community for the queer community and mother nature."
+        },
+        {
+          "chunk_id": 5,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 242,
+          "end_char": 577,
+          "text_length": 335,
+          "estimated_tokens": 83,
+          "text": "l media influencer working to build  better community for the queer community and mother nature.\n\npattie gonia shares herself hiking, camping, or other outdoor activities both in and out of drag.\n\nmost of her drag fashion comes from nature, as she shows the world how mother nature knows no binaries.\n\nfollow pattie gonia on instagram."
+        },
+        {
+          "chunk_id": 6,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 242,
+          "end_char": 644,
+          "text_length": 402,
+          "estimated_tokens": 100,
+          "text": "mother nature knows no binaries.\n\nfollow pattie gonia on instagram.\n\nrikki rikki weber legal practice manager at earthjustice earthjustice is  non-profit organization that uses legal practices to fight climate change and protect both people and wildlife who are affected by it.\n\nrikki weber is  queer woman of color who has not only changed the game through this organization, but inside of it as well."
+        },
+        {
+          "chunk_id": 7,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 242,
+          "end_char": 625,
+          "text_length": 383,
+          "estimated_tokens": 95,
+          "text": "s not only changed the game through this organization, but inside of it as well.\n\nshe founded an lgbtq group within earthjustice to recongize fellow queer employees and other lgbtq environmentalists.\n\nlgbtq organizations: out for sustainability created by lgbtq communities and for lgbtq communities, out for sustainability is  space for climate resilience and environmental justice."
+        },
+        {
+          "chunk_id": 8,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 242,
+          "end_char": 697,
+          "text_length": 455,
+          "estimated_tokens": 113,
+          "text": "r sustainability is  space for climate resilience and environmental justice.\n\ntheir mission is to highlight connections between lgbtq communities, sustainability, and justice through sponsored service projects, summits, and events across the..\n\nour climate voices our climate voices focuses on communities and individuals who have been impacted by the climate crisis, by using storytelling to change the dynamic of the dialogue surrounding climate change."
+        },
+        {
+          "chunk_id": 9,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 242,
+          "end_char": 574,
+          "text_length": 332,
+          "estimated_tokens": 83,
+          "text": "is, by using storytelling to change the dynamic of the dialogue surrounding climate change.\n\nthis organization works to put the voices of the individual at the forefront of their climate mission, with  strong focus on queer voices and lgbtq activism.\n\nqueer nature the environment exists for everyone, including the lgbtq community."
+        },
+        {
+          "chunk_id": 10,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 242,
+          "end_char": 685,
+          "text_length": 443,
+          "estimated_tokens": 110,
+          "text": "he environment exists for everyone, including the lgbtq community.\n\nqueer nature was founded to create an educational space for the queer community to connect with nature and learn ecological awareness and outdoor self-efficacy skills that they otherwise would not have access to.\n\ntheir mission is to promote and expand upon the environmental education for lgbtq people through nature awareness, ancestral skills, and justice-based learnings."
+        },
+        {
+          "chunk_id": 11,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 242,
+          "end_char": 615,
+          "text_length": 373,
+          "estimated_tokens": 93,
+          "text": "or lgbtq people through nature awareness, ancestral skills, and justice-based learnings.\n\nthe venture out project the ability to have access and enjoy nature is very important, and something that is not offered to all communities.\n\nthe venture out project works to offer members of the lgbtq community  chance to get outdoors and reconnect with nature however they see fit."
+        },
+        {
+          "chunk_id": 12,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 242,
+          "end_char": 725,
+          "text_length": 483,
+          "estimated_tokens": 120,
+          "text": "ty  chance to get outdoors and reconnect with nature however they see fit.\n\nthrough outdoor activities like backpacking, wilderness trips, and workshops, the venture out project strives to promote inclusion for all members of the community by starting from the ground up.\n\nthe historical connection between lgbtq pride and sustainability is deeply rooted in the communitys resilience and advocacy, with environmentalism emerging as  natural extension of the fight for social justice."
+        },
+        {
+          "chunk_id": 13,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 242,
+          "end_char": 626,
+          "text_length": 384,
+          "estimated_tokens": 96,
+          "text": "advocacy, with environmentalism emerging as  natural extension of the fight for social justice.\n\njoin us as we explore the ways in which pride and environmentalism cross over through historical and social lenses.\n\nsymbolism in the rainbow flag the rainbow flag, designed by activist gilbert baker in 1978, originally included eight colours, each representing  facet of lgbtq identity."
+        },
+        {
+          "chunk_id": 14,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 242,
+          "end_char": 660,
+          "text_length": 418,
+          "estimated_tokens": 104,
+          "text": "iginally included eight colours, each representing  facet of lgbtq identity.\n\ngreen symbolised nature, reflecting the communitys intrinsic link to the environment and  rejection of historical narratives that labeled queer identities as unnatural.\n\nthis colour choice was  deliberate assertion that lgbtq people belong within the natural world, countering discrimination and affirming their place in ecological systems."
+        },
+        {
+          "chunk_id": 15,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 242,
+          "end_char": 672,
+          "text_length": 430,
+          "estimated_tokens": 107,
+          "text": "l world, countering discrimination and affirming their place in ecological systems.\n\nhistorical advocacy and oppression lgbtq communities have long been at the forefront of environmental and climate justice movements.\n\nas noted by social historian nancy.\n\nunger, their experience as an oppressed minority enabled them to identify institutional injustices, including environmental destruction, and propose transformative solutions."
+        },
+        {
+          "chunk_id": 16,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 242,
+          "end_char": 670,
+          "text_length": 428,
+          "estimated_tokens": 107,
+          "text": "injustices, including environmental destruction, and propose transformative solutions.\n\nfor example: systemic discrimination against lgbtq individuals (.., lack of healthcare access, housing insecurity) heightened vulnerability to environmental harms like pollution and climate disasters.\n\nstudies show higher rates of pollution-related illnesses (.., respiratory diseases) in lgbtq populations due to socioeconomic disparities."
+        },
+        {
+          "chunk_id": 17,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 242,
+          "end_char": 558,
+          "text_length": 316,
+          "estimated_tokens": 79,
+          "text": "ses (.., respiratory diseases) in lgbtq populations due to socioeconomic disparities.\n\nduring crises like natural disasters, queer communities - particularly homeless youth (40 of whom are lgbtq in the..) and poc trans individuals face exclusion from relief efforts, placing them on the frontlines of climate change."
+        },
+        {
+          "chunk_id": 18,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 242,
+          "end_char": 663,
+          "text_length": 421,
+          "estimated_tokens": 105,
+          "text": "lief efforts, placing them on the frontlines of climate change.\n\npioneering organisations and movements the lgbtq community has mobilised through groups that explicitly tie queer liberation to environmental justice: out for sustainability (o4s): founded over  decade ago, o4s champions climate resilience through initiatives like plastic free pride, emphasising mutual aid and disaster preparedness for lgbtq communities."
+        },
+        {
+          "chunk_id": 19,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 242,
+          "end_char": 577,
+          "text_length": 335,
+          "estimated_tokens": 83,
+          "text": "free pride, emphasising mutual aid and disaster preparedness for lgbtq communities.\n\nrainbow rebellion: an lgbtq division within extinction rebellion uk, this group organises protests (.., london street demonstrations) demanding climate justice while highlighting how marginalised groups suffer disproportionately in ecological crises."
+        },
+        {
+          "chunk_id": 20,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 242,
+          "end_char": 733,
+          "text_length": 491,
+          "estimated_tokens": 122,
+          "text": "marginalised groups suffer disproportionately in ecological crises.\n\nqueer nature and queer eco project: these organisations reclaim outdoor spaces for marginalised communities, challenging the exclusion of lgbtq individuals from nature access and advocating for urban environmental justice.\n\nqueer ecologies: redefining environmentalism queer perspectives have reshaped environmental activism by: rejecting human-nature binaries that fuel exploitation, instead promoting interconnectedness."
+        },
+        {
+          "chunk_id": 21,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 242,
+          "end_char": 676,
+          "text_length": 434,
+          "estimated_tokens": 108,
+          "text": "by: rejecting human-nature binaries that fuel exploitation, instead promoting interconnectedness.\n\ncentering urban and human-centric environmental issues, moving beyond traditional wilderness conservation to address lived realities like pollution and resource inequality.\n\nbuilding resilient, anti-capitalist communities that prioritise collective well-being over individualism -  strategy honed through survival in hostile societies."
+        },
+        {
+          "chunk_id": 22,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 242,
+          "end_char": 677,
+          "text_length": 435,
+          "estimated_tokens": 108,
+          "text": "well-being over individualism -  strategy honed through survival in hostile societies.\n\nenduring legacy and future directions the historical bond between lgbtq rights and sustainability underscores  shared vision: justice cannot be siloed.\n\nas climate change intensifies, the communitys legacy of intersectional advocacy, exemplified by the green stripes symbolism and groups like o4s, offers  blueprint for inclusive environmentalism."
+        },
+        {
+          "chunk_id": 23,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 242,
+          "end_char": 452,
+          "text_length": 210,
+          "estimated_tokens": 52,
+          "text": "tripes symbolism and groups like o4s, offers  blueprint for inclusive environmentalism.\n\nfuture efforts must amplify queer voices, particularly those of colour, to ensure climate resilience is rooted in equity."
+        }
+      ],
+      "recursive_character": [
+        {
+          "chunk_id": 0,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 0,
+          "end_char": 616,
+          "text_length": 616,
+          "estimated_tokens": 154,
+          "text": "the green program loves to celebrate love, and there is no better way to do that this month than by recognizing  few lgbtq leaders and organizations that are making  difference not just in their own communities but for our planet altogether. read below to learn more about some people and spaces that are working together to promote  better world that focuses on inclusion and equality. lgbtq leaders: screenshot 2022 05 20 104154 rachel carson author of silent spring rachel carson was an american marine biologist, writer, and conservationist who used her work to bring public awareness to environmental pollution."
+        },
+        {
+          "chunk_id": 1,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 515,
+          "end_char": 972,
+          "text_length": 457,
+          "estimated_tokens": 114,
+          "text": ", writer, and conservationist who used her work to bring public awareness to environmental pollution. we all know silent spring but did you know that this book was  founding attribute to the global environmental movement? the book ultimately led to the banning of ddt and other pesticides across the united states. rachels works and accomplishments paved the way for the creation of the environmental protection agency and many other modern-day protections."
+        },
+        {
+          "chunk_id": 2,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 871,
+          "end_char": 1313,
+          "text_length": 442,
+          "estimated_tokens": 110,
+          "text": "he way for the creation of the environmental protection agency and many other modern-day protections. screenshot 2022 05 20 104318 harvey milk san francisco board of supervisors harvey milk was an american politician and the first openly gay man to be elected to public office in california, and one of the first in the united states. his work included promoting  legal framework that supports gays, including the passage of  gay rights bill."
+        },
+        {
+          "chunk_id": 3,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 1212,
+          "end_char": 1711,
+          "text_length": 499,
+          "estimated_tokens": 124,
+          "text": "rk included promoting  legal framework that supports gays, including the passage of  gay rights bill. harvey also spoke out on  local and national level about issues for the lgbtq community as well as those for racial and ethnic minorities. screenshot 2022 05 20 104842 pattie gonia environmentalist drag queen on  mission to build  more inclusive climate movement, pattie gonia is  drag queen and social media influencer working to build  better community for the queer community and mother nature."
+        },
+        {
+          "chunk_id": 4,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 1610,
+          "end_char": 2156,
+          "text_length": 546,
+          "estimated_tokens": 136,
+          "text": "social media influencer working to build  better community for the queer community and mother nature. pattie gonia shares herself hiking, camping, or other outdoor activities both in and out of drag. most of her drag fashion comes from nature, as she shows the world how mother nature knows no binaries. follow pattie gonia on instagram. rikki rikki weber legal practice manager at earthjustice earthjustice is  non-profit organization that uses legal practices to fight climate change and protect both people and wildlife who are affected by it."
+        },
+        {
+          "chunk_id": 5,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 2055,
+          "end_char": 2580,
+          "text_length": 525,
+          "estimated_tokens": 131,
+          "text": "legal practices to fight climate change and protect both people and wildlife who are affected by it. rikki weber is  queer woman of color who has not only changed the game through this organization, but inside of it as well. she founded an lgbtq group within earthjustice to recongize fellow queer employees and other lgbtq environmentalists. lgbtq organizations: out for sustainability created by lgbtq communities and for lgbtq communities, out for sustainability is  space for climate resilience and environmental justice."
+        },
+        {
+          "chunk_id": 6,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 2480,
+          "end_char": 2958,
+          "text_length": 478,
+          "estimated_tokens": 119,
+          "text": "lgbtq communities, out for sustainability is  space for climate resilience and environmental justice. their mission is to highlight connections between lgbtq communities, sustainability, and justice through sponsored service projects, summits, and events across the.. our climate voices our climate voices focuses on communities and individuals who have been impacted by the climate crisis, by using storytelling to change the dynamic of the dialogue surrounding climate change."
+        },
+        {
+          "chunk_id": 7,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 2857,
+          "end_char": 3410,
+          "text_length": 553,
+          "estimated_tokens": 138,
+          "text": "imate crisis, by using storytelling to change the dynamic of the dialogue surrounding climate change. this organization works to put the voices of the individual at the forefront of their climate mission, with  strong focus on queer voices and lgbtq activism. queer nature the environment exists for everyone, including the lgbtq community. queer nature was founded to create an educational space for the queer community to connect with nature and learn ecological awareness and outdoor self-efficacy skills that they otherwise would not have access to."
+        },
+        {
+          "chunk_id": 8,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 3309,
+          "end_char": 3855,
+          "text_length": 546,
+          "estimated_tokens": 136,
+          "text": "n ecological awareness and outdoor self-efficacy skills that they otherwise would not have access to. their mission is to promote and expand upon the environmental education for lgbtq people through nature awareness, ancestral skills, and justice-based learnings. the venture out project the ability to have access and enjoy nature is very important, and something that is not offered to all communities. the venture out project works to offer members of the lgbtq community  chance to get outdoors and reconnect with nature however they see fit."
+        },
+        {
+          "chunk_id": 9,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 3754,
+          "end_char": 4262,
+          "text_length": 508,
+          "estimated_tokens": 127,
+          "text": "embers of the lgbtq community  chance to get outdoors and reconnect with nature however they see fit. through outdoor activities like backpacking, wilderness trips, and workshops, the venture out project strives to promote inclusion for all members of the community by starting from the ground up. the historical connection between lgbtq pride and sustainability is deeply rooted in the communitys resilience and advocacy, with environmentalism emerging as  natural extension of the fight for social justice."
+        },
+        {
+          "chunk_id": 10,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 4161,
+          "end_char": 4718,
+          "text_length": 557,
+          "estimated_tokens": 139,
+          "text": "e and advocacy, with environmentalism emerging as  natural extension of the fight for social justice. join us as we explore the ways in which pride and environmentalism cross over through historical and social lenses. symbolism in the rainbow flag the rainbow flag, designed by activist gilbert baker in 1978, originally included eight colours, each representing  facet of lgbtq identity. green symbolised nature, reflecting the communitys intrinsic link to the environment and  rejection of historical narratives that labeled queer identities as unnatural."
+        },
+        {
+          "chunk_id": 11,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 4617,
+          "end_char": 5058,
+          "text_length": 441,
+          "estimated_tokens": 110,
+          "text": "o the environment and  rejection of historical narratives that labeled queer identities as unnatural. this colour choice was  deliberate assertion that lgbtq people belong within the natural world, countering discrimination and affirming their place in ecological systems. historical advocacy and oppression lgbtq communities have long been at the forefront of environmental and climate justice movements. as noted by social historian nancy."
+        },
+        {
+          "chunk_id": 12,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 4957,
+          "end_char": 5433,
+          "text_length": 476,
+          "estimated_tokens": 119,
+          "text": "at the forefront of environmental and climate justice movements. as noted by social historian nancy. unger, their experience as an oppressed minority enabled them to identify institutional injustices, including environmental destruction, and propose transformative solutions. for example: systemic discrimination against lgbtq individuals (.., lack of healthcare access, housing insecurity) heightened vulnerability to environmental harms like pollution and climate disasters."
+        },
+        {
+          "chunk_id": 13,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 5333,
+          "end_char": 5803,
+          "text_length": 470,
+          "estimated_tokens": 117,
+          "text": "ing insecurity) heightened vulnerability to environmental harms like pollution and climate disasters. studies show higher rates of pollution-related illnesses (.., respiratory diseases) in lgbtq populations due to socioeconomic disparities. during crises like natural disasters, queer communities - particularly homeless youth (40 of whom are lgbtq in the..) and poc trans individuals face exclusion from relief efforts, placing them on the frontlines of climate change."
+        },
+        {
+          "chunk_id": 14,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 5702,
+          "end_char": 6160,
+          "text_length": 458,
+          "estimated_tokens": 114,
+          "text": "ans individuals face exclusion from relief efforts, placing them on the frontlines of climate change. pioneering organisations and movements the lgbtq community has mobilised through groups that explicitly tie queer liberation to environmental justice: out for sustainability (o4s): founded over  decade ago, o4s champions climate resilience through initiatives like plastic free pride, emphasising mutual aid and disaster preparedness for lgbtq communities."
+        },
+        {
+          "chunk_id": 15,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 6059,
+          "end_char": 6634,
+          "text_length": 575,
+          "estimated_tokens": 143,
+          "text": "ives like plastic free pride, emphasising mutual aid and disaster preparedness for lgbtq communities. rainbow rebellion: an lgbtq division within extinction rebellion uk, this group organises protests (.., london street demonstrations) demanding climate justice while highlighting how marginalised groups suffer disproportionately in ecological crises. queer nature and queer eco project: these organisations reclaim outdoor spaces for marginalised communities, challenging the exclusion of lgbtq individuals from nature access and advocating for urban environmental justice."
+        },
+        {
+          "chunk_id": 16,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 6533,
+          "end_char": 7006,
+          "text_length": 473,
+          "estimated_tokens": 118,
+          "text": "the exclusion of lgbtq individuals from nature access and advocating for urban environmental justice. queer ecologies: redefining environmentalism queer perspectives have reshaped environmental activism by: rejecting human-nature binaries that fuel exploitation, instead promoting interconnectedness. centering urban and human-centric environmental issues, moving beyond traditional wilderness conservation to address lived realities like pollution and resource inequality."
+        },
+        {
+          "chunk_id": 17,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 6905,
+          "end_char": 7320,
+          "text_length": 415,
+          "estimated_tokens": 103,
+          "text": "raditional wilderness conservation to address lived realities like pollution and resource inequality. building resilient, anti-capitalist communities that prioritise collective well-being over individualism -  strategy honed through survival in hostile societies. enduring legacy and future directions the historical bond between lgbtq rights and sustainability underscores  shared vision: justice cannot be siloed."
+        },
+        {
+          "chunk_id": 18,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 7219,
+          "end_char": 7637,
+          "text_length": 418,
+          "estimated_tokens": 104,
+          "text": "al bond between lgbtq rights and sustainability underscores  shared vision: justice cannot be siloed. as climate change intensifies, the communitys legacy of intersectional advocacy, exemplified by the green stripes symbolism and groups like o4s, offers  blueprint for inclusive environmentalism. future efforts must amplify queer voices, particularly those of colour, to ensure climate resilience is rooted in equity."
+        }
+      ]
+    }
+  },
+  "chunking_success": true
+}

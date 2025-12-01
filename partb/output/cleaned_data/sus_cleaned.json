@@ -1,0 +1,19 @@
+{
+  "source_file": "sus.txt",
+  "processing_timestamp": "2025-11-18T12:00:31.494476",
+  "original_metadata": {
+    "total_pages": 1,
+    "original_text_length": 2099,
+    "extraction_method": "text_file"
+  },
+  "filtering_stats": {
+    "original_length": 2099,
+    "sections_removed": 0,
+    "paragraphs_removed": 0,
+    "sentences_removed": 0,
+    "cleaned_length": 2081,
+    "retention_rate": 99.14244878513578
+  },
+  "cleaned_text": "sustainability is the practice of meeting the needs of the present without compromising the ability of future generations to meet their own needs, involving the responsible use of resources to ensure long-term environmental, social, and economic well-being. it is achieved through  balance of environmental health, social equity, and economic vitality to create thriving and resilient communities. key principles and goals environmental protection: this includes preserving natural resources, conserving habitats, reducing waste and pollution, and combating climate change. social equity: this focuses on ensuring fair and just treatment for all people, promoting better living standards, and maintaining social stability without causing disruption. economic vitality: this involves maintaining economic systems that are strong enough to support present needs but do not rely on depleting resources, ensuring profitability while minimizing negative impacts. long-term perspective: the core idea is to manage resources in  way that ensures they will be available for future generations, sometimes referred to as future viability. how it works in practice resource management: using resources, such as energy, water, and raw materials, in  way that they can be replenished or maintained over time. sustainable practices: implementing practices like reducing food waste, adopting renewable energy, improving energy efficiency, and developing efficient supply chains. systems thinking: recognizing that the environmental, social, and economic aspects are interconnected and must be considered together when making decisions. the importance of sustainability planetary health: it is crucial for keeping the planet inhabitable and supporting the ecosystems that human life depends on. risk mitigation: it helps mitigate risks associated with resource depletion, climate change, and social inequality, which can lead to long-term economic and social collapse. societal well-being: it aims to create more equitable, resilient, and healthy communities for all people, now and in the future.",
+  "processing_success": true
+}

@@ -1,0 +1,1573 @@
+{
+  "source_file": "test2.txt",
+  "chunking_timestamp": "2025-11-19T07:29:21.889493",
+  "original_metadata": {
+    "total_pages": 1,
+    "original_text_length": 13611,
+    "extraction_method": "text_file"
+  },
+  "filtering_stats": {
+    "original_length": 13611,
+    "sections_removed": 0,
+    "paragraphs_removed": 0,
+    "sentences_removed": 0,
+    "cleaned_length": 13427,
+    "retention_rate": 98.64815222981413
+  },
+  "chunking_config": {
+    "chunk_sizes": {
+      "large": 2048,
+      "medium": 512,
+      "small": 128
+    },
+    "overlap_percentages": {
+      "large": 0.1,
+      "medium": 0.15,
+      "small": 0.2
+    }
+  },
+  "chunk_stats": {
+    "large_fixed_size": {
+      "chunk_count": 2,
+      "avg_tokens": 1780.5,
+      "min_tokens": 1513,
+      "max_tokens": 2048,
+      "total_tokens": 3561
+    },
+    "large_content_aware": {
+      "chunk_count": 2,
+      "avg_tokens": 1796.5,
+      "min_tokens": 1561,
+      "max_tokens": 2032,
+      "total_tokens": 3593
+    },
+    "large_recursive_character": {
+      "chunk_count": 2,
+      "avg_tokens": 1780.0,
+      "min_tokens": 1525,
+      "max_tokens": 2035,
+      "total_tokens": 3560
+    },
+    "medium_fixed_size": {
+      "chunk_count": 8,
+      "avg_tokens": 486.25,
+      "min_tokens": 309,
+      "max_tokens": 512,
+      "total_tokens": 3890
+    },
+    "medium_content_aware": {
+      "chunk_count": 8,
+      "avg_tokens": 487.0,
+      "min_tokens": 401,
+      "max_tokens": 509,
+      "total_tokens": 3896
+    },
+    "medium_recursive_character": {
+      "chunk_count": 8,
+      "avg_tokens": 486.25,
+      "min_tokens": 321,
+      "max_tokens": 518,
+      "total_tokens": 3890
+    },
+    "small_fixed_size": {
+      "chunk_count": 33,
+      "avg_tokens": 126.18181818181819,
+      "min_tokens": 76,
+      "max_tokens": 128,
+      "total_tokens": 4164
+    },
+    "small_content_aware": {
+      "chunk_count": 36,
+      "avg_tokens": 116.41666666666667,
+      "min_tokens": 81,
+      "max_tokens": 229,
+      "total_tokens": 4191
+    },
+    "small_recursive_character": {
+      "chunk_count": 33,
+      "avg_tokens": 125.75757575757575,
+      "min_tokens": 84,
+      "max_tokens": 159,
+      "total_tokens": 4150
+    }
+  },
+  "chunks": {
+    "large": {
+      "fixed_size": [
+        {
+          "chunk_id": 0,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 2048,
+          "overlap_percentage": 0.1,
+          "start_char": 0,
+          "end_char": 8192,
+          "text_length": 8192,
+          "estimated_tokens": 2048,
+          "text": "what is composting? composting is the managed, aerobic (oxygen-required) biological decomposition of organic materials by microorganisms. organic (carbon-based) materials include grass clippings, leaves, yard and tree trimmings, and food scraps. the end product is compost,  biologically stable soil amendment that can be used to build soil health and provide nutrients to plants. microorganisms feed on the materials added to the compost pile during the composting process. they use carbon and nitrogen to grow and reproduce, water to digest materials, and oxygen to breathe. you can compost at home using food scraps from your kitchen and dry leaves and woody material from your yard. why compost at home? additional resources if you are  community looking to support your constituents in their efforts to compost at home, or wish to increase participation in  curbside collection program, you may be interested in the following resource: composting food scraps in your community:  social marketing toolkit. composting is natures way of recycling. it is one of the most powerful actions we can take to reduce our trash and build healthy soil. by turning our food scraps and yard trim into compost, we transform our waste streams into  beneficial, value-added soil amendment and use it to protect the environment and create resilient communities. composting is  resourceful way to recycle the food scraps and yard trim you generate at home all year and manage your waste more sustainably. you reduce the volume of materials that might otherwise be disposed of in landfills or trash incinerators leaves, grass clippings, yard trim, and food scraps and prevent powerful greenhouse gases from being emitted into the atmosphere. composting involves minimal effort, equipment, expense, and expertise and can be fun. you save money by producing  free, high-quality soil amendment compost which reduces your use of fertilizer and pesticides. you can use your compost to build healthier soil, prevent soil erosion, conserve water, and improve plant growth in your garden and yard. view the text on the compost your food scraps graphic below. options for composting at home there are different ways to compost at home: backyard composting. vermicomposting (worm composting). if you dont have  space for composting, consider participating in  local municipal or community composting program which may collect your food scraps or offer  designated location where you can drop them off. learn more about community composting. if you cant find composting in your area, consider starting  composting program or advocating for one in your community or municipality. note: residential pre-processing appliances reduce the volume and weight of food scraps by grinding and dehydrating them. however, these appliances do not produce compost but rather  dried food scraps mixture that can be added to  composting system (at home or through  collection program). learn more about food scraps pre-processing technologies. composting in your backyard ingredients for composting the ingredients for composting include  proper balance of the following materials: carbon-rich materials (browns). nitrogen-rich materials (greens). water (moisture). air (oxygen). what to add to  backyard compost pile nitrogen-rich materials (greens) carbon-rich materials (browns) fruit and vegetable scraps dry leaves grass clippings plant stalks and twigs coffee grounds and paper filters shredded paper (non-glossy, uncolored) and shredded brown bags paper tea bags (no staples) shredded cardboard (no wax coating, tape, or glue) eggshells (crushed) untreated wood chips what to avoid adding to  backyard compost pile materials meat, fish, and bones cheese and dairy products fats, oils, and grease cooked food (small amounts are fine) compostable foodservice ware and compostable bags herbicide-treated plants and grass aggressive weedsweeds with seeds diseased and pest-infested plants treated or painted wood pet waste and cat litter dryer lint glossy paper produce stickers these foods can attract animals. backyard composting piles generally do not reach high enough temperatures to fully decompose these materials. these materials can be composted at commercial composting facilities. check first to make sure your specific facility accepts them. steps for backyard composting determine how you will collect and store your browns and greens. collect and store your fruit and vegetable scraps in  closed container on your kitchen counter, under your sink, or in your fridge or freezer. for browns, set aside an area outside to store your steady supply of leaves, twigs, or other carbon-rich material (to mix with your food scraps). set aside space for your compost pile and build or buy  bin. choose  space in your yard for your compost pile that is easily accessible year-round and has good drainage. avoid placing it right up against  fence and ensure there is  water source nearby. your compost pile will break down in sun or shade. next, choose  type of bin for your pile. bins can be constructed from materials such as wire, wood, and cinder blocks. they can also be enclosed and include barrels and tumblers. prepare your ingredients for composting. before adding your browns and greens to the pile, try to chop and break them up into smaller pieces (.., corn cobs, broccoli stalks, and other tough food scraps). doing so will help the materials in the pile break down faster. how to build your compost pile. start your pile with  four- to six-inch layer of bulky browns such as twigs and wood chips. this layer absorbs extra liquids, elevates your pile and allows air to circulate at the base of the pile. then layer your greens and browns like lasagna. if needed, add  little water to dampen the pile. having the right proportions of ingredients in your compost pile will provide the composting microorganisms the carbon, nitrogen, oxygen, and moisture they need to break down the materials into finished compost. when adding browns and greens to your pile, add at least two to three times the volume of browns (such as dry leaves) to the volume of greens (such as food scraps). always ensure your food scraps are covered by four to eight inches of dry leaves or other browns. air and water are the other key ingredients in your pile. to ensure air circulation, add enough browns and turn your compost occasionally. to maintain moisture in your pile, ensure your combined materials have the consistency of  wrung-out sponge. maintain your compost pile. as the materials in your compost pile begin to decompose, the temperature of the pile will initially begin to rise, especially in the center.  backyard pile, if well maintained, can reach temperatures of 130 to 160. high temperatures help reduce the presence of pathogens and weed seeds. turning and mixing your pile from time to time will help speed up the decomposition process and aerate the pile. use  garden fork to turn the outside of the pile inward. monitor your pile for moisture, odor, and temperature and make adjustments as needed. if the pile is too dry, activity in the pile will slow or cease. moisten the pile and turn it. (refer to the note above about maintaining moisture in your pile.) if the pile has  bad odor, it may be too wet or need more air circulation. add more brownsdry material to the pile and turn the pile. if the pile is not heating up, mix in greens and turn the pile. harvest your finished compost. when your compost pile is no longer heating up after mixing, and when there are no visible food scraps, allow your pile to cure, or finish, for at least four weeks. you can relocate the oldest compost at the bottom of the pile to  separate area to cure or stop adding materials to your pile. after curing, your pile will shrink to about one-third of its original size. compost in  well-maintained pile will be finished and ready for use in about three to five months. left untended,  pile may take  year to decompose. the compost will look dark, loose, and crumbly and smell like fresh soil. most, if not all, of the materials that went into the compost pile should be decomposed. screen or sift your finished compost to filter ou"
+        },
+        {
+          "chunk_id": 1,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 2048,
+          "overlap_percentage": 0.1,
+          "start_char": 7373,
+          "end_char": 13427,
+          "text_length": 6053,
+          "estimated_tokens": 1513,
+          "text": "pile is not heating up, mix in greens and turn the pile. harvest your finished compost. when your compost pile is no longer heating up after mixing, and when there are no visible food scraps, allow your pile to cure, or finish, for at least four weeks. you can relocate the oldest compost at the bottom of the pile to  separate area to cure or stop adding materials to your pile. after curing, your pile will shrink to about one-third of its original size. compost in  well-maintained pile will be finished and ready for use in about three to five months. left untended,  pile may take  year to decompose. the compost will look dark, loose, and crumbly and smell like fresh soil. most, if not all, of the materials that went into the compost pile should be decomposed. screen or sift your finished compost to filter out materials that didnt break down - twigs, fruit pits, eggshells, and items like produce stickers and plastic. (you can make  homemade screener out of 14 inch hardware cloth.) pits, eggshells, etc. that you sifted out can be added back into the active pile or to  new pile. avoiding rodents home compost piles that are well constructed and maintained properly should not attract pests or rodents. if using  bin, it is important to reinforce the bin with  lid and potentially  floor. there should be no holes or gaps in your bin that are larger than 14 inch. maintain the proper ratio of materials in your pile: two to three parts carbon-rich material (browns) to one part nitrogen-rich material (greens). ensure you cover and bury your food scraps in your pile. do not add meat, dairy, or greasy foods to your pile. this is  photo of  plastic compost bin that has  lid that closes tight to keep critters out of the food waste inside of it. worm composting (vermicomposting) worm composting, or vermicomposting, is another method of composting you can try at home. it takes up little space, the materials are simple and inexpensive, and it can be done indoors or outdoors. you will need  container or bin, bedding material, worms, and food scraps. if your worm bin is properly maintained, it should not emit odors or attract pests. the resulting product is vermicompost,  soil amendment. steps for vermicomposting make or buy  worm bin. you can purchase  worm bin or make your own of untreated wood or plastic storage bins. the bin should have  tight-fitting lid and be  dark color to keep out light. if using plastic storage containers, drill air holes around the upper sides of one bin near the lid and drainage holes on the bottom of the same bin. place the bin with the drilled holes inside the other bin. (the bottom bin will catch any liquid that drains out of the top bin.) choose  space for your worm bin. you can keep your worm bin indoors (.., under  sink, in  closet or basement) or outdoors in the shade. if your bin is outdoors (.., garage, carport, porch, deck, or apartment balcony), insulate the bin with blankets, straw, or other materials to keep it warm during colder months. you want to maintain  bin temperature of 59 to 77; however, the worms can survive at 32 to 95  if they have at least four inches of bedding. materials for your bin. worms of the,000 species of earthworms, only seven are suitable for vermicomposting. one of the most used is the red wriggler or eisenia fetida. it is essential to use  suitable species. do not use worms you might find outdoors or purchase at  bait shop. begin your bin with one pound of worms, about,000 individual worms. purchase them from  worm grower or find  neighbor in your community who has  vermicomposting bin and can give you some. bedding shred or tear non-glossy newspaper, office paper, cardboard, or dry leaves and soak the bedding material for 10 minutes. wring it out so it feels like  moist sponge. place it in your bin and fluff it up. fill the bin almost halfway with the moist bedding and then add  handful of soil. food you can feed your worms most fruit and vegetables scraps, coffee grounds and paper filters, crushed eggshells, paper tea bags without staples, and crushed eggshells. avoid citrus fruits, odorous foods like onions and garlic, meat, dairy products, greasy foods, bones, and pet waste. chop up scraps into small pieces before adding them to the bin to allow for faster decomposition. start your bin and feed your worms. place worms on top of the bedding in the bin. once the worms have settled in the bin, add some food scraps on the surface of the bedding. each time you add food scraps, make sure to cover them with two inches of bedding. adding the proper ratio of materials to the bin and covering them is important. worms eat about 25 percent of their weight each day. as worms reproduce quickly, you can increase the amount you feed them. always ensure the food scraps have been eaten before adding more. harvest and use your vermicompost. after three to six months, you will be able to harvest your vermicompost, or worm castings, at the bottom of your worm bin. vermicompost doesnt need to cure and can be used immediately or stored for future use. closeup photo of compost held in hand benefits of using your finished compost you can add compost to your flower and vegetable beds, window boxes, and container gardens; incorporate it into tree beds; mix it with potting soil for indoor plants; or spread it on top of the soil in your yard. compost can be used as  soil amendment or as  mulch. as  soil amendment, mix in two to four inches of compost to the top six to nine inches of your soil. as  mulch, loosen the top two to three inches of soil and add  three-inch layer of compost on the surface,  few inches away from plant stems and tree trunks. adding finished compost to your soil: improves the structure and health of your soil by adding organic matter. helps the soil retain moisture and nutrients. attracts beneficial organisms to the soil and reduces the need for pesticides and fertilizers. reduces the potential for soil erosion. sequesters carbon in the soil. builds resiliency to the impacts of natural disasters."
+        }
+      ],
+      "content_aware": [
+        {
+          "chunk_id": 0,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 2048,
+          "overlap_percentage": 0.1,
+          "start_char": 20,
+          "end_char": 8148,
+          "text_length": 8128,
+          "estimated_tokens": 2032,
+          "text": "what is composting?\n\ncomposting is the managed, aerobic (oxygen-required) biological decomposition of organic materials by microorganisms.\n\norganic (carbon-based) materials include grass clippings, leaves, yard and tree trimmings, and food scraps.\n\nthe end product is compost,  biologically stable soil amendment that can be used to build soil health and provide nutrients to plants.\n\nmicroorganisms feed on the materials added to the compost pile during the composting process.\n\nthey use carbon and nitrogen to grow and reproduce, water to digest materials, and oxygen to breathe.\n\nyou can compost at home using food scraps from your kitchen and dry leaves and woody material from your yard.\n\nwhy compost at home?\n\nadditional resources if you are  community looking to support your constituents in their efforts to compost at home, or wish to increase participation in  curbside collection program, you may be interested in the following resource: composting food scraps in your community:  social marketing toolkit.\n\ncomposting is natures way of recycling.\n\nit is one of the most powerful actions we can take to reduce our trash and build healthy soil.\n\nby turning our food scraps and yard trim into compost, we transform our waste streams into  beneficial, value-added soil amendment and use it to protect the environment and create resilient communities.\n\ncomposting is  resourceful way to recycle the food scraps and yard trim you generate at home all year and manage your waste more sustainably.\n\nyou reduce the volume of materials that might otherwise be disposed of in landfills or trash incinerators leaves, grass clippings, yard trim, and food scraps and prevent powerful greenhouse gases from being emitted into the atmosphere.\n\ncomposting involves minimal effort, equipment, expense, and expertise and can be fun.\n\nyou save money by producing  free, high-quality soil amendment compost which reduces your use of fertilizer and pesticides.\n\nyou can use your compost to build healthier soil, prevent soil erosion, conserve water, and improve plant growth in your garden and yard.\n\nview the text on the compost your food scraps graphic below.\n\noptions for composting at home there are different ways to compost at home: backyard composting.\n\nvermicomposting (worm composting).\n\nif you dont have  space for composting, consider participating in  local municipal or community composting program which may collect your food scraps or offer  designated location where you can drop them off.\n\nlearn more about community composting.\n\nif you cant find composting in your area, consider starting  composting program or advocating for one in your community or municipality.\n\nnote: residential pre-processing appliances reduce the volume and weight of food scraps by grinding and dehydrating them.\n\nhowever, these appliances do not produce compost but rather  dried food scraps mixture that can be added to  composting system (at home or through  collection program).\n\nlearn more about food scraps pre-processing technologies.\n\ncomposting in your backyard ingredients for composting the ingredients for composting include  proper balance of the following materials: carbon-rich materials (browns).\n\nnitrogen-rich materials (greens).\n\nwater (moisture).\n\nair (oxygen).\n\nwhat to add to  backyard compost pile nitrogen-rich materials (greens) carbon-rich materials (browns) fruit and vegetable scraps dry leaves grass clippings plant stalks and twigs coffee grounds and paper filters shredded paper (non-glossy, uncolored) and shredded brown bags paper tea bags (no staples) shredded cardboard (no wax coating, tape, or glue) eggshells (crushed) untreated wood chips what to avoid adding to  backyard compost pile materials meat, fish, and bones cheese and dairy products fats, oils, and grease cooked food (small amounts are fine) compostable foodservice ware and compostable bags herbicide-treated plants and grass aggressive weedsweeds with seeds diseased and pest-infested plants treated or painted wood pet waste and cat litter dryer lint glossy paper produce stickers these foods can attract animals.\n\nbackyard composting piles generally do not reach high enough temperatures to fully decompose these materials.\n\nthese materials can be composted at commercial composting facilities.\n\ncheck first to make sure your specific facility accepts them.\n\nsteps for backyard composting determine how you will collect and store your browns and greens.\n\ncollect and store your fruit and vegetable scraps in  closed container on your kitchen counter, under your sink, or in your fridge or freezer.\n\nfor browns, set aside an area outside to store your steady supply of leaves, twigs, or other carbon-rich material (to mix with your food scraps).\n\nset aside space for your compost pile and build or buy  bin.\n\nchoose  space in your yard for your compost pile that is easily accessible year-round and has good drainage.\n\navoid placing it right up against  fence and ensure there is  water source nearby.\n\nyour compost pile will break down in sun or shade.\n\nnext, choose  type of bin for your pile.\n\nbins can be constructed from materials such as wire, wood, and cinder blocks.\n\nthey can also be enclosed and include barrels and tumblers.\n\nprepare your ingredients for composting.\n\nbefore adding your browns and greens to the pile, try to chop and break them up into smaller pieces (.., corn cobs, broccoli stalks, and other tough food scraps).\n\ndoing so will help the materials in the pile break down faster.\n\nhow to build your compost pile.\n\nstart your pile with  four- to six-inch layer of bulky browns such as twigs and wood chips.\n\nthis layer absorbs extra liquids, elevates your pile and allows air to circulate at the base of the pile.\n\nthen layer your greens and browns like lasagna.\n\nif needed, add  little water to dampen the pile.\n\nhaving the right proportions of ingredients in your compost pile will provide the composting microorganisms the carbon, nitrogen, oxygen, and moisture they need to break down the materials into finished compost.\n\nwhen adding browns and greens to your pile, add at least two to three times the volume of browns (such as dry leaves) to the volume of greens (such as food scraps).\n\nalways ensure your food scraps are covered by four to eight inches of dry leaves or other browns.\n\nair and water are the other key ingredients in your pile.\n\nto ensure air circulation, add enough browns and turn your compost occasionally.\n\nto maintain moisture in your pile, ensure your combined materials have the consistency of  wrung-out sponge.\n\nmaintain your compost pile.\n\nas the materials in your compost pile begin to decompose, the temperature of the pile will initially begin to rise, especially in the center.\n\nbackyard pile, if well maintained, can reach temperatures of 130 to 160.\n\nhigh temperatures help reduce the presence of pathogens and weed seeds.\n\nturning and mixing your pile from time to time will help speed up the decomposition process and aerate the pile.\n\nuse  garden fork to turn the outside of the pile inward.\n\nmonitor your pile for moisture, odor, and temperature and make adjustments as needed.\n\nif the pile is too dry, activity in the pile will slow or cease.\n\nmoisten the pile and turn it.\n\n(refer to the note above about maintaining moisture in your pile.) if the pile has  bad odor, it may be too wet or need more air circulation.\n\nadd more brownsdry material to the pile and turn the pile.\n\nif the pile is not heating up, mix in greens and turn the pile.\n\nharvest your finished compost.\n\nwhen your compost pile is no longer heating up after mixing, and when there are no visible food scraps, allow your pile to cure, or finish, for at least four weeks.\n\nyou can relocate the oldest compost at the bottom of the pile to  separate area to cure or stop adding materials to your pile.\n\nafter curing, your pile will shrink to about one-third of its original size.\n\ncompost in  well-maintained pile will be finished and ready for use in about three to five months.\n\nleft untended,  pile may take  year to decompose.\n\nthe compost will look dark, loose, and crumbly and smell like fresh soil."
+        },
+        {
+          "chunk_id": 1,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 2048,
+          "overlap_percentage": 0.1,
+          "start_char": 20,
+          "end_char": 6266,
+          "text_length": 6246,
+          "estimated_tokens": 1561,
+          "text": "bad odor, it may be too wet or need more air circulation.\n\nadd more brownsdry material to the pile and turn the pile.\n\nif the pile is not heating up, mix in greens and turn the pile.\n\nharvest your finished compost.\n\nwhen your compost pile is no longer heating up after mixing, and when there are no visible food scraps, allow your pile to cure, or finish, for at least four weeks.\n\nyou can relocate the oldest compost at the bottom of the pile to  separate area to cure or stop adding materials to your pile.\n\nafter curing, your pile will shrink to about one-third of its original size.\n\ncompost in  well-maintained pile will be finished and ready for use in about three to five months.\n\nleft untended,  pile may take  year to decompose.\n\nthe compost will look dark, loose, and crumbly and smell like fresh soil.\n\nmost, if not all, of the materials that went into the compost pile should be decomposed.\n\nscreen or sift your finished compost to filter out materials that didnt break down - twigs, fruit pits, eggshells, and items like produce stickers and plastic.\n\n(you can make  homemade screener out of 14 inch hardware cloth.) pits, eggshells, etc.\n\nthat you sifted out can be added back into the active pile or to  new pile.\n\navoiding rodents home compost piles that are well constructed and maintained properly should not attract pests or rodents.\n\nif using  bin, it is important to reinforce the bin with  lid and potentially  floor.\n\nthere should be no holes or gaps in your bin that are larger than 14 inch.\n\nmaintain the proper ratio of materials in your pile: two to three parts carbon-rich material (browns) to one part nitrogen-rich material (greens).\n\nensure you cover and bury your food scraps in your pile.\n\ndo not add meat, dairy, or greasy foods to your pile.\n\nthis is  photo of  plastic compost bin that has  lid that closes tight to keep critters out of the food waste inside of it.\n\nworm composting (vermicomposting) worm composting, or vermicomposting, is another method of composting you can try at home.\n\nit takes up little space, the materials are simple and inexpensive, and it can be done indoors or outdoors.\n\nyou will need  container or bin, bedding material, worms, and food scraps.\n\nif your worm bin is properly maintained, it should not emit odors or attract pests.\n\nthe resulting product is vermicompost,  soil amendment.\n\nsteps for vermicomposting make or buy  worm bin.\n\nyou can purchase  worm bin or make your own of untreated wood or plastic storage bins.\n\nthe bin should have  tight-fitting lid and be  dark color to keep out light.\n\nif using plastic storage containers, drill air holes around the upper sides of one bin near the lid and drainage holes on the bottom of the same bin.\n\nplace the bin with the drilled holes inside the other bin.\n\n(the bottom bin will catch any liquid that drains out of the top bin.) choose  space for your worm bin.\n\nyou can keep your worm bin indoors (.., under  sink, in  closet or basement) or outdoors in the shade.\n\nif your bin is outdoors (.., garage, carport, porch, deck, or apartment balcony), insulate the bin with blankets, straw, or other materials to keep it warm during colder months.\n\nyou want to maintain  bin temperature of 59 to 77; however, the worms can survive at 32 to 95  if they have at least four inches of bedding.\n\nmaterials for your bin.\n\nworms of the,000 species of earthworms, only seven are suitable for vermicomposting.\n\none of the most used is the red wriggler or eisenia fetida.\n\nit is essential to use  suitable species.\n\ndo not use worms you might find outdoors or purchase at  bait shop.\n\nbegin your bin with one pound of worms, about,000 individual worms.\n\npurchase them from  worm grower or find  neighbor in your community who has  vermicomposting bin and can give you some.\n\nbedding shred or tear non-glossy newspaper, office paper, cardboard, or dry leaves and soak the bedding material for 10 minutes.\n\nwring it out so it feels like  moist sponge.\n\nplace it in your bin and fluff it up.\n\nfill the bin almost halfway with the moist bedding and then add  handful of soil.\n\nfood you can feed your worms most fruit and vegetables scraps, coffee grounds and paper filters, crushed eggshells, paper tea bags without staples, and crushed eggshells.\n\navoid citrus fruits, odorous foods like onions and garlic, meat, dairy products, greasy foods, bones, and pet waste.\n\nchop up scraps into small pieces before adding them to the bin to allow for faster decomposition.\n\nstart your bin and feed your worms.\n\nplace worms on top of the bedding in the bin.\n\nonce the worms have settled in the bin, add some food scraps on the surface of the bedding.\n\neach time you add food scraps, make sure to cover them with two inches of bedding.\n\nadding the proper ratio of materials to the bin and covering them is important.\n\nworms eat about 25 percent of their weight each day.\n\nas worms reproduce quickly, you can increase the amount you feed them.\n\nalways ensure the food scraps have been eaten before adding more.\n\nharvest and use your vermicompost.\n\nafter three to six months, you will be able to harvest your vermicompost, or worm castings, at the bottom of your worm bin.\n\nvermicompost doesnt need to cure and can be used immediately or stored for future use.\n\ncloseup photo of compost held in hand benefits of using your finished compost you can add compost to your flower and vegetable beds, window boxes, and container gardens; incorporate it into tree beds; mix it with potting soil for indoor plants; or spread it on top of the soil in your yard.\n\ncompost can be used as  soil amendment or as  mulch.\n\nas  soil amendment, mix in two to four inches of compost to the top six to nine inches of your soil.\n\nas  mulch, loosen the top two to three inches of soil and add  three-inch layer of compost on the surface,  few inches away from plant stems and tree trunks.\n\nadding finished compost to your soil: improves the structure and health of your soil by adding organic matter.\n\nhelps the soil retain moisture and nutrients.\n\nattracts beneficial organisms to the soil and reduces the need for pesticides and fertilizers.\n\nreduces the potential for soil erosion.\n\nsequesters carbon in the soil.\n\nbuilds resiliency to the impacts of natural disasters."
+        }
+      ],
+      "recursive_character": [
+        {
+          "chunk_id": 0,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 2048,
+          "overlap_percentage": 0.1,
+          "start_char": 0,
+          "end_char": 8142,
+          "text_length": 8142,
+          "estimated_tokens": 2035,
+          "text": "what is composting? composting is the managed, aerobic (oxygen-required) biological decomposition of organic materials by microorganisms. organic (carbon-based) materials include grass clippings, leaves, yard and tree trimmings, and food scraps. the end product is compost,  biologically stable soil amendment that can be used to build soil health and provide nutrients to plants. microorganisms feed on the materials added to the compost pile during the composting process. they use carbon and nitrogen to grow and reproduce, water to digest materials, and oxygen to breathe. you can compost at home using food scraps from your kitchen and dry leaves and woody material from your yard. why compost at home? additional resources if you are  community looking to support your constituents in their efforts to compost at home, or wish to increase participation in  curbside collection program, you may be interested in the following resource: composting food scraps in your community:  social marketing toolkit. composting is natures way of recycling. it is one of the most powerful actions we can take to reduce our trash and build healthy soil. by turning our food scraps and yard trim into compost, we transform our waste streams into  beneficial, value-added soil amendment and use it to protect the environment and create resilient communities. composting is  resourceful way to recycle the food scraps and yard trim you generate at home all year and manage your waste more sustainably. you reduce the volume of materials that might otherwise be disposed of in landfills or trash incinerators leaves, grass clippings, yard trim, and food scraps and prevent powerful greenhouse gases from being emitted into the atmosphere. composting involves minimal effort, equipment, expense, and expertise and can be fun. you save money by producing  free, high-quality soil amendment compost which reduces your use of fertilizer and pesticides. you can use your compost to build healthier soil, prevent soil erosion, conserve water, and improve plant growth in your garden and yard. view the text on the compost your food scraps graphic below. options for composting at home there are different ways to compost at home: backyard composting. vermicomposting (worm composting). if you dont have  space for composting, consider participating in  local municipal or community composting program which may collect your food scraps or offer  designated location where you can drop them off. learn more about community composting. if you cant find composting in your area, consider starting  composting program or advocating for one in your community or municipality. note: residential pre-processing appliances reduce the volume and weight of food scraps by grinding and dehydrating them. however, these appliances do not produce compost but rather  dried food scraps mixture that can be added to  composting system (at home or through  collection program). learn more about food scraps pre-processing technologies. composting in your backyard ingredients for composting the ingredients for composting include  proper balance of the following materials: carbon-rich materials (browns). nitrogen-rich materials (greens). water (moisture). air (oxygen). what to add to  backyard compost pile nitrogen-rich materials (greens) carbon-rich materials (browns) fruit and vegetable scraps dry leaves grass clippings plant stalks and twigs coffee grounds and paper filters shredded paper (non-glossy, uncolored) and shredded brown bags paper tea bags (no staples) shredded cardboard (no wax coating, tape, or glue) eggshells (crushed) untreated wood chips what to avoid adding to  backyard compost pile materials meat, fish, and bones cheese and dairy products fats, oils, and grease cooked food (small amounts are fine) compostable foodservice ware and compostable bags herbicide-treated plants and grass aggressive weedsweeds with seeds diseased and pest-infested plants treated or painted wood pet waste and cat litter dryer lint glossy paper produce stickers these foods can attract animals. backyard composting piles generally do not reach high enough temperatures to fully decompose these materials. these materials can be composted at commercial composting facilities. check first to make sure your specific facility accepts them. steps for backyard composting determine how you will collect and store your browns and greens. collect and store your fruit and vegetable scraps in  closed container on your kitchen counter, under your sink, or in your fridge or freezer. for browns, set aside an area outside to store your steady supply of leaves, twigs, or other carbon-rich material (to mix with your food scraps). set aside space for your compost pile and build or buy  bin. choose  space in your yard for your compost pile that is easily accessible year-round and has good drainage. avoid placing it right up against  fence and ensure there is  water source nearby. your compost pile will break down in sun or shade. next, choose  type of bin for your pile. bins can be constructed from materials such as wire, wood, and cinder blocks. they can also be enclosed and include barrels and tumblers. prepare your ingredients for composting. before adding your browns and greens to the pile, try to chop and break them up into smaller pieces (.., corn cobs, broccoli stalks, and other tough food scraps). doing so will help the materials in the pile break down faster. how to build your compost pile. start your pile with  four- to six-inch layer of bulky browns such as twigs and wood chips. this layer absorbs extra liquids, elevates your pile and allows air to circulate at the base of the pile. then layer your greens and browns like lasagna. if needed, add  little water to dampen the pile. having the right proportions of ingredients in your compost pile will provide the composting microorganisms the carbon, nitrogen, oxygen, and moisture they need to break down the materials into finished compost. when adding browns and greens to your pile, add at least two to three times the volume of browns (such as dry leaves) to the volume of greens (such as food scraps). always ensure your food scraps are covered by four to eight inches of dry leaves or other browns. air and water are the other key ingredients in your pile. to ensure air circulation, add enough browns and turn your compost occasionally. to maintain moisture in your pile, ensure your combined materials have the consistency of  wrung-out sponge. maintain your compost pile. as the materials in your compost pile begin to decompose, the temperature of the pile will initially begin to rise, especially in the center.  backyard pile, if well maintained, can reach temperatures of 130 to 160. high temperatures help reduce the presence of pathogens and weed seeds. turning and mixing your pile from time to time will help speed up the decomposition process and aerate the pile. use  garden fork to turn the outside of the pile inward. monitor your pile for moisture, odor, and temperature and make adjustments as needed. if the pile is too dry, activity in the pile will slow or cease. moisten the pile and turn it. (refer to the note above about maintaining moisture in your pile.) if the pile has  bad odor, it may be too wet or need more air circulation. add more brownsdry material to the pile and turn the pile. if the pile is not heating up, mix in greens and turn the pile. harvest your finished compost. when your compost pile is no longer heating up after mixing, and when there are no visible food scraps, allow your pile to cure, or finish, for at least four weeks. you can relocate the oldest compost at the bottom of the pile to  separate area to cure or stop adding materials to your pile. after curing, your pile will shrink to about one-third of its original size. compost in  well-maintained pile will be finished and ready for use in about three to five months. left untended,  pile may take  year to decompose. the compost will look dark, loose, and crumbly and smell like fresh soil. most, if not all, of the materials that went into the compost pile should be decomposed."
+        },
+        {
+          "chunk_id": 1,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 2048,
+          "overlap_percentage": 0.1,
+          "start_char": 7324,
+          "end_char": 13427,
+          "text_length": 6103,
+          "estimated_tokens": 1525,
+          "text": "ry material to the pile and turn the pile. if the pile is not heating up, mix in greens and turn the pile. harvest your finished compost. when your compost pile is no longer heating up after mixing, and when there are no visible food scraps, allow your pile to cure, or finish, for at least four weeks. you can relocate the oldest compost at the bottom of the pile to  separate area to cure or stop adding materials to your pile. after curing, your pile will shrink to about one-third of its original size. compost in  well-maintained pile will be finished and ready for use in about three to five months. left untended,  pile may take  year to decompose. the compost will look dark, loose, and crumbly and smell like fresh soil. most, if not all, of the materials that went into the compost pile should be decomposed. screen or sift your finished compost to filter out materials that didnt break down - twigs, fruit pits, eggshells, and items like produce stickers and plastic. (you can make  homemade screener out of 14 inch hardware cloth.) pits, eggshells, etc. that you sifted out can be added back into the active pile or to  new pile. avoiding rodents home compost piles that are well constructed and maintained properly should not attract pests or rodents. if using  bin, it is important to reinforce the bin with  lid and potentially  floor. there should be no holes or gaps in your bin that are larger than 14 inch. maintain the proper ratio of materials in your pile: two to three parts carbon-rich material (browns) to one part nitrogen-rich material (greens). ensure you cover and bury your food scraps in your pile. do not add meat, dairy, or greasy foods to your pile. this is  photo of  plastic compost bin that has  lid that closes tight to keep critters out of the food waste inside of it. worm composting (vermicomposting) worm composting, or vermicomposting, is another method of composting you can try at home. it takes up little space, the materials are simple and inexpensive, and it can be done indoors or outdoors. you will need  container or bin, bedding material, worms, and food scraps. if your worm bin is properly maintained, it should not emit odors or attract pests. the resulting product is vermicompost,  soil amendment. steps for vermicomposting make or buy  worm bin. you can purchase  worm bin or make your own of untreated wood or plastic storage bins. the bin should have  tight-fitting lid and be  dark color to keep out light. if using plastic storage containers, drill air holes around the upper sides of one bin near the lid and drainage holes on the bottom of the same bin. place the bin with the drilled holes inside the other bin. (the bottom bin will catch any liquid that drains out of the top bin.) choose  space for your worm bin. you can keep your worm bin indoors (.., under  sink, in  closet or basement) or outdoors in the shade. if your bin is outdoors (.., garage, carport, porch, deck, or apartment balcony), insulate the bin with blankets, straw, or other materials to keep it warm during colder months. you want to maintain  bin temperature of 59 to 77; however, the worms can survive at 32 to 95  if they have at least four inches of bedding. materials for your bin. worms of the,000 species of earthworms, only seven are suitable for vermicomposting. one of the most used is the red wriggler or eisenia fetida. it is essential to use  suitable species. do not use worms you might find outdoors or purchase at  bait shop. begin your bin with one pound of worms, about,000 individual worms. purchase them from  worm grower or find  neighbor in your community who has  vermicomposting bin and can give you some. bedding shred or tear non-glossy newspaper, office paper, cardboard, or dry leaves and soak the bedding material for 10 minutes. wring it out so it feels like  moist sponge. place it in your bin and fluff it up. fill the bin almost halfway with the moist bedding and then add  handful of soil. food you can feed your worms most fruit and vegetables scraps, coffee grounds and paper filters, crushed eggshells, paper tea bags without staples, and crushed eggshells. avoid citrus fruits, odorous foods like onions and garlic, meat, dairy products, greasy foods, bones, and pet waste. chop up scraps into small pieces before adding them to the bin to allow for faster decomposition. start your bin and feed your worms. place worms on top of the bedding in the bin. once the worms have settled in the bin, add some food scraps on the surface of the bedding. each time you add food scraps, make sure to cover them with two inches of bedding. adding the proper ratio of materials to the bin and covering them is important. worms eat about 25 percent of their weight each day. as worms reproduce quickly, you can increase the amount you feed them. always ensure the food scraps have been eaten before adding more. harvest and use your vermicompost. after three to six months, you will be able to harvest your vermicompost, or worm castings, at the bottom of your worm bin. vermicompost doesnt need to cure and can be used immediately or stored for future use. closeup photo of compost held in hand benefits of using your finished compost you can add compost to your flower and vegetable beds, window boxes, and container gardens; incorporate it into tree beds; mix it with potting soil for indoor plants; or spread it on top of the soil in your yard. compost can be used as  soil amendment or as  mulch. as  soil amendment, mix in two to four inches of compost to the top six to nine inches of your soil. as  mulch, loosen the top two to three inches of soil and add  three-inch layer of compost on the surface,  few inches away from plant stems and tree trunks. adding finished compost to your soil: improves the structure and health of your soil by adding organic matter. helps the soil retain moisture and nutrients. attracts beneficial organisms to the soil and reduces the need for pesticides and fertilizers. reduces the potential for soil erosion. sequesters carbon in the soil. builds resiliency to the impacts of natural disasters."
+        }
+      ]
+    },
+    "medium": {
+      "fixed_size": [
+        {
+          "chunk_id": 0,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 0,
+          "end_char": 2048,
+          "text_length": 2048,
+          "estimated_tokens": 512,
+          "text": "what is composting? composting is the managed, aerobic (oxygen-required) biological decomposition of organic materials by microorganisms. organic (carbon-based) materials include grass clippings, leaves, yard and tree trimmings, and food scraps. the end product is compost,  biologically stable soil amendment that can be used to build soil health and provide nutrients to plants. microorganisms feed on the materials added to the compost pile during the composting process. they use carbon and nitrogen to grow and reproduce, water to digest materials, and oxygen to breathe. you can compost at home using food scraps from your kitchen and dry leaves and woody material from your yard. why compost at home? additional resources if you are  community looking to support your constituents in their efforts to compost at home, or wish to increase participation in  curbside collection program, you may be interested in the following resource: composting food scraps in your community:  social marketing toolkit. composting is natures way of recycling. it is one of the most powerful actions we can take to reduce our trash and build healthy soil. by turning our food scraps and yard trim into compost, we transform our waste streams into  beneficial, value-added soil amendment and use it to protect the environment and create resilient communities. composting is  resourceful way to recycle the food scraps and yard trim you generate at home all year and manage your waste more sustainably. you reduce the volume of materials that might otherwise be disposed of in landfills or trash incinerators leaves, grass clippings, yard trim, and food scraps and prevent powerful greenhouse gases from being emitted into the atmosphere. composting involves minimal effort, equipment, expense, and expertise and can be fun. you save money by producing  free, high-quality soil amendment compost which reduces your use of fertilizer and pesticides. you can use your compost to build healthier soil, prevent soil erosion, conserve water, and improve plant growth"
+        },
+        {
+          "chunk_id": 1,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 1741,
+          "end_char": 3789,
+          "text_length": 2048,
+          "estimated_tokens": 512,
+          "text": "lves minimal effort, equipment, expense, and expertise and can be fun. you save money by producing  free, high-quality soil amendment compost which reduces your use of fertilizer and pesticides. you can use your compost to build healthier soil, prevent soil erosion, conserve water, and improve plant growth in your garden and yard. view the text on the compost your food scraps graphic below. options for composting at home there are different ways to compost at home: backyard composting. vermicomposting (worm composting). if you dont have  space for composting, consider participating in  local municipal or community composting program which may collect your food scraps or offer  designated location where you can drop them off. learn more about community composting. if you cant find composting in your area, consider starting  composting program or advocating for one in your community or municipality. note: residential pre-processing appliances reduce the volume and weight of food scraps by grinding and dehydrating them. however, these appliances do not produce compost but rather  dried food scraps mixture that can be added to  composting system (at home or through  collection program). learn more about food scraps pre-processing technologies. composting in your backyard ingredients for composting the ingredients for composting include  proper balance of the following materials: carbon-rich materials (browns). nitrogen-rich materials (greens). water (moisture). air (oxygen). what to add to  backyard compost pile nitrogen-rich materials (greens) carbon-rich materials (browns) fruit and vegetable scraps dry leaves grass clippings plant stalks and twigs coffee grounds and paper filters shredded paper (non-glossy, uncolored) and shredded brown bags paper tea bags (no staples) shredded cardboard (no wax coating, tape, or glue) eggshells (crushed) untreated wood chips what to avoid adding to  backyard compost pile materials meat, fish, and bones cheese and dairy products fats, oils, and grease cooked food (small amounts ar"
+        },
+        {
+          "chunk_id": 2,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 3482,
+          "end_char": 5530,
+          "text_length": 2047,
+          "estimated_tokens": 511,
+          "text": "ored) and shredded brown bags paper tea bags (no staples) shredded cardboard (no wax coating, tape, or glue) eggshells (crushed) untreated wood chips what to avoid adding to  backyard compost pile materials meat, fish, and bones cheese and dairy products fats, oils, and grease cooked food (small amounts are fine) compostable foodservice ware and compostable bags herbicide-treated plants and grass aggressive weedsweeds with seeds diseased and pest-infested plants treated or painted wood pet waste and cat litter dryer lint glossy paper produce stickers these foods can attract animals. backyard composting piles generally do not reach high enough temperatures to fully decompose these materials. these materials can be composted at commercial composting facilities. check first to make sure your specific facility accepts them. steps for backyard composting determine how you will collect and store your browns and greens. collect and store your fruit and vegetable scraps in  closed container on your kitchen counter, under your sink, or in your fridge or freezer. for browns, set aside an area outside to store your steady supply of leaves, twigs, or other carbon-rich material (to mix with your food scraps). set aside space for your compost pile and build or buy  bin. choose  space in your yard for your compost pile that is easily accessible year-round and has good drainage. avoid placing it right up against  fence and ensure there is  water source nearby. your compost pile will break down in sun or shade. next, choose  type of bin for your pile. bins can be constructed from materials such as wire, wood, and cinder blocks. they can also be enclosed and include barrels and tumblers. prepare your ingredients for composting. before adding your browns and greens to the pile, try to chop and break them up into smaller pieces (.., corn cobs, broccoli stalks, and other tough food scraps). doing so will help the materials in the pile break down faster. how to build your compost pile. start your pile with  four- to six-inch layer of"
+        },
+        {
+          "chunk_id": 3,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 5223,
+          "end_char": 7271,
+          "text_length": 2048,
+          "estimated_tokens": 512,
+          "text": "efore adding your browns and greens to the pile, try to chop and break them up into smaller pieces (.., corn cobs, broccoli stalks, and other tough food scraps). doing so will help the materials in the pile break down faster. how to build your compost pile. start your pile with  four- to six-inch layer of bulky browns such as twigs and wood chips. this layer absorbs extra liquids, elevates your pile and allows air to circulate at the base of the pile. then layer your greens and browns like lasagna. if needed, add  little water to dampen the pile. having the right proportions of ingredients in your compost pile will provide the composting microorganisms the carbon, nitrogen, oxygen, and moisture they need to break down the materials into finished compost. when adding browns and greens to your pile, add at least two to three times the volume of browns (such as dry leaves) to the volume of greens (such as food scraps). always ensure your food scraps are covered by four to eight inches of dry leaves or other browns. air and water are the other key ingredients in your pile. to ensure air circulation, add enough browns and turn your compost occasionally. to maintain moisture in your pile, ensure your combined materials have the consistency of  wrung-out sponge. maintain your compost pile. as the materials in your compost pile begin to decompose, the temperature of the pile will initially begin to rise, especially in the center.  backyard pile, if well maintained, can reach temperatures of 130 to 160. high temperatures help reduce the presence of pathogens and weed seeds. turning and mixing your pile from time to time will help speed up the decomposition process and aerate the pile. use  garden fork to turn the outside of the pile inward. monitor your pile for moisture, odor, and temperature and make adjustments as needed. if the pile is too dry, activity in the pile will slow or cease. moisten the pile and turn it. (refer to the note above about maintaining moisture in your pile.) if the pile has  bad odor, it may be t"
+        },
+        {
+          "chunk_id": 4,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 6964,
+          "end_char": 9012,
+          "text_length": 2047,
+          "estimated_tokens": 511,
+          "text": "of the pile inward. monitor your pile for moisture, odor, and temperature and make adjustments as needed. if the pile is too dry, activity in the pile will slow or cease. moisten the pile and turn it. (refer to the note above about maintaining moisture in your pile.) if the pile has  bad odor, it may be too wet or need more air circulation. add more brownsdry material to the pile and turn the pile. if the pile is not heating up, mix in greens and turn the pile. harvest your finished compost. when your compost pile is no longer heating up after mixing, and when there are no visible food scraps, allow your pile to cure, or finish, for at least four weeks. you can relocate the oldest compost at the bottom of the pile to  separate area to cure or stop adding materials to your pile. after curing, your pile will shrink to about one-third of its original size. compost in  well-maintained pile will be finished and ready for use in about three to five months. left untended,  pile may take  year to decompose. the compost will look dark, loose, and crumbly and smell like fresh soil. most, if not all, of the materials that went into the compost pile should be decomposed. screen or sift your finished compost to filter out materials that didnt break down - twigs, fruit pits, eggshells, and items like produce stickers and plastic. (you can make  homemade screener out of 14 inch hardware cloth.) pits, eggshells, etc. that you sifted out can be added back into the active pile or to  new pile. avoiding rodents home compost piles that are well constructed and maintained properly should not attract pests or rodents. if using  bin, it is important to reinforce the bin with  lid and potentially  floor. there should be no holes or gaps in your bin that are larger than 14 inch. maintain the proper ratio of materials in your pile: two to three parts carbon-rich material (browns) to one part nitrogen-rich material (greens). ensure you cover and bury your food scraps in your pile. do not add meat, dairy, or greasy foods to your pile. this"
+        },
+        {
+          "chunk_id": 5,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 8705,
+          "end_char": 10753,
+          "text_length": 2048,
+          "estimated_tokens": 512,
+          "text": "ps in your bin that are larger than 14 inch. maintain the proper ratio of materials in your pile: two to three parts carbon-rich material (browns) to one part nitrogen-rich material (greens). ensure you cover and bury your food scraps in your pile. do not add meat, dairy, or greasy foods to your pile. this is  photo of  plastic compost bin that has  lid that closes tight to keep critters out of the food waste inside of it. worm composting (vermicomposting) worm composting, or vermicomposting, is another method of composting you can try at home. it takes up little space, the materials are simple and inexpensive, and it can be done indoors or outdoors. you will need  container or bin, bedding material, worms, and food scraps. if your worm bin is properly maintained, it should not emit odors or attract pests. the resulting product is vermicompost,  soil amendment. steps for vermicomposting make or buy  worm bin. you can purchase  worm bin or make your own of untreated wood or plastic storage bins. the bin should have  tight-fitting lid and be  dark color to keep out light. if using plastic storage containers, drill air holes around the upper sides of one bin near the lid and drainage holes on the bottom of the same bin. place the bin with the drilled holes inside the other bin. (the bottom bin will catch any liquid that drains out of the top bin.) choose  space for your worm bin. you can keep your worm bin indoors (.., under  sink, in  closet or basement) or outdoors in the shade. if your bin is outdoors (.., garage, carport, porch, deck, or apartment balcony), insulate the bin with blankets, straw, or other materials to keep it warm during colder months. you want to maintain  bin temperature of 59 to 77; however, the worms can survive at 32 to 95  if they have at least four inches of bedding. materials for your bin. worms of the,000 species of earthworms, only seven are suitable for vermicomposting. one of the most used is the red wriggler or eisenia fetida. it is essential to use  suitable species. do not use worm"
+        },
+        {
+          "chunk_id": 6,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 10446,
+          "end_char": 12494,
+          "text_length": 2047,
+          "estimated_tokens": 511,
+          "text": "the worms can survive at 32 to 95  if they have at least four inches of bedding. materials for your bin. worms of the,000 species of earthworms, only seven are suitable for vermicomposting. one of the most used is the red wriggler or eisenia fetida. it is essential to use  suitable species. do not use worms you might find outdoors or purchase at  bait shop. begin your bin with one pound of worms, about,000 individual worms. purchase them from  worm grower or find  neighbor in your community who has  vermicomposting bin and can give you some. bedding shred or tear non-glossy newspaper, office paper, cardboard, or dry leaves and soak the bedding material for 10 minutes. wring it out so it feels like  moist sponge. place it in your bin and fluff it up. fill the bin almost halfway with the moist bedding and then add  handful of soil. food you can feed your worms most fruit and vegetables scraps, coffee grounds and paper filters, crushed eggshells, paper tea bags without staples, and crushed eggshells. avoid citrus fruits, odorous foods like onions and garlic, meat, dairy products, greasy foods, bones, and pet waste. chop up scraps into small pieces before adding them to the bin to allow for faster decomposition. start your bin and feed your worms. place worms on top of the bedding in the bin. once the worms have settled in the bin, add some food scraps on the surface of the bedding. each time you add food scraps, make sure to cover them with two inches of bedding. adding the proper ratio of materials to the bin and covering them is important. worms eat about 25 percent of their weight each day. as worms reproduce quickly, you can increase the amount you feed them. always ensure the food scraps have been eaten before adding more. harvest and use your vermicompost. after three to six months, you will be able to harvest your vermicompost, or worm castings, at the bottom of your worm bin. vermicompost doesnt need to cure and can be used immediately or stored for future use. closeup photo of compost held in hand benefits"
+        },
+        {
+          "chunk_id": 7,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 12187,
+          "end_char": 13427,
+          "text_length": 1239,
+          "estimated_tokens": 309,
+          "text": "adding more. harvest and use your vermicompost. after three to six months, you will be able to harvest your vermicompost, or worm castings, at the bottom of your worm bin. vermicompost doesnt need to cure and can be used immediately or stored for future use. closeup photo of compost held in hand benefits of using your finished compost you can add compost to your flower and vegetable beds, window boxes, and container gardens; incorporate it into tree beds; mix it with potting soil for indoor plants; or spread it on top of the soil in your yard. compost can be used as  soil amendment or as  mulch. as  soil amendment, mix in two to four inches of compost to the top six to nine inches of your soil. as  mulch, loosen the top two to three inches of soil and add  three-inch layer of compost on the surface,  few inches away from plant stems and tree trunks. adding finished compost to your soil: improves the structure and health of your soil by adding organic matter. helps the soil retain moisture and nutrients. attracts beneficial organisms to the soil and reduces the need for pesticides and fertilizers. reduces the potential for soil erosion. sequesters carbon in the soil. builds resiliency to the impacts of natural disasters."
+        }
+      ],
+      "content_aware": [
+        {
+          "chunk_id": 0,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 20,
+          "end_char": 1970,
+          "text_length": 1950,
+          "estimated_tokens": 487,
+          "text": "what is composting?\n\ncomposting is the managed, aerobic (oxygen-required) biological decomposition of organic materials by microorganisms.\n\norganic (carbon-based) materials include grass clippings, leaves, yard and tree trimmings, and food scraps.\n\nthe end product is compost,  biologically stable soil amendment that can be used to build soil health and provide nutrients to plants.\n\nmicroorganisms feed on the materials added to the compost pile during the composting process.\n\nthey use carbon and nitrogen to grow and reproduce, water to digest materials, and oxygen to breathe.\n\nyou can compost at home using food scraps from your kitchen and dry leaves and woody material from your yard.\n\nwhy compost at home?\n\nadditional resources if you are  community looking to support your constituents in their efforts to compost at home, or wish to increase participation in  curbside collection program, you may be interested in the following resource: composting food scraps in your community:  social marketing toolkit.\n\ncomposting is natures way of recycling.\n\nit is one of the most powerful actions we can take to reduce our trash and build healthy soil.\n\nby turning our food scraps and yard trim into compost, we transform our waste streams into  beneficial, value-added soil amendment and use it to protect the environment and create resilient communities.\n\ncomposting is  resourceful way to recycle the food scraps and yard trim you generate at home all year and manage your waste more sustainably.\n\nyou reduce the volume of materials that might otherwise be disposed of in landfills or trash incinerators leaves, grass clippings, yard trim, and food scraps and prevent powerful greenhouse gases from being emitted into the atmosphere.\n\ncomposting involves minimal effort, equipment, expense, and expertise and can be fun.\n\nyou save money by producing  free, high-quality soil amendment compost which reduces your use of fertilizer and pesticides."
+        },
+        {
+          "chunk_id": 1,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 20,
+          "end_char": 1627,
+          "text_length": 1607,
+          "estimated_tokens": 401,
+          "text": "ps and prevent powerful greenhouse gases from being emitted into the atmosphere.\n\ncomposting involves minimal effort, equipment, expense, and expertise and can be fun.\n\nyou save money by producing  free, high-quality soil amendment compost which reduces your use of fertilizer and pesticides.\n\nyou can use your compost to build healthier soil, prevent soil erosion, conserve water, and improve plant growth in your garden and yard.\n\nview the text on the compost your food scraps graphic below.\n\noptions for composting at home there are different ways to compost at home: backyard composting.\n\nvermicomposting (worm composting).\n\nif you dont have  space for composting, consider participating in  local municipal or community composting program which may collect your food scraps or offer  designated location where you can drop them off.\n\nlearn more about community composting.\n\nif you cant find composting in your area, consider starting  composting program or advocating for one in your community or municipality.\n\nnote: residential pre-processing appliances reduce the volume and weight of food scraps by grinding and dehydrating them.\n\nhowever, these appliances do not produce compost but rather  dried food scraps mixture that can be added to  composting system (at home or through  collection program).\n\nlearn more about food scraps pre-processing technologies.\n\ncomposting in your backyard ingredients for composting the ingredients for composting include  proper balance of the following materials: carbon-rich materials (browns).\n\nnitrogen-rich materials (greens).\n\nwater (moisture).\n\nair (oxygen)."
+        },
+        {
+          "chunk_id": 2,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 20,
+          "end_char": 2037,
+          "text_length": 2017,
+          "estimated_tokens": 504,
+          "text": ".\n\ncomposting in your backyard ingredients for composting the ingredients for composting include  proper balance of the following materials: carbon-rich materials (browns).\n\nnitrogen-rich materials (greens).\n\nwater (moisture).\n\nair (oxygen).\n\nwhat to add to  backyard compost pile nitrogen-rich materials (greens) carbon-rich materials (browns) fruit and vegetable scraps dry leaves grass clippings plant stalks and twigs coffee grounds and paper filters shredded paper (non-glossy, uncolored) and shredded brown bags paper tea bags (no staples) shredded cardboard (no wax coating, tape, or glue) eggshells (crushed) untreated wood chips what to avoid adding to  backyard compost pile materials meat, fish, and bones cheese and dairy products fats, oils, and grease cooked food (small amounts are fine) compostable foodservice ware and compostable bags herbicide-treated plants and grass aggressive weedsweeds with seeds diseased and pest-infested plants treated or painted wood pet waste and cat litter dryer lint glossy paper produce stickers these foods can attract animals.\n\nbackyard composting piles generally do not reach high enough temperatures to fully decompose these materials.\n\nthese materials can be composted at commercial composting facilities.\n\ncheck first to make sure your specific facility accepts them.\n\nsteps for backyard composting determine how you will collect and store your browns and greens.\n\ncollect and store your fruit and vegetable scraps in  closed container on your kitchen counter, under your sink, or in your fridge or freezer.\n\nfor browns, set aside an area outside to store your steady supply of leaves, twigs, or other carbon-rich material (to mix with your food scraps).\n\nset aside space for your compost pile and build or buy  bin.\n\nchoose  space in your yard for your compost pile that is easily accessible year-round and has good drainage.\n\navoid placing it right up against  fence and ensure there is  water source nearby.\n\nyour compost pile will break down in sun or shade."
+        },
+        {
+          "chunk_id": 3,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 20,
+          "end_char": 2008,
+          "text_length": 1988,
+          "estimated_tokens": 497,
+          "text": "aside space for your compost pile and build or buy  bin.\n\nchoose  space in your yard for your compost pile that is easily accessible year-round and has good drainage.\n\navoid placing it right up against  fence and ensure there is  water source nearby.\n\nyour compost pile will break down in sun or shade.\n\nnext, choose  type of bin for your pile.\n\nbins can be constructed from materials such as wire, wood, and cinder blocks.\n\nthey can also be enclosed and include barrels and tumblers.\n\nprepare your ingredients for composting.\n\nbefore adding your browns and greens to the pile, try to chop and break them up into smaller pieces (.., corn cobs, broccoli stalks, and other tough food scraps).\n\ndoing so will help the materials in the pile break down faster.\n\nhow to build your compost pile.\n\nstart your pile with  four- to six-inch layer of bulky browns such as twigs and wood chips.\n\nthis layer absorbs extra liquids, elevates your pile and allows air to circulate at the base of the pile.\n\nthen layer your greens and browns like lasagna.\n\nif needed, add  little water to dampen the pile.\n\nhaving the right proportions of ingredients in your compost pile will provide the composting microorganisms the carbon, nitrogen, oxygen, and moisture they need to break down the materials into finished compost.\n\nwhen adding browns and greens to your pile, add at least two to three times the volume of browns (such as dry leaves) to the volume of greens (such as food scraps).\n\nalways ensure your food scraps are covered by four to eight inches of dry leaves or other browns.\n\nair and water are the other key ingredients in your pile.\n\nto ensure air circulation, add enough browns and turn your compost occasionally.\n\nto maintain moisture in your pile, ensure your combined materials have the consistency of  wrung-out sponge.\n\nmaintain your compost pile.\n\nas the materials in your compost pile begin to decompose, the temperature of the pile will initially begin to rise, especially in the center."
+        },
+        {
+          "chunk_id": 4,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 20,
+          "end_char": 2058,
+          "text_length": 2038,
+          "estimated_tokens": 509,
+          "text": "st occasionally.\n\nto maintain moisture in your pile, ensure your combined materials have the consistency of  wrung-out sponge.\n\nmaintain your compost pile.\n\nas the materials in your compost pile begin to decompose, the temperature of the pile will initially begin to rise, especially in the center.\n\nbackyard pile, if well maintained, can reach temperatures of 130 to 160.\n\nhigh temperatures help reduce the presence of pathogens and weed seeds.\n\nturning and mixing your pile from time to time will help speed up the decomposition process and aerate the pile.\n\nuse  garden fork to turn the outside of the pile inward.\n\nmonitor your pile for moisture, odor, and temperature and make adjustments as needed.\n\nif the pile is too dry, activity in the pile will slow or cease.\n\nmoisten the pile and turn it.\n\n(refer to the note above about maintaining moisture in your pile.) if the pile has  bad odor, it may be too wet or need more air circulation.\n\nadd more brownsdry material to the pile and turn the pile.\n\nif the pile is not heating up, mix in greens and turn the pile.\n\nharvest your finished compost.\n\nwhen your compost pile is no longer heating up after mixing, and when there are no visible food scraps, allow your pile to cure, or finish, for at least four weeks.\n\nyou can relocate the oldest compost at the bottom of the pile to  separate area to cure or stop adding materials to your pile.\n\nafter curing, your pile will shrink to about one-third of its original size.\n\ncompost in  well-maintained pile will be finished and ready for use in about three to five months.\n\nleft untended,  pile may take  year to decompose.\n\nthe compost will look dark, loose, and crumbly and smell like fresh soil.\n\nmost, if not all, of the materials that went into the compost pile should be decomposed.\n\nscreen or sift your finished compost to filter out materials that didnt break down - twigs, fruit pits, eggshells, and items like produce stickers and plastic.\n\n(you can make  homemade screener out of 14 inch hardware cloth.) pits, eggshells, etc."
+        },
+        {
+          "chunk_id": 5,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 20,
+          "end_char": 2059,
+          "text_length": 2039,
+          "estimated_tokens": 509,
+          "text": "ls that went into the compost pile should be decomposed.\n\nscreen or sift your finished compost to filter out materials that didnt break down - twigs, fruit pits, eggshells, and items like produce stickers and plastic.\n\n(you can make  homemade screener out of 14 inch hardware cloth.) pits, eggshells, etc.\n\nthat you sifted out can be added back into the active pile or to  new pile.\n\navoiding rodents home compost piles that are well constructed and maintained properly should not attract pests or rodents.\n\nif using  bin, it is important to reinforce the bin with  lid and potentially  floor.\n\nthere should be no holes or gaps in your bin that are larger than 14 inch.\n\nmaintain the proper ratio of materials in your pile: two to three parts carbon-rich material (browns) to one part nitrogen-rich material (greens).\n\nensure you cover and bury your food scraps in your pile.\n\ndo not add meat, dairy, or greasy foods to your pile.\n\nthis is  photo of  plastic compost bin that has  lid that closes tight to keep critters out of the food waste inside of it.\n\nworm composting (vermicomposting) worm composting, or vermicomposting, is another method of composting you can try at home.\n\nit takes up little space, the materials are simple and inexpensive, and it can be done indoors or outdoors.\n\nyou will need  container or bin, bedding material, worms, and food scraps.\n\nif your worm bin is properly maintained, it should not emit odors or attract pests.\n\nthe resulting product is vermicompost,  soil amendment.\n\nsteps for vermicomposting make or buy  worm bin.\n\nyou can purchase  worm bin or make your own of untreated wood or plastic storage bins.\n\nthe bin should have  tight-fitting lid and be  dark color to keep out light.\n\nif using plastic storage containers, drill air holes around the upper sides of one bin near the lid and drainage holes on the bottom of the same bin.\n\nplace the bin with the drilled holes inside the other bin.\n\n(the bottom bin will catch any liquid that drains out of the top bin.) choose  space for your worm bin."
+        },
+        {
+          "chunk_id": 6,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 20,
+          "end_char": 1995,
+          "text_length": 1975,
+          "estimated_tokens": 493,
+          "text": "plastic storage containers, drill air holes around the upper sides of one bin near the lid and drainage holes on the bottom of the same bin.\n\nplace the bin with the drilled holes inside the other bin.\n\n(the bottom bin will catch any liquid that drains out of the top bin.) choose  space for your worm bin.\n\nyou can keep your worm bin indoors (.., under  sink, in  closet or basement) or outdoors in the shade.\n\nif your bin is outdoors (.., garage, carport, porch, deck, or apartment balcony), insulate the bin with blankets, straw, or other materials to keep it warm during colder months.\n\nyou want to maintain  bin temperature of 59 to 77; however, the worms can survive at 32 to 95  if they have at least four inches of bedding.\n\nmaterials for your bin.\n\nworms of the,000 species of earthworms, only seven are suitable for vermicomposting.\n\none of the most used is the red wriggler or eisenia fetida.\n\nit is essential to use  suitable species.\n\ndo not use worms you might find outdoors or purchase at  bait shop.\n\nbegin your bin with one pound of worms, about,000 individual worms.\n\npurchase them from  worm grower or find  neighbor in your community who has  vermicomposting bin and can give you some.\n\nbedding shred or tear non-glossy newspaper, office paper, cardboard, or dry leaves and soak the bedding material for 10 minutes.\n\nwring it out so it feels like  moist sponge.\n\nplace it in your bin and fluff it up.\n\nfill the bin almost halfway with the moist bedding and then add  handful of soil.\n\nfood you can feed your worms most fruit and vegetables scraps, coffee grounds and paper filters, crushed eggshells, paper tea bags without staples, and crushed eggshells.\n\navoid citrus fruits, odorous foods like onions and garlic, meat, dairy products, greasy foods, bones, and pet waste.\n\nchop up scraps into small pieces before adding them to the bin to allow for faster decomposition.\n\nstart your bin and feed your worms.\n\nplace worms on top of the bedding in the bin."
+        },
+        {
+          "chunk_id": 7,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 20,
+          "end_char": 2007,
+          "text_length": 1987,
+          "estimated_tokens": 496,
+          "text": "id citrus fruits, odorous foods like onions and garlic, meat, dairy products, greasy foods, bones, and pet waste.\n\nchop up scraps into small pieces before adding them to the bin to allow for faster decomposition.\n\nstart your bin and feed your worms.\n\nplace worms on top of the bedding in the bin.\n\nonce the worms have settled in the bin, add some food scraps on the surface of the bedding.\n\neach time you add food scraps, make sure to cover them with two inches of bedding.\n\nadding the proper ratio of materials to the bin and covering them is important.\n\nworms eat about 25 percent of their weight each day.\n\nas worms reproduce quickly, you can increase the amount you feed them.\n\nalways ensure the food scraps have been eaten before adding more.\n\nharvest and use your vermicompost.\n\nafter three to six months, you will be able to harvest your vermicompost, or worm castings, at the bottom of your worm bin.\n\nvermicompost doesnt need to cure and can be used immediately or stored for future use.\n\ncloseup photo of compost held in hand benefits of using your finished compost you can add compost to your flower and vegetable beds, window boxes, and container gardens; incorporate it into tree beds; mix it with potting soil for indoor plants; or spread it on top of the soil in your yard.\n\ncompost can be used as  soil amendment or as  mulch.\n\nas  soil amendment, mix in two to four inches of compost to the top six to nine inches of your soil.\n\nas  mulch, loosen the top two to three inches of soil and add  three-inch layer of compost on the surface,  few inches away from plant stems and tree trunks.\n\nadding finished compost to your soil: improves the structure and health of your soil by adding organic matter.\n\nhelps the soil retain moisture and nutrients.\n\nattracts beneficial organisms to the soil and reduces the need for pesticides and fertilizers.\n\nreduces the potential for soil erosion.\n\nsequesters carbon in the soil.\n\nbuilds resiliency to the impacts of natural disasters."
+        }
+      ],
+      "recursive_character": [
+        {
+          "chunk_id": 0,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 0,
+          "end_char": 2073,
+          "text_length": 2073,
+          "estimated_tokens": 518,
+          "text": "what is composting? composting is the managed, aerobic (oxygen-required) biological decomposition of organic materials by microorganisms. organic (carbon-based) materials include grass clippings, leaves, yard and tree trimmings, and food scraps. the end product is compost,  biologically stable soil amendment that can be used to build soil health and provide nutrients to plants. microorganisms feed on the materials added to the compost pile during the composting process. they use carbon and nitrogen to grow and reproduce, water to digest materials, and oxygen to breathe. you can compost at home using food scraps from your kitchen and dry leaves and woody material from your yard. why compost at home? additional resources if you are  community looking to support your constituents in their efforts to compost at home, or wish to increase participation in  curbside collection program, you may be interested in the following resource: composting food scraps in your community:  social marketing toolkit. composting is natures way of recycling. it is one of the most powerful actions we can take to reduce our trash and build healthy soil. by turning our food scraps and yard trim into compost, we transform our waste streams into  beneficial, value-added soil amendment and use it to protect the environment and create resilient communities. composting is  resourceful way to recycle the food scraps and yard trim you generate at home all year and manage your waste more sustainably. you reduce the volume of materials that might otherwise be disposed of in landfills or trash incinerators leaves, grass clippings, yard trim, and food scraps and prevent powerful greenhouse gases from being emitted into the atmosphere. composting involves minimal effort, equipment, expense, and expertise and can be fun. you save money by producing  free, high-quality soil amendment compost which reduces your use of fertilizer and pesticides. you can use your compost to build healthier soil, prevent soil erosion, conserve water, and improve plant growth in your garden and yard."
+        },
+        {
+          "chunk_id": 1,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 1767,
+          "end_char": 3815,
+          "text_length": 2048,
+          "estimated_tokens": 512,
+          "text": "ment, expense, and expertise and can be fun. you save money by producing  free, high-quality soil amendment compost which reduces your use of fertilizer and pesticides. you can use your compost to build healthier soil, prevent soil erosion, conserve water, and improve plant growth in your garden and yard. view the text on the compost your food scraps graphic below. options for composting at home there are different ways to compost at home: backyard composting. vermicomposting (worm composting). if you dont have  space for composting, consider participating in  local municipal or community composting program which may collect your food scraps or offer  designated location where you can drop them off. learn more about community composting. if you cant find composting in your area, consider starting  composting program or advocating for one in your community or municipality. note: residential pre-processing appliances reduce the volume and weight of food scraps by grinding and dehydrating them. however, these appliances do not produce compost but rather  dried food scraps mixture that can be added to  composting system (at home or through  collection program). learn more about food scraps pre-processing technologies. composting in your backyard ingredients for composting the ingredients for composting include  proper balance of the following materials: carbon-rich materials (browns). nitrogen-rich materials (greens). water (moisture). air (oxygen). what to add to  backyard compost pile nitrogen-rich materials (greens) carbon-rich materials (browns) fruit and vegetable scraps dry leaves grass clippings plant stalks and twigs coffee grounds and paper filters shredded paper (non-glossy, uncolored) and shredded brown bags paper tea bags (no staples) shredded cardboard (no wax coating, tape, or glue) eggshells (crushed) untreated wood chips what to avoid adding to  backyard compost pile materials meat, fish, and bones cheese and dairy products fats, oils, and grease cooked food (small amounts are fine) compostable foodse"
+        },
+        {
+          "chunk_id": 2,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 3508,
+          "end_char": 5572,
+          "text_length": 2064,
+          "estimated_tokens": 516,
+          "text": "ags paper tea bags (no staples) shredded cardboard (no wax coating, tape, or glue) eggshells (crushed) untreated wood chips what to avoid adding to  backyard compost pile materials meat, fish, and bones cheese and dairy products fats, oils, and grease cooked food (small amounts are fine) compostable foodservice ware and compostable bags herbicide-treated plants and grass aggressive weedsweeds with seeds diseased and pest-infested plants treated or painted wood pet waste and cat litter dryer lint glossy paper produce stickers these foods can attract animals. backyard composting piles generally do not reach high enough temperatures to fully decompose these materials. these materials can be composted at commercial composting facilities. check first to make sure your specific facility accepts them. steps for backyard composting determine how you will collect and store your browns and greens. collect and store your fruit and vegetable scraps in  closed container on your kitchen counter, under your sink, or in your fridge or freezer. for browns, set aside an area outside to store your steady supply of leaves, twigs, or other carbon-rich material (to mix with your food scraps). set aside space for your compost pile and build or buy  bin. choose  space in your yard for your compost pile that is easily accessible year-round and has good drainage. avoid placing it right up against  fence and ensure there is  water source nearby. your compost pile will break down in sun or shade. next, choose  type of bin for your pile. bins can be constructed from materials such as wire, wood, and cinder blocks. they can also be enclosed and include barrels and tumblers. prepare your ingredients for composting. before adding your browns and greens to the pile, try to chop and break them up into smaller pieces (.., corn cobs, broccoli stalks, and other tough food scraps). doing so will help the materials in the pile break down faster. how to build your compost pile. start your pile with  four- to six-inch layer of bulky browns such as twigs and wood chips."
+        },
+        {
+          "chunk_id": 3,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 5266,
+          "end_char": 7307,
+          "text_length": 2041,
+          "estimated_tokens": 510,
+          "text": "pile, try to chop and break them up into smaller pieces (.., corn cobs, broccoli stalks, and other tough food scraps). doing so will help the materials in the pile break down faster. how to build your compost pile. start your pile with  four- to six-inch layer of bulky browns such as twigs and wood chips. this layer absorbs extra liquids, elevates your pile and allows air to circulate at the base of the pile. then layer your greens and browns like lasagna. if needed, add  little water to dampen the pile. having the right proportions of ingredients in your compost pile will provide the composting microorganisms the carbon, nitrogen, oxygen, and moisture they need to break down the materials into finished compost. when adding browns and greens to your pile, add at least two to three times the volume of browns (such as dry leaves) to the volume of greens (such as food scraps). always ensure your food scraps are covered by four to eight inches of dry leaves or other browns. air and water are the other key ingredients in your pile. to ensure air circulation, add enough browns and turn your compost occasionally. to maintain moisture in your pile, ensure your combined materials have the consistency of  wrung-out sponge. maintain your compost pile. as the materials in your compost pile begin to decompose, the temperature of the pile will initially begin to rise, especially in the center.  backyard pile, if well maintained, can reach temperatures of 130 to 160. high temperatures help reduce the presence of pathogens and weed seeds. turning and mixing your pile from time to time will help speed up the decomposition process and aerate the pile. use  garden fork to turn the outside of the pile inward. monitor your pile for moisture, odor, and temperature and make adjustments as needed. if the pile is too dry, activity in the pile will slow or cease. moisten the pile and turn it. (refer to the note above about maintaining moisture in your pile.) if the pile has  bad odor, it may be too wet or need more air circulation."
+        },
+        {
+          "chunk_id": 4,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 7001,
+          "end_char": 9007,
+          "text_length": 2006,
+          "estimated_tokens": 501,
+          "text": "e for moisture, odor, and temperature and make adjustments as needed. if the pile is too dry, activity in the pile will slow or cease. moisten the pile and turn it. (refer to the note above about maintaining moisture in your pile.) if the pile has  bad odor, it may be too wet or need more air circulation. add more brownsdry material to the pile and turn the pile. if the pile is not heating up, mix in greens and turn the pile. harvest your finished compost. when your compost pile is no longer heating up after mixing, and when there are no visible food scraps, allow your pile to cure, or finish, for at least four weeks. you can relocate the oldest compost at the bottom of the pile to  separate area to cure or stop adding materials to your pile. after curing, your pile will shrink to about one-third of its original size. compost in  well-maintained pile will be finished and ready for use in about three to five months. left untended,  pile may take  year to decompose. the compost will look dark, loose, and crumbly and smell like fresh soil. most, if not all, of the materials that went into the compost pile should be decomposed. screen or sift your finished compost to filter out materials that didnt break down - twigs, fruit pits, eggshells, and items like produce stickers and plastic. (you can make  homemade screener out of 14 inch hardware cloth.) pits, eggshells, etc. that you sifted out can be added back into the active pile or to  new pile. avoiding rodents home compost piles that are well constructed and maintained properly should not attract pests or rodents. if using  bin, it is important to reinforce the bin with  lid and potentially  floor. there should be no holes or gaps in your bin that are larger than 14 inch. maintain the proper ratio of materials in your pile: two to three parts carbon-rich material (browns) to one part nitrogen-rich material (greens). ensure you cover and bury your food scraps in your pile. do not add meat, dairy, or greasy foods to your pile."
+        },
+        {
+          "chunk_id": 5,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 8701,
+          "end_char": 10737,
+          "text_length": 2036,
+          "estimated_tokens": 509,
+          "text": "r gaps in your bin that are larger than 14 inch. maintain the proper ratio of materials in your pile: two to three parts carbon-rich material (browns) to one part nitrogen-rich material (greens). ensure you cover and bury your food scraps in your pile. do not add meat, dairy, or greasy foods to your pile. this is  photo of  plastic compost bin that has  lid that closes tight to keep critters out of the food waste inside of it. worm composting (vermicomposting) worm composting, or vermicomposting, is another method of composting you can try at home. it takes up little space, the materials are simple and inexpensive, and it can be done indoors or outdoors. you will need  container or bin, bedding material, worms, and food scraps. if your worm bin is properly maintained, it should not emit odors or attract pests. the resulting product is vermicompost,  soil amendment. steps for vermicomposting make or buy  worm bin. you can purchase  worm bin or make your own of untreated wood or plastic storage bins. the bin should have  tight-fitting lid and be  dark color to keep out light. if using plastic storage containers, drill air holes around the upper sides of one bin near the lid and drainage holes on the bottom of the same bin. place the bin with the drilled holes inside the other bin. (the bottom bin will catch any liquid that drains out of the top bin.) choose  space for your worm bin. you can keep your worm bin indoors (.., under  sink, in  closet or basement) or outdoors in the shade. if your bin is outdoors (.., garage, carport, porch, deck, or apartment balcony), insulate the bin with blankets, straw, or other materials to keep it warm during colder months. you want to maintain  bin temperature of 59 to 77; however, the worms can survive at 32 to 95  if they have at least four inches of bedding. materials for your bin. worms of the,000 species of earthworms, only seven are suitable for vermicomposting. one of the most used is the red wriggler or eisenia fetida. it is essential to use  suitable species."
+        },
+        {
+          "chunk_id": 6,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 10431,
+          "end_char": 12446,
+          "text_length": 2015,
+          "estimated_tokens": 503,
+          "text": "o 77; however, the worms can survive at 32 to 95  if they have at least four inches of bedding. materials for your bin. worms of the,000 species of earthworms, only seven are suitable for vermicomposting. one of the most used is the red wriggler or eisenia fetida. it is essential to use  suitable species. do not use worms you might find outdoors or purchase at  bait shop. begin your bin with one pound of worms, about,000 individual worms. purchase them from  worm grower or find  neighbor in your community who has  vermicomposting bin and can give you some. bedding shred or tear non-glossy newspaper, office paper, cardboard, or dry leaves and soak the bedding material for 10 minutes. wring it out so it feels like  moist sponge. place it in your bin and fluff it up. fill the bin almost halfway with the moist bedding and then add  handful of soil. food you can feed your worms most fruit and vegetables scraps, coffee grounds and paper filters, crushed eggshells, paper tea bags without staples, and crushed eggshells. avoid citrus fruits, odorous foods like onions and garlic, meat, dairy products, greasy foods, bones, and pet waste. chop up scraps into small pieces before adding them to the bin to allow for faster decomposition. start your bin and feed your worms. place worms on top of the bedding in the bin. once the worms have settled in the bin, add some food scraps on the surface of the bedding. each time you add food scraps, make sure to cover them with two inches of bedding. adding the proper ratio of materials to the bin and covering them is important. worms eat about 25 percent of their weight each day. as worms reproduce quickly, you can increase the amount you feed them. always ensure the food scraps have been eaten before adding more. harvest and use your vermicompost. after three to six months, you will be able to harvest your vermicompost, or worm castings, at the bottom of your worm bin. vermicompost doesnt need to cure and can be used immediately or stored for future use."
+        },
+        {
+          "chunk_id": 7,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 12140,
+          "end_char": 13427,
+          "text_length": 1287,
+          "estimated_tokens": 321,
+          "text": "s ensure the food scraps have been eaten before adding more. harvest and use your vermicompost. after three to six months, you will be able to harvest your vermicompost, or worm castings, at the bottom of your worm bin. vermicompost doesnt need to cure and can be used immediately or stored for future use. closeup photo of compost held in hand benefits of using your finished compost you can add compost to your flower and vegetable beds, window boxes, and container gardens; incorporate it into tree beds; mix it with potting soil for indoor plants; or spread it on top of the soil in your yard. compost can be used as  soil amendment or as  mulch. as  soil amendment, mix in two to four inches of compost to the top six to nine inches of your soil. as  mulch, loosen the top two to three inches of soil and add  three-inch layer of compost on the surface,  few inches away from plant stems and tree trunks. adding finished compost to your soil: improves the structure and health of your soil by adding organic matter. helps the soil retain moisture and nutrients. attracts beneficial organisms to the soil and reduces the need for pesticides and fertilizers. reduces the potential for soil erosion. sequesters carbon in the soil. builds resiliency to the impacts of natural disasters."
+        }
+      ]
+    },
+    "small": {
+      "fixed_size": [
+        {
+          "chunk_id": 0,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 0,
+          "end_char": 512,
+          "text_length": 511,
+          "estimated_tokens": 127,
+          "text": "what is composting? composting is the managed, aerobic (oxygen-required) biological decomposition of organic materials by microorganisms. organic (carbon-based) materials include grass clippings, leaves, yard and tree trimmings, and food scraps. the end product is compost,  biologically stable soil amendment that can be used to build soil health and provide nutrients to plants. microorganisms feed on the materials added to the compost pile during the composting process. they use carbon and nitrogen to grow"
+        },
+        {
+          "chunk_id": 1,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 410,
+          "end_char": 922,
+          "text_length": 512,
+          "estimated_tokens": 128,
+          "text": "terials added to the compost pile during the composting process. they use carbon and nitrogen to grow and reproduce, water to digest materials, and oxygen to breathe. you can compost at home using food scraps from your kitchen and dry leaves and woody material from your yard. why compost at home? additional resources if you are  community looking to support your constituents in their efforts to compost at home, or wish to increase participation in  curbside collection program, you may be interested in the f"
+        },
+        {
+          "chunk_id": 2,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 820,
+          "end_char": 1332,
+          "text_length": 512,
+          "estimated_tokens": 128,
+          "text": "ome, or wish to increase participation in  curbside collection program, you may be interested in the following resource: composting food scraps in your community:  social marketing toolkit. composting is natures way of recycling. it is one of the most powerful actions we can take to reduce our trash and build healthy soil. by turning our food scraps and yard trim into compost, we transform our waste streams into  beneficial, value-added soil amendment and use it to protect the environment and create resilie"
+        },
+        {
+          "chunk_id": 3,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 1230,
+          "end_char": 1742,
+          "text_length": 511,
+          "estimated_tokens": 127,
+          "text": "into  beneficial, value-added soil amendment and use it to protect the environment and create resilient communities. composting is  resourceful way to recycle the food scraps and yard trim you generate at home all year and manage your waste more sustainably. you reduce the volume of materials that might otherwise be disposed of in landfills or trash incinerators leaves, grass clippings, yard trim, and food scraps and prevent powerful greenhouse gases from being emitted into the atmosphere. composting invol"
+        },
+        {
+          "chunk_id": 4,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 1640,
+          "end_char": 2152,
+          "text_length": 511,
+          "estimated_tokens": 127,
+          "text": "scraps and prevent powerful greenhouse gases from being emitted into the atmosphere. composting involves minimal effort, equipment, expense, and expertise and can be fun. you save money by producing  free, high-quality soil amendment compost which reduces your use of fertilizer and pesticides. you can use your compost to build healthier soil, prevent soil erosion, conserve water, and improve plant growth in your garden and yard. view the text on the compost your food scraps graphic below. options for compo"
+        },
+        {
+          "chunk_id": 5,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 2050,
+          "end_char": 2562,
+          "text_length": 512,
+          "estimated_tokens": 128,
+          "text": "n your garden and yard. view the text on the compost your food scraps graphic below. options for composting at home there are different ways to compost at home: backyard composting. vermicomposting (worm composting). if you dont have  space for composting, consider participating in  local municipal or community composting program which may collect your food scraps or offer  designated location where you can drop them off. learn more about community composting. if you cant find composting in your area, consi"
+        },
+        {
+          "chunk_id": 6,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 2460,
+          "end_char": 2972,
+          "text_length": 510,
+          "estimated_tokens": 127,
+          "text": "drop them off. learn more about community composting. if you cant find composting in your area, consider starting  composting program or advocating for one in your community or municipality. note: residential pre-processing appliances reduce the volume and weight of food scraps by grinding and dehydrating them. however, these appliances do not produce compost but rather  dried food scraps mixture that can be added to  composting system (at home or through  collection program). learn more about food scraps"
+        },
+        {
+          "chunk_id": 7,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 2870,
+          "end_char": 3382,
+          "text_length": 512,
+          "estimated_tokens": 128,
+          "text": "be added to  composting system (at home or through  collection program). learn more about food scraps pre-processing technologies. composting in your backyard ingredients for composting the ingredients for composting include  proper balance of the following materials: carbon-rich materials (browns). nitrogen-rich materials (greens). water (moisture). air (oxygen). what to add to  backyard compost pile nitrogen-rich materials (greens) carbon-rich materials (browns) fruit and vegetable scraps dry leaves grass"
+        },
+        {
+          "chunk_id": 8,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 3280,
+          "end_char": 3792,
+          "text_length": 512,
+          "estimated_tokens": 128,
+          "text": "gen-rich materials (greens) carbon-rich materials (browns) fruit and vegetable scraps dry leaves grass clippings plant stalks and twigs coffee grounds and paper filters shredded paper (non-glossy, uncolored) and shredded brown bags paper tea bags (no staples) shredded cardboard (no wax coating, tape, or glue) eggshells (crushed) untreated wood chips what to avoid adding to  backyard compost pile materials meat, fish, and bones cheese and dairy products fats, oils, and grease cooked food (small amounts are f"
+        },
+        {
+          "chunk_id": 9,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 3690,
+          "end_char": 4202,
+          "text_length": 511,
+          "estimated_tokens": 127,
+          "text": "eat, fish, and bones cheese and dairy products fats, oils, and grease cooked food (small amounts are fine) compostable foodservice ware and compostable bags herbicide-treated plants and grass aggressive weedsweeds with seeds diseased and pest-infested plants treated or painted wood pet waste and cat litter dryer lint glossy paper produce stickers these foods can attract animals. backyard composting piles generally do not reach high enough temperatures to fully decompose these materials. these materials can"
+        },
+        {
+          "chunk_id": 10,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 4100,
+          "end_char": 4612,
+          "text_length": 512,
+          "estimated_tokens": 128,
+          "text": "nerally do not reach high enough temperatures to fully decompose these materials. these materials can be composted at commercial composting facilities. check first to make sure your specific facility accepts them. steps for backyard composting determine how you will collect and store your browns and greens. collect and store your fruit and vegetable scraps in  closed container on your kitchen counter, under your sink, or in your fridge or freezer. for browns, set aside an area outside to store your steady s"
+        },
+        {
+          "chunk_id": 11,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 4510,
+          "end_char": 5022,
+          "text_length": 511,
+          "estimated_tokens": 127,
+          "text": "your sink, or in your fridge or freezer. for browns, set aside an area outside to store your steady supply of leaves, twigs, or other carbon-rich material (to mix with your food scraps). set aside space for your compost pile and build or buy  bin. choose  space in your yard for your compost pile that is easily accessible year-round and has good drainage. avoid placing it right up against  fence and ensure there is  water source nearby. your compost pile will break down in sun or shade. next, choose  type o"
+        },
+        {
+          "chunk_id": 12,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 4920,
+          "end_char": 5432,
+          "text_length": 512,
+          "estimated_tokens": 128,
+          "text": "there is  water source nearby. your compost pile will break down in sun or shade. next, choose  type of bin for your pile. bins can be constructed from materials such as wire, wood, and cinder blocks. they can also be enclosed and include barrels and tumblers. prepare your ingredients for composting. before adding your browns and greens to the pile, try to chop and break them up into smaller pieces (.., corn cobs, broccoli stalks, and other tough food scraps). doing so will help the materials in the pile br"
+        },
+        {
+          "chunk_id": 13,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 5330,
+          "end_char": 5842,
+          "text_length": 512,
+          "estimated_tokens": 128,
+          "text": "n cobs, broccoli stalks, and other tough food scraps). doing so will help the materials in the pile break down faster. how to build your compost pile. start your pile with  four- to six-inch layer of bulky browns such as twigs and wood chips. this layer absorbs extra liquids, elevates your pile and allows air to circulate at the base of the pile. then layer your greens and browns like lasagna. if needed, add  little water to dampen the pile. having the right proportions of ingredients in your compost pile w"
+        },
+        {
+          "chunk_id": 14,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 5740,
+          "end_char": 6252,
+          "text_length": 512,
+          "estimated_tokens": 128,
+          "text": "d  little water to dampen the pile. having the right proportions of ingredients in your compost pile will provide the composting microorganisms the carbon, nitrogen, oxygen, and moisture they need to break down the materials into finished compost. when adding browns and greens to your pile, add at least two to three times the volume of browns (such as dry leaves) to the volume of greens (such as food scraps). always ensure your food scraps are covered by four to eight inches of dry leaves or other browns. a"
+        },
+        {
+          "chunk_id": 15,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 6150,
+          "end_char": 6662,
+          "text_length": 512,
+          "estimated_tokens": 128,
+          "text": "). always ensure your food scraps are covered by four to eight inches of dry leaves or other browns. air and water are the other key ingredients in your pile. to ensure air circulation, add enough browns and turn your compost occasionally. to maintain moisture in your pile, ensure your combined materials have the consistency of  wrung-out sponge. maintain your compost pile. as the materials in your compost pile begin to decompose, the temperature of the pile will initially begin to rise, especially in the c"
+        },
+        {
+          "chunk_id": 16,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 6560,
+          "end_char": 7072,
+          "text_length": 512,
+          "estimated_tokens": 128,
+          "text": "pile begin to decompose, the temperature of the pile will initially begin to rise, especially in the center.  backyard pile, if well maintained, can reach temperatures of 130 to 160. high temperatures help reduce the presence of pathogens and weed seeds. turning and mixing your pile from time to time will help speed up the decomposition process and aerate the pile. use  garden fork to turn the outside of the pile inward. monitor your pile for moisture, odor, and temperature and make adjustments as needed. i"
+        },
+        {
+          "chunk_id": 17,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 6970,
+          "end_char": 7482,
+          "text_length": 512,
+          "estimated_tokens": 128,
+          "text": "e pile inward. monitor your pile for moisture, odor, and temperature and make adjustments as needed. if the pile is too dry, activity in the pile will slow or cease. moisten the pile and turn it. (refer to the note above about maintaining moisture in your pile.) if the pile has  bad odor, it may be too wet or need more air circulation. add more brownsdry material to the pile and turn the pile. if the pile is not heating up, mix in greens and turn the pile. harvest your finished compost. when your compost pi"
+        },
+        {
+          "chunk_id": 18,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 7380,
+          "end_char": 7892,
+          "text_length": 512,
+          "estimated_tokens": 128,
+          "text": "s not heating up, mix in greens and turn the pile. harvest your finished compost. when your compost pile is no longer heating up after mixing, and when there are no visible food scraps, allow your pile to cure, or finish, for at least four weeks. you can relocate the oldest compost at the bottom of the pile to  separate area to cure or stop adding materials to your pile. after curing, your pile will shrink to about one-third of its original size. compost in  well-maintained pile will be finished and ready f"
+        },
+        {
+          "chunk_id": 19,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 7790,
+          "end_char": 8302,
+          "text_length": 512,
+          "estimated_tokens": 128,
+          "text": "to about one-third of its original size. compost in  well-maintained pile will be finished and ready for use in about three to five months. left untended,  pile may take  year to decompose. the compost will look dark, loose, and crumbly and smell like fresh soil. most, if not all, of the materials that went into the compost pile should be decomposed. screen or sift your finished compost to filter out materials that didnt break down - twigs, fruit pits, eggshells, and items like produce stickers and plastic."
+        },
+        {
+          "chunk_id": 20,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 8200,
+          "end_char": 8712,
+          "text_length": 512,
+          "estimated_tokens": 128,
+          "text": "als that didnt break down - twigs, fruit pits, eggshells, and items like produce stickers and plastic. (you can make  homemade screener out of 14 inch hardware cloth.) pits, eggshells, etc. that you sifted out can be added back into the active pile or to  new pile. avoiding rodents home compost piles that are well constructed and maintained properly should not attract pests or rodents. if using  bin, it is important to reinforce the bin with  lid and potentially  floor. there should be no holes or gaps in y"
+        },
+        {
+          "chunk_id": 21,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 8610,
+          "end_char": 9122,
+          "text_length": 512,
+          "estimated_tokens": 128,
+          "text": "important to reinforce the bin with  lid and potentially  floor. there should be no holes or gaps in your bin that are larger than 14 inch. maintain the proper ratio of materials in your pile: two to three parts carbon-rich material (browns) to one part nitrogen-rich material (greens). ensure you cover and bury your food scraps in your pile. do not add meat, dairy, or greasy foods to your pile. this is  photo of  plastic compost bin that has  lid that closes tight to keep critters out of the food waste insi"
+        },
+        {
+          "chunk_id": 22,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 9020,
+          "end_char": 9532,
+          "text_length": 512,
+          "estimated_tokens": 128,
+          "text": "to of  plastic compost bin that has  lid that closes tight to keep critters out of the food waste inside of it. worm composting (vermicomposting) worm composting, or vermicomposting, is another method of composting you can try at home. it takes up little space, the materials are simple and inexpensive, and it can be done indoors or outdoors. you will need  container or bin, bedding material, worms, and food scraps. if your worm bin is properly maintained, it should not emit odors or attract pests. the resul"
+        },
+        {
+          "chunk_id": 23,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 9430,
+          "end_char": 9942,
+          "text_length": 510,
+          "estimated_tokens": 127,
+          "text": "scraps. if your worm bin is properly maintained, it should not emit odors or attract pests. the resulting product is vermicompost,  soil amendment. steps for vermicomposting make or buy  worm bin. you can purchase  worm bin or make your own of untreated wood or plastic storage bins. the bin should have  tight-fitting lid and be  dark color to keep out light. if using plastic storage containers, drill air holes around the upper sides of one bin near the lid and drainage holes on the bottom of the same bin."
+        },
+        {
+          "chunk_id": 24,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 9840,
+          "end_char": 10352,
+          "text_length": 512,
+          "estimated_tokens": 128,
+          "text": "oles around the upper sides of one bin near the lid and drainage holes on the bottom of the same bin. place the bin with the drilled holes inside the other bin. (the bottom bin will catch any liquid that drains out of the top bin.) choose  space for your worm bin. you can keep your worm bin indoors (.., under  sink, in  closet or basement) or outdoors in the shade. if your bin is outdoors (.., garage, carport, porch, deck, or apartment balcony), insulate the bin with blankets, straw, or other materials to k"
+        },
+        {
+          "chunk_id": 25,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 10250,
+          "end_char": 10762,
+          "text_length": 512,
+          "estimated_tokens": 128,
+          "text": "rt, porch, deck, or apartment balcony), insulate the bin with blankets, straw, or other materials to keep it warm during colder months. you want to maintain  bin temperature of 59 to 77; however, the worms can survive at 32 to 95  if they have at least four inches of bedding. materials for your bin. worms of the,000 species of earthworms, only seven are suitable for vermicomposting. one of the most used is the red wriggler or eisenia fetida. it is essential to use  suitable species. do not use worms you mig"
+        },
+        {
+          "chunk_id": 26,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 10660,
+          "end_char": 11172,
+          "text_length": 512,
+          "estimated_tokens": 128,
+          "text": "the red wriggler or eisenia fetida. it is essential to use  suitable species. do not use worms you might find outdoors or purchase at  bait shop. begin your bin with one pound of worms, about,000 individual worms. purchase them from  worm grower or find  neighbor in your community who has  vermicomposting bin and can give you some. bedding shred or tear non-glossy newspaper, office paper, cardboard, or dry leaves and soak the bedding material for 10 minutes. wring it out so it feels like  moist sponge. plac"
+        },
+        {
+          "chunk_id": 27,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 11070,
+          "end_char": 11582,
+          "text_length": 512,
+          "estimated_tokens": 128,
+          "text": "leaves and soak the bedding material for 10 minutes. wring it out so it feels like  moist sponge. place it in your bin and fluff it up. fill the bin almost halfway with the moist bedding and then add  handful of soil. food you can feed your worms most fruit and vegetables scraps, coffee grounds and paper filters, crushed eggshells, paper tea bags without staples, and crushed eggshells. avoid citrus fruits, odorous foods like onions and garlic, meat, dairy products, greasy foods, bones, and pet waste. chop u"
+        },
+        {
+          "chunk_id": 28,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 11480,
+          "end_char": 11992,
+          "text_length": 511,
+          "estimated_tokens": 127,
+          "text": "odorous foods like onions and garlic, meat, dairy products, greasy foods, bones, and pet waste. chop up scraps into small pieces before adding them to the bin to allow for faster decomposition. start your bin and feed your worms. place worms on top of the bedding in the bin. once the worms have settled in the bin, add some food scraps on the surface of the bedding. each time you add food scraps, make sure to cover them with two inches of bedding. adding the proper ratio of materials to the bin and covering"
+        },
+        {
+          "chunk_id": 29,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 11890,
+          "end_char": 12402,
+          "text_length": 512,
+          "estimated_tokens": 128,
+          "text": "o cover them with two inches of bedding. adding the proper ratio of materials to the bin and covering them is important. worms eat about 25 percent of their weight each day. as worms reproduce quickly, you can increase the amount you feed them. always ensure the food scraps have been eaten before adding more. harvest and use your vermicompost. after three to six months, you will be able to harvest your vermicompost, or worm castings, at the bottom of your worm bin. vermicompost doesnt need to cure and can b"
+        },
+        {
+          "chunk_id": 30,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 12300,
+          "end_char": 12812,
+          "text_length": 512,
+          "estimated_tokens": 128,
+          "text": "icompost, or worm castings, at the bottom of your worm bin. vermicompost doesnt need to cure and can be used immediately or stored for future use. closeup photo of compost held in hand benefits of using your finished compost you can add compost to your flower and vegetable beds, window boxes, and container gardens; incorporate it into tree beds; mix it with potting soil for indoor plants; or spread it on top of the soil in your yard. compost can be used as  soil amendment or as  mulch. as  soil amendment, m"
+        },
+        {
+          "chunk_id": 31,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 12710,
+          "end_char": 13222,
+          "text_length": 512,
+          "estimated_tokens": 128,
+          "text": "p of the soil in your yard. compost can be used as  soil amendment or as  mulch. as  soil amendment, mix in two to four inches of compost to the top six to nine inches of your soil. as  mulch, loosen the top two to three inches of soil and add  three-inch layer of compost on the surface,  few inches away from plant stems and tree trunks. adding finished compost to your soil: improves the structure and health of your soil by adding organic matter. helps the soil retain moisture and nutrients. attracts benefi"
+        },
+        {
+          "chunk_id": 32,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 13120,
+          "end_char": 13427,
+          "text_length": 307,
+          "estimated_tokens": 76,
+          "text": "h of your soil by adding organic matter. helps the soil retain moisture and nutrients. attracts beneficial organisms to the soil and reduces the need for pesticides and fertilizers. reduces the potential for soil erosion. sequesters carbon in the soil. builds resiliency to the impacts of natural disasters."
+        }
+      ],
+      "content_aware": [
+        {
+          "chunk_id": 0,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 20,
+          "end_char": 498,
+          "text_length": 478,
+          "estimated_tokens": 119,
+          "text": "what is composting?\n\ncomposting is the managed, aerobic (oxygen-required) biological decomposition of organic materials by microorganisms.\n\norganic (carbon-based) materials include grass clippings, leaves, yard and tree trimmings, and food scraps.\n\nthe end product is compost,  biologically stable soil amendment that can be used to build soil health and provide nutrients to plants.\n\nmicroorganisms feed on the materials added to the compost pile during the composting process."
+        },
+        {
+          "chunk_id": 1,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 20,
+          "end_char": 349,
+          "text_length": 329,
+          "estimated_tokens": 82,
+          "text": "microorganisms feed on the materials added to the compost pile during the composting process.\n\nthey use carbon and nitrogen to grow and reproduce, water to digest materials, and oxygen to breathe.\n\nyou can compost at home using food scraps from your kitchen and dry leaves and woody material from your yard.\n\nwhy compost at home?"
+        },
+        {
+          "chunk_id": 2,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 20,
+          "end_char": 503,
+          "text_length": 483,
+          "estimated_tokens": 120,
+          "text": "y leaves and woody material from your yard.\n\nadditional resources if you are  community looking to support your constituents in their efforts to compost at home, or wish to increase participation in  curbside collection program, you may be interested in the following resource: composting food scraps in your community:  social marketing toolkit.\n\ncomposting is natures way of recycling.\n\nit is one of the most powerful actions we can take to reduce our trash and build healthy soil."
+        },
+        {
+          "chunk_id": 3,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 20,
+          "end_char": 461,
+          "text_length": 441,
+          "estimated_tokens": 110,
+          "text": "it is one of the most powerful actions we can take to reduce our trash and build healthy soil.\n\nby turning our food scraps and yard trim into compost, we transform our waste streams into  beneficial, value-added soil amendment and use it to protect the environment and create resilient communities.\n\ncomposting is  resourceful way to recycle the food scraps and yard trim you generate at home all year and manage your waste more sustainably."
+        },
+        {
+          "chunk_id": 4,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 20,
+          "end_char": 432,
+          "text_length": 412,
+          "estimated_tokens": 103,
+          "text": "raps and yard trim you generate at home all year and manage your waste more sustainably.\n\nyou reduce the volume of materials that might otherwise be disposed of in landfills or trash incinerators leaves, grass clippings, yard trim, and food scraps and prevent powerful greenhouse gases from being emitted into the atmosphere.\n\ncomposting involves minimal effort, equipment, expense, and expertise and can be fun."
+        },
+        {
+          "chunk_id": 5,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 20,
+          "end_char": 526,
+          "text_length": 506,
+          "estimated_tokens": 126,
+          "text": "posting involves minimal effort, equipment, expense, and expertise and can be fun.\n\nyou save money by producing  free, high-quality soil amendment compost which reduces your use of fertilizer and pesticides.\n\nyou can use your compost to build healthier soil, prevent soil erosion, conserve water, and improve plant growth in your garden and yard.\n\nview the text on the compost your food scraps graphic below.\n\noptions for composting at home there are different ways to compost at home: backyard composting."
+        },
+        {
+          "chunk_id": 6,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 20,
+          "end_char": 407,
+          "text_length": 387,
+          "estimated_tokens": 96,
+          "text": "ow.\n\noptions for composting at home there are different ways to compost at home: backyard composting.\n\nvermicomposting (worm composting).\n\nif you dont have  space for composting, consider participating in  local municipal or community composting program which may collect your food scraps or offer  designated location where you can drop them off.\n\nlearn more about community composting."
+        },
+        {
+          "chunk_id": 7,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 20,
+          "end_char": 528,
+          "text_length": 508,
+          "estimated_tokens": 127,
+          "text": "location where you can drop them off.\n\nlearn more about community composting.\n\nif you cant find composting in your area, consider starting  composting program or advocating for one in your community or municipality.\n\nnote: residential pre-processing appliances reduce the volume and weight of food scraps by grinding and dehydrating them.\n\nhowever, these appliances do not produce compost but rather  dried food scraps mixture that can be added to  composting system (at home or through  collection program)."
+        },
+        {
+          "chunk_id": 8,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 20,
+          "end_char": 420,
+          "text_length": 400,
+          "estimated_tokens": 100,
+          "text": "food scraps mixture that can be added to  composting system (at home or through  collection program).\n\nlearn more about food scraps pre-processing technologies.\n\ncomposting in your backyard ingredients for composting the ingredients for composting include  proper balance of the following materials: carbon-rich materials (browns).\n\nnitrogen-rich materials (greens).\n\nwater (moisture).\n\nair (oxygen)."
+        },
+        {
+          "chunk_id": 9,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 20,
+          "end_char": 936,
+          "text_length": 916,
+          "estimated_tokens": 229,
+          "text": "s (browns).\n\nnitrogen-rich materials (greens).\n\nwater (moisture).\n\nair (oxygen).\n\nwhat to add to  backyard compost pile nitrogen-rich materials (greens) carbon-rich materials (browns) fruit and vegetable scraps dry leaves grass clippings plant stalks and twigs coffee grounds and paper filters shredded paper (non-glossy, uncolored) and shredded brown bags paper tea bags (no staples) shredded cardboard (no wax coating, tape, or glue) eggshells (crushed) untreated wood chips what to avoid adding to  backyard compost pile materials meat, fish, and bones cheese and dairy products fats, oils, and grease cooked food (small amounts are fine) compostable foodservice ware and compostable bags herbicide-treated plants and grass aggressive weedsweeds with seeds diseased and pest-infested plants treated or painted wood pet waste and cat litter dryer lint glossy paper produce stickers these foods can attract animals."
+        },
+        {
+          "chunk_id": 10,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 20,
+          "end_char": 448,
+          "text_length": 428,
+          "estimated_tokens": 107,
+          "text": "sive weedsweeds with seeds diseased and pest-infested plants treated or painted wood pet waste and cat litter dryer lint glossy paper produce stickers these foods can attract animals.\n\nbackyard composting piles generally do not reach high enough temperatures to fully decompose these materials.\n\nthese materials can be composted at commercial composting facilities.\n\ncheck first to make sure your specific facility accepts them."
+        },
+        {
+          "chunk_id": 11,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 20,
+          "end_char": 492,
+          "text_length": 472,
+          "estimated_tokens": 118,
+          "text": "composting facilities.\n\ncheck first to make sure your specific facility accepts them.\n\nsteps for backyard composting determine how you will collect and store your browns and greens.\n\ncollect and store your fruit and vegetable scraps in  closed container on your kitchen counter, under your sink, or in your fridge or freezer.\n\nfor browns, set aside an area outside to store your steady supply of leaves, twigs, or other carbon-rich material (to mix with your food scraps)."
+        },
+        {
+          "chunk_id": 12,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 20,
+          "end_char": 463,
+          "text_length": 443,
+          "estimated_tokens": 110,
+          "text": "steady supply of leaves, twigs, or other carbon-rich material (to mix with your food scraps).\n\nset aside space for your compost pile and build or buy  bin.\n\nchoose  space in your yard for your compost pile that is easily accessible year-round and has good drainage.\n\navoid placing it right up against  fence and ensure there is  water source nearby.\n\nyour compost pile will break down in sun or shade.\n\nnext, choose  type of bin for your pile."
+        },
+        {
+          "chunk_id": 13,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 20,
+          "end_char": 518,
+          "text_length": 498,
+          "estimated_tokens": 124,
+          "text": "compost pile will break down in sun or shade.\n\nnext, choose  type of bin for your pile.\n\nbins can be constructed from materials such as wire, wood, and cinder blocks.\n\nthey can also be enclosed and include barrels and tumblers.\n\nprepare your ingredients for composting.\n\nbefore adding your browns and greens to the pile, try to chop and break them up into smaller pieces (.., corn cobs, broccoli stalks, and other tough food scraps).\n\ndoing so will help the materials in the pile break down faster."
+        },
+        {
+          "chunk_id": 14,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 20,
+          "end_char": 451,
+          "text_length": 431,
+          "estimated_tokens": 107,
+          "text": "lks, and other tough food scraps).\n\ndoing so will help the materials in the pile break down faster.\n\nhow to build your compost pile.\n\nstart your pile with  four- to six-inch layer of bulky browns such as twigs and wood chips.\n\nthis layer absorbs extra liquids, elevates your pile and allows air to circulate at the base of the pile.\n\nthen layer your greens and browns like lasagna.\n\nif needed, add  little water to dampen the pile."
+        },
+        {
+          "chunk_id": 15,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 20,
+          "end_char": 485,
+          "text_length": 465,
+          "estimated_tokens": 116,
+          "text": "your greens and browns like lasagna.\n\nif needed, add  little water to dampen the pile.\n\nhaving the right proportions of ingredients in your compost pile will provide the composting microorganisms the carbon, nitrogen, oxygen, and moisture they need to break down the materials into finished compost.\n\nwhen adding browns and greens to your pile, add at least two to three times the volume of browns (such as dry leaves) to the volume of greens (such as food scraps)."
+        },
+        {
+          "chunk_id": 16,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 20,
+          "end_char": 492,
+          "text_length": 472,
+          "estimated_tokens": 118,
+          "text": "imes the volume of browns (such as dry leaves) to the volume of greens (such as food scraps).\n\nalways ensure your food scraps are covered by four to eight inches of dry leaves or other browns.\n\nair and water are the other key ingredients in your pile.\n\nto ensure air circulation, add enough browns and turn your compost occasionally.\n\nto maintain moisture in your pile, ensure your combined materials have the consistency of  wrung-out sponge.\n\nmaintain your compost pile."
+        },
+        {
+          "chunk_id": 17,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 20,
+          "end_char": 518,
+          "text_length": 498,
+          "estimated_tokens": 124,
+          "text": "our combined materials have the consistency of  wrung-out sponge.\n\nmaintain your compost pile.\n\nas the materials in your compost pile begin to decompose, the temperature of the pile will initially begin to rise, especially in the center.\n\nbackyard pile, if well maintained, can reach temperatures of 130 to 160.\n\nhigh temperatures help reduce the presence of pathogens and weed seeds.\n\nturning and mixing your pile from time to time will help speed up the decomposition process and aerate the pile."
+        },
+        {
+          "chunk_id": 18,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 20,
+          "end_char": 504,
+          "text_length": 484,
+          "estimated_tokens": 121,
+          "text": "ixing your pile from time to time will help speed up the decomposition process and aerate the pile.\n\nuse  garden fork to turn the outside of the pile inward.\n\nmonitor your pile for moisture, odor, and temperature and make adjustments as needed.\n\nif the pile is too dry, activity in the pile will slow or cease.\n\nmoisten the pile and turn it.\n\n(refer to the note above about maintaining moisture in your pile.) if the pile has  bad odor, it may be too wet or need more air circulation."
+        },
+        {
+          "chunk_id": 19,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 20,
+          "end_char": 439,
+          "text_length": 419,
+          "estimated_tokens": 104,
+          "text": "isture in your pile.) if the pile has  bad odor, it may be too wet or need more air circulation.\n\nadd more brownsdry material to the pile and turn the pile.\n\nif the pile is not heating up, mix in greens and turn the pile.\n\nharvest your finished compost.\n\nwhen your compost pile is no longer heating up after mixing, and when there are no visible food scraps, allow your pile to cure, or finish, for at least four weeks."
+        },
+        {
+          "chunk_id": 20,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 20,
+          "end_char": 535,
+          "text_length": 515,
+          "estimated_tokens": 128,
+          "text": "o visible food scraps, allow your pile to cure, or finish, for at least four weeks.\n\nyou can relocate the oldest compost at the bottom of the pile to  separate area to cure or stop adding materials to your pile.\n\nafter curing, your pile will shrink to about one-third of its original size.\n\ncompost in  well-maintained pile will be finished and ready for use in about three to five months.\n\nleft untended,  pile may take  year to decompose.\n\nthe compost will look dark, loose, and crumbly and smell like fresh soil."
+        },
+        {
+          "chunk_id": 21,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 20,
+          "end_char": 462,
+          "text_length": 442,
+          "estimated_tokens": 110,
+          "text": "may take  year to decompose.\n\nthe compost will look dark, loose, and crumbly and smell like fresh soil.\n\nmost, if not all, of the materials that went into the compost pile should be decomposed.\n\nscreen or sift your finished compost to filter out materials that didnt break down - twigs, fruit pits, eggshells, and items like produce stickers and plastic.\n\n(you can make  homemade screener out of 14 inch hardware cloth.) pits, eggshells, etc."
+        },
+        {
+          "chunk_id": 22,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 20,
+          "end_char": 470,
+          "text_length": 450,
+          "estimated_tokens": 112,
+          "text": "(you can make  homemade screener out of 14 inch hardware cloth.) pits, eggshells, etc.\n\nthat you sifted out can be added back into the active pile or to  new pile.\n\navoiding rodents home compost piles that are well constructed and maintained properly should not attract pests or rodents.\n\nif using  bin, it is important to reinforce the bin with  lid and potentially  floor.\n\nthere should be no holes or gaps in your bin that are larger than 14 inch."
+        },
+        {
+          "chunk_id": 23,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 20,
+          "end_char": 496,
+          "text_length": 476,
+          "estimated_tokens": 119,
+          "text": "tially  floor.\n\nthere should be no holes or gaps in your bin that are larger than 14 inch.\n\nmaintain the proper ratio of materials in your pile: two to three parts carbon-rich material (browns) to one part nitrogen-rich material (greens).\n\nensure you cover and bury your food scraps in your pile.\n\ndo not add meat, dairy, or greasy foods to your pile.\n\nthis is  photo of  plastic compost bin that has  lid that closes tight to keep critters out of the food waste inside of it."
+        },
+        {
+          "chunk_id": 24,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 20,
+          "end_char": 510,
+          "text_length": 490,
+          "estimated_tokens": 122,
+          "text": "ompost bin that has  lid that closes tight to keep critters out of the food waste inside of it.\n\nworm composting (vermicomposting) worm composting, or vermicomposting, is another method of composting you can try at home.\n\nit takes up little space, the materials are simple and inexpensive, and it can be done indoors or outdoors.\n\nyou will need  container or bin, bedding material, worms, and food scraps.\n\nif your worm bin is properly maintained, it should not emit odors or attract pests."
+        },
+        {
+          "chunk_id": 25,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 20,
+          "end_char": 390,
+          "text_length": 370,
+          "estimated_tokens": 92,
+          "text": "food scraps.\n\nif your worm bin is properly maintained, it should not emit odors or attract pests.\n\nthe resulting product is vermicompost,  soil amendment.\n\nsteps for vermicomposting make or buy  worm bin.\n\nyou can purchase  worm bin or make your own of untreated wood or plastic storage bins.\n\nthe bin should have  tight-fitting lid and be  dark color to keep out light."
+        },
+        {
+          "chunk_id": 26,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 20,
+          "end_char": 514,
+          "text_length": 494,
+          "estimated_tokens": 123,
+          "text": "e bin should have  tight-fitting lid and be  dark color to keep out light.\n\nif using plastic storage containers, drill air holes around the upper sides of one bin near the lid and drainage holes on the bottom of the same bin.\n\nplace the bin with the drilled holes inside the other bin.\n\n(the bottom bin will catch any liquid that drains out of the top bin.) choose  space for your worm bin.\n\nyou can keep your worm bin indoors (.., under  sink, in  closet or basement) or outdoors in the shade."
+        },
+        {
+          "chunk_id": 27,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 20,
+          "end_char": 464,
+          "text_length": 444,
+          "estimated_tokens": 111,
+          "text": "can keep your worm bin indoors (.., under  sink, in  closet or basement) or outdoors in the shade.\n\nif your bin is outdoors (.., garage, carport, porch, deck, or apartment balcony), insulate the bin with blankets, straw, or other materials to keep it warm during colder months.\n\nyou want to maintain  bin temperature of 59 to 77; however, the worms can survive at 32 to 95  if they have at least four inches of bedding.\n\nmaterials for your bin."
+        },
+        {
+          "chunk_id": 28,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 20,
+          "end_char": 436,
+          "text_length": 416,
+          "estimated_tokens": 104,
+          "text": "vive at 32 to 95  if they have at least four inches of bedding.\n\nmaterials for your bin.\n\nworms of the,000 species of earthworms, only seven are suitable for vermicomposting.\n\none of the most used is the red wriggler or eisenia fetida.\n\nit is essential to use  suitable species.\n\ndo not use worms you might find outdoors or purchase at  bait shop.\n\nbegin your bin with one pound of worms, about,000 individual worms."
+        },
+        {
+          "chunk_id": 29,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 20,
+          "end_char": 522,
+          "text_length": 502,
+          "estimated_tokens": 125,
+          "text": "at  bait shop.\n\nbegin your bin with one pound of worms, about,000 individual worms.\n\npurchase them from  worm grower or find  neighbor in your community who has  vermicomposting bin and can give you some.\n\nbedding shred or tear non-glossy newspaper, office paper, cardboard, or dry leaves and soak the bedding material for 10 minutes.\n\nwring it out so it feels like  moist sponge.\n\nplace it in your bin and fluff it up.\n\nfill the bin almost halfway with the moist bedding and then add  handful of soil."
+        },
+        {
+          "chunk_id": 30,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 20,
+          "end_char": 508,
+          "text_length": 488,
+          "estimated_tokens": 122,
+          "text": "and fluff it up.\n\nfill the bin almost halfway with the moist bedding and then add  handful of soil.\n\nfood you can feed your worms most fruit and vegetables scraps, coffee grounds and paper filters, crushed eggshells, paper tea bags without staples, and crushed eggshells.\n\navoid citrus fruits, odorous foods like onions and garlic, meat, dairy products, greasy foods, bones, and pet waste.\n\nchop up scraps into small pieces before adding them to the bin to allow for faster decomposition."
+        },
+        {
+          "chunk_id": 31,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 20,
+          "end_char": 513,
+          "text_length": 493,
+          "estimated_tokens": 123,
+          "text": "chop up scraps into small pieces before adding them to the bin to allow for faster decomposition.\n\nstart your bin and feed your worms.\n\nplace worms on top of the bedding in the bin.\n\nonce the worms have settled in the bin, add some food scraps on the surface of the bedding.\n\neach time you add food scraps, make sure to cover them with two inches of bedding.\n\nadding the proper ratio of materials to the bin and covering them is important.\n\nworms eat about 25 percent of their weight each day."
+        },
+        {
+          "chunk_id": 32,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 20,
+          "end_char": 506,
+          "text_length": 486,
+          "estimated_tokens": 121,
+          "text": "s to the bin and covering them is important.\n\nworms eat about 25 percent of their weight each day.\n\nas worms reproduce quickly, you can increase the amount you feed them.\n\nalways ensure the food scraps have been eaten before adding more.\n\nharvest and use your vermicompost.\n\nafter three to six months, you will be able to harvest your vermicompost, or worm castings, at the bottom of your worm bin.\n\nvermicompost doesnt need to cure and can be used immediately or stored for future use."
+        },
+        {
+          "chunk_id": 33,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 20,
+          "end_char": 463,
+          "text_length": 443,
+          "estimated_tokens": 110,
+          "text": "worm bin.\n\nvermicompost doesnt need to cure and can be used immediately or stored for future use.\n\ncloseup photo of compost held in hand benefits of using your finished compost you can add compost to your flower and vegetable beds, window boxes, and container gardens; incorporate it into tree beds; mix it with potting soil for indoor plants; or spread it on top of the soil in your yard.\n\ncompost can be used as  soil amendment or as  mulch."
+        },
+        {
+          "chunk_id": 34,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 20,
+          "end_char": 528,
+          "text_length": 508,
+          "estimated_tokens": 127,
+          "text": "t on top of the soil in your yard.\n\ncompost can be used as  soil amendment or as  mulch.\n\nas  soil amendment, mix in two to four inches of compost to the top six to nine inches of your soil.\n\nas  mulch, loosen the top two to three inches of soil and add  three-inch layer of compost on the surface,  few inches away from plant stems and tree trunks.\n\nadding finished compost to your soil: improves the structure and health of your soil by adding organic matter.\n\nhelps the soil retain moisture and nutrients."
+        },
+        {
+          "chunk_id": 35,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 20,
+          "end_char": 346,
+          "text_length": 326,
+          "estimated_tokens": 81,
+          "text": "ture and health of your soil by adding organic matter.\n\nhelps the soil retain moisture and nutrients.\n\nattracts beneficial organisms to the soil and reduces the need for pesticides and fertilizers.\n\nreduces the potential for soil erosion.\n\nsequesters carbon in the soil.\n\nbuilds resiliency to the impacts of natural disasters."
+        }
+      ],
+      "recursive_character": [
+        {
+          "chunk_id": 0,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 0,
+          "end_char": 474,
+          "text_length": 474,
+          "estimated_tokens": 118,
+          "text": "what is composting? composting is the managed, aerobic (oxygen-required) biological decomposition of organic materials by microorganisms. organic (carbon-based) materials include grass clippings, leaves, yard and tree trimmings, and food scraps. the end product is compost,  biologically stable soil amendment that can be used to build soil health and provide nutrients to plants. microorganisms feed on the materials added to the compost pile during the composting process."
+        },
+        {
+          "chunk_id": 1,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 373,
+          "end_char": 1009,
+          "text_length": 636,
+          "estimated_tokens": 159,
+          "text": "plants. microorganisms feed on the materials added to the compost pile during the composting process. they use carbon and nitrogen to grow and reproduce, water to digest materials, and oxygen to breathe. you can compost at home using food scraps from your kitchen and dry leaves and woody material from your yard. why compost at home? additional resources if you are  community looking to support your constituents in their efforts to compost at home, or wish to increase participation in  curbside collection program, you may be interested in the following resource: composting food scraps in your community:  social marketing toolkit."
+        },
+        {
+          "chunk_id": 2,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 908,
+          "end_char": 1489,
+          "text_length": 581,
+          "estimated_tokens": 145,
+          "text": "ested in the following resource: composting food scraps in your community:  social marketing toolkit. composting is natures way of recycling. it is one of the most powerful actions we can take to reduce our trash and build healthy soil. by turning our food scraps and yard trim into compost, we transform our waste streams into  beneficial, value-added soil amendment and use it to protect the environment and create resilient communities. composting is  resourceful way to recycle the food scraps and yard trim you generate at home all year and manage your waste more sustainably."
+        },
+        {
+          "chunk_id": 3,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 1388,
+          "end_char": 1935,
+          "text_length": 547,
+          "estimated_tokens": 136,
+          "text": "e the food scraps and yard trim you generate at home all year and manage your waste more sustainably. you reduce the volume of materials that might otherwise be disposed of in landfills or trash incinerators leaves, grass clippings, yard trim, and food scraps and prevent powerful greenhouse gases from being emitted into the atmosphere. composting involves minimal effort, equipment, expense, and expertise and can be fun. you save money by producing  free, high-quality soil amendment compost which reduces your use of fertilizer and pesticides."
+        },
+        {
+          "chunk_id": 4,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 1834,
+          "end_char": 2266,
+          "text_length": 432,
+          "estimated_tokens": 108,
+          "text": "ucing  free, high-quality soil amendment compost which reduces your use of fertilizer and pesticides. you can use your compost to build healthier soil, prevent soil erosion, conserve water, and improve plant growth in your garden and yard. view the text on the compost your food scraps graphic below. options for composting at home there are different ways to compost at home: backyard composting. vermicomposting (worm composting)."
+        },
+        {
+          "chunk_id": 5,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 2165,
+          "end_char": 2650,
+          "text_length": 485,
+          "estimated_tokens": 121,
+          "text": "there are different ways to compost at home: backyard composting. vermicomposting (worm composting). if you dont have  space for composting, consider participating in  local municipal or community composting program which may collect your food scraps or offer  designated location where you can drop them off. learn more about community composting. if you cant find composting in your area, consider starting  composting program or advocating for one in your community or municipality."
+        },
+        {
+          "chunk_id": 6,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 2550,
+          "end_char": 2999,
+          "text_length": 449,
+          "estimated_tokens": 112,
+          "text": "area, consider starting  composting program or advocating for one in your community or municipality. note: residential pre-processing appliances reduce the volume and weight of food scraps by grinding and dehydrating them. however, these appliances do not produce compost but rather  dried food scraps mixture that can be added to  composting system (at home or through  collection program). learn more about food scraps pre-processing technologies."
+        },
+        {
+          "chunk_id": 7,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 2899,
+          "end_char": 3236,
+          "text_length": 337,
+          "estimated_tokens": 84,
+          "text": "m (at home or through  collection program). learn more about food scraps pre-processing technologies. composting in your backyard ingredients for composting the ingredients for composting include  proper balance of the following materials: carbon-rich materials (browns). nitrogen-rich materials (greens). water (moisture). air (oxygen)."
+        },
+        {
+          "chunk_id": 8,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 3135,
+          "end_char": 3647,
+          "text_length": 512,
+          "estimated_tokens": 128,
+          "text": "ls: carbon-rich materials (browns). nitrogen-rich materials (greens). water (moisture). air (oxygen). what to add to  backyard compost pile nitrogen-rich materials (greens) carbon-rich materials (browns) fruit and vegetable scraps dry leaves grass clippings plant stalks and twigs coffee grounds and paper filters shredded paper (non-glossy, uncolored) and shredded brown bags paper tea bags (no staples) shredded cardboard (no wax coating, tape, or glue) eggshells (crushed) untreated wood chips what to avoid a"
+        },
+        {
+          "chunk_id": 9,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 3545,
+          "end_char": 4071,
+          "text_length": 526,
+          "estimated_tokens": 131,
+          "text": "ded cardboard (no wax coating, tape, or glue) eggshells (crushed) untreated wood chips what to avoid adding to  backyard compost pile materials meat, fish, and bones cheese and dairy products fats, oils, and grease cooked food (small amounts are fine) compostable foodservice ware and compostable bags herbicide-treated plants and grass aggressive weedsweeds with seeds diseased and pest-infested plants treated or painted wood pet waste and cat litter dryer lint glossy paper produce stickers these foods can attract animals."
+        },
+        {
+          "chunk_id": 10,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 3970,
+          "end_char": 4551,
+          "text_length": 581,
+          "estimated_tokens": 145,
+          "text": "od pet waste and cat litter dryer lint glossy paper produce stickers these foods can attract animals. backyard composting piles generally do not reach high enough temperatures to fully decompose these materials. these materials can be composted at commercial composting facilities. check first to make sure your specific facility accepts them. steps for backyard composting determine how you will collect and store your browns and greens. collect and store your fruit and vegetable scraps in  closed container on your kitchen counter, under your sink, or in your fridge or freezer."
+        },
+        {
+          "chunk_id": 11,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 4450,
+          "end_char": 4950,
+          "text_length": 500,
+          "estimated_tokens": 125,
+          "text": "e scraps in  closed container on your kitchen counter, under your sink, or in your fridge or freezer. for browns, set aside an area outside to store your steady supply of leaves, twigs, or other carbon-rich material (to mix with your food scraps). set aside space for your compost pile and build or buy  bin. choose  space in your yard for your compost pile that is easily accessible year-round and has good drainage. avoid placing it right up against  fence and ensure there is  water source nearby."
+        },
+        {
+          "chunk_id": 12,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 4849,
+          "end_char": 5384,
+          "text_length": 535,
+          "estimated_tokens": 133,
+          "text": "has good drainage. avoid placing it right up against  fence and ensure there is  water source nearby. your compost pile will break down in sun or shade. next, choose  type of bin for your pile. bins can be constructed from materials such as wire, wood, and cinder blocks. they can also be enclosed and include barrels and tumblers. prepare your ingredients for composting. before adding your browns and greens to the pile, try to chop and break them up into smaller pieces (.., corn cobs, broccoli stalks, and other tough food scraps)."
+        },
+        {
+          "chunk_id": 13,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 5283,
+          "end_char": 5774,
+          "text_length": 491,
+          "estimated_tokens": 122,
+          "text": "and break them up into smaller pieces (.., corn cobs, broccoli stalks, and other tough food scraps). doing so will help the materials in the pile break down faster. how to build your compost pile. start your pile with  four- to six-inch layer of bulky browns such as twigs and wood chips. this layer absorbs extra liquids, elevates your pile and allows air to circulate at the base of the pile. then layer your greens and browns like lasagna. if needed, add  little water to dampen the pile."
+        },
+        {
+          "chunk_id": 14,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 5674,
+          "end_char": 6152,
+          "text_length": 478,
+          "estimated_tokens": 119,
+          "text": "ile. then layer your greens and browns like lasagna. if needed, add  little water to dampen the pile. having the right proportions of ingredients in your compost pile will provide the composting microorganisms the carbon, nitrogen, oxygen, and moisture they need to break down the materials into finished compost. when adding browns and greens to your pile, add at least two to three times the volume of browns (such as dry leaves) to the volume of greens (such as food scraps)."
+        },
+        {
+          "chunk_id": 15,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 6051,
+          "end_char": 6525,
+          "text_length": 474,
+          "estimated_tokens": 118,
+          "text": "three times the volume of browns (such as dry leaves) to the volume of greens (such as food scraps). always ensure your food scraps are covered by four to eight inches of dry leaves or other browns. air and water are the other key ingredients in your pile. to ensure air circulation, add enough browns and turn your compost occasionally. to maintain moisture in your pile, ensure your combined materials have the consistency of  wrung-out sponge. maintain your compost pile."
+        },
+        {
+          "chunk_id": 16,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 6425,
+          "end_char": 6927,
+          "text_length": 502,
+          "estimated_tokens": 125,
+          "text": "ensure your combined materials have the consistency of  wrung-out sponge. maintain your compost pile. as the materials in your compost pile begin to decompose, the temperature of the pile will initially begin to rise, especially in the center.  backyard pile, if well maintained, can reach temperatures of 130 to 160. high temperatures help reduce the presence of pathogens and weed seeds. turning and mixing your pile from time to time will help speed up the decomposition process and aerate the pile."
+        },
+        {
+          "chunk_id": 17,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 6826,
+          "end_char": 7365,
+          "text_length": 539,
+          "estimated_tokens": 134,
+          "text": "mixing your pile from time to time will help speed up the decomposition process and aerate the pile. use  garden fork to turn the outside of the pile inward. monitor your pile for moisture, odor, and temperature and make adjustments as needed. if the pile is too dry, activity in the pile will slow or cease. moisten the pile and turn it. (refer to the note above about maintaining moisture in your pile.) if the pile has  bad odor, it may be too wet or need more air circulation. add more brownsdry material to the pile and turn the pile."
+        },
+        {
+          "chunk_id": 18,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 7265,
+          "end_char": 7753,
+          "text_length": 488,
+          "estimated_tokens": 122,
+          "text": "y be too wet or need more air circulation. add more brownsdry material to the pile and turn the pile. if the pile is not heating up, mix in greens and turn the pile. harvest your finished compost. when your compost pile is no longer heating up after mixing, and when there are no visible food scraps, allow your pile to cure, or finish, for at least four weeks. you can relocate the oldest compost at the bottom of the pile to  separate area to cure or stop adding materials to your pile."
+        },
+        {
+          "chunk_id": 19,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 7652,
+          "end_char": 8142,
+          "text_length": 490,
+          "estimated_tokens": 122,
+          "text": "st compost at the bottom of the pile to  separate area to cure or stop adding materials to your pile. after curing, your pile will shrink to about one-third of its original size. compost in  well-maintained pile will be finished and ready for use in about three to five months. left untended,  pile may take  year to decompose. the compost will look dark, loose, and crumbly and smell like fresh soil. most, if not all, of the materials that went into the compost pile should be decomposed."
+        },
+        {
+          "chunk_id": 20,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 8041,
+          "end_char": 8587,
+          "text_length": 546,
+          "estimated_tokens": 136,
+          "text": "fresh soil. most, if not all, of the materials that went into the compost pile should be decomposed. screen or sift your finished compost to filter out materials that didnt break down - twigs, fruit pits, eggshells, and items like produce stickers and plastic. (you can make  homemade screener out of 14 inch hardware cloth.) pits, eggshells, etc. that you sifted out can be added back into the active pile or to  new pile. avoiding rodents home compost piles that are well constructed and maintained properly should not attract pests or rodents."
+        },
+        {
+          "chunk_id": 21,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 8487,
+          "end_char": 9006,
+          "text_length": 519,
+          "estimated_tokens": 129,
+          "text": "compost piles that are well constructed and maintained properly should not attract pests or rodents. if using  bin, it is important to reinforce the bin with  lid and potentially  floor. there should be no holes or gaps in your bin that are larger than 14 inch. maintain the proper ratio of materials in your pile: two to three parts carbon-rich material (browns) to one part nitrogen-rich material (greens). ensure you cover and bury your food scraps in your pile. do not add meat, dairy, or greasy foods to your pile."
+        },
+        {
+          "chunk_id": 22,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 8906,
+          "end_char": 9438,
+          "text_length": 532,
+          "estimated_tokens": 133,
+          "text": "u cover and bury your food scraps in your pile. do not add meat, dairy, or greasy foods to your pile. this is  photo of  plastic compost bin that has  lid that closes tight to keep critters out of the food waste inside of it. worm composting (vermicomposting) worm composting, or vermicomposting, is another method of composting you can try at home. it takes up little space, the materials are simple and inexpensive, and it can be done indoors or outdoors. you will need  container or bin, bedding material, worms, and food scraps."
+        },
+        {
+          "chunk_id": 23,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 9337,
+          "end_char": 9790,
+          "text_length": 453,
+          "estimated_tokens": 113,
+          "text": "done indoors or outdoors. you will need  container or bin, bedding material, worms, and food scraps. if your worm bin is properly maintained, it should not emit odors or attract pests. the resulting product is vermicompost,  soil amendment. steps for vermicomposting make or buy  worm bin. you can purchase  worm bin or make your own of untreated wood or plastic storage bins. the bin should have  tight-fitting lid and be  dark color to keep out light."
+        },
+        {
+          "chunk_id": 24,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 9690,
+          "end_char": 10207,
+          "text_length": 517,
+          "estimated_tokens": 129,
+          "text": "or plastic storage bins. the bin should have  tight-fitting lid and be  dark color to keep out light. if using plastic storage containers, drill air holes around the upper sides of one bin near the lid and drainage holes on the bottom of the same bin. place the bin with the drilled holes inside the other bin. (the bottom bin will catch any liquid that drains out of the top bin.) choose  space for your worm bin. you can keep your worm bin indoors (.., under  sink, in  closet or basement) or outdoors in the shade."
+        },
+        {
+          "chunk_id": 25,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 10106,
+          "end_char": 10635,
+          "text_length": 529,
+          "estimated_tokens": 132,
+          "text": "ou can keep your worm bin indoors (.., under  sink, in  closet or basement) or outdoors in the shade. if your bin is outdoors (.., garage, carport, porch, deck, or apartment balcony), insulate the bin with blankets, straw, or other materials to keep it warm during colder months. you want to maintain  bin temperature of 59 to 77; however, the worms can survive at 32 to 95  if they have at least four inches of bedding. materials for your bin. worms of the,000 species of earthworms, only seven are suitable for vermicomposting."
+        },
+        {
+          "chunk_id": 26,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 10534,
+          "end_char": 10993,
+          "text_length": 459,
+          "estimated_tokens": 114,
+          "text": "ls for your bin. worms of the,000 species of earthworms, only seven are suitable for vermicomposting. one of the most used is the red wriggler or eisenia fetida. it is essential to use  suitable species. do not use worms you might find outdoors or purchase at  bait shop. begin your bin with one pound of worms, about,000 individual worms. purchase them from  worm grower or find  neighbor in your community who has  vermicomposting bin and can give you some."
+        },
+        {
+          "chunk_id": 27,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 10892,
+          "end_char": 11456,
+          "text_length": 564,
+          "estimated_tokens": 141,
+          "text": "worm grower or find  neighbor in your community who has  vermicomposting bin and can give you some. bedding shred or tear non-glossy newspaper, office paper, cardboard, or dry leaves and soak the bedding material for 10 minutes. wring it out so it feels like  moist sponge. place it in your bin and fluff it up. fill the bin almost halfway with the moist bedding and then add  handful of soil. food you can feed your worms most fruit and vegetables scraps, coffee grounds and paper filters, crushed eggshells, paper tea bags without staples, and crushed eggshells."
+        },
+        {
+          "chunk_id": 28,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 11357,
+          "end_char": 11846,
+          "text_length": 489,
+          "estimated_tokens": 122,
+          "text": "grounds and paper filters, crushed eggshells, paper tea bags without staples, and crushed eggshells. avoid citrus fruits, odorous foods like onions and garlic, meat, dairy products, greasy foods, bones, and pet waste. chop up scraps into small pieces before adding them to the bin to allow for faster decomposition. start your bin and feed your worms. place worms on top of the bedding in the bin. once the worms have settled in the bin, add some food scraps on the surface of the bedding."
+        },
+        {
+          "chunk_id": 29,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 11746,
+          "end_char": 12234,
+          "text_length": 488,
+          "estimated_tokens": 122,
+          "text": "the bin. once the worms have settled in the bin, add some food scraps on the surface of the bedding. each time you add food scraps, make sure to cover them with two inches of bedding. adding the proper ratio of materials to the bin and covering them is important. worms eat about 25 percent of their weight each day. as worms reproduce quickly, you can increase the amount you feed them. always ensure the food scraps have been eaten before adding more. harvest and use your vermicompost."
+        },
+        {
+          "chunk_id": 30,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 12134,
+          "end_char": 12736,
+          "text_length": 602,
+          "estimated_tokens": 150,
+          "text": "always ensure the food scraps have been eaten before adding more. harvest and use your vermicompost. after three to six months, you will be able to harvest your vermicompost, or worm castings, at the bottom of your worm bin. vermicompost doesnt need to cure and can be used immediately or stored for future use. closeup photo of compost held in hand benefits of using your finished compost you can add compost to your flower and vegetable beds, window boxes, and container gardens; incorporate it into tree beds; mix it with potting soil for indoor plants; or spread it on top of the soil in your yard."
+        },
+        {
+          "chunk_id": 31,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 12636,
+          "end_char": 13159,
+          "text_length": 523,
+          "estimated_tokens": 130,
+          "text": "tree beds; mix it with potting soil for indoor plants; or spread it on top of the soil in your yard. compost can be used as  soil amendment or as  mulch. as  soil amendment, mix in two to four inches of compost to the top six to nine inches of your soil. as  mulch, loosen the top two to three inches of soil and add  three-inch layer of compost on the surface,  few inches away from plant stems and tree trunks. adding finished compost to your soil: improves the structure and health of your soil by adding organic matter."
+        },
+        {
+          "chunk_id": 32,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 13059,
+          "end_char": 13427,
+          "text_length": 368,
+          "estimated_tokens": 92,
+          "text": "nished compost to your soil: improves the structure and health of your soil by adding organic matter. helps the soil retain moisture and nutrients. attracts beneficial organisms to the soil and reduces the need for pesticides and fertilizers. reduces the potential for soil erosion. sequesters carbon in the soil. builds resiliency to the impacts of natural disasters."
+        }
+      ]
+    }
+  },
+  "chunking_success": true
+}

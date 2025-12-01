@@ -1,0 +1,14 @@
+Log file created at: 2025/11/16 21:34:42
+Running on machine: spl-cair
+Running duration (h:mm:ss): 0:00:00
+Log line format: [IWEF]yyyymmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I20251116 21:34:42.702402 1113867 knowhere_config.cc:63] [KNOWHERE][SetSimdType][milvus] FAISS expect simdType::AUTO
+I20251116 21:34:42.702482 1113867 knowhere_config.cc:88] [KNOWHERE][SetSimdType][milvus] FAISS hook AVX2
+I20251116 21:34:42.702515 1113867 Common.cpp:41] [SEGCORE][SetHighPriorityThreadCoreCoefficient][milvus] set high priority thread pool core coefficient: 10
+I20251116 21:34:42.702538 1113867 Common.cpp:48] [SEGCORE][SetMiddlePriorityThreadCoreCoefficient][milvus] set middle priority thread pool core coefficient: 5
+I20251116 21:34:42.702548 1113867 Common.cpp:55] [SEGCORE][SetLowPriorityThreadCoreCoefficient][milvus] set low priority thread pool core coefficient: 1
+W20251116 21:34:42.702556 1113867 thread_pool.h:117] [KNOWHERE][InitGlobalBuildThreadPool][milvus] Global Build ThreadPool has already been initialized with threads num: 24
+W20251116 21:34:43.607661 1113875 thread_pool.h:129] [KNOWHERE][InitGlobalSearchThreadPool][milvus] Global Search ThreadPool has already been initialized with threads num: 24
+I20251116 21:34:43.607708 1113875 knowhere_config.cc:63] [KNOWHERE][SetSimdType][milvus] FAISS expect simdType::AUTO
+I20251116 21:34:43.607717 1113875 knowhere_config.cc:88] [KNOWHERE][SetSimdType][milvus] FAISS hook AVX2
+I20251116 21:34:43.607801 1113875 ChunkCache.h:39] [SEGCORE][ChunkCache][milvus] Init ChunkCache with prefix: /media/data/codes/reshma/lma_maj_pro/partc/data/chunk_cache, read_ahead_policy: willneed

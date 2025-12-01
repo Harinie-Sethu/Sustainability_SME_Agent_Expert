@@ -1,0 +1,850 @@
+======================================================================
+PART E: AGENT WITH PLANNING, REASONING, AND ROUTING
+======================================================================
+
+Features:
+  ✓ Conversational Planning
+  ✓ Multi-Step Reasoning
+  ✓ Intelligent Task Routing
+  ✓ Context & Memory Management
+  ✓ Observational Learning
+  ✓ Decision Strategies
+======================================================================
+
+======================================================================
+TEST 1: Agent Initialization
+======================================================================
+/media/data/codes/reshma/envs/qwen3_pretrain/lib/python3.10/site-packages/google/api_core/_python_version_support.py:266: FutureWarning: You are using a Python version (3.10.18) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+INFO:partd.llm_client:✓ Gemini LLM client initialized: gemini-2.0-flash
+INFO:partd.llm_client:  Daily quota limit: 200 requests
+WARNING:partc.milvus_retrieval_pipeline:Could not connect to Milvus server on localhost:19530: <MilvusException: (code=2, message=Fail connecting to server on localhost:19530, illegal connection params or server unavailable)>
+INFO:partc.milvus_retrieval_pipeline:Attempting URI-based connection (pymilvus 2.6+)...
+/media/data/codes/reshma/envs/qwen3_pretrain/lib/python3.10/site-packages/milvus_lite/__init__.py:15: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import DistributionNotFound, get_distribution
+INFO:partc.milvus_retrieval_pipeline:Connected to Milvus Lite via URI: /media/data/codes/reshma/lma_maj_pro/partc/milvus_data.db
+INFO:partc.milvus_retrieval_pipeline:Using scientific embeddings (scibert) for environment domain
+INFO:partc.milvus_retrieval_pipeline:Loading embedding model: allenai/scibert_scivocab_uncased on cuda
+INFO:partc.milvus_retrieval_pipeline:Using model key: scientific for environment/sustainability domain
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: allenai/scibert_scivocab_uncased
+WARNING:sentence_transformers.SentenceTransformer:No sentence-transformers model found with name allenai/scibert_scivocab_uncased. Creating a new one with MEAN pooling.
+/media/data/codes/reshma/envs/qwen3_pretrain/lib/python3.10/site-packages/torch/cuda/__init__.py:827: UserWarning: Can't initialize NVML
+  warnings.warn("Can't initialize NVML")
+/media/data/codes/reshma/envs/qwen3_pretrain/lib/python3.10/site-packages/torch/cuda/__init__.py:827: UserWarning: Can't initialize NVML
+  warnings.warn("Can't initialize NVML")
+INFO:partc.reranker:Initializing BGE Reranker on cuda
+INFO:partc.reranker:Successfully loaded BGE Reranker: BAAI/bge-reranker-base
+INFO:partc.milvus_retrieval_pipeline:Available collections: ['environment_chunks_baseline', 'environment_chunks_scientific', 'environment_documents']
+INFO:partc.milvus_retrieval_pipeline:✓ Loaded collection: environment_chunks_scientific
+INFO:partc.milvus_retrieval_pipeline:Collection has 6865 chunks indexed
+INFO:partc.milvus_retrieval_pipeline:✓ Loaded parent collection: environment_documents
+INFO:partd.enhanced_rag:✓ Web search enabled
+  - Using Milvus + Web Search
+INFO:partd.task_handlers:✓ Content generator initialized
+INFO:parte.conversation_manager:✓ Conversation manager initialized (session: 20251118_222046)
+INFO:parte.task_router:✓ Task router initialized
+INFO:parte.observations:✓ Observations logger initialized: parte/observations_log
+INFO:parte.task_router:✓ Registered handler: qa_handler
+INFO:parte.task_router:✓ Registered handler: content_generator
+INFO:parte.task_router:✓ Registered handler: document_handler
+INFO:parte.task_router:✓ Registered handler: email_handler
+INFO:parte.task_router:✓ Registered handler: data_analyst
+INFO:parte.task_router:✓ Registered handler: conversation_handler
+INFO:parte.agent_core:✓ All handlers registered
+INFO:parte.agent_core:✓ Environmental Agent initialized
+✓ Agent initialized successfully
+  - Conversation Manager: Active
+  - Task Router: 6 handlers registered
+  - Observations Logger: Active
+
+======================================================================
+TEST 2: Q&A Task Routing
+======================================================================
+
+  Q: What is renewable energy?
+INFO:parte.agent_core:
+======================================================================
+INFO:parte.agent_core:Processing request: What is renewable energy?
+INFO:parte.agent_core:======================================================================
+INFO:parte.conversation_manager:Added user message to history (total: 1)
+INFO:parte.agent_core: Creating execution plan...
+INFO:parte.agent_core:✓ Plan created with 1 subtasks
+INFO:parte.observations: Logged planning observation (iteration 1)
+INFO:parte.task_router:Routing request: What is renewable energy?...
+INFO:parte.task_router:✓ Rule-based routing: qa_handler
+INFO:parte.observations: Logged routing observation
+INFO:parte.agent_core: Handling Q&A...
+INFO:partd.enhanced_rag:Processing question: What is renewable energy?
+INFO:partc.milvus_retrieval_pipeline:Hierarchical retrieval for query: 'What is renewable energy?'
+Batches: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  1.83it/s]
+INFO:partc.milvus_retrieval_pipeline:Vector search returned 10 results
+INFO:partc.milvus_retrieval_pipeline:Applying reranking...
+Batches: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  4.10it/s]
+INFO:partc.reranker:Reranked 10 candidates using BGE Reranker
+INFO:partc.milvus_retrieval_pipeline:Reranking metrics: {'total_results': 5, 'avg_rerank_score': 0.046015054918825626, 'avg_original_score': 0.6480872154235839, 'score_improvement': -92.8998668969653}
+INFO:partc.milvus_retrieval_pipeline:Expanding with contextual chunks...
+INFO:partc.milvus_retrieval_pipeline:Retrieved 5 results from 5 documents
+INFO:partd.enhanced_rag:Top result score from library: 0.137 (threshold: 0.3)
+INFO:partd.enhanced_rag:Source: ENVIRONMENTAL EDUCATION.pdf
+INFO:partd.enhanced_rag:Text preview: eam resourcesas well as to those working or living on the farm or in neighboring areas.
+
+the concept...
+INFO:partd.enhanced_rag: Library results below threshold - will supplement with web search
+INFO:partd.enhanced_rag: Using web search fallback
+/media/data/codes/reshma/lma_maj_pro/partd/enhanced_rag.py:172: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  ddgs = DDGS()
+INFO:primp:response: https://www.bing.com/search?q=What+is+renewable+energy%3F 200
+INFO:partd.enhanced_rag:✓ Web search: 0 results
+INFO:parte.observations: Logged execution observation
+INFO:parte.conversation_manager:Added agent message to history (total: 2)
+INFO:parte.agent_core:✓ Request processed in 11.62s
+  Handler: qa_handler
+  Response: Renewable energy is energy that is clean and lasts for a long period, according to Library Source 1. Unlike fossil fuels, it produces little to no pol...
+  Time: 11.62s
+
+  Q: Explain the greenhouse effect
+INFO:parte.agent_core:
+======================================================================
+INFO:parte.agent_core:Processing request: Explain the greenhouse effect
+INFO:parte.agent_core:======================================================================
+INFO:parte.conversation_manager:Added user message to history (total: 3)
+INFO:parte.agent_core: Creating execution plan...
+INFO:parte.agent_core:✓ Plan created with 2 subtasks
+INFO:parte.observations: Logged planning observation (iteration 2)
+INFO:parte.task_router:Routing request: Explain the greenhouse effect...
+INFO:parte.task_router:✓ Rule-based routing: qa_handler
+INFO:parte.observations: Logged routing observation
+INFO:parte.agent_core: Handling Q&A...
+INFO:partd.enhanced_rag:Processing question: Explain the greenhouse effect
+INFO:partc.milvus_retrieval_pipeline:Hierarchical retrieval for query: 'Explain the greenhouse effect'
+Batches: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 306.18it/s]
+INFO:partc.milvus_retrieval_pipeline:Vector search returned 10 results
+INFO:partc.milvus_retrieval_pipeline:Applying reranking...
+Batches: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 135.24it/s]
+INFO:partc.reranker:Reranked 10 candidates using BGE Reranker
+INFO:partc.milvus_retrieval_pipeline:Reranking metrics: {'total_results': 5, 'avg_rerank_score': 0.018890195479616522, 'avg_original_score': 0.7124494075775146, 'score_improvement': -97.34855622326258}
+INFO:partc.milvus_retrieval_pipeline:Expanding with contextual chunks...
+INFO:partc.milvus_retrieval_pipeline:Retrieved 5 results from 4 documents
+INFO:partd.enhanced_rag:Top result score from library: 0.045 (threshold: 0.3)
+INFO:partd.enhanced_rag:Source: 11.pdf
+INFO:partd.enhanced_rag:Text preview: ities are often through hunger weakening immu- nity to various diseases rather than starvation alone...
+INFO:partd.enhanced_rag: Library results below threshold - will supplement with web search
+INFO:partd.enhanced_rag: Using web search fallback
+/media/data/codes/reshma/lma_maj_pro/partd/enhanced_rag.py:172: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  ddgs = DDGS()
+INFO:primp:response: https://www.bing.com/search?q=Explain+the+greenhouse+effect 200
+INFO:partd.enhanced_rag:✓ Web search: 3 results
+INFO:parte.observations: Logged execution observation
+INFO:parte.conversation_manager:Added agent message to history (total: 4)
+INFO:parte.agent_core:✓ Request processed in 16.24s
+  Handler: qa_handler
+  Response: Okay, I can explain the greenhouse effect.
+
+The greenhouse effect is a natural process that warms the Earth's surface. Here's a breakdown of how it wo...
+  Time: 16.24s
+
+  Q: How does deforestation affect climate?
+INFO:parte.agent_core:
+======================================================================
+INFO:parte.agent_core:Processing request: How does deforestation affect climate?
+INFO:parte.agent_core:======================================================================
+INFO:parte.conversation_manager:Added user message to history (total: 5)
+INFO:parte.agent_core: Creating execution plan...
+INFO:parte.agent_core:✓ Plan created with 2 subtasks
+INFO:parte.observations: Logged planning observation (iteration 3)
+INFO:parte.task_router:Routing request: How does deforestation affect climate?...
+INFO:parte.task_router:✓ Rule-based routing: qa_handler
+INFO:parte.observations: Logged routing observation
+INFO:parte.agent_core: Handling Q&A...
+INFO:partd.enhanced_rag:Processing question: How does deforestation affect climate?
+INFO:partc.milvus_retrieval_pipeline:Hierarchical retrieval for query: 'How does deforestation affect climate?'
+Batches: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 310.07it/s]
+INFO:partc.milvus_retrieval_pipeline:Vector search returned 10 results
+INFO:partc.milvus_retrieval_pipeline:Applying reranking...
+Batches: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 115.03it/s]
+INFO:partc.reranker:Reranked 10 candidates using BGE Reranker
+INFO:partc.milvus_retrieval_pipeline:Reranking metrics: {'total_results': 5, 'avg_rerank_score': 0.09236978515982627, 'avg_original_score': 0.649676239490509, 'score_improvement': -85.7821820246551}
+INFO:partc.milvus_retrieval_pipeline:Expanding with contextual chunks...
+INFO:partc.milvus_retrieval_pipeline:Retrieved 5 results from 3 documents
+INFO:partd.enhanced_rag:Top result score from library: 0.263 (threshold: 0.3)
+INFO:partd.enhanced_rag:Source: Environment-and-Sustainability-Volume-IV.pdf
+INFO:partd.enhanced_rag:Text preview: in, and deforestation are examples of man -made causes.
+
+the rise in the concentration of greenhouse...
+INFO:partd.enhanced_rag:Library results below threshold - will supplement with web search
+INFO:partd.enhanced_rag: Using web search fallback
+/media/data/codes/reshma/lma_maj_pro/partd/enhanced_rag.py:172: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  ddgs = DDGS()
+INFO:primp:response: https://www.bing.com/search?q=How+does+deforestation+affect+climate%3F 200
+INFO:partd.enhanced_rag:✓ Web search: 3 results
+INFO:parte.observations: Logged execution observation
+INFO:parte.conversation_manager:Added agent message to history (total: 6)
+INFO:parte.agent_core:✓ Request processed in 14.97s
+  Handler: qa_handler
+  Response: Deforestation significantly impacts the climate through several key mechanisms. Here's how:
+
+1.  **Reduced Carbon Dioxide Absorption:** Forests act as...
+  Time: 14.97s
+
+✓ Q&A routing working
+
+======================================================================
+TEST 3: Content Generation Routing
+======================================================================
+
+  Request: Create a quiz about recycling
+INFO:parte.agent_core:
+======================================================================
+INFO:parte.agent_core:Processing request: Create a quiz about recycling
+INFO:parte.agent_core:======================================================================
+INFO:parte.conversation manager:Added user message to history (total: 7)
+INFO:parte.agent_core: Creating execution plan...
+INFO:parte.agent_core:✓ Plan created with 4 subtasks
+INFO:parte.observations: Logged planning observation (iteration 4)
+INFO:parte.task_router:Routing request: Create a quiz about recycling...
+INFO:parte.task_router:✓ Rule-based routing: content_generator
+INFO:parte.observations: Logged routing observation
+INFO:parte.agent_core:✍️ Handling content generation...
+INFO:partd.task_handlers:Generating quiz: recycling (5 questions, medium)
+INFO:partd.enhanced_rag:Processing question: Provide comprehensive educational information about recycling for creating a quiz
+INFO:partc.milvus_retrieval_pipeline:Hierarchical retrieval for query: 'Provide comprehensive educational information about recycling for creating a quiz'
+Batches: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 309.25it/s]
+INFO:partc.milvus_retrieval_pipeline:Vector search returned 10 results
+INFO:partc.milvus_retrieval_pipeline:Applying reranking...
+Batches: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 138.86it/s]
+INFO:partc.reranker:Reranked 10 candidates using BGE Reranker
+INFO:partc.milvus_retrieval_pipeline:Reranking metrics: {'total_results': 5, 'avg_rerank_score': 0.01459718100959435, 'avg_original_score': 0.7239698529243469, 'score_improvement': -97.9837308210236}
+INFO:partc.milvus_retrieval_pipeline:Expanding with contextual chunks...
+INFO:partc.milvus_retrieval_pipeline:Retrieved 5 results from 3 documents
+INFO:partd.enhanced_rag:Top result score from library: 0.027 (threshold: 0.3)
+INFO:partd.enhanced_rag:Source: RAlexandar.pdf
+INFO:partd.enhanced_rag:Text preview: ust be  part of environmental literacy in school education.
+
+improving the educational outlook for e...
+INFO:partd.enhanced_rag: Library results below threshold - will supplement with web search
+INFO:partd.enhanced_rag: Using web search fallback
+/media/data/codes/reshma/lma_maj_pro/partd/enhanced_rag.py:172: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  ddgs = DDGS()
+INFO:primp:response: https://www.bing.com/search?q=Provide+comprehensive+educational+information+about+recycling+for+creating+a+quiz 200
+INFO:partd.enhanced_rag:✓ Web search: 3 results
+INFO:partd.llm_client:Executing chain step: analyze_topic
+INFO:partd.llm_client:Executing chain step: generate_questions
+INFO:partd.llm_client:Executing chain step: enhance_explanations
+INFO:parte.observations: Logged execution observation
+INFO:parte.conversation_manager:Added agent message to history (total: 8)
+INFO:parte.agent_core:✓ Request processed in 41.27s
+  Handler: content_generator
+  Type: content
+  Success: True
+
+  Request: Generate a study guide on solar energy
+INFO:parte.agent_core:
+======================================================================
+INFO:parte.agent_core:Processing request: Generate a study guide on solar energy
+INFO:parte.agent_core:======================================================================
+INFO:parte.conversation_manager:Added user message to history (total: 9)
+INFO:parte.agent_core: Creating execution plan...
+INFO:parte.agent_core:✓ Plan created with 2 subtasks
+INFO:parte.observations: Logged planning observation (iteration 5)
+INFO:parte.task_router:Routing request: Generate a study guide on solar energy...
+INFO:parte.task_router:✓ Rule-based routing: content_generator
+INFO:parte.observations: Logged routing observation
+INFO:parte.agent_core:✍️ Handling content generation...
+INFO:partd.task_handlers:Generating study guide: solar energy
+INFO:partd.enhanced_rag:Processing question: Provide comprehensive educational content about solar energy
+INFO:partc.milvus_retrieval_pipeline:Hierarchical retrieval for query: 'Provide comprehensive educational content about solar energy'
+Batches: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 111.16it/s]
+INFO:partc.milvus_retrieval_pipeline:Vector search returned 10 results
+INFO:partc.milvus_retrieval_pipeline:Applying reranking...
+Batches: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 146.63it/s]
+INFO:partc.reranker:Reranked 10 candidates using BGE Reranker
+INFO:partc.milvus_retrieval_pipeline:Reranking metrics: {'total_results': 5, 'avg_rerank_score': 0.0022689371020533145, 'avg_original_score': 0.7056264281272888, 'score_improvement': -99.67845066289892}
+INFO:partc.milvus_retrieval_pipeline:Expanding with contextual chunks...
+INFO:partc.milvus_retrieval_pipeline:Retrieved 5 results from 3 documents
+INFO:partd.enhanced_rag:Top result score from library: 0.005 (threshold: 0.3)
+INFO:partd.enhanced_rag:Source: test_environmental_doc.txt
+INFO:partd.enhanced_rag:Text preview: this is  test environmental document about sustainability and climate change. it discusses renewable...
+INFO:partd.enhanced_rag: Library results below threshold - will supplement with web search
+INFO:partd.enhanced_rag: Using web search fallback
+/media/data/codes/reshma/lma_maj_pro/partd/enhanced_rag.py:172: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  ddgs = DDGS()
+INFO:primp:response: https://www.bing.com/search?q=Provide+comprehensive+educational+content+about+solar+energy 200
+INFO:partd.enhanced_rag:✓ Web search: 3 results
+INFO:parte.observations: Logged execution observation
+INFO:parte.conversation_manager:Added agent message to history (total: 10)
+INFO:parte.agent_core: Reflecting on performance...
+INFO:parte.observations: Logged reflection observation
+INFO:parte.agent_core:✓ Request processed in 26.04s
+  Handler: content_generator
+  Type: content
+  Success: True
+
+  Request: Write an article about ocean pollution for students
+INFO:parte.agent_core:
+======================================================================
+INFO:parte.agent_core:Processing request: Write an article about ocean pollution for students
+INFO:parte.agent_core:======================================================================
+INFO:parte.conversation_manager:Added user message to history (total: 11)
+INFO:parte.agent_core: Creating execution plan...
+INFO:parte.agent_core:✓ Plan created with 4 subtasks
+INFO:parte.observations: Logged planning observation (iteration 6)
+INFO:parte.task_router:Routing request: Write an article about ocean pollution for students...
+INFO:parte.task_router:✓ Rule-based routing: content_generator
+INFO:parte.observations: Logged routing observation
+INFO:parte.agent_core:✍️ Handling content generation...
+INFO:partd.task_handlers:Generating article for general public: ocean pollution students
+INFO:partd.enhanced_rag:Processing question: Provide engaging information about ocean pollution students for general public awareness
+INFO:partc.milvus_retrieval_pipeline:Hierarchical retrieval for query: 'Provide engaging information about ocean pollution students for general public awareness'
+Batches: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 111.43it/s]
+INFO:partc.milvus_retrieval_pipeline:Vector search returned 10 results
+INFO:partc.milvus_retrieval_pipeline:Applying reranking...
+Batches: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 139.60it/s]
+INFO:partc.reranker:Reranked 10 candidates using BGE Reranker
+INFO:partc.milvus_retrieval_pipeline:Reranking metrics: {'total_results': 5, 'avg_rerank_score': 0.008239457523450256, 'avg_original_score': 0.7327416777610779, 'score_improvement': -98.87553038492007}
+INFO:partc.milvus_retrieval_pipeline:Expanding with contextual chunks...
+INFO:partc.milvus_retrieval_pipeline:Retrieved 5 results from 3 documents
+INFO:partd.enhanced_rag:Top result score from library: 0.011 (threshold: 0.3)
+INFO:partd.enhanced_rag:Source: environmental.pdf
+INFO:partd.enhanced_rag:Text preview: icle for enc ouraging worldwide awareness and action for the protection of our environment.
+
+creatin...
+INFO:partd.enhanced_rag: Library results below threshold - will supplement with web search
+INFO:partd.enhanced_rag: Using web search fallback
+/media/data/codes/reshma/lma_maj_pro/partd/enhanced_rag.py:172: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  ddgs = DDGS()
+INFO:primp:response: https://www.bing.com/search?q=Provide+engaging+information+about+ocean+pollution+students+for+general+public+awareness 200
+INFO:partd.enhanced_rag:✓ Web search: 3 results
+INFO:partd.llm_client:Executing chain step: analyze_audience
+INFO:partd.llm_client:Executing chain step: identify_key_messages
+INFO:partd.llm_client:Executing chain step: write_article
+INFO:parte.observations: Logged execution observation
+INFO:parte.conversation_manager:Added agent message to history (total: 12)
+INFO:parte.agent_core:✓ Request processed in 31.35s
+  Handler: content_generator
+  Type: content
+  Success: True
+
+✓ Content generation routing working
+
+======================================================================
+TEST 4: Multi-Step Planning
+======================================================================
+
+  Complex Request: Create a quiz about climate change with 3 questions and export it to PDF
+  Expected: Planning -> Content Gen -> Document Export
+INFO:parte.agent_core:
+======================================================================
+INFO:parte.agent_core:Processing request: Create a quiz about climate change with 3 questions and export it to PDF
+INFO:parte.agent_core:======================================================================
+INFO:parte.conversation_manager:Added user message to history (total: 13)
+INFO:parte.agent_core: Creating execution plan...
+INFO:parte.agent_core:✓ Plan created with 2 subtasks
+INFO:parte.observations: Logged planning observation (iteration 7)
+INFO:parte.task_router:Routing request: Create a quiz about climate change with 3 questions and export it to PDF...
+INFO:parte.task_router:✓ Rule-based routing: content_generator
+INFO:parte.observations: Logged routing observation
+INFO:parte.agent_core:✍️ Handling content generation...
+INFO:partd.task_handlers:Generating quiz: climate change with (5 questions, medium)
+INFO:partd.enhanced_rag:Processing question: Provide comprehensive educational information about climate change with for creating a quiz
+INFO:partc.milvus_retrieval_pipeline:Hierarchical retrieval for query: 'Provide comprehensive educational information about climate change with for creating a quiz'
+Batches: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 110.63it/s]
+INFO:partc.milvus_retrieval_pipeline:Vector search returned 10 results
+INFO:partc.milvus_retrieval_pipeline:Applying reranking...
+Batches: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 145.90it/s]
+INFO:partc.reranker:Reranked 10 candidates using BGE Reranker
+INFO:partc.milvus_retrieval_pipeline:Reranking metrics: {'total_results': 5, 'avg_rerank_score': 0.007711255084723234, 'avg_original_score': 0.7507031559944153, 'score_improvement': -98.97279570184988}
+INFO:partc.milvus_retrieval_pipeline:Expanding with contextual chunks...
+INFO:partc.milvus_retrieval_pipeline:Retrieved 5 results from 3 documents
+INFO:partd.enhanced_rag:Top result score from library: 0.019 (threshold: 0.3)
+INFO:partd.enhanced_rag:Source: environmental.pdf
+INFO:partd.enhanced_rag:Text preview: f the transmitter.
+
+other methods.
+
+stimulation and games stimulation and games can be used to acqui...
+INFO:partd.enhanced_rag: Library results below threshold - will supplement with web search
+INFO:partd.enhanced_rag: Using web search fallback
+/media/data/codes/reshma/lma_maj_pro/partd/enhanced_rag.py:172: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  ddgs = DDGS()
+INFO:primp:response: https://www.bing.com/search?q=Provide+comprehensive+educational+information+about+climate+change+with+for+creating+a+quiz 200
+INFO:partd.enhanced_rag:✓ Web search: 3 results
+INFO:partd.llm_client:Executing chain step: analyze_topic
+INFO:partd.llm_client:Executing chain step: generate_questions
+INFO:partd.llm_client:Executing chain step: enhance_explanations
+INFO:parte.observations: Logged execution observation
+INFO:parte.conversation_manager:Added agent message to history (total: 14)
+INFO:parte.agent_core:✓ Request processed in 42.89s
+
+  Handler Used: content_generator
+  Subtasks Planned: 2
+  Execution Time: 42.89s
+  Success: True
+
+✓ Multi-step planning working
+
+======================================================================
+TEST 5: Conversation Memory & Context
+======================================================================
+INFO:parte.agent_core:
+======================================================================
+INFO:parte.agent_core:Processing request: Tell me about solar panels
+INFO:parte.agent_core:======================================================================
+INFO:parte.conversation_manager:Added user message to history (total: 15)
+INFO:parte.agent_core: Creating execution plan...
+INFO:parte.agent_core:✓ Plan created with 2 subtasks
+INFO:parte.observations: Logged planning observation (iteration 8)
+INFO:parte.task_router:Routing request: Tell me about solar panels...
+INFO:parte.task_router:✓ Rule-based routing: qa_handler
+INFO:parte.observations: Logged routing observation
+INFO:parte.agent_core: Handling Q&A...
+INFO:partd.enhanced_rag:Processing question: Tell me about solar panels
+INFO:partc.milvus_retrieval_pipeline:Hierarchical retrieval for query: 'Tell me about solar panels'
+Batches: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 111.02it/s]
+INFO:partc.milvus_retrieval_pipeline:Vector search returned 10 results
+INFO:partc.milvus_retrieval_pipeline:Applying reranking...
+Batches: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 143.19it/s]
+INFO:partc.reranker:Reranked 10 candidates using BGE Reranker
+INFO:partc.milvus_retrieval_pipeline:Reranking metrics: {'total_results': 5, 'avg_rerank_score': 0.0039046367397531866, 'avg_original_score': 0.6713875651359558, 'score_improvement': -99.41842283912982}
+INFO:partc.milvus_retrieval_pipeline:Expanding with contextual chunks...
+INFO:partc.milvus_retrieval_pipeline:Retrieved 5 results from 3 documents
+INFO:partd.enhanced_rag:Top result score from library: 0.007 (threshold: 0.3)
+INFO:partd.enhanced_rag:Source: lowresenvironmental-awareness-for-sustainable-development-a-resource-book-for-namibia.pdf
+INFO:partd.enhanced_rag:Text preview: ble options for daily commutes.
+
+it is important to remember that until namibia shifts away from or ...
+INFO:partd.enhanced_rag: Library results below threshold - will supplement with web search
+INFO:partd.enhanced_rag: Using web search fallback
+/media/data/codes/reshma/lma_maj_pro/partd/enhanced_rag.py:172: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  ddgs = DDGS()
+INFO:primp:response: https://www.bing.com/search?q=Tell+me+about+solar+panels 200
+INFO:partd.enhanced_rag:✓ Web search: 3 results
+INFO:parte.observations: Logged execution observation
+INFO:parte.conversation_manager:Added agent message to history (total: 16)
+INFO:parte.agent_core:✓ Request processed in 12.62s
+  Message 1: Solar panels question
+INFO:parte.agent_core:
+======================================================================
+INFO:parte.agent_core:Processing request: What are the main advantages?
+INFO:parte.agent_core:======================================================================
+INFO:parte.conversation_manager:Added user message to history (total: 17)
+INFO:parte.agent_core: Creating execution plan...
+INFO:parte.agent_core:✓ Plan created with 2 subtasks
+INFO:parte.observations: Logged planning observation (iteration 9)
+INFO:parte.task_router:Routing request: What are the main advantages?...
+INFO:parte.task_router:✓ Final routing: qa_handler (confidence: high)
+INFO:parte.observations: Logged routing observation
+INFO:parte.agent_core: Requesting clarification...
+INFO:parte.conversation_manager:Added agent message to history (total: 18)
+  Message 2: Follow-up about advantages
+INFO:parte.agent_core:
+======================================================================
+INFO:parte.agent_core:Processing request: How much do they cost?
+INFO:parte.agent_core:======================================================================
+INFO:parte.conversation_manager:Added user message to history (total: 19)
+INFO:parte.agent_core: Creating execution plan...
+INFO:parte.agent_core:✓ Plan created with 4 subtasks
+INFO:parte.observations: Logged planning observation (iteration 10)
+INFO:parte.task_router:Routing request: How much do they cost?...
+INFO:parte.task_router:✓ Final routing: qa_handler (confidence: high)
+INFO:parte.observations: Logged routing observation
+INFO:parte.agent_core: Requesting clarification...
+INFO:parte.conversation_manager:Added agent message to history (total: 20)
+  Message 3: Follow-up about cost
+
+  Conversation Stats:
+    - Total Messages: 20
+    - User Messages: 10
+    - Agent Messages: 10
+    - Context Summary: The conversation covers renewable energy, the greenhouse effect, deforestation's impact on climate, ...
+
+✓ Conversation memory working
+
+======================================================================
+TEST 6: Multi-Step Reasoning & Analysis
+======================================================================
+
+  Request: Compare wind energy and solar energy
+INFO:parte.agent_core:
+======================================================================
+INFO:parte.agent_core:Processing request: Compare wind energy and solar energy
+INFO:parte.agent_core:======================================================================
+INFO:parte.conversation_manager:Added user message to history (total: 20)
+INFO:parte.agent_core: Creating execution plan...
+INFO:parte.agent_core:✓ Plan created with 11 subtasks
+INFO:parte.observations: Logged planning observation (iteration 11)
+INFO:parte.task_router:Routing request: Compare wind energy and solar energy...
+INFO:parte.task_router:✓ Final routing: data_analyst (confidence: high)
+INFO:parte.observations: Logged routing observation
+INFO:parte.agent_core: Handling data analysis...
+INFO:parte.observations: Logged reasoning observation
+INFO:parte.observations: Logged execution observation
+INFO:parte.conversation_manager:Added agent message to history (total: 20)
+INFO:parte.agent_core:✓ Request processed in 25.01s
+  Handler: data_analyst
+  Response: Task completed successfully....
+
+  Request: Analyze the impact of plastic bags on marine life
+INFO:parte.agent_core:
+======================================================================
+INFO:parte.agent_core:Processing request: Analyze the impact of plastic bags on marine life
+INFO:parte.agent_core:======================================================================
+INFO:parte.conversation_manager:Added user message to history (total: 20)
+INFO:parte.agent_core: Creating execution plan...
+INFO:parte.agent_core:✓ Plan created with 6 subtasks
+INFO:parte.observations: Logged planning observation (iteration 12)
+INFO:parte.task_router:Routing request: Analyze the impact of plastic bags on marine life...
+WARNING:parte.task_router:Routing conflict: rule=data_analyst, llm=qa_handler
+INFO:parte.task_router:✓ Final routing: data_analyst (confidence: medium)
+INFO:parte.observations: Logged routing observation
+INFO:parte.agent_core: Handling data analysis...
+INFO:parte.observations: Logged reasoning observation
+INFO:parte.observations: Logged execution observation
+INFO:parte.conversation_manager:Added agent message to history (total: 20)
+INFO:parte.agent_core:✓ Request processed in 22.69s
+  Handler: data_analyst
+  Response: Task completed successfully....
+
+✓ Reasoning and analysis working
+
+======================================================================
+TEST 7: Conversational Handling
+======================================================================
+
+  User: Hello!
+INFO:parte.agent_core:
+======================================================================
+INFO:parte.agent_core:Processing request: Hello!
+INFO:parte.agent_core:======================================================================
+INFO:parte.conversation_manager:Added user message to history (total: 20)
+INFO:parte.agent_core: Creating execution plan...
+INFO:parte.agent_core:✓ Plan created with 1 subtasks
+INFO:parte.observations: Logged planning observation (iteration 13)
+INFO:parte.task_router:Routing request: Hello!...
+INFO:parte.task_router:✓ Rule-based routing: conversation_handler
+INFO:parte.observations: Logged routing observation
+INFO:parte.agent_core: Handling conversation...
+INFO:parte.observations: Logged execution observation
+INFO:parte.conversation_manager:Added agent message to history (total: 20)
+INFO:parte.agent_core:✓ Request processed in 13.30s
+  Agent: Hello! How can I help you explore the world of environmental sustainability today? Perhaps you'd like to delve deeper into plastic pollution, or maybe...
+  Handler: conversation_handler
+
+  User: What can you do?
+INFO:parte.agent_core:
+======================================================================
+INFO:parte.agent_core:Processing request: What can you do?
+INFO:parte.agent_core:======================================================================
+INFO:parte.conversation_manager:Added user message to history (total: 20)
+INFO:parte.agent_core: Creating execution plan...
+INFO:parte.agent_core:✓ Plan created with 2 subtasks
+INFO:parte.observations: Logged planning observation (iteration 14)
+INFO:parte.task_router:Routing request: What can you do?...
+INFO:parte.task_router:✓ Rule-based routing: conversation_handler
+INFO:parte.observations: Logged routing observation
+INFO:parte.agent_core: Handling conversation...
+INFO:parte.observations: Logged execution observation
+INFO:parte.conversation_manager:Added agent message to history (total: 20)
+INFO:parte.agent_core:✓ Request processed in 15.27s
+  Agent: I can provide information, discuss various environmental issues, and suggest actionable steps you can take to live more sustainably. Basically, I'm he...
+  Handler: conversation_handler
+
+  User: Thanks for your help
+INFO:parte.agent_core:
+======================================================================
+INFO:parte.agent_core:Processing request: Thanks for your help
+INFO:parte.agent_core:======================================================================
+INFO:parte.conversation_manager:Added user message to history (total: 20)
+INFO:parte.agent_core: Creating execution plan...
+INFO:parte.agent_core:✓ Plan created with 1 subtasks
+INFO:parte.observations: Logged planning observation (iteration 15)
+INFO:parte.task_router:Routing request: Thanks for your help...
+INFO:parte.task_router:✓ Rule-based routing: conversation_handler
+INFO:parte.observations: Logged routing observation
+INFO:parte.agent_core: Handling conversation...
+INFO:parte.observations: Logged execution observation
+INFO:parte.conversation_manager:Added agent message to history (total: 20)
+INFO:parte.agent_core: Reflecting on performance...
+INFO:parte.observations: Logged reflection observation
+INFO:parte.agent_core:✓ Request processed in 14.97s
+  Agent: You're very welcome! What environmental topic are you most interested in learning about or discussing today? I'm ready when you are!...
+  Handler: conversation_handler
+
+✓ Conversational handling working
+
+======================================================================
+TEST 8: Observations & Logging
+======================================================================
+INFO:parte.agent_core:
+======================================================================
+INFO:parte.agent_core:Processing request: What is composting?
+INFO:parte.agent_core:======================================================================
+INFO:parte.conversation_manager:Added user message to history (total: 20)
+INFO:parte.agent_core: Creating execution plan...
+INFO:parte.agent_core:✓ Plan created with 1 subtasks
+INFO:parte.observations: Logged planning observation (iteration 16)
+INFO:parte.task_router:Routing request: What is composting?...
+INFO:parte.task_router:✓ Rule-based routing: qa_handler
+INFO:parte.observations: Logged routing observation
+INFO:parte.agent_core: Handling Q&A...
+INFO:partd.enhanced_rag:Processing question: What is composting?
+INFO:partc.milvus_retrieval_pipeline:Hierarchical retrieval for query: 'What is composting?'
+Batches: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 109.71it/s]
+INFO:partc.milvus_retrieval_pipeline:Vector search returned 10 results
+INFO:partc.milvus_retrieval_pipeline:Applying reranking...
+Batches: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 145.25it/s]
+INFO:partc.reranker:Reranked 10 candidates using BGE Reranker
+INFO:partc.milvus_retrieval_pipeline:Reranking metrics: {'total_results': 5, 'avg_rerank_score': 0.003643491382536013, 'avg_original_score': 0.6761222720146179, 'score_improvement': -99.4611194552607}
+INFO:partc.milvus_retrieval_pipeline:Expanding with contextual chunks...
+INFO:partc.milvus_retrieval_pipeline:Retrieved 5 results from 4 documents
+INFO:partd.enhanced_rag:Top result score from library: 0.013 (threshold: 0.3)
+INFO:partd.enhanced_rag:Source: 11.pdf
+INFO:partd.enhanced_rag:Text preview: to wildlife in various marine and freshwateraquatic environments.
+
+integrated pest management (ipm) ...
+INFO:partd.enhanced_rag: Library results below threshold - will supplement with web search
+INFO:partd.enhanced_rag: Using web search fallback
+/media/data/codes/reshma/lma_maj_pro/partd/enhanced_rag.py:172: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  ddgs = DDGS()
+INFO:primp:response: https://www.bing.com/search?q=What+is+composting%3F 200
+INFO:partd.enhanced_rag:✓ Web search: 3 results
+INFO:parte.observations: Logged execution observation
+INFO:parte.conversation_manager:Added agent message to history (total: 20)
+INFO:parte.agent_core:✓ Request processed in 16.06s
+INFO:parte.agent_core:
+======================================================================
+INFO:parte.agent_core:Processing request: Create a quiz about water conservation
+INFO:parte.agent_core:======================================================================
+INFO:parte.conversation_manager:Added user message to history (total: 20)
+INFO:parte.agent_core: Creating execution plan...
+INFO:parte.agent_core:✓ Plan created with 3 subtasks
+INFO:parte.observations: Logged planning observation (iteration 17)
+INFO:parte.task_router:Routing request: Create a quiz about water conservation...
+INFO:parte.task_router:✓ Rule-based routing: content_generator
+INFO:parte.observations: Logged routing observation
+INFO:parte.agent_core:✍️ Handling content generation...
+INFO:partd.task_handlers:Generating quiz: water conservation (5 questions, medium)
+INFO:partd.enhanced_rag:Processing question: Provide comprehensive educational information about water conservation for creating a quiz
+INFO:partc.milvus_retrieval_pipeline:Hierarchical retrieval for query: 'Provide comprehensive educational information about water conservation for creating a quiz'
+Batches: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 319.79it/s]
+INFO:partc.milvus_retrieval_pipeline:Vector search returned 10 results
+INFO:partc.milvus_retrieval_pipeline:Applying reranking...
+Batches: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 129.98it/s]
+INFO:partc.reranker:Reranked 10 candidates using BGE Reranker
+INFO:partc.milvus_retrieval_pipeline:Reranking metrics: {'total_results': 5, 'avg_rerank_score': 0.02903025634586811, 'avg_original_score': 0.7368858695030213, 'score_improvement': -96.06041348500183}
+INFO:partc.milvus_retrieval_pipeline:Expanding with contextual chunks...
+INFO:partc.milvus_retrieval_pipeline:Retrieved 5 results from 3 documents
+INFO:partd.enhanced_rag:Top result score from library: 0.119 (threshold: 0.3)
+INFO:partd.enhanced_rag:Source: RAlexandar.pdf
+INFO:partd.enhanced_rag:Text preview: ust be  part of environmental literacy in school education.
+
+improving the educational outlook for e...
+INFO:partd.enhanced_rag: Library results below threshold - will supplement with web search
+INFO:partd.enhanced_rag: Using web search fallback
+/media/data/codes/reshma/lma_maj_pro/partd/enhanced_rag.py:172: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  ddgs = DDGS()
+INFO:primp:response: https://www.bing.com/search?q=Provide+comprehensive+educational+information+about+water+conservation+for+creating+a+quiz 200
+INFO:partd.enhanced_rag:✓ Web search: 3 results
+INFO:partd.llm_client:Executing chain step: analyze_topic
+INFO:partd.llm_client:Executing chain step: generate_questions
+INFO:partd.llm_client:Executing chain step: enhance_explanations
+INFO:parte.observations: Logged execution observation
+INFO:parte.conversation_manager:Added agent message to history (total: 20)
+INFO:parte.agent_core:✓ Request processed in 47.01s
+INFO:parte.agent_core:
+======================================================================
+INFO:parte.agent_core:Processing request: Compare recycling and composting
+INFO:parte.agent_core:======================================================================
+INFO:parte.conversation_manager:Added user message to history (total: 20)
+INFO:parte.agent_core: Creating execution plan...
+INFO:parte.agent_core:✓ Plan created with 4 subtasks
+INFO:parte.observations: Logged planning observation (iteration 18)
+INFO:parte.task_router:Routing request: Compare recycling and composting...
+INFO:parte.task_router:✓ Rule-based routing: content_generator
+INFO:parte.observations: Logged routing observation
+INFO:parte.agent_core:✍️ Handling content generation...
+INFO:partd.task_handlers:Generating social_media for general public: sustainability
+INFO:partd.enhanced_rag:Processing question: Provide engaging information about sustainability for general public awareness
+INFO:partc.milvus_retrieval_pipeline:Hierarchical retrieval for query: 'Provide engaging information about sustainability for general public awareness'
+Batches: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 108.12it/s]
+INFO:partc.milvus_retrieval_pipeline:Vector search returned 10 results
+INFO:partc.milvus_retrieval_pipeline:Applying reranking...
+Batches: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 143.83it/s]
+INFO:partc.reranker:Reranked 10 candidates using BGE Reranker
+INFO:partc.milvus_retrieval_pipeline:Reranking metrics: {'total_results': 5, 'avg_rerank_score': 0.03490829225629568, 'avg_original_score': 0.7464564919471741, 'score_improvement': -95.32346591758679}
+INFO:partc.milvus_retrieval_pipeline:Expanding with contextual chunks...
+INFO:partc.milvus_retrieval_pipeline:Retrieved 5 results from 5 documents
+INFO:partd.enhanced_rag:Top result score from library: 0.103 (threshold: 0.3)
+INFO:partd.enhanced_rag:Source: librarians-going-green.pdf
+INFO:partd.enhanced_rag:Text preview: to foster  culture of sustainability.
+
+benefits of using the form: enhanced operational efficiency: ...
+INFO:partd.enhanced_rag: Library results below threshold - will supplement with web search
+INFO:partd.enhanced_rag: Using web search fallback
+/media/data/codes/reshma/lma_maj_pro/partd/enhanced_rag.py:172: RuntimeWarning: This package (`duckduckgo_search`) has been renamed to `ddgs`! Use `pip install ddgs` instead.
+  ddgs = DDGS()
+INFO:primp:response: https://www.bing.com/search?q=Provide+engaging+information+about+sustainability+for+general+public+awareness 200
+INFO:partd.enhanced_rag:✓ Web search: 3 results
+INFO:parte.observations: Logged execution observation
+INFO:parte.conversation_manager:Added agent message to history (total: 20)
+INFO:parte.agent_core:✓ Request processed in 17.59s
+
+  Observations Insights:
+    - Total Observations: 56
+    - Total Iterations: 18
+    - Observation Types: {'planning': 18, 'routing': 18, 'execution': 16, 'reflection': 2, 'reasoning': 2}
+    - Execution Success Rate: 100.0%
+
+  Improvement Suggestions:
+    1. ✓ No major issues detected. Prompts are performing well.
+
+  Report Preview:
+
+======================================================================
+AGENT OBSERVATIONS REPORT
+Session: 20251118_222046
+======================================================================
+
+SUMMARY:
+- Total Iterations: 18
+- Total Observations: 56
+
+OBSERVATION BREAKDOWN:
+  - Planning: 18
+  - Rou...
+
+✓ Observations and logging working
+
+======================================================================
+TEST 9: Session Management
+======================================================================
+
+  Session Summary:
+    - Session ID: 20251118_222046
+    - Total Messages: 20
+    - Handler Usage: {'qa_handler': 2, 'content_generator': 0, 'document_handler': 0, 'email_handler': 0, 'data_analyst': 2, 'conversation_handler': 0}
+INFO:parte.conversation_manager:✓ Conversation exported to parte/conversation_export_20251118_222046.json
+INFO:parte.observations: Saved 56 observations to parte/observations_log/observations_20251118_222046.json
+INFO:parte.observations: Report saved to parte/observations_log/report_20251118_222046.txt
+INFO:parte.agent_core:✓ Session saved: conversation=parte/conversation_export_20251118_222046.json, observations=parte/observations_log/observations_20251118_222046.json
+
+  Session saved to: parte/conversation_export_20251118_222046.json
+
+  Routing Statistics:
+    - Total Routes: 4
+    - Handler Distribution:
+      - qa_handler: 2
+      - content_generator: 0
+      - document_handler: 0
+      - email_handler: 0
+      - data_analyst: 2
+      - conversation_handler: 0
+
+✓ Session management working
+
+======================================================================
+TEST 10: Error Handling & Recovery
+======================================================================
+
+  Ambiguous Request: Do something with environment
+INFO:parte.agent_core:
+======================================================================
+INFO:parte.agent_core:Processing request: Do something with environment
+INFO:parte.agent_core:======================================================================
+INFO:parte.conversation_manager:Added user message to history (total: 20)
+INFO:parte.agent_core: Creating execution plan...
+INFO:parte.agent_core:✓ Plan created with 1 subtasks
+INFO:parte.observations: Logged planning observation (iteration 19)
+INFO:parte.task_router:Routing request: Do something with environment...
+INFO:parte.task_router:✓ Rule-based routing: conversation_handler
+INFO:parte.observations: Logged routing observation
+INFO:parte.agent_core: Handling conversation...
+INFO:parte.observations: Logged execution observation
+INFO:parte.conversation_manager:Added agent message to history (total: 20)
+INFO:parte.agent_core:✓ Request processed in 14.21s
+  Response Type: conversation
+  Requires Clarification: False
+
+  Invalid Request: kjsdfhkjsdhfkjsdhf
+INFO:parte.agent_core:
+======================================================================
+INFO:parte.agent_core:Processing request: kjsdfhkjsdhfkjsdhf
+INFO:parte.agent_core:======================================================================
+INFO:parte.conversation_manager:Added user message to history (total: 20)
+INFO:parte.agent_core: Creating execution plan...
+INFO:parte.agent_core:✓ Plan created with 2 subtasks
+INFO:parte.observations: Logged planning observation (iteration 20)
+INFO:parte.task_router:Routing request: kjsdfhkjsdhfkjsdhf...
+INFO:parte.task_router:✓ Final routing: conversation_handler (confidence: high)
+INFO:parte.observations: Logged routing observation
+INFO:parte.agent_core: Requesting clarification...
+INFO:parte.conversation_manager:Added agent message to history (total: 20)
+✗ Error handling failed: 'metadata'
+Traceback (most recent call last):
+  File "/media/data/codes/reshma/lma_maj_pro/parte/run_parte.py", line 355, in test_error_handling
+    print(f"  Handler: {result['metadata']['handler_used']}")
+KeyError: 'metadata'
+
+======================================================================
+TEST 11: Comprehensive Multi-Turn Scenario
+======================================================================
+
+  Running multi-turn scenario...
+
+  Turn 1 [greeting]: Hello! I'm a teacher preparing a lesson.
+INFO:parte.agent_core:
+======================================================================
+INFO:parte.agent_core:Processing request: Hello! I'm a teacher preparing a lesson.
+INFO:parte.agent_core:======================================================================
+INFO:parte.conversation_manager:Added user message to history (total: 20)
+INFO:parte.agent_core: Creating execution plan...
+INFO:parte.agent_core:✓ Plan created with 5 subtasks
+INFO:parte.observations: Logged planning observation (iteration 21)
+INFO:parte.task_router:Routing request: Hello! I'm a teacher preparing a lesson....
+INFO:parte.task_router:✓ Rule-based routing: conversation_handler
+INFO:parte.observations: Logged routing observation
+INFO:parte.agent_core: Handling conversation...
+INFO:parte.observations: Logged execution observation
+INFO:parte.conversation_manager:Added agent message to history (total: 20)
+INFO:parte.agent_core:✓ Request processed in 14.99s
+    Handler: conversation_handler
+    Response: Hello! That's great, I'm happy to help you prepare your lesson. What environmental topic are you foc...
+
+  Turn 2 [context]: I need to teach about renewable energy.
+INFO:parte.agent_core:
+======================================================================
+INFO:parte.agent_core:Processing request: I need to teach about renewable energy.
+INFO:parte.agent_core:======================================================================
+INFO:parte.conversation_manager:Added user message to history (total: 20)
+INFO:parte.agent_core: Creating execution plan...
+INFO:parte.agent_core:✓ Plan created with 6 subtasks
+INFO:parte.observations: Logged planning observation (iteration 22)
+INFO:parte.task_router:Routing request: I need to teach about renewable energy....
+INFO:parte.task_router:✓ Final routing: content_generator (confidence: high)
+INFO:parte.observations: Logged routing observation
+INFO:parte.agent_core: Requesting clarification...
+INFO:parte.conversation_manager:Added agent message to history (total: 20)
+✗ Comprehensive scenario failed: 'metadata'
+Traceback (most recent call last):
+  File "/media/data/codes/reshma/lma_maj_pro/parte/run_parte.py", line 389, in run_comprehensive_scenario
+    print(f"    Handler: {result['metadata']['handler_used']}")
+KeyError: 'metadata'
+
+======================================================================
+TEST SUMMARY
+======================================================================
+Agent Initialization: ✓ PASSED
+Q&A Routing: ✓ PASSED
+Content Generation Routing: ✓ PASSED
+Multi-Step Planning: ✓ PASSED
+Conversation Memory: ✓ PASSED
+Reasoning & Analysis: ✓ PASSED
+Conversational Handling: ✓ PASSED
+Observations & Logging: ✓ PASSED
+Session Management: ✓ PASSED
+Error Handling: ✗ FAILED
+Comprehensive Scenario: ✗ FAILED
+
+======================================================================
+✗ SOME TESTS FAILED
+======================================================================
+sys:1: DeprecationWarning: builtin type swigvarlink has no __module__ attribute

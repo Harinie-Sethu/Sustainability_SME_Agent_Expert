@@ -1,0 +1,429 @@
+{
+  "source_file": "test.txt",
+  "chunking_timestamp": "2025-11-18T09:27:23.073351",
+  "original_metadata": {
+    "total_pages": 1,
+    "original_text_length": 2287,
+    "extraction_method": "text_file"
+  },
+  "filtering_stats": {
+    "original_length": 2287,
+    "sections_removed": 0,
+    "paragraphs_removed": 0,
+    "sentences_removed": 0,
+    "cleaned_length": 2241,
+    "retention_rate": 97.9886313948404
+  },
+  "chunking_config": {
+    "chunk_sizes": {
+      "large": 2048,
+      "medium": 512,
+      "small": 128
+    },
+    "overlap_percentages": {
+      "large": 0.1,
+      "medium": 0.15,
+      "small": 0.2
+    }
+  },
+  "chunk_stats": {
+    "large_fixed_size": {
+      "chunk_count": 1,
+      "avg_tokens": 560.0,
+      "min_tokens": 560,
+      "max_tokens": 560,
+      "total_tokens": 560
+    },
+    "large_content_aware": {
+      "chunk_count": 1,
+      "avg_tokens": 563.0,
+      "min_tokens": 563,
+      "max_tokens": 563,
+      "total_tokens": 563
+    },
+    "large_recursive_character": {
+      "chunk_count": 1,
+      "avg_tokens": 560.0,
+      "min_tokens": 560,
+      "max_tokens": 560,
+      "total_tokens": 560
+    },
+    "medium_fixed_size": {
+      "chunk_count": 2,
+      "avg_tokens": 318.5,
+      "min_tokens": 125,
+      "max_tokens": 512,
+      "total_tokens": 637
+    },
+    "medium_content_aware": {
+      "chunk_count": 2,
+      "avg_tokens": 318.0,
+      "min_tokens": 147,
+      "max_tokens": 489,
+      "total_tokens": 636
+    },
+    "medium_recursive_character": {
+      "chunk_count": 2,
+      "avg_tokens": 318.0,
+      "min_tokens": 101,
+      "max_tokens": 535,
+      "total_tokens": 636
+    },
+    "small_fixed_size": {
+      "chunk_count": 6,
+      "avg_tokens": 114.16666666666667,
+      "min_tokens": 47,
+      "max_tokens": 128,
+      "total_tokens": 685
+    },
+    "small_content_aware": {
+      "chunk_count": 7,
+      "avg_tokens": 98.42857142857143,
+      "min_tokens": 46,
+      "max_tokens": 123,
+      "total_tokens": 689
+    },
+    "small_recursive_character": {
+      "chunk_count": 6,
+      "avg_tokens": 114.0,
+      "min_tokens": 50,
+      "max_tokens": 139,
+      "total_tokens": 684
+    }
+  },
+  "chunks": {
+    "large": {
+      "fixed_size": [
+        {
+          "chunk_id": 0,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 2048,
+          "overlap_percentage": 0.1,
+          "start_char": 0,
+          "end_char": 2241,
+          "text_length": 2241,
+          "estimated_tokens": 560,
+          "text": "consumer business trends consumers want sustainable options: 72 of global consumers are willing to pay more for sustainable products, and 88 show increased loyalty to businesses that advocate for social or environmental issues. green products are growing faster: products marketed as sustainable have grown twice as fast as those that arent. companies are prioritizing it: 90 of sp 500 companies now release esg (environmental, social, and governance) reports, and 76 of executives say sustainability is central to their business strategy. energy technology renewable energy is booming: global renewable energy capacity nearly quadrupled between 2010 and 2024. investments in energy transition technologies surpassed  trillion in 2024 alone. led lights are incredibly efficient: they are 80 more efficient than regular lights, and 95 of their energy is converted into light, with only  wasted as heat. electric vehicles (evs) are energy powerhouses: evs can use up to 80 of their battery energy to power the car, compared to fuel-powered vehicles that only use between 14-16 of their fuels energy. waste recycling aluminum cans have  superpower: recycling  single aluminum can saves enough energy to power  tv for over three hours. -waste is  goldmine: there is up to 30 times more gold in  tonne of old mobile phones than in  tonne of gold ore. the great pacific garbage patch is enormous: this vortex of trash is twice the size of continental america and contains about 100 million tons of garbage. food nature  plant-based diet saves  lot of water: more than,000 gallons of water are needed to produce  single pound of meat, while  pound of wheat only takes 25 gallons. bees are vital to our food supply: bees help produce almost three-quarters of the plants that form 90 of the worlds food source. indigenous people protect biodiversity: indigenous populations make up just  of the global population yet protect 80 of the planets biodiversity.  sign of hope the ozone layer is healing: thanks to the global phaseout of nearly 99 of ozone-depleting substances, the planets protective ozone layer is on track to be fully recovered by 2066. this demonstrates that collective human action can successfully address major environmental crises."
+        }
+      ],
+      "content_aware": [
+        {
+          "chunk_id": 0,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 2048,
+          "overlap_percentage": 0.1,
+          "start_char": 228,
+          "end_char": 2482,
+          "text_length": 2254,
+          "estimated_tokens": 563,
+          "text": "consumer business trends consumers want sustainable options: 72 of global consumers are willing to pay more for sustainable products, and 88 show increased loyalty to businesses that advocate for social or environmental issues.\n\ngreen products are growing faster: products marketed as sustainable have grown twice as fast as those that arent.\n\ncompanies are prioritizing it: 90 of sp 500 companies now release esg (environmental, social, and governance) reports, and 76 of executives say sustainability is central to their business strategy.\n\nenergy technology renewable energy is booming: global renewable energy capacity nearly quadrupled between 2010 and 2024.\n\ninvestments in energy transition technologies surpassed  trillion in 2024 alone.\n\nled lights are incredibly efficient: they are 80 more efficient than regular lights, and 95 of their energy is converted into light, with only  wasted as heat.\n\nelectric vehicles (evs) are energy powerhouses: evs can use up to 80 of their battery energy to power the car, compared to fuel-powered vehicles that only use between 14-16 of their fuels energy.\n\nwaste recycling aluminum cans have  superpower: recycling  single aluminum can saves enough energy to power  tv for over three hours.\n\n-waste is  goldmine: there is up to 30 times more gold in  tonne of old mobile phones than in  tonne of gold ore.\n\nthe great pacific garbage patch is enormous: this vortex of trash is twice the size of continental america and contains about 100 million tons of garbage.\n\nfood nature  plant-based diet saves  lot of water: more than,000 gallons of water are needed to produce  single pound of meat, while  pound of wheat only takes 25 gallons.\n\nbees are vital to our food supply: bees help produce almost three-quarters of the plants that form 90 of the worlds food source.\n\nindigenous people protect biodiversity: indigenous populations make up just  of the global population yet protect 80 of the planets biodiversity.\n\nsign of hope the ozone layer is healing: thanks to the global phaseout of nearly 99 of ozone-depleting substances, the planets protective ozone layer is on track to be fully recovered by 2066.\n\nthis demonstrates that collective human action can successfully address major environmental crises."
+        }
+      ],
+      "recursive_character": [
+        {
+          "chunk_id": 0,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 2048,
+          "overlap_percentage": 0.1,
+          "start_char": 0,
+          "end_char": 2241,
+          "text_length": 2241,
+          "estimated_tokens": 560,
+          "text": "consumer business trends consumers want sustainable options: 72 of global consumers are willing to pay more for sustainable products, and 88 show increased loyalty to businesses that advocate for social or environmental issues. green products are growing faster: products marketed as sustainable have grown twice as fast as those that arent. companies are prioritizing it: 90 of sp 500 companies now release esg (environmental, social, and governance) reports, and 76 of executives say sustainability is central to their business strategy. energy technology renewable energy is booming: global renewable energy capacity nearly quadrupled between 2010 and 2024. investments in energy transition technologies surpassed  trillion in 2024 alone. led lights are incredibly efficient: they are 80 more efficient than regular lights, and 95 of their energy is converted into light, with only  wasted as heat. electric vehicles (evs) are energy powerhouses: evs can use up to 80 of their battery energy to power the car, compared to fuel-powered vehicles that only use between 14-16 of their fuels energy. waste recycling aluminum cans have  superpower: recycling  single aluminum can saves enough energy to power  tv for over three hours. -waste is  goldmine: there is up to 30 times more gold in  tonne of old mobile phones than in  tonne of gold ore. the great pacific garbage patch is enormous: this vortex of trash is twice the size of continental america and contains about 100 million tons of garbage. food nature  plant-based diet saves  lot of water: more than,000 gallons of water are needed to produce  single pound of meat, while  pound of wheat only takes 25 gallons. bees are vital to our food supply: bees help produce almost three-quarters of the plants that form 90 of the worlds food source. indigenous people protect biodiversity: indigenous populations make up just  of the global population yet protect 80 of the planets biodiversity.  sign of hope the ozone layer is healing: thanks to the global phaseout of nearly 99 of ozone-depleting substances, the planets protective ozone layer is on track to be fully recovered by 2066. this demonstrates that collective human action can successfully address major environmental crises."
+        }
+      ]
+    },
+    "medium": {
+      "fixed_size": [
+        {
+          "chunk_id": 0,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 0,
+          "end_char": 2048,
+          "text_length": 2048,
+          "estimated_tokens": 512,
+          "text": "consumer business trends consumers want sustainable options: 72 of global consumers are willing to pay more for sustainable products, and 88 show increased loyalty to businesses that advocate for social or environmental issues. green products are growing faster: products marketed as sustainable have grown twice as fast as those that arent. companies are prioritizing it: 90 of sp 500 companies now release esg (environmental, social, and governance) reports, and 76 of executives say sustainability is central to their business strategy. energy technology renewable energy is booming: global renewable energy capacity nearly quadrupled between 2010 and 2024. investments in energy transition technologies surpassed  trillion in 2024 alone. led lights are incredibly efficient: they are 80 more efficient than regular lights, and 95 of their energy is converted into light, with only  wasted as heat. electric vehicles (evs) are energy powerhouses: evs can use up to 80 of their battery energy to power the car, compared to fuel-powered vehicles that only use between 14-16 of their fuels energy. waste recycling aluminum cans have  superpower: recycling  single aluminum can saves enough energy to power  tv for over three hours. -waste is  goldmine: there is up to 30 times more gold in  tonne of old mobile phones than in  tonne of gold ore. the great pacific garbage patch is enormous: this vortex of trash is twice the size of continental america and contains about 100 million tons of garbage. food nature  plant-based diet saves  lot of water: more than,000 gallons of water are needed to produce  single pound of meat, while  pound of wheat only takes 25 gallons. bees are vital to our food supply: bees help produce almost three-quarters of the plants that form 90 of the worlds food source. indigenous people protect biodiversity: indigenous populations make up just  of the global population yet protect 80 of the planets biodiversity.  sign of hope the ozone layer is healing: thanks to the global phaseout of nearly 99 of ozone-deplet"
+        },
+        {
+          "chunk_id": 1,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 1741,
+          "end_char": 2241,
+          "text_length": 500,
+          "estimated_tokens": 125,
+          "text": "arters of the plants that form 90 of the worlds food source. indigenous people protect biodiversity: indigenous populations make up just  of the global population yet protect 80 of the planets biodiversity.  sign of hope the ozone layer is healing: thanks to the global phaseout of nearly 99 of ozone-depleting substances, the planets protective ozone layer is on track to be fully recovered by 2066. this demonstrates that collective human action can successfully address major environmental crises."
+        }
+      ],
+      "content_aware": [
+        {
+          "chunk_id": 0,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 228,
+          "end_char": 2187,
+          "text_length": 1959,
+          "estimated_tokens": 489,
+          "text": "consumer business trends consumers want sustainable options: 72 of global consumers are willing to pay more for sustainable products, and 88 show increased loyalty to businesses that advocate for social or environmental issues.\n\ngreen products are growing faster: products marketed as sustainable have grown twice as fast as those that arent.\n\ncompanies are prioritizing it: 90 of sp 500 companies now release esg (environmental, social, and governance) reports, and 76 of executives say sustainability is central to their business strategy.\n\nenergy technology renewable energy is booming: global renewable energy capacity nearly quadrupled between 2010 and 2024.\n\ninvestments in energy transition technologies surpassed  trillion in 2024 alone.\n\nled lights are incredibly efficient: they are 80 more efficient than regular lights, and 95 of their energy is converted into light, with only  wasted as heat.\n\nelectric vehicles (evs) are energy powerhouses: evs can use up to 80 of their battery energy to power the car, compared to fuel-powered vehicles that only use between 14-16 of their fuels energy.\n\nwaste recycling aluminum cans have  superpower: recycling  single aluminum can saves enough energy to power  tv for over three hours.\n\n-waste is  goldmine: there is up to 30 times more gold in  tonne of old mobile phones than in  tonne of gold ore.\n\nthe great pacific garbage patch is enormous: this vortex of trash is twice the size of continental america and contains about 100 million tons of garbage.\n\nfood nature  plant-based diet saves  lot of water: more than,000 gallons of water are needed to produce  single pound of meat, while  pound of wheat only takes 25 gallons.\n\nbees are vital to our food supply: bees help produce almost three-quarters of the plants that form 90 of the worlds food source.\n\nindigenous people protect biodiversity: indigenous populations make up just  of the global population yet protect 80 of the planets biodiversity."
+        },
+        {
+          "chunk_id": 1,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 228,
+          "end_char": 816,
+          "text_length": 588,
+          "estimated_tokens": 147,
+          "text": "akes 25 gallons.\n\nbees are vital to our food supply: bees help produce almost three-quarters of the plants that form 90 of the worlds food source.\n\nindigenous people protect biodiversity: indigenous populations make up just  of the global population yet protect 80 of the planets biodiversity.\n\nsign of hope the ozone layer is healing: thanks to the global phaseout of nearly 99 of ozone-depleting substances, the planets protective ozone layer is on track to be fully recovered by 2066.\n\nthis demonstrates that collective human action can successfully address major environmental crises."
+        }
+      ],
+      "recursive_character": [
+        {
+          "chunk_id": 0,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 0,
+          "end_char": 2141,
+          "text_length": 2141,
+          "estimated_tokens": 535,
+          "text": "consumer business trends consumers want sustainable options: 72 of global consumers are willing to pay more for sustainable products, and 88 show increased loyalty to businesses that advocate for social or environmental issues. green products are growing faster: products marketed as sustainable have grown twice as fast as those that arent. companies are prioritizing it: 90 of sp 500 companies now release esg (environmental, social, and governance) reports, and 76 of executives say sustainability is central to their business strategy. energy technology renewable energy is booming: global renewable energy capacity nearly quadrupled between 2010 and 2024. investments in energy transition technologies surpassed  trillion in 2024 alone. led lights are incredibly efficient: they are 80 more efficient than regular lights, and 95 of their energy is converted into light, with only  wasted as heat. electric vehicles (evs) are energy powerhouses: evs can use up to 80 of their battery energy to power the car, compared to fuel-powered vehicles that only use between 14-16 of their fuels energy. waste recycling aluminum cans have  superpower: recycling  single aluminum can saves enough energy to power  tv for over three hours. -waste is  goldmine: there is up to 30 times more gold in  tonne of old mobile phones than in  tonne of gold ore. the great pacific garbage patch is enormous: this vortex of trash is twice the size of continental america and contains about 100 million tons of garbage. food nature  plant-based diet saves  lot of water: more than,000 gallons of water are needed to produce  single pound of meat, while  pound of wheat only takes 25 gallons. bees are vital to our food supply: bees help produce almost three-quarters of the plants that form 90 of the worlds food source. indigenous people protect biodiversity: indigenous populations make up just  of the global population yet protect 80 of the planets biodiversity.  sign of hope the ozone layer is healing: thanks to the global phaseout of nearly 99 of ozone-depleting substances, the planets protective ozone layer is on track to be fully recovered by 2066."
+        },
+        {
+          "chunk_id": 1,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 1835,
+          "end_char": 2241,
+          "text_length": 406,
+          "estimated_tokens": 101,
+          "text": "rsity: indigenous populations make up just  of the global population yet protect 80 of the planets biodiversity.  sign of hope the ozone layer is healing: thanks to the global phaseout of nearly 99 of ozone-depleting substances, the planets protective ozone layer is on track to be fully recovered by 2066. this demonstrates that collective human action can successfully address major environmental crises."
+        }
+      ]
+    },
+    "small": {
+      "fixed_size": [
+        {
+          "chunk_id": 0,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 0,
+          "end_char": 512,
+          "text_length": 511,
+          "estimated_tokens": 127,
+          "text": "consumer business trends consumers want sustainable options: 72 of global consumers are willing to pay more for sustainable products, and 88 show increased loyalty to businesses that advocate for social or environmental issues. green products are growing faster: products marketed as sustainable have grown twice as fast as those that arent. companies are prioritizing it: 90 of sp 500 companies now release esg (environmental, social, and governance) reports, and 76 of executives say sustainability is central"
+        },
+        {
+          "chunk_id": 1,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 410,
+          "end_char": 922,
+          "text_length": 512,
+          "estimated_tokens": 128,
+          "text": "g (environmental, social, and governance) reports, and 76 of executives say sustainability is central to their business strategy. energy technology renewable energy is booming: global renewable energy capacity nearly quadrupled between 2010 and 2024. investments in energy transition technologies surpassed  trillion in 2024 alone. led lights are incredibly efficient: they are 80 more efficient than regular lights, and 95 of their energy is converted into light, with only  wasted as heat. electric vehicles (e"
+        },
+        {
+          "chunk_id": 2,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 820,
+          "end_char": 1332,
+          "text_length": 512,
+          "estimated_tokens": 128,
+          "text": "ights, and 95 of their energy is converted into light, with only  wasted as heat. electric vehicles (evs) are energy powerhouses: evs can use up to 80 of their battery energy to power the car, compared to fuel-powered vehicles that only use between 14-16 of their fuels energy. waste recycling aluminum cans have  superpower: recycling  single aluminum can saves enough energy to power  tv for over three hours. -waste is  goldmine: there is up to 30 times more gold in  tonne of old mobile phones than in  tonne"
+        },
+        {
+          "chunk_id": 3,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 1230,
+          "end_char": 1742,
+          "text_length": 512,
+          "estimated_tokens": 128,
+          "text": ". -waste is  goldmine: there is up to 30 times more gold in  tonne of old mobile phones than in  tonne of gold ore. the great pacific garbage patch is enormous: this vortex of trash is twice the size of continental america and contains about 100 million tons of garbage. food nature  plant-based diet saves  lot of water: more than,000 gallons of water are needed to produce  single pound of meat, while  pound of wheat only takes 25 gallons. bees are vital to our food supply: bees help produce almost three-qua"
+        },
+        {
+          "chunk_id": 4,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 1640,
+          "end_char": 2152,
+          "text_length": 511,
+          "estimated_tokens": 127,
+          "text": "of wheat only takes 25 gallons. bees are vital to our food supply: bees help produce almost three-quarters of the plants that form 90 of the worlds food source. indigenous people protect biodiversity: indigenous populations make up just  of the global population yet protect 80 of the planets biodiversity.  sign of hope the ozone layer is healing: thanks to the global phaseout of nearly 99 of ozone-depleting substances, the planets protective ozone layer is on track to be fully recovered by 2066. this demon"
+        },
+        {
+          "chunk_id": 5,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 2050,
+          "end_char": 2241,
+          "text_length": 191,
+          "estimated_tokens": 47,
+          "text": "g substances, the planets protective ozone layer is on track to be fully recovered by 2066. this demonstrates that collective human action can successfully address major environmental crises."
+        }
+      ],
+      "content_aware": [
+        {
+          "chunk_id": 0,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 228,
+          "end_char": 570,
+          "text_length": 342,
+          "estimated_tokens": 85,
+          "text": "consumer business trends consumers want sustainable options: 72 of global consumers are willing to pay more for sustainable products, and 88 show increased loyalty to businesses that advocate for social or environmental issues.\n\ngreen products are growing faster: products marketed as sustainable have grown twice as fast as those that arent."
+        },
+        {
+          "chunk_id": 1,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 228,
+          "end_char": 699,
+          "text_length": 471,
+          "estimated_tokens": 117,
+          "text": "arketed as sustainable have grown twice as fast as those that arent.\n\ncompanies are prioritizing it: 90 of sp 500 companies now release esg (environmental, social, and governance) reports, and 76 of executives say sustainability is central to their business strategy.\n\nenergy technology renewable energy is booming: global renewable energy capacity nearly quadrupled between 2010 and 2024.\n\ninvestments in energy transition technologies surpassed  trillion in 2024 alone."
+        },
+        {
+          "chunk_id": 2,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 228,
+          "end_char": 680,
+          "text_length": 452,
+          "estimated_tokens": 113,
+          "text": "10 and 2024.\n\ninvestments in energy transition technologies surpassed  trillion in 2024 alone.\n\nled lights are incredibly efficient: they are 80 more efficient than regular lights, and 95 of their energy is converted into light, with only  wasted as heat.\n\nelectric vehicles (evs) are energy powerhouses: evs can use up to 80 of their battery energy to power the car, compared to fuel-powered vehicles that only use between 14-16 of their fuels energy."
+        },
+        {
+          "chunk_id": 3,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 228,
+          "end_char": 723,
+          "text_length": 495,
+          "estimated_tokens": 123,
+          "text": "car, compared to fuel-powered vehicles that only use between 14-16 of their fuels energy.\n\nwaste recycling aluminum cans have  superpower: recycling  single aluminum can saves enough energy to power  tv for over three hours.\n\n-waste is  goldmine: there is up to 30 times more gold in  tonne of old mobile phones than in  tonne of gold ore.\n\nthe great pacific garbage patch is enormous: this vortex of trash is twice the size of continental america and contains about 100 million tons of garbage."
+        },
+        {
+          "chunk_id": 4,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 228,
+          "end_char": 630,
+          "text_length": 402,
+          "estimated_tokens": 100,
+          "text": "x of trash is twice the size of continental america and contains about 100 million tons of garbage.\n\nfood nature  plant-based diet saves  lot of water: more than,000 gallons of water are needed to produce  single pound of meat, while  pound of wheat only takes 25 gallons.\n\nbees are vital to our food supply: bees help produce almost three-quarters of the plants that form 90 of the worlds food source."
+        },
+        {
+          "chunk_id": 5,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 228,
+          "end_char": 649,
+          "text_length": 421,
+          "estimated_tokens": 105,
+          "text": "duce almost three-quarters of the plants that form 90 of the worlds food source.\n\nindigenous people protect biodiversity: indigenous populations make up just  of the global population yet protect 80 of the planets biodiversity.\n\nsign of hope the ozone layer is healing: thanks to the global phaseout of nearly 99 of ozone-depleting substances, the planets protective ozone layer is on track to be fully recovered by 2066."
+        },
+        {
+          "chunk_id": 6,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 228,
+          "end_char": 413,
+          "text_length": 185,
+          "estimated_tokens": 46,
+          "text": "ances, the planets protective ozone layer is on track to be fully recovered by 2066.\n\nthis demonstrates that collective human action can successfully address major environmental crises."
+        }
+      ],
+      "recursive_character": [
+        {
+          "chunk_id": 0,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 0,
+          "end_char": 539,
+          "text_length": 539,
+          "estimated_tokens": 134,
+          "text": "consumer business trends consumers want sustainable options: 72 of global consumers are willing to pay more for sustainable products, and 88 show increased loyalty to businesses that advocate for social or environmental issues. green products are growing faster: products marketed as sustainable have grown twice as fast as those that arent. companies are prioritizing it: 90 of sp 500 companies now release esg (environmental, social, and governance) reports, and 76 of executives say sustainability is central to their business strategy."
+        },
+        {
+          "chunk_id": 1,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 438,
+          "end_char": 901,
+          "text_length": 463,
+          "estimated_tokens": 115,
+          "text": "d governance) reports, and 76 of executives say sustainability is central to their business strategy. energy technology renewable energy is booming: global renewable energy capacity nearly quadrupled between 2010 and 2024. investments in energy transition technologies surpassed  trillion in 2024 alone. led lights are incredibly efficient: they are 80 more efficient than regular lights, and 95 of their energy is converted into light, with only  wasted as heat."
+        },
+        {
+          "chunk_id": 2,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 800,
+          "end_char": 1345,
+          "text_length": 545,
+          "estimated_tokens": 136,
+          "text": "cient than regular lights, and 95 of their energy is converted into light, with only  wasted as heat. electric vehicles (evs) are energy powerhouses: evs can use up to 80 of their battery energy to power the car, compared to fuel-powered vehicles that only use between 14-16 of their fuels energy. waste recycling aluminum cans have  superpower: recycling  single aluminum can saves enough energy to power  tv for over three hours. -waste is  goldmine: there is up to 30 times more gold in  tonne of old mobile phones than in  tonne of gold ore."
+        },
+        {
+          "chunk_id": 3,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 1244,
+          "end_char": 1801,
+          "text_length": 557,
+          "estimated_tokens": 139,
+          "text": "oldmine: there is up to 30 times more gold in  tonne of old mobile phones than in  tonne of gold ore. the great pacific garbage patch is enormous: this vortex of trash is twice the size of continental america and contains about 100 million tons of garbage. food nature  plant-based diet saves  lot of water: more than,000 gallons of water are needed to produce  single pound of meat, while  pound of wheat only takes 25 gallons. bees are vital to our food supply: bees help produce almost three-quarters of the plants that form 90 of the worlds food source."
+        },
+        {
+          "chunk_id": 4,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 1700,
+          "end_char": 2141,
+          "text_length": 441,
+          "estimated_tokens": 110,
+          "text": "supply: bees help produce almost three-quarters of the plants that form 90 of the worlds food source. indigenous people protect biodiversity: indigenous populations make up just  of the global population yet protect 80 of the planets biodiversity.  sign of hope the ozone layer is healing: thanks to the global phaseout of nearly 99 of ozone-depleting substances, the planets protective ozone layer is on track to be fully recovered by 2066."
+        },
+        {
+          "chunk_id": 5,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 2040,
+          "end_char": 2241,
+          "text_length": 201,
+          "estimated_tokens": 50,
+          "text": "e-depleting substances, the planets protective ozone layer is on track to be fully recovered by 2066. this demonstrates that collective human action can successfully address major environmental crises."
+        }
+      ]
+    }
+  },
+  "chunking_success": true
+}

@@ -1,0 +1,1056 @@
+{
+  "session": "20251117_120535",
+  "total_iterations": 18,
+  "observations": [
+    {
+      "type": "planning",
+      "timestamp": "2025-11-17T12:05:36.212015",
+      "iteration": 1,
+      "user_request": "What is renewable energy?",
+      "plan": {
+        "main_goal": "What is renewable energy?",
+        "requires_context": false,
+        "subtasks": [
+          {
+            "subtask_id": 1,
+            "description": "Process user request",
+            "capability": "auto_detect",
+            "inputs": {
+              "request": "What is renewable energy?"
+            },
+            "depends_on": [],
+            "reasoning": "Direct processing of request"
+          }
+        ],
+        "expected_output": "Response to user request"
+      },
+      "context_used": true,
+      "num_subtasks": 1,
+      "capabilities_required": [
+        "auto_detect"
+      ]
+    },
+    {
+      "type": "routing",
+      "timestamp": "2025-11-17T12:05:36.212077",
+      "iteration": 1,
+      "user_request": "What is renewable energy?",
+      "final_handler": "qa_handler",
+      "confidence": "high",
+      "reasoning": "Question/explanation pattern detected",
+      "rule_based_handler": null,
+      "llm_based_handler": null,
+      "agreement": null
+    },
+    {
+      "type": "execution",
+      "timestamp": "2025-11-17T12:05:36.616065",
+      "iteration": 1,
+      "handler": "qa_handler",
+      "parameters": {
+        "question": "What is renewable energy?"
+      },
+      "success": true,
+      "execution_time": 0.4039630889892578,
+      "error": null
+    },
+    {
+      "type": "planning",
+      "timestamp": "2025-11-17T12:05:37.114319",
+      "iteration": 2,
+      "user_request": "Explain the greenhouse effect",
+      "plan": {
+        "main_goal": "Explain the greenhouse effect",
+        "requires_context": false,
+        "subtasks": [
+          {
+            "subtask_id": 1,
+            "description": "Process user request",
+            "capability": "auto_detect",
+            "inputs": {
+              "request": "Explain the greenhouse effect"
+            },
+            "depends_on": [],
+            "reasoning": "Direct processing of request"
+          }
+        ],
+        "expected_output": "Response to user request"
+      },
+      "context_used": true,
+      "num_subtasks": 1,
+      "capabilities_required": [
+        "auto_detect"
+      ]
+    },
+    {
+      "type": "routing",
+      "timestamp": "2025-11-17T12:05:37.114383",
+      "iteration": 2,
+      "user_request": "Explain the greenhouse effect",
+      "final_handler": "qa_handler",
+      "confidence": "high",
+      "reasoning": "Question/explanation pattern detected",
+      "rule_based_handler": null,
+      "llm_based_handler": null,
+      "agreement": null
+    },
+    {
+      "type": "execution",
+      "timestamp": "2025-11-17T12:05:37.674751",
+      "iteration": 2,
+      "handler": "qa_handler",
+      "parameters": {
+        "question": "Explain the greenhouse effect"
+      },
+      "success": true,
+      "execution_time": 0.5603539943695068,
+      "error": null
+    },
+    {
+      "type": "planning",
+      "timestamp": "2025-11-17T12:05:38.352149",
+      "iteration": 3,
+      "user_request": "How does deforestation affect climate?",
+      "plan": {
+        "main_goal": "How does deforestation affect climate?",
+        "requires_context": false,
+        "subtasks": [
+          {
+            "subtask_id": 1,
+            "description": "Process user request",
+            "capability": "auto_detect",
+            "inputs": {
+              "request": "How does deforestation affect climate?"
+            },
+            "depends_on": [],
+            "reasoning": "Direct processing of request"
+          }
+        ],
+        "expected_output": "Response to user request"
+      },
+      "context_used": true,
+      "num_subtasks": 1,
+      "capabilities_required": [
+        "auto_detect"
+      ]
+    },
+    {
+      "type": "routing",
+      "timestamp": "2025-11-17T12:05:38.352215",
+      "iteration": 3,
+      "user_request": "How does deforestation affect climate?",
+      "final_handler": "qa_handler",
+      "confidence": "high",
+      "reasoning": "Question/explanation pattern detected",
+      "rule_based_handler": null,
+      "llm_based_handler": null,
+      "agreement": null
+    },
+    {
+      "type": "execution",
+      "timestamp": "2025-11-17T12:05:38.727264",
+      "iteration": 3,
+      "handler": "qa_handler",
+      "parameters": {
+        "question": "How does deforestation affect climate?"
+      },
+      "success": true,
+      "execution_time": 0.37503480911254883,
+      "error": null
+    },
+    {
+      "type": "planning",
+      "timestamp": "2025-11-17T12:05:39.043258",
+      "iteration": 4,
+      "user_request": "Create a quiz about recycling",
+      "plan": {
+        "main_goal": "Create a quiz about recycling",
+        "requires_context": false,
+        "subtasks": [
+          {
+            "subtask_id": 1,
+            "description": "Process user request",
+            "capability": "auto_detect",
+            "inputs": {
+              "request": "Create a quiz about recycling"
+            },
+            "depends_on": [],
+            "reasoning": "Direct processing of request"
+          }
+        ],
+        "expected_output": "Response to user request"
+      },
+      "context_used": true,
+      "num_subtasks": 1,
+      "capabilities_required": [
+        "auto_detect"
+      ]
+    },
+    {
+      "type": "routing",
+      "timestamp": "2025-11-17T12:05:39.043381",
+      "iteration": 4,
+      "user_request": "Create a quiz about recycling",
+      "final_handler": "content_generator",
+      "confidence": "high",
+      "reasoning": "Content generation pattern detected",
+      "rule_based_handler": null,
+      "llm_based_handler": null,
+      "agreement": null
+    },
+    {
+      "type": "execution",
+      "timestamp": "2025-11-17T12:05:39.983288",
+      "iteration": 4,
+      "handler": "content_generator",
+      "parameters": {
+        "content_type": "quiz",
+        "topic": "recycling"
+      },
+      "success": true,
+      "execution_time": 0.9398767948150635,
+      "error": null
+    },
+    {
+      "type": "planning",
+      "timestamp": "2025-11-17T12:05:40.262817",
+      "iteration": 5,
+      "user_request": "Generate a study guide on solar energy",
+      "plan": {
+        "main_goal": "Generate a study guide on solar energy",
+        "requires_context": false,
+        "subtasks": [
+          {
+            "subtask_id": 1,
+            "description": "Process user request",
+            "capability": "auto_detect",
+            "inputs": {
+              "request": "Generate a study guide on solar energy"
+            },
+            "depends_on": [],
+            "reasoning": "Direct processing of request"
+          }
+        ],
+        "expected_output": "Response to user request"
+      },
+      "context_used": true,
+      "num_subtasks": 1,
+      "capabilities_required": [
+        "auto_detect"
+      ]
+    },
+    {
+      "type": "routing",
+      "timestamp": "2025-11-17T12:05:40.262968",
+      "iteration": 5,
+      "user_request": "Generate a study guide on solar energy",
+      "final_handler": "content_generator",
+      "confidence": "high",
+      "reasoning": "Content generation pattern detected",
+      "rule_based_handler": null,
+      "llm_based_handler": null,
+      "agreement": null
+    },
+    {
+      "type": "execution",
+      "timestamp": "2025-11-17T12:05:41.095762",
+      "iteration": 5,
+      "handler": "content_generator",
+      "parameters": {
+        "content_type": "study_guide",
+        "topic": "solar energy"
+      },
+      "success": true,
+      "execution_time": 0.8327627182006836,
+      "error": null
+    },
+    {
+      "type": "reflection",
+      "timestamp": "2025-11-17T12:05:41.095833",
+      "iteration": 5,
+      "user_request": "Generate a study guide on solar energy",
+      "agent_response": "I've generated the study_guide for you.",
+      "analysis": {
+        "user_request": "Generate a study guide on solar energy",
+        "response_type": "content",
+        "success": true,
+        "insights": {
+          "total_observations": 15,
+          "total_iterations": 5,
+          "observation_types": {
+            "planning": 5,
+            "routing": 5,
+            "execution": 5
+          },
+          "routing_accuracy": {
+            "confidence_distribution": {
+              "high": 5
+            }
+          },
+          "execution_success_rate": 1.0,
+          "common_errors": [],
+          "handler_usage": {
+            "qa_handler": 3,
+            "content_generator": 2
+          }
+        }
+      }
+    },
+    {
+      "type": "planning",
+      "timestamp": "2025-11-17T12:05:41.384654",
+      "iteration": 6,
+      "user_request": "Write an article about ocean pollution for students",
+      "plan": {
+        "main_goal": "Write an article about ocean pollution for students",
+        "requires_context": false,
+        "subtasks": [
+          {
+            "subtask_id": 1,
+            "description": "Process user request",
+            "capability": "auto_detect",
+            "inputs": {
+              "request": "Write an article about ocean pollution for students"
+            },
+            "depends_on": [],
+            "reasoning": "Direct processing of request"
+          }
+        ],
+        "expected_output": "Response to user request"
+      },
+      "context_used": true,
+      "num_subtasks": 1,
+      "capabilities_required": [
+        "auto_detect"
+      ]
+    },
+    {
+      "type": "routing",
+      "timestamp": "2025-11-17T12:05:41.384727",
+      "iteration": 6,
+      "user_request": "Write an article about ocean pollution for students",
+      "final_handler": "content_generator",
+      "confidence": "high",
+      "reasoning": "Content generation pattern detected",
+      "rule_based_handler": null,
+      "llm_based_handler": null,
+      "agreement": null
+    },
+    {
+      "type": "execution",
+      "timestamp": "2025-11-17T12:05:42.218109",
+      "iteration": 6,
+      "handler": "content_generator",
+      "parameters": {
+        "content_type": "article",
+        "topic": "ocean pollution students"
+      },
+      "success": true,
+      "execution_time": 0.8333675861358643,
+      "error": null
+    },
+    {
+      "type": "planning",
+      "timestamp": "2025-11-17T12:05:42.514788",
+      "iteration": 7,
+      "user_request": "Create a quiz about climate change with 3 questions and export it to PDF",
+      "plan": {
+        "main_goal": "Create a quiz about climate change with 3 questions and export it to PDF",
+        "requires_context": false,
+        "subtasks": [
+          {
+            "subtask_id": 1,
+            "description": "Process user request",
+            "capability": "auto_detect",
+            "inputs": {
+              "request": "Create a quiz about climate change with 3 questions and export it to PDF"
+            },
+            "depends_on": [],
+            "reasoning": "Direct processing of request"
+          }
+        ],
+        "expected_output": "Response to user request"
+      },
+      "context_used": true,
+      "num_subtasks": 1,
+      "capabilities_required": [
+        "auto_detect"
+      ]
+    },
+    {
+      "type": "routing",
+      "timestamp": "2025-11-17T12:05:42.514887",
+      "iteration": 7,
+      "user_request": "Create a quiz about climate change with 3 questions and export it to PDF",
+      "final_handler": "content_generator",
+      "confidence": "high",
+      "reasoning": "Content generation pattern detected",
+      "rule_based_handler": null,
+      "llm_based_handler": null,
+      "agreement": null
+    },
+    {
+      "type": "execution",
+      "timestamp": "2025-11-17T12:05:43.646715",
+      "iteration": 7,
+      "handler": "content_generator",
+      "parameters": {
+        "content_type": "quiz",
+        "topic": "climate change with"
+      },
+      "success": true,
+      "execution_time": 1.1318063735961914,
+      "error": null
+    },
+    {
+      "type": "planning",
+      "timestamp": "2025-11-17T12:05:43.915143",
+      "iteration": 8,
+      "user_request": "Tell me about solar panels",
+      "plan": {
+        "main_goal": "Tell me about solar panels",
+        "requires_context": false,
+        "subtasks": [
+          {
+            "subtask_id": 1,
+            "description": "Process user request",
+            "capability": "auto_detect",
+            "inputs": {
+              "request": "Tell me about solar panels"
+            },
+            "depends_on": [],
+            "reasoning": "Direct processing of request"
+          }
+        ],
+        "expected_output": "Response to user request"
+      },
+      "context_used": true,
+      "num_subtasks": 1,
+      "capabilities_required": [
+        "auto_detect"
+      ]
+    },
+    {
+      "type": "routing",
+      "timestamp": "2025-11-17T12:05:43.915195",
+      "iteration": 8,
+      "user_request": "Tell me about solar panels",
+      "final_handler": "qa_handler",
+      "confidence": "high",
+      "reasoning": "Question/explanation pattern detected",
+      "rule_based_handler": null,
+      "llm_based_handler": null,
+      "agreement": null
+    },
+    {
+      "type": "execution",
+      "timestamp": "2025-11-17T12:05:44.728774",
+      "iteration": 8,
+      "handler": "qa_handler",
+      "parameters": {
+        "question": "Tell me about solar panels"
+      },
+      "success": true,
+      "execution_time": 0.8135640621185303,
+      "error": null
+    },
+    {
+      "type": "planning",
+      "timestamp": "2025-11-17T12:05:45.019167",
+      "iteration": 9,
+      "user_request": "What are the main advantages?",
+      "plan": {
+        "main_goal": "What are the main advantages?",
+        "requires_context": false,
+        "subtasks": [
+          {
+            "subtask_id": 1,
+            "description": "Process user request",
+            "capability": "auto_detect",
+            "inputs": {
+              "request": "What are the main advantages?"
+            },
+            "depends_on": [],
+            "reasoning": "Direct processing of request"
+          }
+        ],
+        "expected_output": "Response to user request"
+      },
+      "context_used": true,
+      "num_subtasks": 1,
+      "capabilities_required": [
+        "auto_detect"
+      ]
+    },
+    {
+      "type": "routing",
+      "timestamp": "2025-11-17T12:05:45.162713",
+      "iteration": 9,
+      "user_request": "What are the main advantages?",
+      "final_handler": "conversation_handler",
+      "confidence": "high",
+      "reasoning": "Both methods agree: ",
+      "rule_based_handler": null,
+      "llm_based_handler": null,
+      "agreement": null
+    },
+    {
+      "type": "execution",
+      "timestamp": "2025-11-17T12:05:45.317123",
+      "iteration": 9,
+      "handler": "conversation_handler",
+      "parameters": {},
+      "success": true,
+      "execution_time": 0.15439558029174805,
+      "error": null
+    },
+    {
+      "type": "planning",
+      "timestamp": "2025-11-17T12:05:45.567753",
+      "iteration": 10,
+      "user_request": "How much do they cost?",
+      "plan": {
+        "main_goal": "How much do they cost?",
+        "requires_context": false,
+        "subtasks": [
+          {
+            "subtask_id": 1,
+            "description": "Process user request",
+            "capability": "auto_detect",
+            "inputs": {
+              "request": "How much do they cost?"
+            },
+            "depends_on": [],
+            "reasoning": "Direct processing of request"
+          }
+        ],
+        "expected_output": "Response to user request"
+      },
+      "context_used": true,
+      "num_subtasks": 1,
+      "capabilities_required": [
+        "auto_detect"
+      ]
+    },
+    {
+      "type": "routing",
+      "timestamp": "2025-11-17T12:05:45.721817",
+      "iteration": 10,
+      "user_request": "How much do they cost?",
+      "final_handler": "conversation_handler",
+      "confidence": "high",
+      "reasoning": "Both methods agree: ",
+      "rule_based_handler": null,
+      "llm_based_handler": null,
+      "agreement": null
+    },
+    {
+      "type": "execution",
+      "timestamp": "2025-11-17T12:05:45.852793",
+      "iteration": 10,
+      "handler": "conversation_handler",
+      "parameters": {},
+      "success": true,
+      "execution_time": 0.1309528350830078,
+      "error": null
+    },
+    {
+      "type": "reflection",
+      "timestamp": "2025-11-17T12:05:45.852940",
+      "iteration": 10,
+      "user_request": "How much do they cost?",
+      "agent_response": "Error generating response: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limi",
+      "analysis": {
+        "user_request": "How much do they cost?",
+        "response_type": "conversation",
+        "success": true,
+        "insights": {
+          "total_observations": 31,
+          "total_iterations": 10,
+          "observation_types": {
+            "planning": 10,
+            "routing": 10,
+            "execution": 10,
+            "reflection": 1
+          },
+          "routing_accuracy": {
+            "confidence_distribution": {
+              "high": 10
+            }
+          },
+          "execution_success_rate": 1.0,
+          "common_errors": [],
+          "handler_usage": {
+            "qa_handler": 4,
+            "content_generator": 4,
+            "conversation_handler": 2
+          }
+        }
+      }
+    },
+    {
+      "type": "planning",
+      "timestamp": "2025-11-17T12:05:46.286455",
+      "iteration": 11,
+      "user_request": "Compare wind energy and solar energy",
+      "plan": {
+        "main_goal": "Compare wind energy and solar energy",
+        "requires_context": false,
+        "subtasks": [
+          {
+            "subtask_id": 1,
+            "description": "Process user request",
+            "capability": "auto_detect",
+            "inputs": {
+              "request": "Compare wind energy and solar energy"
+            },
+            "depends_on": [],
+            "reasoning": "Direct processing of request"
+          }
+        ],
+        "expected_output": "Response to user request"
+      },
+      "context_used": true,
+      "num_subtasks": 1,
+      "capabilities_required": [
+        "auto_detect"
+      ]
+    },
+    {
+      "type": "routing",
+      "timestamp": "2025-11-17T12:05:46.474120",
+      "iteration": 11,
+      "user_request": "Compare wind energy and solar energy",
+      "final_handler": "data_analyst",
+      "confidence": "medium",
+      "reasoning": "Rule-based routing with LLM disagreement",
+      "rule_based_handler": null,
+      "llm_based_handler": null,
+      "agreement": null
+    },
+    {
+      "type": "reasoning",
+      "timestamp": "2025-11-17T12:05:46.599395",
+      "iteration": 11,
+      "problem": "",
+      "num_steps": 0,
+      "reasoning_steps": [],
+      "conclusion": "",
+      "confidence": "medium"
+    },
+    {
+      "type": "execution",
+      "timestamp": "2025-11-17T12:05:46.599424",
+      "iteration": 11,
+      "handler": "data_analyst",
+      "parameters": {},
+      "success": true,
+      "execution_time": 0.12528586387634277,
+      "error": null
+    },
+    {
+      "type": "planning",
+      "timestamp": "2025-11-17T12:05:46.890251",
+      "iteration": 12,
+      "user_request": "Analyze the impact of plastic bags on marine life",
+      "plan": {
+        "main_goal": "Analyze the impact of plastic bags on marine life",
+        "requires_context": false,
+        "subtasks": [
+          {
+            "subtask_id": 1,
+            "description": "Process user request",
+            "capability": "auto_detect",
+            "inputs": {
+              "request": "Analyze the impact of plastic bags on marine life"
+            },
+            "depends_on": [],
+            "reasoning": "Direct processing of request"
+          }
+        ],
+        "expected_output": "Response to user request"
+      },
+      "context_used": true,
+      "num_subtasks": 1,
+      "capabilities_required": [
+        "auto_detect"
+      ]
+    },
+    {
+      "type": "routing",
+      "timestamp": "2025-11-17T12:05:47.034190",
+      "iteration": 12,
+      "user_request": "Analyze the impact of plastic bags on marine life",
+      "final_handler": "data_analyst",
+      "confidence": "medium",
+      "reasoning": "Rule-based routing with LLM disagreement",
+      "rule_based_handler": null,
+      "llm_based_handler": null,
+      "agreement": null
+    },
+    {
+      "type": "reasoning",
+      "timestamp": "2025-11-17T12:05:47.138741",
+      "iteration": 12,
+      "problem": "",
+      "num_steps": 0,
+      "reasoning_steps": [],
+      "conclusion": "",
+      "confidence": "medium"
+    },
+    {
+      "type": "execution",
+      "timestamp": "2025-11-17T12:05:47.138781",
+      "iteration": 12,
+      "handler": "data_analyst",
+      "parameters": {},
+      "success": true,
+      "execution_time": 0.10457587242126465,
+      "error": null
+    },
+    {
+      "type": "planning",
+      "timestamp": "2025-11-17T12:05:47.410627",
+      "iteration": 13,
+      "user_request": "Hello!",
+      "plan": {
+        "main_goal": "Hello!",
+        "requires_context": false,
+        "subtasks": [
+          {
+            "subtask_id": 1,
+            "description": "Process user request",
+            "capability": "auto_detect",
+            "inputs": {
+              "request": "Hello!"
+            },
+            "depends_on": [],
+            "reasoning": "Direct processing of request"
+          }
+        ],
+        "expected_output": "Response to user request"
+      },
+      "context_used": true,
+      "num_subtasks": 1,
+      "capabilities_required": [
+        "auto_detect"
+      ]
+    },
+    {
+      "type": "routing",
+      "timestamp": "2025-11-17T12:05:47.410757",
+      "iteration": 13,
+      "user_request": "Hello!",
+      "final_handler": "conversation_handler",
+      "confidence": "high",
+      "reasoning": "Conversational pattern detected",
+      "rule_based_handler": null,
+      "llm_based_handler": null,
+      "agreement": null
+    },
+    {
+      "type": "execution",
+      "timestamp": "2025-11-17T12:05:47.560206",
+      "iteration": 13,
+      "handler": "conversation_handler",
+      "parameters": {},
+      "success": true,
+      "execution_time": 0.14941906929016113,
+      "error": null
+    },
+    {
+      "type": "planning",
+      "timestamp": "2025-11-17T12:05:47.847310",
+      "iteration": 14,
+      "user_request": "What can you do?",
+      "plan": {
+        "main_goal": "What can you do?",
+        "requires_context": false,
+        "subtasks": [
+          {
+            "subtask_id": 1,
+            "description": "Process user request",
+            "capability": "auto_detect",
+            "inputs": {
+              "request": "What can you do?"
+            },
+            "depends_on": [],
+            "reasoning": "Direct processing of request"
+          }
+        ],
+        "expected_output": "Response to user request"
+      },
+      "context_used": true,
+      "num_subtasks": 1,
+      "capabilities_required": [
+        "auto_detect"
+      ]
+    },
+    {
+      "type": "routing",
+      "timestamp": "2025-11-17T12:05:47.847420",
+      "iteration": 14,
+      "user_request": "What can you do?",
+      "final_handler": "conversation_handler",
+      "confidence": "high",
+      "reasoning": "Conversational pattern detected",
+      "rule_based_handler": null,
+      "llm_based_handler": null,
+      "agreement": null
+    },
+    {
+      "type": "execution",
+      "timestamp": "2025-11-17T12:05:47.945068",
+      "iteration": 14,
+      "handler": "conversation_handler",
+      "parameters": {},
+      "success": true,
+      "execution_time": 0.09761786460876465,
+      "error": null
+    },
+    {
+      "type": "planning",
+      "timestamp": "2025-11-17T12:05:48.224996",
+      "iteration": 15,
+      "user_request": "Thanks for your help",
+      "plan": {
+        "main_goal": "Thanks for your help",
+        "requires_context": false,
+        "subtasks": [
+          {
+            "subtask_id": 1,
+            "description": "Process user request",
+            "capability": "auto_detect",
+            "inputs": {
+              "request": "Thanks for your help"
+            },
+            "depends_on": [],
+            "reasoning": "Direct processing of request"
+          }
+        ],
+        "expected_output": "Response to user request"
+      },
+      "context_used": true,
+      "num_subtasks": 1,
+      "capabilities_required": [
+        "auto_detect"
+      ]
+    },
+    {
+      "type": "routing",
+      "timestamp": "2025-11-17T12:05:48.225120",
+      "iteration": 15,
+      "user_request": "Thanks for your help",
+      "final_handler": "conversation_handler",
+      "confidence": "high",
+      "reasoning": "Conversational pattern detected",
+      "rule_based_handler": null,
+      "llm_based_handler": null,
+      "agreement": null
+    },
+    {
+      "type": "execution",
+      "timestamp": "2025-11-17T12:05:48.400384",
+      "iteration": 15,
+      "handler": "conversation_handler",
+      "parameters": {},
+      "success": true,
+      "execution_time": 0.17523837089538574,
+      "error": null
+    },
+    {
+      "type": "reflection",
+      "timestamp": "2025-11-17T12:05:48.400447",
+      "iteration": 15,
+      "user_request": "Thanks for your help",
+      "agent_response": "Error generating response: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limi",
+      "analysis": {
+        "user_request": "Thanks for your help",
+        "response_type": "conversation",
+        "success": true,
+        "insights": {
+          "total_observations": 49,
+          "total_iterations": 15,
+          "observation_types": {
+            "planning": 15,
+            "routing": 15,
+            "execution": 15,
+            "reflection": 2,
+            "reasoning": 2
+          },
+          "routing_accuracy": {
+            "confidence_distribution": {
+              "high": 13,
+              "medium": 2
+            }
+          },
+          "execution_success_rate": 1.0,
+          "common_errors": [],
+          "handler_usage": {
+            "qa_handler": 4,
+            "content_generator": 4,
+            "conversation_handler": 5,
+            "data_analyst": 2
+          }
+        }
+      }
+    },
+    {
+      "type": "planning",
+      "timestamp": "2025-11-17T12:05:48.669334",
+      "iteration": 16,
+      "user_request": "What is composting?",
+      "plan": {
+        "main_goal": "What is composting?",
+        "requires_context": false,
+        "subtasks": [
+          {
+            "subtask_id": 1,
+            "description": "Process user request",
+            "capability": "auto_detect",
+            "inputs": {
+              "request": "What is composting?"
+            },
+            "depends_on": [],
+            "reasoning": "Direct processing of request"
+          }
+        ],
+        "expected_output": "Response to user request"
+      },
+      "context_used": true,
+      "num_subtasks": 1,
+      "capabilities_required": [
+        "auto_detect"
+      ]
+    },
+    {
+      "type": "routing",
+      "timestamp": "2025-11-17T12:05:48.669387",
+      "iteration": 16,
+      "user_request": "What is composting?",
+      "final_handler": "qa_handler",
+      "confidence": "high",
+      "reasoning": "Question/explanation pattern detected",
+      "rule_based_handler": null,
+      "llm_based_handler": null,
+      "agreement": null
+    },
+    {
+      "type": "execution",
+      "timestamp": "2025-11-17T12:05:49.735963",
+      "iteration": 16,
+      "handler": "qa_handler",
+      "parameters": {
+        "question": "What is composting?"
+      },
+      "success": true,
+      "execution_time": 1.0665631294250488,
+      "error": null
+    },
+    {
+      "type": "planning",
+      "timestamp": "2025-11-17T12:05:50.001396",
+      "iteration": 17,
+      "user_request": "Create a quiz about water conservation",
+      "plan": {
+        "main_goal": "Create a quiz about water conservation",
+        "requires_context": false,
+        "subtasks": [
+          {
+            "subtask_id": 1,
+            "description": "Process user request",
+            "capability": "auto_detect",
+            "inputs": {
+              "request": "Create a quiz about water conservation"
+            },
+            "depends_on": [],
+            "reasoning": "Direct processing of request"
+          }
+        ],
+        "expected_output": "Response to user request"
+      },
+      "context_used": true,
+      "num_subtasks": 1,
+      "capabilities_required": [
+        "auto_detect"
+      ]
+    },
+    {
+      "type": "routing",
+      "timestamp": "2025-11-17T12:05:50.001453",
+      "iteration": 17,
+      "user_request": "Create a quiz about water conservation",
+      "final_handler": "content_generator",
+      "confidence": "high",
+      "reasoning": "Content generation pattern detected",
+      "rule_based_handler": null,
+      "llm_based_handler": null,
+      "agreement": null
+    },
+    {
+      "type": "execution",
+      "timestamp": "2025-11-17T12:05:50.932775",
+      "iteration": 17,
+      "handler": "content_generator",
+      "parameters": {
+        "content_type": "quiz",
+        "topic": "water conservation"
+      },
+      "success": true,
+      "execution_time": 0.9313075542449951,
+      "error": null
+    },
+    {
+      "type": "planning",
+      "timestamp": "2025-11-17T12:05:51.199609",
+      "iteration": 18,
+      "user_request": "Compare recycling and composting",
+      "plan": {
+        "main_goal": "Compare recycling and composting",
+        "requires_context": false,
+        "subtasks": [
+          {
+            "subtask_id": 1,
+            "description": "Process user request",
+            "capability": "auto_detect",
+            "inputs": {
+              "request": "Compare recycling and composting"
+            },
+            "depends_on": [],
+            "reasoning": "Direct processing of request"
+          }
+        ],
+        "expected_output": "Response to user request"
+      },
+      "context_used": true,
+      "num_subtasks": 1,
+      "capabilities_required": [
+        "auto_detect"
+      ]
+    },
+    {
+      "type": "routing",
+      "timestamp": "2025-11-17T12:05:51.199683",
+      "iteration": 18,
+      "user_request": "Compare recycling and composting",
+      "final_handler": "content_generator",
+      "confidence": "high",
+      "reasoning": "Content generation pattern detected",
+      "rule_based_handler": null,
+      "llm_based_handler": null,
+      "agreement": null
+    },
+    {
+      "type": "execution",
+      "timestamp": "2025-11-17T12:05:51.679306",
+      "iteration": 18,
+      "handler": "content_generator",
+      "parameters": {
+        "content_type": "social_media"
+      },
+      "success": true,
+      "execution_time": 0.47960782051086426,
+      "error": null
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+app/
+
+# Ignore very large binaries / vendor bundles
+dataset/
+elasticsearch_local/
+elasticsearch.log
+embedding_generation.log
+milvus_lite.db
+milvus_retrieval.log
+es.pid
+pdf_extraction.log
+processing.log
+vector_indexing.log
+
+# Large Milvus binaries and data
+partc/milvus_lite_data/
+partc/bin/milvus
+partc/milvus_lite_data/bin/milvus
+
+# Large archives
+elasticsearch_local/elasticsearch-8.11.0-linux-x86_64.tar.gz
+
+# Local databases / test data
+test_milvus.db
+
+# OS / editor junk
+.DS_Store
+*.swp
+*.swo
+*.log
+

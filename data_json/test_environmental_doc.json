@@ -1,0 +1,14 @@
+{
+  "success": true,
+  "full_text": "This is a test environmental document about sustainability and climate change. It discusses renewable energy sources and environmental protection strategies.\n",
+  "total_text_length": 158,
+  "total_pages": 1,
+  "method": "text_file",
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "This is a test environmental document about sustainability and climate change. It discusses renewable energy sources and environmental protection strategies.\n",
+      "char_count": 158
+    }
+  ]
+}

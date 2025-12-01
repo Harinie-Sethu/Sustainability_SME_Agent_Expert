@@ -1,0 +1,19 @@
+{
+  "source_file": "test.txt",
+  "processing_timestamp": "2025-11-18T09:27:23.073052",
+  "original_metadata": {
+    "total_pages": 1,
+    "original_text_length": 2287,
+    "extraction_method": "text_file"
+  },
+  "filtering_stats": {
+    "original_length": 2287,
+    "sections_removed": 0,
+    "paragraphs_removed": 0,
+    "sentences_removed": 0,
+    "cleaned_length": 2241,
+    "retention_rate": 97.9886313948404
+  },
+  "cleaned_text": "consumer business trends consumers want sustainable options: 72 of global consumers are willing to pay more for sustainable products, and 88 show increased loyalty to businesses that advocate for social or environmental issues. green products are growing faster: products marketed as sustainable have grown twice as fast as those that arent. companies are prioritizing it: 90 of sp 500 companies now release esg (environmental, social, and governance) reports, and 76 of executives say sustainability is central to their business strategy. energy technology renewable energy is booming: global renewable energy capacity nearly quadrupled between 2010 and 2024. investments in energy transition technologies surpassed  trillion in 2024 alone. led lights are incredibly efficient: they are 80 more efficient than regular lights, and 95 of their energy is converted into light, with only  wasted as heat. electric vehicles (evs) are energy powerhouses: evs can use up to 80 of their battery energy to power the car, compared to fuel-powered vehicles that only use between 14-16 of their fuels energy. waste recycling aluminum cans have  superpower: recycling  single aluminum can saves enough energy to power  tv for over three hours. -waste is  goldmine: there is up to 30 times more gold in  tonne of old mobile phones than in  tonne of gold ore. the great pacific garbage patch is enormous: this vortex of trash is twice the size of continental america and contains about 100 million tons of garbage. food nature  plant-based diet saves  lot of water: more than,000 gallons of water are needed to produce  single pound of meat, while  pound of wheat only takes 25 gallons. bees are vital to our food supply: bees help produce almost three-quarters of the plants that form 90 of the worlds food source. indigenous people protect biodiversity: indigenous populations make up just  of the global population yet protect 80 of the planets biodiversity.  sign of hope the ozone layer is healing: thanks to the global phaseout of nearly 99 of ozone-depleting substances, the planets protective ozone layer is on track to be fully recovered by 2066. this demonstrates that collective human action can successfully address major environmental crises.",
+  "processing_success": true
+}

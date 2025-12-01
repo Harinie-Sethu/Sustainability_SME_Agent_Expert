@@ -1,0 +1,5 @@
+Log file created at: 2025/11/16 21:36:16
+Running on machine: spl-cair
+Running duration (h:mm:ss): 0:00:00
+Log line format: [IWEF]yyyymmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I20251116 21:36:16.393489 1114657 knowhere_config.cc:63] [KNOWHERE][SetSimdType][milvus] FAISS expect simdType::AUTO

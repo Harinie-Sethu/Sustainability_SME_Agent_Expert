@@ -1,0 +1,2728 @@
+{
+  "chunking_summary": {
+    "total_files": 41,
+    "successful_processing": 39,
+    "failed_processing": 2,
+    "total_chunks_created": 94293,
+    "avg_chunks_per_file": 2417.769230769231,
+    "chunking_timestamp": "2025-10-24T17:18:09.892354"
+  },
+  "file_results": [
+    {
+      "file": "librarians-going-green_cleaned.json",
+      "success": true,
+      "output_file": "librarians-going-green_chunked.json",
+      "total_chunks": 971,
+      "chunk_stats": {
+        "large_fixed_size": {
+          "chunk_count": 14,
+          "avg_tokens": 1931.7142857142858,
+          "min_tokens": 424,
+          "max_tokens": 2048,
+          "total_tokens": 27044
+        },
+        "large_content_aware": {
+          "chunk_count": 14,
+          "avg_tokens": 1945.5,
+          "min_tokens": 811,
+          "max_tokens": 2048,
+          "total_tokens": 27237
+        },
+        "large_recursive_character": {
+          "chunk_count": 14,
+          "avg_tokens": 1931.642857142857,
+          "min_tokens": 427,
+          "max_tokens": 2062,
+          "total_tokens": 27043
+        },
+        "medium_fixed_size": {
+          "chunk_count": 57,
+          "avg_tokens": 501.87719298245617,
+          "min_tokens": 12,
+          "max_tokens": 512,
+          "total_tokens": 28607
+        },
+        "medium_content_aware": {
+          "chunk_count": 59,
+          "avg_tokens": 489.0508474576271,
+          "min_tokens": 291,
+          "max_tokens": 512,
+          "total_tokens": 28854
+        },
+        "medium_recursive_character": {
+          "chunk_count": 56,
+          "avg_tokens": 510.625,
+          "min_tokens": 358,
+          "max_tokens": 537,
+          "total_tokens": 28595
+        },
+        "small_fixed_size": {
+          "chunk_count": 238,
+          "avg_tokens": 127.60504201680672,
+          "min_tokens": 93,
+          "max_tokens": 128,
+          "total_tokens": 30370
+        },
+        "small_content_aware": {
+          "chunk_count": 282,
+          "avg_tokens": 108.44680851063829,
+          "min_tokens": 49,
+          "max_tokens": 128,
+          "total_tokens": 30582
+        },
+        "small_recursive_character": {
+          "chunk_count": 237,
+          "avg_tokens": 127.9789029535865,
+          "min_tokens": 100,
+          "max_tokens": 155,
+          "total_tokens": 30331
+        }
+      }
+    },
+    {
+      "file": "Environmental-Education-Communication-for-a-sustainable-world_cleaned.json",
+      "success": true,
+      "output_file": "Environmental-Education-Communication-for-a-sustainable-world_chunked.json",
+      "total_chunks": 3949,
+      "chunk_stats": {
+        "large_fixed_size": {
+          "chunk_count": 55,
+          "avg_tokens": 2025.7454545454545,
+          "min_tokens": 834,
+          "max_tokens": 2048,
+          "total_tokens": 111416
+        },
+        "large_content_aware": {
+          "chunk_count": 56,
+          "avg_tokens": 1995.107142857143,
+          "min_tokens": 1425,
+          "max_tokens": 2047,
+          "total_tokens": 111726
+        },
+        "large_recursive_character": {
+          "chunk_count": 55,
+          "avg_tokens": 2019.509090909091,
+          "min_tokens": 428,
+          "max_tokens": 2092,
+          "total_tokens": 111073
+        },
+        "medium_fixed_size": {
+          "chunk_count": 231,
+          "avg_tokens": 510.67965367965365,
+          "min_tokens": 262,
+          "max_tokens": 512,
+          "total_tokens": 117967
+        },
+        "medium_content_aware": {
+          "chunk_count": 252,
+          "avg_tokens": 469.98809523809524,
+          "min_tokens": 207,
+          "max_tokens": 662,
+          "total_tokens": 118437
+        },
+        "medium_recursive_character": {
+          "chunk_count": 231,
+          "avg_tokens": 509.3030303030303,
+          "min_tokens": 378,
+          "max_tokens": 560,
+          "total_tokens": 117649
+        },
+        "small_fixed_size": {
+          "chunk_count": 980,
+          "avg_tokens": 127.65102040816326,
+          "min_tokens": 21,
+          "max_tokens": 128,
+          "total_tokens": 125098
+        },
+        "small_content_aware": {
+          "chunk_count": 1109,
+          "avg_tokens": 113.14337240757439,
+          "min_tokens": 30,
+          "max_tokens": 675,
+          "total_tokens": 125476
+        },
+        "small_recursive_character": {
+          "chunk_count": 980,
+          "avg_tokens": 127.32857142857142,
+          "min_tokens": 78,
+          "max_tokens": 177,
+          "total_tokens": 124782
+        }
+      }
+    },
+    {
+      "file": "RAlexandar_cleaned.json",
+      "success": true,
+      "output_file": "RAlexandar_chunked.json",
+      "total_chunks": 2868,
+      "chunk_stats": {
+        "large_fixed_size": {
+          "chunk_count": 40,
+          "avg_tokens": 1999.475,
+          "min_tokens": 163,
+          "max_tokens": 2048,
+          "total_tokens": 79979
+        },
+        "large_content_aware": {
+          "chunk_count": 41,
+          "avg_tokens": 1964.658536585366,
+          "min_tokens": 656,
+          "max_tokens": 2048,
+          "total_tokens": 80551
+        },
+        "large_recursive_character": {
+          "chunk_count": 39,
+          "avg_tokens": 2044.5384615384614,
+          "min_tokens": 2010,
+          "max_tokens": 2082,
+          "total_tokens": 79737
+        },
+        "medium_fixed_size": {
+          "chunk_count": 166,
+          "avg_tokens": 510.0,
+          "min_tokens": 234,
+          "max_tokens": 512,
+          "total_tokens": 84660
+        },
+        "medium_content_aware": {
+          "chunk_count": 177,
+          "avg_tokens": 481.11299435028246,
+          "min_tokens": 123,
+          "max_tokens": 512,
+          "total_tokens": 85157
+        },
+        "medium_recursive_character": {
+          "chunk_count": 167,
+          "avg_tokens": 506.76646706586826,
+          "min_tokens": 68,
+          "max_tokens": 556,
+          "total_tokens": 84630
+        },
+        "small_fixed_size": {
+          "chunk_count": 703,
+          "avg_tokens": 127.6842105263158,
+          "min_tokens": 95,
+          "max_tokens": 128,
+          "total_tokens": 89762
+        },
+        "small_content_aware": {
+          "chunk_count": 831,
+          "avg_tokens": 108.5667870036101,
+          "min_tokens": 30,
+          "max_tokens": 464,
+          "total_tokens": 90219
+        },
+        "small_recursive_character": {
+          "chunk_count": 704,
+          "avg_tokens": 127.31107954545455,
+          "min_tokens": 66,
+          "max_tokens": 176,
+          "total_tokens": 89627
+        }
+      }
+    },
+    {
+      "file": "1_Dr.+Denis+Vaz_cleaned.json",
+      "success": true,
+      "output_file": "1_Dr.+Denis+Vaz_chunked.json",
+      "total_chunks": 373,
+      "chunk_stats": {
+        "large_fixed_size": {
+          "chunk_count": 6,
+          "avg_tokens": 1709.1666666666667,
+          "min_tokens": 110,
+          "max_tokens": 2048,
+          "total_tokens": 10255
+        },
+        "large_content_aware": {
+          "chunk_count": 6,
+          "avg_tokens": 1735.5,
+          "min_tokens": 262,
+          "max_tokens": 2048,
+          "total_tokens": 10413
+        },
+        "large_recursive_character": {
+          "chunk_count": 5,
+          "avg_tokens": 2029.4,
+          "min_tokens": 1919,
+          "max_tokens": 2072,
+          "total_tokens": 10147
+        },
+        "medium_fixed_size": {
+          "chunk_count": 22,
+          "avg_tokens": 497.04545454545456,
+          "min_tokens": 186,
+          "max_tokens": 512,
+          "total_tokens": 10935
+        },
+        "medium_content_aware": {
+          "chunk_count": 23,
+          "avg_tokens": 478.3478260869565,
+          "min_tokens": 245,
+          "max_tokens": 511,
+          "total_tokens": 11002
+        },
+        "medium_recursive_character": {
+          "chunk_count": 22,
+          "avg_tokens": 496.45454545454544,
+          "min_tokens": 203,
+          "max_tokens": 541,
+          "total_tokens": 10922
+        },
+        "small_fixed_size": {
+          "chunk_count": 91,
+          "avg_tokens": 127.41758241758242,
+          "min_tokens": 101,
+          "max_tokens": 128,
+          "total_tokens": 11595
+        },
+        "small_content_aware": {
+          "chunk_count": 109,
+          "avg_tokens": 106.97247706422019,
+          "min_tokens": 38,
+          "max_tokens": 169,
+          "total_tokens": 11660
+        },
+        "small_recursive_character": {
+          "chunk_count": 89,
+          "avg_tokens": 130.2808988764045,
+          "min_tokens": 52,
+          "max_tokens": 172,
+          "total_tokens": 11595
+        }
+      }
+    },
+    {
+      "file": "sourcebook_on_sd_cleaned.json",
+      "success": true,
+      "output_file": "sourcebook_on_sd_chunked.json",
+      "total_chunks": 3875,
+      "chunk_stats": {
+        "large_fixed_size": {
+          "chunk_count": 54,
+          "avg_tokens": 2026.0185185185185,
+          "min_tokens": 878,
+          "max_tokens": 2048,
+          "total_tokens": 109405
+        },
+        "large_content_aware": {
+          "chunk_count": 55,
+          "avg_tokens": 2007.6,
+          "min_tokens": 1441,
+          "max_tokens": 2048,
+          "total_tokens": 110418
+        },
+        "large_recursive_character": {
+          "chunk_count": 54,
+          "avg_tokens": 2023.6851851851852,
+          "min_tokens": 817,
+          "max_tokens": 2085,
+          "total_tokens": 109279
+        },
+        "medium_fixed_size": {
+          "chunk_count": 227,
+          "avg_tokens": 510.295154185022,
+          "min_tokens": 204,
+          "max_tokens": 512,
+          "total_tokens": 115837
+        },
+        "medium_content_aware": {
+          "chunk_count": 243,
+          "avg_tokens": 481.05349794238685,
+          "min_tokens": 193,
+          "max_tokens": 1025,
+          "total_tokens": 116896
+        },
+        "medium_recursive_character": {
+          "chunk_count": 226,
+          "avg_tokens": 511.78761061946904,
+          "min_tokens": 215,
+          "max_tokens": 556,
+          "total_tokens": 115664
+        },
+        "small_fixed_size": {
+          "chunk_count": 962,
+          "avg_tokens": 127.5935550935551,
+          "min_tokens": 68,
+          "max_tokens": 128,
+          "total_tokens": 122745
+        },
+        "small_content_aware": {
+          "chunk_count": 1096,
+          "avg_tokens": 112.9279197080292,
+          "min_tokens": 32,
+          "max_tokens": 988,
+          "total_tokens": 123769
+        },
+        "small_recursive_character": {
+          "chunk_count": 958,
+          "avg_tokens": 127.9812108559499,
+          "min_tokens": 54,
+          "max_tokens": 177,
+          "total_tokens": 122606
+        }
+      }
+    },
+    {
+      "file": "ENVIRONMENTAL EDUCATION_cleaned.json",
+      "success": true,
+      "output_file": "ENVIRONMENTAL EDUCATION_chunked.json",
+      "total_chunks": 3375,
+      "chunk_stats": {
+        "large_fixed_size": {
+          "chunk_count": 47,
+          "avg_tokens": 2011.5106382978724,
+          "min_tokens": 347,
+          "max_tokens": 2048,
+          "total_tokens": 94541
+        },
+        "large_content_aware": {
+          "chunk_count": 47,
+          "avg_tokens": 2023.8936170212767,
+          "min_tokens": 1978,
+          "max_tokens": 2047,
+          "total_tokens": 95123
+        },
+        "large_recursive_character": {
+          "chunk_count": 47,
+          "avg_tokens": 2011.340425531915,
+          "min_tokens": 342,
+          "max_tokens": 2095,
+          "total_tokens": 94533
+        },
+        "medium_fixed_size": {
+          "chunk_count": 196,
+          "avg_tokens": 510.484693877551,
+          "min_tokens": 262,
+          "max_tokens": 512,
+          "total_tokens": 100055
+        },
+        "medium_content_aware": {
+          "chunk_count": 205,
+          "avg_tokens": 491.5853658536585,
+          "min_tokens": 391,
+          "max_tokens": 512,
+          "total_tokens": 100775
+        },
+        "medium_recursive_character": {
+          "chunk_count": 196,
+          "avg_tokens": 510.234693877551,
+          "min_tokens": 250,
+          "max_tokens": 556,
+          "total_tokens": 100006
+        },
+        "small_fixed_size": {
+          "chunk_count": 831,
+          "avg_tokens": 127.60649819494584,
+          "min_tokens": 61,
+          "max_tokens": 128,
+          "total_tokens": 106041
+        },
+        "small_content_aware": {
+          "chunk_count": 980,
+          "avg_tokens": 108.86938775510204,
+          "min_tokens": 29,
+          "max_tokens": 361,
+          "total_tokens": 106692
+        },
+        "small_recursive_character": {
+          "chunk_count": 826,
+          "avg_tokens": 128.23002421307507,
+          "min_tokens": 83,
+          "max_tokens": 177,
+          "total_tokens": 105918
+        }
+      }
+    },
+    {
+      "file": "11_cleaned.json",
+      "success": true,
+      "output_file": "11_chunked.json",
+      "total_chunks": 11307,
+      "chunk_stats": {
+        "large_fixed_size": {
+          "chunk_count": 207,
+          "avg_tokens": 2043.0338164251207,
+          "min_tokens": 1069,
+          "max_tokens": 2048,
+          "total_tokens": 422908
+        },
+        "large_content_aware": {
+          "chunk_count": 213,
+          "avg_tokens": 2002.4788732394366,
+          "min_tokens": 512,
+          "max_tokens": 2048,
+          "total_tokens": 426528
+        },
+        "large_recursive_character": {
+          "chunk_count": 207,
+          "avg_tokens": 2041.1256038647343,
+          "min_tokens": 748,
+          "max_tokens": 2091,
+          "total_tokens": 422513
+        },
+        "medium_fixed_size": {
+          "chunk_count": 875,
+          "avg_tokens": 511.56228571428574,
+          "min_tokens": 370,
+          "max_tokens": 512,
+          "total_tokens": 447617
+        },
+        "medium_content_aware": {
+          "chunk_count": 926,
+          "avg_tokens": 487.14362850971924,
+          "min_tokens": 146,
+          "max_tokens": 1489,
+          "total_tokens": 451095
+        },
+        "medium_recursive_character": {
+          "chunk_count": 875,
+          "avg_tokens": 511.128,
+          "min_tokens": 358,
+          "max_tokens": 561,
+          "total_tokens": 447237
+        },
+        "small_fixed_size": {
+          "chunk_count": 3715,
+          "avg_tokens": 127.71359353970391,
+          "min_tokens": 93,
+          "max_tokens": 128,
+          "total_tokens": 474456
+        },
+        "small_content_aware": {
+          "chunk_count": 4289,
+          "avg_tokens": 111.34879925390534,
+          "min_tokens": 29,
+          "max_tokens": 1523,
+          "total_tokens": 477575
+        }
+      }
+    },
+    {
+      "file": "shsconf_brd2023_01009_cleaned.json",
+      "success": true,
+      "output_file": "shsconf_brd2023_01009_chunked.json",
+      "total_chunks": 322,
+      "chunk_stats": {
+        "large_fixed_size": {
+          "chunk_count": 5,
+          "avg_tokens": 1748.2,
+          "min_tokens": 550,
+          "max_tokens": 2048,
+          "total_tokens": 8741
+        },
+        "large_content_aware": {
+          "chunk_count": 5,
+          "avg_tokens": 1760.4,
+          "min_tokens": 680,
+          "max_tokens": 2040,
+          "total_tokens": 8802
+        },
+        "large_recursive_character": {
+          "chunk_count": 5,
+          "avg_tokens": 1748.4,
+          "min_tokens": 537,
+          "max_tokens": 2068,
+          "total_tokens": 8742
+        },
+        "medium_fixed_size": {
+          "chunk_count": 19,
+          "avg_tokens": 489.42105263157896,
+          "min_tokens": 89,
+          "max_tokens": 512,
+          "total_tokens": 9299
+        },
+        "medium_content_aware": {
+          "chunk_count": 20,
+          "avg_tokens": 468.5,
+          "min_tokens": 118,
+          "max_tokens": 511,
+          "total_tokens": 9370
+        },
+        "medium_recursive_character": {
+          "chunk_count": 19,
+          "avg_tokens": 489.3157894736842,
+          "min_tokens": 105,
+          "max_tokens": 539,
+          "total_tokens": 9297
+        },
+        "small_fixed_size": {
+          "chunk_count": 78,
+          "avg_tokens": 126.44871794871794,
+          "min_tokens": 31,
+          "max_tokens": 128,
+          "total_tokens": 9863
+        },
+        "small_content_aware": {
+          "chunk_count": 94,
+          "avg_tokens": 105.38297872340425,
+          "min_tokens": 62,
+          "max_tokens": 127,
+          "total_tokens": 9906
+        },
+        "small_recursive_character": {
+          "chunk_count": 77,
+          "avg_tokens": 127.62337662337663,
+          "min_tokens": 95,
+          "max_tokens": 161,
+          "total_tokens": 9827
+        }
+      }
+    },
+    {
+      "file": "lowresenvironmental-awareness-for-sustainable-development-a-resource-book-for-namibia_cleaned.json",
+      "success": true,
+      "output_file": "lowresenvironmental-awareness-for-sustainable-development-a-resource-book-for-namibia_chunked.json",
+      "total_chunks": 3958,
+      "chunk_stats": {
+        "large_fixed_size": {
+          "chunk_count": 73,
+          "avg_tokens": 2044.7534246575342,
+          "min_tokens": 1835,
+          "max_tokens": 2048,
+          "total_tokens": 149267
+        },
+        "large_content_aware": {
+          "chunk_count": 76,
+          "avg_tokens": 1977.5394736842106,
+          "min_tokens": 721,
+          "max_tokens": 2048,
+          "total_tokens": 150293
+        },
+        "large_recursive_character": {
+          "chunk_count": 73,
+          "avg_tokens": 2042.4109589041095,
+          "min_tokens": 1650,
+          "max_tokens": 2094,
+          "total_tokens": 149096
+        },
+        "medium_fixed_size": {
+          "chunk_count": 310,
+          "avg_tokens": 510.23225806451615,
+          "min_tokens": 57,
+          "max_tokens": 512,
+          "total_tokens": 158172
+        },
+        "medium_content_aware": {
+          "chunk_count": 322,
+          "avg_tokens": 493.98447204968943,
+          "min_tokens": 90,
+          "max_tokens": 1887,
+          "total_tokens": 159063
+        },
+        "medium_recursive_character": {
+          "chunk_count": 309,
+          "avg_tokens": 511.4822006472492,
+          "min_tokens": 121,
+          "max_tokens": 560,
+          "total_tokens": 158048
+        },
+        "small_fixed_size": {
+          "chunk_count": 1313,
+          "avg_tokens": 127.68012185833967,
+          "min_tokens": 69,
+          "max_tokens": 128,
+          "total_tokens": 167644
+        },
+        "small_content_aware": {
+          "chunk_count": 1482,
+          "avg_tokens": 113.6221322537112,
+          "min_tokens": 40,
+          "max_tokens": 1976,
+          "total_tokens": 168388
+        }
+      }
+    },
+    {
+      "file": "18-034_39d7d71d-9e84-4e8b-97c0-0e626f75293c_cleaned.json",
+      "success": true,
+      "output_file": "18-034_39d7d71d-9e84-4e8b-97c0-0e626f75293c_chunked.json",
+      "total_chunks": 742,
+      "chunk_stats": {
+        "large_fixed_size": {
+          "chunk_count": 10,
+          "avg_tokens": 2017.4,
+          "min_tokens": 1745,
+          "max_tokens": 2048,
+          "total_tokens": 20174
+        },
+        "large_content_aware": {
+          "chunk_count": 10,
+          "avg_tokens": 2026.8,
+          "min_tokens": 2017,
+          "max_tokens": 2039,
+          "total_tokens": 20268
+        },
+        "large_recursive_character": {
+          "chunk_count": 10,
+          "avg_tokens": 2016.2,
+          "min_tokens": 1822,
+          "max_tokens": 2063,
+          "total_tokens": 20162
+        },
+        "medium_fixed_size": {
+          "chunk_count": 43,
+          "avg_tokens": 500.3488372093023,
+          "min_tokens": 54,
+          "max_tokens": 512,
+          "total_tokens": 21515
+        },
+        "medium_content_aware": {
+          "chunk_count": 45,
+          "avg_tokens": 481.1333333333333,
+          "min_tokens": 165,
+          "max_tokens": 512,
+          "total_tokens": 21651
+        },
+        "medium_recursive_character": {
+          "chunk_count": 43,
+          "avg_tokens": 500.1162790697674,
+          "min_tokens": 193,
+          "max_tokens": 538,
+          "total_tokens": 21505
+        },
+        "small_fixed_size": {
+          "chunk_count": 179,
+          "avg_tokens": 127.50837988826815,
+          "min_tokens": 89,
+          "max_tokens": 128,
+          "total_tokens": 22824
+        },
+        "small_content_aware": {
+          "chunk_count": 222,
+          "avg_tokens": 103.21171171171171,
+          "min_tokens": 44,
+          "max_tokens": 153,
+          "total_tokens": 22913
+        },
+        "small_recursive_character": {
+          "chunk_count": 180,
+          "avg_tokens": 126.52222222222223,
+          "min_tokens": 85,
+          "max_tokens": 162,
+          "total_tokens": 22774
+        }
+      }
+    },
+    {
+      "file": "ENV 2_cleaned.json",
+      "success": true,
+      "output_file": "ENV 2_chunked.json",
+      "total_chunks": 246,
+      "chunk_stats": {
+        "large_fixed_size": {
+          "chunk_count": 4,
+          "avg_tokens": 1682.0,
+          "min_tokens": 584,
+          "max_tokens": 2048,
+          "total_tokens": 6728
+        },
+        "large_content_aware": {
+          "chunk_count": 4,
+          "avg_tokens": 1692.0,
+          "min_tokens": 673,
+          "max_tokens": 2036,
+          "total_tokens": 6768
+        },
+        "large_recursive_character": {
+          "chunk_count": 4,
+          "avg_tokens": 1681.75,
+          "min_tokens": 577,
+          "max_tokens": 2054,
+          "total_tokens": 6727
+        },
+        "medium_fixed_size": {
+          "chunk_count": 15,
+          "avg_tokens": 475.3333333333333,
+          "min_tokens": 20,
+          "max_tokens": 512,
+          "total_tokens": 7130
+        },
+        "medium_content_aware": {
+          "chunk_count": 16,
+          "avg_tokens": 450.9375,
+          "min_tokens": 142,
+          "max_tokens": 510,
+          "total_tokens": 7215
+        },
+        "medium_recursive_character": {
+          "chunk_count": 14,
+          "avg_tokens": 506.7142857142857,
+          "min_tokens": 474,
+          "max_tokens": 534,
+          "total_tokens": 7094
+        },
+        "small_fixed_size": {
+          "chunk_count": 60,
+          "avg_tokens": 126.68333333333334,
+          "min_tokens": 66,
+          "max_tokens": 128,
+          "total_tokens": 7601
+        },
+        "small_content_aware": {
+          "chunk_count": 71,
+          "avg_tokens": 107.47887323943662,
+          "min_tokens": 61,
+          "max_tokens": 331,
+          "total_tokens": 7631
+        },
+        "small_recursive_character": {
+          "chunk_count": 58,
+          "avg_tokens": 130.81034482758622,
+          "min_tokens": 85,
+          "max_tokens": 176,
+          "total_tokens": 7587
+        }
+      }
+    },
+    {
+      "file": "Environmental-Issues_cleaned.json",
+      "success": true,
+      "output_file": "Environmental-Issues_chunked.json",
+      "total_chunks": 2615,
+      "chunk_stats": {
+        "large_fixed_size": {
+          "chunk_count": 36,
+          "avg_tokens": 2023.611111111111,
+          "min_tokens": 1176,
+          "max_tokens": 2048,
+          "total_tokens": 72850
+        },
+        "large_content_aware": {
+          "chunk_count": 37,
+          "avg_tokens": 1983.2972972972973,
+          "min_tokens": 716,
+          "max_tokens": 2048,
+          "total_tokens": 73382
+        },
+        "large_recursive_character": {
+          "chunk_count": 36,
+          "avg_tokens": 2019.2222222222222,
+          "min_tokens": 913,
+          "max_tokens": 2083,
+          "total_tokens": 72692
+        },
+        "medium_fixed_size": {
+          "chunk_count": 151,
+          "avg_tokens": 511.04635761589407,
+          "min_tokens": 403,
+          "max_tokens": 512,
+          "total_tokens": 77168
+        },
+        "medium_content_aware": {
+          "chunk_count": 162,
+          "avg_tokens": 479.34567901234567,
+          "min_tokens": 179,
+          "max_tokens": 518,
+          "total_tokens": 77654
+        },
+        "medium_recursive_character": {
+          "chunk_count": 152,
+          "avg_tokens": 507.5855263157895,
+          "min_tokens": 114,
+          "max_tokens": 546,
+          "total_tokens": 77153
+        },
+        "small_fixed_size": {
+          "chunk_count": 641,
+          "avg_tokens": 127.63026521060843,
+          "min_tokens": 90,
+          "max_tokens": 128,
+          "total_tokens": 81811
+        },
+        "small_content_aware": {
+          "chunk_count": 759,
+          "avg_tokens": 108.33201581027669,
+          "min_tokens": 46,
+          "max_tokens": 512,
+          "total_tokens": 82224
+        },
+        "small_recursive_character": {
+          "chunk_count": 641,
+          "avg_tokens": 127.34165366614664,
+          "min_tokens": 79,
+          "max_tokens": 173,
+          "total_tokens": 81626
+        }
+      }
+    },
+    {
+      "file": "ENVIRONMENTAL-SCIENCE-1_cleaned.json",
+      "success": true,
+      "output_file": "ENVIRONMENTAL-SCIENCE-1_chunked.json",
+      "total_chunks": 3547,
+      "chunk_stats": {
+        "large_fixed_size": {
+          "chunk_count": 49,
+          "avg_tokens": 2031.0204081632653,
+          "min_tokens": 1227,
+          "max_tokens": 2048,
+          "total_tokens": 99520
+        },
+        "large_content_aware": {
+          "chunk_count": 50,
+          "avg_tokens": 2006.22,
+          "min_tokens": 991,
+          "max_tokens": 2047,
+          "total_tokens": 100311
+        },
+        "large_recursive_character": {
+          "chunk_count": 49,
+          "avg_tokens": 2029.734693877551,
+          "min_tokens": 1118,
+          "max_tokens": 2087,
+          "total_tokens": 99457
+        },
+        "medium_fixed_size": {
+          "chunk_count": 207,
+          "avg_tokens": 509.2173913043478,
+          "min_tokens": 41,
+          "max_tokens": 512,
+          "total_tokens": 105408
+        },
+        "medium_content_aware": {
+          "chunk_count": 218,
+          "avg_tokens": 486.8440366972477,
+          "min_tokens": 276,
+          "max_tokens": 645,
+          "total_tokens": 106132
+        },
+        "medium_recursive_character": {
+          "chunk_count": 206,
+          "avg_tokens": 510.90291262135923,
+          "min_tokens": 291,
+          "max_tokens": 559,
+          "total_tokens": 105246
+        },
+        "small_fixed_size": {
+          "chunk_count": 876,
+          "avg_tokens": 127.57077625570776,
+          "min_tokens": 15,
+          "max_tokens": 128,
+          "total_tokens": 111752
+        },
+        "small_content_aware": {
+          "chunk_count": 1014,
+          "avg_tokens": 110.83530571992111,
+          "min_tokens": 39,
+          "max_tokens": 615,
+          "total_tokens": 112387
+        },
+        "small_recursive_character": {
+          "chunk_count": 878,
+          "avg_tokens": 127.10592255125285,
+          "min_tokens": 55,
+          "max_tokens": 176,
+          "total_tokens": 111599
+        }
+      }
+    },
+    {
+      "file": "Council_Env_2019FF_cleaned.json",
+      "success": true,
+      "output_file": "Council_Env_2019FF_chunked.json",
+      "total_chunks": 1438,
+      "chunk_stats": {
+        "large_fixed_size": {
+          "chunk_count": 20,
+          "avg_tokens": 2024.15,
+          "min_tokens": 1574,
+          "max_tokens": 2048,
+          "total_tokens": 40483
+        },
+        "large_content_aware": {
+          "chunk_count": 21,
+          "avg_tokens": 1950.4285714285713,
+          "min_tokens": 281,
+          "max_tokens": 2048,
+          "total_tokens": 40959
+        },
+        "large_recursive_character": {
+          "chunk_count": 20,
+          "avg_tokens": 2024.05,
+          "min_tokens": 1525,
+          "max_tokens": 2077,
+          "total_tokens": 40481
+        },
+        "medium_fixed_size": {
+          "chunk_count": 85,
+          "avg_tokens": 505.61176470588236,
+          "min_tokens": 35,
+          "max_tokens": 512,
+          "total_tokens": 42977
+        },
+        "medium_content_aware": {
+          "chunk_count": 89,
+          "avg_tokens": 486.2134831460674,
+          "min_tokens": 202,
+          "max_tokens": 625,
+          "total_tokens": 43273
+        },
+        "medium_recursive_character": {
+          "chunk_count": 85,
+          "avg_tokens": 505.6,
+          "min_tokens": 86,
+          "max_tokens": 551,
+          "total_tokens": 42976
+        },
+        "small_fixed_size": {
+          "chunk_count": 358,
+          "avg_tokens": 127.30446927374301,
+          "min_tokens": 3,
+          "max_tokens": 128,
+          "total_tokens": 45575
+        },
+        "small_content_aware": {
+          "chunk_count": 405,
+          "avg_tokens": 113.08641975308642,
+          "min_tokens": 45,
+          "max_tokens": 610,
+          "total_tokens": 45800
+        },
+        "small_recursive_character": {
+          "chunk_count": 355,
+          "avg_tokens": 128.2450704225352,
+          "min_tokens": 39,
+          "max_tokens": 175,
+          "total_tokens": 45527
+        }
+      }
+    },
+    {
+      "file": "maldybaeva2022_cleaned.json",
+      "success": true,
+      "output_file": "maldybaeva2022_chunked.json",
+      "total_chunks": 845,
+      "chunk_stats": {
+        "large_fixed_size": {
+          "chunk_count": 12,
+          "avg_tokens": 1947.75,
+          "min_tokens": 846,
+          "max_tokens": 2048,
+          "total_tokens": 23373
+        },
+        "large_content_aware": {
+          "chunk_count": 12,
+          "avg_tokens": 1959.6666666666667,
+          "min_tokens": 1187,
+          "max_tokens": 2046,
+          "total_tokens": 23516
+        },
+        "large_recursive_character": {
+          "chunk_count": 12,
+          "avg_tokens": 1948.0833333333333,
+          "min_tokens": 784,
+          "max_tokens": 2077,
+          "total_tokens": 23377
+        },
+        "medium_fixed_size": {
+          "chunk_count": 49,
+          "avg_tokens": 506.0816326530612,
+          "min_tokens": 229,
+          "max_tokens": 512,
+          "total_tokens": 24798
+        },
+        "medium_content_aware": {
+          "chunk_count": 52,
+          "avg_tokens": 480.0576923076923,
+          "min_tokens": 298,
+          "max_tokens": 512,
+          "total_tokens": 24963
+        },
+        "medium_recursive_character": {
+          "chunk_count": 49,
+          "avg_tokens": 505.7959183673469,
+          "min_tokens": 209,
+          "max_tokens": 554,
+          "total_tokens": 24784
+        },
+        "small_fixed_size": {
+          "chunk_count": 207,
+          "avg_tokens": 127.1304347826087,
+          "min_tokens": 7,
+          "max_tokens": 128,
+          "total_tokens": 26316
+        },
+        "small_content_aware": {
+          "chunk_count": 244,
+          "avg_tokens": 108.35655737704919,
+          "min_tokens": 49,
+          "max_tokens": 288,
+          "total_tokens": 26439
+        },
+        "small_recursive_character": {
+          "chunk_count": 208,
+          "avg_tokens": 126.36057692307692,
+          "min_tokens": 31,
+          "max_tokens": 168,
+          "total_tokens": 26283
+        }
+      }
+    },
+    {
+      "file": "sample-chapter_cleaned.json",
+      "success": true,
+      "output_file": "sample-chapter_chunked.json",
+      "total_chunks": 2187,
+      "chunk_stats": {
+        "large_fixed_size": {
+          "chunk_count": 30,
+          "avg_tokens": 2038.7666666666667,
+          "min_tokens": 1782,
+          "max_tokens": 2048,
+          "total_tokens": 61163
+        },
+        "large_content_aware": {
+          "chunk_count": 31,
+          "avg_tokens": 1989.5483870967741,
+          "min_tokens": 1135,
+          "max_tokens": 2047,
+          "total_tokens": 61676
+        },
+        "large_recursive_character": {
+          "chunk_count": 30,
+          "avg_tokens": 2036.9333333333334,
+          "min_tokens": 1718,
+          "max_tokens": 2073,
+          "total_tokens": 61108
+        },
+        "medium_fixed_size": {
+          "chunk_count": 127,
+          "avg_tokens": 510.86614173228344,
+          "min_tokens": 395,
+          "max_tokens": 512,
+          "total_tokens": 64880
+        },
+        "medium_content_aware": {
+          "chunk_count": 133,
+          "avg_tokens": 491.18045112781954,
+          "min_tokens": 257,
+          "max_tokens": 512,
+          "total_tokens": 65327
+        },
+        "medium_recursive_character": {
+          "chunk_count": 127,
+          "avg_tokens": 509.6771653543307,
+          "min_tokens": 407,
+          "max_tokens": 553,
+          "total_tokens": 64729
+        },
+        "small_fixed_size": {
+          "chunk_count": 539,
+          "avg_tokens": 127.6604823747681,
+          "min_tokens": 91,
+          "max_tokens": 128,
+          "total_tokens": 68809
+        },
+        "small_content_aware": {
+          "chunk_count": 630,
+          "avg_tokens": 109.72698412698412,
+          "min_tokens": 27,
+          "max_tokens": 254,
+          "total_tokens": 69128
+        },
+        "small_recursive_character": {
+          "chunk_count": 540,
+          "avg_tokens": 127.11296296296297,
+          "min_tokens": 79,
+          "max_tokens": 177,
+          "total_tokens": 68641
+        }
+      }
+    },
+    {
+      "file": "17140328931_cleaned.json",
+      "success": true,
+      "output_file": "17140328931_chunked.json",
+      "total_chunks": 229,
+      "chunk_stats": {
+        "large_fixed_size": {
+          "chunk_count": 4,
+          "avg_tokens": 1570.75,
+          "min_tokens": 172,
+          "max_tokens": 2048,
+          "total_tokens": 6283
+        },
+        "large_content_aware": {
+          "chunk_count": 4,
+          "avg_tokens": 1588.5,
+          "min_tokens": 284,
+          "max_tokens": 2046,
+          "total_tokens": 6354
+        },
+        "large_recursive_character": {
+          "chunk_count": 3,
+          "avg_tokens": 2038.0,
+          "min_tokens": 1981,
+          "max_tokens": 2071,
+          "total_tokens": 6114
+        },
+        "medium_fixed_size": {
+          "chunk_count": 14,
+          "avg_tokens": 475.92857142857144,
+          "min_tokens": 43,
+          "max_tokens": 512,
+          "total_tokens": 6663
+        },
+        "medium_content_aware": {
+          "chunk_count": 14,
+          "avg_tokens": 478.7142857142857,
+          "min_tokens": 303,
+          "max_tokens": 510,
+          "total_tokens": 6702
+        },
+        "medium_recursive_character": {
+          "chunk_count": 13,
+          "avg_tokens": 509.0,
+          "min_tokens": 476,
+          "max_tokens": 529,
+          "total_tokens": 6617
+        },
+        "small_fixed_size": {
+          "chunk_count": 56,
+          "avg_tokens": 126.51785714285714,
+          "min_tokens": 64,
+          "max_tokens": 128,
+          "total_tokens": 7085
+        },
+        "small_content_aware": {
+          "chunk_count": 66,
+          "avg_tokens": 108.01515151515152,
+          "min_tokens": 49,
+          "max_tokens": 138,
+          "total_tokens": 7129
+        },
+        "small_recursive_character": {
+          "chunk_count": 55,
+          "avg_tokens": 128.8181818181818,
+          "min_tokens": 47,
+          "max_tokens": 168,
+          "total_tokens": 7085
+        }
+      }
+    },
+    {
+      "file": "60e84f78c293e43c0915a6b8bfdb6d7a_cleaned.json",
+      "success": true,
+      "output_file": "60e84f78c293e43c0915a6b8bfdb6d7a_chunked.json",
+      "total_chunks": 140,
+      "chunk_stats": {
+        "large_fixed_size": {
+          "chunk_count": 2,
+          "avg_tokens": 1847.5,
+          "min_tokens": 1647,
+          "max_tokens": 2048,
+          "total_tokens": 3695
+        },
+        "large_content_aware": {
+          "chunk_count": 2,
+          "avg_tokens": 1870.0,
+          "min_tokens": 1702,
+          "max_tokens": 2038,
+          "total_tokens": 3740
+        },
+        "large_recursive_character": {
+          "chunk_count": 2,
+          "avg_tokens": 1847.5,
+          "min_tokens": 1643,
+          "max_tokens": 2052,
+          "total_tokens": 3695
+        },
+        "medium_fixed_size": {
+          "chunk_count": 9,
+          "avg_tokens": 448.1111111111111,
+          "min_tokens": 9,
+          "max_tokens": 512,
+          "total_tokens": 4033
+        },
+        "medium_content_aware": {
+          "chunk_count": 9,
+          "avg_tokens": 458.3333333333333,
+          "min_tokens": 183,
+          "max_tokens": 512,
+          "total_tokens": 4125
+        },
+        "medium_recursive_character": {
+          "chunk_count": 8,
+          "avg_tokens": 503.25,
+          "min_tokens": 440,
+          "max_tokens": 538,
+          "total_tokens": 4026
+        },
+        "small_fixed_size": {
+          "chunk_count": 35,
+          "avg_tokens": 123.65714285714286,
+          "min_tokens": 6,
+          "max_tokens": 128,
+          "total_tokens": 4328
+        },
+        "small_content_aware": {
+          "chunk_count": 39,
+          "avg_tokens": 112.17948717948718,
+          "min_tokens": 89,
+          "max_tokens": 128,
+          "total_tokens": 4375
+        },
+        "small_recursive_character": {
+          "chunk_count": 34,
+          "avg_tokens": 127.20588235294117,
+          "min_tokens": 85,
+          "max_tokens": 144,
+          "total_tokens": 4325
+        }
+      }
+    },
+    {
+      "file": "EDU_403_cleaned.json",
+      "success": false,
+      "error": "No text content to chunk"
+    },
+    {
+      "file": "Environment-and-Sustainability-Volume-IV_cleaned.json",
+      "success": true,
+      "output_file": "Environment-and-Sustainability-Volume-IV_chunked.json",
+      "total_chunks": 3358,
+      "chunk_stats": {
+        "large_fixed_size": {
+          "chunk_count": 61,
+          "avg_tokens": 2043.8032786885246,
+          "min_tokens": 1804,
+          "max_tokens": 2048,
+          "total_tokens": 124672
+        },
+        "large_content_aware": {
+          "chunk_count": 63,
+          "avg_tokens": 2000.3809523809523,
+          "min_tokens": 526,
+          "max_tokens": 2048,
+          "total_tokens": 126024
+        },
+        "large_recursive_character": {
+          "chunk_count": 61,
+          "avg_tokens": 2042.5901639344263,
+          "min_tokens": 1788,
+          "max_tokens": 2097,
+          "total_tokens": 124598
+        },
+        "medium_fixed_size": {
+          "chunk_count": 259,
+          "avg_tokens": 510.19305019305017,
+          "min_tokens": 105,
+          "max_tokens": 512,
+          "total_tokens": 132140
+        },
+        "medium_content_aware": {
+          "chunk_count": 273,
+          "avg_tokens": 488.3040293040293,
+          "min_tokens": 288,
+          "max_tokens": 512,
+          "total_tokens": 133307
+        },
+        "medium_recursive_character": {
+          "chunk_count": 259,
+          "avg_tokens": 509.74131274131275,
+          "min_tokens": 390,
+          "max_tokens": 551,
+          "total_tokens": 132023
+        },
+        "small_fixed_size": {
+          "chunk_count": 1097,
+          "avg_tokens": 127.63081130355515,
+          "min_tokens": 59,
+          "max_tokens": 128,
+          "total_tokens": 140011
+        },
+        "small_content_aware": {
+          "chunk_count": 1285,
+          "avg_tokens": 109.81789883268482,
+          "min_tokens": 29,
+          "max_tokens": 374,
+          "total_tokens": 141116
+        }
+      }
+    },
+    {
+      "file": "Environmental_Studies_cleaned.json",
+      "success": true,
+      "output_file": "Environmental_Studies_chunked.json",
+      "total_chunks": 2449,
+      "chunk_stats": {
+        "large_fixed_size": {
+          "chunk_count": 34,
+          "avg_tokens": 2014.735294117647,
+          "min_tokens": 925,
+          "max_tokens": 2048,
+          "total_tokens": 68501
+        },
+        "large_content_aware": {
+          "chunk_count": 34,
+          "avg_tokens": 2029.0588235294117,
+          "min_tokens": 1975,
+          "max_tokens": 2046,
+          "total_tokens": 68988
+        },
+        "large_recursive_character": {
+          "chunk_count": 34,
+          "avg_tokens": 2014.6470588235295,
+          "min_tokens": 890,
+          "max_tokens": 2097,
+          "total_tokens": 68498
+        },
+        "medium_fixed_size": {
+          "chunk_count": 142,
+          "avg_tokens": 510.78169014084506,
+          "min_tokens": 382,
+          "max_tokens": 512,
+          "total_tokens": 72531
+        },
+        "medium_content_aware": {
+          "chunk_count": 149,
+          "avg_tokens": 491.09395973154363,
+          "min_tokens": 199,
+          "max_tokens": 512,
+          "total_tokens": 73173
+        },
+        "medium_recursive_character": {
+          "chunk_count": 142,
+          "avg_tokens": 510.69718309859155,
+          "min_tokens": 279,
+          "max_tokens": 538,
+          "total_tokens": 72519
+        },
+        "small_fixed_size": {
+          "chunk_count": 603,
+          "avg_tokens": 127.6301824212272,
+          "min_tokens": 47,
+          "max_tokens": 128,
+          "total_tokens": 76961
+        },
+        "small_content_aware": {
+          "chunk_count": 704,
+          "avg_tokens": 110.03551136363636,
+          "min_tokens": 20,
+          "max_tokens": 189,
+          "total_tokens": 77465
+        },
+        "small_recursive_character": {
+          "chunk_count": 607,
+          "avg_tokens": 126.5667215815486,
+          "min_tokens": 75,
+          "max_tokens": 154,
+          "total_tokens": 76826
+        }
+      }
+    },
+    {
+      "file": "complete-guidebook_textbooks-for-sustainable-development_2_cleaned.json",
+      "success": true,
+      "output_file": "complete-guidebook_textbooks-for-sustainable-development_2_chunked.json",
+      "total_chunks": 4948,
+      "chunk_stats": {
+        "large_fixed_size": {
+          "chunk_count": 90,
+          "avg_tokens": 2038.1222222222223,
+          "min_tokens": 1183,
+          "max_tokens": 2048,
+          "total_tokens": 183431
+        },
+        "large_content_aware": {
+          "chunk_count": 92,
+          "avg_tokens": 2008.5652173913043,
+          "min_tokens": 462,
+          "max_tokens": 2048,
+          "total_tokens": 184788
+        },
+        "large_recursive_character": {
+          "chunk_count": 90,
+          "avg_tokens": 2035.1666666666667,
+          "min_tokens": 753,
+          "max_tokens": 2091,
+          "total_tokens": 183165
+        },
+        "medium_fixed_size": {
+          "chunk_count": 380,
+          "avg_tokens": 511.03684210526313,
+          "min_tokens": 272,
+          "max_tokens": 512,
+          "total_tokens": 194194
+        },
+        "medium_content_aware": {
+          "chunk_count": 403,
+          "avg_tokens": 484.81141439205953,
+          "min_tokens": 105,
+          "max_tokens": 705,
+          "total_tokens": 195379
+        },
+        "medium_recursive_character": {
+          "chunk_count": 380,
+          "avg_tokens": 510.47105263157897,
+          "min_tokens": 254,
+          "max_tokens": 558,
+          "total_tokens": 193979
+        },
+        "small_fixed_size": {
+          "chunk_count": 1613,
+          "avg_tokens": 127.6342219466832,
+          "min_tokens": 2,
+          "max_tokens": 128,
+          "total_tokens": 205874
+        },
+        "small_content_aware": {
+          "chunk_count": 1900,
+          "avg_tokens": 108.91368421052631,
+          "min_tokens": 44,
+          "max_tokens": 714,
+          "total_tokens": 206936
+        }
+      }
+    },
+    {
+      "file": "GE3451-LN_cleaned.json",
+      "success": true,
+      "output_file": "GE3451-LN_chunked.json",
+      "total_chunks": 2334,
+      "chunk_stats": {
+        "large_fixed_size": {
+          "chunk_count": 32,
+          "avg_tokens": 2038.25,
+          "min_tokens": 1746,
+          "max_tokens": 2048,
+          "total_tokens": 65224
+        },
+        "large_content_aware": {
+          "chunk_count": 33,
+          "avg_tokens": 1994.4545454545455,
+          "min_tokens": 1070,
+          "max_tokens": 2048,
+          "total_tokens": 65817
+        },
+        "large_recursive_character": {
+          "chunk_count": 32,
+          "avg_tokens": 2038.25,
+          "min_tokens": 1709,
+          "max_tokens": 2073,
+          "total_tokens": 65224
+        },
+        "medium_fixed_size": {
+          "chunk_count": 136,
+          "avg_tokens": 508.9264705882353,
+          "min_tokens": 128,
+          "max_tokens": 512,
+          "total_tokens": 69214
+        },
+        "medium_content_aware": {
+          "chunk_count": 141,
+          "avg_tokens": 494.01418439716315,
+          "min_tokens": 411,
+          "max_tokens": 512,
+          "total_tokens": 69656
+        },
+        "medium_recursive_character": {
+          "chunk_count": 136,
+          "avg_tokens": 508.7352941176471,
+          "min_tokens": 104,
+          "max_tokens": 547,
+          "total_tokens": 69188
+        },
+        "small_fixed_size": {
+          "chunk_count": 575,
+          "avg_tokens": 127.5808695652174,
+          "min_tokens": 52,
+          "max_tokens": 128,
+          "total_tokens": 73359
+        },
+        "small_content_aware": {
+          "chunk_count": 671,
+          "avg_tokens": 110.00149031296573,
+          "min_tokens": 39,
+          "max_tokens": 417,
+          "total_tokens": 73811
+        },
+        "small_recursive_character": {
+          "chunk_count": 578,
+          "avg_tokens": 126.75432525951557,
+          "min_tokens": 55,
+          "max_tokens": 174,
+          "total_tokens": 73264
+        }
+      }
+    },
+    {
+      "file": "unicef31_cleaned.json",
+      "success": true,
+      "output_file": "unicef31_chunked.json",
+      "total_chunks": 902,
+      "chunk_stats": {
+        "large_fixed_size": {
+          "chunk_count": 13,
+          "avg_tokens": 1949.3846153846155,
+          "min_tokens": 767,
+          "max_tokens": 2048,
+          "total_tokens": 25342
+        },
+        "large_content_aware": {
+          "chunk_count": 13,
+          "avg_tokens": 1959.6153846153845,
+          "min_tokens": 1159,
+          "max_tokens": 2041,
+          "total_tokens": 25475
+        },
+        "large_recursive_character": {
+          "chunk_count": 13,
+          "avg_tokens": 1949.0,
+          "min_tokens": 758,
+          "max_tokens": 2062,
+          "total_tokens": 25337
+        },
+        "medium_fixed_size": {
+          "chunk_count": 53,
+          "avg_tokens": 506.8679245283019,
+          "min_tokens": 253,
+          "max_tokens": 512,
+          "total_tokens": 26864
+        },
+        "medium_content_aware": {
+          "chunk_count": 57,
+          "avg_tokens": 474.859649122807,
+          "min_tokens": 111,
+          "max_tokens": 512,
+          "total_tokens": 27067
+        },
+        "medium_recursive_character": {
+          "chunk_count": 53,
+          "avg_tokens": 506.60377358490564,
+          "min_tokens": 258,
+          "max_tokens": 535,
+          "total_tokens": 26850
+        },
+        "small_fixed_size": {
+          "chunk_count": 224,
+          "avg_tokens": 127.33482142857143,
+          "min_tokens": 28,
+          "max_tokens": 128,
+          "total_tokens": 28523
+        },
+        "small_content_aware": {
+          "chunk_count": 252,
+          "avg_tokens": 113.69444444444444,
+          "min_tokens": 52,
+          "max_tokens": 366,
+          "total_tokens": 28651
+        },
+        "small_recursive_character": {
+          "chunk_count": 224,
+          "avg_tokens": 127.08035714285714,
+          "min_tokens": 63,
+          "max_tokens": 166,
+          "total_tokens": 28466
+        }
+      }
+    },
+    {
+      "file": "JULY 23 12_cleaned.json",
+      "success": false,
+      "error": "No text content to chunk"
+    },
+    {
+      "file": "EVS-501_cleaned.json",
+      "success": true,
+      "output_file": "EVS-501_chunked.json",
+      "total_chunks": 4807,
+      "chunk_stats": {
+        "large_fixed_size": {
+          "chunk_count": 88,
+          "avg_tokens": 2038.625,
+          "min_tokens": 1241,
+          "max_tokens": 2048,
+          "total_tokens": 179399
+        },
+        "large_content_aware": {
+          "chunk_count": 90,
+          "avg_tokens": 2010.6555555555556,
+          "min_tokens": 1121,
+          "max_tokens": 2048,
+          "total_tokens": 180959
+        },
+        "large_recursive_character": {
+          "chunk_count": 88,
+          "avg_tokens": 2038.3181818181818,
+          "min_tokens": 1199,
+          "max_tokens": 2082,
+          "total_tokens": 179372
+        },
+        "medium_fixed_size": {
+          "chunk_count": 372,
+          "avg_tokens": 510.72849462365593,
+          "min_tokens": 127,
+          "max_tokens": 512,
+          "total_tokens": 189991
+        },
+        "medium_content_aware": {
+          "chunk_count": 391,
+          "avg_tokens": 489.99744245524295,
+          "min_tokens": 135,
+          "max_tokens": 1039,
+          "total_tokens": 191589
+        },
+        "medium_recursive_character": {
+          "chunk_count": 372,
+          "avg_tokens": 510.2930107526882,
+          "min_tokens": 199,
+          "max_tokens": 554,
+          "total_tokens": 189829
+        },
+        "small_fixed_size": {
+          "chunk_count": 1577,
+          "avg_tokens": 127.70069752694991,
+          "min_tokens": 64,
+          "max_tokens": 128,
+          "total_tokens": 201384
+        },
+        "small_content_aware": {
+          "chunk_count": 1829,
+          "avg_tokens": 110.87643521049753,
+          "min_tokens": 35,
+          "max_tokens": 1041,
+          "total_tokens": 202793
+        }
+      }
+    },
+    {
+      "file": "EJ540073_cleaned.json",
+      "success": true,
+      "output_file": "EJ540073_chunked.json",
+      "total_chunks": 624,
+      "chunk_stats": {
+        "large_fixed_size": {
+          "chunk_count": 9,
+          "avg_tokens": 1910.111111111111,
+          "min_tokens": 807,
+          "max_tokens": 2048,
+          "total_tokens": 17191
+        },
+        "large_content_aware": {
+          "chunk_count": 9,
+          "avg_tokens": 1922.6666666666667,
+          "min_tokens": 1273,
+          "max_tokens": 2037,
+          "total_tokens": 17304
+        },
+        "large_recursive_character": {
+          "chunk_count": 9,
+          "avg_tokens": 1909.111111111111,
+          "min_tokens": 846,
+          "max_tokens": 2069,
+          "total_tokens": 17182
+        },
+        "medium_fixed_size": {
+          "chunk_count": 36,
+          "avg_tokens": 506.27777777777777,
+          "min_tokens": 319,
+          "max_tokens": 512,
+          "total_tokens": 18226
+        },
+        "medium_content_aware": {
+          "chunk_count": 38,
+          "avg_tokens": 484.0263157894737,
+          "min_tokens": 303,
+          "max_tokens": 512,
+          "total_tokens": 18393
+        },
+        "medium_recursive_character": {
+          "chunk_count": 36,
+          "avg_tokens": 506.19444444444446,
+          "min_tokens": 299,
+          "max_tokens": 549,
+          "total_tokens": 18223
+        },
+        "small_fixed_size": {
+          "chunk_count": 152,
+          "avg_tokens": 127.40789473684211,
+          "min_tokens": 75,
+          "max_tokens": 128,
+          "total_tokens": 19366
+        },
+        "small_content_aware": {
+          "chunk_count": 183,
+          "avg_tokens": 106.51366120218579,
+          "min_tokens": 52,
+          "max_tokens": 338,
+          "total_tokens": 19492
+        },
+        "small_recursive_character": {
+          "chunk_count": 152,
+          "avg_tokens": 127.32236842105263,
+          "min_tokens": 33,
+          "max_tokens": 175,
+          "total_tokens": 19353
+        }
+      }
+    },
+    {
+      "file": "978-83-7986-488-1_cleaned.json",
+      "success": true,
+      "output_file": "978-83-7986-488-1_chunked.json",
+      "total_chunks": 7419,
+      "chunk_stats": {
+        "large_fixed_size": {
+          "chunk_count": 134,
+          "avg_tokens": 2043.2537313432836,
+          "min_tokens": 1446,
+          "max_tokens": 2048,
+          "total_tokens": 273796
+        },
+        "large_content_aware": {
+          "chunk_count": 137,
+          "avg_tokens": 2015.6058394160584,
+          "min_tokens": 1136,
+          "max_tokens": 2048,
+          "total_tokens": 276138
+        },
+        "large_recursive_character": {
+          "chunk_count": 134,
+          "avg_tokens": 2042.902985074627,
+          "min_tokens": 1525,
+          "max_tokens": 2097,
+          "total_tokens": 273749
+        },
+        "medium_fixed_size": {
+          "chunk_count": 567,
+          "avg_tokens": 511.29982363315696,
+          "min_tokens": 247,
+          "max_tokens": 512,
+          "total_tokens": 289907
+        },
+        "medium_content_aware": {
+          "chunk_count": 604,
+          "avg_tokens": 483.68046357615896,
+          "min_tokens": 182,
+          "max_tokens": 644,
+          "total_tokens": 292143
+        },
+        "medium_recursive_character": {
+          "chunk_count": 567,
+          "avg_tokens": 510.8024691358025,
+          "min_tokens": 147,
+          "max_tokens": 558,
+          "total_tokens": 289625
+        },
+        "small_fixed_size": {
+          "chunk_count": 2406,
+          "avg_tokens": 127.73025768911056,
+          "min_tokens": 86,
+          "max_tokens": 128,
+          "total_tokens": 307319
+        },
+        "small_content_aware": {
+          "chunk_count": 2870,
+          "avg_tokens": 107.74634146341464,
+          "min_tokens": 30,
+          "max_tokens": 582,
+          "total_tokens": 309232
+        }
+      }
+    },
+    {
+      "file": "green-development-environment-and-sustainability-in-developing-world_cleaned.json",
+      "success": true,
+      "output_file": "green-development-environment-and-sustainability-in-developing-world_chunked.json",
+      "total_chunks": 10114,
+      "chunk_stats": {
+        "large_fixed_size": {
+          "chunk_count": 184,
+          "avg_tokens": 2036.6032608695652,
+          "min_tokens": 104,
+          "max_tokens": 2048,
+          "total_tokens": 374735
+        },
+        "large_content_aware": {
+          "chunk_count": 188,
+          "avg_tokens": 2009.9574468085107,
+          "min_tokens": 761,
+          "max_tokens": 2048,
+          "total_tokens": 377872
+        },
+        "large_recursive_character": {
+          "chunk_count": 183,
+          "avg_tokens": 2045.2349726775956,
+          "min_tokens": 1842,
+          "max_tokens": 2086,
+          "total_tokens": 374278
+        },
+        "medium_fixed_size": {
+          "chunk_count": 776,
+          "avg_tokens": 511.19716494845363,
+          "min_tokens": 100,
+          "max_tokens": 512,
+          "total_tokens": 396689
+        },
+        "medium_content_aware": {
+          "chunk_count": 816,
+          "avg_tokens": 489.91421568627453,
+          "min_tokens": 120,
+          "max_tokens": 1335,
+          "total_tokens": 399770
+        },
+        "medium_recursive_character": {
+          "chunk_count": 776,
+          "avg_tokens": 510.86984536082474,
+          "min_tokens": 137,
+          "max_tokens": 556,
+          "total_tokens": 396435
+        },
+        "small_fixed_size": {
+          "chunk_count": 3292,
+          "avg_tokens": 127.72083839611179,
+          "min_tokens": 92,
+          "max_tokens": 128,
+          "total_tokens": 420457
+        },
+        "small_content_aware": {
+          "chunk_count": 3899,
+          "avg_tokens": 108.5211592716081,
+          "min_tokens": 28,
+          "max_tokens": 1359,
+          "total_tokens": 423124
+        }
+      }
+    },
+    {
+      "file": "Environmental Awareness in Ancient India-185_cleaned.json",
+      "success": true,
+      "output_file": "Environmental Awareness in Ancient India-185_chunked.json",
+      "total_chunks": 249,
+      "chunk_stats": {
+        "large_fixed_size": {
+          "chunk_count": 4,
+          "avg_tokens": 1697.5,
+          "min_tokens": 648,
+          "max_tokens": 2048,
+          "total_tokens": 6790
+        },
+        "large_content_aware": {
+          "chunk_count": 4,
+          "avg_tokens": 1709.0,
+          "min_tokens": 758,
+          "max_tokens": 2035,
+          "total_tokens": 6836
+        },
+        "large_recursive_character": {
+          "chunk_count": 4,
+          "avg_tokens": 1698.25,
+          "min_tokens": 629,
+          "max_tokens": 2072,
+          "total_tokens": 6793
+        },
+        "medium_fixed_size": {
+          "chunk_count": 15,
+          "avg_tokens": 483.2,
+          "min_tokens": 84,
+          "max_tokens": 512,
+          "total_tokens": 7248
+        },
+        "medium_content_aware": {
+          "chunk_count": 15,
+          "avg_tokens": 483.8,
+          "min_tokens": 360,
+          "max_tokens": 512,
+          "total_tokens": 7257
+        },
+        "medium_recursive_character": {
+          "chunk_count": 14,
+          "avg_tokens": 512.2857142857143,
+          "min_tokens": 498,
+          "max_tokens": 532,
+          "total_tokens": 7172
+        },
+        "small_fixed_size": {
+          "chunk_count": 61,
+          "avg_tokens": 126.06557377049181,
+          "min_tokens": 28,
+          "max_tokens": 128,
+          "total_tokens": 7690
+        },
+        "small_content_aware": {
+          "chunk_count": 71,
+          "avg_tokens": 108.91549295774648,
+          "min_tokens": 62,
+          "max_tokens": 128,
+          "total_tokens": 7733
+        },
+        "small_recursive_character": {
+          "chunk_count": 61,
+          "avg_tokens": 125.95081967213115,
+          "min_tokens": 32,
+          "max_tokens": 162,
+          "total_tokens": 7683
+        }
+      }
+    },
+    {
+      "file": "hlth-022_cleaned.json",
+      "success": true,
+      "output_file": "hlth-022_chunked.json",
+      "total_chunks": 771,
+      "chunk_stats": {
+        "large_fixed_size": {
+          "chunk_count": 11,
+          "avg_tokens": 1950.0,
+          "min_tokens": 971,
+          "max_tokens": 2048,
+          "total_tokens": 21450
+        },
+        "large_content_aware": {
+          "chunk_count": 11,
+          "avg_tokens": 1954.2727272727273,
+          "min_tokens": 1491,
+          "max_tokens": 2044,
+          "total_tokens": 21497
+        },
+        "large_recursive_character": {
+          "chunk_count": 11,
+          "avg_tokens": 1940.6363636363637,
+          "min_tokens": 810,
+          "max_tokens": 2074,
+          "total_tokens": 21347
+        },
+        "medium_fixed_size": {
+          "chunk_count": 45,
+          "avg_tokens": 505.8888888888889,
+          "min_tokens": 253,
+          "max_tokens": 512,
+          "total_tokens": 22765
+        },
+        "medium_content_aware": {
+          "chunk_count": 49,
+          "avg_tokens": 466.7551020408163,
+          "min_tokens": 247,
+          "max_tokens": 511,
+          "total_tokens": 22871
+        },
+        "medium_recursive_character": {
+          "chunk_count": 45,
+          "avg_tokens": 505.8222222222222,
+          "min_tokens": 258,
+          "max_tokens": 557,
+          "total_tokens": 22762
+        },
+        "small_fixed_size": {
+          "chunk_count": 190,
+          "avg_tokens": 127.23157894736842,
+          "min_tokens": 32,
+          "max_tokens": 128,
+          "total_tokens": 24174
+        },
+        "small_content_aware": {
+          "chunk_count": 220,
+          "avg_tokens": 110.17727272727272,
+          "min_tokens": 41,
+          "max_tokens": 378,
+          "total_tokens": 24239
+        },
+        "small_recursive_character": {
+          "chunk_count": 189,
+          "avg_tokens": 127.6931216931217,
+          "min_tokens": 72,
+          "max_tokens": 176,
+          "total_tokens": 24134
+        }
+      }
+    },
+    {
+      "file": "17131780141_cleaned.json",
+      "success": true,
+      "output_file": "17131780141_chunked.json",
+      "total_chunks": 205,
+      "chunk_stats": {
+        "large_fixed_size": {
+          "chunk_count": 3,
+          "avg_tokens": 1815.0,
+          "min_tokens": 1349,
+          "max_tokens": 2048,
+          "total_tokens": 5445
+        },
+        "large_content_aware": {
+          "chunk_count": 3,
+          "avg_tokens": 1823.0,
+          "min_tokens": 1443,
+          "max_tokens": 2026,
+          "total_tokens": 5469
+        },
+        "large_recursive_character": {
+          "chunk_count": 3,
+          "avg_tokens": 1815.3333333333333,
+          "min_tokens": 1323,
+          "max_tokens": 2062,
+          "total_tokens": 5446
+        },
+        "medium_fixed_size": {
+          "chunk_count": 12,
+          "avg_tokens": 489.75,
+          "min_tokens": 248,
+          "max_tokens": 512,
+          "total_tokens": 5877
+        },
+        "medium_content_aware": {
+          "chunk_count": 12,
+          "avg_tokens": 489.0,
+          "min_tokens": 467,
+          "max_tokens": 511,
+          "total_tokens": 5868
+        },
+        "medium_recursive_character": {
+          "chunk_count": 12,
+          "avg_tokens": 489.5833333333333,
+          "min_tokens": 240,
+          "max_tokens": 537,
+          "total_tokens": 5875
+        },
+        "small_fixed_size": {
+          "chunk_count": 50,
+          "avg_tokens": 125.1,
+          "min_tokens": 13,
+          "max_tokens": 128,
+          "total_tokens": 6255
+        },
+        "small_content_aware": {
+          "chunk_count": 60,
+          "avg_tokens": 104.53333333333333,
+          "min_tokens": 63,
+          "max_tokens": 133,
+          "total_tokens": 6272
+        },
+        "small_recursive_character": {
+          "chunk_count": 50,
+          "avg_tokens": 124.94,
+          "min_tokens": 79,
+          "max_tokens": 157,
+          "total_tokens": 6247
+        }
+      }
+    },
+    {
+      "file": "environmental-sustainability-practices-a-systematic-literature-review-14604_cleaned.json",
+      "success": true,
+      "output_file": "environmental-sustainability-practices-a-systematic-literature-review-14604_chunked.json",
+      "total_chunks": 1094,
+      "chunk_stats": {
+        "large_fixed_size": {
+          "chunk_count": 15,
+          "avg_tokens": 2008.0666666666666,
+          "min_tokens": 1452,
+          "max_tokens": 2048,
+          "total_tokens": 30121
+        },
+        "large_content_aware": {
+          "chunk_count": 15,
+          "avg_tokens": 2017.4666666666667,
+          "min_tokens": 1966,
+          "max_tokens": 2046,
+          "total_tokens": 30262
+        },
+        "large_recursive_character": {
+          "chunk_count": 15,
+          "avg_tokens": 2004.0,
+          "min_tokens": 1368,
+          "max_tokens": 2096,
+          "total_tokens": 30060
+        },
+        "medium_fixed_size": {
+          "chunk_count": 63,
+          "avg_tokens": 507.95238095238096,
+          "min_tokens": 272,
+          "max_tokens": 512,
+          "total_tokens": 32001
+        },
+        "medium_content_aware": {
+          "chunk_count": 66,
+          "avg_tokens": 487.1212121212121,
+          "min_tokens": 401,
+          "max_tokens": 512,
+          "total_tokens": 32150
+        },
+        "medium_recursive_character": {
+          "chunk_count": 63,
+          "avg_tokens": 507.12698412698415,
+          "min_tokens": 303,
+          "max_tokens": 544,
+          "total_tokens": 31949
+        },
+        "small_fixed_size": {
+          "chunk_count": 266,
+          "avg_tokens": 127.65789473684211,
+          "min_tokens": 95,
+          "max_tokens": 128,
+          "total_tokens": 33957
+        },
+        "small_content_aware": {
+          "chunk_count": 324,
+          "avg_tokens": 105.31481481481481,
+          "min_tokens": 52,
+          "max_tokens": 282,
+          "total_tokens": 34122
+        },
+        "small_recursive_character": {
+          "chunk_count": 267,
+          "avg_tokens": 127.02996254681648,
+          "min_tokens": 32,
+          "max_tokens": 173,
+          "total_tokens": 33917
+        }
+      }
+    },
+    {
+      "file": "green-book_cleaned.json",
+      "success": true,
+      "output_file": "green-book_chunked.json",
+      "total_chunks": 3179,
+      "chunk_stats": {
+        "large_fixed_size": {
+          "chunk_count": 58,
+          "avg_tokens": 2019.896551724138,
+          "min_tokens": 434,
+          "max_tokens": 2048,
+          "total_tokens": 117154
+        },
+        "large_content_aware": {
+          "chunk_count": 59,
+          "avg_tokens": 2004.4237288135594,
+          "min_tokens": 1026,
+          "max_tokens": 2048,
+          "total_tokens": 118261
+        },
+        "large_recursive_character": {
+          "chunk_count": 57,
+          "avg_tokens": 2052.035087719298,
+          "min_tokens": 2022,
+          "max_tokens": 2097,
+          "total_tokens": 116966
+        },
+        "medium_fixed_size": {
+          "chunk_count": 243,
+          "avg_tokens": 510.3168724279835,
+          "min_tokens": 169,
+          "max_tokens": 512,
+          "total_tokens": 124007
+        },
+        "medium_content_aware": {
+          "chunk_count": 258,
+          "avg_tokens": 485.0581395348837,
+          "min_tokens": 142,
+          "max_tokens": 512,
+          "total_tokens": 125145
+        },
+        "medium_recursive_character": {
+          "chunk_count": 242,
+          "avg_tokens": 512.0413223140496,
+          "min_tokens": 447,
+          "max_tokens": 560,
+          "total_tokens": 123914
+        },
+        "small_fixed_size": {
+          "chunk_count": 1030,
+          "avg_tokens": 127.63883495145632,
+          "min_tokens": 27,
+          "max_tokens": 128,
+          "total_tokens": 131468
+        },
+        "small_content_aware": {
+          "chunk_count": 1232,
+          "avg_tokens": 107.55194805194805,
+          "min_tokens": 37,
+          "max_tokens": 454,
+          "total_tokens": 132504
+        }
+      }
+    },
+    {
+      "file": "Environment & Ecology (Quick Book) -For web_cleaned.json",
+      "success": true,
+      "output_file": "Environment & Ecology (Quick Book) -For web_chunked.json",
+      "total_chunks": 278,
+      "chunk_stats": {
+        "large_fixed_size": {
+          "chunk_count": 4,
+          "avg_tokens": 1897.0,
+          "min_tokens": 1444,
+          "max_tokens": 2048,
+          "total_tokens": 7588
+        },
+        "large_content_aware": {
+          "chunk_count": 4,
+          "avg_tokens": 1906.75,
+          "min_tokens": 1580,
+          "max_tokens": 2040,
+          "total_tokens": 7627
+        },
+        "large_recursive_character": {
+          "chunk_count": 4,
+          "avg_tokens": 1896.25,
+          "min_tokens": 1457,
+          "max_tokens": 2045,
+          "total_tokens": 7585
+        },
+        "medium_fixed_size": {
+          "chunk_count": 17,
+          "avg_tokens": 478.29411764705884,
+          "min_tokens": 10,
+          "max_tokens": 512,
+          "total_tokens": 8131
+        },
+        "medium_content_aware": {
+          "chunk_count": 18,
+          "avg_tokens": 457.0,
+          "min_tokens": 151,
+          "max_tokens": 510,
+          "total_tokens": 8226
+        },
+        "medium_recursive_character": {
+          "chunk_count": 16,
+          "avg_tokens": 506.8125,
+          "min_tokens": 474,
+          "max_tokens": 535,
+          "total_tokens": 8109
+        },
+        "small_fixed_size": {
+          "chunk_count": 69,
+          "avg_tokens": 125.6086956521739,
+          "min_tokens": 4,
+          "max_tokens": 128,
+          "total_tokens": 8667
+        },
+        "small_content_aware": {
+          "chunk_count": 79,
+          "avg_tokens": 110.37974683544304,
+          "min_tokens": 49,
+          "max_tokens": 184,
+          "total_tokens": 8720
+        },
+        "small_recursive_character": {
+          "chunk_count": 67,
+          "avg_tokens": 129.02985074626866,
+          "min_tokens": 84,
+          "max_tokens": 162,
+          "total_tokens": 8645
+        }
+      }
+    },
+    {
+      "file": "1375_handbook_ environmental_ education_cleaned.json",
+      "success": true,
+      "output_file": "1375_handbook_ environmental_ education_chunked.json",
+      "total_chunks": 3687,
+      "chunk_stats": {
+        "large_fixed_size": {
+          "chunk_count": 69,
+          "avg_tokens": 2042.2753623188405,
+          "min_tokens": 1672,
+          "max_tokens": 2048,
+          "total_tokens": 140917
+        },
+        "large_content_aware": {
+          "chunk_count": 71,
+          "avg_tokens": 1994.338028169014,
+          "min_tokens": 867,
+          "max_tokens": 3689,
+          "total_tokens": 141598
+        },
+        "large_recursive_character": {
+          "chunk_count": 69,
+          "avg_tokens": 2038.3623188405797,
+          "min_tokens": 1222,
+          "max_tokens": 2095,
+          "total_tokens": 140647
+        },
+        "medium_fixed_size": {
+          "chunk_count": 292,
+          "avg_tokens": 511.2191780821918,
+          "min_tokens": 355,
+          "max_tokens": 512,
+          "total_tokens": 149276
+        },
+        "medium_content_aware": {
+          "chunk_count": 309,
+          "avg_tokens": 484.94498381877025,
+          "min_tokens": 150,
+          "max_tokens": 3643,
+          "total_tokens": 149848
+        },
+        "medium_recursive_character": {
+          "chunk_count": 293,
+          "avg_tokens": 508.84982935153585,
+          "min_tokens": 181,
+          "max_tokens": 558,
+          "total_tokens": 149093
+        },
+        "small_fixed_size": {
+          "chunk_count": 1240,
+          "avg_tokens": 127.6233870967742,
+          "min_tokens": 16,
+          "max_tokens": 128,
+          "total_tokens": 158253
+        },
+        "small_content_aware": {
+          "chunk_count": 1344,
+          "avg_tokens": 118.1108630952381,
+          "min_tokens": 28,
+          "max_tokens": 3625,
+          "total_tokens": 158741
+        }
+      }
+    },
+    {
+      "file": "Devine_Appleton_Environmental_Education_in_Public_Libraries_Final_cleaned.json",
+      "success": true,
+      "output_file": "Devine_Appleton_Environmental_Education_in_Public_Libraries_Final_chunked.json",
+      "total_chunks": 501,
+      "chunk_stats": {
+        "large_fixed_size": {
+          "chunk_count": 7,
+          "avg_tokens": 2010.4285714285713,
+          "min_tokens": 1787,
+          "max_tokens": 2048,
+          "total_tokens": 14073
+        },
+        "large_content_aware": {
+          "chunk_count": 7,
+          "avg_tokens": 2021.857142857143,
+          "min_tokens": 1955,
+          "max_tokens": 2047,
+          "total_tokens": 14153
+        },
+        "large_recursive_character": {
+          "chunk_count": 7,
+          "avg_tokens": 2010.5714285714287,
+          "min_tokens": 1769,
+          "max_tokens": 2062,
+          "total_tokens": 14074
+        },
+        "medium_fixed_size": {
+          "chunk_count": 30,
+          "avg_tokens": 502.1333333333333,
+          "min_tokens": 224,
+          "max_tokens": 512,
+          "total_tokens": 15064
+        },
+        "medium_content_aware": {
+          "chunk_count": 30,
+          "avg_tokens": 501.1333333333333,
+          "min_tokens": 387,
+          "max_tokens": 968,
+          "total_tokens": 15034
+        },
+        "medium_recursive_character": {
+          "chunk_count": 30,
+          "avg_tokens": 500.73333333333335,
+          "min_tokens": 323,
+          "max_tokens": 542,
+          "total_tokens": 15022
+        },
+        "small_fixed_size": {
+          "chunk_count": 126,
+          "avg_tokens": 127.06349206349206,
+          "min_tokens": 34,
+          "max_tokens": 128,
+          "total_tokens": 16010
+        },
+        "small_content_aware": {
+          "chunk_count": 141,
+          "avg_tokens": 112.49645390070921,
+          "min_tokens": 57,
+          "max_tokens": 933,
+          "total_tokens": 15862
+        },
+        "small_recursive_character": {
+          "chunk_count": 123,
+          "avg_tokens": 129.72357723577235,
+          "min_tokens": 93,
+          "max_tokens": 163,
+          "total_tokens": 15956
+        }
+      }
+    },
+    {
+      "file": "environmental_cleaned.json",
+      "success": true,
+      "output_file": "environmental_chunked.json",
+      "total_chunks": 1696,
+      "chunk_stats": {
+        "large_fixed_size": {
+          "chunk_count": 24,
+          "avg_tokens": 1971.1666666666667,
+          "min_tokens": 214,
+          "max_tokens": 2048,
+          "total_tokens": 47308
+        },
+        "large_content_aware": {
+          "chunk_count": 24,
+          "avg_tokens": 1981.5833333333333,
+          "min_tokens": 1145,
+          "max_tokens": 2046,
+          "total_tokens": 47558
+        },
+        "large_recursive_character": {
+          "chunk_count": 23,
+          "avg_tokens": 2047.3478260869565,
+          "min_tokens": 2002,
+          "max_tokens": 2085,
+          "total_tokens": 47089
+        },
+        "medium_fixed_size": {
+          "chunk_count": 98,
+          "avg_tokens": 510.5,
+          "min_tokens": 390,
+          "max_tokens": 512,
+          "total_tokens": 50029
+        },
+        "medium_content_aware": {
+          "chunk_count": 104,
+          "avg_tokens": 484.8173076923077,
+          "min_tokens": 136,
+          "max_tokens": 512,
+          "total_tokens": 50421
+        },
+        "medium_recursive_character": {
+          "chunk_count": 99,
+          "avg_tokens": 505.32323232323233,
+          "min_tokens": 122,
+          "max_tokens": 548,
+          "total_tokens": 50027
+        },
+        "small_fixed_size": {
+          "chunk_count": 416,
+          "avg_tokens": 127.57211538461539,
+          "min_tokens": 72,
+          "max_tokens": 128,
+          "total_tokens": 53070
+        },
+        "small_content_aware": {
+          "chunk_count": 491,
+          "avg_tokens": 108.71690427698574,
+          "min_tokens": 48,
+          "max_tokens": 251,
+          "total_tokens": 53380
+        },
+        "small_recursive_character": {
+          "chunk_count": 417,
+          "avg_tokens": 127.08872901678657,
+          "min_tokens": 79,
+          "max_tokens": 174,
+          "total_tokens": 52996
+        }
+      }
+    },
+    {
+      "file": "Paper_6_Banti_Dutta_cleaned.json",
+      "success": true,
+      "output_file": "Paper_6_Banti_Dutta_chunked.json",
+      "total_chunks": 169,
+      "chunk_stats": {
+        "large_fixed_size": {
+          "chunk_count": 3,
+          "avg_tokens": 1523.0,
+          "min_tokens": 473,
+          "max_tokens": 2048,
+          "total_tokens": 4569
+        },
+        "large_content_aware": {
+          "chunk_count": 3,
+          "avg_tokens": 1532.6666666666667,
+          "min_tokens": 542,
+          "max_tokens": 2039,
+          "total_tokens": 4598
+        },
+        "large_recursive_character": {
+          "chunk_count": 3,
+          "avg_tokens": 1522.0,
+          "min_tokens": 485,
+          "max_tokens": 2041,
+          "total_tokens": 4566
+        },
+        "medium_fixed_size": {
+          "chunk_count": 10,
+          "avg_tokens": 484.9,
+          "min_tokens": 242,
+          "max_tokens": 512,
+          "total_tokens": 4849
+        },
+        "medium_content_aware": {
+          "chunk_count": 10,
+          "avg_tokens": 485.6,
+          "min_tokens": 413,
+          "max_tokens": 507,
+          "total_tokens": 4856
+        },
+        "medium_recursive_character": {
+          "chunk_count": 10,
+          "avg_tokens": 481.2,
+          "min_tokens": 265,
+          "max_tokens": 538,
+          "total_tokens": 4812
+        },
+        "small_fixed_size": {
+          "chunk_count": 41,
+          "avg_tokens": 126.02439024390245,
+          "min_tokens": 59,
+          "max_tokens": 128,
+          "total_tokens": 5167
+        },
+        "small_content_aware": {
+          "chunk_count": 48,
+          "avg_tokens": 108.10416666666667,
+          "min_tokens": 51,
+          "max_tokens": 135,
+          "total_tokens": 5189
+        },
+        "small_recursive_character": {
+          "chunk_count": 41,
+          "avg_tokens": 125.46341463414635,
+          "min_tokens": 82,
+          "max_tokens": 176,
+          "total_tokens": 5144
+        }
+      }
+    },
+    {
+      "file": "317EL23_cleaned.json",
+      "success": true,
+      "output_file": "317EL23_chunked.json",
+      "total_chunks": 201,
+      "chunk_stats": {
+        "large_fixed_size": {
+          "chunk_count": 3,
+          "avg_tokens": 1821.3333333333333,
+          "min_tokens": 1368,
+          "max_tokens": 2048,
+          "total_tokens": 5464
+        },
+        "large_content_aware": {
+          "chunk_count": 3,
+          "avg_tokens": 1834.6666666666667,
+          "min_tokens": 1421,
+          "max_tokens": 2043,
+          "total_tokens": 5504
+        },
+        "large_recursive_character": {
+          "chunk_count": 3,
+          "avg_tokens": 1820.6666666666667,
+          "min_tokens": 1381,
+          "max_tokens": 2058,
+          "total_tokens": 5462
+        },
+        "medium_fixed_size": {
+          "chunk_count": 12,
+          "avg_tokens": 491.3333333333333,
+          "min_tokens": 267,
+          "max_tokens": 512,
+          "total_tokens": 5896
+        },
+        "medium_content_aware": {
+          "chunk_count": 12,
+          "avg_tokens": 492.25,
+          "min_tokens": 464,
+          "max_tokens": 512,
+          "total_tokens": 5907
+        },
+        "medium_recursive_character": {
+          "chunk_count": 12,
+          "avg_tokens": 490.8333333333333,
+          "min_tokens": 289,
+          "max_tokens": 535,
+          "total_tokens": 5890
+        },
+        "small_fixed_size": {
+          "chunk_count": 50,
+          "avg_tokens": 125.84,
+          "min_tokens": 33,
+          "max_tokens": 128,
+          "total_tokens": 6292
+        },
+        "small_content_aware": {
+          "chunk_count": 57,
+          "avg_tokens": 111.03508771929825,
+          "min_tokens": 38,
+          "max_tokens": 373,
+          "total_tokens": 6329
+        },
+        "small_recursive_character": {
+          "chunk_count": 49,
+          "avg_tokens": 127.89795918367346,
+          "min_tokens": 79,
+          "max_tokens": 170,
+          "total_tokens": 6267
+        }
+      }
+    },
+    {
+      "file": "1097a78c-en_cleaned.json",
+      "success": true,
+      "output_file": "1097a78c-en_chunked.json",
+      "total_chunks": 2321,
+      "chunk_stats": {
+        "large_fixed_size": {
+          "chunk_count": 32,
+          "avg_tokens": 2013.125,
+          "min_tokens": 944,
+          "max_tokens": 2048,
+          "total_tokens": 64420
+        },
+        "large_content_aware": {
+          "chunk_count": 33,
+          "avg_tokens": 1966.1515151515152,
+          "min_tokens": 535,
+          "max_tokens": 2047,
+          "total_tokens": 64883
+        },
+        "large_recursive_character": {
+          "chunk_count": 32,
+          "avg_tokens": 2010.5,
+          "min_tokens": 837,
+          "max_tokens": 2081,
+          "total_tokens": 64336
+        },
+        "medium_fixed_size": {
+          "chunk_count": 134,
+          "avg_tokens": 509.34328358208955,
+          "min_tokens": 196,
+          "max_tokens": 512,
+          "total_tokens": 68252
+        },
+        "medium_content_aware": {
+          "chunk_count": 144,
+          "avg_tokens": 476.7708333333333,
+          "min_tokens": 231,
+          "max_tokens": 512,
+          "total_tokens": 68655
+        },
+        "medium_recursive_character": {
+          "chunk_count": 134,
+          "avg_tokens": 508.94029850746267,
+          "min_tokens": 303,
+          "max_tokens": 552,
+          "total_tokens": 68198
+        },
+        "small_fixed_size": {
+          "chunk_count": 567,
+          "avg_tokens": 127.6384479717813,
+          "min_tokens": 69,
+          "max_tokens": 128,
+          "total_tokens": 72371
+        },
+        "small_content_aware": {
+          "chunk_count": 678,
+          "avg_tokens": 107.17256637168141,
+          "min_tokens": 14,
+          "max_tokens": 393,
+          "total_tokens": 72663
+        },
+        "small_recursive_character": {
+          "chunk_count": 567,
+          "avg_tokens": 127.40564373897708,
+          "min_tokens": 78,
+          "max_tokens": 176,
+          "total_tokens": 72239
+        }
+      }
+    }
+  ]
+}

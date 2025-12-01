@@ -1,0 +1,407 @@
+{
+  "source_file": "sus.txt",
+  "chunking_timestamp": "2025-11-18T12:00:31.494795",
+  "original_metadata": {
+    "total_pages": 1,
+    "original_text_length": 2099,
+    "extraction_method": "text_file"
+  },
+  "filtering_stats": {
+    "original_length": 2099,
+    "sections_removed": 0,
+    "paragraphs_removed": 0,
+    "sentences_removed": 0,
+    "cleaned_length": 2081,
+    "retention_rate": 99.14244878513578
+  },
+  "chunking_config": {
+    "chunk_sizes": {
+      "large": 2048,
+      "medium": 512,
+      "small": 128
+    },
+    "overlap_percentages": {
+      "large": 0.1,
+      "medium": 0.15,
+      "small": 0.2
+    }
+  },
+  "chunk_stats": {
+    "large_fixed_size": {
+      "chunk_count": 1,
+      "avg_tokens": 520.0,
+      "min_tokens": 520,
+      "max_tokens": 520,
+      "total_tokens": 520
+    },
+    "large_content_aware": {
+      "chunk_count": 1,
+      "avg_tokens": 523.0,
+      "min_tokens": 523,
+      "max_tokens": 523,
+      "total_tokens": 523
+    },
+    "large_recursive_character": {
+      "chunk_count": 1,
+      "avg_tokens": 520.0,
+      "min_tokens": 520,
+      "max_tokens": 520,
+      "total_tokens": 520
+    },
+    "medium_fixed_size": {
+      "chunk_count": 2,
+      "avg_tokens": 298.5,
+      "min_tokens": 85,
+      "max_tokens": 512,
+      "total_tokens": 597
+    },
+    "medium_content_aware": {
+      "chunk_count": 2,
+      "avg_tokens": 298.0,
+      "min_tokens": 106,
+      "max_tokens": 490,
+      "total_tokens": 596
+    },
+    "medium_recursive_character": {
+      "chunk_count": 2,
+      "avg_tokens": 298.0,
+      "min_tokens": 108,
+      "max_tokens": 488,
+      "total_tokens": 596
+    },
+    "small_fixed_size": {
+      "chunk_count": 6,
+      "avg_tokens": 104.66666666666667,
+      "min_tokens": 7,
+      "max_tokens": 128,
+      "total_tokens": 628
+    },
+    "small_content_aware": {
+      "chunk_count": 6,
+      "avg_tokens": 104.33333333333333,
+      "min_tokens": 96,
+      "max_tokens": 116,
+      "total_tokens": 626
+    },
+    "small_recursive_character": {
+      "chunk_count": 5,
+      "avg_tokens": 123.8,
+      "min_tokens": 100,
+      "max_tokens": 146,
+      "total_tokens": 619
+    }
+  },
+  "chunks": {
+    "large": {
+      "fixed_size": [
+        {
+          "chunk_id": 0,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 2048,
+          "overlap_percentage": 0.1,
+          "start_char": 0,
+          "end_char": 2081,
+          "text_length": 2081,
+          "estimated_tokens": 520,
+          "text": "sustainability is the practice of meeting the needs of the present without compromising the ability of future generations to meet their own needs, involving the responsible use of resources to ensure long-term environmental, social, and economic well-being. it is achieved through  balance of environmental health, social equity, and economic vitality to create thriving and resilient communities. key principles and goals environmental protection: this includes preserving natural resources, conserving habitats, reducing waste and pollution, and combating climate change. social equity: this focuses on ensuring fair and just treatment for all people, promoting better living standards, and maintaining social stability without causing disruption. economic vitality: this involves maintaining economic systems that are strong enough to support present needs but do not rely on depleting resources, ensuring profitability while minimizing negative impacts. long-term perspective: the core idea is to manage resources in  way that ensures they will be available for future generations, sometimes referred to as future viability. how it works in practice resource management: using resources, such as energy, water, and raw materials, in  way that they can be replenished or maintained over time. sustainable practices: implementing practices like reducing food waste, adopting renewable energy, improving energy efficiency, and developing efficient supply chains. systems thinking: recognizing that the environmental, social, and economic aspects are interconnected and must be considered together when making decisions. the importance of sustainability planetary health: it is crucial for keeping the planet inhabitable and supporting the ecosystems that human life depends on. risk mitigation: it helps mitigate risks associated with resource depletion, climate change, and social inequality, which can lead to long-term economic and social collapse. societal well-being: it aims to create more equitable, resilient, and healthy communities for all people, now and in the future."
+        }
+      ],
+      "content_aware": [
+        {
+          "chunk_id": 0,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 2048,
+          "overlap_percentage": 0.1,
+          "start_char": 258,
+          "end_char": 2350,
+          "text_length": 2092,
+          "estimated_tokens": 523,
+          "text": "sustainability is the practice of meeting the needs of the present without compromising the ability of future generations to meet their own needs, involving the responsible use of resources to ensure long-term environmental, social, and economic well-being.\n\nit is achieved through  balance of environmental health, social equity, and economic vitality to create thriving and resilient communities.\n\nkey principles and goals environmental protection: this includes preserving natural resources, conserving habitats, reducing waste and pollution, and combating climate change.\n\nsocial equity: this focuses on ensuring fair and just treatment for all people, promoting better living standards, and maintaining social stability without causing disruption.\n\neconomic vitality: this involves maintaining economic systems that are strong enough to support present needs but do not rely on depleting resources, ensuring profitability while minimizing negative impacts.\n\nlong-term perspective: the core idea is to manage resources in  way that ensures they will be available for future generations, sometimes referred to as future viability.\n\nhow it works in practice resource management: using resources, such as energy, water, and raw materials, in  way that they can be replenished or maintained over time.\n\nsustainable practices: implementing practices like reducing food waste, adopting renewable energy, improving energy efficiency, and developing efficient supply chains.\n\nsystems thinking: recognizing that the environmental, social, and economic aspects are interconnected and must be considered together when making decisions.\n\nthe importance of sustainability planetary health: it is crucial for keeping the planet inhabitable and supporting the ecosystems that human life depends on.\n\nrisk mitigation: it helps mitigate risks associated with resource depletion, climate change, and social inequality, which can lead to long-term economic and social collapse.\n\nsocietal well-being: it aims to create more equitable, resilient, and healthy communities for all people, now and in the future."
+        }
+      ],
+      "recursive_character": [
+        {
+          "chunk_id": 0,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 2048,
+          "overlap_percentage": 0.1,
+          "start_char": 0,
+          "end_char": 2081,
+          "text_length": 2081,
+          "estimated_tokens": 520,
+          "text": "sustainability is the practice of meeting the needs of the present without compromising the ability of future generations to meet their own needs, involving the responsible use of resources to ensure long-term environmental, social, and economic well-being. it is achieved through  balance of environmental health, social equity, and economic vitality to create thriving and resilient communities. key principles and goals environmental protection: this includes preserving natural resources, conserving habitats, reducing waste and pollution, and combating climate change. social equity: this focuses on ensuring fair and just treatment for all people, promoting better living standards, and maintaining social stability without causing disruption. economic vitality: this involves maintaining economic systems that are strong enough to support present needs but do not rely on depleting resources, ensuring profitability while minimizing negative impacts. long-term perspective: the core idea is to manage resources in  way that ensures they will be available for future generations, sometimes referred to as future viability. how it works in practice resource management: using resources, such as energy, water, and raw materials, in  way that they can be replenished or maintained over time. sustainable practices: implementing practices like reducing food waste, adopting renewable energy, improving energy efficiency, and developing efficient supply chains. systems thinking: recognizing that the environmental, social, and economic aspects are interconnected and must be considered together when making decisions. the importance of sustainability planetary health: it is crucial for keeping the planet inhabitable and supporting the ecosystems that human life depends on. risk mitigation: it helps mitigate risks associated with resource depletion, climate change, and social inequality, which can lead to long-term economic and social collapse. societal well-being: it aims to create more equitable, resilient, and healthy communities for all people, now and in the future."
+        }
+      ]
+    },
+    "medium": {
+      "fixed_size": [
+        {
+          "chunk_id": 0,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 0,
+          "end_char": 2048,
+          "text_length": 2048,
+          "estimated_tokens": 512,
+          "text": "sustainability is the practice of meeting the needs of the present without compromising the ability of future generations to meet their own needs, involving the responsible use of resources to ensure long-term environmental, social, and economic well-being. it is achieved through  balance of environmental health, social equity, and economic vitality to create thriving and resilient communities. key principles and goals environmental protection: this includes preserving natural resources, conserving habitats, reducing waste and pollution, and combating climate change. social equity: this focuses on ensuring fair and just treatment for all people, promoting better living standards, and maintaining social stability without causing disruption. economic vitality: this involves maintaining economic systems that are strong enough to support present needs but do not rely on depleting resources, ensuring profitability while minimizing negative impacts. long-term perspective: the core idea is to manage resources in  way that ensures they will be available for future generations, sometimes referred to as future viability. how it works in practice resource management: using resources, such as energy, water, and raw materials, in  way that they can be replenished or maintained over time. sustainable practices: implementing practices like reducing food waste, adopting renewable energy, improving energy efficiency, and developing efficient supply chains. systems thinking: recognizing that the environmental, social, and economic aspects are interconnected and must be considered together when making decisions. the importance of sustainability planetary health: it is crucial for keeping the planet inhabitable and supporting the ecosystems that human life depends on. risk mitigation: it helps mitigate risks associated with resource depletion, climate change, and social inequality, which can lead to long-term economic and social collapse. societal well-being: it aims to create more equitable, resilient, and healthy communities for a"
+        },
+        {
+          "chunk_id": 1,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 1741,
+          "end_char": 2081,
+          "text_length": 340,
+          "estimated_tokens": 85,
+          "text": "cosystems that human life depends on. risk mitigation: it helps mitigate risks associated with resource depletion, climate change, and social inequality, which can lead to long-term economic and social collapse. societal well-being: it aims to create more equitable, resilient, and healthy communities for all people, now and in the future."
+        }
+      ],
+      "content_aware": [
+        {
+          "chunk_id": 0,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 258,
+          "end_char": 2220,
+          "text_length": 1962,
+          "estimated_tokens": 490,
+          "text": "sustainability is the practice of meeting the needs of the present without compromising the ability of future generations to meet their own needs, involving the responsible use of resources to ensure long-term environmental, social, and economic well-being.\n\nit is achieved through  balance of environmental health, social equity, and economic vitality to create thriving and resilient communities.\n\nkey principles and goals environmental protection: this includes preserving natural resources, conserving habitats, reducing waste and pollution, and combating climate change.\n\nsocial equity: this focuses on ensuring fair and just treatment for all people, promoting better living standards, and maintaining social stability without causing disruption.\n\neconomic vitality: this involves maintaining economic systems that are strong enough to support present needs but do not rely on depleting resources, ensuring profitability while minimizing negative impacts.\n\nlong-term perspective: the core idea is to manage resources in  way that ensures they will be available for future generations, sometimes referred to as future viability.\n\nhow it works in practice resource management: using resources, such as energy, water, and raw materials, in  way that they can be replenished or maintained over time.\n\nsustainable practices: implementing practices like reducing food waste, adopting renewable energy, improving energy efficiency, and developing efficient supply chains.\n\nsystems thinking: recognizing that the environmental, social, and economic aspects are interconnected and must be considered together when making decisions.\n\nthe importance of sustainability planetary health: it is crucial for keeping the planet inhabitable and supporting the ecosystems that human life depends on.\n\nrisk mitigation: it helps mitigate risks associated with resource depletion, climate change, and social inequality, which can lead to long-term economic and social collapse."
+        },
+        {
+          "chunk_id": 1,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 258,
+          "end_char": 682,
+          "text_length": 424,
+          "estimated_tokens": 106,
+          "text": "tary health: it is crucial for keeping the planet inhabitable and supporting the ecosystems that human life depends on.\n\nrisk mitigation: it helps mitigate risks associated with resource depletion, climate change, and social inequality, which can lead to long-term economic and social collapse.\n\nsocietal well-being: it aims to create more equitable, resilient, and healthy communities for all people, now and in the future."
+        }
+      ],
+      "recursive_character": [
+        {
+          "chunk_id": 0,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 0,
+          "end_char": 1952,
+          "text_length": 1952,
+          "estimated_tokens": 488,
+          "text": "sustainability is the practice of meeting the needs of the present without compromising the ability of future generations to meet their own needs, involving the responsible use of resources to ensure long-term environmental, social, and economic well-being. it is achieved through  balance of environmental health, social equity, and economic vitality to create thriving and resilient communities. key principles and goals environmental protection: this includes preserving natural resources, conserving habitats, reducing waste and pollution, and combating climate change. social equity: this focuses on ensuring fair and just treatment for all people, promoting better living standards, and maintaining social stability without causing disruption. economic vitality: this involves maintaining economic systems that are strong enough to support present needs but do not rely on depleting resources, ensuring profitability while minimizing negative impacts. long-term perspective: the core idea is to manage resources in  way that ensures they will be available for future generations, sometimes referred to as future viability. how it works in practice resource management: using resources, such as energy, water, and raw materials, in  way that they can be replenished or maintained over time. sustainable practices: implementing practices like reducing food waste, adopting renewable energy, improving energy efficiency, and developing efficient supply chains. systems thinking: recognizing that the environmental, social, and economic aspects are interconnected and must be considered together when making decisions. the importance of sustainability planetary health: it is crucial for keeping the planet inhabitable and supporting the ecosystems that human life depends on. risk mitigation: it helps mitigate risks associated with resource depletion, climate change, and social inequality, which can lead to long-term economic and social collapse."
+        },
+        {
+          "chunk_id": 1,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 512,
+          "overlap_percentage": 0.15,
+          "start_char": 1646,
+          "end_char": 2081,
+          "text_length": 435,
+          "estimated_tokens": 108,
+          "text": "ability planetary health: it is crucial for keeping the planet inhabitable and supporting the ecosystems that human life depends on. risk mitigation: it helps mitigate risks associated with resource depletion, climate change, and social inequality, which can lead to long-term economic and social collapse. societal well-being: it aims to create more equitable, resilient, and healthy communities for all people, now and in the future."
+        }
+      ]
+    },
+    "small": {
+      "fixed_size": [
+        {
+          "chunk_id": 0,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 0,
+          "end_char": 512,
+          "text_length": 512,
+          "estimated_tokens": 128,
+          "text": "sustainability is the practice of meeting the needs of the present without compromising the ability of future generations to meet their own needs, involving the responsible use of resources to ensure long-term environmental, social, and economic well-being. it is achieved through  balance of environmental health, social equity, and economic vitality to create thriving and resilient communities. key principles and goals environmental protection: this includes preserving natural resources, conserving habitats"
+        },
+        {
+          "chunk_id": 1,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 410,
+          "end_char": 922,
+          "text_length": 512,
+          "estimated_tokens": 128,
+          "text": "es and goals environmental protection: this includes preserving natural resources, conserving habitats, reducing waste and pollution, and combating climate change. social equity: this focuses on ensuring fair and just treatment for all people, promoting better living standards, and maintaining social stability without causing disruption. economic vitality: this involves maintaining economic systems that are strong enough to support present needs but do not rely on depleting resources, ensuring profitability"
+        },
+        {
+          "chunk_id": 2,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 820,
+          "end_char": 1332,
+          "text_length": 510,
+          "estimated_tokens": 127,
+          "text": "strong enough to support present needs but do not rely on depleting resources, ensuring profitability while minimizing negative impacts. long-term perspective: the core idea is to manage resources in  way that ensures they will be available for future generations, sometimes referred to as future viability. how it works in practice resource management: using resources, such as energy, water, and raw materials, in  way that they can be replenished or maintained over time. sustainable practices: implementing"
+        },
+        {
+          "chunk_id": 3,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 1230,
+          "end_char": 1742,
+          "text_length": 512,
+          "estimated_tokens": 128,
+          "text": "ls, in  way that they can be replenished or maintained over time. sustainable practices: implementing practices like reducing food waste, adopting renewable energy, improving energy efficiency, and developing efficient supply chains. systems thinking: recognizing that the environmental, social, and economic aspects are interconnected and must be considered together when making decisions. the importance of sustainability planetary health: it is crucial for keeping the planet inhabitable and supporting the ec"
+        },
+        {
+          "chunk_id": 4,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 1640,
+          "end_char": 2081,
+          "text_length": 441,
+          "estimated_tokens": 110,
+          "text": "ustainability planetary health: it is crucial for keeping the planet inhabitable and supporting the ecosystems that human life depends on. risk mitigation: it helps mitigate risks associated with resource depletion, climate change, and social inequality, which can lead to long-term economic and social collapse. societal well-being: it aims to create more equitable, resilient, and healthy communities for all people, now and in the future."
+        },
+        {
+          "chunk_id": 5,
+          "strategy": "fixed_size",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 2050,
+          "end_char": 2081,
+          "text_length": 30,
+          "estimated_tokens": 7,
+          "text": "people, now and in the future."
+        }
+      ],
+      "content_aware": [
+        {
+          "chunk_id": 0,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 258,
+          "end_char": 656,
+          "text_length": 398,
+          "estimated_tokens": 99,
+          "text": "sustainability is the practice of meeting the needs of the present without compromising the ability of future generations to meet their own needs, involving the responsible use of resources to ensure long-term environmental, social, and economic well-being.\n\nit is achieved through  balance of environmental health, social equity, and economic vitality to create thriving and resilient communities."
+        },
+        {
+          "chunk_id": 1,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 258,
+          "end_char": 691,
+          "text_length": 433,
+          "estimated_tokens": 108,
+          "text": "ial equity, and economic vitality to create thriving and resilient communities.\n\nkey principles and goals environmental protection: this includes preserving natural resources, conserving habitats, reducing waste and pollution, and combating climate change.\n\nsocial equity: this focuses on ensuring fair and just treatment for all people, promoting better living standards, and maintaining social stability without causing disruption."
+        },
+        {
+          "chunk_id": 2,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 258,
+          "end_char": 724,
+          "text_length": 466,
+          "estimated_tokens": 116,
+          "text": "better living standards, and maintaining social stability without causing disruption.\n\neconomic vitality: this involves maintaining economic systems that are strong enough to support present needs but do not rely on depleting resources, ensuring profitability while minimizing negative impacts.\n\nlong-term perspective: the core idea is to manage resources in  way that ensures they will be available for future generations, sometimes referred to as future viability."
+        },
+        {
+          "chunk_id": 3,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 258,
+          "end_char": 688,
+          "text_length": 430,
+          "estimated_tokens": 107,
+          "text": "res they will be available for future generations, sometimes referred to as future viability.\n\nhow it works in practice resource management: using resources, such as energy, water, and raw materials, in  way that they can be replenished or maintained over time.\n\nsustainable practices: implementing practices like reducing food waste, adopting renewable energy, improving energy efficiency, and developing efficient supply chains."
+        },
+        {
+          "chunk_id": 4,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 258,
+          "end_char": 661,
+          "text_length": 403,
+          "estimated_tokens": 100,
+          "text": "renewable energy, improving energy efficiency, and developing efficient supply chains.\n\nsystems thinking: recognizing that the environmental, social, and economic aspects are interconnected and must be considered together when making decisions.\n\nthe importance of sustainability planetary health: it is crucial for keeping the planet inhabitable and supporting the ecosystems that human life depends on."
+        },
+        {
+          "chunk_id": 5,
+          "strategy": "content_aware",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 258,
+          "end_char": 643,
+          "text_length": 385,
+          "estimated_tokens": 96,
+          "text": "the planet inhabitable and supporting the ecosystems that human life depends on.\n\nrisk mitigation: it helps mitigate risks associated with resource depletion, climate change, and social inequality, which can lead to long-term economic and social collapse.\n\nsocietal well-being: it aims to create more equitable, resilient, and healthy communities for all people, now and in the future."
+        }
+      ],
+      "recursive_character": [
+        {
+          "chunk_id": 0,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 0,
+          "end_char": 573,
+          "text_length": 573,
+          "estimated_tokens": 143,
+          "text": "sustainability is the practice of meeting the needs of the present without compromising the ability of future generations to meet their own needs, involving the responsible use of resources to ensure long-term environmental, social, and economic well-being. it is achieved through  balance of environmental health, social equity, and economic vitality to create thriving and resilient communities. key principles and goals environmental protection: this includes preserving natural resources, conserving habitats, reducing waste and pollution, and combating climate change."
+        },
+        {
+          "chunk_id": 1,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 472,
+          "end_char": 957,
+          "text_length": 485,
+          "estimated_tokens": 121,
+          "text": "g natural resources, conserving habitats, reducing waste and pollution, and combating climate change. social equity: this focuses on ensuring fair and just treatment for all people, promoting better living standards, and maintaining social stability without causing disruption. economic vitality: this involves maintaining economic systems that are strong enough to support present needs but do not rely on depleting resources, ensuring profitability while minimizing negative impacts."
+        },
+        {
+          "chunk_id": 2,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 856,
+          "end_char": 1295,
+          "text_length": 439,
+          "estimated_tokens": 109,
+          "text": "eds but do not rely on depleting resources, ensuring profitability while minimizing negative impacts. long-term perspective: the core idea is to manage resources in  way that ensures they will be available for future generations, sometimes referred to as future viability. how it works in practice resource management: using resources, such as energy, water, and raw materials, in  way that they can be replenished or maintained over time."
+        },
+        {
+          "chunk_id": 3,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 1194,
+          "end_char": 1778,
+          "text_length": 584,
+          "estimated_tokens": 146,
+          "text": "ch as energy, water, and raw materials, in  way that they can be replenished or maintained over time. sustainable practices: implementing practices like reducing food waste, adopting renewable energy, improving energy efficiency, and developing efficient supply chains. systems thinking: recognizing that the environmental, social, and economic aspects are interconnected and must be considered together when making decisions. the importance of sustainability planetary health: it is crucial for keeping the planet inhabitable and supporting the ecosystems that human life depends on."
+        },
+        {
+          "chunk_id": 4,
+          "strategy": "recursive_character",
+          "chunk_size_tokens": 128,
+          "overlap_percentage": 0.2,
+          "start_char": 1677,
+          "end_char": 2080,
+          "text_length": 403,
+          "estimated_tokens": 100,
+          "text": "crucial for keeping the planet inhabitable and supporting the ecosystems that human life depends on. risk mitigation: it helps mitigate risks associated with resource depletion, climate change, and social inequality, which can lead to long-term economic and social collapse. societal well-being: it aims to create more equitable, resilient, and healthy communities for all people, now and in the future."
+        }
+      ]
+    }
+  },
+  "chunking_success": true
+}

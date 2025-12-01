@@ -1,0 +1,634 @@
+{
+  "metadata": {
+    "started": "2025-11-18T22:44:49.683514",
+    "llm_model": "gemini-2.0-flash",
+    "completed": "2025-11-18T22:48:15.795577"
+  },
+  "experiments": {
+    "prompt_variants_qa": {
+      "task": "qa",
+      "variants": [
+        "basic",
+        "contextual",
+        "chain_of_thought",
+        "structured",
+        "with_confidence"
+      ],
+      "test_cases": [
+        {
+          "input": {
+            "question": "What is renewable energy?"
+          },
+          "prompt": "Question: What is renewable energy?\n\nAnswer:",
+          "expected_output": "renewable energy is energy from sources that replenish naturally"
+        }
+      ],
+      "variant_results": {
+        "basic": [
+          {
+            "success": true,
+            "task": "qa",
+            "variant": "basic",
+            "prompt": "Answer the following question about sustainability and environment:\n\nQuestion: What is renewable energy?\n\nAnswer:",
+            "output": "Renewable energy is energy that comes from sources that are naturally replenished on a human timescale, such as sunlight, wind, rain, tides, and geothermal heat. Unlike fossil fuels, which are finite and take millions of years to form, renewable energy sources are essentially inexhaustible.\n",
+            "execution_time": 1.7821433544158936,
+            "temperature": 0.7,
+            "max_tokens": 1000,
+            "timestamp": "2025-11-18T22:44:59.474135",
+            "match_score": 0.875
+          }
+        ],
+        "contextual": [
+          {
+            "success": true,
+            "task": "qa",
+            "variant": "contextual",
+            "prompt": "You are an expert in Environmental Sustainability.\n\nContext: Environmental sustainability and climate change\n\nQuestion: What is renewable energy?\n\nProvide a clear, accurate answer based on the context above:",
+            "output": "Renewable energy is energy derived from natural processes that are replenished at a higher rate than they are consumed. This means that, unlike fossil fuels, renewable energy sources are virtually inexhaustible and sustainable over the long term. Common examples include solar, wind, hydro, geothermal, and biomass energy. These sources are crucial for mitigating climate change because they produce little to no greenhouse gas emissions compared to traditional energy sources.\n",
+            "execution_time": 5.0451881885528564,
+            "temperature": 0.7,
+            "max_tokens": 1000,
+            "timestamp": "2025-11-18T22:45:04.519517",
+            "match_score": 0.75
+          }
+        ],
+        "chain_of_thought": [
+          {
+            "success": true,
+            "task": "qa",
+            "variant": "chain_of_thought",
+            "prompt": "You are an expert in Environmental Sustainability.\n\nQuestion: What is renewable energy?\n\nLet's think step by step:\n1. First, understand what is being asked\n2. Identify the key concepts involved\n3. Connect relevant information\n4. Provide a comprehensive answer\n\nAnswer:",
+            "output": "Okay, let's break down the question \"What is renewable energy?\" and craft a comprehensive answer from the perspective of an Environmental Sustainability expert.\n\n**1. Understanding the Question:**\n\nThe question is straightforward: it seeks a definition and explanation of the term \"renewable energy.\"  A good answer should not just provide a dictionary definition but also delve into the implications and characteristics that make renewable energy important from a sustainability perspective.\n\n**2. Identifying Key Concepts:**\n\n*   **Energy:** The capacity to do work. In this context, we are talking about energy that can be harnessed to power human activities.\n*   **Renewable:**  The ability to be replenished naturally within a human timescale.  This is the core concept differentiating renewable energy from non-renewable energy.\n*   **Sustainability:** Meeting the needs of the present without compromising the ability of future generations to meet their own needs. Renewable energy plays a vital role in environmental sustainability.\n*   **Sources:** Specific types of energy sources that qualify as renewable.\n*   **Environmental Impact:** The effects of renewable energy sources on the environment, both positive and negative (though generally less negative than fossil fuels).\n\n**3. Connecting Relevant Information:**\n\n*   **Contrast with Non-Renewable Energy:** Renewable energy is the opposite of non-renewable energy (fossil fuels like coal, oil, and natural gas, and nuclear energy), which are finite resources that take millions of years to form and are being depleted much faster than they can be replenished.\n*   **Environmental Benefits:** Renewable energy generally produces significantly less pollution and greenhouse gas emissions than fossil fuels, mitigating climate change and improving air and water quality.\n*   **Examples:** Solar, wind, hydro, geothermal, and biomass are common examples.\n*   **Technological Advancements:** Technology is constantly improving the efficiency and cost-effectiveness of renewable energy technologies.\n*   **Economic Implications:** Renewable energy creates jobs and can diversify energy sources, enhancing energy security.\n*   **Challenges:** Intermittency (e.g., solar and wind depending on weather) and land use are challenges that need to be addressed.\n\n**4. Comprehensive Answer:**\n\nRenewable energy, from an environmental sustainability perspective, refers to energy derived from natural processes that are replenished at a rate equal to or faster than their rate of consumption.  These sources are essentially inexhaustible on a human timescale, unlike finite fossil fuels and nuclear fuels.\n\nThe crucial importance of renewable energy lies in its potential to drastically reduce our reliance on non-renewable energy sources, thereby mitigating significant environmental problems.  The burning of fossil fuels releases greenhouse gases, driving climate change, and air pollutants that harm human health and ecosystems. Renewable energy sources, in contrast, generally produce significantly lower levels of these pollutants and greenhouse gas emissions.\n\nCommon examples of renewable energy sources include:\n\n*   **Solar Energy:** Harnessing the sun's energy through photovoltaic (PV) cells or concentrated solar power (CSP) systems.\n*   **Wind Energy:** Using wind turbines to convert the kinetic energy of wind into electricity.\n*   **Hydropower:** Generating electricity from the flow of water, typically through dams or run-of-river systems.\n*   **Geothermal Energy:** Utilizing the Earth's internal heat to generate electricity or for direct heating applications.\n*   **Biomass Energy:** Burning organic matter (e.g., wood, crops, waste) or converting it into biofuels for energy production.  It is important to note that the sustainability of biomass depends heavily on responsible management and sourcing practices.\n*   **Tidal Energy:** Harnessing the energy of tides to generate electricity.\n\nWhile renewable energy offers tremendous benefits, it's important to acknowledge the challenges. Some sources, like solar and wind, are intermittent, meaning their availability depends on weather conditions.  This requires energy storage solutions (e.g., batteries, pumped hydro) and smart grid technologies to ensure a reliable energy supply.  Furthermore, large-scale renewable energy projects can have land-use implications that need careful consideration to minimize environmental impacts and potential conflicts with local communities.\n\nFrom a sustainability standpoint, the transition to a renewable energy-based economy is essential for achieving a more environmentally sound and economically viable future.  Continued innovation, supportive policies, and public awareness are crucial to accelerating the deployment of renewable energy technologies and creating a truly sustainable energy system for generations to come.\n",
+            "execution_time": 11.305223226547241,
+            "temperature": 0.7,
+            "max_tokens": 1000,
+            "timestamp": "2025-11-18T22:45:15.824870",
+            "match_score": 0.875
+          }
+        ],
+        "structured": [
+          {
+            "success": true,
+            "task": "qa",
+            "variant": "structured",
+            "prompt": "Question: What is renewable energy?\n\nProvide a structured answer in the following format:\n\n**Overview**: Brief 1-2 sentence overview\n\n**Key Points**:\n- Point 1\n- Point 2\n- Point 3\n\n**Explanation**: Detailed explanation\n\n**Actionable Insights**: What can be done about this\n\nAnswer:",
+            "output": "**Overview**: Renewable energy is energy derived from natural processes that are replenished at a higher rate than they are consumed. It is a sustainable alternative to fossil fuels, helping to reduce greenhouse gas emissions and combat climate change.\n\n**Key Points**:\n- Replenishable: Sources are naturally replenished.\n- Sustainable: Reduces environmental impact compared to fossil fuels.\n- Diverse Sources: Includes solar, wind, hydro, geothermal, and biomass.\n\n**Explanation**: Renewable energy encompasses energy sources that are naturally and continuously replenished. Unlike fossil fuels, which are finite resources that take millions of years to form, renewable sources are virtually inexhaustible on a human timescale.\n\n*   **Replenishable:** This means that these energy sources are constantly being replenished by natural processes. For instance, the sun's energy is constantly bombarding the Earth, wind is driven by solar heating of the atmosphere, and water cycles through evaporation and precipitation.\n\n*   **Sustainable:** Renewable energy sources are considered sustainable because their use has a significantly lower environmental impact compared to fossil fuels. They produce little to no greenhouse gas emissions during operation, reducing the contribution to climate change. They also minimize air and water pollution, and can reduce the need for disruptive mining or drilling activities.\n\n*   **Diverse Sources:** Renewable energy comes in various forms. Solar energy is harnessed through photovoltaic cells or concentrated solar power. Wind energy is captured by wind turbines. Hydropower utilizes the energy of moving water. Geothermal energy taps into the Earth's internal heat. Biomass energy uses organic matter for fuel. This diversity allows for different renewable energy technologies to be deployed based on geographical location and resource availability.\n\n**Actionable Insights**:\n\n*   **Support Policies:** Advocate for government policies that incentivize renewable energy development and deployment, such as tax credits, subsidies, and renewable portfolio standards.\n*   **Invest in Renewable Energy:** Invest in renewable energy technologies, either directly through purchasing solar panels for your home or indirectly through supporting companies and funds focused on renewable energy.\n*   **Reduce Energy Consumption:** Reduce your overall energy consumption through energy-efficient appliances, insulation, and responsible energy use habits. This lessens the demand for all energy sources, including fossil fuels.\n*   **Educate Others:** Raise awareness about the benefits of renewable energy and encourage others to adopt sustainable practices.\n*   **Choose Renewable Energy Providers:** If available, switch to a electricity provider that sources its energy from renewable sources.\n",
+            "execution_time": 4.526266098022461,
+            "temperature": 0.7,
+            "max_tokens": 1000,
+            "timestamp": "2025-11-18T22:45:20.351347",
+            "match_score": 0.875
+          }
+        ],
+        "with_confidence": [
+          {
+            "success": true,
+            "task": "qa",
+            "variant": "with_confidence",
+            "prompt": "Question: What is renewable energy?\n\nAnswer this question and indicate your confidence level (High/Medium/Low).\n\nFormat:\nAnswer: [your answer]\nConfidence: [High/Medium/Low]\nReasoning: [why this confidence level]\n\nResponse:",
+            "output": "Answer: Renewable energy is energy that comes from sources that are naturally replenished, such as sunlight, wind, rain, tides, and geothermal heat. These sources are essentially inexhaustible, unlike fossil fuels which are finite and deplete over time.\n\nConfidence: High\n\nReasoning: This is a well-established and widely accepted definition of renewable energy. I have encountered this definition in numerous scientific and educational contexts.\n",
+            "execution_time": 1.9734928607940674,
+            "temperature": 0.7,
+            "max_tokens": 1000,
+            "timestamp": "2025-11-18T22:45:22.325037",
+            "match_score": 0.875
+          }
+        ]
+      },
+      "summary": {
+        "basic": {
+          "success_rate": 1.0,
+          "avg_execution_time": 1.7821433544158936,
+          "avg_match_score": 0.875
+        },
+        "contextual": {
+          "success_rate": 1.0,
+          "avg_execution_time": 5.0451881885528564,
+          "avg_match_score": 0.75
+        },
+        "chain_of_thought": {
+          "success_rate": 1.0,
+          "avg_execution_time": 11.305223226547241,
+          "avg_match_score": 0.875
+        },
+        "structured": {
+          "success_rate": 1.0,
+          "avg_execution_time": 4.526266098022461,
+          "avg_match_score": 0.875
+        },
+        "with_confidence": {
+          "success_rate": 1.0,
+          "avg_execution_time": 1.9734928607940674,
+          "avg_match_score": 0.875
+        }
+      },
+      "best_variant": {
+        "name": "basic",
+        "metrics": {
+          "success_rate": 1.0,
+          "avg_execution_time": 1.7821433544158936,
+          "avg_match_score": 0.875
+        }
+      }
+    },
+    "few_shot_qa": {
+      "task": "qa",
+      "shot_counts": [
+        0,
+        1,
+        3,
+        5
+      ],
+      "results": {
+        "0": {
+          "success_rate": 1.0,
+          "avg_time": 1.144423007965088,
+          "results": [
+            {
+              "success": true,
+              "task": "qa",
+              "num_shots": 0,
+              "prompt": "Here are some examples:\n\n\nNow process this input:\nInput: {'question': 'What is renewable energy?'}\nOutput:",
+              "output": "{'answer': 'Renewable energy is energy that comes from sources that are naturally replenished, such as sunlight, wind, rain, tides, and geothermal heat.'}\n",
+              "execution_time": 1.144423007965088,
+              "timestamp": "2025-11-18T22:45:38.485239",
+              "match_score": 0.75
+            }
+          ]
+        },
+        "1": {
+          "success_rate": 1.0,
+          "avg_time": 1.654421329498291,
+          "results": [
+            {
+              "success": true,
+              "task": "qa",
+              "num_shots": 1,
+              "prompt": "Here are some examples:\n\n\nExample 1:\nInput: What is renewable energy?\nOutput: Renewable energy is energy derived from natural sources that replenish themselves over short periods of time, such as solar radiation, wind, rain, tides, and geothermal heat. Unlike fossil fuels, which take millions of years to form, renewable energy sources are naturally and continuously renewed. The key advantage is that they produce little to no greenhouse gas emissions, making them crucial for combating climate change. Common types include solar power (from sunlight), wind power (from air movement), hydroelectric power (from flowing water), geothermal energy (from Earth's heat), and biomass energy (from organic materials).\n\n\nNow process this input:\nInput: {'question': 'What is renewable energy?'}\nOutput:",
+              "output": "```json\n{\n  \"answer\": \"Renewable energy is energy that comes from sources which are naturally replenished, such as sunlight, wind, rain, tides, and geothermal heat. These sources are sustainable because they are constantly renewed, unlike fossil fuels which are finite. A major benefit of renewable energy is its reduced environmental impact, producing little to no greenhouse gas emissions, thus helping to mitigate climate change. Common examples include solar power, wind power, hydropower, geothermal energy, and biomass energy.\"\n}\n```\n",
+              "execution_time": 1.654421329498291,
+              "timestamp": "2025-11-18T22:45:45.145168",
+              "match_score": 0.875
+            }
+          ]
+        },
+        "3": {
+          "success_rate": 1.0,
+          "avg_time": 1.7728931903839111,
+          "results": [
+            {
+              "success": true,
+              "task": "qa",
+              "num_shots": 3,
+              "prompt": "Here are some examples:\n\n\nExample 1:\nInput: What is renewable energy?\nOutput: Renewable energy is energy derived from natural sources that replenish themselves over short periods of time, such as solar radiation, wind, rain, tides, and geothermal heat. Unlike fossil fuels, which take millions of years to form, renewable energy sources are naturally and continuously renewed. The key advantage is that they produce little to no greenhouse gas emissions, making them crucial for combating climate change. Common types include solar power (from sunlight), wind power (from air movement), hydroelectric power (from flowing water), geothermal energy (from Earth's heat), and biomass energy (from organic materials).\n\n\nExample 2:\nInput: How does composting help the environment?\nOutput: Composting benefits the environment in several ways: (1) It reduces landfill waste by diverting organic materials that would otherwise decompose anaerobically and produce methane, a potent greenhouse gas. (2) It creates nutrient-rich soil amendment that reduces the need for chemical fertilizers, which require significant energy to produce and can pollute waterways. (3) Compost-enriched soil retains more water, reducing irrigation needs. (4) It supports soil biodiversity by providing habitat for beneficial microorganisms. (5) By completing the natural nutrient cycle, composting reduces our carbon footprint and supports sustainable agriculture.\n\n\nExample 3:\nInput: What causes ocean acidification?\nOutput: Ocean acidification is primarily caused by the ocean's absorption of excess carbon dioxide (CO2) from the atmosphere. When CO2 dissolves in seawater, it forms carbonic acid, which lowers the ocean's pH level, making it more acidic. Since the Industrial Revolution, the ocean has absorbed about 30% of human-produced CO2 emissions. This process reduces the availability of carbonate ions, which marine organisms like corals, mollusks, and some plankton need to build their calcium carbonate shells and skeletons. The current rate of acidification is approximately 10 times faster than any period in the last 55 million years, posing severe threats to marine ecosystems and the food chains that depend on them.\n\n\nNow process this input:\nInput: {'question': 'What is renewable energy?'}\nOutput:",
+              "output": "Renewable energy is energy derived from natural sources that replenish themselves over short periods, such as solar, wind, hydro, geothermal, and biomass. Unlike finite fossil fuels, these sources are virtually inexhaustible. A key benefit is their lower environmental impact, producing significantly less pollution and greenhouse gas emissions compared to fossil fuels, making them crucial for mitigating climate change. Examples include solar power (sunlight), wind power (wind), hydroelectric power (water), geothermal energy (earth's heat), and biomass energy (organic matter).\n",
+              "execution_time": 1.7728931903839111,
+              "timestamp": "2025-11-18T22:45:51.923541",
+              "match_score": 0.875
+            }
+          ]
+        },
+        "5": {
+          "success_rate": 1.0,
+          "avg_time": 1.5440177917480469,
+          "results": [
+            {
+              "success": true,
+              "task": "qa",
+              "num_shots": 5,
+              "prompt": "Here are some examples:\n\n\nExample 1:\nInput: What is renewable energy?\nOutput: Renewable energy is energy derived from natural sources that replenish themselves over short periods of time, such as solar radiation, wind, rain, tides, and geothermal heat. Unlike fossil fuels, which take millions of years to form, renewable energy sources are naturally and continuously renewed. The key advantage is that they produce little to no greenhouse gas emissions, making them crucial for combating climate change. Common types include solar power (from sunlight), wind power (from air movement), hydroelectric power (from flowing water), geothermal energy (from Earth's heat), and biomass energy (from organic materials).\n\n\nExample 2:\nInput: How does composting help the environment?\nOutput: Composting benefits the environment in several ways: (1) It reduces landfill waste by diverting organic materials that would otherwise decompose anaerobically and produce methane, a potent greenhouse gas. (2) It creates nutrient-rich soil amendment that reduces the need for chemical fertilizers, which require significant energy to produce and can pollute waterways. (3) Compost-enriched soil retains more water, reducing irrigation needs. (4) It supports soil biodiversity by providing habitat for beneficial microorganisms. (5) By completing the natural nutrient cycle, composting reduces our carbon footprint and supports sustainable agriculture.\n\n\nExample 3:\nInput: What causes ocean acidification?\nOutput: Ocean acidification is primarily caused by the ocean's absorption of excess carbon dioxide (CO2) from the atmosphere. When CO2 dissolves in seawater, it forms carbonic acid, which lowers the ocean's pH level, making it more acidic. Since the Industrial Revolution, the ocean has absorbed about 30% of human-produced CO2 emissions. This process reduces the availability of carbonate ions, which marine organisms like corals, mollusks, and some plankton need to build their calcium carbonate shells and skeletons. The current rate of acidification is approximately 10 times faster than any period in the last 55 million years, posing severe threats to marine ecosystems and the food chains that depend on them.\n\n\nNow process this input:\nInput: {'question': 'What is renewable energy?'}\nOutput:",
+              "output": "Renewable energy is energy derived from natural sources that replenish themselves over short periods, such as sunlight, wind, rain, tides, and geothermal heat. These sources are naturally replenished and, unlike fossil fuels, do not deplete over time. A significant advantage of renewable energy is its minimal to zero greenhouse gas emissions, making it vital for mitigating climate change. Common forms include solar power (from the sun), wind power (from air movement), hydroelectric power (from water flow), geothermal energy (from Earth's heat), and biomass energy (from organic matter).\n",
+              "execution_time": 1.5440177917480469,
+              "timestamp": "2025-11-18T22:45:58.473095",
+              "match_score": 1.0
+            }
+          ]
+        }
+      },
+      "optimal_shot_count": {
+        "count": 0,
+        "success_rate": 1.0
+      }
+    },
+    "temperature_qa": {
+      "task": "qa",
+      "temperatures": [
+        0.3,
+        0.5,
+        0.7,
+        0.9
+      ],
+      "evaluations": {
+        "0.3": {
+          "task": "qa",
+          "config": {
+            "temperature": 0.3,
+            "max_tokens": 1000
+          },
+          "timestamp": "2025-11-18T22:46:12.539836",
+          "num_test_cases": 1,
+          "num_successful": 1,
+          "success_rate": 1.0,
+          "total_time": 1.0526857376098633,
+          "avg_execution_time": 1.0526111125946045,
+          "avg_output_length": 267.0,
+          "results": [
+            {
+              "test_case_id": 0,
+              "success": true,
+              "output": "Renewable energy is energy that comes from sources that are naturally replenished on a human timescale, such as sunlight, wind, rain, tides, and geothermal heat. Unlike fossil fuels, which are finite resources, renewable energy sources are essentially inexhaustible.\n",
+              "execution_time": 1.0526111125946045,
+              "output_length": 267,
+              "token_count": 38,
+              "accuracy_score": 0.21875,
+              "relevance_score": 1.0
+            }
+          ],
+          "avg_accuracy": 0.21875,
+          "avg_relevance": 1.0
+        },
+        "0.5": {
+          "task": "qa",
+          "config": {
+            "temperature": 0.5,
+            "max_tokens": 1000
+          },
+          "timestamp": "2025-11-18T22:46:19.733640",
+          "num_test_cases": 1,
+          "num_successful": 1,
+          "success_rate": 1.0,
+          "total_time": 1.1895840167999268,
+          "avg_execution_time": 1.1894919872283936,
+          "avg_output_length": 292.0,
+          "results": [
+            {
+              "test_case_id": 0,
+              "success": true,
+              "output": "Renewable energy is energy that comes from sources that are naturally replenished on a human timescale, such as sunlight, wind, rain, tides, and geothermal heat. These sources are considered renewable because they are virtually inexhaustible, unlike fossil fuels, which are finite resources.\n",
+              "execution_time": 1.1894919872283936,
+              "output_length": 292,
+              "token_count": 42,
+              "accuracy_score": 0.19444444444444445,
+              "relevance_score": 1.0
+            }
+          ],
+          "avg_accuracy": 0.19444444444444445,
+          "avg_relevance": 1.0
+        },
+        "0.7": {
+          "task": "qa",
+          "config": {
+            "temperature": 0.7,
+            "max_tokens": 1000
+          },
+          "timestamp": "2025-11-18T22:46:26.848577",
+          "num_test_cases": 1,
+          "num_successful": 1,
+          "success_rate": 1.0,
+          "total_time": 1.1083779335021973,
+          "avg_execution_time": 1.1083078384399414,
+          "avg_output_length": 244.0,
+          "results": [
+            {
+              "test_case_id": 0,
+              "success": true,
+              "output": "Renewable energy is energy that comes from sources that are naturally replenished on a human timescale, such as sunlight, wind, rain, tides, and geothermal heat. These sources are virtually inexhaustible, unlike fossil fuels, which are finite.\n",
+              "execution_time": 1.1083078384399414,
+              "output_length": 244,
+              "token_count": 36,
+              "accuracy_score": 0.21875,
+              "relevance_score": 1.0
+            }
+          ],
+          "avg_accuracy": 0.21875,
+          "avg_relevance": 1.0
+        },
+        "0.9": {
+          "task": "qa",
+          "config": {
+            "temperature": 0.9,
+            "max_tokens": 1000
+          },
+          "timestamp": "2025-11-18T22:46:33.949293",
+          "num_test_cases": 1,
+          "num_successful": 1,
+          "success_rate": 1.0,
+          "total_time": 1.09405517578125,
+          "avg_execution_time": 1.093984603881836,
+          "avg_output_length": 265.0,
+          "results": [
+            {
+              "test_case_id": 0,
+              "success": true,
+              "output": "Renewable energy is energy that comes from sources that are naturally replenished on a human timescale, such as sunlight, wind, rain, tides, and geothermal heat. Unlike fossil fuels, which are finite resources, renewable energy sources are virtually inexhaustible.\n",
+              "execution_time": 1.093984603881836,
+              "output_length": 265,
+              "token_count": 38,
+              "accuracy_score": 0.21875,
+              "relevance_score": 1.0
+            }
+          ],
+          "avg_accuracy": 0.21875,
+          "avg_relevance": 1.0
+        }
+      },
+      "best_temperature": {
+        "value": 0.3,
+        "success_rate": 1.0
+      }
+    },
+    "prompt_variants_summarization": {
+      "task": "summarization",
+      "variants": [
+        "extractive",
+        "abstractive",
+        "bullet_points"
+      ],
+      "test_cases": [
+        {
+          "input": {
+            "text": "Climate change is one of the most pressing challenges of our time. It is caused by greenhouse gas emissions from human activities. The effects include rising temperatures, melting ice caps, and extreme weather events.",
+            "num_sentences": 2
+          },
+          "prompt": "Summarize in 2 sentences: Climate change is one of the most pressing challenges of our time...",
+          "expected_output": "climate change greenhouse gas emissions effects"
+        }
+      ],
+      "variant_results": {
+        "extractive": [
+          {
+            "success": true,
+            "task": "summarization",
+            "variant": "extractive",
+            "prompt": "Summarize the following text in 2 sentences:\n\nText: Climate change is one of the most pressing challenges of our time. It is caused by greenhouse gas emissions from human activities. The effects include rising temperatures, melting ice caps, and extreme weather events.\n\nSummary:",
+            "output": "Climate change, driven by human-caused greenhouse gas emissions, is a major contemporary problem. Its consequences include rising temperatures, melting ice, and more frequent extreme weather.\n",
+            "execution_time": 1.1033437252044678,
+            "temperature": 0.7,
+            "max_tokens": 1000,
+            "timestamp": "2025-11-18T22:46:48.063259",
+            "match_score": 0.5
+          }
+        ],
+        "abstractive": [
+          {
+            "success": true,
+            "task": "summarization",
+            "variant": "abstractive",
+            "prompt": "Read and understand this text, then create an abstractive summary in your own words:\n\nText: Climate change is one of the most pressing challenges of our time. It is caused by greenhouse gas emissions from human activities. The effects include rising temperatures, melting ice caps, and extreme weather events.\n\nCreate a 2 sentences summary that captures the essence and key insights.\n\nSummary:",
+            "output": "Climate change, driven by human-caused greenhouse gas emissions, presents a major global challenge. Its consequences include rising temperatures, melting ice, and increasingly severe weather events.\n",
+            "execution_time": 4.846841812133789,
+            "temperature": 0.7,
+            "max_tokens": 1000,
+            "timestamp": "2025-11-18T22:46:52.910208",
+            "match_score": 0.5
+          }
+        ],
+        "bullet_points": [
+          {
+            "success": true,
+            "task": "summarization",
+            "variant": "bullet_points",
+            "prompt": "Summarize this text as bullet points:\n\nText: Climate change is one of the most pressing challenges of our time. It is caused by greenhouse gas emissions from human activities. The effects include rising temperatures, melting ice caps, and extreme weather events.\n\nKey Points (5-7 bullets):\n-",
+            "output": "Here's a summary of the text in bullet points:\n\n*   **Climate change is a major current challenge.**\n*   **It's driven by human-caused greenhouse gas emissions.**\n*   **Rising temperatures are a key effect.**\n*   **Melting ice caps are a significant consequence.**\n*   **Extreme weather events are becoming more frequent and intense.**\n",
+            "execution_time": 5.329429388046265,
+            "temperature": 0.7,
+            "max_tokens": 1000,
+            "timestamp": "2025-11-18T22:46:58.239850",
+            "match_score": 0.5
+          }
+        ]
+      },
+      "summary": {
+        "extractive": {
+          "success_rate": 1.0,
+          "avg_execution_time": 1.1033437252044678,
+          "avg_match_score": 0.5
+        },
+        "abstractive": {
+          "success_rate": 1.0,
+          "avg_execution_time": 4.846841812133789,
+          "avg_match_score": 0.5
+        },
+        "bullet_points": {
+          "success_rate": 1.0,
+          "avg_execution_time": 5.329429388046265,
+          "avg_match_score": 0.5
+        }
+      },
+      "best_variant": {
+        "name": "extractive",
+        "metrics": {
+          "success_rate": 1.0,
+          "avg_execution_time": 1.1033437252044678,
+          "avg_match_score": 0.5
+        }
+      }
+    },
+    "few_shot_summarization": {
+      "task": "summarization",
+      "shot_counts": [
+        0,
+        1,
+        3,
+        5
+      ],
+      "results": {
+        "0": {
+          "success_rate": 1.0,
+          "avg_time": 1.0173044204711914,
+          "results": [
+            {
+              "success": true,
+              "task": "summarization",
+              "num_shots": 0,
+              "prompt": "Here are some examples:\n\n\nNow process this input:\nInput: {'text': 'Climate change is one of the most pressing challenges of our time. It is caused by greenhouse gas emissions from human activities. The effects include rising temperatures, melting ice caps, and extreme weather events.', 'num_sentences': 2}\nOutput:",
+              "output": "{'sentences': ['Climate change is one of the most pressing challenges of our time.', 'It is caused by greenhouse gas emissions from human activities.']}\n",
+              "execution_time": 1.0173044204711914,
+              "timestamp": "2025-11-18T22:47:14.273324",
+              "match_score": 0.6666666666666666
+            }
+          ]
+        },
+        "1": {
+          "success_rate": 1.0,
+          "avg_time": 0.9272847175598145,
+          "results": [
+            {
+              "success": true,
+              "task": "summarization",
+              "num_shots": 1,
+              "prompt": "Here are some examples:\n\n\nExample 1:\nInput: Deforestation is the permanent removal of trees to make room for something besides forest. This can include clearing the land for agriculture or grazing, or using the timber for fuel, construction or manufacturing. Forests cover about 30% of the planet, but deforestation is clearing these essential habitats on a massive scale. The biggest driver of deforestation is agriculture. Farmers cut forests to provide more room for planting crops or grazing livestock. Often small farmers will clear a few acres by cutting down trees and burning them in a process known as slash and burn agriculture. Logging operations provide the world's wood and paper products. While some companies practice sustainable forestry, others are less scrupulous. Clear-cutting is when large areas are cut down all at once.\nOutput: Deforestation, the permanent removal of forests, is driven primarily by agriculture, with farmers clearing land for crops and livestock. Logging for wood and paper products is another major cause. While forests cover 30% of Earth, these essential habitats are being cleared at a massive scale through practices like slash-and-burn agriculture and clear-cutting.\n\n\nNow process this input:\nInput: {'text': 'Climate change is one of the most pressing challenges of our time. It is caused by greenhouse gas emissions from human activities. The effects include rising temperatures, melting ice caps, and extreme weather events.', 'num_sentences': 2}\nOutput:",
+              "output": "Climate change is a major challenge caused by greenhouse gas emissions from human activities. The effects include rising temperatures, melting ice caps, and extreme weather events.\n",
+              "execution_time": 0.9272847175598145,
+              "timestamp": "2025-11-18T22:47:20.206126",
+              "match_score": 1.0
+            }
+          ]
+        },
+        "3": {
+          "success_rate": 1.0,
+          "avg_time": 1.091667652130127,
+          "results": [
+            {
+              "success": true,
+              "task": "summarization",
+              "num_shots": 3,
+              "prompt": "Here are some examples:\n\n\nExample 1:\nInput: Deforestation is the permanent removal of trees to make room for something besides forest. This can include clearing the land for agriculture or grazing, or using the timber for fuel, construction or manufacturing. Forests cover about 30% of the planet, but deforestation is clearing these essential habitats on a massive scale. The biggest driver of deforestation is agriculture. Farmers cut forests to provide more room for planting crops or grazing livestock. Often small farmers will clear a few acres by cutting down trees and burning them in a process known as slash and burn agriculture. Logging operations provide the world's wood and paper products. While some companies practice sustainable forestry, others are less scrupulous. Clear-cutting is when large areas are cut down all at once.\nOutput: Deforestation, the permanent removal of forests, is driven primarily by agriculture, with farmers clearing land for crops and livestock. Logging for wood and paper products is another major cause. While forests cover 30% of Earth, these essential habitats are being cleared at a massive scale through practices like slash-and-burn agriculture and clear-cutting.\n\n\nExample 2:\nInput: The greenhouse effect is a natural process that warms the Earth's surface. When the Sun's energy reaches the Earth's atmosphere, some of it is reflected back to space and the rest is absorbed and re-radiated by greenhouse gases. The absorbed energy warms the atmosphere and the surface of the Earth. This process maintains the Earth's temperature at around 33 degrees Celsius warmer than it would otherwise be, allowing life on Earth to exist. However, human activities have increased the concentration of greenhouse gases, enhancing the greenhouse effect and causing global warming.\nOutput: The greenhouse effect is a natural process where greenhouse gases trap heat in Earth's atmosphere, maintaining temperatures suitable for life - about 33\u00b0C warmer than without this effect. However, human activities have increased greenhouse gas concentrations, intensifying this effect and causing global warming.\n\n\nNow process this input:\nInput: {'text': 'Climate change is one of the most pressing challenges of our time. It is caused by greenhouse gas emissions from human activities. The effects include rising temperatures, melting ice caps, and extreme weather events.', 'num_sentences': 2}\nOutput:",
+              "output": "Climate change, driven by human-caused greenhouse gas emissions, is a major global challenge. Its impacts include rising temperatures, melting ice caps, and extreme weather events.\n",
+              "execution_time": 1.091667652130127,
+              "timestamp": "2025-11-18T22:47:26.301300",
+              "match_score": 0.5
+            }
+          ]
+        },
+        "5": {
+          "success_rate": 1.0,
+          "avg_time": 0.9103744029998779,
+          "results": [
+            {
+              "success": true,
+              "task": "summarization",
+              "num_shots": 5,
+              "prompt": "Here are some examples:\n\n\nExample 1:\nInput: Deforestation is the permanent removal of trees to make room for something besides forest. This can include clearing the land for agriculture or grazing, or using the timber for fuel, construction or manufacturing. Forests cover about 30% of the planet, but deforestation is clearing these essential habitats on a massive scale. The biggest driver of deforestation is agriculture. Farmers cut forests to provide more room for planting crops or grazing livestock. Often small farmers will clear a few acres by cutting down trees and burning them in a process known as slash and burn agriculture. Logging operations provide the world's wood and paper products. While some companies practice sustainable forestry, others are less scrupulous. Clear-cutting is when large areas are cut down all at once.\nOutput: Deforestation, the permanent removal of forests, is driven primarily by agriculture, with farmers clearing land for crops and livestock. Logging for wood and paper products is another major cause. While forests cover 30% of Earth, these essential habitats are being cleared at a massive scale through practices like slash-and-burn agriculture and clear-cutting.\n\n\nExample 2:\nInput: The greenhouse effect is a natural process that warms the Earth's surface. When the Sun's energy reaches the Earth's atmosphere, some of it is reflected back to space and the rest is absorbed and re-radiated by greenhouse gases. The absorbed energy warms the atmosphere and the surface of the Earth. This process maintains the Earth's temperature at around 33 degrees Celsius warmer than it would otherwise be, allowing life on Earth to exist. However, human activities have increased the concentration of greenhouse gases, enhancing the greenhouse effect and causing global warming.\nOutput: The greenhouse effect is a natural process where greenhouse gases trap heat in Earth's atmosphere, maintaining temperatures suitable for life - about 33\u00b0C warmer than without this effect. However, human activities have increased greenhouse gas concentrations, intensifying this effect and causing global warming.\n\n\nNow process this input:\nInput: {'text': 'Climate change is one of the most pressing challenges of our time. It is caused by greenhouse gas emissions from human activities. The effects include rising temperatures, melting ice caps, and extreme weather events.', 'num_sentences': 2}\nOutput:",
+              "output": "Climate change, driven by human-caused greenhouse gas emissions, is a critical global challenge. Its impacts include rising temperatures, melting ice caps, and an increase in extreme weather events.\n",
+              "execution_time": 0.9103744029998779,
+              "timestamp": "2025-11-18T22:47:32.217148",
+              "match_score": 0.5
+            }
+          ]
+        }
+      },
+      "optimal_shot_count": {
+        "count": 0,
+        "success_rate": 1.0
+      }
+    },
+    "temperature_summarization": {
+      "task": "summarization",
+      "temperatures": [
+        0.3,
+        0.5,
+        0.7,
+        0.9
+      ],
+      "evaluations": {
+        "0.3": {
+          "task": "summarization",
+          "config": {
+            "temperature": 0.3,
+            "max_tokens": 1000
+          },
+          "timestamp": "2025-11-18T22:47:46.328774",
+          "num_test_cases": 1,
+          "num_successful": 1,
+          "success_rate": 1.0,
+          "total_time": 1.0973703861236572,
+          "avg_execution_time": 1.0973238945007324,
+          "avg_output_length": 206.0,
+          "results": [
+            {
+              "test_case_id": 0,
+              "success": true,
+              "output": "Climate change, driven by human activities, poses a significant threat to global ecosystems and human societies. Urgent action is needed to mitigate its effects and transition towards a sustainable future.\n",
+              "execution_time": 1.0973238945007324,
+              "output_length": 206,
+              "token_count": 30,
+              "accuracy_score": 0.06666666666666667,
+              "relevance_score": 0.6
+            }
+          ],
+          "avg_accuracy": 0.06666666666666667,
+          "avg_relevance": 0.6
+        },
+        "0.5": {
+          "task": "summarization",
+          "config": {
+            "temperature": 0.5,
+            "max_tokens": 1000
+          },
+          "timestamp": "2025-11-18T22:47:53.561356",
+          "num_test_cases": 1,
+          "num_successful": 1,
+          "success_rate": 1.0,
+          "total_time": 1.2259798049926758,
+          "avg_execution_time": 1.2259087562561035,
+          "avg_output_length": 247.0,
+          "results": [
+            {
+              "test_case_id": 0,
+              "success": true,
+              "output": "Climate change, driven by human activities, poses a significant threat to the environment and global society. Addressing this challenge requires urgent and comprehensive action to reduce greenhouse gas emissions and adapt to the changing climate.\n",
+              "execution_time": 1.2259087562561035,
+              "output_length": 247,
+              "token_count": 35,
+              "accuracy_score": 0.125,
+              "relevance_score": 0.8
+            }
+          ],
+          "avg_accuracy": 0.125,
+          "avg_relevance": 0.8
+        },
+        "0.7": {
+          "task": "summarization",
+          "config": {
+            "temperature": 0.7,
+            "max_tokens": 1000
+          },
+          "timestamp": "2025-11-18T22:48:00.721409",
+          "num_test_cases": 1,
+          "num_successful": 1,
+          "success_rate": 1.0,
+          "total_time": 1.1544685363769531,
+          "avg_execution_time": 1.1544017791748047,
+          "avg_output_length": 245.0,
+          "results": [
+            {
+              "test_case_id": 0,
+              "success": true,
+              "output": "Climate change, driven by human activities, poses a significant threat to global ecosystems and human societies. Addressing this complex issue requires urgent action to reduce greenhouse gas emissions and adapt to the already unfolding impacts.\n",
+              "execution_time": 1.1544017791748047,
+              "output_length": 245,
+              "token_count": 35,
+              "accuracy_score": 0.12121212121212122,
+              "relevance_score": 0.8
+            }
+          ],
+          "avg_accuracy": 0.12121212121212122,
+          "avg_relevance": 0.8
+        },
+        "0.9": {
+          "task": "summarization",
+          "config": {
+            "temperature": 0.9,
+            "max_tokens": 1000
+          },
+          "timestamp": "2025-11-18T22:48:07.786962",
+          "num_test_cases": 1,
+          "num_successful": 1,
+          "success_rate": 1.0,
+          "total_time": 1.0589897632598877,
+          "avg_execution_time": 1.0589158535003662,
+          "avg_output_length": 323.0,
+          "results": [
+            {
+              "test_case_id": 0,
+              "success": true,
+              "output": "Climate change, driven by human activities, poses a significant threat to the planet, causing rising temperatures, extreme weather events, and ecosystem disruptions. Addressing this crisis requires global cooperation to reduce greenhouse gas emissions and transition to sustainable practices to protect future generations.\n",
+              "execution_time": 1.0589158535003662,
+              "output_length": 323,
+              "token_count": 42,
+              "accuracy_score": 0.1,
+              "relevance_score": 0.8
+            }
+          ],
+          "avg_accuracy": 0.1,
+          "avg_relevance": 0.8
+        }
+      },
+      "best_temperature": {
+        "value": 0.3,
+        "success_rate": 1.0
+      }
+    }
+  }
+}

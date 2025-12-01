@@ -1,0 +1,33 @@
+# Core Dependencies
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.0
+python-multipart==0.0.6
+
+# Database & Embeddings
+pymilvus==2.3.3
+sentence-transformers==2.7.0
+faiss-cpu==1.7.4
+
+# LLM
+google-generativeai==0.3.2
+
+# Document Processing
+PyPDF2==3.0.1
+PyMuPDF==1.23.8
+python-docx==1.1.0
+reportlab==4.0.7
+python-pptx==0.6.23
+
+# NLP & Retrieval
+rank-bm25==0.2.2
+nltk==3.8.1
+
+# Email
+secure-smtplib==0.1.1
+
+# Utilities
+numpy==1.24.3
+pandas==2.0.3
+tqdm==4.66.1
+python-dateutil==2.8.2

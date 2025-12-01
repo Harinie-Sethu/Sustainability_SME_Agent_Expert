@@ -1,0 +1,127 @@
+{
+  "session_id": "20251117_152649",
+  "exported_at": "2025-11-17T15:31:13.760614",
+  "conversation": [
+    {
+      "role": "user",
+      "content": "What are the main advantages?",
+      "timestamp": "2025-11-17T15:29:59.304378",
+      "metadata": {}
+    },
+    {
+      "role": "agent",
+      "content": "Are you asking about the advantages of solar panels specifically, or something else related to our previous conversation?",
+      "timestamp": "2025-11-17T15:30:07.150137",
+      "metadata": {}
+    },
+    {
+      "role": "user",
+      "content": "How much do they cost?",
+      "timestamp": "2025-11-17T15:30:07.150327",
+      "metadata": {}
+    },
+    {
+      "role": "agent",
+      "content": "Are you asking about the cost of solar panels themselves, the cost of installation, or the overall cost of a solar panel system including equipment and labor?",
+      "timestamp": "2025-11-17T15:30:14.961517",
+      "metadata": {}
+    },
+    {
+      "role": "user",
+      "content": "Compare wind energy and solar energy",
+      "timestamp": "2025-11-17T15:30:19.417343",
+      "metadata": {}
+    },
+    {
+      "role": "agent",
+      "content": "Task completed successfully.",
+      "timestamp": "2025-11-17T15:30:36.731828",
+      "metadata": {}
+    },
+    {
+      "role": "user",
+      "content": "Analyze the impact of plastic bags on marine life",
+      "timestamp": "2025-11-17T15:30:36.731927",
+      "metadata": {}
+    },
+    {
+      "role": "agent",
+      "content": "Task completed successfully.",
+      "timestamp": "2025-11-17T15:30:50.011549",
+      "metadata": {}
+    },
+    {
+      "role": "user",
+      "content": "Hello!",
+      "timestamp": "2025-11-17T15:30:50.011613",
+      "metadata": {}
+    },
+    {
+      "role": "agent",
+      "content": "Error generating response: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 15, model: gemini-2.0-flash\nPlease retry in 5.379810918s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.0-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 15\n}\n, retry_delay {\n  seconds: 5\n}\n]",
+      "timestamp": "2025-11-17T15:30:55.033419",
+      "metadata": {}
+    },
+    {
+      "role": "user",
+      "content": "What can you do?",
+      "timestamp": "2025-11-17T15:30:55.033517",
+      "metadata": {}
+    },
+    {
+      "role": "agent",
+      "content": "Error generating response: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 15, model: gemini-2.0-flash\nPlease retry in 3.922137676s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.0-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 15\n}\n, retry_delay {\n  seconds: 3\n}\n]",
+      "timestamp": "2025-11-17T15:30:56.240220",
+      "metadata": {}
+    },
+    {
+      "role": "user",
+      "content": "Thanks for your help",
+      "timestamp": "2025-11-17T15:30:56.240327",
+      "metadata": {}
+    },
+    {
+      "role": "agent",
+      "content": "Error generating response: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 15, model: gemini-2.0-flash\nPlease retry in 3.261697635s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.0-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 15\n}\n, retry_delay {\n  seconds: 3\n}\n]",
+      "timestamp": "2025-11-17T15:30:56.862345",
+      "metadata": {}
+    },
+    {
+      "role": "user",
+      "content": "What is composting?",
+      "timestamp": "2025-11-17T15:30:56.862438",
+      "metadata": {}
+    },
+    {
+      "role": "agent",
+      "content": "Error generating response: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 15, model: gemini-2.0-flash\nPlease retry in 2.155050176s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.0-flash\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 15\n}\n, retry_delay {\n  seconds: 2\n}\n]\n\n*Note: This includes recent web information as local knowledge was limited.*",
+      "timestamp": "2025-11-17T15:30:57.970013",
+      "metadata": {}
+    },
+    {
+      "role": "user",
+      "content": "Create a quiz about water conservation",
+      "timestamp": "2025-11-17T15:30:57.970065",
+      "metadata": {}
+    },
+    {
+      "role": "agent",
+      "content": "I've generated the quiz for you.",
+      "timestamp": "2025-11-17T15:31:00.652881",
+      "metadata": {}
+    },
+    {
+      "role": "user",
+      "content": "Compare recycling and composting",
+      "timestamp": "2025-11-17T15:31:00.652934",
+      "metadata": {}
+    },
+    {
+      "role": "agent",
+      "content": "I've generated the social_media for you.",
+      "timestamp": "2025-11-17T15:31:13.760453",
+      "metadata": {}
+    }
+  ],
+  "user_preferences": {}
+}

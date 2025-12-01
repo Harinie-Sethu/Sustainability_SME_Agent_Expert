@@ -1,0 +1,364 @@
+#!/usr/bin/env python3
+"""
+Vector Indexing Pipeline for Environment/Sustainability Documents
+Indexes embeddings into Elasticsearch with parent-child relationships.
+"""
+
+import os
+import json
+import logging
+from pathlib import Path
+from typing import Dict, List, Optional
+from datetime import datetime
+from elasticsearch import Elasticsearch, helpers
+from elasticsearch.exceptions import ElasticsearchException
+import numpy as np
+
+# Configure logging
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.FileHandler('vector_indexing.log'),
+        logging.StreamHandler()
+    ]
+)
+logger = logging.getLogger(__name__)
+
+
+class VectorIndexer:
+    """Index embeddings into Elasticsearch with parent-child relationships."""
+    
+    def __init__(self, embeddings_dir: str, es_host: str = "localhost", es_port: int = 9200):
+        """
+        Initialize the vector indexer.
+        
+        Args:
+            embeddings_dir: Directory containing embedding files
+            es_host: Elasticsearch host
+            es_port: Elasticsearch port
+        """
+        self.embeddings_dir = Path(embeddings_dir)
+        
+        # Initialize Elasticsearch client
+        try:
+            self.es_client = Elasticsearch(
+                [{'host': es_host, 'port': es_port, 'scheme': 'http'}],
+                request_timeout=30,
+                max_retries=3,
+                retry_on_timeout=True
+            )
+            
+            if self.es_client.ping():
+                logger.info(f"Successfully connected to Elasticsearch at {es_host}:{es_port}")
+            else:
+                raise ConnectionError("Could not connect to Elasticsearch")
+                
+        except Exception as e:
+            logger.error(f"Failed to connect to Elasticsearch: {str(e)}")
+            raise
+        
+        # Index names
+        self.parent_index = "environment_documents"
+        self.chunk_index = "environment_chunks"
+        
+    def create_indices(self, embedding_dim: int = 768):
+        """
+        Create Elasticsearch indices with appropriate mappings.
+        
+        Args:
+            embedding_dim: Dimension of embedding vectors
+        """
+        # Parent document index mapping
+        parent_mapping = {
+            "mappings": {
+                "properties": {
+                    "document_id": {"type": "keyword"},
+                    "source_file": {"type": "text"},
+                    "total_chunks": {"type": "integer"},
+                    "chunk_strategy": {"type": "keyword"},
+                    "chunking_method": {"type": "keyword"},
+                    "original_metadata": {
+                        "properties": {
+                            "total_pages": {"type": "integer"},
+                            "original_text_length": {"type": "integer"},
+                            "extraction_method": {"type": "keyword"}
+                        }
+                    },
+                    "filtering_stats": {"type": "object"},
+                    "indexed_timestamp": {"type": "date"}
+                }
+            }
+        }
+        
+        # Chunk index mapping with dense vectors for each model
+        chunk_mapping = {
+            "mappings": {
+                "properties": {
+                    "chunk_id": {"type": "integer"},
+                    "parent_document_id": {"type": "keyword"},
+                    "text": {"type": "text", "analyzer": "standard"},
+                    "metadata": {
+                        "properties": {
+                            "chunk_size_tokens": {"type": "integer"},
+                            "estimated_tokens": {"type": "integer"},
+                            "text_length": {"type": "integer"},
+                            "start_char": {"type": "integer"},
+                            "end_char": {"type": "integer"}
+                        }
+                    },
+                    "embedding_mpnet": {
+                        "type": "dense_vector",
+                        "dims": embedding_dim,
+                        "index": True,
+                        "similarity": "cosine"
+                    },
+                    "embedding_specter": {
+                        "type": "dense_vector",
+                        "dims": embedding_dim,
+                        "index": True,
+                        "similarity": "cosine"
+                    },
+                    "indexed_timestamp": {"type": "date"}
+                }
+            }
+        }
+        
+        # Create parent index
+        try:
+            if self.es_client.indices.exists(index=self.parent_index):
+                logger.info(f"Index {self.parent_index} already exists, deleting...")
+                self.es_client.indices.delete(index=self.parent_index)
+            
+            self.es_client.indices.create(index=self.parent_index, body=parent_mapping)
+            logger.info(f"Created parent index: {self.parent_index}")
+            
+        except ElasticsearchException as e:
+            logger.error(f"Error creating parent index: {str(e)}")
+            raise
+        
+        # Create chunk index
+        try:
+            if self.es_client.indices.exists(index=self.chunk_index):
+                logger.info(f"Index {self.chunk_index} already exists, deleting...")
+                self.es_client.indices.delete(index=self.chunk_index)
+            
+            self.es_client.indices.create(index=self.chunk_index, body=chunk_mapping)
+            logger.info(f"Created chunk index: {self.chunk_index}")
+            
+        except ElasticsearchException as e:
+            logger.error(f"Error creating chunk index: {str(e)}")
+            raise
+    
+    def index_document(self, embedding_file: Path) -> Dict:
+        """
+        Index a single document with its chunks.
+        
+        Args:
+            embedding_file: Path to embedding JSON file
+            
+        Returns:
+            Indexing results dictionary
+        """
+        logger.info(f"Indexing: {embedding_file.name}")
+        
+        try:
+            # Load embedding data
+            with open(embedding_file, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+            
+            if not data.get("embedding_generation_success", False):
+                return {
+                    "file": embedding_file.name,
+                    "success": False,
+                    "error": "Embedding generation failed"
+                }
+            
+            # Extract parent and chunk data
+            parent_metadata = data.get("parent_metadata", {})
+            chunks = data.get("chunks", [])
+            
+            # Index parent document
+            parent_doc = {
+                **parent_metadata,
+                "indexed_timestamp": datetime.now().isoformat()
+            }
+            
+            try:
+                self.es_client.index(
+                    index=self.parent_index,
+                    id=parent_metadata["document_id"],
+                    body=parent_doc
+                )
+                logger.info(f"Indexed parent document: {parent_metadata['document_id']}")
+                
+            except ElasticsearchException as e:
+                logger.error(f"Error indexing parent document: {str(e)}")
+                return {
+                    "file": embedding_file.name,
+                    "success": False,
+                    "error": f"Parent indexing failed: {str(e)}"
+                }
+            
+            # Prepare chunk documents for bulk indexing
+            chunk_actions = []
+            for chunk in chunks:
+                chunk_doc = {
+                    "_index": self.chunk_index,
+                    "_id": f"{parent_metadata['document_id']}_chunk_{chunk['chunk_id']}",
+                    "_source": {
+                        "chunk_id": chunk["chunk_id"],
+                        "parent_document_id": chunk["parent_document_id"],
+                        "text": chunk["text"],
+                        "metadata": chunk["metadata"],
+                        "embedding_mpnet": chunk["embeddings"].get("all-mpnet-base-v2", []),
+                        "embedding_specter": chunk["embeddings"].get("allenai-specter", []),
+                        "indexed_timestamp": datetime.now().isoformat()
+                    }
+                }
+                chunk_actions.append(chunk_doc)
+            
+            # Bulk index chunks
+            try:
+                success_count, errors = helpers.bulk(
+                    self.es_client,
+                    chunk_actions,
+                    stats_only=False,
+                    raise_on_error=False
+                )
+                
+                logger.info(f"Indexed {success_count} chunks for {parent_metadata['document_id']}")
+                
+                if errors:
+                    logger.warning(f"Encountered {len(errors)} errors during bulk indexing")
+                
+                return {
+                    "file": embedding_file.name,
+                    "success": True,
+                    "parent_document_id": parent_metadata["document_id"],
+                    "chunks_indexed": success_count,
+                    "chunks_failed": len(errors),
+                    "total_chunks": len(chunks)
+                }
+                
+            except ElasticsearchException as e:
+                logger.error(f"Error bulk indexing chunks: {str(e)}")
+                return {
+                    "file": embedding_file.name,
+                    "success": False,
+                    "error": f"Chunk indexing failed: {str(e)}"
+                }
+                
+        except Exception as e:
+            logger.error(f"Error processing {embedding_file.name}: {str(e)}")
+            return {
+                "file": embedding_file.name,
+                "success": False,
+                "error": str(e)
+            }
+    
+    def index_all_documents(self) -> Dict:
+        """
+        Index all embedding files.
+        
+        Returns:
+            Summary of indexing results
+        """
+        embedding_files = list(self.embeddings_dir.glob("*_embeddings.json"))
+        
+        if not embedding_files:
+            logger.warning(f"No embedding files found in {self.embeddings_dir}")
+            return {"error": "No files to index"}
+        
+        logger.info(f"Found {len(embedding_files)} embedding files to index")
+        
+        # Get embedding dimension from first file
+        with open(embedding_files[0], 'r', encoding='utf-8') as f:
+            sample_data = json.load(f)
+            embedding_dim = sample_data["embedding_models"]["all-mpnet-base-v2"]["embedding_dim"]
+        
+        # Create indices
+        self.create_indices(embedding_dim)
+        
+        # Index all documents
+        results = []
+        successful_indexing = 0
+        total_chunks_indexed = 0
+        
+        for embedding_file in embedding_files:
+            result = self.index_document(embedding_file)
+            results.append(result)
+            
+            if result.get("success", False):
+                successful_indexing += 1
+                total_chunks_indexed += result.get("chunks_indexed", 0)
+        
+        # Generate summary
+        summary = {
+            "indexing_summary": {
+                "total_files": len(embedding_files),
+                "successful_indexing": successful_indexing,
+                "failed_indexing": len(embedding_files) - successful_indexing,
+                "total_chunks_indexed": total_chunks_indexed,
+                "parent_index": self.parent_index,
+                "chunk_index": self.chunk_index,
+                "indexing_timestamp": datetime.now().isoformat()
+            },
+            "file_results": results
+        }
+        
+        # Save summary
+        summary_path = self.embeddings_dir.parent / "indexing_summary.json"
+        with open(summary_path, 'w', encoding='utf-8') as f:
+            json.dump(summary, f, indent=2, ensure_ascii=False)
+        
+        logger.info(f"Indexing complete: {successful_indexing}/{len(embedding_files)} files indexed")
+        logger.info(f"Total chunks indexed: {total_chunks_indexed}")
+        
+        return summary
+    
+    def get_index_stats(self) -> Dict:
+        """Get statistics about indexed documents."""
+        try:
+            parent_count = self.es_client.count(index=self.parent_index)['count']
+            chunk_count = self.es_client.count(index=self.chunk_index)['count']
+            
+            return {
+                "parent_documents": parent_count,
+                "total_chunks": chunk_count,
+                "avg_chunks_per_document": chunk_count / parent_count if parent_count > 0 else 0
+            }
+            
+        except ElasticsearchException as e:
+            logger.error(f"Error getting index stats: {str(e)}")
+            return {}
+
+
+def main():
+    """Main function to run vector indexing."""
+    # Define paths
+    embeddings_dir = "/media/data/codes/reshma/lma_maj_pro/partc/embeddings"
+    
+    # Elasticsearch configuration
+    es_host = "localhost"
+    es_port = 9200
+    
+    # Create indexer instance
+    indexer = VectorIndexer(embeddings_dir, es_host, es_port)
+    
+    # Index all documents
+    logger.info("Starting vector indexing pipeline...")
+    summary = indexer.index_all_documents()
+    
+    # Get index statistics
+    stats = indexer.get_index_stats()
+    logger.info(f"\nIndex Statistics:")
+    logger.info(f"  Parent documents: {stats.get('parent_documents', 0)}")
+    logger.info(f"  Total chunks: {stats.get('total_chunks', 0)}")
+    logger.info(f"  Avg chunks/document: {stats.get('avg_chunks_per_document', 0):.2f}")
+    
+    logger.info("Vector indexing pipeline completed!")
+
+
+if __name__ == "__main__":
+    main()

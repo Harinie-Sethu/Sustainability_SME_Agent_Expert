@@ -1,0 +1,113 @@
+{
+  "analysis": {
+    "total_failures": 7,
+    "failure_distribution": {
+      "execution_error": 7
+    },
+    "common_issues": [],
+    "task_failures": {
+      "qa": 6,
+      "summarization": 1
+    },
+    "temporal_patterns": {}
+  },
+  "recommendations": [
+    {
+      "priority": "HIGH",
+      "failure_type": "execution_error",
+      "frequency": 7,
+      "percentage": "100.0%",
+      "action": "Add robust error handling and retry mechanisms"
+    }
+  ],
+  "failure_cases": [
+    {
+      "timestamp": "2025-11-16T21:23:46.316733",
+      "task": "qa",
+      "prompt": "",
+      "input": {
+        "question": "What is renewable energy?"
+      },
+      "output": "",
+      "expected_output": "renewable energy is energy from sources that replenish naturally",
+      "error": "Prompt generation failed: Missing parameter 'topic' for prompt qa/basic",
+      "failure_type": "execution_error"
+    },
+    {
+      "timestamp": "2025-11-16T21:23:46.316771",
+      "task": "qa",
+      "prompt": "",
+      "input": {
+        "question": "What is renewable energy?"
+      },
+      "output": "",
+      "expected_output": "renewable energy is energy from sources that replenish naturally",
+      "error": "Prompt generation failed: Missing parameter 'topic' for prompt qa/basic",
+      "failure_type": "execution_error"
+    },
+    {
+      "timestamp": "2025-11-16T21:23:46.316795",
+      "task": "qa",
+      "prompt": "",
+      "input": {
+        "question": "What is renewable energy?"
+      },
+      "output": "",
+      "expected_output": "renewable energy is energy from sources that replenish naturally",
+      "error": "Prompt generation failed: Missing parameter 'topic' for prompt qa/basic",
+      "failure_type": "execution_error"
+    },
+    {
+      "timestamp": "2025-11-16T21:23:46.316815",
+      "task": "qa",
+      "prompt": "",
+      "input": {
+        "question": "What is renewable energy?"
+      },
+      "output": "",
+      "expected_output": "renewable energy is energy from sources that replenish naturally",
+      "error": "Prompt generation failed: Missing parameter 'context' for prompt qa/contextual",
+      "failure_type": "execution_error"
+    },
+    {
+      "timestamp": "2025-11-16T21:23:46.316836",
+      "task": "qa",
+      "prompt": "",
+      "input": {
+        "question": "What is renewable energy?"
+      },
+      "output": "",
+      "expected_output": "renewable energy is energy from sources that replenish naturally",
+      "error": "Prompt generation failed: Missing parameter 'context' for prompt qa/contextual",
+      "failure_type": "execution_error"
+    },
+    {
+      "timestamp": "2025-11-16T21:23:46.316856",
+      "task": "qa",
+      "prompt": "",
+      "input": {
+        "question": "What is renewable energy?"
+      },
+      "output": "",
+      "expected_output": "renewable energy is energy from sources that replenish naturally",
+      "error": "Prompt generation failed: Missing parameter 'context' for prompt qa/contextual",
+      "failure_type": "execution_error"
+    },
+    {
+      "timestamp": "2025-11-16T21:23:49.864617",
+      "task": "summarization",
+      "prompt": "",
+      "input": {
+        "text": "Climate change is one of the most pressing challenges of our time. It is caused by greenhouse gas emissions from human activities. The effects include rising temperatures, melting ice caps, and extreme weather events.",
+        "num_sentences": 2
+      },
+      "output": "",
+      "expected_output": "climate change greenhouse gas emissions effects",
+      "error": "Prompt generation failed: Missing parameter 'length' for prompt summarization/abstractive",
+      "failure_type": "execution_error"
+    }
+  ],
+  "patterns": {
+    "execution_error": 7
+  }
+}

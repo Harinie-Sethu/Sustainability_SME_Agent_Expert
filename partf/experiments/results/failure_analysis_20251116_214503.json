@@ -1,0 +1,75 @@
+{
+  "analysis": {
+    "total_failures": 4,
+    "failure_distribution": {
+      "execution_error": 4
+    },
+    "common_issues": [],
+    "task_failures": {
+      "qa": 4
+    },
+    "temporal_patterns": {}
+  },
+  "recommendations": [
+    {
+      "priority": "HIGH",
+      "failure_type": "execution_error",
+      "frequency": 4,
+      "percentage": "100.0%",
+      "action": "Add robust error handling and retry mechanisms"
+    }
+  ],
+  "failure_cases": [
+    {
+      "timestamp": "2025-11-16T21:45:02.609237",
+      "task": "qa",
+      "prompt": "",
+      "input": {
+        "question": "What is renewable energy?"
+      },
+      "output": "",
+      "expected_output": "renewable energy is energy from sources that replenish naturally",
+      "error": "Prompt generation failed: Missing parameter 'topic' for prompt qa/basic",
+      "failure_type": "execution_error"
+    },
+    {
+      "timestamp": "2025-11-16T21:45:02.609271",
+      "task": "qa",
+      "prompt": "",
+      "input": {
+        "question": "What is renewable energy?"
+      },
+      "output": "",
+      "expected_output": "renewable energy is energy from sources that replenish naturally",
+      "error": "Prompt generation failed: Missing parameter 'topic' for prompt qa/basic",
+      "failure_type": "execution_error"
+    },
+    {
+      "timestamp": "2025-11-16T21:45:02.609296",
+      "task": "qa",
+      "prompt": "",
+      "input": {
+        "question": "What is renewable energy?"
+      },
+      "output": "",
+      "expected_output": "renewable energy is energy from sources that replenish naturally",
+      "error": "Prompt generation failed: Missing parameter 'context' for prompt qa/contextual",
+      "failure_type": "execution_error"
+    },
+    {
+      "timestamp": "2025-11-16T21:45:02.609318",
+      "task": "qa",
+      "prompt": "",
+      "input": {
+        "question": "What is renewable energy?"
+      },
+      "output": "",
+      "expected_output": "renewable energy is energy from sources that replenish naturally",
+      "error": "Prompt generation failed: Missing parameter 'context' for prompt qa/contextual",
+      "failure_type": "execution_error"
+    }
+  ],
+  "patterns": {
+    "execution_error": 4
+  }
+}

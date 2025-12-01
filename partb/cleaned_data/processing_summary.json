@@ -1,0 +1,341 @@
+{
+  "processing_summary": {
+    "total_files": 41,
+    "successful_processing": 41,
+    "failed_processing": 0,
+    "total_original_length": 11687519,
+    "total_cleaned_length": 11270147,
+    "overall_retention_rate": 96.4289084792076,
+    "processing_timestamp": "2025-10-24T17:11:51.200525"
+  },
+  "file_results": [
+    {
+      "file": "RAlexandar.json",
+      "success": true,
+      "output_file": "RAlexandar_cleaned.json",
+      "retention_rate": 94.91412669400123,
+      "original_length": 303645,
+      "cleaned_length": 288202
+    },
+    {
+      "file": "EVS-501.json",
+      "success": true,
+      "output_file": "EVS-501_cleaned.json",
+      "retention_rate": 96.8822923738911,
+      "original_length": 667221,
+      "cleaned_length": 646419
+    },
+    {
+      "file": "11.json",
+      "success": true,
+      "output_file": "11_cleaned.json",
+      "retention_rate": 98.27277507686054,
+      "original_length": 1549885,
+      "cleaned_length": 1523115
+    },
+    {
+      "file": "environmental.json",
+      "success": true,
+      "output_file": "environmental_cleaned.json",
+      "retention_rate": 95.93655189494362,
+      "original_length": 177657,
+      "cleaned_length": 170438
+    },
+    {
+      "file": "317EL23.json",
+      "success": true,
+      "output_file": "317EL23_cleaned.json",
+      "retention_rate": 98.42305071546772,
+      "original_length": 20546,
+      "cleaned_length": 20222
+    },
+    {
+      "file": "Environmental_Studies.json",
+      "success": true,
+      "output_file": "Environmental_Studies_cleaned.json",
+      "retention_rate": 94.4014706219569,
+      "original_length": 261658,
+      "cleaned_length": 247009
+    },
+    {
+      "file": "18-034_39d7d71d-9e84-4e8b-97c0-0e626f75293c.json",
+      "success": true,
+      "output_file": "18-034_39d7d71d-9e84-4e8b-97c0-0e626f75293c_cleaned.json",
+      "retention_rate": 97.47989632484881,
+      "original_length": 75235,
+      "cleaned_length": 73339
+    },
+    {
+      "file": "17131780141.json",
+      "success": true,
+      "output_file": "17131780141_cleaned.json",
+      "retention_rate": 99.2510470559251,
+      "original_length": 20295,
+      "cleaned_length": 20143
+    },
+    {
+      "file": "Council_Env_2019FF.json",
+      "success": true,
+      "output_file": "Council_Env_2019FF_cleaned.json",
+      "retention_rate": 98.33736396614269,
+      "original_length": 148860,
+      "cleaned_length": 146385
+    },
+    {
+      "file": "unicef31.json",
+      "success": true,
+      "output_file": "unicef31_cleaned.json",
+      "retention_rate": 98.27906427474852,
+      "original_length": 93147,
+      "cleaned_length": 91544
+    },
+    {
+      "file": "60e84f78c293e43c0915a6b8bfdb6d7a.json",
+      "success": true,
+      "output_file": "60e84f78c293e43c0915a6b8bfdb6d7a_cleaned.json",
+      "retention_rate": 96.43646408839778,
+      "original_length": 14480,
+      "cleaned_length": 13964
+    },
+    {
+      "file": "Environment-and-Sustainability-Volume-IV.json",
+      "success": true,
+      "output_file": "Environment-and-Sustainability-Volume-IV_cleaned.json",
+      "retention_rate": 94.43274067695151,
+      "original_length": 476105,
+      "cleaned_length": 449599
+    },
+    {
+      "file": "green-development-environment-and-sustainability-in-developing-world.json",
+      "success": true,
+      "output_file": "green-development-environment-and-sustainability-in-developing-world_cleaned.json",
+      "retention_rate": 97.51254780157892,
+      "original_length": 1384107,
+      "cleaned_length": 1349678
+    },
+    {
+      "file": "1097a78c-en.json",
+      "success": true,
+      "output_file": "1097a78c-en_cleaned.json",
+      "retention_rate": 95.63086016282918,
+      "original_length": 242954,
+      "cleaned_length": 232339
+    },
+    {
+      "file": "EJ540073.json",
+      "success": true,
+      "output_file": "EJ540073_cleaned.json",
+      "retention_rate": 97.85764844671647,
+      "original_length": 63575,
+      "cleaned_length": 62213
+    },
+    {
+      "file": "maldybaeva2022.json",
+      "success": true,
+      "output_file": "maldybaeva2022_cleaned.json",
+      "retention_rate": 93.47051665007191,
+      "original_length": 90390,
+      "cleaned_length": 84488
+    },
+    {
+      "file": "Environmental-Education-Communication-for-a-sustainable-world.json",
+      "success": true,
+      "output_file": "Environmental-Education-Communication-for-a-sustainable-world_cleaned.json",
+      "retention_rate": 99.2215071621341,
+      "original_length": 404628,
+      "cleaned_length": 401478
+    },
+    {
+      "file": "EDU_403.json",
+      "success": true,
+      "output_file": "EDU_403_cleaned.json",
+      "retention_rate": 0,
+      "original_length": 0,
+      "cleaned_length": 0
+    },
+    {
+      "file": "complete-guidebook_textbooks-for-sustainable-development_2.json",
+      "success": true,
+      "output_file": "complete-guidebook_textbooks-for-sustainable-development_2_cleaned.json",
+      "retention_rate": 97.31494214963647,
+      "original_length": 679166,
+      "cleaned_length": 660930
+    },
+    {
+      "file": "ENVIRONMENTAL EDUCATION.json",
+      "success": true,
+      "output_file": "ENVIRONMENTAL EDUCATION_cleaned.json",
+      "retention_rate": 94.3604876697146,
+      "original_length": 360900,
+      "cleaned_length": 340547
+    },
+    {
+      "file": "green-book.json",
+      "success": true,
+      "output_file": "green-book_cleaned.json",
+      "retention_rate": 96.22202258258696,
+      "original_length": 438568,
+      "cleaned_length": 421999
+    },
+    {
+      "file": "1_Dr.+Denis+Vaz.json",
+      "success": true,
+      "output_file": "1_Dr.+Denis+Vaz_cleaned.json",
+      "retention_rate": 96.0653035999382,
+      "original_length": 38834,
+      "cleaned_length": 37306
+    },
+    {
+      "file": "shsconf_brd2023_01009.json",
+      "success": true,
+      "output_file": "shsconf_brd2023_01009_cleaned.json",
+      "retention_rate": 96.94430000305876,
+      "original_length": 32693,
+      "cleaned_length": 31694
+    },
+    {
+      "file": "GE3451-LN.json",
+      "success": true,
+      "output_file": "GE3451-LN_cleaned.json",
+      "retention_rate": 96.42898080827929,
+      "original_length": 244272,
+      "cleaned_length": 235549
+    },
+    {
+      "file": "environmental-sustainability-practices-a-systematic-literature-review-14604.json",
+      "success": true,
+      "output_file": "environmental-sustainability-practices-a-systematic-literature-review-14604_cleaned.json",
+      "retention_rate": 89.64096914488667,
+      "original_length": 121633,
+      "cleaned_length": 109033
+    },
+    {
+      "file": "lowresenvironmental-awareness-for-sustainable-development-a-resource-book-for-namibia.json",
+      "success": true,
+      "output_file": "lowresenvironmental-awareness-for-sustainable-development-a-resource-book-for-namibia_cleaned.json",
+      "retention_rate": 98.50268769480526,
+      "original_length": 546379,
+      "cleaned_length": 538198
+    },
+    {
+      "file": "Paper_6_Banti_Dutta.json",
+      "success": true,
+      "output_file": "Paper_6_Banti_Dutta_cleaned.json",
+      "retention_rate": 89.83316235624427,
+      "original_length": 18521,
+      "cleaned_length": 16638
+    },
+    {
+      "file": "Environment & Ecology (Quick Book) -For web.json",
+      "success": true,
+      "output_file": "Environment & Ecology (Quick Book) -For web_cleaned.json",
+      "retention_rate": 94.29759329367225,
+      "original_length": 29584,
+      "cleaned_length": 27897
+    },
+    {
+      "file": "hlth-022.json",
+      "success": true,
+      "output_file": "hlth-022_cleaned.json",
+      "retention_rate": 96.31697813515996,
+      "original_length": 80586,
+      "cleaned_length": 77618
+    },
+    {
+      "file": "librarians-going-green.json",
+      "success": true,
+      "output_file": "librarians-going-green_cleaned.json",
+      "retention_rate": 94.80236750799375,
+      "original_length": 102893,
+      "cleaned_length": 97545
+    },
+    {
+      "file": "17140328931.json",
+      "success": true,
+      "output_file": "17140328931_cleaned.json",
+      "retention_rate": 99.02739785506492,
+      "original_length": 23031,
+      "cleaned_length": 22807
+    },
+    {
+      "file": "Devine_Appleton_Environmental_Education_in_Public_Libraries_Final.json",
+      "success": true,
+      "output_file": "Devine_Appleton_Environmental_Education_in_Public_Libraries_Final_cleaned.json",
+      "retention_rate": 96.20511476391957,
+      "original_length": 53414,
+      "cleaned_length": 51387
+    },
+    {
+      "file": "Environmental-Issues.json",
+      "success": true,
+      "output_file": "Environmental-Issues_cleaned.json",
+      "retention_rate": 86.79776301576658,
+      "original_length": 302729,
+      "cleaned_length": 262762
+    },
+    {
+      "file": "Environmental Awareness in Ancient India-185.json",
+      "success": true,
+      "output_file": "Environmental Awareness in Ancient India-185_cleaned.json",
+      "retention_rate": 94.89670532217188,
+      "original_length": 26042,
+      "cleaned_length": 24713
+    },
+    {
+      "file": "ENVIRONMENTAL-SCIENCE-1.json",
+      "success": true,
+      "output_file": "ENVIRONMENTAL-SCIENCE-1_cleaned.json",
+      "retention_rate": 95.27114575810357,
+      "original_length": 376624,
+      "cleaned_length": 358814
+    },
+    {
+      "file": "JULY 23 12.json",
+      "success": true,
+      "output_file": "JULY 23 12_cleaned.json",
+      "retention_rate": 0,
+      "original_length": 0,
+      "cleaned_length": 0
+    },
+    {
+      "file": "1375_handbook_ environmental_ education.json",
+      "success": true,
+      "output_file": "1375_handbook_ environmental_ education_cleaned.json",
+      "retention_rate": 98.8489600560344,
+      "original_length": 513970,
+      "cleaned_length": 508054
+    },
+    {
+      "file": "sourcebook_on_sd.json",
+      "success": true,
+      "output_file": "sourcebook_on_sd_cleaned.json",
+      "retention_rate": 93.87848397834256,
+      "original_length": 419994,
+      "cleaned_length": 394284
+    },
+    {
+      "file": "ENV 2.json",
+      "success": true,
+      "output_file": "ENV 2_cleaned.json",
+      "retention_rate": 97.25978364619789,
+      "original_length": 25144,
+      "cleaned_length": 24455
+    },
+    {
+      "file": "sample-chapter.json",
+      "success": true,
+      "output_file": "sample-chapter_cleaned.json",
+      "retention_rate": 90.10701293616744,
+      "original_length": 245204,
+      "cleaned_length": 220946
+    },
+    {
+      "file": "978-83-7986-488-1.json",
+      "success": true,
+      "output_file": "978-83-7986-488-1_cleaned.json",
+      "retention_rate": 97.37854780591341,
+      "original_length": 1012950,
+      "cleaned_length": 986396
+    }
+  ]
+}

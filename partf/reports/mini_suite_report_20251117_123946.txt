@@ -1,0 +1,117 @@
+
+================================================================================
+COMPREHENSIVE EXPERIMENT REPORT
+LLM Model: gemini-2.0-flash
+Started: 2025-11-17T12:39:39.853006
+Completed: 2025-11-17T12:39:46.619845
+================================================================================
+
+Total Experiments: 6
+
+
+================================================================================
+1. PROMPT VARIANT EXPERIMENTS
+================================================================================
+
+Task: qa
+Best Variant: basic
+  - Success Rate: 100.0%
+  - Avg Time: 0.205s
+
+All Variants Performance:
+  basic: 100.0% success
+  contextual: 100.0% success
+  chain_of_thought: 100.0% success
+  structured: 100.0% success
+  with_confidence: 100.0% success
+
+Task: summarization
+Best Variant: extractive
+  - Success Rate: 100.0%
+  - Avg Time: 0.161s
+
+All Variants Performance:
+  extractive: 100.0% success
+  abstractive: 100.0% success
+  bullet_points: 100.0% success
+
+================================================================================
+2. FEW-SHOT LEARNING EXPERIMENTS
+================================================================================
+
+Task: qa
+Optimal Shot Count: 0 shots
+  - Success Rate: 100.0%
+
+Shot Count Performance:
+  0-shot: 100.0%
+  1-shot: 100.0%
+  3-shot: 100.0%
+  5-shot: 100.0%
+
+Task: summarization
+Optimal Shot Count: 0 shots
+  - Success Rate: 100.0%
+
+Shot Count Performance:
+  0-shot: 100.0%
+  1-shot: 100.0%
+  3-shot: 100.0%
+  5-shot: 100.0%
+
+================================================================================
+3. TEMPERATURE EXPERIMENTS
+================================================================================
+
+Task: qa
+Best Temperature: 0.3
+  - Success Rate: 100.0%
+
+Temperature Performance:
+  0.3: 100.0%
+  0.5: 100.0%
+  0.7: 100.0%
+  0.9: 100.0%
+
+Task: summarization
+Best Temperature: 0.3
+  - Success Rate: 100.0%
+
+Temperature Performance:
+  0.3: 100.0%
+  0.5: 100.0%
+  0.7: 100.0%
+  0.9: 100.0%
+
+================================================================================
+4. ABLATION STUDIES
+================================================================================
+
+================================================================================
+5. FAILURE ANALYSIS
+================================================================================
+
+======================================================================
+FAILURE ANALYSIS REPORT
+Generated: 2025-11-17 12:39:46
+======================================================================
+
+OVERVIEW:
+- Total Failures: 0
+- Failure Types: 0
+
+FAILURE DISTRIBUTION:
+
+TASK-SPECIFIC FAILURES:
+
+COMMON ISSUES IDENTIFIED:
+
+PRIORITIZED RECOMMENDATIONS:
+
+======================================================================
+
+================================================================================
+6. IMPROVEMENT RECOMMENDATIONS
+================================================================================
+
+================================================================================

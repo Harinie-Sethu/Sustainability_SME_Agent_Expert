@@ -1,0 +1,96 @@
+{
+  "batch_processing_summary": {
+    "new_files_detected": 1,
+    "files_processed": 1,
+    "processing_failed": 0,
+    "processing_timestamp": "2025-10-24T17:52:56.718221"
+  },
+  "file_results": [
+    {
+      "file": "test_environmental_doc.txt",
+      "success": true,
+      "stages": {
+        "extraction": {
+          "success": true,
+          "pages": 1,
+          "text_length": 158
+        },
+        "cleaning": {
+          "success": true,
+          "retention_rate": 98.73417721518987,
+          "cleaned_length": 156
+        },
+        "chunking": {
+          "success": true,
+          "total_chunks": 9,
+          "chunk_stats": {
+            "large_fixed_size": {
+              "chunk_count": 1,
+              "avg_tokens": 39.0,
+              "min_tokens": 39,
+              "max_tokens": 39,
+              "total_tokens": 39
+            },
+            "large_content_aware": {
+              "chunk_count": 1,
+              "avg_tokens": 39.0,
+              "min_tokens": 39,
+              "max_tokens": 39,
+              "total_tokens": 39
+            },
+            "large_recursive_character": {
+              "chunk_count": 1,
+              "avg_tokens": 39.0,
+              "min_tokens": 39,
+              "max_tokens": 39,
+              "total_tokens": 39
+            },
+            "medium_fixed_size": {
+              "chunk_count": 1,
+              "avg_tokens": 39.0,
+              "min_tokens": 39,
+              "max_tokens": 39,
+              "total_tokens": 39
+            },
+            "medium_content_aware": {
+              "chunk_count": 1,
+              "avg_tokens": 39.0,
+              "min_tokens": 39,
+              "max_tokens": 39,
+              "total_tokens": 39
+            },
+            "medium_recursive_character": {
+              "chunk_count": 1,
+              "avg_tokens": 39.0,
+              "min_tokens": 39,
+              "max_tokens": 39,
+              "total_tokens": 39
+            },
+            "small_fixed_size": {
+              "chunk_count": 1,
+              "avg_tokens": 39.0,
+              "min_tokens": 39,
+              "max_tokens": 39,
+              "total_tokens": 39
+            },
+            "small_content_aware": {
+              "chunk_count": 1,
+              "avg_tokens": 39.0,
+              "min_tokens": 39,
+              "max_tokens": 39,
+              "total_tokens": 39
+            },
+            "small_recursive_character": {
+              "chunk_count": 1,
+              "avg_tokens": 39.0,
+              "min_tokens": 39,
+              "max_tokens": 39,
+              "total_tokens": 39
+            }
+          }
+        }
+      },
+      "error": null
+    }
+  ]
+}

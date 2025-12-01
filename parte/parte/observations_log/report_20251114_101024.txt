@@ -1,0 +1,35 @@
+
+======================================================================
+AGENT OBSERVATIONS REPORT
+Session: 20251114_101024
+======================================================================
+
+SUMMARY:
+- Total Iterations: 26
+- Total Observations: 82
+
+OBSERVATION BREAKDOWN:
+  - Planning: 26
+  - Routing: 26
+  - Execution: 24
+  - Reflection: 4
+  - Reasoning: 2
+
+ROUTING PERFORMANCE:
+  - Rule-based vs LLM Agreement: 0.0%
+  - Confidence Distribution:
+    - high: 26
+
+EXECUTION PERFORMANCE:
+  - Success Rate: 100.0%
+  - Handler Usage:
+    - qa_handler: 5
+    - content_generator: 7
+    - data_analyst: 2
+    - conversation_handler: 9
+    - document_handler: 1
+
+ERROR ANALYSIS:
+  - No errors logged
+
+======================================================================

@@ -1,0 +1,19 @@
+{
+  "source_file": "test_environmental_doc.txt",
+  "processing_timestamp": "2025-10-24T17:52:56.717848",
+  "original_metadata": {
+    "total_pages": 1,
+    "original_text_length": 158,
+    "extraction_method": "text_file"
+  },
+  "filtering_stats": {
+    "original_length": 158,
+    "sections_removed": 0,
+    "paragraphs_removed": 0,
+    "sentences_removed": 0,
+    "cleaned_length": 156,
+    "retention_rate": 98.73417721518987
+  },
+  "cleaned_text": "this is  test environmental document about sustainability and climate change. it discusses renewable energy sources and environmental protection strategies.",
+  "processing_success": true
+}
